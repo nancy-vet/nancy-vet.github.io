@@ -11,7 +11,7 @@ import { PrimaryMenu            } from 'nv@features/@menu/primary-menu/primary-m
   selector    : 'calculator-navigation',
   templateUrl : 'tabs.page.html'
 })
-export class TabNavigation { }
+export class TabNavigation {}
 
 const routes: Routes = [
   {
@@ -41,14 +41,16 @@ const routes: Routes = [
 ];
 
 @NgModule({
+  declarations                    : [
+    TabNavigation
+  ],
   imports                         : [
+    RouterModule.forChild(routes) ,
     IonicModule                   ,
     CommonModule                  ,
     FormsModule                   ,
     DrugCard                      ,
-    RouterModule.forChild(routes) ,
     PrimaryMenu
-  ],
-  declarations: [TabNavigation]
+  ]
 })
 export class TabsPageModule {}

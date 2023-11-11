@@ -2,7 +2,6 @@ import { Component, inject    } from '@angular/core';
 import { DialogService        } from 'nv@services/dialog.service';
 import { ResultModal          } from './@modal/result-modal/result-modal.component';
 
-
 @Component({
   selector    : 'page-analisys',
   templateUrl : 'analisys.page.html',

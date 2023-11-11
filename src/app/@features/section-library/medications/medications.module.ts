@@ -32,10 +32,10 @@ const routes: Routes = [{
       SelectCategoryModal
     ],
     imports                         : [
+      RouterModule.forChild(routes) ,
       IonicModule                   ,
       CommonModule                  ,
       FormsModule                   ,
-      RouterModule.forChild(routes) ,
       DosePipe                      ,
       PrimaryMenu                   ,
       NvRadioComponent              ,

@@ -25,10 +25,10 @@ const routes: Routes = [{
     SelectCategoryModal           ,
   ],
   imports                         : [
+    RouterModule.forChild(routes) ,
     IonicModule                   ,
     CommonModule                  ,
     FormsModule                   ,
-    RouterModule.forChild(routes) ,
     CategoryPickerComponent       ,
     NvSearchToolbarComponent,
     NvInfoModal

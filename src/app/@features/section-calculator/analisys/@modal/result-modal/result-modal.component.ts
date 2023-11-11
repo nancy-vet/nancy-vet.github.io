@@ -1,17 +1,11 @@
 import { Component, OnInit, inject    } from "@angular/core";
-import { CommonModule                 } from "@angular/common";
-import { IonicModule, ModalController } from "@ionic/angular";
+import { ModalController              } from "@ionic/angular";
 import { AnalisysService              } from "../../analysys.service";
 
 @Component({
   selector    : 'modal--result',
   templateUrl : './result-modal.component.html',
-  styleUrl   : './result-modal.component.scss',
-  standalone  : true,
-  imports     : [
-    IonicModule,
-    CommonModule
-  ]
+  styleUrl    : './result-modal.component.scss',
 })
 export class ResultModal implements OnInit {
 
@@ -66,9 +60,5 @@ export class ResultModal implements OnInit {
     this.$uiProperty.AG.level = this.analysysService.getLevel(
       this.analysysService.getAgLevel(this.$modalParameters)
     );
-  }
-
-  public onConfirm() {
-    this.modalController.dismiss();
   }
 }

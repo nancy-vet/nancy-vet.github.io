@@ -1,15 +1,4 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>Резултат</ion-title>
-    <ion-buttons slot="end">
-      <ion-button (click)="onConfirm()" [strong]="true">
-        <ion-icon slot="icon-only" name="close-circle-outline"></ion-icon>
-      </ion-button>
-    </ion-buttons>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content class="ion-padding">
+<nv-info-modal [inputTitle]="'Резултат'" class="ion-page">
 
   <ion-grid>
 
@@ -182,4 +171,4 @@
 
   </ion-grid>
 
-</ion-content>
+</nv-info-modal>

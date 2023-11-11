@@ -42,14 +42,16 @@ const routes: Routes = [
 ];
 
 @NgModule({
+  declarations                    : [
+    TabsPage
+  ],
   imports                         : [
+    RouterModule.forChild(routes) ,
     IonicModule                   ,
     CommonModule                  ,
     FormsModule                   ,
     DrugCard                      ,
-    RouterModule.forChild(routes) ,
     PrimaryMenu
-  ],
-  declarations: [TabsPage]
+  ]
 })
 export class TabsPageModule {}

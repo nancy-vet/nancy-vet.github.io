@@ -4,7 +4,7 @@ import { Component, EventEmitter, Input, Output, ViewChildren } from "@angular/c
 @Component({
   selector    : 'dose-picker',
   templateUrl : './dose-picker.component.html',
-  styleUrl   : './dose-picker.component.scss',
+  styleUrl    : './dose-picker.component.scss',
   standalone  : true,
   imports     : [
     CommonModule

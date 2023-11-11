@@ -10,7 +10,6 @@ export class DrugInfoModal {
   public selectedDrug: any;
   public selectedDrugApplicationCollection: any[] = [];
 
-
   /**
    * @author Mihail Petrov
    * @param url

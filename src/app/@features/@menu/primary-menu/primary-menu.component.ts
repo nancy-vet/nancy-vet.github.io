@@ -16,6 +16,10 @@ export class PrimaryMenu {
   private router: Router            = inject(Router);
   private mainMeny: MenuController  = inject(MenuController);
 
+  /**
+   * @author Mihail Petrov
+   * @param segment
+   */
   public processNavigation(segment: string) {
 
     this.mainMeny.close("first-menu").then(() => {
