@@ -1,0 +1,10 @@
+<div style="display: flex;">
+  <div
+    *ngFor="let element of inputData; index as i"
+    #element
+    class="select-box"
+    [ngClass]="i === 0 ? 'is-selected' : ''"
+    (click)="processValue(element.value, $event)">
+    {{element.key}}
+  </div>
+</div>

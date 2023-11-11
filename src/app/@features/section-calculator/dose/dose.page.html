@@ -1,0 +1,83 @@
+<!-- Header component -->
+<ion-header
+  [translucent]="true">
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+
+    <ion-title>
+      Пресмятане на дози
+    </ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<!-- Main content -->
+<ion-content id="main-content" [fullscreen]="true">
+
+  <ion-grid>
+
+    <ion-row>
+      <ion-col size="9" style="display: flex;">
+        <dc-patient-picker
+          (onSelected)="processSelectPatientType($event)">
+        </dc-patient-picker>
+      </ion-col>
+
+      <ion-col size="2">
+        <ion-input
+          aria-label="Custom input"
+          class="custom"
+          placeholder="Кг"
+          [counter]="true"
+          [(ngModel)]="$formProperty.patientWeight">
+        </ion-input>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12">
+        <ion-searchbar
+          placeholder="Въведи медикамент"
+          [(ngModel)]="$formProperty.activeMedicine"
+          (ionInput)="onInput($event)">
+      </ion-searchbar>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12">
+
+        <div *ngFor="let element of inputSuggestionCollection">
+          <!-- <dc-card
+            [inputTitle]="element?.title"
+            [object]="element"
+            (onSelectCard)="processSelectedCard($event)">
+          </dc-card> -->
+        </div>
+
+        <div *ngIf="cardCollection.length > 0">
+          <div style="font-weight: bold; font-size: 18px; margin-top: 16px;"># Предписани</div>
+          <div></div>
+
+          <div *ngFor="let element of cardCollection">
+            <dc-card2
+              [inputPatientModel]="$formProperty"
+              [template]="'card'"
+              [object]="element">
+            </dc-card2>
+          </div>
+        </div>
+
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>

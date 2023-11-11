@@ -1,0 +1,63 @@
+<div
+  class="mt-16 card"
+  (click)="processCard()">
+
+  <!-- ROW -->
+  <div
+    class="ml-8">
+    <div class="card-title">
+      {{ $uiProperty.title }}
+    </div>
+
+    <div style="font-size: 12px;">
+      {{ $uiProperty.activeSubstance }}
+    </div>
+  </div>
+
+  <!-- ROW -->
+  <div
+    class="ml-8" style="display: flex; margin-left: auto; justify-content: flex-end; flex-direction: column;">
+
+    <div
+      class="ml-8 mt-16" style="display: flex; margin-right: 16px;">
+      <div style="padding: 5px; width: 160px;">
+        Пациент доза
+      </div>
+
+      <div style="padding: 5px; margin-right: 16px;">
+        <img src="./assets/imgs/arrow.png">
+      </div>
+
+      <div style="background: #4b8ffa; color: #fff; padding: 5px 5px;">
+        {{ $uiProperty.patientDose }} mg
+      </div>
+    </div>
+
+    <div
+      class="ml-8 mt-16" style="display: flex; margin-right: 16px;">
+      <div style="padding: 5px; width: 160px;">
+        Лекарство доза
+      </div>
+
+      <div style="padding: 5px; margin-right: 16px;">
+        <img src="./assets/imgs/arrow.png">
+      </div>
+
+      <div style="background: #d60b52; color: #fff; padding: 5px 5px;">
+        {{ $uiProperty.drugDose }} ml
+      </div>
+    </div>
+
+    <!-- ROW -->
+    <div
+      class="ml-8 mt-16" style="display: flex;  margin-right: 16px; border-top: solid #dedede 2px;">
+
+      <div style="padding: 5px; margin-top: 6px;">
+        {{ $uiProperty.applicationMethod }}
+      </div>
+    </div>
+
+
+  </div>
+
+</div>

@@ -1,0 +1,61 @@
+/* Core CSS required for Ionic components to work properly */
+@import "@ionic/angular/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "@ionic/angular/css/normalize.css";
+@import "@ionic/angular/css/structure.css";
+@import "@ionic/angular/css/typography.css";
+@import '@ionic/angular/css/display.css';
+
+/* Optional CSS utils that can be commented out */
+@import "@ionic/angular/css/padding.css";
+@import "@ionic/angular/css/float-elements.css";
+@import "@ionic/angular/css/text-alignment.css";
+@import "@ionic/angular/css/text-transformation.css";
+@import "@ionic/angular/css/flex-utils.css";
+
+.flex { display :  flex; }
+
+
+.pill-green {
+
+  display       : inline-block;
+  padding       : 2px 4px;
+  margin-top    : 4px;
+
+  border        : solid #60dba3 1px;
+
+  font-size     : 12px;
+  font-weight   : bold;
+  background    : #eafff3;
+  color         : #60dba3;
+  border-radius : 2px;
+}
+
+.mt-5   { margin-top  : 5px;  }
+.mt-7   { margin-top  : 7px;  }
+.mt-8   { margin-top  : 8px;  }
+.mt-14  { margin-top  : 14px; }
+.mt-16  { margin-top  : 16px; }
+
+
+.ml-8   { margin-left : 8px;  }
+.ml-16  { margin-left : 16px; }
+
+.mr-6 { margin-right  : 6px;  }
+
+
+.is-selected {
+  background : rgba(214,11,82, 0.5)!important;
+}
+
+
+
+ion-toolbar.sc-ion-searchbar-ios-h, ion-toolbar .sc-ion-searchbar-ios-h {
+  padding-top: 11px!important;
+}
+
+ion-menu-button {
+  font-size: 22px!important;
+  margin-left: 5px!important;
+}

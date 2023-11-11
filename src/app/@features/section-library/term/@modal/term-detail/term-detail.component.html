@@ -1,0 +1,55 @@
+<nv-info-modal
+  [inputTitle]="'Инфо'"
+  class="ion-page">
+
+  <div style="font-size: 20px;font-weight: bold;">
+    {{ selectedObject.title }}
+  </div>
+
+  <div class="label">
+    {{ selectedObject.id }}
+  </div>
+
+  <div style="margin-top: 25px;">
+    {{ selectedObject.description }}
+  </div>
+
+  <div class="component" style="margin-top: 25px;">
+
+    <div
+      *ngIf="selectedObject.increaseWhen.length > 0"
+      class="component-header" style="color: #6bbe6f;">
+      <ion-icon name="arrow-up-circle-outline"></ion-icon>
+      Повишен при
+    </div>
+
+    <div
+    *ngIf="selectedObject.increaseWhen.length > 0"
+      class="component-list">
+      <ul>
+        <li *ngFor="let element of selectedObject.increaseWhen">
+          {{element}}
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div
+    *ngIf="selectedObject.decreaseWhen.length > 0"
+    class="component">
+    <div class="component-header" style="color: #d60b52;">
+      <ion-icon name="arrow-down-circle-outline"></ion-icon>
+      Понижен при
+    </div>
+
+    <div
+    *ngIf="selectedObject.decreaseWhen.length > 0"
+      class="component-list">
+      <ul>
+        <li *ngFor="let element of selectedObject.decreaseWhen">
+          {{element}}
+        </li>
+      </ul>
+    </div>
+  </div>
+</nv-info-modal>

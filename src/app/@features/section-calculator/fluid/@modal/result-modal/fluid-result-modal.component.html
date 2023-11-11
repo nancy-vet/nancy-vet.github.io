@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Резултат</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="onConfirm()" [strong]="true">
+        <ion-icon slot="icon-only" name="close-circle-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-grid>
+
+    <ion-row>
+      <ion-col size="8">
+        Дневна терапия
+      </ion-col>
+
+      <ion-col size="4">
+        <strong>{{$uiProperty.daylyDose}} ml</strong>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="8">
+        флуид / час
+      </ion-col>
+
+      <ion-col size="4">
+        <strong>{{$uiProperty.hoyerlyDose}} ml / h</strong>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+</ion-content>

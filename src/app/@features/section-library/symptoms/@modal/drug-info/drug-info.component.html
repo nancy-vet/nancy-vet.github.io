@@ -1,0 +1,39 @@
+<nv-info-modal
+  [inputTitle]="selectedDrug.symptom"
+  class="ion-page">
+
+  <div *ngFor="let groupElement of selectedDrug.causes">
+      <div style="color: #d60b52; font-weight: bold; font-size: 18px; margin-top: 8px; margin-bottom: 8px;">
+        {{groupElement.group}}
+      </div>
+
+      <div *ngIf="groupElement.children">
+        <div *ngFor="let childElement of groupElement.children">
+          <div style="margin-top: 4px;">
+            {{childElement.title}}
+          </div>
+
+          <ul *ngIf="childElement.children" style="margin-left: -21px;">
+            <li *ngFor="let childElement2 of childElement.children">
+              {{childElement2.title}}
+            </li>
+          </ul>
+        </div>
+      </div>
+  </div>
+
+  <div *ngIf="selectedDrug.links">
+    <div>Алгоритми</div>
+
+    <div class="large-button" *ngFor="let element of selectedDrug.links">
+      <div style="margin-right: 10px;">
+        <ion-icon size="large" name="document-text-outline"></ion-icon>
+      </div>
+      <div style="margin-top: 5px;" (click)="onOpenPdfDocument(element.link)">
+        {{ element.title }}
+      </div>
+    </div>
+  </div>
+
+
+</nv-info-modal>

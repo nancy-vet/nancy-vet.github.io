@@ -1,0 +1,85 @@
+<nv-info-modal
+  [inputTitle]="'Инфо'"
+  class="ion-page">
+
+  <div style="font-size: 20px;font-weight: bold;">
+    {{ selectedDrug.title }}
+  </div>
+
+  <div *ngFor="let element of selectedDrug.activeSubstance.split(',')" class="pill-green mr-6">
+    {{ element }}
+  </div>
+
+  <div
+    class="component"
+    *ngFor="let element of selectedDrugApplicationCollection">
+
+    <div
+      class="component-header">
+      {{ element.typeTitle }}
+    </div>
+
+    <ion-grid
+      class="component-content">
+      <ion-row>
+        <ion-col>
+          Доза
+        </ion-col>
+        <ion-col>
+          {{ (element.activeSubstanceDose && element.activeSubstanceDose.length === 2) ? element.activeSubstanceDose.join('-') : element.activeSubstanceDose }} {{ element.activeSubstanceDoseDecorator | doceDecorator }}
+        </ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col>
+          Приложение
+        </ion-col>
+        <ion-col>
+          {{ element.applicationMethod }}
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div
+    class="large-button"
+    *ngFor="let element of selectedDrug.links">
+
+    <div style="margin-right: 10px;">
+      <ion-icon size="large" name="document-text-outline"></ion-icon>
+    </div>
+
+    <div style="margin-top: 5px;" (click)="onOpenPdfDocument(element.link)">
+      {{ element.title }}
+    </div>
+  </div>
+
+  <div style="margin-top: 16px;"></div>
+
+  <div *ngIf="selectedDrug.indications && selectedDrug.indications.length > 0">
+    <div style="color: #30b67a; font-weight: bold; font-size: 18px; margin-top: 8px; margin-bottom: 8px;">
+      Показания:
+    </div>
+    <div *ngFor="let element of selectedDrug.indications">
+      {{element}}
+    </div>
+  </div>
+
+  <div *ngIf="selectedDrug.contraindications && selectedDrug.contraindications.length > 0">
+    <div style="color: #d60b52; font-weight: bold; font-size: 18px; margin-top: 8px; margin-bottom: 8px;">
+      Противопоказания:
+    </div>
+    <div *ngFor="let element of selectedDrug.contraindications">
+      {{element}}
+    </div>
+  </div>
+
+  <div *ngIf="selectedDrug.drugInteractions && selectedDrug.drugInteractions.length > 0">
+    <div style="color: #356cfe; font-weight: bold; font-size: 18px; margin-top: 8px; margin-bottom: 8px;">
+      Взаимодействие с ВМП:
+    </div>
+    <div *ngFor="let element of selectedDrug.drugInteractions">
+      {{element}}
+    </div>
+  </div>
+
+</nv-info-modal>
