@@ -1,10 +1,10 @@
-import { Component, EventEmitter, Output } from "@angular/core";
-import { IonicModule } from "@ionic/angular";
+import { Component, EventEmitter, Output  } from "@angular/core";
+import { IonicModule                      } from "@ionic/angular";
 
 @Component({
   selector    : 'nv-search-toolbar',
   templateUrl : './nv-search-toolbar.component.html',
-  styleUrls   : ['./nv-search-toolbar.component.scss'],
+  styleUrl    : './nv-search-toolbar.component.scss',
   standalone  : true,
   imports     : [
     IonicModule

@@ -1,15 +1,13 @@
 import { Component, ViewChild, inject  } from "@angular/core";
 import { ModalController    } from "@ionic/angular";
-import { DataService        } from "nv@services/data.service";
 
 @Component({
   selector    : 'modal--select-category2',
   templateUrl : './select-category.component.html',
-  styleUrls   : ['./select-category.component.scss']
+  styleUrl    : './select-category.component.scss'
 })
 export class SelectCategoryModal {
 
-  private $dataService: DataService         = inject(DataService);
   private modalController: ModalController  = inject(ModalController);
 
   @ViewChild("categoryPicker") selectCategoryComponent: any;

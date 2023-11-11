@@ -11,11 +11,11 @@
   id="main-content"
   [fullscreen]="true">
 
-  <div *ngFor="let element of $collection">
+  @for(element of $collection; track element) {
     <dc-card
       [inputTitle]="element.symptom"
       [object]="element"
       (onSelectCard)="onSelectCard($event)">
     </dc-card>
-  </div>
+  }
 </ion-content>

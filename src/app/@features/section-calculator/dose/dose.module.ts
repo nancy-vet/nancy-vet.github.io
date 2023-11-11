@@ -16,15 +16,17 @@ const routes: Routes = [{
 ];
 
 @NgModule({
-  imports: [
-    IonicModule           ,
-    CommonModule          ,
-    FormsModule           ,
-    RouterModule.forChild(routes),
-    PatientPicker         ,
-    PrimaryMenu           ,
-    DrugCard2
+  declarations: [
+    DosePage
   ],
-  declarations: [DosePage]
+  imports: [
+    RouterModule.forChild(routes) ,
+    IonicModule                   ,
+    CommonModule                  ,
+    FormsModule                   ,
+    PatientPicker                 ,
+    PrimaryMenu                   ,
+    DrugCard2
+  ]
 })
 export class DosePageModule {}

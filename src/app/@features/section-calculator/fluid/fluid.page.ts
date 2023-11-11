@@ -8,7 +8,7 @@ import { FluidResultModal     } from './@modal/result-modal/fluid-result-modal.c
 @Component({
   selector    : 'page-calculator',
   templateUrl : 'fluid.page.html',
-  styleUrls   : ['fluid.page.scss']
+  styleUrl    : 'fluid.page.scss'
 })
 export class FluidPage {
 

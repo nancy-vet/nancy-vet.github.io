@@ -1,10 +1,10 @@
-import { Component, ViewChild, inject  } from "@angular/core";
-import { ModalController    } from "@ionic/angular";
+import { Component, ViewChild, inject   } from "@angular/core";
+import { ModalController                } from "@ionic/angular";
 
 @Component({
   selector    : 'modal--select-category3',
   templateUrl : './select-category.component.html',
-  styleUrls   : ['./select-category.component.scss']
+  styleUrl    : './select-category.component.scss'
 })
 export class SelectCategoryModal {
 

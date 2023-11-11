@@ -5,7 +5,7 @@ import { DataService        } from "nv@services/data.service";
 @Component({
   selector    : 'modal--select-category',
   templateUrl : './select-category.component.html',
-  styleUrls   : ['./select-category.component.scss']
+  styleUrl    : './select-category.component.scss'
 })
 export class SelectCategoryModal {
 
@@ -15,10 +15,16 @@ export class SelectCategoryModal {
   public imageCollection: any       = structuredClone(this.$dataService.getAllCategories());
   private $selectedCategories: any  = [];
 
+  /**
+   * @author Mihail Petrov
+   */
   public onCancel() {
     this.modalController.dismiss();
   }
 
+  /**
+   * @author Mihail Petrov
+   */
   public onConfirm() {
 
     this.modalController.dismiss({

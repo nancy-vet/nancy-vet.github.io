@@ -1,10 +1,9 @@
-import { Component, inject } from "@angular/core";
-import { ModalController } from "@ionic/angular";
+import { Component } from "@angular/core";
 
 @Component({
   selector    : 'modal--drug-info',
   templateUrl : './drug-info.component.html',
-  styleUrls   : ['./drug-info.component.scss']
+  styleUrl    : './drug-info.component.scss'
 })
 export class DrugInfoModal {
 

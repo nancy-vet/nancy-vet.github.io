@@ -4,7 +4,7 @@ import { IonicModule, ModalController } from "@ionic/angular";
 @Component({
   selector    : 'modal--dehidratation-info',
   templateUrl : './dehidratation-info.component.html',
-  styleUrls   : ['./dehidratation-info.component.scss'],
+  styleUrl    : './dehidratation-info.component.scss',
   standalone  : true,
   imports     : [
     IonicModule

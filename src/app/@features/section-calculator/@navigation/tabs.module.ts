@@ -5,7 +5,7 @@ import { RouterModule, Routes   } from '@angular/router';
 import { IonicModule            } from '@ionic/angular';
 
 import { DrugCard               } from 'nv@components/@blocks/drug-card/drug-card.component';
-import { PrimaryMenu            } from '../../@menu/primary-menu/primary-menu.component';
+import { PrimaryMenu            } from 'nv@features/@menu/primary-menu/primary-menu.component';
 
 @Component({
   selector    : 'calculator-navigation',

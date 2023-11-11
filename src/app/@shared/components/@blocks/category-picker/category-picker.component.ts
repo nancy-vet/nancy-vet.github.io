@@ -1,20 +1,20 @@
-import { Component, EventEmitter, Input, Output, inject } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { IonicModule } from '@ionic/angular';
+import { IonicModule  } from '@ionic/angular';
 
-import { DataService } from 'nv@services/data.service';
+import { DataService  } from 'nv@services/data.service';
 
 @Component({
   selector    : 'category-picker',
   templateUrl : './category-picker.component.html',
-  styleUrls   : ['./category-picker.component.scss'],
+  styleUrl    : './category-picker.component.scss',
   standalone  : true,
   imports     : [
     IonicModule,
     CommonModule
   ]
 })
-export class CategoryPickerComponent {
+export class CategoryPickerComponent implements OnInit {
 
   @Input()
   public inputPreset: any = 'default';

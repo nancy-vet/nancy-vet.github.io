@@ -1,4 +1,4 @@
-import { Component, inject            } from "@angular/core";
+import { Component, OnInit, inject    } from "@angular/core";
 import { IonicModule, ModalController } from "@ionic/angular";
 import { CommonModule                 } from "@angular/common";
 import { FluidService                 } from "../../fluid.service";
@@ -6,14 +6,14 @@ import { FluidService                 } from "../../fluid.service";
 @Component({
   selector    : 'modal--fluid-result',
   templateUrl : './fluid-result-modal.component.html',
-  styleUrls   : ['./fluid-result-modal.component.scss'],
+  styleUrl    : './fluid-result-modal.component.scss',
   standalone  : true,
   imports     : [
     IonicModule,
     CommonModule
   ]
 })
-export class FluidResultModal {
+export class FluidResultModal implements OnInit {
 
   private fluidService: FluidService        = inject(FluidService);
   private modalController: ModalController  = inject(ModalController);

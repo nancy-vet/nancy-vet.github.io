@@ -1,12 +1,12 @@
 import { Component, EventEmitter, Input, OnInit, Output } from "@angular/core";
-import { DrugModel } from "../../../models/drug.model";
-import { PatientModel } from "../../../models/patient.model";
+import { DrugModel    } from "nv@models/drug.model";
+import { PatientModel } from "nv@models/patient.model";
 
 @Component({
   standalone  : true,
   selector    : 'dc-card2',
   templateUrl : './drug-card2.component.html',
-  styleUrls   : ['./drug-card2.component.scss']
+  styleUrl    : './drug-card2.component.scss'
 })
 export class DrugCard2 implements OnInit {
 

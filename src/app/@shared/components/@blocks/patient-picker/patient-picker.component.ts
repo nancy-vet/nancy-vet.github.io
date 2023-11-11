@@ -1,11 +1,11 @@
 import { Component, EventEmitter, Output } from "@angular/core";
 import { CommonModule } from "@angular/common";
-import { IonicModule } from "@ionic/angular";
+import { IonicModule  } from "@ionic/angular";
 
 @Component({
   selector    : 'dc-patient-picker',
   templateUrl : './patient-picker.component.html',
-  styleUrls   : ['./patient-picker.component.scss'],
+  styleUrl    : './patient-picker.component.scss',
   standalone  : true,
   imports     : [
     IonicModule,

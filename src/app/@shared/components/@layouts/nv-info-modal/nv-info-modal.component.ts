@@ -1,10 +1,10 @@
-import { Component, Input, inject    } from "@angular/core";
-import { IonicModule, ModalController  } from "@ionic/angular";
+import { Component, Input, inject     } from "@angular/core";
+import { IonicModule, ModalController } from "@ionic/angular";
 
 @Component({
   selector    : 'nv-info-modal',
   templateUrl : './nv-info-modal.component.html',
-  styleUrls   : ['./nv-info-modal.component.scss'],
+  styleUrl    : './nv-info-modal.component.scss',
   standalone  : true,
   imports     : [
     IonicModule

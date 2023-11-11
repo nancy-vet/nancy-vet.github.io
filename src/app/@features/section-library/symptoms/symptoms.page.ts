@@ -1,15 +1,15 @@
-import { Component, OnInit, inject } from '@angular/core';
+import { Component, OnInit, inject  } from '@angular/core';
 
-import { SymptomsService  } from 'nv@services/symptoms.service';
-import { DialogService    } from 'nv@services/dialog.service';
+import { SymptomsService            } from 'nv@services/symptoms.service';
+import { DialogService              } from 'nv@services/dialog.service';
 
-import { DrugInfoModal    } from './@modal/drug-info/drug-info.component';
-import { SelectCategoryModal } from './@modal/select-category/select-category.component';
+import { DrugInfoModal              } from './@modal/drug-info/drug-info.component';
+import { SelectCategoryModal        } from './@modal/select-category/select-category.component';
 
 @Component({
   selector    : 'page-symptoms',
   templateUrl : './symptoms.page.html',
-  styleUrls   : ['symptoms.page.scss']
+  styleUrl    : 'symptoms.page.scss'
 })
 export class SymptomTab implements OnInit {
 

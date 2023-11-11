@@ -12,10 +12,10 @@ export class FluidService {
    */
   public calculateDaylyDose($formProperty: any) {
 
-        return  this.calculateMaintanence($formProperty)   +
-                this.calculateDehidratation($formProperty) +
-                this.calculateOngoingLosses($formProperty) -
-                this.calculateLiquidIntakePerHauer($formProperty);
+    return  this.calculateMaintanence($formProperty)   +
+            this.calculateDehidratation($formProperty) +
+            this.calculateOngoingLosses($formProperty) -
+            this.calculateLiquidIntakePerHauer($formProperty);
   }
 
   /**

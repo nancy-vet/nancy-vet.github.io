@@ -55,26 +55,29 @@
     <ion-row>
       <ion-col size="12">
 
-        <div *ngFor="let element of inputSuggestionCollection">
+        @for(element of inputSuggestionCollection; track element) {
           <!-- <dc-card
             [inputTitle]="element?.title"
             [object]="element"
             (onSelectCard)="processSelectedCard($event)">
           </dc-card> -->
-        </div>
+        }
 
-        <div *ngIf="cardCollection.length > 0">
-          <div style="font-weight: bold; font-size: 18px; margin-top: 16px;"># Предписани</div>
-          <div></div>
+        @if(cardCollection.length > 0) {
 
-          <div *ngFor="let element of cardCollection">
-            <dc-card2
-              [inputPatientModel]="$formProperty"
-              [template]="'card'"
-              [object]="element">
-            </dc-card2>
+          <div>
+            <div style="font-weight: bold; font-size: 18px; margin-top: 16px;"># Предписани</div>
+            <div></div>
+
+            @for(element of cardCollection; track element) {
+              <dc-card2
+                [inputPatientModel]="$formProperty"
+                [template]="'card'"
+                [object]="element">
+              </dc-card2>
+            }
           </div>
-        </div>
+        }
 
       </ion-col>
     </ion-row>

@@ -6,7 +6,7 @@ import { ResultModal          } from './@modal/result-modal/result-modal.compone
 @Component({
   selector    : 'page-analisys',
   templateUrl : 'analisys.page.html',
-  styleUrls   : ['analisys.page.scss']
+  styleUrl    : 'analisys.page.scss'
 })
 export class AnalisysPage {
 
@@ -26,7 +26,7 @@ export class AnalisysPage {
   };
 
   /**
-   *
+   * @author Mihail Petrov
    */
   public clearAllValues() {
 
@@ -45,11 +45,12 @@ export class AnalisysPage {
   }
 
   /**
-   *
+   * @author Mihail Petrov
    */
   public openInfoModal() {
-      this.dialogService.open(ResultModal, {
-        $modalParameters: this.$formProperty
-      });
+
+    this.dialogService.open(ResultModal, {
+      $modalParameters: this.$formProperty
+    });
   }
 }

@@ -1,15 +1,16 @@
 import { Component, EventEmitter, Input, OnInit, Output } from "@angular/core";
-import { DrugModel } from "../../../models/drug.model";
 import { CommonModule } from "@angular/common";
-import { IonicModule } from "@ionic/angular";
+import { IonicModule  } from "@ionic/angular";
+import { DrugModel    } from "nv@models/drug.model";
 
 @Component({
   standalone  : true,
   selector    : 'dc-card',
   templateUrl : './drug-card.component.html',
-  styleUrls   : ['./drug-card.component.scss'],
+  styleUrl    : './drug-card.component.scss',
   imports     : [
-    CommonModule, IonicModule
+    CommonModule,
+    IonicModule
   ]
 })
 export class DrugCard implements OnInit {

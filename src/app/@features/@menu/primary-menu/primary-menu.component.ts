@@ -1,11 +1,11 @@
-import { Component, inject } from "@angular/core";
-import { Router } from "@angular/router";
-import { IonicModule, MenuController } from "@ionic/angular";
+import { Component, inject            } from "@angular/core";
+import { Router                       } from "@angular/router";
+import { IonicModule, MenuController  } from "@ionic/angular";
 
 @Component({
   selector    : 'primary-menu',
   templateUrl : './primary-menu.component.html',
-  styleUrls   : ['./primary-menu.component.scss'],
+  styleUrl    : './primary-menu.component.scss',
   standalone  : true,
   imports     : [
     IonicModule

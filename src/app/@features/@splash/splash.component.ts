@@ -1,12 +1,12 @@
-import { Component, inject } from "@angular/core";
+import { Component, OnInit, inject } from "@angular/core";
 import { Router } from "@angular/router";
 
 @Component({
   selector    : 'nv-splash',
   templateUrl : './splash.component.html',
-  styleUrls   : ['./splash.component.scss']
+  styleUrl    : './splash.component.scss'
 })
-export class SplashComponent {
+export class SplashComponent implements OnInit {
 
   private router: Router  = inject(Router);
 

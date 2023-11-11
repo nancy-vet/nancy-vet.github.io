@@ -1,11 +1,11 @@
 import { Component, EventEmitter, Input, Output, ViewChildren, inject } from "@angular/core";
 import { IonicModule  } from "@ionic/angular";
-import { UtilityDom   } from "../../../services/utility.service";
+import { UtilityDom   } from "nv@services/utility.service";
 
 @Component({
   selector    : 'nv-radio',
   templateUrl : './nv-radio.component.html',
-  styleUrls   : ['./nv-radio.component.scss'],
+  styleUrl    : './nv-radio.component.scss',
   standalone  : true,
   imports     : [ IonicModule ]
 })
@@ -19,7 +19,6 @@ export class NvRadioComponent {
   @ViewChildren("nvRadioElement")
   public nvRadioElementCollection: any;
 
-  // @
   private utilityService: UtilityDom = inject(UtilityDom);
 
   /**

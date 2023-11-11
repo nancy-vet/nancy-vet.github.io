@@ -9,7 +9,7 @@ import { SelectCategoryModal  } from './@modal/select-category/select-category.c
 @Component({
   selector    : 'page-term',
   templateUrl : 'term.page.html',
-  styleUrls   : ['term.page.scss']
+  styleUrl    : 'term.page.scss'
 })
 export class TermPage {
 

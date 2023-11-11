@@ -1,12 +1,12 @@
 import { Component, inject  } from '@angular/core';
 import { MenuController     } from '@ionic/angular';
-import { PatientModel } from 'nv@models/patient.model';
-import { DataService } from 'nv@services/data.service';
+import { PatientModel       } from 'nv@models/patient.model';
+import { DataService        } from 'nv@services/data.service';
 
 @Component({
   selector    : 'page-calculator-dose',
   templateUrl : 'dose.page.html',
-  styleUrls   : ['dose.page.scss']
+  styleUrl    : 'dose.page.scss'
 })
 export class DosePage {
 

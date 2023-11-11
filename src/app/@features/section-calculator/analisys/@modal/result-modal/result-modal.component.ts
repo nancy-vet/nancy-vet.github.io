@@ -1,19 +1,19 @@
-import { Component, inject            } from "@angular/core";
-import { CommonModule } from "@angular/common";
+import { Component, OnInit, inject    } from "@angular/core";
+import { CommonModule                 } from "@angular/common";
 import { IonicModule, ModalController } from "@ionic/angular";
 import { AnalisysService              } from "../../analysys.service";
 
 @Component({
   selector    : 'modal--result',
   templateUrl : './result-modal.component.html',
-  styleUrls   : ['./result-modal.component.scss'],
+  styleUrl   : './result-modal.component.scss',
   standalone  : true,
   imports     : [
     IonicModule,
     CommonModule
   ]
 })
-export class ResultModal {
+export class ResultModal implements OnInit {
 
   private analysysService: AnalisysService  = inject(AnalisysService);
   private modalController: ModalController  = inject(ModalController);

@@ -9,7 +9,7 @@ import { DrugInfoModal        } from './@modal/drug-info/drug-info.component';
 @Component({
   selector    : 'page-collection',
   templateUrl : './medications.page.html',
-  styleUrls   : ['./medications.page.scss']
+  styleUrl    : './medications.page.scss'
 })
 export class MedicationsPage implements OnInit {
 

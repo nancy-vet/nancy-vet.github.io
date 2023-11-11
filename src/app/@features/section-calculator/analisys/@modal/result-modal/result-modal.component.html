@@ -36,15 +36,24 @@
 
     <ion-row>
       <ion-col>
-        <div *ngIf="this.$uiProperty.PH.levelIndex === 1" style="background: #ffc5b5; padding: 6px;">
-          -	над норма – алкалоза (метаболитна/ респираторна)
-        </div>
-        <div *ngIf="this.$uiProperty.PH.levelIndex === -1" style="background: #ffc5b5; padding: 6px;">
-          под норма - ацидоза (метаболитна/ респираторна)
-        </div>
-        <div *ngIf="this.$uiProperty.PH.levelIndex === 0" style="background: #ffc5b5; padding: 6px;">
-          -	норма – или няма нищо, или има коменсирана ацидоза/ алкалоза, или две напълно противоположни метаболитни нарушения
-        </div>
+        @if(this.$uiProperty.PH.levelIndex === 1) {
+          <div style="background: #ffc5b5; padding: 6px;">
+            -	над норма – алкалоза (метаболитна/ респираторна)
+          </div>
+        }
+
+        @if(this.$uiProperty.PH.levelIndex === -1) {
+          <div style="background: #ffc5b5; padding: 6px;">
+            под норма - ацидоза (метаболитна/ респираторна)
+          </div>
+        }
+
+        @if(this.$uiProperty.PH.levelIndex === 0) {
+          <div style="background: #ffc5b5; padding: 6px;">
+            -	норма – или няма нищо, или има коменсирана ацидоза/ алкалоза, или две напълно противоположни метаболитни нарушения
+          </div>
+        }
+
       </ion-col>
     </ion-row>
 
@@ -71,12 +80,18 @@
 
     <ion-row>
       <ion-col>
-        <div *ngIf="this.$uiProperty.PCO2.levelIndex === 1" style="background: #ffc5b5; padding: 6px;">
-          -	над норма – хиперкапния (Хиповентилация) - респираторна ацидоза или компенсаторен механ. към метаб. алкалоза
-        </div>
-        <div *ngIf="this.$uiProperty.PCO2.levelIndex === -1" style="background: #ffc5b5; padding: 6px;">
-          -	под норма – хипокапния (Хипервентилация) - респираторна алкалоза или компенсаторен механ. към метаб. ацидоза
-        </div>
+        @if(this.$uiProperty.PCO2.levelIndex === 1) {
+          <div style="background: #ffc5b5; padding: 6px;">
+            -	над норма – хиперкапния (Хиповентилация) - респираторна ацидоза или компенсаторен механ. към метаб. алкалоза
+          </div>
+        }
+
+        @if(this.$uiProperty.PCO2.levelIndex === -1) {
+          <div style="background: #ffc5b5; padding: 6px;">
+            -	под норма – хипокапния (Хипервентилация) - респираторна алкалоза или компенсаторен механ. към метаб. ацидоза
+          </div>
+        }
+
       </ion-col>
     </ion-row>
 
