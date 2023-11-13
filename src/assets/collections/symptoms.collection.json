@@ -201,9 +201,9 @@
     ]
   },
   {
-    "symptom" : "Acute diarrhea - (<7 days)",
+    "symptom" : "Diarrhea, acute",
     "type"    :"gastrointestinal",
-    "meaning" : "",
+    "meaning" : "diarrhea less than 7-14 days",
     "causes"  : [
       {
         "group": "Diet", "children": [
@@ -240,7 +240,8 @@
       }
     ],
     "links" : [
-      { "title": "Алгоритъм Личев" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea-lichev-algorithm.pdf" },
+      { "title": "Алгоритъм куче НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_dog.pdf" },
+      { "title": "Алгоритъм котка НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_cat.pdf" },
       { "title": "Алгоритъм миниВет" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea-minivet.pdf" },
       { "title": "Хронична диария Котки" , "link": "pdfs/@algorithms/gastrointestinal/chronic-diarrhea-cats.pdf" }
     ]
@@ -248,7 +249,7 @@
   {
     "symptom" : "Hematochezia -",
     "type"    :"gastrointestinal",
-    "meaning" : "",
+    "meaning" : "the passage of fresh blood per anus, usually in or with stools",
     "causes"  : [
       {
         "group": "Dog", "children": [
