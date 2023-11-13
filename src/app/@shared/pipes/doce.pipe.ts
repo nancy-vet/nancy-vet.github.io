@@ -28,6 +28,8 @@ export class DosePipe implements PipeTransform {
     if(value == 'sprays'            ) return 'sprays';
     if(value == 'ampula'            ) return 'ампула';
     if(value == 'paketche'          ) return 'пакетче';
+    if(value == 'tbsp'              ) return 'с. л.';
+    if(value == 'tsp'               ) return 'ч. л.';
     if(value == 'MU_kg'             ) return 'MU/kg';
     if(value == 'малко количество'  ) return 'малко количество';
     if(value == 'няколко капки'     ) return 'няколко капки';
