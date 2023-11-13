@@ -22,10 +22,10 @@
         @for(termElement of element.value; track termElement.id ; let i = $index) {
 
           <div (click)="selectCategory(termElement)">
-            @if(i%4===0) { <div class="pill pill-d3e4f9"> {{termElement.id}} </div> }
-            @if(i%4===1) { <div class="pill pill-fce9ce"> {{termElement.id}} </div> }
-            @if(i%4===2) { <div class="pill pill-e7e9ee"> {{termElement.id}} </div> }
-            @if(i%4===3) { <div class="pill pill-c1ef5c"> {{termElement.id}} </div> }
+            @if(i%4===0) { <div class="pill bc-blue"  > {{termElement.id}} </div> }
+            @if(i%4===1) { <div class="pill bc-orange"> {{termElement.id}} </div> }
+            @if(i%4===2) { <div class="pill bc-grey"  > {{termElement.id}} </div> }
+            @if(i%4===3) { <div class="pill bc-green" > {{termElement.id}} </div> }
           </div>
         }
       </ion-row>
