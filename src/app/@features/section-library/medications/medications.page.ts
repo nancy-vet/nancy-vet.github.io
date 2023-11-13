@@ -65,8 +65,8 @@ export class MedicationsPage implements OnInit {
   private processGetItemCollection() {
 
     this.$collection = this.$dataService.$medicine()
-                                        .filterByCategory(this.$selectedCategories)
-                                        .get();
+                      .filterByCategory(this.$selectedCategories)
+                      .get();
   }
 
   /**
@@ -76,8 +76,8 @@ export class MedicationsPage implements OnInit {
   private processfilterItemCollection(filterValue: string) {
 
     this.$collection = this.$dataService.$medicine()
-                                        .filterByCategory(this.$selectedCategories)
-                                        .filterByPrimary(this.activeFilter, filterValue)
-                                        .get();
+                      .filterByCategory(this.$selectedCategories)
+                      .filterByPrimary(this.activeFilter, filterValue)
+                      .get();
   }
 }

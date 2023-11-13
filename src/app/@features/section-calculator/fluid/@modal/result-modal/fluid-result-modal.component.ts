@@ -8,7 +8,7 @@ import { FluidService                 } from "../../fluid.service";
 })
 export class FluidResultModal implements OnInit {
 
-  private fluidService: FluidService        = inject(FluidService);
+  private fluidService: FluidService  = inject(FluidService);
   private $modalParameters: any;
 
   public $uiProperty = {

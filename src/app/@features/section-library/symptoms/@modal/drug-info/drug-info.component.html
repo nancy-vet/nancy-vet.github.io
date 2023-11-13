@@ -1,11 +1,9 @@
-<nv-info-modal
-  [inputTitle]="selectedDrug.symptom"
-  class="ion-page">
+<nv-info-modal [inputTitle]="selectedDrug.symptom" class="ion-page">
 
   @for( groupElement of selectedDrug.causes; track groupElement) {
 
     <div>
-      <div style="color: #d60b52; font-weight: bold; font-size: 18px; margin-top: 8px; margin-bottom: 8px;">
+      <div class="h2 m-gap1">
         {{groupElement.group}}
       </div>
 
@@ -16,7 +14,7 @@
           @for(childElement of groupElement.children; track childElement) {
 
             <div>
-              <div style="margin-top: 4px;">
+              <div class="mt5">
                 {{childElement.title}}
               </div>
 
@@ -36,23 +34,11 @@
     </div>
   }
 
-  @if(selectedDrug.links) {
-
-    <div>
-      <div>Алгоритми</div>
-
-      @for( element of selectedDrug.links; track element) {
-
-        <div class="large-button">
-          <div style="margin-right: 10px;">
-            <ion-icon size="large" name="document-text-outline"></ion-icon>
-          </div>
-          <div style="margin-top: 5px;" (click)="onOpenPdfDocument(element.link)">
-            {{ element.title }}
-          </div>
-        </div>
-      }
-    </div>
+  @for( element of selectedDrug.links; track element) {
+    <nv-link-button
+      [inputTitle]="element.title"
+      (onClick)="onOpenPdfDocument(element.link)">
+    </nv-link-button>
   }
 
 </nv-info-modal>

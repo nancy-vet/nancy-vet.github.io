@@ -1,6 +1,6 @@
 <nv-info-modal [inputTitle]="'Инфо'" class="ion-page">
 
-  <div style="font-size: 20px;font-weight: bold;">
+  <div class="h1">
     {{ selectedDrug.title }}
   </div>
 
@@ -27,9 +27,8 @@
             Доза
           </ion-col>
           <ion-col>
-            {{ (element.activeSubstanceDose && element.activeSubstanceDose.length === 2)
-              ? element.activeSubstanceDose.join('-')
-              : element.activeSubstanceDose }} {{ element.activeSubstanceDoseDecorator | doceDecorator }}
+            {{ element.activeSubstanceDose          | splitPipe }}
+            {{ element.activeSubstanceDoseDecorator | docePipe  }}
           </ion-col>
         </ion-row>
         <ion-row>
@@ -46,39 +45,32 @@
 
   @for(element of selectedDrug.links; track element) {
 
-    <div class="large-button">
-
-      <div style="margin-right: 10px;">
-        <ion-icon size="large" name="document-text-outline"></ion-icon>
-      </div>
-
-      <div style="margin-top: 5px;" (click)="onOpenPdfDocument(element.link)">
-        {{ element.title }}
-      </div>
-    </div>
+    <nv-link-button
+      [inputTitle]="element.title"
+      (onClick)="onOpenPdfDocument(element.link)">
+    </nv-link-button>
   }
-
-  <div style="margin-top: 16px;"></div>
 
   @if(selectedDrug.indications && selectedDrug.indications.length > 0) {
 
-    <div>
-      <div style="color: #30b67a; font-weight: bold; font-size: 18px; margin-top: 8px; margin-bottom: 8px;">
+    <div class="mt16">
+      <div class="h2 c-success m-gap1">
         Показания:
       </div>
+
       @for(element of selectedDrug.indications; track element) {
         <div>{{element}}</div>
       }
-
     </div>
   }
 
   @if(selectedDrug.contraindications && selectedDrug.contraindications.length > 0) {
 
     <div>
-      <div style="color: #d60b52; font-weight: bold; font-size: 18px; margin-top: 8px; margin-bottom: 8px;">
+      <div class="h2 c-fail m-gap1">
         Противопоказания:
       </div>
+
       @for(element of selectedDrug.contraindications; track element) {
         <div>{{element}}</div>
       }
@@ -88,7 +80,7 @@
   @if(selectedDrug.drugInteractions && selectedDrug.drugInteractions.length > 0) {
 
     <div>
-      <div style="color: #356cfe; font-weight: bold; font-size: 18px; margin-top: 8px; margin-bottom: 8px;">
+      <div class="h2 c-blue m-gap1">
         Взаимодействие с ВМП:
       </div>
 

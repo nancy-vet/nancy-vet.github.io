@@ -8,10 +8,16 @@
   <ion-content color="light">
     <ion-list [inset]="true">
       <ion-item>
-        <ion-label (click)="processNavigation('calculator')">Калкулатори</ion-label>
+        <ion-icon class="menu-icon" name="calculator-outline"></ion-icon>
+        <ion-label (click)="processNavigation('calculator')">
+            Калкулатори
+          </ion-label>
       </ion-item>
       <ion-item>
-        <ion-label (click)="processNavigation('library')">Списъци</ion-label>
+        <ion-icon class="menu-icon" name="list-outline"></ion-icon>
+        <ion-label (click)="processNavigation('library')">
+          Списъци
+        </ion-label>
       </ion-item>
     </ion-list>
   </ion-content>

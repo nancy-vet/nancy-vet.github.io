@@ -17,6 +17,8 @@ import { NvSearchToolbarComponent } from 'nv@components/@layouts/nv-search-toolb
 import { DosePipe                 } from 'nv@pipes/doce.pipe';
 import { CategoryPickerComponent  } from 'nv@components/@blocks/category-picker/category-picker.component';
 import { NvInfoModal              } from 'nv@components/@layouts/nv-info-modal/nv-info-modal.component';
+import { SplitPipe                } from 'nv@pipes/split.pipe';
+import { NvLinkButtonComponent } from 'nv@components/@forms/nv-link-button/nv-link-button.component';
 
 
 const routes: Routes = [{
@@ -37,12 +39,14 @@ const routes: Routes = [{
       CommonModule                  ,
       FormsModule                   ,
       DosePipe                      ,
+      SplitPipe                     ,
       PrimaryMenu                   ,
       NvRadioComponent              ,
       DrugCard                      ,
       NvSearchToolbarComponent      ,
       CategoryPickerComponent       ,
-      NvInfoModal
+      NvInfoModal                   ,
+      NvLinkButtonComponent
     ]
 })
 export class MedicationsPageModule {}

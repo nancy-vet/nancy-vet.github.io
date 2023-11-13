@@ -7,7 +7,7 @@
         pH
       </ion-col>
 
-      <ion-col size="3" style="display: flex;">
+      <ion-col size="3" class="flex">
         <div>
           <ion-icon
             name="{{$uiProperty.PH.level.icon}}"
@@ -18,7 +18,11 @@
       </ion-col>
 
       <ion-col size="4">
-        <div>{{$uiProperty.PH.reference.lowerBownd}} - {{$uiProperty.PH.reference.upperBownd}}</div>
+        <div>
+          {{$uiProperty.PH.reference.lowerBownd}}
+          -
+          {{$uiProperty.PH.reference.upperBownd}}
+        </div>
       </ion-col>
 
     </ion-row>
@@ -101,11 +105,13 @@
       </ion-col>
 
       <ion-col size="4">
-        <div>{{$uiProperty.PO2.reference.lowerBownd}} - {{$uiProperty.PO2.reference.upperBownd}}</div>
+        <div>
+          {{$uiProperty.PO2.reference.lowerBownd}}
+          -
+          {{$uiProperty.PO2.reference.upperBownd}}
+        </div>
       </ion-col>
     </ion-row>
-
-
 
     <ion-row>
       <ion-col size="5">
@@ -123,7 +129,11 @@
       </ion-col>
 
       <ion-col size="4">
-        <div>{{$uiProperty.HCO3.reference.lowerBownd}} - {{$uiProperty.HCO3.reference.upperBownd}}</div>
+        <div>
+          {{$uiProperty.HCO3.reference.lowerBownd}}
+          -
+          {{$uiProperty.HCO3.reference.upperBownd}}
+        </div>
       </ion-col>
     </ion-row>
 
@@ -144,7 +154,11 @@
       </ion-col>
 
       <ion-col size="4">
-        <div>{{$uiProperty.BE.reference.lowerBownd}} - {{$uiProperty.BE.reference.upperBownd}}</div>
+        <div>
+          {{$uiProperty.BE.reference.lowerBownd}}
+          -
+          {{$uiProperty.BE.reference.upperBownd}}
+        </div>
       </ion-col>
     </ion-row>
 
@@ -164,11 +178,14 @@
       </ion-col>
 
       <ion-col size="4">
-        <div>{{$uiProperty.AG.reference.lowerBownd}} - {{$uiProperty.AG.reference.upperBownd}}</div>
+        <div>
+          {{$uiProperty.AG.reference.lowerBownd}}
+          -
+          {{$uiProperty.AG.reference.upperBownd}}
+        </div>
       </ion-col>
 
     </ion-row>
-
   </ion-grid>
 
 </nv-info-modal>

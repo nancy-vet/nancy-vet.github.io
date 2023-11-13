@@ -2,7 +2,7 @@
   [inputTitle]="'Инфо'"
   class="ion-page">
 
-  <div style="font-size: 20px;font-weight: bold;">
+  <div class="h1">
     {{ selectedObject.title }}
   </div>
 
@@ -10,15 +10,15 @@
     {{ selectedObject.id }}
   </div>
 
-  <div style="margin-top: 25px;">
+  <div class="mt25">
     {{ selectedObject.description }}
   </div>
 
-  <div class="component" style="margin-top: 25px;">
+  <div class="component mt25">
 
     @if(selectedObject.increaseWhen.length > 0) {
 
-      <div class="component-header" style="color: #6bbe6f;">
+      <div class="component-header c-success">
         <ion-icon name="arrow-up-circle-outline"></ion-icon>
         Повишен при
       </div>
@@ -36,7 +36,7 @@
   @if(selectedObject.decreaseWhen.length > 0) {
 
     <div class="component">
-      <div class="component-header" style="color: #d60b52;">
+      <div class="component-header c-fail">
         <ion-icon name="arrow-down-circle-outline"></ion-icon>
         Понижен при
       </div>
