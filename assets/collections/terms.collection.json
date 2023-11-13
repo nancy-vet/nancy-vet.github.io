@@ -1,0 +1,400 @@
+[
+  {
+    "id"            : "WBC",
+    "type"          : "CBC",
+    "title"         : "Левкоцити",
+    "description"   : "",
+    "increaseWhen"  : ["инфекция", "възпаление", "стрес", "алергии (повишение на еозинофили)", "някои лекарства (като кортикостероиди)"],
+    "decreaseWhen"  : ["увреждания на костния мозък", "вирусни инфекции", "силни инфекции", "автоимунни заболявания", "дефицити на хр. в-ва", "някои лекарства"]
+  },
+  {
+    "id"            : "Eos",
+    "type"          : "CBC",
+    "title"         : "Еозинофили",
+    "description"   : "",
+    "increaseWhen"  : ["алергия", "вътрешна или външна паразитоза", "кожно заболяване", "тумор"],
+    "decreaseWhen"  : ["стрес"]
+  },
+  {
+    "id"            : "HGB",
+    "type"          : "CBC",
+    "title"         : "Хемоглобин",
+    "description"   : "обемното участие на кръвните клетки в общия обем кръв (КЧ норма 35-55%)",
+    "increaseWhen"  : ["дехидратация", "хронична хипоксия", "някои тумори", "увреждания на костния мозък"],
+    "decreaseWhen"  : ["загуба на кръв", "дефицит на хр. в-ва", "хронична бъбречна недостатъчност", "увреждане на костни мозък", "хронично възпаление", "хемолитична анемия", "генетични заболявания"]
+  },
+  {
+    "id"            : "HCT (PCV)",
+    "type"          : "CBC",
+    "title"         : "хематокрит, още PCV",
+    "description"   : "обем Еритроцити към цялата кръв",
+    "increaseWhen"  : ["MCV H – макроцити – макроцитна анемия"],
+    "decreaseWhen"  : ["MCV L – микроцити – при микроцитна анемия"]
+  },
+  {
+    "id"            : "MCV",
+    "type"          : "CBC",
+    "title"         : "Mean Cell Volume",
+    "description"   : "среден обем на Ер (макро-, нормо-, микроцити) (при норма се нар. нормоцити)",
+    "increaseWhen"  : ["дефицит на вит. Б12 или Б9", "увреждания на костния мозък", "чернодробно заболяване (така Б12 и Б9 не се абсорбират)", "хипотироидизъм"],
+    "decreaseWhen"  : ["желязодефицитна анемия", "хронични възпаления", "отравяне с олово", "хемоглобинопатии", "хронична бъбречна недостатъчност (при нея има понижен еритропоетин)", "загуба на кръв", "хемолитична анемия", "генетични заболявания"]
+  },
+  {
+    "id"            : "MCH",
+    "type"          : "CBC",
+    "title"         : "Mean Corpuscular Hemoglobin",
+    "description"   : "средна хемоглобинова концентрация в еритроцита. Намалява при различните видове анемии. Заедно с показателите МСV и МСНС служи в диагностиката и типизирането на различните видове анемии",
+    "increaseWhen"  : ["MCH H –  при макроцитна анемия"],
+    "decreaseWhen"  : ["MCH L – при микроцитна анемия"]
+  },
+  {
+    "id"            : "MCHC",
+    "type"          : "CBC",
+    "title"         : "Mean Corpuscular Hemoglobin Concentration",
+    "description"   : "концентрация на хемоглобин в еритроцитите; MCHC (%) = (Hemoglobin concentration / Hematocrit) x 100",
+    "increaseWhen"  : ["сфероцитоза", "автоимунна хемолитична анемия", "хемоглобинопатии"],
+    "decreaseWhen"  : ["желязодефицитна анемия", "таласемия", "отравяне с олово"]
+  },
+  {
+    "id"            : "RDW-CV",
+    "type"          : "CBC",
+    "title"         : "Red cell Distribution Width",
+    "description"   : "девиация на еритроцитното разпределение",
+    "increaseWhen"  : [],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "RDW-SD",
+    "type"          : "CBC",
+    "title"         : "Red cell Distribution Width",
+    "description"   : "девиация на еритроцитното разпределение",
+    "increaseWhen"  : ["RDW H – голяма разлика между най-големия и най-малкия еритроцити."],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "PLT",
+    "type"          : "CBC",
+    "title"         : "",
+    "description"   : "Тромбоцити",
+    "increaseWhen"  : ["Тромбоцитоза", "вирусни инфекции", "хронично възпаление", "травма", "операция"],
+    "decreaseWhen"  : ["Тромбоцитопения", "вирусни инфекци", "увреждания на костния мозък", "тумор", "някои лекарства"]
+  },
+  {
+    "id"            : "MPV",
+    "type"          : "CBC",
+    "title"         : "",
+    "description"   : "среден обем на тромбоцитите",
+    "increaseWhen"  : [],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "PDW",
+    "type"          : "CBC",
+    "title"         : "",
+    "description"   : "ширина на тромбоцитното разпределение (аналогично на RDW при еритроцитите.)",
+    "increaseWhen"  : [],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "PCT",
+    "type"          : "CBC",
+    "title"         : "прокалцитонин",
+    "description"   : "Обемното участие на тромбоцитите в общия обем кръв /аналогично на хематокрита/.",
+    "increaseWhen"  : [],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "P-LCC",
+    "type"          : "CBC",
+    "title"         : "Platelet-Large Cell Count",
+    "description"   : "the absolute count of large platelets in a blood sample",
+    "increaseWhen"  : [],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "P-LCR",
+    "type"          : "CBC",
+    "title"         : "Platelet-large cell ratio",
+    "description"   : "measures the percentage of larger platelets (often referred to as large platelet or giant platelet population) in the total platelet count",
+    "increaseWhen"  : ["Elevated P-LCR values can be seen in various conditions, including immune thrombocytopenia and certain bone marrow disorders. It is used as an additional indicator of platelet health and can provide insights into platelet production and activity."],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "ALT",
+    "type"          : "liver",
+    "title"         : "",
+    "description"   : "Can be called liver-specific",
+    "increaseWhen"  : ["2-3 times increased = mild damage (леко увреждане)", "5-10 times = moderate damage (средно увреждане)", "> 10 times = severe damage (тежко увреждане)"],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "AST",
+    "type"          : "liver",
+    "title"         : "",
+    "description"   : "The highest concentration is in the skeletal muscles, then the liver and then the cardiac muscle",
+    "increaseWhen"  : ["Increased serum AST levels most commonly indicate either hepatocellular or muscle injury (skeletal or cardiac)"],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "GLDH",
+    "type"          : "liver",
+    "title"         : "Глутамат-дехидрогеназа",
+    "description"   : "Highest concentration is found in hepatocytes situated near to central vein => the damage is deep",
+    "increaseWhen"  : [],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "ALP",
+    "type"          : "liver",
+    "title"         : "Алкална фосфатаза (Alkaline phosphatase)",
+    "description"   : "ALP is primarily associated with the liver and bone",
+    "increaseWhen"  : ["Liver: Високи ст-ти на АФ при ЧД заболяване, особено холестаза.", "Bones: Bone conditions like bone tumors or fractures can also elevate ALP levels because it is produced by osteoblasts, cells involved in bone formation.", "Growth or Pregnancy: ALP levels can be elevated in growing puppies or during pregnancy due to bone and placental ALP production.", "Steroid Medications: Certain medications, particularly glucocorticoids (steroids), can increase ALP levels as a side effect.", "Inflammatory Conditions: Some inflammatory conditions, including conditions involving the intestines, can lead to elevated ALP.", "Cushing's Disease: In dogs with Cushing's disease (hyperadrenocorticism), ALP levels can be elevated."],
+    "decreaseWhen"  : ["Lowered ALP levels are less common and are not typically a focus of concern in veterinary medicine."]
+  },
+  {
+    "id"            : "ALB",
+    "type"          : "liver",
+    "title"         : "албумин",
+    "description"   : "With liver disease hypoalbuminemia is not seen until >70% of hepatobiliary function has been compromised",
+    "increaseWhen"  : [],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "PT",
+    "type"          : "liver",
+    "title"         : "Протромбиново време",
+    "description"   : "The synthesis of vitamin K-dependent coagulation might be decreased (factor II, VII, IX, X) as well as a decrease of fibrinogen production might develop. In chronic liver diseases, haemostasis should be evaluated based on the prothrombin time.",
+    "increaseWhen"  : [],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "Ammonia",
+    "type"          : "liver",
+    "title"         : "NH3, амоняк",
+    "description"   : "Амонякът се образува главно в храносмилателната система и чрез порталната вена се отнася в ЧД, където се превръща в урея.",
+    "increaseWhen"  : ["При увреждане на ЧД стойностите на амоняка се повишават, защото се нарушава процесът на обезвреждането му."],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "BUN",
+    "type"          : "liver",
+    "title"         : "Blood Urea Nitrogen, Урея",
+    "description"   : "It is the principal end product of protein metabolism. Assess glomerular filtration rate",
+    "increaseWhen"  : [],
+    "decreaseWhen"  : ["Decrease in severe hepatopathies and in portosystemic shunt. При увреждания на ЧД продукцията на урея се забавя и това води до понижаване на уреята."]
+  },
+  {
+    "id"            : "BA",
+    "type"          : "liver",
+    "title"         : "Bile acids",
+    "description"   : "Bile acids are a product of cholesterol metabolism and they are secreted to bile with which they are transported to the intestines and then they return to the hepatic portal vein – called the hepato-intestinal (enterohepatic) circulation. BA measurements assess biliary excretion, portal circulation, and hepatic function. ",
+    "increaseWhen"  : ["Increased in hepatic insufficiency, cholestatic disease, or portosystemic shunts."],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "Br",
+    "type"          : "liver",
+    "title"         : "Билирубин",
+    "description"   : "",
+    "increaseWhen"  : ["Prehepatic icterus - Erythrocyte breakdown", "Hepatic icterus – decreased hepatic uptake, conjugation or excretion", "Posthepatic icterus – extrahepatic cholestasis"],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "TBA",
+    "type"          : "liver",
+    "title"         : "Total bile acids",
+    "description"   : "Bile is a fluid that is made and released by the liver and stored in the gallbladder. Bile helps with digestion. It breaks down fats into fatty acids, which can be taken into the body by the digestive tract. Bile contains: Mostly cholesterol; Bile acids (also called bile salts); Bilirubin (a breakdown product or red blood cells); Other things (water, copper, body salts, etc.).",
+    "increaseWhen"  : [],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "TB",
+    "type"          : "liver",
+    "title"         : "Total bilirubin",
+    "description"   : "",
+    "increaseWhen"  : [],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "TC",
+    "type"          : "liver",
+    "title"         : "Total Cholesterol",
+    "description"   : "",
+    "increaseWhen"  : ["Hypercholesterolaemia is common in canine and feline patients with CKD, even those with predominantly tubulointerstitial rather than glomerular disease. The mechanisms for this have not been investigated."],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "TP",
+    "type"          : "liver",
+    "title"         : "Total Protein",
+    "description"   : "Зависят от състоянието на ЧД, защото там се синтезират плазмените белтъци (т. е. глобулините)",
+    "increaseWhen"  : ["Хиперпротеинемия – при дехидратация"],
+    "decreaseWhen"  : ["Хипопротеинемия – при хидратация"]
+  },
+  {
+    "id"            : "A/G",
+    "type"          : "liver",
+    "title"         : "Albumin/Globulin",
+    "description"   : "With liver disease hypoalbuminemia is not seen until >70% of hepatobiliary function has been compromised",
+    "increaseWhen"  : ["Повишаване – не се наблюдава свръхпродукция на албумин; в резултат на дехидратация."],
+    "decreaseWhen"  : ["Понижаване – при ББ, чревни заболявания, при остри ЧД заболявания и нефротичен синдром."]
+  },
+  {
+    "id"            : "GLOB",
+    "type"          : "liver",
+    "title"         : "Globulin",
+    "description"   : "",
+    "increaseWhen"  : ["Високите глобулини водят до хиперпротеинемия. Може да посочи и автоимунни заболявания."],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "APPT",
+    "type"          : "liver",
+    "title"         : "Actived partial thromboplastin",
+    "description"   : "evaluates various aspects of the blood's ability to clot",
+    "increaseWhen"  : ["Hemophilia: Inherited bleeding disorders, such as hemophilia, can result in a prolonged aPTT due to deficiencies in specific clotting factors.", "Liver Disease: Liver disease can impair the synthesis of clotting factors, leading to prolonged aPTT.", "Anticoagulant Medications: The use of anticoagulant drugs, such as heparin, can increase aPTT."],
+    "decreaseWhen"  : ["This is less common and is usually not a primary indicator of any specific medical condition."]
+  },
+
+
+  {
+    "id"            : "ALB",
+    "type"          : "kidneys",
+    "title"         : "Албумин",
+    "description"   : "Албуминът се образува в ЧД. Задържа водата в плазмата. Пренася Билирубина, кортизона, алдостерона, тироксина, калция, лекарствата.",
+    "increaseWhen"  : [],
+    "decreaseWhen"  : ["Понижава се при гломерулонефрит."]
+  },
+  {
+    "id"            : "Ca",
+    "type"          : "kidneys",
+    "title"         : "Калций",
+    "increaseWhen"  : [],
+    "decreaseWhen"  : ["Може да се понижи при ББ заболяване."]
+  },
+  {
+    "id"            : "CREA",
+    "type"          : "kidneys",
+    "title"         : "Креатинин",
+    "description"   : "Креатинът от мускулите чрез креатин фосфат се превръща в креатин фосфат (служи за енергиен резерв на мускулите, фосфата се прехвърля на АДФ), който се превръща в креатинин, който се екскретира чрез ББ.",
+    "increaseWhen"  : ["Повишава се при ББ недостатъчност."],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "PHOS",
+    "type"          : "kidneys",
+    "title"         : "Phosphorus",
+    "description"   : "",
+    "increaseWhen"  : ["Може да се повиши при ББ заболяване."],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "tCO2",
+    "type"          : "kidneys",
+    "title"         : "Bicarbonate",
+    "description"   : "",
+    "increaseWhen"  : [],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "UA",
+    "type"          : "kidneys",
+    "title"         : "Uric acid",
+    "description"   : "Пикочна киселина.",
+    "increaseWhen"  : ["Повишава се при ББ заболявания."],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "BUN",
+    "type"          : "kidneys",
+    "title"         : "Урея, Urea nitrogen",
+    "description"   : "",
+    "increaseWhen"  : ["Уреята се повишава при ББ заболявания (както и при ЧД, затова се използва формула)."],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "B/C",
+    "type"          : "kidneys",
+    "title"         : "Urea nitrogen/Creatinine",
+    "description"   : "",
+    "increaseWhen"  : [],
+    "decreaseWhen"  : []
+  },
+
+
+  {
+    "id"            : "APPT",
+    "type"          : "coagulation",
+    "title"         : "Actived partial thromboplastin",
+    "description"   : "evaluates various aspects of the blood's ability to clot",
+    "increaseWhen"  : ["Hemophilia: Inherited bleeding disorders, such as hemophilia, can result in a prolonged aPTT due to deficiencies in specific clotting factors.", "Liver Disease: Liver disease can impair the synthesis of clotting factors, leading to prolonged aPTT.", "Anticoagulant Medications: The use of anticoagulant drugs, such as heparin, can increase aPTT."],
+    "decreaseWhen"  : ["This is less common and is usually not a primary indicator of any specific medical condition."]
+  },
+  {
+    "id"            : "PT",
+    "type"          : "coagulation",
+    "title"         : "Prothrombin",
+    "description"   : "evaluates various aspects of the blood's ability to clot",
+    "increaseWhen"  : ["Vitamin K Deficiency: A deficiency in vitamin K, which is required for the production of clotting factors, can lead to prolonged PT.", "Liver Disease: Liver dysfunction can affect clotting factor production, resulting in a prolonged PT.", "Anticoagulant Medications: Warfarin and other vitamin K antagonists can extend PT."],
+    "decreaseWhen"  : ["Very short PT times are rare and are generally not associated with specific medical conditions."]
+  },
+  {
+    "id"            : "TT",
+    "type"          : "coagulation",
+    "title"         : "Thrombin",
+    "description"   : "evaluates various aspects of the blood's ability to clot",
+    "increaseWhen"  : ["Heparin Use: Heparin can prolong TT as it interferes with the conversion of fibrinogen to fibrin."],
+    "decreaseWhen"  : ["Shortened TT is not a commonly reported finding and is usually not associated with specific medical conditions."]
+  },
+  {
+    "id"            : "Fib",
+    "type"          : "coagulation",
+    "title"         : "Fibrinogen",
+    "description"   : "evaluates various aspects of the blood's ability to clot",
+    "increaseWhen"  : ["Inflammation: Inflammatory conditions, such as infections or autoimmune diseases, can increase fibrinogen levels.", "Tissue Damage: Trauma or tissue injury can lead to increased fibrinogen levels as part of the body's healing response.", "Stress or Excitement: Some animals may show elevated fibrinogen levels during stressful situations."],
+    "decreaseWhen"  : ["Liver Disease: Severe liver disease can decrease fibrinogen production.", "Disseminated Intravascular Coagulation (DIC): In DIC, fibrinogen is consumed as part of the clotting process, leading to decreased levels."]
+  },
+
+
+
+  {
+    "id"            : "c-CRP",
+    "type"          : "others",
+    "title"         : "C-reactive protein",
+    "description"   : "Ц-реактивен белтък, хаптоглобин. Остро фазови протеини – маркери за остри възпалителни процеси.",
+    "increaseWhen"  : ["При здравите ЖВ тяхната конц-я е много ниска, а при остро възпаление се повишава многократно. Повишение - при състояния на хипоалбуминемия, напр. нефротичен синдром"],
+    "decreaseWhen"  : ["След като в далака се формира комплекса между хаптоглобина и хемоглобина, концентрацията на Hp пада. Така че ниската хемоглобинова концентрация е индикатор за интраваскуларна хемолиза. Понижение на хаптоглобин се дължи на намалена синтеза при хронични ЧД заболявания, метастази и тежък сепсис."]
+  },
+  {
+    "id"            : "AMY",
+    "type"          : "others",
+    "title"         : "Amylase",
+    "description"   : "ПАНКРЕАС: Това е ензим, който се секретира от панкреаса и се излъчва с панкреатичния сок. При остър панкреатит ст-тите на амилазата се повишават (само при КЧ, при КТ дори може да се понижи). При карцином също се повишава.",
+    "increaseWhen"  : [],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "LPS",
+    "type"          : "others",
+    "title"         : "Lipase",
+    "description"   : "ПАНКРЕАС: Липазата е ензим от панкреаса. При панкреатит се повишава. При понижена липаза се появява стеаторея, загуба на тегло, полифагия.",
+    "increaseWhen"  : [],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "CK",
+    "type"          : "others",
+    "title"         : "Creatine Kinase (Креатинкиназа)",
+    "description"   : "Мускули. very sensitive indicator of muscle disease. It catalyses the reaction of phosphocreatine and adenosine diphosphate (ADP) that results in production of adenosine triphosphate (ATP) and creatine. CK is an enzyme that is released from muscle cells to the blood. Plasma concentrations start to increase 4–6 hours after muscle injury, peak 12 hours after enzyme release into the circulation and decrease back to normal within 24–48 hours (unless muscle damage is ongoing).",
+    "increaseWhen"  : ["Myopathies", "Myositis", "Muscle ischaemia, e.g. aortic thromboembolism", "Trauma", "Intramuscular injections", "Haemolysis", "Hypothyroidism"],
+    "decreaseWhen"  : []
+  },
+  {
+    "id"            : "LDH",
+    "type"          : "others",
+    "title"         : "Lactate dehydrogenase",
+    "description"   : "Мускули. Lactate dehydrogenase (LDH) and aldolase are rarely measured in small animals because they lack specificity and sensitivity, and LDH is artefactually elevated in even slight haemolysis.",
+    "increaseWhen"  : [],
+    "decreaseWhen"  : []
+  }
+]
