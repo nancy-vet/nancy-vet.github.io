@@ -90,4 +90,30 @@
     </div>
   }
 
+  @if(selectedDrug.adverseEffects && selectedDrug.adverseEffects.length > 0) {
+
+    <div>
+      <div class="h2 c-blue m-gap1">
+        Нежелани реакции:
+      </div>
+
+      @for(element of selectedDrug.adverseEffects; track element) {
+        <div>{{element}}</div>
+      }
+    </div>
+  }
+
+  @if(selectedDrug.pharmacology && selectedDrug.pharmacology.length > 0) {
+
+    <div>
+      <div class="h2 c-blue m-gap1">
+        Фармакология:
+      </div>
+
+      @for(element of selectedDrug.pharmacology; track element) {
+        <div>{{element}}</div>
+      }
+    </div>
+  }
+
 </nv-info-modal>

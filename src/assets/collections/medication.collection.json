@@ -32,8 +32,8 @@
     "indications"       : ["urinary acidifier in small animals"],
     "contraindications" : ["used with caution in patients with diabetes mellitus due to the laboratory interactions (see below), or in patients susceptible to urolithiasis.", "avoid vitamin C’s use in animals with copper-associated hepatopathy"],
     "drugInteractions"  : ["Aminoglycosides: (e.g., gentamicin) and erythromycin: Are more effective in an alkaline medium; urine acidification may diminish these drugs’ effectiveness in treating bacterial urinary tract infections", "Quinidine: Urine acidification may increase renal excretion", "Deferoxamine: While vitamin C may be synergistic with deferoxamine in re moving iron, it may lead to increased iron tissue toxicity, especially in cardiac muscle. It should be used with caution, particularly in patients with preexisting cardiac disease."],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
+    "adverseEffects"    : ["Няма"],
+    "pharmacology"      : ["Няма"]
   },
   {
     "type": "others",
