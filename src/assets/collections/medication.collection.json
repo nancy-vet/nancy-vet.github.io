@@ -897,27 +897,27 @@
   },
   {
     "type": "antibiotics",
-    "title": "Ромавет",
-    "titleEn": "",
+    "title": "Ровамет 125 мг/табл",
+    "titleEn": "Rovamet 125 mg/tabl",
     "activeSubstance": "метронидазол, спирамицин",
     "drugConcentration": 125,
     "drugConcentrationDecorator": "mg_tabl",
     "application": {
       "any": {
         "activeSubstanceDose": [
-          0
+          12.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": ""
+        "applicationMethod": "s.i.d. 5-10 дни (1 tabl/10 kg)"
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics.pdf" },
-      { "title": "Plumb Metro", "link": "pdfs/@medication/plumbs-pdf/metronidazole.pdf" }
+      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/rovamet.pdf" },
+      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/metronidazole.pdf" }
     ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
+    "indications"       : ["Инфекции, причинени от чувствителни аеробни и анаеробни бактерии, в частност инфекции в устната кухина: стоматити, гингивити, периодонтални заболявания, пиореа, халитоза."],
+    "contraindications" : ["Да не се използва при свръхчувствителност към активните субстанции."],
+    "drugInteractions"  : ["Продуктът не трябва да се използва едновременно с други антибиотици от макролидната група."],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -2407,7 +2407,7 @@
   {
     "type": "gastrointestinal",
     "title": "Стоморжил 10",
-    "titleEn": "",
+    "titleEn": "Stomorgyl 10",
     "activeSubstance": "метронидазол, спирамицин",
     "drugConcentration": 125,
     "drugConcentrationDecorator": "mg_tabl",
