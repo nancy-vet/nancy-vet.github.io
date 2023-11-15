@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1700065001150,
+  "timestamp": 1700067907065,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -43,7 +43,7 @@
         "/5675.0b4161dc397be24a.js",
         "/5860.3efbf85ece9cabe3.js",
         "/5962.21e1776ad124d265.js",
-        "/6060.d5f13cb25e64ac07.js",
+        "/6060.9ec6bad06d9f8050.js",
         "/6304.e4b7635eb4c08f7c.js",
         "/6642.edf2c27899c4bb57.js",
         "/6673.34b9736f5f39675c.js",
@@ -78,7 +78,7 @@
         "/polyfills-core-js.93f56369317b7a8e.js",
         "/polyfills-dom.516ff539260f3e0d.js",
         "/polyfills.53dd1ba240d556a9.js",
-        "/runtime.498a23166fd15b03.js",
+        "/runtime.c5493602c41c9df8.js",
         "/styles.c9f2210f80c0a313.css"
       ],
       "patterns": []
@@ -526,7 +526,7 @@
     "/5675.0b4161dc397be24a.js": "43f34448c59a4bbdee6197f06e7cb2518710dc2b",
     "/5860.3efbf85ece9cabe3.js": "654adbfbd36db6b88ff4d927cd1d800035ae106b",
     "/5962.21e1776ad124d265.js": "457d0ae9417088a8cacea3015dd23eef85b8cd3f",
-    "/6060.d5f13cb25e64ac07.js": "4ff3e5899f6341698cb6f4ddc6a4e2da1ae9eb5c",
+    "/6060.9ec6bad06d9f8050.js": "94a15c89fc0b3c9ba962154c70f028cb78ac9c94",
     "/6304.e4b7635eb4c08f7c.js": "9f450a04b0cb8b0fe8236faba3cb858803f3fdbe",
     "/6642.edf2c27899c4bb57.js": "eb906a7bda9d2c8f8569a14fec0fa469cf2e4704",
     "/6673.34b9736f5f39675c.js": "7854b665348ac0bff1f102d1c662723e2d929b8f",
@@ -555,7 +555,7 @@
     "/9882.ea8b5b87db23219b.js": "362933e18ad9acda4281ae9f40dbccc536c82f74",
     "/9992.6a25ba51cf497957.js": "9db2e3792bfaa2760373ec5ccad1b0d33d547c10",
     "/assets/collections/gas-analysys.collection.json": "22de8d41d9c3df6e0f7a0938da8645b96cafea29",
-    "/assets/collections/medication.collection.json": "5b49f6a0cd801e73884345c1d67531f87bfa4771",
+    "/assets/collections/medication.collection.json": "9955cd787227cf6e629d11ebe5d3a1814ad1d2f2",
     "/assets/collections/symptoms.collection.json": "3fb24b588c82302457c8b62789075eddbf9fea80",
     "/assets/collections/terms.collection.json": "e18f675513e8236bd0fbe48d5d0b84b4b6ff3ed2",
     "/assets/icon/antibiotics.png": "725ed8b3d2c0e3ab8d4f63ebc3fc6c39be2a79dc",
@@ -952,13 +952,13 @@
     "/assets/pdfs/@medication/urogenital/suprelorin.pdf": "5e087b48429d8e8a24300d59a995efbe9b9d32ba",
     "/assets/shapes.svg": "5413e95adabcb2cb639970051f55e0ddb64ace53",
     "/common.55012b46330bd8a4.js": "ba651510f4ece282c1b70ff05254ba27bb958f74",
-    "/index.html": "25915283815ed96f5228e010b120fd48b6d280fb",
+    "/index.html": "e90af41ca124ecf4a609669c3f2d4a433cca9917",
     "/main.414541d34dc79329.js": "32e4c915e62e68bcbe7083184db302f84b6f4b5b",
     "/manifest.webmanifest": "583b002856e3fb83638e8e4743a46e530863f235",
     "/polyfills-core-js.93f56369317b7a8e.js": "c8e9e4ae48fec22ae530c491f407d01f349509a9",
     "/polyfills-dom.516ff539260f3e0d.js": "cea88d53dd7d9ae658909b54c7bf701b2c796086",
     "/polyfills.53dd1ba240d556a9.js": "962be12ce16b4d6de741a54f40843b51ef3d06f9",
-    "/runtime.498a23166fd15b03.js": "ca019b2ba2e1209fc039a2b1fe945f0f64d4501e",
+    "/runtime.c5493602c41c9df8.js": "f1958ad272ac21e79655339954509e8d1eaa8420",
     "/styles.c9f2210f80c0a313.css": "70933d9ba8432c63bd4361d2dc27a538a6c088c0"
   },
   "navigationUrls": [
