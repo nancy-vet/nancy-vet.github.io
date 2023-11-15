@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1700068240907,
+  "timestamp": 1700088407122,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -63,7 +63,7 @@
         "/8866.1bde3ca7f0d84dc6.js",
         "/9352.b2430281a6c35b28.js",
         "/9588.c2b633d253809c22.js",
-        "/9653.fdf356dd0c33751e.js",
+        "/9653.6d67a8a611212872.js",
         "/9727.cc9ee091fba64b9b.js",
         "/9793.9cd179c3e26aadd6.js",
         "/9820.6507d2470805b7e5.js",
@@ -78,7 +78,7 @@
         "/polyfills-core-js.93f56369317b7a8e.js",
         "/polyfills-dom.516ff539260f3e0d.js",
         "/polyfills.53dd1ba240d556a9.js",
-        "/runtime.a425db3a23f332b5.js",
+        "/runtime.f9f62848ed1cf765.js",
         "/styles.c9f2210f80c0a313.css"
       ],
       "patterns": []
@@ -546,7 +546,7 @@
     "/8866.1bde3ca7f0d84dc6.js": "b91b79b830f3aed36dc8dddbe44abe6bdf33e117",
     "/9352.b2430281a6c35b28.js": "c9d55d573d9f66c2d5d6a013f430c9e01ae614d1",
     "/9588.c2b633d253809c22.js": "0a6f3cd61898a9811ecdd53651b0609910eed892",
-    "/9653.fdf356dd0c33751e.js": "5adaec0f4ca2ff6ac4d23e776bf971c635541909",
+    "/9653.6d67a8a611212872.js": "1edafc720ed47d74b137be6ec94716a2b7c52d21",
     "/9727.cc9ee091fba64b9b.js": "b254ccab6e6196a3f1271d0f10571353b2e43504",
     "/9793.9cd179c3e26aadd6.js": "2c9e952c5825ac54794c68508968f774d2811d74",
     "/9820.6507d2470805b7e5.js": "71dbfa6005de09d0f2db5af7277a3710d9708f83",
@@ -952,13 +952,13 @@
     "/assets/pdfs/@medication/urogenital/suprelorin.pdf": "5e087b48429d8e8a24300d59a995efbe9b9d32ba",
     "/assets/shapes.svg": "5413e95adabcb2cb639970051f55e0ddb64ace53",
     "/common.55012b46330bd8a4.js": "ba651510f4ece282c1b70ff05254ba27bb958f74",
-    "/index.html": "8684b6dd2f0b3906fa44b5dda0b2aada2e8dd565",
+    "/index.html": "9be2039d1de507d6c7140bb1c21190d9db7f2890",
     "/main.414541d34dc79329.js": "32e4c915e62e68bcbe7083184db302f84b6f4b5b",
     "/manifest.webmanifest": "583b002856e3fb83638e8e4743a46e530863f235",
     "/polyfills-core-js.93f56369317b7a8e.js": "c8e9e4ae48fec22ae530c491f407d01f349509a9",
     "/polyfills-dom.516ff539260f3e0d.js": "cea88d53dd7d9ae658909b54c7bf701b2c796086",
     "/polyfills.53dd1ba240d556a9.js": "962be12ce16b4d6de741a54f40843b51ef3d06f9",
-    "/runtime.a425db3a23f332b5.js": "3c89ab2a675eb78b9303035ccd102520f560c607",
+    "/runtime.f9f62848ed1cf765.js": "b43ee4a5e407eca309b424263491458947e7f063",
     "/styles.c9f2210f80c0a313.css": "70933d9ba8432c63bd4361d2dc27a538a6c088c0"
   },
   "navigationUrls": [
