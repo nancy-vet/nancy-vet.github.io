@@ -854,10 +854,10 @@
     "application": {
       "any": {
         "activeSubstanceDose": [
-          11
+          10
         ],
         "activeSubstanceDoseDecorator": "мг/кг",
-        "applicationMethod": "PO q24h или 5,5 мг/кг q12h 7-10 дни"
+        "applicationMethod": "PO q12h 7-10 дни"
       }
     },
     "links": [
@@ -1205,6 +1205,844 @@
     "drugInteractions"  : []
   },
 
+  {
+    "type": "others",
+    "title": "Но-шпа 40 мг табл.",
+    "titleEn": "No-spa 40 mg tabl",
+    "activeSubstance": "дротаверин",
+    "drugConcentration": 40,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1,
+          1.5
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO, SC q12-24h за 5-7 дни"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/others/no-spa-tabl.pdf" }
+    ],
+    "indications"       : ["Дротаверина применяют собакам и кошкам для купирования спазмов гладкой мускулатуры, связанные с заболеваниями: ", "билиарного тракта (холецистолитиаз, холангиолитиаз, холецистит, перихолецистит, холангит, папиллит); ", "мочевыводящих путей (нефролитиаз, уретролитиаз, пиелит, цистит, тенезмы мочевого пузыря);", "гинекологических заболеваниях; желудочно-кишечного тракта (язвенная болезнь желудка и двенадцатиперстной кишки, гастрит, спазмы кардии и привратника, энтерит, колит)."],
+    "contraindications" : ["Не применять при индивидуальной повышенной чувствительности к нестероидным противовоспалительным средствам, нарушениях функций печени, почек, органов кроветворения, при кровопотерях и кровотечениях, язвах желудочно-кишечного тракта, а также беременным и лактирующим самкам. Не использовать совместно с нестероидными противовоспалительными средствами, глюкокортикоидами и антикоагулянтами, а также животным моложе 2-месячного возраста."],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antiinflammatory",
+    "title": "Метилпреднизолон амп. 6,31 мг",
+    "titleEn": "",
+    "activeSubstance": "метилпреднизолон",
+    "drugConcentration": 6.31,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1,
+          2
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "IM"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/metilprednizolon.pdf" },
+      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/methylprednisolone.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antiinflammatory",
+    "title": "Преднизолон Кортико 5 мг табл",
+    "titleEn": "",
+    "activeSubstance": "преднизолон",
+    "drugConcentration": 5,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO"
+      }
+    },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antiinflammatory",
+    "title": "Мелбек 15 мг/ 1,5 мл",
+    "titleEn": "Melbek 15 mg/ 1.5 ml",
+    "activeSubstance": "мелоксикам",
+    "drugConcentration": 10,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          0.2
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO, след първия ден дозата е наполовина"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/melbek-15mg.pdf" },
+      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
+    ],
+    "indications"       : ["osteoarthritis in dogs", "control of postoperative pain when administered prior to surgery"],
+    "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
+    "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти."],
+    "adverseEffects"    : ["vomiting, soft stools, diarrhea, and inappetance", "elevated liver enzymes, pruritus, azotemia, elevated creatinine, and renal failure", " Repeated use of meloxicam in cats had been associated with renal failure and death"],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antiinflammatory",
+    "title": "Мелбек 7.5 табл",
+    "titleEn": "Melbek 7.5 tabl",
+    "activeSubstance": "мелоксикам",
+    "drugConcentration": 7.5,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          0.2
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO, след първия ден дозата е наполовина"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/melbek-7.5mg.pdf" },
+      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
+    ],
+    "indications"       : ["osteoarthritis in dogs", "control of postoperative pain when administered prior to surgery"],
+    "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
+    "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти."],
+    "adverseEffects"    : ["vomiting, soft stools, diarrhea, and inappetance", "elevated liver enzymes, pruritus, azotemia, elevated creatinine, and renal failure", " Repeated use of meloxicam in cats had been associated with renal failure and death"],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antiinflammatory",
+    "title": "Мелбек 15 мг табл.",
+    "titleEn": "Melbek 15 tabl",
+    "activeSubstance": "мелоксикам",
+    "drugConcentration": 15,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          0.2
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO, след първия ден дозата е наполовина"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/melbek-15mg.pdf" },
+      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
+    ],
+    "indications"       : ["osteoarthritis in dogs", "control of postoperative pain when administered prior to surgery"],
+    "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
+    "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти."],
+    "adverseEffects"    : ["vomiting, soft stools, diarrhea, and inappetance", "elevated liver enzymes, pruritus, azotemia, elevated creatinine, and renal failure", " Repeated use of meloxicam in cats had been associated with renal failure and death"],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antiinflammatory",
+    "title": "Мовалис",
+    "titleEn": "Movalis",
+    "activeSubstance": "мелоксикам",
+    "drugConcentration": 15,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          0.2
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO, след първия ден дозата е наполовина"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/movalis.pdf" },
+      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
+    ],
+    "indications"       : ["osteoarthritis in dogs", "control of postoperative pain when administered prior to surgery"],
+    "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
+    "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти."],
+    "adverseEffects"    : ["vomiting, soft stools, diarrhea, and inappetance", "elevated liver enzymes, pruritus, azotemia, elevated creatinine, and renal failure", " Repeated use of meloxicam in cats had been associated with renal failure and death"],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Алергозан 10 мг/мл",
+    "titleEn": "Alergozan",
+    "activeSubstance": "хлоропирамин",
+    "drugConcentration": 10,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "ml",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/others/alergozan.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Дицинон 250 мг/ 2 мл",
+    "titleEn": "Dicynone 250 mg/ 2 ml",
+    "activeSubstance": "етамзилат",
+    "drugConcentration": 125,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          5,
+          10
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "SC"
+      }
+    },
+    "links": [
+      { "title": "листовка",      "link": "pdfs/@medication/others/dicinon.pdf" },
+      { "title": "листовка ВМП",  "link": "pdfs/@medication/others/etamzilat-report.pdf" }
+    ],
+    "indications"       : ["кръвотечения"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : ["Има бърза фармакокинетика (3-4 часа)."]
+  },
+  {
+    "type": "antiparasitic",
+    "title": "Еспакокс 50 мг/мл",
+    "titleEn": "Espacox 50 mg/ml",
+    "activeSubstance": "толтразурил",
+    "drugConcentration": 50,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          15
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO q24h 3-6 days (Plumb)"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          30
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO q24h 2-3 days (Plumb)"
+      }
+    },
+    "links": [
+      { "title": "листовка",      "link": "pdfs/@medication/antiparasitic/espacox.pdf" },
+      { "title": "Plumb",  "link": "pdfs/@medication/plumbs-pdf/toltrazuril.pdf" }
+    ],
+    "indications"       : ["за лечение на кокцидиоза", "oocyst shedding stage of toxoplasmosis in cats"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : ["Toltrazuril has activity against Hepatozoon, Isospora, Sarcocystis, Toxoplasma, and all intracellular stages of coccidia."]
+  },
+  {
+    "type": "others",
+    "title": "Глюкоза амп. 400 мг/ мл",
+    "titleEn": "",
+    "activeSubstance": "глюкоза",
+    "drugConcentration": 400,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "ml",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/others/glukoza-400mg-ml-amp.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Витамин Ц Софарма 100 мг/мл",
+    "titleEn": "",
+    "activeSubstance": "витамин Ц",
+    "drugConcentration": 1000,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "ml",
+        "applicationMethod": "PO"
+      }
+    },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "eyes",
+    "title": "Сперсадекс капки за очи 5 мл",
+    "titleEn": "",
+    "activeSubstance": "хлорамфеникол, дексаметазон",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "-",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/eyes/spersadeks.pdf" },
+      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/chloramphenicol.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Терцеф 1 г",
+    "titleEn": "",
+    "activeSubstance": "цефтриаксон",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "-",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/ceftriaxone.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Медаксон инж. р-р 1г",
+    "titleEn": "",
+    "activeSubstance": "цефтриаксон",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "-",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/others/medaxon.pdf" },
+      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/ceftriaxone.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "eyes",
+    "title": "Алкаин 5 мг/мл",
+    "titleEn": "",
+    "activeSubstance": "",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "-",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/eyes/alkain.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : []
+  },
+
+  {
+    "type": "others",
+    "title": "Кортинеф 0,1 мг табл.",
+    "titleEn": "",
+    "activeSubstance": "флуорокортизон",
+    "drugConcentration": 0.1,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Вертигохил",
+    "titleEn": "",
+    "activeSubstance": "",
+    "drugConcentration": 0,
+    "drugConcentrationDecorator": "-",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/others/vertigohil.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Медоклав",
+    "titleEn": "",
+    "activeSubstance": "амоксицилин, клавуланова киселина",
+    "drugConcentration": 1000,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          12.5
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/others/medoklav.pdf" },
+      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Бетазон 1 mg/g крем",
+    "titleEn": "",
+    "activeSubstance": "бетаметазон",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "mg_g",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/others/betazon.pdf" },
+      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/bethamethasone.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Бетазон Трио",
+    "titleEn": "",
+    "activeSubstance": "бетаметазон, клотримазол, гентамицин",
+    "drugConcentration": 10,
+    "drugConcentrationDecorator": "IU_ml",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/others/betazontrio.pdf" },
+      { "title": "Plumb Bethamethasone", "link": "pdfs/@medication/plumbs-pdf/bethamethasone.pdf" },
+      { "title": "Plumb Gentamicin", "link": "pdfs/@medication/plumbs-pdf/gentamicin.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Гентазон колир 5 мл",
+    "titleEn": "",
+    "activeSubstance": "",
+    "drugConcentration": 10,
+    "drugConcentrationDecorator": "IU_ml",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/others/gentazon.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "eyes",
+    "title": "Тобрин капки за очи",
+    "titleEn": "",
+    "activeSubstance": "тобрамицин",
+    "drugConcentration": 0,
+    "drugConcentrationDecorator": "-",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/eyes/tobrin.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "eyes",
+    "title": "Декс-Тобрин капки за очи",
+    "titleEn": "",
+    "activeSubstance": "тобрамицин, дексаметазон",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "-",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/eyes/dex-tobrin.pdf" },
+      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/dexamethasone.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "gastrointestinal",
+    "title": "Дуфалак 67 г перорален р-р",
+    "titleEn": "",
+    "activeSubstance": "лактулоза",
+    "drugConcentration": 670,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/dufalak.pdf" },
+      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/lactulose.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "eyes",
+    "title": "Гентамицин Вижън 3мг/г маз за очи",
+    "titleEn": "",
+    "activeSubstance": "гентамицин",
+    "drugConcentration": 3,
+    "drugConcentrationDecorator": "mg_g",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/eyes/gentamicin-vision-maz.pdf" },
+      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/gentamicin.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "eyes",
+    "title": "ОФТАГЕЛ гел за очи 2.5 мг/г",
+    "titleEn": "",
+    "activeSubstance": "карбомер",
+    "drugConcentration": 2.5,
+    "drugConcentrationDecorator": "mg_g",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/eyes/oftagel.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "eyes",
+    "title": "Корнерегел 5% гел за очи",
+    "titleEn": "",
+    "activeSubstance": "",
+    "drugConcentration": 50,
+    "drugConcentrationDecorator": "mg_g",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/eyes/korneregel.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antibiotics",
+    "title": "Комбизим 10 мл",
+    "titleEn": "",
+    "activeSubstance": "",
+    "drugConcentration": 10,
+    "drugConcentrationDecorator": "IU_ml",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Т 61",
+    "titleEn": "",
+    "activeSubstance": "",
+    "drugConcentration": 10,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0.3,
+          0.5
+        ],
+        "activeSubstanceDoseDecorator": "ml_kg",
+        "applicationMethod": "IV"
+      }
+    },
+    "indications"       : ["За евтаназия на кучета,котки,говеда,коне,свине,овце,кози,зайци,птици."],
+    "contraindications" : ["Не се разрешава за употреба при животни,предназначени за човешка консумация.Животните, които са евтаназирани с Т 61 са обект на Националните закони за рискови/опасни материали."],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Амониев хлорид (нишадър)",
+    "titleEn": "",
+    "activeSubstance": "амониев хлорид",
+    "drugConcentration": 20,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/ammonium-chloride.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antibiotics",
+    "title": "Уназин 1,5 г/ 20 мл",
+    "titleEn": "",
+    "activeSubstance": "ампицилин (1000 мг), сулбактам (500 мг)",
+    "drugConcentration": 75,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/antibiotics/unazin.pdf" },
+      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/ampicillin-sulbactam.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Хуск Псилиум",
+    "titleEn": "Husk Psylium",
+    "activeSubstance": "Люспи от семената на бял живовляк",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "mg_g",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0.25,
+          4.9
+        ],
+        "activeSubstanceDoseDecorator": "g_kg",
+        "applicationMethod": "PO q24h"
+      }
+    },
+    "links": [
+      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/psyllium.pdf" }
+    ],
+    "indications"       : ["Psyllium, which is derived from seeds of Plantago spp plants, provides predominantly soluble dietary fiber that can increase digesta viscosity or form mucilaginous gels in water at sufficient concentration.11 Psyllium is less rapidly fermented in the colon compared with other soluble dietary fiber, which benefits the distal colon by allowing fermentation to occur there.", "Psyllium increases concentrations of short-chain fatty acids, which are beneficial in restoring microbial balance and acidifying colonic contents.", "Patients with no change after receiving doses at the upper end of the published effective range (ie, 4.9 g/kg q24h) are considered nonresponsive.", "Typically start with the lower dose, dividing the dose over daily meals, and increase the dose slowly as needed.", "Изсипете предписаното количество в чаша вода (сок, кисело мляко), разбъркайте енергично и изпийте веднага. Приема се 30 минути преди хранене"],
+    "contraindications" : ["constipation is a result a too little fiber in their diets or when straining to defecate may be deleterious", "used to increase stool consistency in patients with chronic, watery diarrhea. The total amount of water in the stool remains unchanged."],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
 
 
 
@@ -1224,7 +2062,7 @@
   {
     "type": "gastrointestinal",
     "title": "Церения 10 мг/мл",
-    "titleEn": "",
+    "titleEn": "Cerenia 10 mg/ml",
     "activeSubstance": "маропитант",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_ml",
@@ -1251,7 +2089,7 @@
   {
     "type": "gastrointestinal",
     "title": "Превомакс 10 мг/мл",
-    "titleEn": "",
+    "titleEn": "Prevomax 10 mg/ml",
     "activeSubstance": "маропитант",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_ml",
@@ -1277,7 +2115,7 @@
   {
     "type": "gastrointestinal",
     "title": "Деган 10 мг/ 2 мл",
-    "titleEn": "",
+    "titleEn": "Degan 10 mg/ 2 ml",
     "activeSubstance": "метоклопрамид",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "mg_ml",
@@ -1429,11 +2267,11 @@
   },
   {
     "type": "gastrointestinal",
-    "title": "Квамател 20 мг/ 5 мл?",
-    "titleEn": "",
+    "title": "Квамател 20 мг/ 5 мл",
+    "titleEn": "Quamatel 20 mg/ 5 ml",
     "activeSubstance": "фамотидин",
-    "drugConcentration": 24,
-    "drugConcentrationDecorator": "mg_tabl",
+    "drugConcentration": 4,
+    "drugConcentrationDecorator": "mg_ml",
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -1734,6 +2572,9 @@
         "applicationMethod": ""
       }
     },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -1753,6 +2594,9 @@
         "applicationMethod": "на ден"
       }
     },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -1772,6 +2616,9 @@
         "applicationMethod": "q24h (лечение) или 2-3 пъти седмично (профилактика)"
       }
     },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -1968,6 +2815,9 @@
         "applicationMethod": "IM SC"
       }
     },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -1994,6 +2844,9 @@
         "applicationMethod": "на ден"
       }
     },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -2013,6 +2866,9 @@
         "applicationMethod": "PO"
       }
     },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -2506,15 +3362,15 @@
   {
     "type": "cardiovascular",
     "title": "Манитол 15%",
-    "titleEn": "",
+    "titleEn": "Mannitol 15%",
     "activeSubstance": "манитол",
     "drugConcentration": 150,
     "drugConcentrationDecorator": "mg_ml",
     "application": {
       "any": {
         "activeSubstanceDose": [
-          0.5,
-          1
+          500,
+          1000
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
         "applicationMethod": "ИВ на 8, 12 или 24 ч, много бавно се прилага!"
@@ -2523,37 +3379,44 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/cardiovascular/mannitol.pdf" }
     ],
-    "indications"       : [],
-    "contraindications" : [],
+    "indications"       : ["Osmotic diuretic used for acute oliguric renal failure, to reduce intraocular & intracere bral pressures, to enhance urinary excretion of some toxins &, with other diuretics, to rapidly reduce edema or ascites (caution)"],
+    "contraindications" : ["Anuria secondary to renal disease, severe dehydration, intracranial bleeding (unless during craniotomy), severe pulmonary congestion, or pulmonary edema"],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["Fluid & electrolyte imbalances, gI (nausea, vomiting), cardiovascu lar (pulmonary edema, CHF, tachycardia), & CNs effects (dizziness, headache, etc.)"],
     "pharmacology"      : []
   },
   {
     "type": "urogenital",
     "title": "Ноновулин – 10 мг/ табл.",
-    "titleEn": "",
+    "titleEn": "Nonovulin",
     "activeSubstance": "мегестролов ацетат",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_tabl",
     "application": {
-      "any": {
+      "dog": {
         "activeSubstanceDose": [
           1,
           2
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO. Първо 3 дни - 1-2 mg_kg, после 7 дни 0,5-1"
+        "applicationMethod": "PO 3 дни, после по 0,5-1 мг/кг в следващите 7 дни"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          5
+        ],
+        "activeSubstanceDoseDecorator": "mg",
+        "applicationMethod": "PO за 8 последователни дни"
       }
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/urogenital/nonovulin.pdf" },
       { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/megestrol-acetate.pdf" }
     ],
-    "indications"       : [],
-    "contraindications" : [],
+    "indications"       : ["За прекъсване и отлагане на еструса при кучета и котки; за успокояване на сексуално възбудени мъжки кучета и котараци (сатириазис); при котки се препоръчва за успешно лечение на милиарен дерматит и еозинофилен гранулом."],
+    "contraindications" : ["pregnant animals, diabetes mellitus, or mammary neoplasias", "Do not use in dogs prior to their first estrous cycle"],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["adrenocortical suppression, adrenal atrophy", "diabetes mellitus", "increased appetite and weight gain, lethargy, change in behavior or hair color, mucometra, endometritis, cystic endometrial hyperplasia, mammary enlargement and neoplasia, acromegaly"],
     "pharmacology"      : []
   },
   {
@@ -2650,6 +3513,9 @@
         "applicationMethod": "SC в областта на врата или бедрото"
       }
     },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -2825,6 +3691,9 @@
         "applicationMethod": "на ЖВ, профилактика: qd/ лечение: q12h за 5-7 дни"
       }
     },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -2844,6 +3713,9 @@
         "applicationMethod": "чрез разклащане и приложение PO или върху храната"
       }
     },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -2863,6 +3735,9 @@
         "applicationMethod": "PO"
       }
     },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -2882,6 +3757,9 @@
         "applicationMethod": "2-3 пъти на ден"
       }
     },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -2901,6 +3779,9 @@
         "applicationMethod": "q24h"
       }
     },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -3246,6 +4127,9 @@
         "applicationMethod": "бавно венозно"
       }
     },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -3292,6 +4176,9 @@
         "applicationMethod": "IV IM"
       }
     },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -3311,6 +4198,9 @@
         "applicationMethod": "на ден"
       }
     },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -3330,6 +4220,9 @@
         "applicationMethod": "PO 3 пъти на ден за 1 месец (q8h)"
       }
     },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -5077,32 +5970,6 @@
   },
   {
     "type": "antiinflammatory",
-    "title": "Мелбек ФОРТ табл. 15 мг",
-    "titleEn": "",
-    "activeSubstance": "дексаметазон",
-    "drugConcentration": 15,
-    "drugConcentrationDecorator": "mg_tabl",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          0.1
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO на 24 часа"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/melbek.pdf" },
-      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/dexamethasone.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "antiinflammatory",
     "title": "Аналгин 30%",
     "titleEn": "",
     "activeSubstance": "метамизол натрий",
@@ -5297,6 +6164,9 @@
         "applicationMethod": "дневно"
       }
     },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -5317,6 +6187,9 @@
         "applicationMethod": "на ден за минимум 7 дни (при отравяне с кумарини)"
       }
     },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -5336,6 +6209,9 @@
         "applicationMethod": "два пъти дневно (КЧ <15 кг)"
       }
     },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -5381,6 +6257,9 @@
         "applicationMethod": "КЧ (за кученца е 1/2 ампула)"
       }
     },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -5471,771 +6350,6 @@
     ],
     "indications"       : [],
     "contraindications" : [],
-    "drugInteractions"  : []
-  },
-
-
-
-
-  {
-    "type": "others",
-    "title": "Но-спа 40 мг табл.",
-    "titleEn": "",
-    "activeSubstance": "дротаверин",
-    "drugConcentration": 40,
-    "drugConcentrationDecorator": "mg_tabl",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          0
-        ],
-        "activeSubstanceDoseDecorator": "tabl",
-        "applicationMethod": "-"
-      }
-    },
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "antiinflammatory",
-    "title": "Метилпреднизолон амп. 6,31 мг",
-    "titleEn": "",
-    "activeSubstance": "метилпреднизолон",
-    "drugConcentration": 6.31,
-    "drugConcentrationDecorator": "mg_ml",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          1,
-          2
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IM"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/metilprednizolon.pdf" },
-      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/methylprednisolone.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "antiinflammatory",
-    "title": "Преднизолон Кортико 5 мг табл",
-    "titleEn": "",
-    "activeSubstance": "преднизолон",
-    "drugConcentration": 5,
-    "drugConcentrationDecorator": "mg_tabl",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO"
-      }
-    },
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "antiinflammatory",
-    "title": "Мелбек 7.5 табл",
-    "titleEn": "",
-    "activeSubstance": "мелоксикам",
-    "drugConcentration": 7.5,
-    "drugConcentrationDecorator": "mg_tabl",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          0.2
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO, след първия ден дозата е наполовина"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/melbek-7.5mg.pdf" },
-      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "antiinflammatory",
-    "title": "Мелбек 15 мг табл.",
-    "titleEn": "",
-    "activeSubstance": "мелоксикам",
-    "drugConcentration": 15,
-    "drugConcentrationDecorator": "mg_tabl",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          0.2
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO, след първия ден дозата е наполовина"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/melbek-15mg.pdf" },
-      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "antiinflammatory",
-    "title": "Мовалис",
-    "titleEn": "",
-    "activeSubstance": "мелоксикам",
-    "drugConcentration": 15,
-    "drugConcentrationDecorator": "mg_tabl",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          0.2
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO, след първия ден дозата е наполовина"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/movalis.pdf" },
-      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "others",
-    "title": "Алергозан 10 мг/мл",
-    "titleEn": "",
-    "activeSubstance": "хлоропирамин",
-    "drugConcentration": 10,
-    "drugConcentrationDecorator": "mg_ml",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "-"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/others/alergozan.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "others",
-    "title": "Дицинон 250 мг/ 2 мл",
-    "titleEn": "",
-    "activeSubstance": "етамзилат",
-    "drugConcentration": 125,
-    "drugConcentrationDecorator": "mg_ml",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          5,
-          10
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "SC"
-      }
-    },
-    "links": [
-      { "title": "листовка",      "link": "pdfs/@medication/others/dicinon.pdf" },
-      { "title": "листовка ВМП",  "link": "pdfs/@medication/others/etamzilat-report.pdf" }
-    ],
-    "indications"       : ["кръвотечения", "Има бърза фармакокинетика (3-4 часа)."],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "others",
-    "title": "Глюкоза амп. 400 мг/ мл",
-    "titleEn": "",
-    "activeSubstance": "глюкоза",
-    "drugConcentration": 400,
-    "drugConcentrationDecorator": "mg_ml",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "-"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/others/glukoza-400mg-ml-amp.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "others",
-    "title": "Витамин Ц Софарма 100 мг/мл",
-    "titleEn": "",
-    "activeSubstance": "витамин Ц",
-    "drugConcentration": 1000,
-    "drugConcentrationDecorator": "mg_ml",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "PO"
-      }
-    },
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "eyes",
-    "title": "Сперсадекс капки за очи 5 мл",
-    "titleEn": "",
-    "activeSubstance": "хлорамфеникол, дексаметазон",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "-",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/eyes/spersadeks.pdf" },
-      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/chloramphenicol.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "others",
-    "title": "Терцеф 1 г",
-    "titleEn": "",
-    "activeSubstance": "цефтриаксон",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "-",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
-      }
-    },
-    "links": [
-      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/ceftriaxone.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "others",
-    "title": "Медаксон инж. р-р 1г",
-    "titleEn": "",
-    "activeSubstance": "цефтриаксон",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "-",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/others/medaxon.pdf" },
-      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/ceftriaxone.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "eyes",
-    "title": "Алкаин 5 мг/мл",
-    "titleEn": "",
-    "activeSubstance": "",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "-",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/eyes/alkain.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : []
-  },
-
-  {
-    "type": "others",
-    "title": "Кортинеф 0,1 мг табл.",
-    "titleEn": "",
-    "activeSubstance": "флуорокортизон",
-    "drugConcentration": 0.1,
-    "drugConcentrationDecorator": "mg_tabl",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
-      }
-    },
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "others",
-    "title": "Вертигохил",
-    "titleEn": "",
-    "activeSubstance": "",
-    "drugConcentration": 0,
-    "drugConcentrationDecorator": "-",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/others/vertigohil.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "others",
-    "title": "Медоклав",
-    "titleEn": "",
-    "activeSubstance": "амоксицилин, клавуланова киселина",
-    "drugConcentration": 1000,
-    "drugConcentrationDecorator": "mg_tabl",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          12.5
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/others/medoklav.pdf" },
-      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "others",
-    "title": "Бетазон 1 mg/g крем",
-    "titleEn": "",
-    "activeSubstance": "бетаметазон",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "mg_g",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/others/betazon.pdf" },
-      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/bethamethasone.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "others",
-    "title": "Бетазон Трио",
-    "titleEn": "",
-    "activeSubstance": "бетаметазон, клотримазол, гентамицин",
-    "drugConcentration": 10,
-    "drugConcentrationDecorator": "IU_ml",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/others/betazontrio.pdf" },
-      { "title": "Plumb Bethamethasone", "link": "pdfs/@medication/plumbs-pdf/bethamethasone.pdf" },
-      { "title": "Plumb Gentamicin", "link": "pdfs/@medication/plumbs-pdf/gentamicin.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "others",
-    "title": "Гентазон колир 5 мл",
-    "titleEn": "",
-    "activeSubstance": "",
-    "drugConcentration": 10,
-    "drugConcentrationDecorator": "IU_ml",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/others/gentazon.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "eyes",
-    "title": "Тобрин капки за очи",
-    "titleEn": "",
-    "activeSubstance": "тобрамицин",
-    "drugConcentration": 0,
-    "drugConcentrationDecorator": "-",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/eyes/tobrin.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "eyes",
-    "title": "Декс-Тобрин капки за очи",
-    "titleEn": "",
-    "activeSubstance": "тобрамицин, дексаметазон",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "-",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/eyes/dex-tobrin.pdf" },
-      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/dexamethasone.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "gastrointestinal",
-    "title": "Дуфалак 67 г перорален р-р",
-    "titleEn": "",
-    "activeSubstance": "лактулоза",
-    "drugConcentration": 670,
-    "drugConcentrationDecorator": "mg_ml",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/dufalak.pdf" },
-      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/lactulose.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "eyes",
-    "title": "Гентамицин Вижън 3мг/г маз за очи",
-    "titleEn": "",
-    "activeSubstance": "гентамицин",
-    "drugConcentration": 3,
-    "drugConcentrationDecorator": "mg_g",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/eyes/gentamicin-vision-maz.pdf" },
-      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/gentamicin.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "eyes",
-    "title": "ОФТАГЕЛ гел за очи 2.5 мг/г",
-    "titleEn": "",
-    "activeSubstance": "карбомер",
-    "drugConcentration": 2.5,
-    "drugConcentrationDecorator": "mg_g",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/eyes/oftagel.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "eyes",
-    "title": "Корнерегел 5% гел за очи",
-    "titleEn": "",
-    "activeSubstance": "",
-    "drugConcentration": 50,
-    "drugConcentrationDecorator": "mg_g",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/eyes/korneregel.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "antibiotics",
-    "title": "Комбизим 10 мл",
-    "titleEn": "",
-    "activeSubstance": "",
-    "drugConcentration": 10,
-    "drugConcentrationDecorator": "IU_ml",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
-      }
-    },
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "others",
-    "title": "Т 61",
-    "titleEn": "",
-    "activeSubstance": "",
-    "drugConcentration": 10,
-    "drugConcentrationDecorator": "same",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          0.3,
-          0.5
-        ],
-        "activeSubstanceDoseDecorator": "ml_kg",
-        "applicationMethod": "IV"
-      }
-    },
-    "indications"       : ["За евтаназия на кучета,котки,говеда,коне,свине,овце,кози,зайци,птици."],
-    "contraindications" : ["Не се разрешава за употреба при животни,предназначени за човешка консумация.Животните, които са евтаназирани с Т 61 са обект на Националните закони за рискови/опасни материали."],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "others",
-    "title": "Амониев хлорид (нишадър)",
-    "titleEn": "",
-    "activeSubstance": "амониев хлорид",
-    "drugConcentration": 20,
-    "drugConcentrationDecorator": "same",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          0
-        ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
-      }
-    },
-    "links": [
-      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/ammonium-chloride.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "antibiotics",
-    "title": "Уназин 1,5 г/ 20 мл",
-    "titleEn": "",
-    "activeSubstance": "ампицилин (1000 мг), сулбактам (500 мг)",
-    "drugConcentration": 75,
-    "drugConcentrationDecorator": "mg_ml",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          0
-        ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/unazin.pdf" },
-      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/ampicillin-sulbactam.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "others",
-    "title": "Хуск Псилиум",
-    "titleEn": "Husk Psylium",
-    "activeSubstance": "Люспи от семената на бял живовляк",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "mg_g",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          0.25,
-          4.9
-        ],
-        "activeSubstanceDoseDecorator": "g_kg",
-        "applicationMethod": "PO q24h"
-      }
-    },
-    "links": [
-      { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/psyllium.pdf" }
-    ],
-    "indications"       : ["Psyllium, which is derived from seeds of Plantago spp plants, provides predominantly soluble dietary fiber that can increase digesta viscosity or form mucilaginous gels in water at sufficient concentration.11 Psyllium is less rapidly fermented in the colon compared with other soluble dietary fiber, which benefits the distal colon by allowing fermentation to occur there.", "Psyllium increases concentrations of short-chain fatty acids, which are beneficial in restoring microbial balance and acidifying colonic contents.", "Patients with no change after receiving doses at the upper end of the published effective range (ie, 4.9 g/kg q24h) are considered nonresponsive.", "Typically start with the lower dose, dividing the dose over daily meals, and increase the dose slowly as needed.", "Изсипете предписаното количество в чаша вода (сок, кисело мляко), разбъркайте енергично и изпийте веднага. Приема се 30 минути преди хранене"],
-    "contraindications" : ["constipation is a result a too little fiber in their diets or when straining to defecate may be deleterious", "used to increase stool consistency in patients with chronic, watery diarrhea. The total amount of water in the stool remains unchanged."],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
