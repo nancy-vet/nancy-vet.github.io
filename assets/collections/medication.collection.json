@@ -417,7 +417,7 @@
     "type": "skin",
     "title": "Теранекрон Д6",
     "titleEn": "Theranekron D6",
-    "activeSubstance": "екстракт отрова тарантула",
+    "activeSubstance": "екстракт отрова от тарантула",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
@@ -441,7 +441,7 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/skin/teranekron.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["Септични състояния, супурация на кожата, възпалително заболяване на нокътя (панарициум), флегмони, кожни язви, карбункули, циреи, гнойно-некротични процеси и за демаркация на патологично променени тъкани при всички видове животни, за които продуктът е предназначен."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -461,7 +461,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "SC, IM, IV"
+        "applicationMethod": "SC, IM, IV (3.5 мг/кг)"
       },
       "cat": {
         "activeSubstanceDose": [
@@ -469,17 +469,17 @@
           0.25
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "SC, IM, IV"
+        "applicationMethod": "SC, IM, IV (3.5 мг/кг)"
       }
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/others/vitamin-b1-amp.pdf" },
       { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/thiamine.pdf" }
     ],
-    "indications"       : ["При периферни парализи, неврити и невралгии;", "при сърдечни и чернодробни увреждания; при дерматити;", "като спомагателен препарат при заразни заболявания; ", "при вътрешно прилагане на сулфаниламиди, нитрофуранови съединения и антибиотици; "],
+    "indications"       : ["A “B” vitamin used for treatment or prevention of thiamine deficiency. May be useful for adjunctive treatment of lead poisoning & ethylene glycol toxicity. Clinical signs of thiamine deficiency may be manifested as gastrointestinal (anorexia, salivation), neuromuscular/CNS signs (ataxia, seizures, loss of reflexes), or cardiac effects (brady- or tachyarrhythmias).","При периферни парализи, неврити и невралгии;", "при сърдечни и чернодробни увреждания; при дерматити;", "като спомагателен препарат при заразни заболявания; ", "при вътрешно прилагане на сулфаниламиди, нитрофуранови съединения и антибиотици; "],
     "contraindications" : [],
     "drugInteractions"  : ["Витамин Б1 може да усили действието на нервно-мускулните блокатори. Не се препоръчва едновременното прилагане в една спринцовка или инфузионен разтвор на вит. Б1 с вит. Б12 поради прякото разграждащо витамините действие на кобалта във вит. Б12.", " При предозиране, особено при венозно вкарване може да предизвика шокови явления (“тиаминов шок”). При въвеждане на много високи дози (LD50 е 350 mg/ml) се наблюдава нервно-мускулна блокада при животните; хипотензия и учестено дишане."],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["При предозиране, особено при венозно вкарване може да предизвика шокови явления (“тиаминов шок”). При въвеждане на много високи дози (LD50 е 350 mg/ml) се наблюдава нервно-мускулна блокада при животните; хипотензия и учестено дишане."],
     "pharmacology"      : []
   },
   {
@@ -496,25 +496,26 @@
           1.5
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "SC, IM"
+        "applicationMethod": "SC once weekly for 6 weeks, one more dose a month later"
       },
       "cat": {
         "activeSubstanceDose": [
-          0
+          0.3,
+          0.5
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "SC, IM"
+        "applicationMethod": "SC once weekly for 6 weeks, one more dose a month later"
       }
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/others/vitamin-b12-amp.pdf" },
       { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/cyanocobalamin.pdf" }
     ],
-    "indications"       : ["Средна доза - 2 мкг/кг", "In cases of hyperchromatic, macrocytic and hypoplastic anemias; secondary anemias due to pregnancy, helminthoses, haemosporidioses; in heavy metal intoxications, benzene and organochlorine insecticides products; for therapy and prevention of liver degeneration, neuritis, myelitis, neuralgia; radiation sickness; at feed poisoning; for improvement of digestion; as a stimulating growth factor in adolescent animals; for increased food consumption; at runts. "],
+    "indications"       : ["Средна доза - 2 мкг/кг", "In cases of hyperchromatic, macrocytic and hypoplastic anemias; secondary anemias due to pregnancy, helminthoses, haemosporidioses; in heavy metal intoxications, benzene and organochlorine insecticides products; for therapy and prevention of liver degeneration, neuritis, myelitis, neuralgia; radiation sickness; at feed poisoning; for improvement of digestion; as a stimulating growth factor in adolescent animals; for increased food consumption; at runts."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
-    "pharmacology"      : []
+    "pharmacology"      : ["there appears to be a high percentage of cats with exocrine pancreatic insufficiency or gastrointestinal disease that are deficient in cobalamin"]
   },
   {
     "type": "nervous",
@@ -544,8 +545,8 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/nervous/buscolizin.pdf" }
     ],
-    "indications"       : [],
-    "contraindications" : [],
+    "indications"       : ["При спазми на червата, жлъчните и пикочните пътища, придружени с колики, при остро запушване на хранопровода; при спазми на маточната шийка през време на раждане; при начален аборт."],
+    "contraindications" : [" Механични стенози на стомашно-чревния тракт, глаукома, тахикардия. Да не се използва при свръхчувствителност към активната субстанция или към някой от ексципиентите."],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
@@ -802,10 +803,10 @@
     "application": {
       "any": {
         "activeSubstanceDose": [
-          11
+          10
         ],
         "activeSubstanceDoseDecorator": "мг/кг",
-        "applicationMethod": "PO q24h или 5,5 мг/кг q12h 7-10 дни"
+        "applicationMethod": "PO q12h 7-10 дни"
       }
     },
     "links": [
@@ -813,9 +814,9 @@
       { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/clindamycin.pdf" }
     ],
     "indications"       : ["Котки: лечение на инфектирани рани и абсцеси, причинени от Staphylococcus spp. и Streptococcus spp., чувствителни на клиндамицин.", "Кучета:", "– лечение на инфектирани рани, абсцеси и инфекции на устната кухина и зъбите, причинени или свързани със Staphylococcus spp., Streptococcus spp., Bacteroides spp., Fusobacterium necrophorum, Clostridium perfringens, чувствителни на клиндамицин;", "– допълнителна терапия при механични или хирургични периодонтални интервенции при лечение на инфекции на гингивалните и периодонталните тъкани;", "– лечение на остеомиелит, причинен от Staphylococcus aureus."],
-    "contraindications" : ["Клиндамицинът не трябва да се прилага на хамстери, морски свинчета, зайци, чинчили, коне и преживни животни, защото може да причини сериозни смущения в храносмилането при тези видове."],
+    "contraindications" : ["in patients with known hypersensitivity to it or lincomycin.", "Patients with very severe renal and/or hepatic disease.", "Клиндамицинът не трябва да се прилага на хамстери, морски свинчета, зайци, чинчили, коне и преживни животни, защото може да причини сериозни смущения в храносмилането при тези видове."],
     "drugInteractions"  : ["НЕ ИЗПОЛЗВАЙ клиндамицин с хлорамфеникол, макролиди и аминогликозиди!", "Алуминиевите соли могат да намалят резорбцията на клиндамицина."],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["Gastroenteritis, Esophagitis occurring in cats when solid dosage forms were given without food or a water bolus, hypersalivation or lip smacking"],
     "pharmacology"      : []
   },
   {
@@ -846,10 +847,10 @@
   {
     "type": "antibiotics",
     "title": "Далацин Ц 150",
-    "titleEn": "",
+    "titleEn": "Dalacin C 150",
     "activeSubstance": "клиндамицин",
     "drugConcentration": 150,
-    "drugConcentrationDecorator": "same",
+    "drugConcentrationDecorator": "mg_tabl",
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -864,15 +865,15 @@
       { "title": "Plumb", "link": "pdfs/@medication/plumbs-pdf/clindamycin.pdf" }
     ],
     "indications"       : ["Котки: лечение на инфектирани рани и абсцеси, причинени от Staphylococcus spp. и Streptococcus spp., чувствителни на клиндамицин.", "Кучета:", "– лечение на инфектирани рани, абсцеси и инфекции на устната кухина и зъбите, причинени или свързани със Staphylococcus spp., Streptococcus spp., Bacteroides spp., Fusobacterium necrophorum, Clostridium perfringens, чувствителни на клиндамицин;", "– допълнителна терапия при механични или хирургични периодонтални интервенции при лечение на инфекции на гингивалните и периодонталните тъкани;", "– лечение на остеомиелит, причинен от Staphylococcus aureus."],
-    "contraindications" : ["Клиндамицинът не трябва да се прилага на хамстери, морски свинчета, зайци, чинчили, коне и преживни животни, защото може да причини сериозни смущения в храносмилането при тези видове."],
+    "contraindications" : ["in patients with known hypersensitivity to it or lincomycin.", "Patients with very severe renal and/or hepatic disease.", "Клиндамицинът не трябва да се прилага на хамстери, морски свинчета, зайци, чинчили, коне и преживни животни, защото може да причини сериозни смущения в храносмилането при тези видове."],
     "drugInteractions"  : ["НЕ ИЗПОЛЗВАЙ клиндамицин с хлорамфеникол, макролиди и аминогликозиди!", "Алуминиевите соли могат да намалят резорбцията на клиндамицина."],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["Gastroenteritis, Esophagitis occurring in cats when solid dosage forms were given without food or a water bolus, hypersalivation or lip smacking"],
     "pharmacology"      : []
   },
   {
     "type": "antibiotics",
     "title": "Азитрокс",
-    "titleEn": "",
+    "titleEn": "Azitrox",
     "activeSubstance": "азитромицин",
     "drugConcentration": 250,
     "drugConcentrationDecorator": "mg_tabl",
@@ -949,7 +950,7 @@
   {
     "type": "antibiotics",
     "title": "Флажил 250 мг табл.",
-    "titleEn": "",
+    "titleEn": "Flagyl 250 mg tabl",
     "activeSubstance": "метронидазол",
     "drugConcentration": 250,
     "drugConcentrationDecorator": "mg_tabl",
