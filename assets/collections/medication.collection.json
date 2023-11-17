@@ -55,8 +55,8 @@
   },
   {
     "type": "gastrointestinal",
-    "title": "Деган 10 мг/ 2 мл",
-    "titleEn": "Degan 10 mg/ 2 ml",
+    "title": "Деган 10 мг/2 мл",
+    "titleEn": "Degan 10 mg/2 ml",
     "activeSubstance": "метоклопрамид",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "mg_ml",
@@ -66,7 +66,7 @@
           0.25, 0.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IV q24h"
+        "applicationMethod": "SC, IM, IV q8-24h"
       }
     },
     "links" : [
@@ -75,13 +75,13 @@
     "indications"       : ["It has been used clinically for gastric stasis disorders, gastroesophageal reflux, to allow intubation of the small intestine, as a general antiemetic (for parvovirus, uremic gastritis, etc.), and an antiemetic to prevent or treat chemotherapy-induced vomiting."],
     "contraindications" : ["Metoclopramide is contraindicated in patients with GI hemorrhage, obstruction or perforation, and in those hypersensitive to it. It is relatively contraindicated in patients with seizure disorders. In patients with pheochromocytoma, metoclopramide may induce a hypertensive crisis."],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
+    "adverseEffects"    : ["changes in mentation and behavior (motor restless and hyperactivity to drowsiness/depression)", " frenzied behavior or disorientation in cats", "constipation"],
+    "pharmacology"      : ["stimulates motility of the upper GI without stimulating gastric, pancreatic or biliary secretions", "In the CNS, metoclopramide apparently antagonizes dopamine"]
   },
   {
     "type": "gastrointestinal",
-    "title": "Зофран 2 мг/ мл",
-    "titleEn": "",
+    "title": "Зофран 2 мг/мл",
+    "titleEn": "Zofran 2 mg/ml",
     "activeSubstance": "ондансетрон",
     "drugConcentration": 2,
     "drugConcentrationDecorator": "mg_ml",
@@ -97,16 +97,16 @@
     "links" : [
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ondansetron.pdf" }
     ],
-    "indications"       : ["Used as an antiemetic when conventional antiemetics are ineffective."],
-    "contraindications" : ["Use with caution in patients with hepatic dysfunction as half-life may be prolonged."],
+    "indications"       : ["The use of ondansetron in cats is somewhat controversial and some state it should not be used in this species.", "Used as an antiemetic when conventional antiemetics are ineffective."],
+    "contraindications" : ["Use with caution in patients with hepatic dysfunction as half-life may be prolonged.", "Because ondansetron is potentially a neurotoxic substrate of P-glycoprotein, it should be used with caution in those herding breeds (e.g., Collies, Shelties, Australian shepherds, etc.) that may have the gene mutation that causes a nonfunctional protein."],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
   {
     "type": "gastrointestinal",
-    "title": "Ондансетрон Акорд",
-    "titleEn": "",
+    "title": "Ондансетрон Акорд 2 мг/мл",
+    "titleEn": "Ondansetron Accord 2 mg/ml",
     "activeSubstance": "ондансетрон",
     "drugConcentration": 2,
     "drugConcentrationDecorator": "mg_kg",
@@ -123,8 +123,8 @@
       { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/ondansentron.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ondansetron.pdf" }
     ],
-    "indications"       : [],
-    "contraindications" : [],
+    "indications"       : ["The use of ondansetron in cats is somewhat controversial and some state it should not be used in this species.", "Used as an antiemetic when conventional antiemetics are ineffective."],
+    "contraindications" : ["Use with caution in patients with hepatic dysfunction as half-life may be prolonged.", "Because ondansetron is potentially a neurotoxic substrate of P-glycoprotein, it should be used with caution in those herding breeds (e.g., Collies, Shelties, Australian shepherds, etc.) that may have the gene mutation that causes a nonfunctional protein."],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
@@ -132,7 +132,7 @@
   {
     "type": "gastrointestinal",
     "title": "Нолпаза 40 мг/4 мл",
-    "titleEn": "",
+    "titleEn": "Nolpaza 40 mg/4 ml",
     "activeSubstance": "пантопразол",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_kg",
@@ -150,15 +150,15 @@
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/pantoprazole.pdf" }
     ],
     "indications"       : ["Pantoprazole has been shown to directly reduce in vitro counts of H. pylori and is used in some H. pylori treatment protocols for humans. Tablets must be given whole; do not split or crush"],
-    "contraindications" : [],
-    "drugInteractions"  : [],
+    "contraindications" : ["do not give IM or SQ"],
+    "drugInteractions"  : ["Drugs requiring decreased gastric PH for optimal absorption (e.g., ketoconazole, itraconazole, iron, ampicillin esters): Pantoprazole may decrease drug absorption", "Sucralfate: May decrease bioavailability of orally administered pantoprazole"],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
   {
     "type": "gastrointestinal",
     "title": "Нексиум 40 мг",
-    "titleEn": "",
+    "titleEn": "Nexium 40 mg",
     "activeSubstance": "езомепразол",
     "drugConcentration": 40,
     "drugConcentrationDecorator": "mg_tabl",
@@ -182,8 +182,8 @@
   },
   {
     "type": "gastrointestinal",
-    "title": "Панразол 20 мг",
-    "titleEn": "",
+    "title": "Панразол 20 мг табл.",
+    "titleEn": "Oanrazol 20 mg tabl",
     "activeSubstance": "пантопразол",
     "drugConcentration": 20,
     "drugConcentrationDecorator": "mg_tabl",
@@ -208,8 +208,8 @@
   },
   {
     "type": "gastrointestinal",
-    "title": "Квамател 20 мг/ 5 мл",
-    "titleEn": "Quamatel 20 mg/ 5 ml",
+    "title": "Квамател 20 мг/5 мл",
+    "titleEn": "Quamatel 20 mg/5 ml",
     "activeSubstance": "фамотидин",
     "drugConcentration": 4,
     "drugConcentrationDecorator": "mg_ml",
@@ -234,8 +234,8 @@
   },
   {
     "type": "gastrointestinal",
-    "title": "Фамотидин табл 20 мг",
-    "titleEn": "",
+    "title": "Фамотидин 20 мг табл.",
+    "titleEn": "Famotidine 20 mg tabl.",
     "activeSubstance": "фамотидин",
     "drugConcentration": 20,
     "drugConcentrationDecorator": "mg_tabl",
@@ -259,9 +259,9 @@
   },
   {
     "type": "gastrointestinal",
-    "title": "Антепсин 1г/ 5 мл",
-    "titleEn": "",
-    "activeSubstance": "-",
+    "title": "Антепсин 1 г/5 мл",
+    "titleEn": "Antepsin 1 g/5 ml",
+    "activeSubstance": "сукралфат",
     "drugConcentration": 200,
     "drugConcentrationDecorator": "mg_ml",
     "application": {
@@ -283,7 +283,7 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/anteseptin.pdf" }
+      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/antepsin.pdf" }
     ],
     "indications"       : ["Sucralfate has been used in the treatment of oral, esophageal, gastric, and duodenal ulcers. It has also been employed to prevent drug-induced (e.g., aspirin) gastric erosions, but efficacy for this is somewhat sporadic. Sucralfate has been used in human patients with hyperphosphatemia secondary to renal failure and potentially could be useful for this in animals as well."],
     "contraindications" : [],
@@ -293,9 +293,9 @@
   },
   {
     "type": "gastrointestinal",
-    "title": "Имодиум 2 мг/ табл.",
-    "titleEn": "",
-    "activeSubstance": "Лоперамид",
+    "title": "Имодиум 2 мг табл.",
+    "titleEn": "Imodium 2 mg tabl",
+    "activeSubstance": "лоперамид",
     "drugConcentration": 2,
     "drugConcentrationDecorator": "mg_tabl",
     "application": {
@@ -319,174 +319,8 @@
   },
   {
     "type": "gastrointestinal",
-    "title": "ДаФорте",
-    "titleEn": "",
-    "activeSubstance": "-",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "ml",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          0.4
-        ],
-        "activeSubstanceDoseDecorator": "ml_kg",
-        "applicationMethod": "s.i.d."
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/daforte.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "gastrointestinal",
-    "title": "ФортиФлора",
-    "titleEn": "FortiFlora",
-    "activeSubstance": "-",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "same",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "paketche",
-        "applicationMethod": "на ден за 7 дни"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/fortiflora.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "gastrointestinal",
-    "title": "Диа-Таб",
-    "titleEn": "",
-    "activeSubstance": "-",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "same",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          1,2
-        ],
-        "activeSubstanceDoseDecorator": "tabl_10_kg",
-        "applicationMethod": "PO b.i.d. 2-3 дни"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/diatab.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "gastrointestinal",
-    "title": "ЕнтероМикро паста",
-    "titleEn": "",
-    "activeSubstance": "-",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "same",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          0.2
-        ],
-        "activeSubstanceDoseDecorator": "ml_kg",
-        "applicationMethod": "s.i.d. 6 дни"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/enteromicro.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "gastrointestinal",
-    "title": "ВетГастрил",
-    "titleEn": "",
-    "activeSubstance": "-",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "same",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          0.2
-        ],
-        "activeSubstanceDoseDecorator": "ml_kg",
-        "applicationMethod": ""
-      }
-    },
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "gastrointestinal",
-    "title": "Малцова паста",
-    "titleEn": "",
-    "activeSubstance": "-",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "same",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          4
-        ],
-        "activeSubstanceDoseDecorator": "cm",
-        "applicationMethod": "на ден"
-      }
-    },
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "gastrointestinal",
-    "title": "Vetoquinol - Bezo Pet Безопет",
-    "titleEn": "",
-    "activeSubstance": "-",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "same",
-    "application": {
-      "cat": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "tsp",
-        "applicationMethod": "q24h (лечение) или 2-3 пъти седмично (профилактика)"
-      }
-    },
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "gastrointestinal",
-    "title": "Зирид 50 мг/ табл.",
-    "titleEn": "",
+    "title": "Зирид 50 мг табл.",
+    "titleEn": "Zirid 50 mg tabl",
     "activeSubstance": "итоприд",
     "drugConcentration": 50,
     "drugConcentrationDecorator": "mg_tabl",
@@ -512,8 +346,8 @@
   {
     "type": "gastrointestinal",
     "title": "Лактулоза-MIP 65 г/100 мл сироп",
-    "titleEn": "",
-    "activeSubstance": "Лактулоза",
+    "titleEn": "Lactulose-MIP",
+    "activeSubstance": "лактулоза",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
@@ -537,33 +371,8 @@
   },
   {
     "type": "gastrointestinal",
-    "title": "Еспумизан Л капки",
-    "titleEn": "Espumisan L",
-    "activeSubstance": "симетикон",
-    "drugConcentration": 40,
-    "drugConcentrationDecorator": "same",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          0
-        ],
-        "activeSubstanceDoseDecorator": "ml_kg",
-        "applicationMethod": "-"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/espumisan.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "gastrointestinal",
     "title": "Дуфалак 67 г перорален р-р",
-    "titleEn": "",
+    "titleEn": "Duphalac",
     "activeSubstance": "лактулоза",
     "drugConcentration": 670,
     "drugConcentrationDecorator": "mg_ml",
@@ -614,8 +423,201 @@
   },
   {
     "type": "gastrointestinal",
+    "title": "Еспумизан Л капки",
+    "titleEn": "Espumisan L",
+    "activeSubstance": "симетикон",
+    "drugConcentration": 40,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0
+        ],
+        "activeSubstanceDoseDecorator": "ml_kg",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/espumisan.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "gastrointestinal",
+    "title": "ДаФорте",
+    "titleEn": "DaForte",
+    "activeSubstance": "-",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "ml",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0.4
+        ],
+        "activeSubstanceDoseDecorator": "ml_kg",
+        "applicationMethod": "s.i.d."
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/daforte.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "gastrointestinal",
+    "title": "ФортиФлора",
+    "titleEn": "FortiFlora",
+    "activeSubstance": "probiotic",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "paketche",
+        "applicationMethod": "на ден за 7 дни"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/fortiflora.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "gastrointestinal",
+    "title": "Диа-Таб",
+    "titleEn": "Dia-Tab",
+    "activeSubstance": "-",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1,
+          2
+        ],
+        "activeSubstanceDoseDecorator": "tabl_10_kg",
+        "applicationMethod": "PO b.i.d. 2-3 дни"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/diatab.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "gastrointestinal",
+    "title": "ЕнтероМикро паста",
+    "titleEn": "EnteroMicro Pasta",
+    "activeSubstance": "-",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0.2
+        ],
+        "activeSubstanceDoseDecorator": "ml_kg",
+        "applicationMethod": "s.i.d. 6 дни"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/enteromicro.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "gastrointestinal",
+    "title": "ВетГастрил",
+    "titleEn": "VetGastril",
+    "activeSubstance": "сукроза сулфат, алуминиев хидроксид",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0.2
+        ],
+        "activeSubstanceDoseDecorator": "ml_kg",
+        "applicationMethod": "PO"
+      }
+    },
+    "indications"       : ["Administer 1-2 hours before the regular meal. If preferred, administer in portions each 12 hours."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "gastrointestinal",
+    "title": "Малцова паста",
+    "titleEn": "Malt paste",
+    "activeSubstance": "-",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          4,
+          6
+        ],
+        "activeSubstanceDoseDecorator": "cm",
+        "applicationMethod": "на ден"
+      }
+    },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "gastrointestinal",
+    "title": "Ветоквинол Безопет",
+    "titleEn": "Vetoquinol BezoPet",
+    "activeSubstance": "малцова паста",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "cat": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tsp",
+        "applicationMethod": "q24h (лечение) или 2-3 пъти седмично (профилактика)"
+      }
+    },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "gastrointestinal",
     "title": "активен въглен",
-    "titleEn": "",
+    "titleEn": "Activated charcoal",
     "activeSubstance": "активен въглен",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -640,8 +642,8 @@
   },
   {
     "type": "gastrointestinal",
-    "title": "Трансметил таблетки 500 мг",
-    "titleEn": "",
+    "title": "Трансметил 500 мг таблетки",
+    "titleEn": "Transmetil 500 mg tabl",
     "activeSubstance": "адеметионин",
     "drugConcentration": 500,
     "drugConcentrationDecorator": "mg_tabl",
@@ -662,8 +664,8 @@
   },
   {
     "type": "gastrointestinal",
-    "title": "Урзофалк капсули 250 мг",
-    "titleEn": "",
+    "title": "Урзофалк 250 мг капсули",
+    "titleEn": "Ursofalk 250 mg caps",
     "activeSubstance": "урзодезоксихолева киселина",
     "drugConcentration": 250,
     "drugConcentrationDecorator": "mg_caps",
@@ -689,8 +691,8 @@
   },
   {
     "type": "gastrointestinal",
-    "title": "Зентонил Advanced 100",
-    "titleEn": "",
+    "title": "Зентонил Адванст 100",
+    "titleEn": "Zentonil Advanced 100",
     "activeSubstance": "S-Adenosylmethionin",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -714,8 +716,8 @@
   },
   {
     "type": "gastrointestinal",
-    "title": "Legaphyton 50",
-    "titleEn": "",
+    "title": "Легафитон 50",
+    "titleEn": "Legaphyton 50",
     "activeSubstance": "-",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -739,30 +741,8 @@
   },
   {
     "type": "gastrointestinal",
-    "title": "Панкреалекс",
-    "titleEn": "",
-    "activeSubstance": "-",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "same",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          0.1
-        ],
-        "activeSubstanceDoseDecorator": "ml_kg",
-        "applicationMethod": "IM SC"
-      }
-    },
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "gastrointestinal",
     "title": "Хепатиале Форте малки породи 170 мг",
-    "titleEn": "",
+    "titleEn": "Hepatiale Forte 170 mg",
     "activeSubstance": "-",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -791,7 +771,7 @@
   {
     "type": "gastrointestinal",
     "title": "Хепатиале Форте Адвансд",
-    "titleEn": "",
+    "titleEn": "Hepatiale Forte Advanced",
     "activeSubstance": "-",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -802,6 +782,28 @@
         ],
         "activeSubstanceDoseDecorator": "tabl_10_kg",
         "applicationMethod": "PO"
+      }
+    },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "gastrointestinal",
+    "title": "Панкреалекс",
+    "titleEn": "Pancrealex",
+    "activeSubstance": "-",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0.1
+        ],
+        "activeSubstanceDoseDecorator": "ml_kg",
+        "applicationMethod": "IM SC"
       }
     },
     "indications"       : [],
@@ -864,9 +866,9 @@
   },
   {
     "type": "respiratory",
-    "title": "Софафилин инж. 24 мг/мл",
-    "titleEn": "",
-    "activeSubstance": "софафилин",
+    "title": "Софафилин 24 мг/мл",
+    "titleEn": "Sophafyllin 24 mg/ml",
+    "activeSubstance": "теофилин, етилендиамин",
     "drugConcentration": 24,
     "drugConcentrationDecorator": "mg_ml",
     "application": {
@@ -880,9 +882,10 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/respiratory/sophafylin.pdf" }
+      { "title": "листовка", "link": "pdfs/@medication/respiratory/sophafylin.pdf" },
+      { "title": "Plumbs Theophylline", "link": "pdfs/@medication/plumbs-pdf/theophylline.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["Bronchodilator drug with diuretic activity; used for bronchospasm & cardiogenic pulmonary edema"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -890,8 +893,8 @@
   },
   {
     "type": "respiratory",
-    "title": "Теотард 300 мг табл",
-    "titleEn": "",
+    "title": "Теотард 300 мг табл.",
+    "titleEn": "Teotard 300 mg tabl",
     "activeSubstance": "теофилин",
     "drugConcentration": 300,
     "drugConcentrationDecorator": "mg_tabl",
@@ -913,9 +916,10 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/respiratory/teotard.pdf" }
+      { "title": "листовка", "link": "pdfs/@medication/respiratory/teotard.pdf" },
+      { "title": "Plumbs Theophylline", "link": "pdfs/@medication/plumbs-pdf/theophylline.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["Bronchodilator drug with diuretic activity; used for bronchospasm & cardiogenic pulmonary edema"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -924,7 +928,7 @@
   {
     "type": "respiratory",
     "title": "Бромхексин 2 мг/мл амп.",
-    "titleEn": "",
+    "titleEn": "Bromhexine 2 mg/ml amp",
     "drugConcentration": 2,
     "drugConcentrationDecorator": "mg_ml",
     "activeSubstance": "бромхексин",
@@ -949,7 +953,7 @@
   {
     "type": "respiratory",
     "title": "Бутомидор 10 мг/ мл",
-    "titleEn": "",
+    "titleEn": "Butomidor 10 mg/ml",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_ml",
     "activeSubstance": "буторфанол",
@@ -975,8 +979,8 @@
   },
   {
     "type": "respiratory",
-    "title": "Тофадин 10 мг/ мл",
-    "titleEn": "",
+    "title": "Торфадин 10 мг/ мл",
+    "titleEn": "Torphadine 10 mg/ml",
     "activeSubstance": "буторфанол",
     "application": {
       "any": {
@@ -989,7 +993,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/respiratory/torphadine.pdf" }
+      { "title": "листовка", "link": "pdfs/@medication/respiratory/torphadine.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/butorphanol.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -1000,7 +1005,7 @@
   {
     "type": "cardiovascular",
     "title": "Силденафил Стада",
-    "titleEn": "",
+    "titleEn": "Sildenafil Stada",
     "activeSubstance": "Силденафил",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_tabl",
@@ -1026,7 +1031,7 @@
   {
     "type": "cardiovascular",
     "title": "Сотахексал 80 мг табл",
-    "titleEn": "",
+    "titleEn": "Sotahexal",
     "activeSubstance": "соталол",
     "drugConcentration": 80,
     "drugConcentrationDecorator": "mg_tabl",
@@ -1058,8 +1063,8 @@
   },
   {
     "type": "cardiovascular",
-    "title": "Клопидогрел 75 мг",
-    "titleEn": "",
+    "title": "Клопидогрел 75 мг табл.",
+    "titleEn": "Clopidogrel 75 mg tabl",
     "activeSubstance": "клопидогрел",
     "drugConcentration": 75,
     "drugConcentrationDecorator": "mg_tabl",
@@ -1084,7 +1089,7 @@
   {
     "type": "cardiovascular",
     "title": "Фурантрил 40 мг табл",
-    "titleEn": "",
+    "titleEn": "Furantril 40 mg tabl",
     "activeSubstance": "Фуроземид",
     "drugConcentration": 40,
     "drugConcentrationDecorator": "mg_tabl",
@@ -1110,7 +1115,7 @@
   {
     "type": "cardiovascular",
     "title": "Фуроземид 5%",
-    "titleEn": "",
+    "titleEn": "Furosemide 5%",
     "activeSubstance": "Фуроземид",
     "drugConcentration": 50,
     "drugConcentrationDecorator": "mg_ml",
@@ -1137,7 +1142,7 @@
   {
     "type": "cardiovascular",
     "title": "Торсит SR 5 mg",
-    "titleEn": "",
+    "titleEn": "Torside SR 5 mg",
     "activeSubstance": "тораземид",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "mg_tabl",
@@ -1162,8 +1167,8 @@
   },
   {
     "type": "cardiovascular",
-    "title": "Isemid 4 mg",
-    "titleEn": "",
+    "title": "Иземид 4 мг",
+    "titleEn": "Isemid 4 mg",
     "activeSubstance": "тораземид",
     "drugConcentration": 4,
     "drugConcentrationDecorator": "mg_tabl",
@@ -1189,8 +1194,8 @@
   },
   {
     "type": "cardiovascular",
-    "title": "Cardalis 2.5 мг/табл",
-    "titleEn": "",
+    "title": "Кардалис 2.5 мг табл.",
+    "titleEn": "Cardalis 2.5 mg tabl",
     "activeSubstance": "беназеприл, спиронолактон",
     "drugConcentration": 2.5,
     "drugConcentrationDecorator": "mg_tabl",
@@ -1216,8 +1221,8 @@
   },
   {
     "type": "cardiovascular",
-    "title": "Cardalis 5 мг/табл",
-    "titleEn": "",
+    "title": "Кардалис 5 мг/табл",
+    "titleEn": "Cardalis 5 mg tabl",
     "activeSubstance": "беназеприл, спиронолактон",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "mg_tabl",
@@ -1243,8 +1248,8 @@
   },
   {
     "type": "cardiovascular",
-    "title": "Cardalis 10 мг/табл",
-    "titleEn": "",
+    "title": "Кардалис 10 мг/табл",
+    "titleEn": "Cardalis 10 mg tabl",
     "activeSubstance": "беназеприл, спиронолактон",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_tabl",
@@ -1270,8 +1275,8 @@
   },
   {
     "type": "cardiovascular",
-    "title": "Vetmedin 5 mg",
-    "titleEn": "",
+    "title": "Ветмедин 5 мг",
+    "titleEn": "Vetmedin 5 mg",
     "activeSubstance": "пимобендан",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "mg_tabl",
@@ -1297,8 +1302,8 @@
   },
   {
     "type": "cardiovascular",
-    "title": "Cardisure 10 mg",
-    "titleEn": "",
+    "title": "Кардишуър 10 мг",
+    "titleEn": "Cardisure 10 mg",
     "activeSubstance": "пимобендан",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_tabl",
@@ -1350,8 +1355,8 @@
   },
   {
     "type": "urogenital",
-    "title": "Ноновулин – 10 мг/ табл.",
-    "titleEn": "Nonovulin",
+    "title": "Ноновулин 10 мг табл.",
+    "titleEn": "Nonovulin 10 mg tabl",
     "activeSubstance": "мегестролов ацетат",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_tabl",
@@ -1385,7 +1390,7 @@
   {
     "type": "urogenital",
     "title": "Галастоп 50 µg/ml",
-    "titleEn": "",
+    "titleEn": "Galastop",
     "activeSubstance": "Каберголин",
     "drugConcentration": 50,
     "drugConcentrationDecorator": "µg_ml",
@@ -1411,7 +1416,7 @@
   {
     "type": "urogenital",
     "title": "Достинекс 0,5 мг табл.",
-    "titleEn": "",
+    "titleEn": "Dostinex",
     "activeSubstance": "Каберголин",
     "drugConcentration": 0.5,
     "drugConcentrationDecorator": "mg_tabl",
@@ -1435,8 +1440,8 @@
   },
   {
     "type": "urogenital",
-    "title": "Каберговет 50 µg/ml Oral 7 ml",
-    "titleEn": "",
+    "title": "Каберговет 50 µg/ml oral",
+    "titleEn": "Kabergovet",
     "activeSubstance": "Каберголин",
     "drugConcentration": 50,
     "drugConcentrationDecorator": "µg_ml",
@@ -1461,8 +1466,8 @@
   },
   {
     "type": "urogenital",
-    "title": "Ковинан",
-    "titleEn": "",
+    "title": "Ковинан 100 мг/мл",
+    "titleEn": "Covinan 100 mg/ml",
     "activeSubstance": "пролигестон",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
@@ -1485,7 +1490,7 @@
   {
     "type": "urogenital",
     "title": "Супрелорин",
-    "titleEn": "",
+    "titleEn": "Suprelorin",
     "activeSubstance": "деслорелин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -1511,7 +1516,7 @@
   {
     "type": "urogenital",
     "title": "Ипозан 1.875 мг (3-7.5 кг)",
-    "titleEn": "",
+    "titleEn": "Yposane",
     "activeSubstance": "осатерон",
     "drugConcentration": 1.875,
     "drugConcentrationDecorator": "mg_tabl",
@@ -1537,7 +1542,7 @@
   {
     "type": "urogenital",
     "title": "Ипозан 3.75 мг (7.5-15 кг)",
-    "titleEn": "",
+    "titleEn": "Yposane",
     "activeSubstance": "осатерон",
     "drugConcentration": 3.75,
     "drugConcentrationDecorator": "mg_tabl",
@@ -1563,7 +1568,7 @@
   {
     "type": "urogenital",
     "title": "Ипозан 7.5 мг (15-30 кг)",
-    "titleEn": "",
+    "titleEn": "Yposane",
     "activeSubstance": "осатерон",
     "drugConcentration": 7.5,
     "drugConcentrationDecorator": "mg_tabl",
@@ -1589,7 +1594,7 @@
   {
     "type": "urogenital",
     "title": "Ипозан 15 мг (30-60 кг)",
-    "titleEn": "",
+    "titleEn": "Yposane",
     "activeSubstance": "осатерон",
     "drugConcentration": 15,
     "drugConcentrationDecorator": "mg_tabl",
@@ -1615,7 +1620,7 @@
   {
     "type": "urogenital",
     "title": "Инкюрин 1 мг табл",
-    "titleEn": "",
+    "titleEn": "Incurin 1 mg tabl",
     "activeSubstance": "естриол",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "mg_tabl",
@@ -1640,7 +1645,7 @@
   {
     "type": "urogenital",
     "title": "КотЕрвин",
-    "titleEn": "",
+    "titleEn": "Kotervin",
     "activeSubstance": "-",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -1663,7 +1668,7 @@
   {
     "type": "urogenital",
     "title": "ИркВет 50 мл",
-    "titleEn": "",
+    "titleEn": "IrcVet",
     "activeSubstance": "-",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -1684,8 +1689,8 @@
   },
   {
     "type": "urogenital",
-    "title": "Ути-Зен 30 табл.",
-    "titleEn": "",
+    "title": "Ути-Зен табл.",
+    "titleEn": "Uti-Zen tabl",
     "activeSubstance": "-",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -1707,7 +1712,7 @@
   {
     "type": "urogenital",
     "title": "Пропалин 40 мг/мл",
-    "titleEn": "",
+    "titleEn": "Propalin 40 mg/ml",
     "activeSubstance": "-",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -1729,7 +1734,7 @@
   {
     "type": "urogenital",
     "title": "Уриновет Кат",
-    "titleEn": "",
+    "titleEn": "UrinoVet Cat",
     "activeSubstance": "-",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -1751,7 +1756,7 @@
   {
     "type": "urogenital",
     "title": "Ализин 30 мг/мл",
-    "titleEn": "",
+    "titleEn": "Alizin 30 mg/ml",
     "activeSubstance": "аглепристон",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -1810,8 +1815,8 @@
   },
   {
     "type": "nervous",
-    "title": "Невротранк инж.",
-    "titleEn": "",
+    "title": "Невротранк 10 мг/мл",
+    "titleEn": "Neurotranq",
     "activeSubstance": "ацепромазин",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_ml",
@@ -1837,7 +1842,7 @@
   {
     "type": "nervous",
     "title": "Золетил 50",
-    "titleEn": "",
+    "titleEn": "Zoletil 50",
     "activeSubstance": "золазепам, тилетамин",
     "drugConcentration": 50,
     "drugConcentrationDecorator": "mg_ml",
@@ -1872,7 +1877,7 @@
   {
     "type": "nervous",
     "title": "Золетил 100",
-    "titleEn": "",
+    "titleEn": "Zoletil 100",
     "activeSubstance": "золазепам, тилетамин",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
@@ -1906,8 +1911,8 @@
   },
   {
     "type": "nervous",
-    "title": "Анексат 0,5 мг/ 5 мл",
-    "titleEn": "",
+    "title": "Анексат 0,5 мг/5 мл",
+    "titleEn": "Anexate 0.5 mg/5 ml",
     "activeSubstance": "Флумазенил",
     "drugConcentration": 0.1,
     "drugConcentrationDecorator": "mg_ml",
@@ -1931,60 +1936,8 @@
   },
   {
     "type": "nervous",
-    "title": "Бутомидор",
-    "titleEn": "",
-    "activeSubstance": "Буторфанол",
-    "drugConcentration": 10,
-    "drugConcentrationDecorator": "mg_ml",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          0.05,
-          0.6
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IM SC IV, q6-8"
-      }
-    },
-    "links" : [
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/butorphanol.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "nervous",
-    "title": "Торфадин",
-    "titleEn": "",
-    "activeSubstance": "Буторфанол",
-    "drugConcentration": 10,
-    "drugConcentrationDecorator": "mg_ml",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          0.05,
-          0.6
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IM SC IV, q6-8"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/nervous/torfadin.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "nervous",
-    "title": "Бупак",
-    "titleEn": "",
+    "title": "Бупак 0.3 мг/мл",
+    "titleEn": "Bupaq 0.3 mg/ml",
     "activeSubstance": "бупренорфин",
     "drugConcentration": 0.3,
     "drugConcentrationDecorator": "mg_ml",
@@ -2011,7 +1964,7 @@
   {
     "type": "nervous",
     "title": "Лидокаин Спрей 4,6 мг/ 38 гр.",
-    "titleEn": "",
+    "titleEn": "Lidocaine Spray",
     "activeSubstance": "лидокаин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -2037,7 +1990,7 @@
   {
     "type": "nervous",
     "title": "Новокаин 1%",
-    "titleEn": "",
+    "titleEn": "Novocain 1%",
     "activeSubstance": "Новокаин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -2062,7 +2015,7 @@
   {
     "type": "nervous",
     "title": "Пропофол 1%",
-    "titleEn": "",
+    "titleEn": "Propofol 1%",
     "activeSubstance": "Пропофол",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_ml",
@@ -2085,8 +2038,8 @@
 
   {
     "type": "nervous",
-    "title": "Нивалин 2,5 мг/ мл",
-    "titleEn": "",
+    "title": "Нивалин 2,5 мг/мл",
+    "titleEn": "Nivalin 2.5 mg/ml",
     "activeSubstance": "галантамин",
     "drugConcentration": 2.5,
     "drugConcentrationDecorator": "mg_ml",
@@ -2110,8 +2063,8 @@
 
   {
     "type": "nervous",
-    "title": "Фенобарбитал 100 мг/мл инж. р-р",
-    "titleEn": "",
+    "title": "Фенобарбитал 100 мг/мл",
+    "titleEn": "Fenobarbital 100 mg/ml",
     "activeSubstance": "Фенобарбитал",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
@@ -2132,8 +2085,8 @@
   },
   {
     "type": "nervous",
-    "title": "Епитил (Epityl) 60 mg tabl",
-    "titleEn": "",
+    "title": "Епитил 60 мг табл.",
+    "titleEn": "Epityl 60 mg tabl",
     "activeSubstance": "Фенобарбитал",
     "drugConcentration": 60,
     "drugConcentrationDecorator": "mg_ml",
@@ -2158,8 +2111,8 @@
   },
   {
     "type": "nervous",
-    "title": "КалмиВет Инж.",
-    "titleEn": "",
+    "title": "КалмиВет инж.",
+    "titleEn": "CalmiVet inj",
     "activeSubstance": "ацепромазин",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "mg_ml",
@@ -2181,8 +2134,8 @@
   },
   {
     "type": "nervous",
-    "title": "KalmVet",
-    "titleEn": "",
+    "title": "КалмВет",
+    "titleEn": "KalmVet",
     "activeSubstance": "Лайка, валериана, триптофан",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -2203,8 +2156,8 @@
   },
   {
     "type": "nervous",
-    "title": "Милгамма N",
-    "titleEn": "",
+    "title": "Милгамма Н",
+    "titleEn": "Milgamma N",
     "activeSubstance": "vit. B1, B6, B12",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -2226,7 +2179,7 @@
   {
     "type": "nervous",
     "title": "Анакет",
-    "titleEn": "",
+    "titleEn": "Anaket",
     "activeSubstance": "кетамин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "-",
@@ -2252,7 +2205,7 @@
   {
     "type": "nervous",
     "title": "Дексдомидор 0,1 мг/мл",
-    "titleEn": "",
+    "titleEn": "Dexdomidor 0.1 mg/ml",
     "activeSubstance": "кетамин",
     "drugConcentration": 0.1,
     "drugConcentrationDecorator": "mg_ml",
@@ -2286,7 +2239,7 @@
   {
     "type": "nervous",
     "title": "Антиседан 5 мг/мл",
-    "titleEn": "",
+    "titleEn": "Antisedan 5 mg/ml",
     "activeSubstance": "атипамезол",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "mg_ml",
@@ -2320,7 +2273,7 @@
   {
     "type": "nervous",
     "title": "Инсистор 10 мг/мл",
-    "titleEn": "",
+    "titleEn": "Insistor 10 mg/ml",
     "activeSubstance": "метадон",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_ml",
@@ -2354,7 +2307,7 @@
   {
     "type": "nervous",
     "title": "Транквилин 35 мг/мл",
-    "titleEn": "",
+    "titleEn": "Tranquiline 35 mg/ml",
     "activeSubstance": "ацепромазин",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_ml",
@@ -2380,7 +2333,7 @@
   {
     "type": "eyes",
     "title": "Тобрин капки за очи",
-    "titleEn": "",
+    "titleEn": "Tobrin",
     "activeSubstance": "тобрамицин",
     "drugConcentration": 0,
     "drugConcentrationDecorator": "-",
@@ -2405,7 +2358,7 @@
   {
     "type": "eyes",
     "title": "Декс-Тобрин капки за очи",
-    "titleEn": "",
+    "titleEn": "Dex-Tobrin",
     "activeSubstance": "тобрамицин, дексаметазон",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "-",
@@ -2431,7 +2384,7 @@
   {
     "type": "eyes",
     "title": "Тобракулин 0,3%",
-    "titleEn": "",
+    "titleEn": "Tobraculin",
     "activeSubstance": "Тобрамицин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -2537,7 +2490,7 @@
   {
     "type": "eyes",
     "title": "Сперсадекс капки за очи 5 мл",
-    "titleEn": "",
+    "titleEn": "Spersadex",
     "activeSubstance": "хлорамфеникол, дексаметазон",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "-",
@@ -2562,8 +2515,8 @@
   },
   {
     "type": "eyes",
-    "title": "Кавазан (Cavasan)",
-    "titleEn": "",
+    "title": "Кавазан",
+    "titleEn": "Cavasan",
     "activeSubstance": "хлорамфеникол (20 мг/г) и вит. А",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -2589,7 +2542,7 @@
   {
     "type": "eyes",
     "title": "Офтагел гел за очи 2.5 мг/г",
-    "titleEn": "",
+    "titleEn": "Oftagel",
     "activeSubstance": "карбомер",
     "drugConcentration": 2.5,
     "drugConcentrationDecorator": "mg_g",
@@ -2614,7 +2567,7 @@
   {
     "type": "eyes",
     "title": "Алкаин 5 мг/мл",
-    "titleEn": "",
+    "titleEn": "Alcaine 5 mg/ml",
     "activeSubstance": "",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "-",
@@ -2637,8 +2590,8 @@
   {
     "type": "eyes",
     "title": "Корнерегел 5% гел за очи",
-    "titleEn": "",
-    "activeSubstance": "",
+    "titleEn": "Corneregel 5%",
+    "activeSubstance": "декспантенол",
     "drugConcentration": 50,
     "drugConcentrationDecorator": "mg_g",
     "application": {
@@ -2793,7 +2746,7 @@
   {
     "type": "ears",
     "title": "Унифлокс",
-    "titleEn": "",
+    "titleEn": "Uniflox",
     "activeSubstance": "офлоксацин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -2851,8 +2804,8 @@
   },
   {
     "type": "skin",
-    "title": "Бетазон 1 mg/g крем",
-    "titleEn": "",
+    "title": "Бетазон 1 мг/г крем",
+    "titleEn": "Betazon 1 mg/g",
     "activeSubstance": "бетаметазон",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "mg_g",
@@ -2978,7 +2931,7 @@
   {
     "type": "skin",
     "title": "Панавейксал",
-    "titleEn": "",
+    "titleEn": "Panaveyxal",
     "activeSubstance": "-",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "-",
@@ -3004,7 +2957,7 @@
   {
     "type": "skin",
     "title": "Кортизем",
-    "titleEn": "",
+    "titleEn": "Cortizeme",
     "activeSubstance": "-",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "-",
@@ -3160,7 +3113,7 @@
   {
     "type": "antibiotics",
     "title": "Амоксиклав 250 мг/ 62,5 мг/ 5 мл орална суспензия",
-    "titleEn": "",
+    "titleEn": "Amoxiclav",
     "activeSubstance": "амоксицилин, клавуланова киселина",
     "drugConcentration": 250,
     "drugConcentrationDecorator": "mg_tabl",
@@ -3185,7 +3138,7 @@
   {
     "type": "antibiotics",
     "title": "Амоксиклав 875 мг/125 мг/ табл.",
-    "titleEn": "",
+    "titleEn": "Amoxiclav",
     "activeSubstance": "амоксицилин, клавуланова киселина",
     "drugConcentration": 875,
     "drugConcentrationDecorator": "mg_tabl",
@@ -3210,7 +3163,7 @@
   {
     "type": "antibiotics",
     "title": "Аугментин 500 мг/125 мг",
-    "titleEn": "",
+    "titleEn": "Augmentin",
     "activeSubstance": "амоксицилин, клавуланова киселина",
     "drugConcentration": 500,
     "drugConcentrationDecorator": "mg_tabl",
@@ -4484,8 +4437,8 @@
   },
   {
     "type": "antibiotics",
-    "title": "Метровис 750 мг",
-    "titleEn": "",
+    "title": "Метровис 750 мг табл",
+    "titleEn": "Metrovis 750 mg tabl",
     "activeSubstance": "метронидазол",
     "drugConcentration": 750,
     "drugConcentrationDecorator": "mg_tabl",
@@ -4510,8 +4463,8 @@
   },
   {
     "type": "antibiotics",
-    "title": "Метробактин 500 мг",
-    "titleEn": "",
+    "title": "Метробактин 500 мг табл",
+    "titleEn": "Metrobactin 500 mg tabl",
     "activeSubstance": "метронидазол",
     "drugConcentration": 500,
     "drugConcentrationDecorator": "mg_tabl",
@@ -4678,8 +4631,8 @@
   },
   {
     "type": "antiparasitic",
-    "title": "Паразита (Parasita)",
-    "titleEn": "",
+    "title": "Паразита",
+    "titleEn": "Parasita",
     "activeSubstance": "ивермектин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -4704,7 +4657,7 @@
   {
     "type": "antiparasitic",
     "title": "Прококс",
-    "titleEn": "",
+    "titleEn": "Procox",
     "activeSubstance": "емодепсид, толтразурил",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -4730,8 +4683,8 @@
   },
   {
     "type": "antiparasitic",
-    "title": "Имитицид (Immiticide)",
-    "titleEn": "",
+    "title": "Имитицид",
+    "titleEn": "Immiticide",
     "activeSubstance": "меларзомин",
     "drugConcentration": 25,
     "drugConcentrationDecorator": "mg_ml",
@@ -4757,7 +4710,7 @@
   {
     "type": "antiparasitic",
     "title": "Трипаноцен",
-    "titleEn": "",
+    "titleEn": "Trypanocen",
     "activeSubstance": "диминазен, вит. Б12, антипирин",
     "drugConcentration": 75,
     "drugConcentrationDecorator": "mg_ml",
@@ -4783,8 +4736,8 @@
   },
   {
     "type": "antiparasitic",
-    "title": "Имидокарб 120 инж.",
-    "titleEn": "",
+    "title": "Имидокарб 120 мг/мл",
+    "titleEn": "Imidocarb 120 mg/ml",
     "activeSubstance": "имидокарб",
     "drugConcentration": 120,
     "drugConcentrationDecorator": "mg_ml",
@@ -4816,7 +4769,7 @@
   {
     "type": "antiparasitic",
     "title": "Панакюр Пет Пейст",
-    "titleEn": "",
+    "titleEn": "Panacur pet paste",
     "activeSubstance": "фенбендазол",
     "drugConcentration": 187.5,
     "drugConcentrationDecorator": "mg_g",
@@ -4849,7 +4802,7 @@
   {
     "type": "antiparasitic",
     "title": "Кепромек",
-    "titleEn": "",
+    "titleEn": "Kepromec",
     "activeSubstance": "ивермектин",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_ml",
@@ -4874,9 +4827,9 @@
     "pharmacology"      : []
   },
   {
-    "type": "chemotherapeutics",
-    "title": "Левкеран 2 мг",
-    "titleEn": "",
+    "type": "others",
+    "title": "Левкеран 2 мг табл",
+    "titleEn": "Leukeran 2 mg tabl",
     "activeSubstance": "клорамбусил",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -4899,7 +4852,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "urogenital",
+    "type": "endocrine",
     "title": "Окситоцин",
     "titleEn": "Oxytocin",
     "activeSubstance": "окситоцин",
@@ -5100,8 +5053,8 @@
   },
   {
     "type": "antiinflammatory",
-    "title": "Метилпреднизолон амп. 6,31 мг",
-    "titleEn": "",
+    "title": "Метилпреднизолон 6,31 мг амп.",
+    "titleEn": "Methylprednisolone",
     "activeSubstance": "метилпреднизолон",
     "drugConcentration": 6.31,
     "drugConcentrationDecorator": "mg_ml",
@@ -5128,7 +5081,7 @@
   {
     "type": "antiinflammatory",
     "title": "Преднизолон Кортико 5 мг табл",
-    "titleEn": "",
+    "titleEn": "Prednisolone Cortico",
     "activeSubstance": "преднизолон",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "mg_tabl",
@@ -5254,7 +5207,7 @@
   {
     "type": "antiinflammatory",
     "title": "Дексаметазон 0,4%",
-    "titleEn": "",
+    "titleEn": "Dexamethasone 0.4%",
     "activeSubstance": "дексаметазон",
     "drugConcentration": 4,
     "drugConcentrationDecorator": "mg_ml",
@@ -5288,7 +5241,7 @@
   {
     "type": "antiinflammatory",
     "title": "Дексаметазон 2 мг/мл",
-    "titleEn": "",
+    "titleEn": "Dexamethasone 2 mg/ml",
     "activeSubstance": "дексаметазон",
     "drugConcentration": 2,
     "drugConcentrationDecorator": "mg_ml",
@@ -5322,7 +5275,7 @@
   {
     "type": "antiinflammatory",
     "title": "Глюкортин-20 2 мг/мл",
-    "titleEn": "",
+    "titleEn": "Glucortin-20",
     "activeSubstance": "дексаметазон",
     "drugConcentration": 2,
     "drugConcentrationDecorator": "mg_ml",
@@ -5355,8 +5308,8 @@
   },
   {
     "type": "antiinflammatory",
-    "title": "Дексаметазон 4 мг/1 мл инж. р-р",
-    "titleEn": "",
+    "title": "Дексаметазон 4 мг/мл",
+    "titleEn": "Dexamethasone 4 mg/ml",
     "activeSubstance": "дексаметазон",
     "drugConcentration": 4,
     "drugConcentrationDecorator": "mg_ml",
@@ -5383,7 +5336,7 @@
   {
     "type": "antiinflammatory",
     "title": "Калиеркортин 4 мг/мл",
-    "titleEn": "",
+    "titleEn": "Caliercortin 4 mg/ml",
     "activeSubstance": "дексаметазон",
     "drugConcentration": 4,
     "drugConcentrationDecorator": "mg_ml",
@@ -5410,7 +5363,7 @@
   {
     "type": "antiinflammatory",
     "title": "Преднивет 5 мг табл.",
-    "titleEn": "",
+    "titleEn": "Prednivet 5 mg tabl",
     "activeSubstance": "преднизолон",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "mg_tabl",
@@ -5444,7 +5397,7 @@
   {
     "type": "antiinflammatory",
     "title": "Дермипред 10 мг",
-    "titleEn": "",
+    "titleEn": "Dermipred 10 mg",
     "activeSubstance": "преднизолон",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_tabl",
@@ -5470,7 +5423,7 @@
   {
     "type": "antiinflammatory",
     "title": "Мелоксорал 1,5 мг/мл",
-    "titleEn": "",
+    "titleEn": "Meloxoral 1.5 mg/ml",
     "activeSubstance": "мелоксикам",
     "drugConcentration": 1.5,
     "drugConcentrationDecorator": "mg_ml",
@@ -5496,7 +5449,7 @@
   {
     "type": "antiinflammatory",
     "title": "Мелоксидолор 5 мг/мл",
-    "titleEn": "",
+    "titleEn": "Meloxidolor 5 mg/ml",
     "activeSubstance": "мелоксикам",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "mg_ml",
@@ -5522,7 +5475,7 @@
   {
     "type": "antiinflammatory",
     "title": "Аналгин 30%",
-    "titleEn": "",
+    "titleEn": "Analgin 30%",
     "activeSubstance": "метамизол натрий",
     "drugConcentration": 300,
     "drugConcentrationDecorator": "mg_ml",
@@ -5554,7 +5507,7 @@
   {
     "type": "antiinflammatory",
     "title": "Метамизол натрий 30%",
-    "titleEn": "",
+    "titleEn": "Metamizol natrii 30%",
     "activeSubstance": "метамизол натрий",
     "drugConcentration": 300,
     "drugConcentrationDecorator": "mg_ml",
@@ -5585,8 +5538,8 @@
   },
   {
     "type": "antiinflammatory",
-    "title": "Спазмиум 500 mg_ml + 4 мг/мл",
-    "titleEn": "",
+    "title": "Спазмиум 500 мг/4 мг/мл",
+    "titleEn": "Spazmium",
     "activeSubstance": "метамизол натрий, хиосцин",
     "drugConcentration": 500,
     "drugConcentrationDecorator": "mg_ml",
@@ -5618,7 +5571,7 @@
   {
     "type": "antiinflammatory",
     "title": "Алерговет 10%",
-    "titleEn": "",
+    "titleEn": "Alergovet 10%",
     "activeSubstance": "дифенхидрамин",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
@@ -5644,7 +5597,7 @@
   {
     "type": "antiinflammatory",
     "title": "Трококсил",
-    "titleEn": "",
+    "titleEn": "Trocoxil",
     "activeSubstance": "мавакоксиб",
     "drugConcentration": 75,
     "drugConcentrationDecorator": "mg_ml",
@@ -5669,7 +5622,7 @@
   {
     "type": "antiinflammatory",
     "title": "Либрела",
-    "titleEn": "",
+    "titleEn": "Librela",
     "activeSubstance": "моноклонални антитела",
     "drugConcentration": 15,
     "drugConcentrationDecorator": "mg_ml",
@@ -5742,7 +5695,7 @@
   {
     "type": "others",
     "title": "Витамин Ц Софарма 100 мг/мл",
-    "titleEn": "",
+    "titleEn": "Vitamin C Sopharma",
     "activeSubstance": "витамин Ц",
     "drugConcentration": 1000,
     "drugConcentrationDecorator": "mg_ml",
@@ -5985,8 +5938,8 @@
   },
   {
     "type": "others",
-    "title": "Ka-Vital",
-    "titleEn": "",
+    "title": "Ка-Витал",
+    "titleEn": "Ka-Vital",
     "activeSubstance": "витамин К",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -6015,7 +5968,7 @@
   {
     "type": "others",
     "title": "Витацен К3 50 мл",
-    "titleEn": "",
+    "titleEn": "Vitacen K3",
     "activeSubstance": "витамин К3",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
@@ -6116,7 +6069,7 @@
   {
     "type": "others",
     "title": "Т 61",
-    "titleEn": "",
+    "titleEn": "T 61",
     "activeSubstance": "",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "same",
@@ -6139,7 +6092,7 @@
   {
     "type": "others",
     "title": "Амониев хлорид (нишадър)",
-    "titleEn": "",
+    "titleEn": "Amonnium chloride",
     "activeSubstance": "амониев хлорид",
     "drugConcentration": 20,
     "drugConcentrationDecorator": "same",
@@ -6163,8 +6116,8 @@
   },
   {
     "type": "others",
-    "title": "Глюкоза амп. 400 мг/ мл",
-    "titleEn": "",
+    "title": "Глюкоза 400 мг/мл амп.",
+    "titleEn": "Glucose 400 mg/ml amp",
     "activeSubstance": "глюкоза",
     "drugConcentration": 400,
     "drugConcentrationDecorator": "mg_ml",
@@ -6189,7 +6142,7 @@
   {
     "type": "others",
     "title": "Кортинеф 0,1 мг табл.",
-    "titleEn": "",
+    "titleEn": "Cortinef 0.1 mg tabl",
     "activeSubstance": "флуорокортизон",
     "drugConcentration": 0.1,
     "drugConcentrationDecorator": "mg_tabl",
@@ -6211,7 +6164,7 @@
   {
     "type": "others",
     "title": "Вертигохил",
-    "titleEn": "",
+    "titleEn": "Vertigoheel",
     "activeSubstance": "",
     "drugConcentration": 0,
     "drugConcentrationDecorator": "-",
@@ -6235,8 +6188,8 @@
   },
   {
     "type": "others",
-    "title": "CardioVet",
-    "titleEn": "",
+    "title": "КардиоВет",
+    "titleEn": "CardioVet",
     "activeSubstance": "L-карнитин, Витамин Е, Селен, Коензим Q10, Таурин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -6258,7 +6211,7 @@
   {
     "type": "others",
     "title": "ЛизинВирал Плюс",
-    "titleEn": "",
+    "titleEn": "LysinVIral Plus",
     "activeSubstance": "-",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -6284,7 +6237,7 @@
   {
     "type": "others",
     "title": "Гискан-5",
-    "titleEn": "",
+    "titleEn": "Giscan-5",
     "activeSubstance": "-",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -6305,8 +6258,8 @@
   },
   {
     "type": "others",
-    "title": "Virbagen Omega 10 MU",
-    "titleEn": "",
+    "title": "Вирбаген Омега 10 MU",
+    "titleEn": "Virbagen Omega",
     "activeSubstance": "омега интерферон",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "MU_tabl",
@@ -6338,8 +6291,8 @@
   },
   {
     "type": "others",
-    "title": "Virbagen Omega 5 MU",
-    "titleEn": "",
+    "title": "Вирбаген Омега 5 MU",
+    "titleEn": "Virbagen Omega",
     "activeSubstance": "омега интерферон",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "MU_tabl",
@@ -6371,8 +6324,8 @@
   },
   {
     "type": "others",
-    "title": "Flexadin Advanced",
-    "titleEn": "",
+    "title": "Флексадин Адванст",
+    "titleEn": "Flexadin Advanced",
     "activeSubstance": "-",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "mg_tabl",
