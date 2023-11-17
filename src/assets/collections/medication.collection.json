@@ -1689,6 +1689,35 @@
   },
   {
     "type": "urogenital",
+    "title": "Пронефра",
+    "titleEn": "Pronefra",
+    "activeSubstance": "Калциев карбонат, магнезиев карбонат, астрагал, хитозан, олигопептиди",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "ml_5_kg",
+        "applicationMethod": "PO два пъти дневно"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "ml_4_kg",
+        "applicationMethod": "PO два пъти дневно"
+      }
+    },
+    "indications"       : ["за КТ и КЧ с хронично бъбречно заболяване", "Разклати преди употреба"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "urogenital",
     "title": "Ути-Зен табл.",
     "titleEn": "Uti-Zen tabl",
     "activeSubstance": "-",
