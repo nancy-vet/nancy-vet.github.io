@@ -102,7 +102,7 @@ export class DataService {
       { category: 'skin'              , title: 'дерматологични'       , imgPath: `/assets/icon/skin.png`              },
       { category: 'antibiotics'       , title: 'антибиотици'          , imgPath: `/assets/icon/antibiotics.png`       },
       { category: 'antiparasitic'     , title: 'антипаразитни'        , imgPath: `/assets/icon/antiparasitic.png`     },
-      { category: 'chemotherapeutics' , title: 'противоракови'        , imgPath: `/assets/icon/chemotherapeutics.png` },
+      { category: 'endocrine'         , title: 'ендокринни'           , imgPath: `/assets/icon/chemotherapeutics.png` },
       { category: 'antiinflammatory'  , title: 'противовъзпалителни'  , imgPath: `/assets/icon/antiinflammatory.png`  },
       { category: 'others'            , title: 'други'                , imgPath: `/assets/icon/others.png`            }
     ];
