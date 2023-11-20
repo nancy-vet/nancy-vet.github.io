@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1700466463025,
+  "timestamp": 1700467694540,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -27,7 +27,7 @@
         "/379.968c7795b0c90413.js",
         "/3796.c2fb7954b1ed3507.js",
         "/3998.89c63cb9665ec177.js",
-        "/4011.d9af832b39900a0e.js",
+        "/4011.d52cdf27848d68f9.js",
         "/4087.133e57982b292147.js",
         "/4090.087b866ade4582d8.js",
         "/4170.545eacd938676635.js",
@@ -78,7 +78,7 @@
         "/polyfills-core-js.93f56369317b7a8e.js",
         "/polyfills-dom.516ff539260f3e0d.js",
         "/polyfills.53dd1ba240d556a9.js",
-        "/runtime.a274018b10858669.js",
+        "/runtime.a1408594a6e2a154.js",
         "/styles.c9f2210f80c0a313.css"
       ],
       "patterns": []
@@ -137,6 +137,7 @@
         "/assets/icons/pet-care-medium.png",
         "/assets/icons/pet-care-small.png",
         "/assets/imgs/arrow.png",
+        "/assets/pdfs/@algorithms/clinichen-pregled-algoritym.pdf",
         "/assets/pdfs/@algorithms/gastrointestinal/abdominal-distention-algorithm-saim.png",
         "/assets/pdfs/@algorithms/gastrointestinal/acute-abdominal-pain-algorithm.pdf",
         "/assets/pdfs/@algorithms/gastrointestinal/chronic-diarrhea-cats.pdf",
@@ -515,7 +516,7 @@
     "/379.968c7795b0c90413.js": "58eb44746ac5993d6db3437e8f0b764bca342b79",
     "/3796.c2fb7954b1ed3507.js": "b2f4c967b2c7bca6bae7a18b00df51e68a90b484",
     "/3998.89c63cb9665ec177.js": "7220f21ae34ac3a7c2c565c4dc076c1c68130d97",
-    "/4011.d9af832b39900a0e.js": "08ef4a39093819437fe6d12ffef7fd281b82e278",
+    "/4011.d52cdf27848d68f9.js": "b8b8ac454b79273456f966891cfde458f3b62590",
     "/4087.133e57982b292147.js": "df3a69e5f5bb968e76df3c1a23794b682ec0c11c",
     "/4090.087b866ade4582d8.js": "d1b6bcf567bec5de6d72e7926b0f6fdff341f09e",
     "/4170.545eacd938676635.js": "642c07fb2bdf1c4bdcd3fe638ba7b1cc01e9a5a9",
@@ -561,7 +562,7 @@
     "/9992.6a25ba51cf497957.js": "9db2e3792bfaa2760373ec5ccad1b0d33d547c10",
     "/assets/collections/gas-analysys.collection.json": "22de8d41d9c3df6e0f7a0938da8645b96cafea29",
     "/assets/collections/medication.collection.json": "faf69280b5c8a5abff7138de9706198aaebd4b32",
-    "/assets/collections/symptoms.collection.json": "3fb24b588c82302457c8b62789075eddbf9fea80",
+    "/assets/collections/symptoms.collection.json": "e1ad3696bc49f71c11fbd5790a1fc593311a81ec",
     "/assets/collections/terms.collection.json": "e18f675513e8236bd0fbe48d5d0b84b4b6ff3ed2",
     "/assets/icon/antibiotics.png": "725ed8b3d2c0e3ab8d4f63ebc3fc6c39be2a79dc",
     "/assets/icon/antiinflammatory.png": "d5e65afa8a3b7ff6111e1414f855783361ad0c1b",
@@ -605,6 +606,7 @@
     "/assets/icons/pet-care-medium.png": "ce415c1b385a5ed900247d8e147ceb97acdf2325",
     "/assets/icons/pet-care-small.png": "5c2cb2c9ab25298bd2b6ab7f62bcef49fc6043f2",
     "/assets/imgs/arrow.png": "c65a37b1ade412a85068164a8328d7fcfd9aae50",
+    "/assets/pdfs/@algorithms/clinichen-pregled-algoritym.pdf": "9f466c480f0577c05068774a1454e98bfd93fcae",
     "/assets/pdfs/@algorithms/gastrointestinal/abdominal-distention-algorithm-saim.png": "7724e17f5c64fcee467f407916ac2551f0a7bfc7",
     "/assets/pdfs/@algorithms/gastrointestinal/acute-abdominal-pain-algorithm.pdf": "7cd6f4511d211c02dfc63df5ea09d208b388a997",
     "/assets/pdfs/@algorithms/gastrointestinal/chronic-diarrhea-cats.pdf": "3a5b9c8a400c7ab77a8344d432527e8800aa6b23",
@@ -962,13 +964,13 @@
     "/assets/pdfs/@medication/urogenital/suprelorin.pdf": "5e087b48429d8e8a24300d59a995efbe9b9d32ba",
     "/assets/shapes.svg": "5413e95adabcb2cb639970051f55e0ddb64ace53",
     "/common.603b757c41dbbb17.js": "7503544e9687e4c819a165def771c44c7bd0c2c2",
-    "/index.html": "60f29084424a44e1d81b41a15405e5a516ccbce8",
+    "/index.html": "7f61c5c6208d9a4fea873574386b6d4276d36170",
     "/main.414541d34dc79329.js": "32e4c915e62e68bcbe7083184db302f84b6f4b5b",
     "/manifest.webmanifest": "583b002856e3fb83638e8e4743a46e530863f235",
     "/polyfills-core-js.93f56369317b7a8e.js": "c8e9e4ae48fec22ae530c491f407d01f349509a9",
     "/polyfills-dom.516ff539260f3e0d.js": "cea88d53dd7d9ae658909b54c7bf701b2c796086",
     "/polyfills.53dd1ba240d556a9.js": "962be12ce16b4d6de741a54f40843b51ef3d06f9",
-    "/runtime.a274018b10858669.js": "85ff7f6da72012abb80725204165aac70d282877",
+    "/runtime.a1408594a6e2a154.js": "74d755fa1228c398be4959525700eb5e6f6bf3ba",
     "/styles.c9f2210f80c0a313.css": "70933d9ba8432c63bd4361d2dc27a538a6c088c0"
   },
   "navigationUrls": [
