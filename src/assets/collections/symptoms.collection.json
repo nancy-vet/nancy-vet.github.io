@@ -240,6 +240,53 @@
       }
     ],
     "links" : [
+      { "title": "Клиничен преглед" , "link": "pdfs/@algorithms/clinichen-pregled-algoritym.pdf" },
+      { "title": "Алгоритъм куче НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_dog.pdf" },
+      { "title": "Алгоритъм котка НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_cat.pdf" },
+      { "title": "Алгоритъм миниВет" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea-minivet.pdf" }
+    ]
+  },
+  {
+    "symptom" : "Diarrhea, chronic",
+    "type"    :"gastrointestinal",
+    "meaning" : "diarrhea more than 7-14 days",
+    "causes"  : [
+      {
+        "group" : "Small bowel diarrhea", "children": [
+          {"title": "Food intolerance or allergy"},
+          {"title": "Inflammatory bowel disease"},
+          {"title": "GI lymphoma"},
+          {"title": "Pancreatic exocrine insufficiency"},
+          {"title": "Chronic parasitism (hookworm, Giardia)"},
+          {"title": "Histoplasmosis"},
+          {"title": "Intestinal lymphangiectasia"},
+          {"title": "Partial obstruction"},
+          {"title": "Pancreatic carcinoma"},
+          {"title": "Gastrinoma"},
+          {"title": "Liver disease (hepatocellular failure, cholestasis)"},
+          {"title": "Endocrine disease (hypoadrenocorticism, hypothyroidism, hyperthyroidism)"},
+          {"title": "Renal disease (uremia, nephrotic syndrome)"},
+          {"title": "Chronic intussusception"},
+          {"title": "Small intestinal bacterial overgrowth"},
+          {"title": "Pythiosis"}
+        ]
+      },
+      {
+        "group" : "Large bowel diarrhea", "children": [
+          {"title": "Food intolerance or allergy"},
+          {"title": "Parasitism (whipworm, Giardia, Trichomonas, Heterobilharzia)"},
+          {"title": "Clostridial colitis"},
+          {"title": "Irritable bowel syndrome (fiber-responsive)"},
+          {"title": "Histoplasmosis"},
+          {"title": "Pythiosis"},
+          {"title": "Inflammatory bowel disease"},
+          {"title": "Neoplasia (lymphoma, adenocarcinoma)"},
+          {"title": "FeLV/FIV (infections secondary to these viruses)"}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Клиничен преглед" , "link": "pdfs/@algorithms/clinichen-pregled-algoritym.pdf" },
       { "title": "Алгоритъм куче НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_dog.pdf" },
       { "title": "Алгоритъм котка НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_cat.pdf" },
       { "title": "Алгоритъм миниВет" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea-minivet.pdf" },
