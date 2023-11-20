@@ -33,6 +33,7 @@ export class DosePipe implements PipeTransform {
     if(value == 'paketche'          ) return 'пакетче';
     if(value == 'tbsp'              ) return 'с. л.';
     if(value == 'tsp'               ) return 'ч. л.';
+    if(value == 'tsp_5_kg'          ) return 'ч. л. на 5 кг';
     if(value == 'MU_kg'             ) return 'MU/kg';
     if(value == 'малко количество'  ) return 'малко количество';
     if(value == 'няколко капки'     ) return 'няколко капки';
