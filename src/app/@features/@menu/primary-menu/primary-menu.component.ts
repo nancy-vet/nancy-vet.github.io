@@ -1,6 +1,7 @@
-import { Component, inject            } from "@angular/core";
+import { Component, OnInit, inject    } from "@angular/core";
 import { Router                       } from "@angular/router";
 import { IonicModule, MenuController  } from "@ionic/angular";
+import { SystemService                } from "nv@services/system.service";
 
 @Component({
   selector    : 'primary-menu',
@@ -11,10 +12,17 @@ import { IonicModule, MenuController  } from "@ionic/angular";
     IonicModule
   ]
 })
-export class PrimaryMenu {
+export class PrimaryMenu implements OnInit {
 
-  private router: Router            = inject(Router);
-  private mainMeny: MenuController  = inject(MenuController);
+  private router: Router               = inject(Router);
+  private mainMeny: MenuController     = inject(MenuController);
+  private systemService: SystemService = inject(SystemService);
+
+  public $buildVersion = "";
+
+  public ngOnInit() {
+    this.$buildVersion = this.systemService.getVersion();
+  }
 
   /**
    * @author Mihail Petrov

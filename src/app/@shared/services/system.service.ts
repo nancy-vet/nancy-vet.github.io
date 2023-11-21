@@ -4,13 +4,13 @@ import buildJson from "nv@assets/build.json";
 @Injectable({
   providedIn: 'root'
 })
-export class BuildVersionService {
+export class SystemService {
 
   /**
    * @autrhor Mihail Petrov
    * @returns
    */
-  public get() {
+  public getVersion() {
     return buildJson.buildVersion;
   }
 }

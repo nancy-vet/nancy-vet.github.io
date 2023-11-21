@@ -5,7 +5,7 @@
     </ion-toolbar>
   </ion-header>
 
-  <ion-content color="light">
+  <ion-content color="light" class="menu">
     <ion-list [inset]="true">
       <ion-item>
         <ion-icon class="menu-icon" name="calculator-outline"></ion-icon>
@@ -21,4 +21,11 @@
       </ion-item>
     </ion-list>
   </ion-content>
+
+  <ion-footer>
+    <ion-toolbar>
+      <ion-title>v {{$buildVersion}}</ion-title>
+    </ion-toolbar>
+  </ion-footer>
+
 </ion-menu>
