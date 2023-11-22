@@ -24,6 +24,10 @@ jobs:
       
     - name: Build amd Commit files
       run: npm run build        
+
+    - name: Create Build version file
+      run: | 
+        echo { "build_version": "1.0.${{github.run_number}}" } > www/assets/build.json
       
     - name: Deploy
       uses: s0/git-publish-subdir-action@develop
