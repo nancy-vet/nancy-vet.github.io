@@ -1,4 +1,4 @@
-name: Build and Push to Repo-B
+name: Build the app and push it to the GP branch
 
 on:
   push:
@@ -27,7 +27,7 @@ jobs:
 
     - name: Create Build version file
       run: | 
-        echo { "build_version": "1.0.${{github.run_number}}" } > www/assets/build.json
+        echo { \"buildVersion\": \"1.0.${{github.run_number}}\" } > www/assets/build.json
       
     - name: Deploy
       uses: s0/git-publish-subdir-action@develop
@@ -36,3 +36,4 @@ jobs:
         BRANCH: gh-pages
         FOLDER: www
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        MESSAGE: "build version - 1.0.${{github.run_number}}"
