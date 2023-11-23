@@ -21,15 +21,12 @@ jobs:
         node-version: 18
     - name: Install NODE_MODULES
       run: npm install  --legacy-peer-deps
-      
-    - name: Build amd Commit files
-      run: npm run build
 
     - name: Create Build version file
       run: | 
-        echo { \"buildVersion\": \"1.0.${{github.run_number}}\" } > www/assets/build.json
-
-    - name: Re build
+        echo { \"buildVersion\": \"1.0.${{github.run_number}}\" } > src/assets/build.json
+      
+    - name: Build amd Commit files
       run: npm run build
       
     - name: Deploy
