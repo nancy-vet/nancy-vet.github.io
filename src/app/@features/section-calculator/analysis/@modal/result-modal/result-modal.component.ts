@@ -1,6 +1,6 @@
 import { Component, OnInit, inject    } from "@angular/core";
 import { ModalController              } from "@ionic/angular";
-import { AnalisysService              } from "../../analysys.service";
+import { AnalysisService              } from "../../analysis.service";
 
 @Component({
   selector    : 'modal--result',
@@ -9,7 +9,7 @@ import { AnalisysService              } from "../../analysys.service";
 })
 export class ResultModal implements OnInit {
 
-  private analysysService: AnalisysService  = inject(AnalisysService);
+  private analysysService: AnalysisService  = inject(AnalysisService);
   private modalController: ModalController  = inject(ModalController);
   private $modalParameters: any;
 

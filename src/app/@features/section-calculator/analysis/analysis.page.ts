@@ -3,11 +3,11 @@ import { DialogService        } from 'nv@services/dialog.service';
 import { ResultModal          } from './@modal/result-modal/result-modal.component';
 
 @Component({
-  selector    : 'page-analisys',
-  templateUrl : 'analisys.page.html',
-  styleUrl    : 'analisys.page.scss'
+  selector    : 'page-analysis',
+  templateUrl : 'analysis.page.html',
+  styleUrl    : 'analysis.page.scss'
 })
-export class AnalisysPage {
+export class AnalysisPage {
 
   private dialogService: DialogService  = inject(DialogService);
 

@@ -4,7 +4,7 @@ import { CommonModule           } from '@angular/common';
 import { FormsModule            } from '@angular/forms';
 import { RouterModule, Routes   } from '@angular/router';
 
-import { AnalisysPage           } from './analisys.page';
+import { AnalysisPage           } from './analysis.page';
 import { ResultModal            } from './@modal/result-modal/result-modal.component';
 
 import { PatientPicker          } from 'nv@components/@blocks/patient-picker/patient-picker.component';
@@ -13,13 +13,13 @@ import { NvInfoModal            } from 'nv@components/@layouts/nv-info-modal/nv-
 
 const routes: Routes = [{
     path      : '',
-    component : AnalisysPage,
+    component : AnalysisPage,
   }
 ];
 
 @NgModule({
   declarations                    : [
-    AnalisysPage                  ,
+    AnalysisPage                  ,
     ResultModal
   ],
   imports                         : [
@@ -32,4 +32,4 @@ const routes: Routes = [{
     NvInfoModal
   ]
 })
-export class AnalisysPageModule {}
+export class AnalysisPageModule {}

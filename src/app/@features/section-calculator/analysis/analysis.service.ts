@@ -1,10 +1,10 @@
 import { Injectable } from "@angular/core";
-import GasAnalisysJSONCollection from "nv@json/gas-analysys.collection.json";
+import GasAnalysisJSONCollection from "nv@json/gas-analysys.collection.json";
 
 @Injectable({
   providedIn: 'root'
 })
-export class AnalisysService {
+export class AnalysisService {
 
   /**
    * @author Mihail Petrov
@@ -173,7 +173,7 @@ export class AnalisysService {
 
     const animalType  = this.getAnimalType($formProperty);
     const bloodOrigin = this.getBloodOrigin($formProperty);
-    const table       = JSON.parse(JSON.stringify(GasAnalisysJSONCollection))[$key];
+    const table       = JSON.parse(JSON.stringify(GasAnalysisJSONCollection))[$key];
 
     const lowerBownd = table[animalType][bloodOrigin].start;
     const upperBownd = table[animalType][bloodOrigin].end;
