@@ -2122,7 +2122,7 @@
     "type": "nervous",
     "title": "Ксилазин 2%",
     "titleEn": "Xylazine 2%",
-    "activeSubstance": "ксилаизин",
+    "activeSubstance": "ксилазин",
     "drugConcentration": 0.1,
     "drugConcentrationDecorator": "mg_ml",
     "application": {
@@ -2145,7 +2145,7 @@
       { "title": "листовка", "link": "pdfs/@medication/nervous/ksilazin.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/xylazine.pdf" }
     ],
-    "indications"       : ["Препаратът действа седативно, аналетично, анестетично и мускулно- релаксантно при говеда, коне, кучета и котки. При всички случаи на необходимост от аналгезия и релаксия – транспорт, хирургични намеси, тежки раждания, при манипулации на злонрави животни."],
+    "indications"       : ["Препаратът действа седативно, аналгетично, анестетично и мускулно- релаксантно при говеда, коне, кучета и котки. При всички случаи на необходимост от аналгезия и релаксия – транспорт, хирургични намеси, тежки раждания, при манипулации на злонрави животни."],
     "contraindications" : ["Да не се прилага при говеда в последния месец на бременността и при животни с хронични сърдечни или белодробни заболявания."],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -2274,7 +2274,7 @@
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/nervous/anaket.pdf" },
-      { "title": "листовка", "link": "pdfs/@medication/plumbs-pdf/ketamine.pdf" }
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ketamine.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -3870,8 +3870,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/enroloxacin.pdf" }
+      { "title": "листовка", "link": "pdfs/@medication/antibiotics/baytril.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/enrofloxacin.pdf" }
     ],
     "indications"       : ["група: хинолони"],
     "contraindications" : [],
@@ -3896,8 +3896,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/enroloxacin.pdf" }
+      { "title": "листовка", "link": "pdfs/@medication/antibiotics/baytril.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/enrofloxacin.pdf" }
     ],
     "indications"       : ["група: хинолони"],
     "contraindications" : [],
@@ -3922,8 +3922,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/enroloxacin.pdf" }
+      { "title": "листовка", "link": "pdfs/@medication/antibiotics/baytril.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/enrofloxacin.pdf" }
     ],
     "indications"       : ["група: хинолони"],
     "contraindications" : [],
@@ -4410,7 +4410,7 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/" }
+      { "title": "листовка", "link": "pdfs/@medication/antibiotics/sumamed.pdf" }
     ],
     "indications"       : ["група: макролиди"],
     "contraindications" : [],

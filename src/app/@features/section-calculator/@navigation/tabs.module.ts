@@ -24,7 +24,7 @@ const routes: Routes = [
       },
       {
         path          : 'tab2',
-        loadChildren  : () => import('../analisys/analisys.module').then(m => m.AnalisysPageModule)
+        loadChildren  : () => import('../analysis/analysis.module').then(m => m.AnalysisPageModule)
       },
       {
         path          : 'tab3',
