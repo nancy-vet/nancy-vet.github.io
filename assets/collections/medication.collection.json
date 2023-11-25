@@ -1,5 +1,31 @@
 [
+  {
+    "type": "gastrointestinal",
+    "title": "Воминил 10 мг/мл",
+    "titleEn": "Vominil 10 mg/ml",
+    "activeSubstance": "маропитант",
+    "drugConcentration": 10,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "SC IV q24h за 5 дни"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/vominil.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/maropitant.pdf" }
+    ],
 
+    "indications"       : ["За лечение и предотвратяване на повръщането, индуцирано от химиотерапия. Поради това се препоръчва антиеметикът да се прилага преди агентът на химиотерапията.", "За предотвратяване на повръщане, с изключение на повръщане, предизвикано от пътуване.", "За лечение на повръщане в комбинация с други поддържащи мерки."],
+    "contraindications" : ["Няма"],
+    "drugInteractions"  : ["Маропитант не бива да се използва едновременно с антагонисти на калциеви канали, тъй като маропитант има афинитет към калциевите канали. Маропитант се свързва бързо с плазмата и може да се конкурира с други лекарствени продукти."],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
   {
     "type": "gastrointestinal",
     "title": "Церения 10 мг/мл",
@@ -152,6 +178,32 @@
     "indications"       : ["Pantoprazole has been shown to directly reduce in vitro counts of H. pylori and is used in some H. pylori treatment protocols for humans. Tablets must be given whole; do not split or crush"],
     "contraindications" : ["do not give IM or SQ"],
     "drugInteractions"  : ["Drugs requiring decreased gastric PH for optimal absorption (e.g., ketoconazole, itraconazole, iron, ampicillin esters): Pantoprazole may decrease drug absorption", "Sucralfate: May decrease bioavailability of orally administered pantoprazole"],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "gastrointestinal",
+    "title": "Сопрал 20 мг капс",
+    "titleEn": "Sopral 20 mg caps",
+    "activeSubstance": "омепразол",
+    "drugConcentration": 20,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": ""
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/sopral.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/omeprazole.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -2935,6 +2987,31 @@
     "pharmacology"      : []
   },
   {
+    "type": "ears",
+    "title": "Фуроталгин",
+    "titleEn": "Furotalgin",
+    "activeSubstance": "нитрофурал, тетракаинов хидрохлорид, феназон",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "gtt",
+        "applicationMethod": "на вески 6 часа"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/ears/furotalgin.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
     "type": "skin",
     "title": "Теранекрон Д6",
     "titleEn": "Theranekron D6",
@@ -4360,6 +4437,32 @@
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/antibiotics/dalacin-c.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/clindamycin.pdf" }
+    ],
+    "indications"       : ["група: линкозамиди", "Котки: лечение на инфектирани рани и абсцеси, причинени от Staphylococcus spp. и Streptococcus spp., чувствителни на клиндамицин.", "Кучета:", "– лечение на инфектирани рани, абсцеси и инфекции на устната кухина и зъбите, причинени или свързани със Staphylococcus spp., Streptococcus spp., Bacteroides spp., Fusobacterium necrophorum, Clostridium perfringens, чувствителни на клиндамицин;", "– допълнителна терапия при механични или хирургични периодонтални интервенции при лечение на инфекции на гингивалните и периодонталните тъкани;", "– лечение на остеомиелит, причинен от Staphylococcus aureus."],
+    "contraindications" : ["in patients with known hypersensitivity to it or lincomycin.", "Patients with very severe renal and/or hepatic disease.", "Клиндамицинът не трябва да се прилага на хамстери, морски свинчета, зайци, чинчили, коне и преживни животни, защото може да причини сериозни смущения в храносмилането при тези видове."],
+    "drugInteractions"  : ["НЕ ИЗПОЛЗВАЙ клиндамицин с хлорамфеникол, макролиди и аминогликозиди!", "Алуминиевите соли могат да намалят резорбцията на клиндамицина."],
+    "adverseEffects"    : ["Gastroenteritis, Esophagitis occurring in cats when solid dosage forms were given without food or a water bolus, hypersalivation or lip smacking"],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antibiotics",
+    "title": "Клиндавет 75 мг табл",
+    "titleEn": "Clindavet 75 mg tabl",
+    "activeSubstance": "клиндамицин",
+    "drugConcentration": 150,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          10
+        ],
+        "activeSubstanceDoseDecorator": "мг/кг",
+        "applicationMethod": "PO q12h 7-10 дни"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/antibiotics/clindavet.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/clindamycin.pdf" }
     ],
     "indications"       : ["група: линкозамиди", "Котки: лечение на инфектирани рани и абсцеси, причинени от Staphylococcus spp. и Streptococcus spp., чувствителни на клиндамицин.", "Кучета:", "– лечение на инфектирани рани, абсцеси и инфекции на устната кухина и зъбите, причинени или свързани със Staphylococcus spp., Streptococcus spp., Bacteroides spp., Fusobacterium necrophorum, Clostridium perfringens, чувствителни на клиндамицин;", "– допълнителна терапия при механични или хирургични периодонтални интервенции при лечение на инфекции на гингивалните и периодонталните тъкани;", "– лечение на остеомиелит, причинен от Staphylococcus aureus."],
@@ -5900,6 +6003,32 @@
   },
   {
     "type": "others",
+    "title": "Зарзио 30 MU/0.5 мл",
+    "titleEn": "Zarzio 30 MU/0.5 ml",
+    "activeSubstance": "филграстим",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": ""
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/antiparasitic/zarzio.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/filgrastim.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
     "title": "Левкеран 2 мг табл",
     "titleEn": "Leukeran 2 mg tabl",
     "activeSubstance": "клорамбусил",
@@ -6249,6 +6378,38 @@
       }
     },
     "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Ка-Витал табл",
+    "titleEn": "Ka-Vital tabl",
+    "activeSubstance": "витамин К",
+    "drugConcentration": 10,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl",
+        "applicationMethod": "на 10 кг (възрастни КЧ) или 1 табл./5 кг за кученца"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl",
+        "applicationMethod": "на котка"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/others/flexadin.pdf" }
+    ],
+    "indications"       : ["Възрастни кучета: 1 таблетка дневно за 10 кг телесно тегло.", "Кученца: 1 таблетка дневно за 5 кг телесно тегло.", "Котки: 1 таблетка дневно.", "Допълваща храна за кучета и котки. Ежедневна добавка от K-витамин. За подпомагане  функцията на черния дроб и синтеза на протеини, важни за кръвосъсирването."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -6612,5 +6773,27 @@
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "ЕнтероЗоо детоксикиращ гел",
+    "titleEn": "EnteroZoo gel",
+    "activeSubstance": "полиметилсилоксан полихидрат",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl",
+        "applicationMethod": "PO на куче"
+      }
+    },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : ["При преминаването си през стомашно-чревния тракт се свързва с патогенните организми (паразити, бактерии), токсичните вещества и алергените, извеждайки ги с фекалиите от организма."]
   }
 ]
