@@ -22,7 +22,7 @@ const routes: Routes = [
     children  : [
       {
         path          : 'tab1',
-        loadChildren  : () => import('../probe-corpo/probe-corpo.module').then(m => m.FeatureModule)
+        loadChildren  : () => import('../probe-copro/probe-copro.module').then(m => m.FeatureModule)
       },
       {
         path          : 'tab2',
