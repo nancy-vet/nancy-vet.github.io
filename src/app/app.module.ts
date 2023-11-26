@@ -1,30 +1,40 @@
 import { NgModule, isDevMode } from '@angular/core';
+import { CommonModule           } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
-import { NoPreloading, PreloadAllModules, RouteReuseStrategy, RouterModule, Routes } from '@angular/router';
+import { NoPreloading, RouteReuseStrategy, RouterModule, Routes } from '@angular/router';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
-import { AppComponent } from './app.component';
-import { CommonModule } from '@angular/common';
-import { PrimaryMenu } from './@features/@menu/primary-menu/primary-menu.component';
+import { AppComponent           } from './app.component';
+
+import { PrimaryMenu            } from './@features/@menu/primary-menu/primary-menu.component';
+import { AppNavigationRouteEnum } from 'nv@models/route.enum';
 
 const routes: Routes = [
   {
     path        : '',
-    redirectTo  : 'splash',
+    redirectTo  : AppNavigationRouteEnum.SPLASH,
     pathMatch   : 'full'
   },
   {
-    path          : 'splash',
+    path          : AppNavigationRouteEnum.SPLASH,
     loadChildren  : () => import('./@features/@splash/splash.module').then(m => m.SplashModule)
   },
   {
-    path          : 'calculator',
+    path          : AppNavigationRouteEnum.CALCULATOR,
     loadChildren  : () => import('./@features/section-calculator/@navigation/tabs.module').then(m => m.TabsPageModule)
   },
   {
-    path          : 'library',
+    path          : AppNavigationRouteEnum.LIBRARY,
     loadChildren  : () => import('./@features/section-library/@navigation/tabs.module').then(m => m.TabsPageModule)
+  },
+  {
+    path          : AppNavigationRouteEnum.EXAMINATION,
+    loadChildren  : () => import('./@features/section-library/@navigation/tabs.module').then(m => m.TabsPageModule)
+  },
+  {
+    path          : AppNavigationRouteEnum.VACINATION,
+    loadChildren  : () => import('./@features/section-vaccination/@navigation/tabs.module').then(m => m.TabsPageModule)
   }
 ];
 
