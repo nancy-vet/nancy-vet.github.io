@@ -16,7 +16,12 @@ export class ProbeCoproPage implements OnInit {
   public $data: any;
 
   public ngOnInit(): void {
-    this.$data = this.$probeService.get();
+
+    const pathCollection = window.location.pathname.split('/');
+    const serviceId      = pathCollection[pathCollection.length - 1];
+    const service        = this.getServiceBasedOnPath(serviceId);
+
+    this.$data = this.$probeService.get(service);
   }
 
   /**
@@ -28,5 +33,18 @@ export class ProbeCoproPage implements OnInit {
     (await this.dialogService.open(DetailModal, {
       selectedObject: element
     }));
+  }
+
+  /**
+   * @author Mihail Petrov
+   * @param pathId
+   * @returns
+   */
+  private getServiceBasedOnPath(pathId: string) {
+
+    if(pathId == 'tab1') return 'copro';
+    if(pathId == 'tab2') return 'ear';
+    if(pathId == 'tab3') return 'skin';
+    return '';
   }
 }
