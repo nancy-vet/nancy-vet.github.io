@@ -4,11 +4,11 @@ import { ProbeService } from 'nv@services/probe.service';
 import { DetailModal } from './@modal/detail/detail.component';
 
 @Component({
-  selector    : 'page-probe-copro',
-  templateUrl : './probe-copro.page.html',
-  styleUrl    : './probe-copro.page.scss'
+  selector    : 'page-probe',
+  templateUrl : './probe.page.html',
+  styleUrl    : './probe.page.scss'
 })
-export class ProbeCoproPage implements OnInit {
+export class ProbePage implements OnInit {
 
   private $probeService: ProbeService   = inject(ProbeService);
   private dialogService: DialogService  = inject(DialogService);
