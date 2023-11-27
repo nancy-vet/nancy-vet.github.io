@@ -152,7 +152,7 @@
     "frontImage": "/assets/pdfs/@probes/copro/strongyloides-1.png",
     "gallery"   : [
       "/assets/pdfs/@probes/copro/strongyloides-1.png",
-      "/assets/pdfs/@probes/copro/strongyloides-2.jpg",
+      "/assets/pdfs/@probes/copro/strongyloides-2.png",
       "/assets/pdfs/@probes/copro/strongyloides-3.png",
       "/assets/pdfs/@probes/copro/strongyloides-4.png"
     ],
@@ -241,17 +241,15 @@
     ]
   },
   {
-    "title"     : "Toxocara canis",
-    "frontImage": "/assets/pdfs/@probes/copro/toxocara-1.png",
+    "title"     : "Taenia pisiformis",
+    "frontImage": "/assets/pdfs/@probes/copro/pisiformis-1.png",
     "gallery"   : [
-      "/assets/pdfs/@probes/copro/toxocara-1.png",
-      "/assets/pdfs/@probes/copro/toxocara-2.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-3.png",
-      "/assets/pdfs/@probes/copro/toxocara-4.png",
-      "/assets/pdfs/@probes/copro/toxocara-5.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-6.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-7.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-8.jpg"
+      "/assets/pdfs/@probes/copro/pisiformis-1.png",
+      "/assets/pdfs/@probes/copro/pisiformis-2.jpg",
+      "/assets/pdfs/@probes/copro/pisiformis-3.png",
+      "/assets/pdfs/@probes/copro/pisiformis-4.jpg",
+      "/assets/pdfs/@probes/copro/pisiformis-5.jpg",
+      "/assets/pdfs/@probes/copro/pisiformis-6.jpg"
     ],
     "section"   : [
       {
@@ -283,17 +281,12 @@
   },
 
   {
-    "title"     : "Toxocara canis",
-    "frontImage": "/assets/pdfs/@probes/copro/toxocara-1.png",
+    "title"     : "Taenia taeniaeformis",
+    "frontImage": "/assets/pdfs/@probes/copro/taeniaeformis-1.jpg",
     "gallery"   : [
-      "/assets/pdfs/@probes/copro/toxocara-1.png",
-      "/assets/pdfs/@probes/copro/toxocara-2.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-3.png",
-      "/assets/pdfs/@probes/copro/toxocara-4.png",
-      "/assets/pdfs/@probes/copro/toxocara-5.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-6.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-7.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-8.jpg"
+      "/assets/pdfs/@probes/copro/taeniaeformis-1.jpg",
+      "/assets/pdfs/@probes/copro/taeniaeformis-2.jpg",
+      "/assets/pdfs/@probes/copro/taeniaeformis-3.jpg"
     ],
     "section"   : [
       {
@@ -325,17 +318,12 @@
   },
 
   {
-    "title"     : "Toxocara canis",
-    "frontImage": "/assets/pdfs/@probes/copro/toxocara-1.png",
+    "title"     : "Isospora spp.",
+    "frontImage": "/assets/pdfs/@probes/copro/isospora-canis-1.jpg",
     "gallery"   : [
-      "/assets/pdfs/@probes/copro/toxocara-1.png",
-      "/assets/pdfs/@probes/copro/toxocara-2.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-3.png",
-      "/assets/pdfs/@probes/copro/toxocara-4.png",
-      "/assets/pdfs/@probes/copro/toxocara-5.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-6.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-7.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-8.jpg"
+      "/assets/pdfs/@probes/copro/isospora-canis-1.jpg",
+      "/assets/pdfs/@probes/copro/isospora-canis-2.jpg",
+      "/assets/pdfs/@probes/copro/isospora-3.png"
     ],
     "section"   : [
       {
@@ -367,17 +355,14 @@
   },
 
   {
-    "title"     : "Toxocara canis",
-    "frontImage": "/assets/pdfs/@probes/copro/toxocara-1.png",
+    "title"     : "Giardia duodenalis, G. canis, G. felis",
+    "frontImage": "/assets/pdfs/@probes/copro/giardia-1.png",
     "gallery"   : [
-      "/assets/pdfs/@probes/copro/toxocara-1.png",
-      "/assets/pdfs/@probes/copro/toxocara-2.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-3.png",
-      "/assets/pdfs/@probes/copro/toxocara-4.png",
-      "/assets/pdfs/@probes/copro/toxocara-5.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-6.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-7.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-8.jpg"
+      "/assets/pdfs/@probes/copro/giardia-1.png",
+      "/assets/pdfs/@probes/copro/giardia-2.jpg",
+      "/assets/pdfs/@probes/copro/giardia-3.png",
+      "/assets/pdfs/@probes/copro/giardia-4.jpg",
+      "/assets/pdfs/@probes/copro/giardia-5.png"
     ],
     "section"   : [
       {
@@ -409,17 +394,15 @@
   },
 
   {
-    "title"     : "Toxocara canis",
-    "frontImage": "/assets/pdfs/@probes/copro/toxocara-1.png",
+    "title"     : "Toxoplasma gondii",
+    "frontImage": "/assets/pdfs/@probes/copro/toxoplasma-1.jpg",
     "gallery"   : [
-      "/assets/pdfs/@probes/copro/toxocara-1.png",
-      "/assets/pdfs/@probes/copro/toxocara-2.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-3.png",
-      "/assets/pdfs/@probes/copro/toxocara-4.png",
-      "/assets/pdfs/@probes/copro/toxocara-5.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-6.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-7.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-8.jpg"
+      "/assets/pdfs/@probes/copro/toxoplasma-1.jpg",
+      "/assets/pdfs/@probes/copro/toxoplasma-2.jpg",
+      "/assets/pdfs/@probes/copro/toxoplasma-3.png",
+      "/assets/pdfs/@probes/copro/toxoplasma-4.jpg",
+      "/assets/pdfs/@probes/copro/toxoplasma-5.jpg",
+      "/assets/pdfs/@probes/copro/toxoplasma-6.png"
     ],
     "section"   : [
       {
@@ -451,17 +434,13 @@
   },
 
   {
-    "title"     : "Toxocara canis",
-    "frontImage": "/assets/pdfs/@probes/copro/toxocara-1.png",
+    "title"     : "Eucoleus aerophilus",
+    "frontImage": "/assets/pdfs/@probes/copro/eucoleus-1.png",
     "gallery"   : [
-      "/assets/pdfs/@probes/copro/toxocara-1.png",
-      "/assets/pdfs/@probes/copro/toxocara-2.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-3.png",
-      "/assets/pdfs/@probes/copro/toxocara-4.png",
-      "/assets/pdfs/@probes/copro/toxocara-5.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-6.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-7.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-8.jpg"
+      "/assets/pdfs/@probes/copro/eucoleus-1.png",
+      "/assets/pdfs/@probes/copro/eucoleus-2.png",
+      "/assets/pdfs/@probes/copro/eucoleus-3.png",
+      "/assets/pdfs/@probes/copro/eucoleus-4.jpg"
     ],
     "section"   : [
       {
@@ -493,17 +472,270 @@
   },
 
   {
-    "title"     : "Toxocara canis",
-    "frontImage": "/assets/pdfs/@probes/copro/toxocara-1.png",
+    "title"     : "Paragonimus kellicotti",
+    "frontImage": "/assets/pdfs/@probes/copro/paragonimus-kellicotti-1.jpeg",
     "gallery"   : [
-      "/assets/pdfs/@probes/copro/toxocara-1.png",
-      "/assets/pdfs/@probes/copro/toxocara-2.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-3.png",
-      "/assets/pdfs/@probes/copro/toxocara-4.png",
-      "/assets/pdfs/@probes/copro/toxocara-5.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-6.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-7.jpg",
-      "/assets/pdfs/@probes/copro/toxocara-8.jpg"
+      "/assets/pdfs/@probes/copro/paragonimus-kellicotti-1.jpeg",
+      "/assets/pdfs/@probes/copro/paragonimus-kellicotti-2.jpeg",
+      "/assets/pdfs/@probes/copro/paragonimus-kellicotti-3.jpg",
+      "/assets/pdfs/@probes/copro/paragonimus-kellicotti-4.jpg",
+      "/assets/pdfs/@probes/copro/paragonimus-kellicotti-5.jpeg"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          ""
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Physaloptera rara",
+    "frontImage": "/assets/pdfs/@probes/copro/physaloptera-1.jpg",
+    "gallery"   : [
+      "/assets/pdfs/@probes/copro/tophysalopteraxocara-1.jpg"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          ""
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Neospora caninum",
+    "frontImage": "/assets/pdfs/@probes/copro/neospora-1.jpg",
+    "gallery"   : [
+      "/assets/pdfs/@probes/copro/neospora-1.jpg",
+      "/assets/pdfs/@probes/copro/neospora-2.jpg",
+      "/assets/pdfs/@probes/copro/neospora-3.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          ""
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Sarcocystis spp.",
+    "frontImage": "/assets/pdfs/@probes/copro/sarcocystis-1.jpg",
+    "gallery"   : [
+      "/assets/pdfs/@probes/copro/sarcocystis-1.jpg",
+      "/assets/pdfs/@probes/copro/sarcocystis-2.jpg",
+      "/assets/pdfs/@probes/copro/sarcocystis-3.jpg",
+      "/assets/pdfs/@probes/copro/sarcocystis-4.jpg",
+      "/assets/pdfs/@probes/copro/sarcocystis-5.jpg"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          ""
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Baylisascaris procyonis",
+    "frontImage": "/assets/pdfs/@probes/copro/baylisascaris-1.jpg",
+    "gallery"   : [
+      "/assets/pdfs/@probes/copro/baylisascaris-1.jpg",
+      "/assets/pdfs/@probes/copro/baylisascaris-2.jpg",
+      "/assets/pdfs/@probes/copro/baylisascaris-3.jpg",
+      "/assets/pdfs/@probes/copro/baylisascaris-4.jpg"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          ""
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Cryptosporidium canis, Cr. felis",
+    "frontImage": "/assets/pdfs/@probes/copro/cryptosporidium-1.jpg",
+    "gallery"   : [
+      "/assets/pdfs/@probes/copro/cryptosporidium-1.jpg"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          ""
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Alaria spp.",
+    "frontImage": "/assets/pdfs/@probes/copro/alaria-1.jpg",
+    "gallery"   : [
+      "/assets/pdfs/@probes/copro/alaria-1.jpg",
+      "/assets/pdfs/@probes/copro/alaria-2.jpg"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          ""
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Diphyllobothrium spp.",
+    "frontImage": "/assets/pdfs/@probes/copro/diphyllobothrium-1.jpg",
+    "gallery"   : [
+      "/assets/pdfs/@probes/copro/diphyllobothrium-1.jpg",
+      "/assets/pdfs/@probes/copro/diphyllobothrium-2.jpeg"
     ],
     "section"   : [
       {
