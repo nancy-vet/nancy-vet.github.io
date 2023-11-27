@@ -1,0 +1,25 @@
+[
+  {
+    "title"     : "",
+    "frontImage": "",
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : []
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : []
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : []
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : []
+      }
+    ]
+  }
+]

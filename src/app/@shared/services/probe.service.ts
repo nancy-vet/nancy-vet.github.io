@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import jsonDataSource from "nv@json/probe-copro.collection.json";
+import jsonDataSource from "nv@json/probe/copro.collection.json";
 
 @Injectable({
   providedIn: "root"
