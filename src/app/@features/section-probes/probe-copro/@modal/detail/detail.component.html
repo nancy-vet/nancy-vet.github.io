@@ -1,0 +1,13 @@
+<nv-info-modal
+  [inputTitle]="'Инфо'"
+  class="ion-page">
+
+  @for(element of selectedObject.section; track element) {
+    <div class="h2 mt5">{{element.sectionTitle}}</div>
+
+    @for(sectionElement of element.content; track sectionElement) {
+      <div class="mt5">{{sectionElement}}</div>
+    }
+  }
+
+</nv-info-modal>

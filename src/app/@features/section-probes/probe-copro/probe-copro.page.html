@@ -13,6 +13,14 @@
   id="main-content"
   [fullscreen]="true">
 
-  Comming soon
+  @for(element of $data; track element) {
+
+    <div (click)="onSelectCard(element)">
+      <div>{{element.title}}</div>
+      <div>
+        <img src="{{element.frontImage}}"/>
+      </div>
+    </div>
+  }
 
 </ion-content>
