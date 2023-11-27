@@ -3368,7 +3368,7 @@
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["High doses or very prolonged use of penicillins have been associated with neurotoxicity (e.g., ataxia in dogs)."],
     "pharmacology"      : []
   },
   {
@@ -3638,10 +3638,11 @@
     "application": {
       "any": {
         "activeSubstanceDose": [
-          0
+          20,
+          50
         ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "IV q8h"
       }
     },
     "links": [
@@ -3651,7 +3652,7 @@
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["High doses or very prolonged use of penicillins have been associated with neurotoxicity (e.g., ataxia in dogs)."],
     "pharmacology"      : []
   },
   {
