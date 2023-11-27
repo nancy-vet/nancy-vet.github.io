@@ -2,8 +2,17 @@
   [inputTitle]="'Инфо'"
   class="ion-page">
 
+  <div class="h1">
+    {{selectedObject.title}}
+  </div>
+
+  <div class="mt5 flex bc-orange gallery" (click)="onGalleryOpen()">
+    <ion-icon class="mr8" name="camera-outline"></ion-icon>
+    <div>Галерия спесименти</div>
+  </div>
+
   @for(element of selectedObject.section; track element) {
-    <div class="h2 mt5">{{element.sectionTitle}}</div>
+    <div class="h3 mt16">{{element.sectionTitle}}</div>
 
     @for(sectionElement of element.content; track sectionElement) {
       <div class="mt5">{{sectionElement}}</div>

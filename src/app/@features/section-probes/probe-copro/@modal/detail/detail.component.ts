@@ -1,5 +1,7 @@
 import { Component, inject  } from "@angular/core";
 import { ModalController    } from "@ionic/angular";
+import { DialogService      } from "nv@services/dialog.service";
+import { GalleryModal       } from "../gallery/gallery.component";
 
 @Component({
   selector    : 'modal--detail',
@@ -9,6 +11,7 @@ import { ModalController    } from "@ionic/angular";
 export class DetailModal {
 
   private modalController: ModalController  = inject(ModalController);
+  private dialogService: DialogService      = inject(DialogService);
   public selectedObject: any;
 
   /**
@@ -16,5 +19,15 @@ export class DetailModal {
    */
   public onConfirm() {
     this.modalController.dismiss();
+  }
+
+  /**
+   * @author Mihail Petrov
+   */
+  public async onGalleryOpen() {
+
+    (await this.dialogService.open(GalleryModal, {
+      selectedObject: this.selectedObject.gallery
+    }));
   }
 }

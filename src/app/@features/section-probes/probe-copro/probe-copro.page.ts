@@ -10,8 +10,8 @@ import { DetailModal } from './@modal/detail/detail.component';
 })
 export class ProbeCoproPage implements OnInit {
 
-  private $probeService = inject(ProbeService);
-  private dialogService = inject(DialogService);
+  private $probeService: ProbeService   = inject(ProbeService);
+  private dialogService: DialogService  = inject(DialogService);
 
   public $data: any;
 

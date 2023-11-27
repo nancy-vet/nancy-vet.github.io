@@ -1,5 +1,5 @@
 import { IonicModule              } from '@ionic/angular';
-import { NgModule                 } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { CommonModule             } from '@angular/common';
 import { FormsModule              } from '@angular/forms';
 import { RouterModule, Routes     } from '@angular/router';
@@ -13,10 +13,10 @@ import { DosePipe                 } from 'nv@pipes/doce.pipe';
 import { CategoryPickerComponent  } from 'nv@components/@blocks/category-picker/category-picker.component';
 import { NvInfoModal              } from 'nv@components/@layouts/nv-info-modal/nv-info-modal.component';
 import { SplitPipe                } from 'nv@pipes/split.pipe';
-import { NvLinkButtonComponent } from 'nv@components/@forms/nv-link-button/nv-link-button.component';
-import { ProbeCoproPage } from './probe-copro.page';
-import { DetailModal } from './@modal/detail/detail.component';
-
+import { NvLinkButtonComponent    } from 'nv@components/@forms/nv-link-button/nv-link-button.component';
+import { ProbeCoproPage           } from './probe-copro.page';
+import { DetailModal              } from './@modal/detail/detail.component';
+import { GalleryModal             } from './@modal/gallery/gallery.component';
 
 const routes: Routes = [{
     path      : '',
@@ -25,9 +25,13 @@ const routes: Routes = [{
 ];
 
 @NgModule({
+  schemas                           : [
+    CUSTOM_ELEMENTS_SCHEMA
+  ],
     declarations                    : [
-      ProbeCoproPage,
-      DetailModal
+      ProbeCoproPage                ,
+      DetailModal                   ,
+      GalleryModal
     ],
     imports                         : [
       RouterModule.forChild(routes) ,
