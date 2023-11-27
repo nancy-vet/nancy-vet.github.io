@@ -5307,8 +5307,8 @@
   },
   {
     "type": "antiinflammatory",
-    "title": "Глюкортин-20",
-    "titleEn": "Glucortin-20 2 мг/мл",
+    "title": "Глюкортин-20 2 мг/мл",
+    "titleEn": "Glucortin-20 2 mg/ml",
     "activeSubstance": "дексаметазон",
     "drugConcentration": 2,
     "drugConcentrationDecorator": "mg_ml",
@@ -5657,40 +5657,6 @@
     },
     "links" : [
       { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/deksametazonik.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/dexamethasone.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "antiinflammatory",
-    "title": "Глюкортин-20 2 мг/мл",
-    "titleEn": "Glucortin-20",
-    "activeSubstance": "дексаметазон",
-    "drugConcentration": 2,
-    "drugConcentrationDecorator": "mg_ml",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          0.25,
-          1
-        ],
-        "activeSubstanceDoseDecorator": "мl",
-        "applicationMethod": "ИВ или ИМ"
-      },
-      "cat": {
-        "activeSubstanceDose": [
-          0.25
-        ],
-        "activeSubstanceDoseDecorator": "мl",
-        "applicationMethod": "ИВ или ИМ"
-      }
-    },
-    "links" : [
-      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/glucortin-20.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/dexamethasone.pdf" }
     ],
     "indications"       : [],
