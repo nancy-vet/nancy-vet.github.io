@@ -3768,22 +3768,23 @@
     "drugConcentration": 1,
     "drugConcentrationDecorator": "-",
     "application": {
-      "dog": {
+      "any": {
         "activeSubstanceDose": [
-          1
+          20,
+          50
         ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "IM, IV q24h"
       }
     },
     "links": [
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ceftriaxone.pdf" }
     ],
-    "indications"       : ["група: цефалоспорини"],
+    "indications"       : ["група: цефалоспорини", "Ceftriaxone is used to treat serious infections.", "for treating Lyme’s disease."],
     "contraindications" : [],
-    "drugInteractions"  : [],
+    "drugInteractions"  : ["Aminoglycosides/nephrotoxic drugs: The concurrent use of parenteral aminoglycosides or other nephrotoxic drugs (e.g., amphotericin B) with cephalosporins is somewhat controversial.", "Calcium: Concomitant use with calcium containing solutions have caused fatal calcium-ceftriaxone precipitates in lungs and kidneys of neonatal humans"],
     "adverseEffects"    : [],
-    "pharmacology"      : []
+    "pharmacology"      : ["минава през мозъчната и плацентарната бариери"]
   },
   {
     "type": "antibiotics",
@@ -3793,23 +3794,24 @@
     "drugConcentration": 1,
     "drugConcentrationDecorator": "-",
     "application": {
-      "dog": {
+      "any": {
         "activeSubstanceDose": [
-          1
+          20,
+          50
         ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "IM, IV q24h"
       }
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/antibiotics/medaxon.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ceftriaxone.pdf" }
     ],
-    "indications"       : ["група: цефалоспорини"],
+    "indications"       : ["група: цефалоспорини", "Ceftriaxone is used to treat serious infections.", "for treating Lyme’s disease."],
     "contraindications" : [],
-    "drugInteractions"  : [],
+    "drugInteractions"  : ["Aminoglycosides/nephrotoxic drugs: The concurrent use of parenteral aminoglycosides or other nephrotoxic drugs (e.g., amphotericin B) with cephalosporins is somewhat controversial.", "Calcium: Concomitant use with calcium containing solutions have caused fatal calcium-ceftriaxone precipitates in lungs and kidneys of neonatal humans"],
     "adverseEffects"    : [],
-    "pharmacology"      : []
+    "pharmacology"      : ["минава през мозъчната и плацентарната бариери"]
   },
   {
     "type": "antibiotics",
@@ -3821,45 +3823,47 @@
     "application": {
       "any": {
         "activeSubstanceDose": [
+          20,
           50
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IV q12h"
+        "applicationMethod": "IM, IV q24h"
       }
     },
     "links": [
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ceftriaxone.pdf" }
     ],
-    "indications"       : ["група: цефалоспорини"],
+    "indications"       : ["група: цефалоспорини", "Ceftriaxone is used to treat serious infections.", "for treating Lyme’s disease."],
     "contraindications" : [],
-    "drugInteractions"  : [],
+    "drugInteractions"  : ["Aminoglycosides/nephrotoxic drugs: The concurrent use of parenteral aminoglycosides or other nephrotoxic drugs (e.g., amphotericin B) with cephalosporins is somewhat controversial.", "Calcium: Concomitant use with calcium containing solutions have caused fatal calcium-ceftriaxone precipitates in lungs and kidneys of neonatal humans"],
     "adverseEffects"    : [],
-    "pharmacology"      : []
+    "pharmacology"      : ["минава през мозъчната и плацентарната бариери"]
   },
   {
     "type": "antibiotics",
     "title": "Цефтриаксон MIP флакон 2 г",
     "titleEn": "Ceftriaxon MIP",
-    "activeSubstance": "Цефтриаксон",
+    "activeSubstance": "цефтриаксон",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
     "application": {
       "any": {
         "activeSubstanceDose": [
+          20,
           50
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IV q12h"
+        "applicationMethod": "IM, IV q24h"
       }
     },
     "links": [
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ceftriaxone.pdf" }
     ],
-    "indications"       : ["група: цефалоспорини"],
+    "indications"       : ["група: цефалоспорини", "Ceftriaxone is used to treat serious infections.", "for treating Lyme’s disease."],
     "contraindications" : [],
-    "drugInteractions"  : [],
+    "drugInteractions"  : ["Aminoglycosides/nephrotoxic drugs: The concurrent use of parenteral aminoglycosides or other nephrotoxic drugs (e.g., amphotericin B) with cephalosporins is somewhat controversial.", "Calcium: Concomitant use with calcium containing solutions have caused fatal calcium-ceftriaxone precipitates in lungs and kidneys of neonatal humans"],
     "adverseEffects"    : [],
-    "pharmacology"      : []
+    "pharmacology"      : ["минава през мозъчната и плацентарната бариери"]
   },
   {
     "type": "antibiotics",
