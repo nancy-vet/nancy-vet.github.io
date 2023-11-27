@@ -3,9 +3,9 @@
     "title"     : "Otodectes cynotis",
     "frontImage": "assets/pdfs/@probes/ear/otodectes-1.jpg",
     "gallery"   : [
-      "assets/pdfs/@probes/copro/otodectes-1.jpg",
-      "assets/pdfs/@probes/copro/otodectes-2.jpg",
-      "assets/pdfs/@probes/copro/otodectes-3.jpg"
+      "assets/pdfs/@probes/ear/otodectes-1.jpg",
+      "assets/pdfs/@probes/ear/otodectes-2.jpg",
+      "assets/pdfs/@probes/ear/otodectes-3.jpg"
     ],
     "section"   : [
       {
@@ -15,7 +15,7 @@
 
       {
         "sectionTitle": "Клинични признаци",
-        "content"     : ["Otodectes canotis предизвиква възпаление на ушния канал, паразитират повърхностно на кожата. но възпалението е интензивно и води до образуване на обилно количество ушна кал, която  представлява дебели мазни кафяви крусти, които са най-характерния клиничен признак, също тръскането на главата, разчесването и разраняването, което може да предизвика образуване на хематоми. "]
+        "content"     : ["Otodectes cynotis предизвиква възпаление на ушния канал, паразитират повърхностно на кожата. но възпалението е интензивно и води до образуване на обилно количество ушна кал, която  представлява дебели мазни кафяви крусти, които са най-характерния клиничен признак, също тръскането на главата, разчесването и разраняването, което може да предизвика образуване на хематоми. "]
       },
       {
         "sectionTitle": "Диагностика",
@@ -28,45 +28,16 @@
     ]
   },
   {
-    "title"     : "Otodectes cynotis",
-    "frontImage": "assets/pdfs/@probes/ear/otodectes-1.jpg",
-    "gallery"   : [
-      "assets/pdfs/@probes/copro/otodectes-1.jpg",
-      "assets/pdfs/@probes/copro/otodectes-2.jpg",
-      "assets/pdfs/@probes/copro/otodectes-3.jpg"
-    ],
-    "section"   : [
-      {
-        "sectionTitle": "Етиология и епидемиология",
-        "content"     : []
-      },
-
-      {
-        "sectionTitle": "Клинични признаци",
-        "content"     : []
-      },
-      {
-        "sectionTitle": "Диагностика",
-        "content"     : []
-      },
-      {
-        "sectionTitle": "Лечение",
-        "content"     : []
-      }
-    ]
-  },
-  {
     "title"     : "Otobius megnini",
-    "frontImage": "assets/pdfs/@probes/ear/otodectes-1.jpg",
+    "frontImage": "assets/pdfs/@probes/ear/otobius-1.jpg",
     "gallery"   : [
-      "assets/pdfs/@probes/copro/otodectes-1.jpg",
-      "assets/pdfs/@probes/copro/otodectes-2.jpg",
-      "assets/pdfs/@probes/copro/otodectes-3.jpg"
+      "assets/pdfs/@probes/ear/otobius-1.jpg",
+      "assets/pdfs/@probes/ear/otobius-2.jpg"
     ],
     "section"   : [
       {
         "sectionTitle": "Етиология и епидемиология",
-        "content"     : []
+        "content"     : ["Otobius megnini, the spinous ear tick, is a soft-bodied tick found in the Southwest United States. The parasitic larvae and nymphs feed within the ear causing a significant inflammatory reaction in the ear canal. Treatment includes removal of the tick, appropriate tick control measures and management of the associated otitis."]
       },
 
       {
@@ -87,9 +58,9 @@
     "title"     : "Demodex canis",
     "frontImage": "assets/pdfs/@probes/ear/otodectes-1.jpg",
     "gallery"   : [
-      "assets/pdfs/@probes/copro/otodectes-1.jpg",
-      "assets/pdfs/@probes/copro/otodectes-2.jpg",
-      "assets/pdfs/@probes/copro/otodectes-3.jpg"
+      "assets/pdfs/@probes/ear/otodectes-1.jpg",
+      "assets/pdfs/@probes/ear/otodectes-2.jpg",
+      "assets/pdfs/@probes/ear/otodectes-3.jpg"
     ],
     "section"   : [
       {
@@ -103,7 +74,7 @@
       },
       {
         "sectionTitle": "Диагностика",
-        "content"     : []
+        "content"     : ["Skin scrapings—diagnostic for finding large numbers of mites in the majority of cases"]
       },
       {
         "sectionTitle": "Лечение",
