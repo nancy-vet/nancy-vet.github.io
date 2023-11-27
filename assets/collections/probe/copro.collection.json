@@ -1,7 +1,15 @@
 [
   {
     "title"     : "Trichuris vulpis",
-    "frontImage": "",
+    "frontImage": "pdfs/@probes/copro/ancylostoma-1.png",
+    "gallery"   : [
+      "pdfs/@probes/copro/ancylostoma-1.png",
+      "pdfs/@probes/copro/ancylostoma-2.png",
+      "pdfs/@probes/copro/ancylostoma-3.png",
+      "pdfs/@probes/copro/ancylostoma-4.png",
+      "pdfs/@probes/copro/ancylostoma-5.png",
+      "pdfs/@probes/copro/ancylostoma-6.png"
+    ],
     "section"   : [
       {
         "sectionTitle": "Етиология и епидемиология",
