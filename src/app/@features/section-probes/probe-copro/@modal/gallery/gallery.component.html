@@ -1,8 +1,8 @@
 <nv-info-modal
-  [inputTitle]="'Инфо'"
+  [inputTitle]="'Галерия'"
   class="ion-page">
 
-  <swiper-container>
+  <swiper-container style="height: 100%;">
 
     @for(element of selectedObject; track element) {
       <swiper-slide>
@@ -10,6 +10,5 @@
       </swiper-slide>
     }
   </swiper-container>
-
 
 </nv-info-modal>

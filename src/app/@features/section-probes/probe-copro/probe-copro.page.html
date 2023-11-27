@@ -15,12 +15,20 @@
 
   @for(element of $data; track element) {
 
-    <div (click)="onSelectCard(element)">
-      <div>{{element.title}}</div>
-      <div>
-        <img src="{{element.frontImage}}"/>
-      </div>
-    </div>
+    <ion-grid>
+      <ion-row (click)="onSelectCard(element)">
+        <ion-col size="12">
+
+          <div (click)="onSelectCard(element)">
+            <div>{{element.title}}</div>
+            <div>
+              <img src="{{element.frontImage}}"/>
+            </div>
+          </div>
+
+        </ion-col>
+      </ion-row>
+    </ion-grid>
   }
 
 </ion-content>

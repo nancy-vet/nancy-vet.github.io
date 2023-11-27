@@ -1,7 +1,7 @@
 import { Component, inject  } from "@angular/core";
 import { ModalController    } from "@ionic/angular";
-import { DialogService } from "nv@services/dialog.service";
-import { GalleryModal } from "../gallery/gallery.component";
+import { DialogService      } from "nv@services/dialog.service";
+import { GalleryModal       } from "../gallery/gallery.component";
 
 @Component({
   selector    : 'modal--detail',

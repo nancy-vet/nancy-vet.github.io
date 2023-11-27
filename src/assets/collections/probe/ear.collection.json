@@ -1,11 +1,11 @@
 [
   {
     "title"     : "Otodectes cynotis",
-    "frontImage": "pdfs/@probes/ear/otodectes-1.jpg",
+    "frontImage": "assets/pdfs/@probes/ear/otodectes-1.jpg",
     "gallery"   : [
-      "pdfs/@probes/copro/otodectes-1.jpg",
-      "pdfs/@probes/copro/otodectes-2.jpg",
-      "pdfs/@probes/copro/otodectes-3.jpg"
+      "assets/pdfs/@probes/copro/otodectes-1.jpg",
+      "assets/pdfs/@probes/copro/otodectes-2.jpg",
+      "assets/pdfs/@probes/copro/otodectes-3.jpg"
     ],
     "section"   : [
       {
@@ -29,11 +29,11 @@
   },
   {
     "title"     : "Otodectes cynotis",
-    "frontImage": "pdfs/@probes/ear/otodectes-1.jpg",
+    "frontImage": "assets/pdfs/@probes/ear/otodectes-1.jpg",
     "gallery"   : [
-      "pdfs/@probes/copro/otodectes-1.jpg",
-      "pdfs/@probes/copro/otodectes-2.jpg",
-      "pdfs/@probes/copro/otodectes-3.jpg"
+      "assets/pdfs/@probes/copro/otodectes-1.jpg",
+      "assets/pdfs/@probes/copro/otodectes-2.jpg",
+      "assets/pdfs/@probes/copro/otodectes-3.jpg"
     ],
     "section"   : [
       {
