@@ -1,0 +1,15 @@
+<nv-info-modal
+  [inputTitle]="'Инфо'"
+  class="ion-page">
+
+  <swiper-container>
+
+    @for(element of selectedObject; track element) {
+      <swiper-slide>
+        <img src="{{element}}">
+      </swiper-slide>
+    }
+  </swiper-container>
+
+
+</nv-info-modal>
