@@ -1,5 +1,5 @@
 import { IonicModule              } from '@ionic/angular';
-import { NgModule                 } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { CommonModule             } from '@angular/common';
 import { FormsModule              } from '@angular/forms';
 import { RouterModule, Routes     } from '@angular/router';
@@ -13,19 +13,26 @@ import { DosePipe                 } from 'nv@pipes/doce.pipe';
 import { CategoryPickerComponent  } from 'nv@components/@blocks/category-picker/category-picker.component';
 import { NvInfoModal              } from 'nv@components/@layouts/nv-info-modal/nv-info-modal.component';
 import { SplitPipe                } from 'nv@pipes/split.pipe';
-import { NvLinkButtonComponent } from 'nv@components/@forms/nv-link-button/nv-link-button.component';
-import { ProbeEarPage } from './probe-ear.page';
+import { NvLinkButtonComponent    } from 'nv@components/@forms/nv-link-button/nv-link-button.component';
 
+import { ProbePage                } from './probe.page';
+import { DetailModal              } from './@modal/detail/detail.component';
+import { GalleryModal             } from './@modal/gallery/gallery.component';
 
 const routes: Routes = [{
     path      : '',
-    component : ProbeEarPage,
+    component : ProbePage,
   }
 ];
 
 @NgModule({
+  schemas                           : [
+    CUSTOM_ELEMENTS_SCHEMA
+  ],
     declarations                    : [
-      ProbeEarPage
+      ProbePage                ,
+      DetailModal                   ,
+      GalleryModal
     ],
     imports                         : [
       RouterModule.forChild(routes) ,

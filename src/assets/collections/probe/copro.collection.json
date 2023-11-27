@@ -1,14 +1,13 @@
 [
   {
     "title"     : "Trichuris vulpis",
-    "frontImage": "assets/pdfs/@probes/copro/ancylostoma-1.png",
+    "frontImage": "/assets/pdfs/@probes/copro/trichuris-1.jpg",
     "gallery"   : [
-      "assets/pdfs/@probes/copro/ancylostoma-1.png",
-      "assets/pdfs/@probes/copro/ancylostoma-2.png",
-      "assets/pdfs/@probes/copro/ancylostoma-3.png",
-      "assets/pdfs/@probes/copro/ancylostoma-4.png",
-      "assets/pdfs/@probes/copro/ancylostoma-5.png",
-      "assets/pdfs/@probes/copro/ancylostoma-6.png"
+      "/assets/pdfs/@probes/copro/trichuris-1.jpg",
+      "/assets/pdfs/@probes/copro/trichuris-2.jpg",
+      "/assets/pdfs/@probes/copro/trichuris-3.jpg",
+      "/assets/pdfs/@probes/copro/trichuris-4.jpg",
+      "/assets/pdfs/@probes/copro/trichuris-5.jpg"
     ],
     "section"   : [
       {
@@ -49,5 +48,44 @@
         ]
       }
     ]
+  },
+
+  {
+    "title"     : "Toxocara canis",
+    "frontImage": "",
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          "Toxocara canis (КЧ), Toxocara cati (КТ), Toxascaris leonina (КЧ и КТ) причиняват аскаридоза при кучета и котки."
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          "Повръщане (често с токсокари)",
+          "Подуване на корема + кахексия",
+          "Диария",
+          "Паразитна пневмония - Parasitic pneumonia from tracheal migration of a large burden of prenatally acquired larvae can result in high mortality in pups (first 48–72 hours of life)."
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          "Флотационни методи (Метод на Фюлеборн).",
+          "Яйцата на Toxascaris leonina се разграничават от токсокарите по това, че обвивката е гладка и че яйцето е елипсовидно."
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          "Pups with parasite-induced pneumonia—Treat severe inflammatory response (due to worm death from parasiticide drug treatment) in the lungs: prednisone (0.25 mg/kg, PO, q12h, for 5 days).",
+          "Toxocara eggs are extremely resistant remaining infective for years—virtually impossible to rid from soils in heavily contaminated situations",
+          "Contaminated kennel areas—Physically clean surfaces using high-pressure washers, followed by 1% sodium hypochlorite (3 cups of = bleach/gallon of water), followed by water rinsing."
+        ]
+      }
+    ]
   }
+
 ]

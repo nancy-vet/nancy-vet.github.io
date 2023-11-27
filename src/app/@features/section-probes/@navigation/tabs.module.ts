@@ -22,15 +22,15 @@ const routes: Routes = [
     children  : [
       {
         path          : 'tab1',
-        loadChildren  : () => import('../probe-copro/probe-copro.module').then(m => m.FeatureModule)
+        loadChildren  : () => import('../probe/probe.module').then(m => m.FeatureModule)
       },
       {
         path          : 'tab2',
-        loadChildren  : () => import('../probe-ear/probe-ear.module').then(m => m.FeatureModule)
+        loadChildren  : () => import('../probe/probe.module').then(m => m.FeatureModule)
       },
       {
         path          : 'tab3',
-        loadChildren  : () => import('../probe-skin/probe-skin.module').then(m => m.FeatureModule)
+        loadChildren  : () => import('../probe/probe.module').then(m => m.FeatureModule)
       },
       {
         path          : '',
