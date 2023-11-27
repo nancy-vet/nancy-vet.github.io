@@ -4,11 +4,6 @@ import { CommonModule             } from '@angular/common';
 import { FormsModule              } from '@angular/forms';
 import { RouterModule, Routes     } from '@angular/router';
 
-import { MedicationsPage          } from './medications.page';
-
-import { DrugInfoModal            } from './@modal/drug-info/drug-info.component';
-import { SelectCategoryModal      } from './@modal/select-category/select-category.component';
-
 import { PrimaryMenu              } from 'nv@features/@menu/primary-menu/primary-menu.component';
 
 import { NvRadioComponent         } from 'nv@components/@forms/nv-radio/nv-radio.component';
@@ -20,6 +15,7 @@ import { NvInfoModal              } from 'nv@components/@layouts/nv-info-modal/n
 import { SplitPipe                } from 'nv@pipes/split.pipe';
 import { NvLinkButtonComponent } from 'nv@components/@forms/nv-link-button/nv-link-button.component';
 import { ProbeCoproPage } from './probe-copro.page';
+import { DetailModal } from './@modal/detail/detail.component';
 
 
 const routes: Routes = [{
@@ -30,7 +26,8 @@ const routes: Routes = [{
 
 @NgModule({
     declarations                    : [
-      ProbeCoproPage
+      ProbeCoproPage,
+      DetailModal
     ],
     imports                         : [
       RouterModule.forChild(routes) ,
