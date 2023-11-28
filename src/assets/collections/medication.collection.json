@@ -2927,8 +2927,85 @@
   },
   {
     "type": "ears",
-    "title": "Суролан 15 мл",
-    "titleEn": "Surolan 15 ml",
+    "title": "ТризАурал",
+    "titleEn": "TrizAural",
+    "activeSubstance": "EDTA, трометамин, Trizma хидрохлорид",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "няколко капки",
+        "applicationMethod": "накапете, масажирайте"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/ears/" }
+    ],
+    "indications"       : ["Тризаурал повишава ефекта на локални дезинфектанти или антибиотици.", "Алкализиращ, антибактериален флъш за антибактериално промиване преди третиране при кучета и котки. Полезен е, когато са идентифицирани Грам-отрицателни бактерии. Допълва лекарствата за уши, като помага за възстановяване на нормалната флора на ушния канал."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "ears",
+    "title": "Отодин",
+    "titleEn": "Otodine",
+    "activeSubstance": "хлорхексидин, TrisEDTA",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "няколко капки",
+        "applicationMethod": "накапете, масажирайте, попийте с марля"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/ears/" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "ears",
+    "title": "Митекс",
+    "titleEn": "Mitex",
+    "activeSubstance": "миконазол, полимиксин Б, преднизолон",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          3,
+          5
+        ],
+        "activeSubstanceDoseDecorator": "gtt",
+        "applicationMethod": "два пъти дневно, после масаж в основата на ухото"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/ears/mitex.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/nervous/prednisolone.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "ears",
+    "title": "Суролан",
+    "titleEn": "Surolan",
     "activeSubstance": "миконазол, поломиксин Б, преднизолон",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -2954,25 +3031,27 @@
   },
   {
     "type": "ears",
-    "title": "Отодин",
-    "titleEn": "Otodine",
-    "activeSubstance": "хлорхексидин + TrisEDTA",
+    "title": "Отоксолан",
+    "titleEn": "Otoxolan",
+    "activeSubstance": "клотримазол, марбофлоксацин, дексаметазон",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
       "any": {
         "activeSubstanceDose": [
-          1
+          10
         ],
-        "activeSubstanceDoseDecorator": "няколко капки",
-        "applicationMethod": "накапете, масажирайте, попийте с марля"
+        "activeSubstanceDoseDecorator": "gtt",
+        "applicationMethod": "q24h за 7-14 дни"
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/ears/" }
+      { "title": "листовка", "link": "pdfs/@medication/eyes/otoxolan.pdf" },
+      { "title": "Plumbs Dexa", "link": "pdfs/@medication/plumbs-pdf/dexamethasone.pdf" },
+      { "title": "Plumbs Marbo", "link": "pdfs/@medication/plumbs-pdf/marbofloxacin.pdf" }
     ],
-    "indications"       : [],
-    "contraindications" : [],
+    "indications"       : ["Лечение на отит на външното ухо,както от бактириален,така и от гъбичен произход,дължащ се съответно на бактерии,чувствителни към марбофлоксацин и гъбички,чувствителни към клотримазол, особено Malassezia pachydermatis."],
+    "contraindications" : ["Да не се използва при кучета,страдащи от перфорация на тъпанчевата мембрана. Да не се използва при свръхчувствителност към активните субстанции,към други азолни противогъбични средства или към които и да е други флуорохинолони,или към някой от ексципиентите.Да не се прилага при бременни или кърмещи кучета."],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
@@ -3006,26 +3085,27 @@
   },
   {
     "type": "ears",
-    "title": "Митекс",
-    "titleEn": "Mitex",
-    "activeSubstance": "миконазол, преднизолон, полимиксин Б",
+    "title": "Марбоген комплекс",
+    "titleEn": "Marbogen complex",
+    "activeSubstance": "кетоконазол, марбофлоксацин, , гентамицин, преднизолон",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
       "any": {
         "activeSubstanceDose": [
-          3,
-          5
+          10
         ],
         "activeSubstanceDoseDecorator": "gtt",
-        "applicationMethod": "два пъти дневно, после масаж в основата на ухото"
+        "applicationMethod": "q24h за 7-14 дни"
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/ears/aurizon.pdf" }
+      { "title": "листовка", "link": "pdfs/@medication/eyes/marbogen-complex.pdf" },
+      { "title": "Plumbs Dexa", "link": "pdfs/@medication/plumbs-pdf/dexamethasone.pdf" },
+      { "title": "Plumbs Marbo", "link": "pdfs/@medication/plumbs-pdf/marbofloxacin.pdf" }
     ],
-    "indications"       : [],
-    "contraindications" : [],
+    "indications"       : ["Лечение на остър външен отит при кучета, когато, въз основа на микробиологично изследване, са установени смесени инфекции, причинени от Staphylococcus pseudintermedius и Pseudomonas aeruginosa, и чувствителни към кетоконазол Malassezia pachydermatis, както и въз основа на изследване за чувствителност, поради развитие на резистентност, приложението на марбофлоксацин и на гентамицин се смята за необходимо срещу горепосочените бактерии."],
+    "contraindications" : ["Да не се използва при кучета, страдащи от перфорация на тъпанчевата мембрана"],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
