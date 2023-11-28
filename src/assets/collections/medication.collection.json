@@ -3295,25 +3295,90 @@
   },
   {
     "type": "skin",
-    "title": "Кортизем",
-    "titleEn": "Cortizeme",
-    "activeSubstance": "-",
+    "title": "Сан Дитан Паназим крем",
+    "titleEn": "San Ditan Panasim crem",
+    "activeSubstance": "ензими, витамини, папаин, химотрипсин, трипсин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "-",
     "application": {
       "any": {
         "activeSubstanceDose": [
-          0,
           0
         ],
         "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
+        "applicationMethod": ""
+      }
+    },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "skin",
+    "title": "Кортизем",
+    "titleEn": "Cortizeme",
+    "activeSubstance": "неомицин, преднизолон",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "-",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "1-2 пъти на ден няколко дни"
       }
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/skin/cortizem.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["Лечение на екземи и инфекциозни дерматити при кучета и котки.","Да се прилага най-много в продължение на 2 седмици."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : ["Prednisolone е кортикостероиден продукт с противовъзпалителен и съдосвиващ ефект, 2 до 4 пъти по-силен от хидрокортизона.", "Neomycin е аминогликозиден антибиотик с широк спектър на действие, активен срещу повечето от микроорганизмите, предизвикващи кожни инфекции при кучетата и котките."]
+  },
+  {
+    "type": "skin",
+    "title": "ВетоСкин",
+    "titleEn": "Vetoskin",
+    "activeSubstance": "рибено масло, цинк, витамин Б1, витамин Б2, витамин Б6",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "-",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "caps",
+        "applicationMethod": "1 капсула до 15 кг, 2 капсули над 15 кг"
+      }
+    },
+    "indications"       : ["За кучета и котки, страдащи от кожни проблеми със симптоми на суха, без блясък и падаща козина и лющеща се кожа с крусти.", "Капсулата може да се прилага както цяла, така и отворена, като съдържанието на капсулата се смесва с хвана или се изстисква директно в устата на животното. Препоръчително е продуктът да се използва в продължение на най-малко 2 месеца или докато се постигне оптимален резултат."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "skin",
+    "title": "Дерматизан спрей",
+    "titleEn": "Dermatisan",
+    "activeSubstance": "био-сяра, бензоил пероксид, салицилова киселина",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "-",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "indications"       : ["В зависимост от степента на кожните промени се прилага до няколко пъти на ден."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
