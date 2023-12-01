@@ -1108,6 +1108,31 @@
     "pharmacology"      : []
   },
   {
+    "type": "respiratory",
+    "title": "ВеТусин",
+    "titleEn": "VeTussin",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "activeSubstance": "меласа от изомалтулоза, сорбитол",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          2
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO q12h"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/respiratory/bromxeksin.pdf" }
+    ],
+    "indications"       : ["Допълваща храна за кучета за подпомагане на респираторната функция.", "като поддържаща терапия при кашлица"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
     "type": "cardiovascular",
     "title": "Силденафил Стада",
     "titleEn": "Sildenafil Stada",
@@ -3087,7 +3112,7 @@
     "type": "ears",
     "title": "Марбоген комплекс",
     "titleEn": "Marbogen complex",
-    "activeSubstance": "кетоконазол, марбофлоксацин, , гентамицин, преднизолон",
+    "activeSubstance": "кетоконазол, марбофлоксацин, гентамицин, преднизолон",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
@@ -3112,6 +3137,31 @@
   },
   {
     "type": "ears",
+    "title": "Осурния",
+    "titleEn": "Osurnia",
+    "activeSubstance": "тербинафин, флорфеникол, бетаметазон",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "gtt",
+        "applicationMethod": "една тубичка веднъж дневно в ухото, две третирания през 7 дни"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/ears/osurnia.pdf" }
+    ],
+    "indications"       : ["Лечение на остър външен отит и изостряне на хроничен външен отит, свързан със Staphylococcus pseudintermedius и Malassezia pachydermatis.", "Използвайте една тубичка за всяко инфектирано ухо. Повторете след 7 дни.", "Максималният клиничен отговор обикновено е видим 21 дни след второто приложение.", "Преди първото приложение на продукта е препоръчително да се почисти и подсуши външният ушен канал. Следващото почистване на ушите е препоръчително да бъде най-рано 21 дни след второто приложение на продукта. Ако лечението с този продукт се преустанови, ушните канали трябва да бъдат почистени преди да започне лечение с алтернативен продукт. "],
+    "contraindications" : ["Да не се използва при перфорирано тъпанче.", "Да не се използва при кучета с множествена демодекоза.", "Да не се използва при бременни или разплодни животни."],
+    "drugInteractions"  : [],
+    "adverseEffects"    : ["глухота или нарушен слух", "Известно е, че бетаметазонът е тератогенен при лабораторни видове."],
+    "pharmacology"      : []
+  },
+  {
+    "type": "ears",
     "title": "Унифлокс",
     "titleEn": "Uniflox",
     "activeSubstance": "офлоксацин",
@@ -3123,7 +3173,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "gtt",
-        "applicationMethod": "на вески 6 часа"
+        "applicationMethod": "на всеки 6 часа"
       }
     },
     "links": [
@@ -3148,7 +3198,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "gtt",
-        "applicationMethod": "на вески 6 часа"
+        "applicationMethod": "на всеки 6 часа"
       }
     },
     "links": [
