@@ -12,6 +12,12 @@ export class DiseasesService {
     this.$intermediateCollection = structuredClone(DataJson);
   }
 
+  public select() {
+
+    this.$intermediateCollection = structuredClone(DataJson);
+    return this;
+  }
+
   /**
    * @author Mihail Petrov
    * @returns
@@ -104,6 +110,10 @@ export class DiseasesService {
    * @returns
    */
   public get() {
+
+    console.log("*** GO");
+    console.log(this.$intermediateCollection);
+
     return this.$intermediateCollection;
   }
 }

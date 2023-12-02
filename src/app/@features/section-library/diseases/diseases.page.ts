@@ -21,7 +21,7 @@ export class DiseasesPage implements OnInit {
   private activeFilter: string      = 'title';
 
   public ngOnInit(): void {
-    this.$collection = this.$dataService.get();
+    this.$collection = this.$dataService.select().get();
   }
 
   /**
@@ -63,6 +63,7 @@ export class DiseasesPage implements OnInit {
   private processGetItemCollection() {
 
     this.$collection = this.$dataService
+                        .select()
                         .filterByCategory(this.$selectedCategories)
                         .get();
   }
@@ -73,7 +74,12 @@ export class DiseasesPage implements OnInit {
    */
   private processfilterItemCollection(filterValue: string) {
 
+    console.log("@@@");
+    console.log(filterValue);
+    console.log("@@@");
+
     this.$collection = this.$dataService
+                        .select()
                         .filterByCategory(this.$selectedCategories)
                         .filterByPrimary(this.activeFilter, filterValue)
                         .get();
