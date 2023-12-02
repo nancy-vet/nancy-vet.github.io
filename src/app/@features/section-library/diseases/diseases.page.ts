@@ -1,26 +1,27 @@
-import { Component, OnInit, inject  } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
 
-import { SymptomsService            } from 'nv@services/symptoms.service';
-import { DialogService              } from 'nv@services/dialog.service';
+import { DialogService        } from 'nv@services/dialog.service';
 
-import { DrugInfoModal              } from './@modal/drug-info/drug-info.component';
-import { SelectCategoryModal        } from './@modal/select-category/select-category.component';
+import { SelectCategoryModal  } from './@modal/select-category/select-category.component';
+import { DrugInfoModal        } from './@modal/drug-info/drug-info.component';
+import { DiseasesService      } from 'nv@services/disease.service';
 
 @Component({
-  selector    : 'page-symptoms',
-  templateUrl : './symptoms.page.html',
-  styleUrl    : 'symptoms.page.scss'
+  selector    : 'page-collection',
+  templateUrl : './diseases.page.html',
+  styleUrl    : './diseases.page.scss'
 })
-export class SymptomTab implements OnInit {
+export class DiseasesPage implements OnInit {
 
-  private $dataService: SymptomsService = inject(SymptomsService);
+  private $dataService: DiseasesService = inject(DiseasesService);
   private dialogService: DialogService  = inject(DialogService);
 
   public $collection: any           = [];
   private $selectedCategories: any  = [];
+  private activeFilter: string      = 'title';
 
   public ngOnInit(): void {
-    this.$collection = this.$dataService.$symptoms().getAll();
+    this.$collection = this.$dataService.get();
   }
 
   /**
@@ -51,6 +52,7 @@ export class SymptomTab implements OnInit {
     (await this.dialogService.open(SelectCategoryModal)).whenConfirmed((collection: any) => {
 
       this.$selectedCategories = collection.selectedCategory;
+      this.activeFilter        = collection.searchCriteria
       this.processGetItemCollection();
     });
   }
@@ -60,7 +62,7 @@ export class SymptomTab implements OnInit {
    */
   private processGetItemCollection() {
 
-    this.$collection = this.$dataService.$symptoms()
+    this.$collection = this.$dataService
                         .filterByCategory(this.$selectedCategories)
                         .get();
   }
@@ -71,9 +73,9 @@ export class SymptomTab implements OnInit {
    */
   private processfilterItemCollection(filterValue: string) {
 
-    this.$collection = this.$dataService.$symptoms()
-                                        .filterByCategory(this.$selectedCategories)
-                                        .filterByTitle(filterValue)
-                                        .get();
+    this.$collection = this.$dataService
+                        .filterByCategory(this.$selectedCategories)
+                        .filterByPrimary(this.activeFilter, filterValue)
+                        .get();
   }
 }

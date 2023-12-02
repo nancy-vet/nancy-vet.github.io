@@ -1,4 +1,5 @@
-import { Component } from "@angular/core";
+import { Component, OnInit, inject  } from "@angular/core";
+import { ModalController            } from "@ionic/angular";
 
 @Component({
   selector    : 'modal--drug-info',
@@ -7,8 +8,17 @@ import { Component } from "@angular/core";
 })
 export class DrugInfoModal {
 
+  private modalController: ModalController  = inject(ModalController);
+
   public selectedObject: any;
-  public selectedDrugApplicationCollection: any[] = [];
+  public selectedObjectApplicationCollection: any[] = [];
+
+  /**
+   * @author Mihail Petrov
+   */
+  public onConfirm() {
+    this.modalController.dismiss();
+  }
 
   /**
    * @author Mihail Petrov

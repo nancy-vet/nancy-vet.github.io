@@ -17,8 +17,6 @@ export class MedicationsPage implements OnInit {
   private dialogService: DialogService  = inject(DialogService);
 
   public $collection: any           = [];
-  public imageCollection: any       = structuredClone(this.$dataService.getAllCategories());
-
   private $selectedCategories: any  = [];
   private activeFilter: string      = 'title';
 
@@ -41,7 +39,7 @@ export class MedicationsPage implements OnInit {
   public async onSelectCard($event: any) {
 
     (await this.dialogService.open(DrugInfoModal, {
-      selectedDrug: $event
+      selectedObject: $event
     }));
   }
 

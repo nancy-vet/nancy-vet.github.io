@@ -10,7 +10,7 @@ export class DrugInfoModal implements OnInit {
 
   private modalController: ModalController  = inject(ModalController);
 
-  public selectedDrug: any;
+  public selectedObject: any;
   public selectedDrugApplicationCollection: any[] = [];
 
   public ngOnInit() {
@@ -38,7 +38,7 @@ export class DrugInfoModal implements OnInit {
    */
   private processApplicationCollection() {
 
-    const application       = this.selectedDrug.application;
+    const application       = this.selectedObject.application;
     const resultCollection  = [];
 
     if(application['any']) {

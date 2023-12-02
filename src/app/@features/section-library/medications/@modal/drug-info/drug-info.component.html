@@ -1,10 +1,10 @@
 <nv-info-modal [inputTitle]="'Инфо'" class="ion-page">
 
   <div class="h1">
-    {{ selectedDrug.title }}
+    {{ selectedObject.title }}
   </div>
 
-  @for(element of selectedDrug.activeSubstance.split(','); track element) {
+  @for(element of selectedObject.activeSubstance.split(','); track element) {
 
     <div class="pill-green mr6">
       {{ element }}
@@ -43,7 +43,7 @@
     </div>
   }
 
-  @for(element of selectedDrug.links; track element) {
+  @for(element of selectedObject.links; track element) {
 
     <nv-link-button
       [inputTitle]="element.title"
@@ -51,66 +51,66 @@
     </nv-link-button>
   }
 
-  @if(selectedDrug.indications && selectedDrug.indications.length > 0) {
+  @if(selectedObject.indications && selectedObject.indications.length > 0) {
 
     <div class="mt16">
       <div class="h2 c-success m-gap1">
         Показания:
       </div>
 
-      @for(element of selectedDrug.indications; track element) {
+      @for(element of selectedObject.indications; track element) {
         <div>{{element}}</div>
       }
     </div>
   }
 
-  @if(selectedDrug.contraindications && selectedDrug.contraindications.length > 0) {
+  @if(selectedObject.contraindications && selectedObject.contraindications.length > 0) {
 
     <div>
       <div class="h2 c-fail m-gap1">
         Противопоказания:
       </div>
 
-      @for(element of selectedDrug.contraindications; track element) {
+      @for(element of selectedObject.contraindications; track element) {
         <div>{{element}}</div>
       }
     </div>
   }
 
-  @if(selectedDrug.drugInteractions && selectedDrug.drugInteractions.length > 0) {
+  @if(selectedObject.drugInteractions && selectedObject.drugInteractions.length > 0) {
 
     <div>
       <div class="h2 c-blue m-gap1">
         Взаимодействие с ВМП:
       </div>
 
-      @for(element of selectedDrug.drugInteractions; track element) {
+      @for(element of selectedObject.drugInteractions; track element) {
         <div>{{element}}</div>
       }
     </div>
   }
 
-  @if(selectedDrug.adverseEffects && selectedDrug.adverseEffects.length > 0) {
+  @if(selectedObject.adverseEffects && selectedObject.adverseEffects.length > 0) {
 
     <div>
       <div class="h2 c-blue m-gap1">
         Нежелани реакции:
       </div>
 
-      @for(element of selectedDrug.adverseEffects; track element) {
+      @for(element of selectedObject.adverseEffects; track element) {
         <div>{{element}}</div>
       }
     </div>
   }
 
-  @if(selectedDrug.pharmacology && selectedDrug.pharmacology.length > 0) {
+  @if(selectedObject.pharmacology && selectedObject.pharmacology.length > 0) {
 
     <div>
       <div class="h2 c-blue m-gap1">
         Фармакология:
       </div>
 
-      @for(element of selectedDrug.pharmacology; track element) {
+      @for(element of selectedObject.pharmacology; track element) {
         <div>{{element}}</div>
       }
     </div>

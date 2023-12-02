@@ -1,6 +1,6 @@
-<nv-info-modal [inputTitle]="selectedDrug.symptom" class="ion-page">
+<nv-info-modal [inputTitle]="selectedObject.symptom" class="ion-page">
 
-  @for( groupElement of selectedDrug.causes; track groupElement) {
+  @for( groupElement of selectedObject.causes; track groupElement) {
 
     <div>
       <div class="h2 m-gap1">
@@ -34,7 +34,7 @@
     </div>
   }
 
-  @for( element of selectedDrug.links; track element) {
+  @for( element of selectedObject.links; track element) {
     <nv-link-button
       [inputTitle]="element.title"
       (onClick)="onOpenPdfDocument(element.link)">
