@@ -1112,6 +1112,7 @@
     "title": "ВеТусин",
     "titleEn": "VeTussin",
     "drugConcentration": 1,
+
     "drugConcentrationDecorator": "same",
     "activeSubstance": "меласа от изомалтулоза, сорбитол",
     "application": {
