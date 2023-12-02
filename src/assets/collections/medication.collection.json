@@ -6875,7 +6875,7 @@
     "type": "others",
     "title": "ЛизинВирал Плюс",
     "titleEn": "LysinVIral Plus",
-    "activeSubstance": "-",
+    "activeSubstance": "лизин, Enterococcus faecium",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
@@ -6885,13 +6885,13 @@
           2
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "на ден (КТ под 6 месеца)"
+        "applicationMethod": "на ден (КТ под 6 месеца), а КТ над 6 месеца - по 2-4 мл. Веднъж дневно, в устата или смесена с храната"
       }
     },
     "links": [
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/lysine.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["Reduce the severity of clinical signs of cats infected with HVF-1", "Decrease the number of outbreaks in cats with recurrent infections.", "Reduce contagiousness", "Enhance the immune system.", "A treatment of 2 to 3 weeks is recommended, depending on the severity of the symptoms or prophylactic use. Check with your veterinarian."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
