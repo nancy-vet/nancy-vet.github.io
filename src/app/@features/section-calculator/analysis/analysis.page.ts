@@ -49,7 +49,7 @@ export class AnalysisPage {
   public openInfoModal() {
 
     this.dialogService.open(ResultModal, {
-      $modalParameters: this.$formProperty
+      selectedObject: this.$formProperty
     });
   }
 }

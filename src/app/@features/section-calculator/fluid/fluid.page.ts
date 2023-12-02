@@ -70,7 +70,7 @@ export class FluidPage {
   public processFluidCalculation() {
 
     this.dialogService.open(FluidResultModal, {
-      $modalParameters: this.$formProperty
+      selectedObject: this.$formProperty
     });
   }
 
