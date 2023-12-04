@@ -29,9 +29,9 @@
   },
   {
     "title"     : "Otobius megnini",
-    "frontImage": "assets/pdfs/@probes/ear/otobius-1.jpg",
+    "frontImage": "assets/pdfs/@probes/ear/otobius-1.ppm",
     "gallery"   : [
-      "assets/pdfs/@probes/ear/otobius-1.jpg",
+      "assets/pdfs/@probes/ear/otobius-1.ppm",
       "assets/pdfs/@probes/ear/otobius-2.jpg"
     ],
     "section"   : [
