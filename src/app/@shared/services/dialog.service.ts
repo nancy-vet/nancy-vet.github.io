@@ -1,6 +1,11 @@
 import { Injectable, inject } from "@angular/core";
 import { ModalController } from "@ionic/angular";
 
+type ModalDialogArgumentObject = {
+  selectedObject: any
+}
+
+
 class DialogOperation {
 
   private modelReference: HTMLIonModalElement;
@@ -45,7 +50,7 @@ export class DialogService {
    * Open dialog based on specific controller
    * @param component
    */
-  public async open(componentReference: any, argumentData?: any): Promise<DialogOperation> {
+  public async open(componentReference: any, argumentData?: ModalDialogArgumentObject): Promise<DialogOperation> {
 
     const modalReference = await this.modalController.create({
       component     : componentReference,

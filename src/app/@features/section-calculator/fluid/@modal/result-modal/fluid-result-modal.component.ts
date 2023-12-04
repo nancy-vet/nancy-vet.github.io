@@ -9,7 +9,7 @@ import { FluidService                 } from "../../fluid.service";
 export class FluidResultModal implements OnInit {
 
   private fluidService: FluidService  = inject(FluidService);
-  private $modalParameters: any;
+  private selectedObject: any;
 
   public $uiProperty = {
     daylyDose   : 0,
@@ -18,7 +18,7 @@ export class FluidResultModal implements OnInit {
 
   public ngOnInit() {
 
-    this.$uiProperty.daylyDose    = this.fluidService.calculateDaylyDose(this.$modalParameters);
-    this.$uiProperty.hoyerlyDose  = this.fluidService.calculateHoyerlyDose(this.$modalParameters);
+    this.$uiProperty.daylyDose    = this.fluidService.calculateDaylyDose(this.selectedObject);
+    this.$uiProperty.hoyerlyDose  = this.fluidService.calculateHoyerlyDose(this.selectedObject);
   }
 }

@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import DrugCollectionJson from "../../../assets/collections/medication.collection.json";
+import DrugCollectionJson from "nv@json/medication.collection.json";
 
 @Injectable({
   providedIn: 'root'

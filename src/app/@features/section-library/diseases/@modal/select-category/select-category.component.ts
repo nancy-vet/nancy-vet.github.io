@@ -1,15 +1,19 @@
-import { Component, inject  } from "@angular/core";
+import { Component, ViewChild, inject  } from "@angular/core";
 import { ModalController    } from "@ionic/angular";
 
 @Component({
-  selector    : 'modal--select-category',
+  selector    : 'modal--select-category2',
   templateUrl : './select-category.component.html',
   styleUrl    : './select-category.component.scss'
 })
 export class SelectCategoryModal {
 
   private modalController: ModalController  = inject(ModalController);
+
+  @ViewChild("categoryPicker") selectCategoryComponent: any;
+
   private $selectedCategories: any  = [];
+  private _searchCriteria: string   = 'title';
 
   /**
    * @author Mihail Petrov
@@ -24,10 +28,18 @@ export class SelectCategoryModal {
   public onConfirm() {
 
     this.modalController.dismiss({
-      selectedCategory: this.$selectedCategories
+      selectedCategory  : this.$selectedCategories,
+      searchCriteria    : this._searchCriteria
     }, 'confirm');
   }
 
+  /**
+   * @author Mihail Petrov
+   * @param $event
+   */
+  public processOnSelect($event: any) {
+    this._searchCriteria = $event.value;
+  }
 
   /**
    * @author Mihail Petrov
@@ -38,6 +50,8 @@ export class SelectCategoryModal {
   }
 
   public onReset() {
-    // empty
+
+    this.selectCategoryComponent.resetAllCategories();
+    this._searchCriteria      = 'title';
   }
 }
