@@ -2015,18 +2015,19 @@
     "application": {
       "any": {
         "activeSubstanceDose": [
-          0
+          0.05,
+          0.1
         ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "SC или 0.02-0.03 мл/кг"
       }
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/nervous/apovomin.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/apomorphine.pdf" }
     ],
-    "indications"       : [],
-    "contraindications" : [],
+    "indications"       : ["Индукция на емеза"],
+    "contraindications" : ["Да не се използва при котки.", "Да не се използва, ако разтворът е станал зелен. "],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
@@ -2566,7 +2567,7 @@
       }
     },
     "links": [
-      { "title": "Схема",          "link": "pdfs/@medication/nervous/nivalin.pdf" },
+      { "title": "Схема",          "link": "pdfs/@medication/nervous/nivalin.jpg" },
       { "title": "Характеристика", "link": "pdfs/@medication/nervous/nivalin-harakt.pdf" }
     ],
     "indications"       : [],
@@ -2625,20 +2626,29 @@
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
-      "any": {
+      "dog": {
         "activeSubstanceDose": [
-          1
+          10,
+          20
         ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "q8h-q24h"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          8,
+          20
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "q8h-q24h"
       }
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/nervous/gabagamma.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/gabapentin.pdf" }
     ],
-    "indications"       : ["prevent seizures and treat neuropathic pain"],
-    "contraindications" : [],
+    "indications"       : ["prevent seizures and treat neuropathic pain", "Preclinic sedation"],
+    "contraindications" : ["The human oral liquid product contains xylitol, which is toxic to dogs.", "Doses of 50 mg/cat and 100 mg/cat have been shown to attenuate fear response in cats."],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
@@ -3340,13 +3350,13 @@
           1
         ],
         "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
+        "applicationMethod": "два пъти дневно, след 8 дни контрола"
       }
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/skin/daktacort.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["за гъбична инфекция"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -3376,8 +3386,8 @@
   },
   {
     "type": "skin",
-    "title": "Апоквел 16 мг",
-    "titleEn": "Apoquel 16 mg",
+    "title": "Апоквел 16 мг табл",
+    "titleEn": "Apoquel 16 mg tabl",
     "activeSubstance": "оклацитиниб",
     "drugConcentration": 16,
     "drugConcentrationDecorator": "mg_tabl",
@@ -5492,10 +5502,11 @@
     "application": {
       "any": {
         "activeSubstanceDose": [
-          0.15
+          0.15,
+          1
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IM, SC"
+        "applicationMethod": "IM, IV"
       }
     },
     "links" : [
@@ -5518,11 +5529,11 @@
     "application": {
       "dog": {
         "activeSubstanceDose": [
-          0.1,
-          0.2
+          0.15,
+          1
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IM, SC"
+        "applicationMethod": "IM, IV"
       }
     },
     "links" : [
@@ -5810,10 +5821,10 @@
     "application": {
       "dog": {
         "activeSubstanceDose": [
-          0.5,
-          2
+          0.15,
+          1
         ],
-        "activeSubstanceDoseDecorator": "ml",
+        "activeSubstanceDoseDecorator": "mg_kg",
         "applicationMethod": "ИВ или ИМ"
       },
       "cat": {
@@ -5844,10 +5855,10 @@
     "application": {
       "dog": {
         "activeSubstanceDose": [
-          0.5,
-          2
+          0.15,
+          1
         ],
-        "activeSubstanceDoseDecorator": "мl",
+        "activeSubstanceDoseDecorator": "mg_kg",
         "applicationMethod": "ИВ или ИМ"
       },
       "cat": {
@@ -5878,8 +5889,8 @@
     "application": {
       "any": {
         "activeSubstanceDose": [
-          0.25,
-          0.5
+          0.15,
+          1
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
         "applicationMethod": "IV"
@@ -5905,8 +5916,8 @@
     "application": {
       "any": {
         "activeSubstanceDose": [
-          0.1,
-          0.25
+          0.15,
+          1
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
         "applicationMethod": "SC IM IV"
@@ -6571,58 +6582,6 @@
   },
   {
     "type": "others",
-    "title": "Ка-Витал",
-    "titleEn": "Ka-Vital",
-    "activeSubstance": "витамин К",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "same",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "tabl_5_kg",
-        "applicationMethod": "дневно"
-      },
-      "cat": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "tabl",
-        "applicationMethod": "дневно"
-      }
-    },
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "others",
-    "title": "Витацен К3 50 мл",
-    "titleEn": "Vitacen K3",
-    "activeSubstance": "витамин К3",
-    "drugConcentration": 100,
-    "drugConcentrationDecorator": "mg_ml",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          5,
-          10
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "на ден за минимум 7 дни (при отравяне с кумарини)"
-      }
-    },
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "others",
     "title": "Ка-Витал табл",
     "titleEn": "Ka-Vital tabl",
     "activeSubstance": "витамин К",
@@ -6655,6 +6614,29 @@
   },
   {
     "type": "others",
+    "title": "Витацен К3 50 мл",
+    "titleEn": "Vitacen K3",
+    "activeSubstance": "витамин К3",
+    "drugConcentration": 100,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          5,
+          10
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "на ден за минимум 7 дни (при отравяне с кумарини)"
+      }
+    },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "nervous",
     "title": "Но-шпа 40 мг табл.",
     "titleEn": "No-spa 40 mg tabl",
     "activeSubstance": "дротаверин",
