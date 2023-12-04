@@ -55,6 +55,32 @@
     ]
   },
   {
+    "title"     : "Malassezia spp.",
+    "frontImage": "assets/pdfs/@probes/ear/malassezia-1.jpg",
+    "gallery"   : [
+      "assets/pdfs/@probes/ear/malassezia-1.jpg"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [""]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : []
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [""]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : []
+      }
+    ]
+  },
+  {
     "title"     : "Demodex canis",
     "frontImage": "assets/pdfs/@probes/ear/otodectes-1.jpg",
     "gallery"   : [
@@ -75,6 +101,32 @@
       {
         "sectionTitle": "Диагностика",
         "content"     : ["Skin scrapings—diagnostic for finding large numbers of mites in the majority of cases"]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : []
+      }
+    ]
+  },
+  {
+    "title"     : "Neotrombicula larvae",
+    "frontImage": "assets/pdfs/@probes/ear/trombicula-1.jpg",
+    "gallery"   : [
+      "assets/pdfs/@probes/ear/trombicula-1.jpg"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : ["only their hexapod larval stages are parasites. Octapod nymphs and adults live in the environment and are not parasitic.", "The larvae search for a skin area, which is sheltered and thin, and, having pierced the skin with their mouthparts, they attach. The larvae secrete salivary proteolytic enzymes that digest host tissue for nutrition. Meanwhile, the skin hardens around the mouthparts. The mite sucks the tissue fluid for feed and leaves the host 3–4 days later."]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : []
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [""]
       },
       {
         "sectionTitle": "Лечение",
