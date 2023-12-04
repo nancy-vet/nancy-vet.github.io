@@ -5112,7 +5112,7 @@
           30
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO q24h"
+        "applicationMethod": "PO q24h, след 8 дни контрола"
       }
     },
     "links": [
