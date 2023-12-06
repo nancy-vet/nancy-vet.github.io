@@ -9,7 +9,7 @@ import { AnalysisService              } from "../../analysis.service";
 })
 export class ResultModal implements OnInit {
 
-  private analysysService: AnalysisService  = inject(AnalysisService);
+  private analysisService: AnalysisService  = inject(AnalysisService);
   private modalController: ModalController  = inject(ModalController);
   private selectedObject: any;
 
@@ -25,40 +25,40 @@ export class ResultModal implements OnInit {
   public ngOnInit() {
 
     this.$uiProperty.PH.value      = this.selectedObject.PH;
-    this.$uiProperty.PH.reference  = this.analysysService.getReferencePH(this.selectedObject);
-    this.$uiProperty.PH.levelIndex = this.analysysService.calculatePH(this.selectedObject);
-    this.$uiProperty.PH.level      = this.analysysService.getLevel(
-      this.analysysService.calculatePH(this.selectedObject)
+    this.$uiProperty.PH.reference  = this.analysisService.getReferencePH(this.selectedObject);
+    this.$uiProperty.PH.levelIndex = this.analysisService.calculatePH(this.selectedObject);
+    this.$uiProperty.PH.level      = this.analysisService.getLevel(
+      this.analysisService.calculatePH(this.selectedObject)
     );
 
     this.$uiProperty.PCO2.value     = this.selectedObject.PCO2;
-    this.$uiProperty.PCO2.reference = this.analysysService.getReferencePCO2(this.selectedObject);
-    this.$uiProperty.PH.levelIndex  = this.analysysService.calculatePCO2(this.selectedObject)
-    this.$uiProperty.PCO2.level     = this.analysysService.getLevel(
-      this.analysysService.calculatePCO2(this.selectedObject)
+    this.$uiProperty.PCO2.reference = this.analysisService.getReferencePCO2(this.selectedObject);
+    this.$uiProperty.PH.levelIndex  = this.analysisService.calculatePCO2(this.selectedObject)
+    this.$uiProperty.PCO2.level     = this.analysisService.getLevel(
+      this.analysisService.calculatePCO2(this.selectedObject)
     );
 
     this.$uiProperty.PO2.value      = this.selectedObject.PO2;
-    this.$uiProperty.PO2.reference  = this.analysysService.getReferencePO2(this.selectedObject);
-    this.$uiProperty.PO2.level      = this.analysysService.getLevel(
-      this.analysysService.calculatePO2(this.selectedObject)
+    this.$uiProperty.PO2.reference  = this.analysisService.getReferencePO2(this.selectedObject);
+    this.$uiProperty.PO2.level      = this.analysisService.getLevel(
+      this.analysisService.calculatePO2(this.selectedObject)
     );
 
     this.$uiProperty.HCO3.value      = this.selectedObject.HCO3;
-    this.$uiProperty.HCO3.reference  = this.analysysService.getReferenceHCO3(this.selectedObject);
-    this.$uiProperty.HCO3.level      = this.analysysService.getLevel(
-      this.analysysService.calculateHCO3(this.selectedObject)
+    this.$uiProperty.HCO3.reference  = this.analysisService.getReferenceHCO3(this.selectedObject);
+    this.$uiProperty.HCO3.level      = this.analysisService.getLevel(
+      this.analysisService.calculateHCO3(this.selectedObject)
     );
 
     this.$uiProperty.BE.value      = this.selectedObject.BE;
-    this.$uiProperty.BE.reference  = this.analysysService.getReferenceBE(this.selectedObject);
-    this.$uiProperty.BE.level      = this.analysysService.getLevel(
-      this.analysysService.calculateBE(this.selectedObject)
+    this.$uiProperty.BE.reference  = this.analysisService.getReferenceBE(this.selectedObject);
+    this.$uiProperty.BE.level      = this.analysisService.getLevel(
+      this.analysisService.calculateBE(this.selectedObject)
     );
 
-    this.$uiProperty.AG.value = this.analysysService.calculateAnionGap(this.selectedObject);
-    this.$uiProperty.AG.level = this.analysysService.getLevel(
-      this.analysysService.getAgLevel(this.selectedObject)
+    this.$uiProperty.AG.value = this.analysisService.calculateAnionGap(this.selectedObject);
+    this.$uiProperty.AG.level = this.analysisService.getLevel(
+      this.analysisService.getAgLevel(this.selectedObject)
     );
   }
 }
