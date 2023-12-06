@@ -172,7 +172,7 @@
   {
     "symptom" : "Hematemesis -",
     "type"    :"gastrointestinal",
-    "meaning" : "",
+    "meaning" : "the vomiting of blood",
     "causes"  : [
       {
         "group": "Coagulopathy (uncommon)", "children": [
