@@ -2587,10 +2587,10 @@
           1
         ],
         "activeSubstanceDoseDecorator": "caps",
-        "applicationMethod": "на ден"
+        "applicationMethod": "на ден до 10 кг, 2 капс на ден 10-25 кг, 3 капсули на ден над 25 кг"
       }
     },
-    "indications"       : [],
+    "indications"       : ["възбуда, стрес, агресия"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -2665,14 +2665,16 @@
     "application": {
       "dog": {
         "activeSubstanceDose": [
-          1
+          1,
+          2
         ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
+        "activeSubstanceDoseDecorator": "gtt",
+        "applicationMethod": "на всеки 4 часа"
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/eyes/tobrin.pdf" }
+      { "title": "листовка Тобрин", "link": "pdfs/@medication/eyes/tobrin.pdf" },
+      { "title": "листовка Тобракулин", "link": "pdfs/@medication/eyes/tobrakulin.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -2731,6 +2733,33 @@
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "eyes",
+    "title": "Тобракулин-Д",
+    "titleEn": "Tobraculin",
+    "activeSubstance": "Тобрамицин, дексаметазон",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1,
+          2
+        ],
+        "activeSubstanceDoseDecorator": "gtt",
+        "applicationMethod": "на всеки 4-6 часа от 5 до 10 дни"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/eyes/tobrakulin-d.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/tobramycin.pdf" }
+    ],
+    "indications"       : ["Преди употреба флаконът се разклаща енергично.", "След всяко накапване вътрешният ъгъл на окото се притиска за около 30 - 60 секунди, за да се предотврати изтичане на суспензията през слъзните канали", "Продуктът се прилага при възпалителни състояния на конюнктивата, роговицата и предната очна камера, при които се препоръчва употребата на кортикостероиди и е налице повърхностна бактериална инфекция или съществува риск от нея - конюнктивити, кератити, кератоконюнктивити, блефарити, блефароконюнктивити, хордеолуми, дакриоцистити, ирит, след екстракция на чужди тела на роговицата и конюнктивата, предоперативно и следоперативно при екстра- и интрабулбови операции при кучета и котки."],
+    "contraindications" : ["Да не се използва при вирусни и гъбни инфекции на очите.", "Да не се използват други очни капки или унгвенти по време на лечението с Тобракулин-Д"],
+    "drugInteractions"  : [],
+    "adverseEffects"    : ["парене, сърбеж и оток на клепачите, светлобоязън или конюнктивална еритема", " дисбактериози със свръхнамножаване на нечувствителни на тобрамицин микроорганизми"],
     "pharmacology"      : []
   },
   {
