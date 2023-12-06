@@ -1,0 +1,38 @@
+[
+  {
+    "type"          : "dog",
+    "title"         : "CaniV-4",
+    "section"       : [
+      {
+        "title"   : "Detects",
+        "content" : [
+          "Dirofilaria immitis antigen,",
+          "Ehrlichia canis antibody,",
+          "Borrelia burgdorferi antibody",
+          "Anaplasma phagocytophilum/Anaplasma platys antibody"
+        ]
+      },
+      {
+        "title"   : "Sample",
+        "content" : [
+          "serum, plasma or whole blood.",
+          "serum (without anticoagulant tube for 30 min and then centrifuge), ",
+          "plasma (with anticoagulant tube and centrifuge)",
+          " whole blood (with anticoagulant)."
+        ]
+      },
+      {
+        "title": "Procedure",
+        "content" : [
+          "@/assets/pdfs/@test/caniv-4/caniv-4-1.png",
+          "Using a disposable capillary tube, add 20 μl of whole blood into each sample hole. Or, add 10 μl of serum/plasma into each sample hole using a micropipette.",
+          "@/assets/pdfs/@test/caniv-4/caniv-4-2.png",
+          "Dispense 2 drops of assay diluent into each sample hole.",
+          "@/assets/pdfs/@test/caniv-4/caniv-4-3.png",
+          "Start the timer. The sample will flow across the result window. If it does not appear after 1 minute, add one more drop of assay diluent to the sample hole.",
+          "Interpret test results at 15 minutes. Do not read after 15 minutes."
+        ]
+      }
+    ]
+  }
+]
