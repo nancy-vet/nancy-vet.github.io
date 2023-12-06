@@ -1,6 +1,34 @@
 [
   {
     "type"          : "dog",
+    "title"         : "CHW Ag",
+    "section"       : [
+      {
+        "title"   : "Detects",
+        "content" : [
+          "Dirofilaria immitis antigen"
+        ]
+      },
+      {
+        "title"   : "Sample",
+        "content" : [
+          "erum, plasma, or whole blood (anticoagulated). There is anticoagulant tube - close the cap and invert the tube five times.",
+          "Collected blood should be tested immediately or within 4 hours at room temperature."
+        ]
+      },
+      {
+        "title": "Procedure",
+        "content" : [
+          "@/assets/pdfs/@test/chw-1.png",
+          "Using the disposable dropper, add 2 drops(approximately 80㎕) of sample into the sample hole.",
+          "Interpret test results at 10 minutes. Do not read after 20 minutes.",
+          "If it does not appear after 1minute, add one more drop of mixed sample to the sample hole."
+        ]
+      }
+    ]
+  },
+  {
+    "type"          : "dog",
     "title"         : "CaniV-4",
     "section"       : [
       {
@@ -31,6 +59,335 @@
           "@/assets/pdfs/@test/caniv-4/caniv-4-3.png",
           "Start the timer. The sample will flow across the result window. If it does not appear after 1 minute, add one more drop of assay diluent to the sample hole.",
           "Interpret test results at 15 minutes. Do not read after 15 minutes."
+        ]
+      }
+    ]
+  },
+  {
+    "type"          : "dog",
+    "title"         : "CaniV-4 (Leish)",
+    "section"       : [
+      {
+        "title"   : "Detects",
+        "content" : [
+          "Dirofilaria immitis antigen,",
+          "Ehrlichia canis antibody,",
+          "Leishmania infantum antibody",
+          "Anaplasma phagocytophilum/Anaplasma platys antibody"
+        ]
+      },
+      {
+        "title"   : "Sample",
+        "content" : [
+          "serum, plasma or whole blood.",
+          "serum (without anticoagulant tube for 30 min and then centrifuge),",
+          "plasma (with anticoagulant tube and centrifuge)",
+          "whole blood (with anticoagulant)."
+        ]
+      },
+      {
+        "title": "Procedure",
+        "content" : [
+          "@/assets/pdfs/@test/caniv-4-leish/caniv-4-leish-4-1.png",
+          "Using a disposable capillary tube, add 20 μl of whole blood into each sample hole. Or, add 10 μl of serum/plasma into each sample hole using a micropipette.",
+          "@/assets/pdfs/@test/caniv-4-leish/caniv-4-leish-2.png",
+          "Dispense 2 drops of assay diluent into each sample hole.",
+          "@/assets/pdfs/@test/caniv-4-leish/caniv-4-leish-3.png",
+          "Start the timer. The sample will flow across the result window. If it does not appear after 1 minute, add one more drop of assay diluent to the sample hole.",
+          "Interpret test results at 15 minutes. Do not read after 25 minutes."
+        ]
+      }
+    ]
+  },
+  {
+    "type"          : "dog",
+    "title"         : "CPV/ CCV/ Giardia",
+    "section"       : [
+      {
+        "title"   : "Detects",
+        "content" : [
+          "canine parvovirus",
+          "canine corona virus",
+          "giardia antigen"
+        ]
+      },
+      {
+        "title"   : "Sample",
+        "content" : [
+          "canine feces - If samples are not tested immediately, they should be stored at 2~8°C for 24 hours. The amount of fecal swab may affect the results."
+        ]
+      },
+      {
+        "title": "Procedure",
+        "content" : [
+          "@/assets/pdfs/@test/cpv-ccv-gia/cpv-ccv-gia-0.png",
+          "Use 2 swabs.",
+          "@/assets/pdfs/@test/cpv-ccv-gia/cpv-ccv-gia-1.png",
+          "Insert the swab into (P)-tube for CPV/CCV and (G)-tube for Giardia. Mix the swab until the sample has been dissolved (approximately 10 sec.).",
+          "@/assets/pdfs/@test/cpv-ccv-gia/cpv-ccv-gia-2.png",
+          "Wait for 1 minute to settle down the large particles",
+          "@/assets/pdfs/@test/cpv-ccv-gia/cpv-ccv-gia-3.png",
+          "Using the disposable dropper, take the supernatant sample in the tube. Use different disposable droppers for assay diluents (p) and assay diluents (G).",
+          "@/assets/pdfs/@test/cpv-ccv-gia/cpv-ccv-gia-4.png",
+          "Add 4 drops of each mixed sample into each sample hole, drop by drop vertically.",
+          "@/assets/pdfs/@test/cpv-ccv-gia/cpv-ccv-gia-5.png",
+          "Interpret test results at 5~10 minutes. Do not read the result after 20 minutes.",
+          "@/assets/pdfs/@test/cpv-ccv-gia/cpv-ccv-gia-6.png"
+        ]
+      }
+    ]
+  },
+
+  {
+    "type"          : "dog",
+    "title"         : "CPV",
+    "section"       : [
+      {
+        "title"   : "Detects",
+        "content" : [
+          "Canine Parvovirus antigen"
+        ]
+      },
+      {
+        "title"   : "Sample",
+        "content" : [
+          "canine feces. If samples are not tested immediately, they should be stored at 2~8°C for 24 hours. The amount of fecal swab may affect the results."
+        ]
+      },
+      {
+        "title": "Procedure",
+        "content" : [
+          "@",
+          "Use a swab.",
+          "@",
+          "Insert the swab into tube. Mix the swab until the sample has been dissolved (approximately 10 sec.)",
+          "@",
+          "Wait for 1 minute to settle down the large particles.",
+          "@",
+          "Using the disposable dropper, take the supernatant sample in the tube.",
+          "@",
+          "Add 4 drops of mixed sample into the sample hole(S), drop by drop vertically.",
+          "@",
+          "Interpret test results at 5~10 minutes. Do not read the result after 20 minutes."
+        ]
+      }
+    ]
+  },
+
+  {
+    "type"          : "both",
+    "title"         : "Giardia",
+    "section"       : [
+      {
+        "title"   : "Detects",
+        "content" : [
+          "giardia antigen"
+        ]
+      },
+      {
+        "title"   : "Sample",
+        "content" : [
+          " canine or feline feces. If samples are not tested immediately, they should be stored at 2~8°C for 24 hours. The amount of fecal swab may affect the results."
+        ]
+      },
+      {
+        "title": "Procedure",
+        "content" : [
+
+          "@/assets/pdfs/@test/giardia-ag/giardia-ag-0.png",
+          "Use a swab.",
+          "@/assets/pdfs/@test/giardia-ag/giardia-ag-1.png",
+          "Insert the swab into tube. Mix the swab until the sample has been dissolved (approximately 10 sec.).",
+          "@/assets/pdfs/@test/giardia-ag/giardia-ag-2.png",
+          "Wait for 1 minute to settle down the large particles.",
+          "@/assets/pdfs/@test/giardia-ag/giardia-ag-3.png",
+          "Using the disposable dropper, take the supernatant sample in the tube.",
+          "@/assets/pdfs/@test/giardia-ag/giardia-ag-4.png",
+          "Add 4 drops of mixed sample into the sample hole(S), drop by drop vertically.",
+          "@/assets/pdfs/@test/giardia-ag/giardia-ag-5.png",
+          "Interpret test results at 5~10 minutes. Do not read the result after 20 minutes.",
+          "@/assets/pdfs/@test/giardia-ag/giardia-ag-6.png"
+        ]
+      }
+    ]
+  },
+
+  {
+    "type"          : "cat",
+    "title"         : "FeliD-3",
+    "section"       : [
+      {
+        "title"   : "Detects",
+        "content" : [
+          "feline parvovirus, feline corona virus and giardia antigen "
+        ]
+      },
+      {
+        "title"   : "Sample",
+        "content" : [
+          "feline feces. If samples are not tested immediately, they should be stored at 2~8°C for 24 hours. The amount of fecal swab may affect the results."
+        ]
+      },
+      {
+        "title": "Procedure",
+        "content" : [
+          "@/assets/pdfs/@test/felid-3/felid-3-0.png",
+          "Use 2 swabs.",
+          "@/assets/pdfs/@test/felid-3/felid-3-1.png",
+          "Insert the swab into (P)-tube for FPV/FCV and (G)-tube for Giardia. Mix the swab until the sample has been dissolved (approximately 10 sec.).",
+          "@/assets/pdfs/@test/felid-3/felid-3-2.png",
+          "Wait for 1 minute to settle down the large particles.",
+          "@/assets/pdfs/@test/felid-3/felid-3-3.png",
+          "Using the disposable dropper, take the supernatant sample in the tube. Use different disposable droppers for assay diluents (P) and assay diluents (G).",
+          "@/assets/pdfs/@test/felid-3/felid-3-4.png",
+          "Add 4 drops of each mixed sample into each sample hole, drop by drop vertically.",
+          "@/assets/pdfs/@test/felid-3/felid-3-5.png",
+          "Interpret test results at 10 minutes. Do not read the result after 20 minutes.",
+          "@/assets/pdfs/@test/felid-3/felid-3-6.png"
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "type"          : "cat",
+    "title"         : "FPV Ag",
+    "section"       : [
+      {
+        "title"   : "Detects",
+        "content" : [
+          "Feline Parvovirus antigen"
+        ]
+      },
+      {
+        "title"   : "Sample",
+        "content" : [
+          "feline feces. If samples are not tested immediately, they should be stored at 2~8°C for 24 hours. The amount of fecal swab may affect the results."
+        ]
+      },
+      {
+        "title": "Procedure",
+        "content" : [
+          "Use a swab.",
+          "@/assets/pdfs/@test/fpv-ag/fpv-ag-1.png",
+          "Insert the swab into tube. Mix the swab until the sample has been dissolved (approximately 10 sec.).",
+          "@/assets/pdfs/@test/fpv-ag/fpv-ag-2.png",
+          "Wait for 1 minute to settle down the large particles.",
+          "@/assets/pdfs/@test/fpv-ag/fpv-ag-3.png",
+          "Using the disposable dropper, take the supernatant sample in the tube.",
+          "@/assets/pdfs/@test/fpv-ag/fpv-ag-4.png",
+          "Add 4 drops of mixed sample into the sample hole(S), drop by drop vertically.",
+          "@/assets/pdfs/@test/fpv-ag/fpv-ag-5.png",
+          "Interpret test results at 10 minutes. Do not read the result after 20 minutes.",
+          "@/assets/pdfs/@test/fpv-ag/fpv-ag-6.png"
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "type"          : "cat",
+    "title"         : "FCoV Ab",
+    "section"       : [
+      {
+        "title"   : "Detects",
+        "content" : [
+          "Feline Corona virus(FCoV) antibodies"
+        ]
+      },
+      {
+        "title"   : "Sample",
+        "content" : [
+          "Feline serum, plasma or whole blood.",
+          "serum (without anticoagulant tube for 30 min and then centrifuge)",
+          "plasma (with anticoagulant tube and centrifuge)",
+          "whole blood (with anticoagulant)."
+        ]
+      },
+      {
+        "title": "Procedure",
+        "content" : [
+          "@/assets/pdfs/@test/fcov-ab-2.png",
+          "Using the disposable capillary tube, add 10㎕ of sample into the sample hole.",
+          "Add 3 drops of the assay diluents into the sample hole, drop by drop vertically.",
+          "Interpret test results at 10 minutes. Do not read after 20 minutes.",
+          "If it does not appear after 1minute, add one more drop of mixed sample to the sample hole."
+        ]
+      }
+    ]
+  },
+
+
+
+
+  {
+    "type"          : "cat",
+    "title"         : "FIV Ab/ FeLV Ag",
+    "section"       : [
+      {
+        "title"   : "Detects",
+        "content" : [
+          "Feline Leukemia virus antigen",
+          "Feline Immunodeficiency virus antibody"
+        ]
+      },
+      {
+        "title"   : "Sample",
+        "content" : [
+          "Feline serum, plasma or whole blood.",
+          "serum (without anticoagulant tube for 30 min and then centrifuge)",
+          "plasma (with anticoagulant tube and centrifuge)",
+          "whole blood (with anticoagulant)."
+        ]
+      },
+      {
+        "title": "Procedure",
+        "content" : [
+          "@/assets/pdfs/@test/fiv-felv/fiv-felv-1.png",
+          "Using a capillary tube, add 1 drop (approximately 10 μl) of sample into each sample hole (S) on the test device.",
+          "@/assets/pdfs/@test/fiv-felv/fiv-felv-2.png",
+          "Add 2 drops (approximately 60 μl) of assay diluent into each sample hole(S) vertically.",
+          "@/assets/pdfs/@test/fiv-felv/fiv-felv-3.png",
+          "Interpret test results at 10 minutes. Do not read after 20 minutes.",
+          "If it does not appear after 1minute, add one more drop of mixed sample to the sample hole."
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+  {
+    "type"          : "dog",
+    "title"         : "CIRD-3 Ag",
+    "section"       : [
+      {
+        "title"   : "Detects",
+        "content" : [
+          "Dirofilaria immitis antigen"
+        ]
+      },
+      {
+        "title"   : "Sample",
+        "content" : [
+          "conjunctiva and nasal discharge."
+        ]
+      },
+      {
+        "title": "Procedure",
+        "content" : [
+          "@/assets/pdfs/@test/cird-3-1.png",
+          "Collect the samples from conjunctiva and nasal discharge using the sample collection swab pre-wetted with saline solution.",
+          "Insert the swab into the assay diluents and mix the swab samples with assay diluent to extract well.",
+          "Remove the test device from the foil pouch, and place it on a flat and dry surface.",
+          "Respectively, add four (4) drops of the mixed sample into the 2 sample holes using the dropper, drop by drop and slowly",
+          "As the test begins to work, you will see purple color move across the result window in the center of the test device. If the migration has not appeared after 1 minute, add one more drop of the mixed sample to the sample well.",
+          "Interpret test results at 10 minutes."
         ]
       }
     ]

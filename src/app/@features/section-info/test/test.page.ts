@@ -71,12 +71,11 @@ export class TestPage {
    */
   public translate(label: string) {
 
-    if(label == 'CBC'         ) return "ПКК";
-    if(label == 'liver'       ) return "Черен дроб";
-    if(label == 'kidneys'     ) return "Бъбреци";
-    if(label == 'coagulation' ) return "Коагулация";
-    if(label == 'others'      ) return "Други";
+    console.log(label);
 
+    if(label == 'cat'         ) return "ЗА КОТКИ";
+    if(label == 'dog'         ) return "ЗА КУЧЕТА";
+    if(label == 'both'        ) return "УНИВЕРСАЛЕН";
     return "";
   }
 }
