@@ -29,6 +29,10 @@ const routes: Routes = [
     loadChildren  : () => import('./@features/section-library/@navigation/tabs.module').then(m => m.TabsPageModule)
   },
   {
+    path          : AppNavigationRouteEnum.INFO,
+    loadChildren  : () => import('./@features/section-info/@navigation/tabs.module').then(m => m.TabsPageModule)
+  },
+  {
     path          : AppNavigationRouteEnum.EXAMINATION,
     loadChildren  : () => import('./@features/section-probes/@navigation/tabs.module').then(m => m.TabsPageModule)
   },
