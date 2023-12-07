@@ -234,5 +234,61 @@
         ]
       }
     ]
+  },
+
+
+
+  {
+    "title"       : "Левкемия",
+    "type"        : "инфекциозно",
+    "bodySystem"  : ["G"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/levkemia.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Дефиниция",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Етиология",
+        "content"       : [
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"       : "Имунодефицитен синдром",
+    "type"        : "инфекциозно",
+    "bodySystem"  : ["G"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/imunodeficiten-sindrom.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Дефиниция",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Етиология",
+        "content"       : [
+          "",
+          ""
+        ]
+      }
+    ]
   }
 ]
