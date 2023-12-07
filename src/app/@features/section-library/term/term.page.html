@@ -24,10 +24,10 @@
         @for(termElement of element.value; track termElement.id ; let i = $index) {
 
           <div (click)="selectCategory(termElement)">
-            @if(i%4===0) { <div class="pill bc-blue"  > {{termElement.id}} </div> }
+            @if(i%4===0) { <div class="pill bc-lightblue"  > {{termElement.id}} </div> }
             @if(i%4===1) { <div class="pill bc-orange"> {{termElement.id}} </div> }
-            @if(i%4===2) { <div class="pill bc-grey"  > {{termElement.id}} </div> }
-            @if(i%4===3) { <div class="pill bc-green" > {{termElement.id}} </div> }
+            @if(i%4===2) { <div class="pill bc-purple"  > {{termElement.id}} </div> }
+            @if(i%4===3) { <div class="pill bc-pink" > {{termElement.id}} </div> }
           </div>
         }
       </ion-row>
