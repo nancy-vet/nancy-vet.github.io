@@ -1,0 +1,18 @@
+<div>
+  @for(element of inputSectionContent; track element) {
+
+    <div class="h3 mt16">{{element.title}}</div>
+
+    @for(sectionElement of element.content; track sectionElement) {
+
+      @if(sectionElement.startsWith("@")) {
+        <div class="mt5">
+          <img src="{{getDataExperimentalForRemoval(sectionElement)}}">
+        </div>
+      }
+      @else {
+        <div class="mt5">{{sectionElement}}</div>
+      }
+    }
+  }
+</div>
