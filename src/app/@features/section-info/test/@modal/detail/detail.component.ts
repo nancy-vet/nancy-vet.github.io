@@ -17,9 +17,4 @@ export class DetailModal {
   public onConfirm() {
     this.modalController.dismiss();
   }
-
-
-  public getDataExperimentalForRemoval(data: string) {
-    return data.slice(1, data.length);
-  }
 }
