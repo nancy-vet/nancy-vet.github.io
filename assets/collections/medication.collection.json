@@ -5264,6 +5264,72 @@
   },
   {
     "type": "antiparasitic",
+    "title": "Толзесиа 50 мг/мл",
+    "titleEn": "Tolzesya 50 mg/ml",
+    "activeSubstance": "толтразурил",
+    "drugConcentration": 50,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          15
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO q24h 3-6 days (Plumb)"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          30
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO q24h 2-3 days (Plumb)"
+      }
+    },
+    "links": [
+      { "title": "листовка",      "link": "pdfs/@medication/antiparasitic/tolzesia.pdf" },
+      { "title": "Plumbs",  "link": "pdfs/@medication/plumbs-pdf/toltrazuril.pdf" }
+    ],
+    "indications"       : ["за лечение на кокцидиоза", "oocyst shedding stage of toxoplasmosis in cats"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : ["Toltrazuril has activity against Hepatozoon, Isospora, Sarcocystis, Toxoplasma, and all intracellular stages of coccidia."]
+  },
+  {
+    "type": "antiparasitic",
+    "title": "Интракокс орал 25 мг/мл",
+    "titleEn": "Intracox Oral",
+    "activeSubstance": "толтразурил",
+    "drugConcentration": 25,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          15
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO q24h 3-6 days (Plumb)"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          30
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO q24h 2-3 days (Plumb)"
+      }
+    },
+    "links": [
+      { "title": "листовка",      "link": "pdfs/@medication/antiparasitic/intracox-oral.pdf" },
+      { "title": "Plumbs",  "link": "pdfs/@medication/plumbs-pdf/toltrazuril.pdf" }
+    ],
+    "indications"       : ["за лечение на кокцидиоза", "oocyst shedding stage of toxoplasmosis in cats", "В клиниката - 0,6 мл/кг първи и пети ден."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : ["Toltrazuril has activity against Hepatozoon, Isospora, Sarcocystis, Toxoplasma, and all intracellular stages of coccidia."]
+  },
+  {
+    "type": "antiparasitic",
     "title": "Прококс",
     "titleEn": "Procox",
     "activeSubstance": "емодепсид, толтразурил",
