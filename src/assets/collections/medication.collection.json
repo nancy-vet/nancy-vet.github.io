@@ -3130,6 +3130,57 @@
     "pharmacology"      : []
   },
   {
+    "type": "eyes",
+    "title": "Офтан тимолол 5 мг/мл капки за очи",
+    "titleEn": "Oftan timolol 5 mg/ml eye drops",
+    "activeSubstance": "тимолол",
+    "drugConcentration": 5,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "идк",
+        "applicationMethod": "идк"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/eyes/oftan.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/timolol.pdf" }
+    ],
+    "indications"       : ["глаукома"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "eyes",
+    "title": "Максидекс 1 мг/мл",
+    "titleEn": "Oftan timolol 5 mg/ml eye drops",
+    "activeSubstance": "дексаметазон",
+    "drugConcentration": 5,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "идк",
+        "applicationMethod": "идк"
+      }
+    },
+    "links": [
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/dexamethasone-eyes.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
     "type": "ears",
     "title": "ТризАурал",
     "titleEn": "TrizAural",
