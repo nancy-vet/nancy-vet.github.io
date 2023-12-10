@@ -5225,7 +5225,9 @@
     ],
     "indications"       : [],
     "contraindications" : [],
-    "drugInteractions"  : []
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
   },
   {
     "type": "antibiotics",
@@ -5249,7 +5251,9 @@
     ],
     "indications"       : [],
     "contraindications" : [],
-    "drugInteractions"  : []
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
   },
   {
     "type": "antibiotics",
@@ -5301,7 +5305,32 @@
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
-
+  {
+    "type": "antibiotics",
+    "title": "Клотримазол 1% крем",
+    "titleEn": "Clotrimazol GSK 1% cream",
+    "activeSubstance": "клотримазол",
+    "drugConcentration": 10,
+    "drugConcentrationDecorator": "mg_g",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/antibiotics/klotrimazol.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/clotrimazole.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
 
   {
     "type": "antiparasitic",
