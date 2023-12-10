@@ -2903,6 +2903,58 @@
   },
   {
     "type": "eyes",
+    "title": "Флоксал 3 мг/мл капки за очи",
+    "titleEn": "Floxal 3 mg/ml eye drops",
+    "activeSubstance": "офлоксацин",
+    "drugConcentration": 3,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/eyes/floxal.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/cyprofloxacin.pdf" }
+    ],
+    "indications"       : ["хинолон", "for established gram negative corneal infections"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : ["crusting or crystalline precipitates in the superficial portion of corneal defects"],
+    "pharmacology"      : []
+  },
+  {
+    "type": "eyes",
+    "title": "Цилоксан 3 мг/мл",
+    "titleEn": "Floxal 3 mg/ml eye drops",
+    "activeSubstance": "ципрофлоксацин",
+    "drugConcentration": 3,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/eyes/ciloxan.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/cyprofloxacin.pdf" }
+    ],
+    "indications"       : ["хинолон", "for established gram negative corneal infections"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : ["crusting or crystalline precipitates in the superficial portion of corneal defects"],
+    "pharmacology"      : []
+  },
+  {
+    "type": "eyes",
     "title": "Сперсадекс капки за очи 5 мл",
     "titleEn": "Spersadex",
     "activeSubstance": "хлорамфеникол, дексаметазон",
