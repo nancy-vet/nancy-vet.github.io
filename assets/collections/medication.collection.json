@@ -1447,7 +1447,7 @@
           0.6
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "на ден (препоръчително е 0,5 mg_kg), разделен на два приема q12h"
+        "applicationMethod": "на ден (препоръчително е 0,5 mg/kg), разделен на два приема q12h"
       }
     },
     "links": [
@@ -1455,6 +1455,34 @@
       { "title": "Plumbs", "link": "pdfs/@medication/cardiovascular/pimobendan.pdf" }
     ],
     "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "cardiovascular",
+    "title": "Фортекор Плюс 1,25 мг/2,5 мг табл",
+    "titleEn": "Fortekor Plus 1,25 mg/2,5 mg",
+    "activeSubstance": "пимобендан, беназеприл",
+    "drugConcentration": 1.25,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "dogs": {
+        "activeSubstanceDose": [
+          0.25,
+          0.5
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "на ден, разделен на два приема q12h"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/cardiovascular/fortekor.pdf" },
+      { "title": "Plumbs Pimobendan", "link": "pdfs/@medication/cardiovascular/pimobendan.pdf" },
+      { "title": "Plumbs Benazepril", "link": "pdfs/@medication/plumbs-pdf/benazepril.pdf" }
+    ],
+    "indications"       : ["застойна сърдечна недостатъчност, причинена от недостатъчност на атриовентрикуларния клапан или от разширена кардиомиопатия"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -5749,6 +5777,33 @@
   },
   {
     "type": "antiinflammatory",
+    "title": "Депо-медрол 40 мг/мл инж. суспензия",
+    "titleEn": "Depo-Medrol 40 mg/ml",
+    "activeSubstance": "метилпреднизолон",
+    "drugConcentration": 40,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1,
+          2
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "IM"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/depo-medrol.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/methylprednisolone.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antiinflammatory",
     "title": "Преднизолон Кортико 5 мг табл",
     "titleEn": "Prednisolone Cortico",
     "activeSubstance": "преднизолон",
@@ -6540,7 +6595,7 @@
   },
   {
     "type": "others",
-    "title": "Витамин Б12 500мкг",
+    "title": "Витамин Б12 500 мкг в 5 мл",
     "titleEn": "Vitamin B12 500mcg",
     "activeSubstance": "цианокобаламин",
     "drugConcentration": 0.1,
