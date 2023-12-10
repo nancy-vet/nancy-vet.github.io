@@ -414,6 +414,49 @@
   },
 
   {
+    "title"     : "Trichomonas foetus",
+    "frontImage": "/assets/pdfs/@probes/copro/trichomonas-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/copro/trichomonas-1.png",
+      "/assets/pdfs/@probes/copro/trichomonas-2.png",
+      "/assets/pdfs/@probes/copro/trichomonas-3.png",
+      "/assets/pdfs/@probes/copro/trichomonas-4.png",
+      "/assets/pdfs/@probes/copro/trichomonas-5.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          "Тримонасите се установяват в 2 форми: трофозоит- в червата на гостоприемника, и циста, образуваща се във външната среда."
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          "Продължителна диария"
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          "копро проба чрез флотационни методи.",
+          "Direct fecal smear—low sensitivity",
+          "Method—Dilute fresh feces 50:50 in saline, coverslip, examine at 40× objective with condenser lowered to increase contrast.",
+          "T. foetus trophozoites—are not seen on fecal flotation. T. foetus trophozoites—will not survive refrigeration"
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          "КЧ – фенбендазол (Панакюр) – 50 мг/кг 3 последователни дни, после 14 дни почивка, след което отново 3 дни 50 мг/кг.",
+          "КТ – метронидазол (Ерадия/ Флажил) – 25 мг/кг ПО 7 дни през 12? часа (по-безопасно е 24 ч)."
+        ]
+      }
+    ]
+  },
+
+  {
     "title"     : "Toxoplasma gondii",
     "frontImage": "/assets/pdfs/@probes/copro/toxoplasma-1.jpg",
     "gallery"   : [
