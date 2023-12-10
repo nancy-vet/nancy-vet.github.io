@@ -3441,6 +3441,31 @@
   },
   {
     "type": "skin",
+    "title": "Цитопойнт 10 мг инж. р-р",
+    "titleEn": "Cytopoint 10 mg solution",
+    "activeSubstance": "локиветмаб",
+    "drugConcentration": 16,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "dogs": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "веднъж седмично"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/skin/cytopoint.pdf" }
+    ],
+    "indications"       : ["Лечение на клиничните прояви на атопичен дерматит при кучетата."],
+    "contraindications" : ["Да не се използва при кучета с тегло под 3 kg."],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : ["В лабораторни изследвания след първо приложение на lokivetmab, начало на ефикасността за сърбежа е наблюдавано 8 часа след приложение.", "Lokivetmab е канинизирано моноклонално антитяло (mAb) със специфичен таргет кучешки интерлевкин-31. Блокирането на IL-31 от lokivetmab предотвратява свързването на IL-31 с неговия ко-рецептор и по този начин инхибира IL-31 медиираното клетъчно сигнализиране, осигурявайки облекчаване на свързания с атопичен дерматит сърбеж и противовъзпалителна активност."]
+  },
+  {
+    "type": "skin",
     "title": "Панавейксал",
     "titleEn": "Panaveyxal",
     "activeSubstance": "-",
