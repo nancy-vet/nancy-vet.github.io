@@ -913,7 +913,39 @@
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
-
+  {
+    "type": "gastrointestinal",
+    "title": "Ремирта 30 мг табл",
+    "titleEn": "Remirta",
+    "activeSubstance": "миртазапин",
+    "drugConcentration": 0.1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          0.6
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO q24h not to exceed 30 mg per day for appetite stimulation"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          3
+        ],
+        "activeSubstanceDoseDecorator": "mg",
+        "applicationMethod": "per cat PO q72h (every 3 days)"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/remirta.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/mirtazapine.pdf" }
+    ],
+    "indications"       : ["антидепресант", " an appetite stimulant & antiemetic in dogs & cats"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
 
   {
     "type": "respiratory",
@@ -6452,7 +6484,32 @@
 
 
 
-
+  {
+    "type": "others",
+    "title": "Атропин 1 мг/мл",
+    "titleEn": "Atropine 1 mg/ml",
+    "activeSubstance": "атропин",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/others/atropin.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/atropine-sulfate.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
   {
     "type": "others",
     "title": "Форбид прах",
