@@ -3473,8 +3473,8 @@
     "title": "Дактакорт крем",
     "titleEn": "Daktacort",
     "activeSubstance": "миконазол, хидрокортизон",
-    "drugConcentration": 10,
-    "drugConcentrationDecorator": "IU_ml",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -3485,7 +3485,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/skin/daktacort.pdf" }
+      { "title": "листовка", "link": "pdfs/@medication/skin/daktacort.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/miconazole.pdf" }
     ],
     "indications"       : ["за гъбична инфекция"],
     "contraindications" : [],
