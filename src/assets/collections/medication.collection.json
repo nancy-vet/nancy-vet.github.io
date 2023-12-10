@@ -1465,7 +1465,7 @@
     "title": "Фортекор Плюс 1,25 мг/2,5 мг табл",
     "titleEn": "Fortekor Plus 1,25 mg/2,5 mg",
     "activeSubstance": "пимобендан, беназеприл",
-    "drugConcentration": 10,
+    "drugConcentration": 1.25,
     "drugConcentrationDecorator": "mg_tabl",
     "application": {
       "dogs": {
