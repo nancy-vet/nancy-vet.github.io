@@ -4815,18 +4815,26 @@
     "drugConcentration": 40,
     "drugConcentrationDecorator": "mg_ml",
     "application": {
-      "any": {
+      "dog": {
         "activeSubstanceDose": [
           10
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO"
+        "applicationMethod": "PO за 8 последователни дни"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          5
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO за 8 последователни дни"
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/sumamed.pdf" }
+      { "title": "листовка", "link": "pdfs/@medication/antibiotics/sumamed.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/antibiotics/azithromycin.pdf" }
     ],
-    "indications"       : ["група: макролиди"],
+    "indications"       : ["група: макролиди", "разтваря се в 12 мл вода", "дава се реди вит. Б12"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
