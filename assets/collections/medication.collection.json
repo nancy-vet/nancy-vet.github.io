@@ -2899,7 +2899,7 @@
     "type": "eyes",
     "title": "Кавазан",
     "titleEn": "Cavasan",
-    "activeSubstance": "хлорамфеникол (20 мг/г) и вит. А",
+    "activeSubstance": "хлорамфеникол (20 мг/г), витамин А",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
@@ -2912,7 +2912,6 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/eyes/" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/chloramphenicol.pdf" }
     ],
     "indications"       : [],
@@ -3021,6 +3020,32 @@
     "pharmacology"      : []
   },
   {
+    "type": "eyes",
+    "title": "Розови капки",
+    "titleEn": "Pink drops",
+    "activeSubstance": "глюкоза, витамин Б1, витамин Б12, инсулин",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "идк",
+        "applicationMethod": "идк"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/eyes/aciklovir.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/acyclovir.pdf" }
+    ],
+    "indications"       : ["1 амп. глюкоза 40%, 1 амп вит Б1, 1 амп вит Б12, 0,1 инсулин."],
+    "contraindications" : ["Срок на годност: 2 седмици."],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
     "type": "ears",
     "title": "ТризАурал",
     "titleEn": "TrizAural",
@@ -3036,9 +3061,6 @@
         "applicationMethod": "накапете, масажирайте"
       }
     },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/ears/" }
-    ],
     "indications"       : ["Тризаурал повишава ефекта на локални дезинфектанти или антибиотици.", "Алкализиращ, антибактериален флъш за антибактериално промиване преди третиране при кучета и котки. Полезен е, когато са идентифицирани Грам-отрицателни бактерии. Допълва лекарствата за уши, като помага за възстановяване на нормалната флора на ушния канал."],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -3057,14 +3079,34 @@
         "activeSubstanceDose": [
           1
         ],
-        "activeSubstanceDoseDecorator": "няколко капки",
-        "applicationMethod": "накапете, масажирайте, попийте с марля"
+        "activeSubstanceDoseDecorator": "gtt",
+        "applicationMethod": "няколко капки накапете, масажирайте, попийте с марля"
       }
     },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/ears/" }
-    ],
     "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "ears",
+    "title": "Епиотик р-р за почистване на уши",
+    "titleEn": "EpiOtic",
+    "activeSubstance": "хлорхексидин, TrisEDTA",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          3,
+          4
+        ],
+        "activeSubstanceDoseDecorator": "gtt",
+        "applicationMethod": "1 или 2 пъти седмично"
+      }
+    },
+    "indications"       : ["Разклатете добре преди употреба, не отваряйте синята капачка, а само завъртете на ляво бялата. Поставете 4-5 капки в ушния канал. Масажирайте нежно основата на ухото и след това почистете с памучен тампон"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -4180,7 +4222,7 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/" },
+      { "title": "листовка", "link": "pdfs/@medication/antibiotics/ksimebak.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/cefpodoxime.pdf" }
     ],
     "indications"       : ["група: цефалоспорини"],
@@ -4467,7 +4509,7 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/" }
+      { "title": "листовка", "link": "pdfs/@medication/antibiotics/veraflox.pdf" }
     ],
     "indications"       : ["група: хинолони"],
     "contraindications" : [],
@@ -4492,7 +4534,7 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/" }
+      { "title": "листовка", "link": "pdfs/@medication/antibiotics/levofloxacin.pdf" }
     ],
     "indications"       : ["група: хинолони"],
     "contraindications" : [],
@@ -6432,6 +6474,28 @@
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Ентерозоо детоксикиращ гел",
+    "titleEn": "EnteroZoo",
+    "activeSubstance": "polymethylsiloxane polyhydrate",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "директно в устата или размесен с храна или вода"
+      }
+    },
+    "indications"       : ["при отравяния, автоинтоксикации, храносмилателни нарушения,кожни заболявания."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : ["EnteroZoo свързва и елиминира селективно и с изключителна ефиктивност токсини, вредни субстанции, патогени и алергени в храносмилателния тракт и върху кожата."]
   },
   {
     "type": "others",
