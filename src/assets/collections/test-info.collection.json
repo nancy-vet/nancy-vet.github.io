@@ -19,7 +19,7 @@
       {
         "title": "Procedure",
         "content" : [
-          "@/assets/pdfs/@test/chw-1.png",
+          "@/assets/pdfs/@test/chw/chw-1.png",
           "Using the disposable dropper, add 2 drops(approximately 80㎕) of sample into the sample hole.",
           "Interpret test results at 10 minutes. Do not read after 20 minutes.",
           "If it does not appear after 1minute, add one more drop of mixed sample to the sample hole."
@@ -140,7 +140,7 @@
 
   {
     "type"          : "dog",
-    "title"         : "CPV",
+    "title"         : "CPV ag",
     "section"       : [
       {
         "title"   : "Detects",
@@ -157,17 +157,19 @@
       {
         "title": "Procedure",
         "content" : [
-          "@",
+          "@/assets/pdfs/@test/cpv-ag/cpv-ag-komplekt.png",
+          "@assets/pdfs/@test/cpv-ag/cpv-ag-0.png",
+          "@assets/pdfs/@test/cpv-ag/cpv-ag-1.png",
           "Use a swab.",
-          "@",
+          "@assets/pdfs/@test/cpv-ag/cpv-ag-2.png",
           "Insert the swab into tube. Mix the swab until the sample has been dissolved (approximately 10 sec.)",
-          "@",
+          "@assets/pdfs/@test/cpv-ag/cpv-ag-3.png",
           "Wait for 1 minute to settle down the large particles.",
-          "@",
+          "@assets/pdfs/@test/cpv-ag/cpv-ag-4.png",
           "Using the disposable dropper, take the supernatant sample in the tube.",
-          "@",
+          "@assets/pdfs/@test/cpv-ag/cpv-ag-5.png",
           "Add 4 drops of mixed sample into the sample hole(S), drop by drop vertically.",
-          "@",
+          "@assets/pdfs/@test/cpv-ag/cpv-ag-6.png",
           "Interpret test results at 5~10 minutes. Do not read the result after 20 minutes."
         ]
       }
@@ -194,6 +196,7 @@
         "title": "Procedure",
         "content" : [
 
+          "@/assets/pdfs/@test/giardia-ag/giardia-ag-komplekt.png",
           "@/assets/pdfs/@test/giardia-ag/giardia-ag-0.png",
           "Use a swab.",
           "@/assets/pdfs/@test/giardia-ag/giardia-ag-1.png",
@@ -270,6 +273,7 @@
       {
         "title": "Procedure",
         "content" : [
+          "@/assets/pdfs/@test/fpv-ag/fpv-komplekt.jpg",
           "Use a swab.",
           "@/assets/pdfs/@test/fpv-ag/fpv-ag-1.png",
           "Insert the swab into tube. Mix the swab until the sample has been dissolved (approximately 10 sec.).",
@@ -310,11 +314,13 @@
       {
         "title": "Procedure",
         "content" : [
-          "@/assets/pdfs/@test/fcov-ab-2.png",
+          "@/assets/pdfs/@test/fcov-ab/fcov-ab-1.png",
           "Using the disposable capillary tube, add 10㎕ of sample into the sample hole.",
+          "@/assets/pdfs/@test/fcov-ab/fcov-ab-2.png",
           "Add 3 drops of the assay diluents into the sample hole, drop by drop vertically.",
+          "@/assets/pdfs/@test/fcov-ab/fcov-ab-3.png",
           "Interpret test results at 10 minutes. Do not read after 20 minutes.",
-          "If it does not appear after 1minute, add one more drop of mixed sample to the sample hole."
+          "If it does not appear after 1 minute, add one more drop of mixed sample to the sample hole."
         ]
       }
     ]
@@ -346,6 +352,7 @@
       {
         "title": "Procedure",
         "content" : [
+          "@/assets/pdfs/@test/fiv-felv/fiv-felv-komplekt.png",
           "@/assets/pdfs/@test/fiv-felv/fiv-felv-1.png",
           "Using a capillary tube, add 1 drop (approximately 10 μl) of sample into each sample hole (S) on the test device.",
           "@/assets/pdfs/@test/fiv-felv/fiv-felv-2.png",
@@ -369,7 +376,7 @@
       {
         "title"   : "Detects",
         "content" : [
-          "Dirofilaria immitis antigen"
+          "antigens: Canine distemper virus, Canine Adenovirus (Infectious Canine Hepatitis) and Canine Influenza virus"
         ]
       },
       {
@@ -381,13 +388,85 @@
       {
         "title": "Procedure",
         "content" : [
-          "@/assets/pdfs/@test/cird-3-1.png",
+          "@/assets/pdfs/@test/cird-3/cird-3-1.png",
           "Collect the samples from conjunctiva and nasal discharge using the sample collection swab pre-wetted with saline solution.",
+          "@/assets/pdfs/@test/cird-3/cird-3-2.png",
           "Insert the swab into the assay diluents and mix the swab samples with assay diluent to extract well.",
           "Remove the test device from the foil pouch, and place it on a flat and dry surface.",
+          "@/assets/pdfs/@test/cird-3/cird-3-3.png",
           "Respectively, add four (4) drops of the mixed sample into the 2 sample holes using the dropper, drop by drop and slowly",
+          "@/assets/pdfs/@test/cird-3/cird-3-4.png",
           "As the test begins to work, you will see purple color move across the result window in the center of the test device. If the migration has not appeared after 1 minute, add one more drop of the mixed sample to the sample well.",
           "Interpret test results at 10 minutes."
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "type"          : "dog",
+    "title"         : "CDV Ag",
+    "section"       : [
+      {
+        "title"   : "Detects",
+        "content" : [
+          "Canine Distemper virus antigen"
+        ]
+      },
+      {
+        "title"   : "Sample",
+        "content" : [
+          "conjunctiva and nasal discharge."
+        ]
+      },
+      {
+        "title": "Procedure",
+        "content" : [
+          "@/assets/pdfs/@test/cdv-ag/cdv-ag-komplekt.png",
+          "@/assets/pdfs/@test/cdv-ag/cdv-ag-1.png",
+          "Collect the sample from conjunctiva or urine using the sample collection swab pre-wetted with saline solution. In case of serum or plasma sampl you can use the dropper.",
+          "@/assets/pdfs/@test/cdv-ag/cdv-ag-2.png",
+          "Insert the swab into the specimen tube containing 300 μℓ of assay diluent. In case of serum or plasma samples, add 2-3 drops of the serum or plasma into the specimen tube containing 300 μℓ of assay diluent using the dropper.",
+          "Mix the swab samples with assay diluent to extract well.",
+          "@/assets/pdfs/@test/cdv-ag/cdv-ag-3.png",
+          "Add four (4) drops of the mixed sample into the sample hole using the dropper, drop by drop and slowly",
+          "@/assets/pdfs/@test/cdv-ag/cdv-ag-4.png",
+          "As the test begins to work, you will see purple color move across the result window in the center of the test device. If the migration has not appeared after 1 minute, add one more drop of the mixed sample to the sample well.",
+          "Interpret test results at 5-10 minutes."
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "type"          : "cat",
+    "title"         : "Toxoplasma Ab",
+    "section"       : [
+      {
+        "title"   : "Detects",
+        "content" : [
+          "Toxoplasma gondii antibody"
+        ]
+      },
+      {
+        "title"   : "Sample",
+        "content" : [
+          "feline serum, plasma or whole blood"
+        ]
+      },
+      {
+        "title": "Procedure",
+        "content" : [
+          "@/assets/pdfs/@test/toxoplasma-ab/toxoplasma-ab-1.png",
+          "Using a disposable dropper, dispense 10μℓ of sample into sample well of the test device.",
+          "@/assets/pdfs/@test/toxoplasma-ab/toxoplasma-ab-2.png",
+          "Add 3 drops of assay diluents into the sample well.",
+          "As the test begins to work, you will see purple color move across the result minute, add one more drop of the assay diluents to the sample well.",
+          "@/assets/pdfs/@test/toxoplasma-ab/toxoplasma-ab-3.png",
+          "Interpret test results at 10 minutes. Do not interpret after 10 minutes."
         ]
       }
     ]
