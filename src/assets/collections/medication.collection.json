@@ -2658,9 +2658,9 @@
   },
   {
     "type": "nervous",
-    "title": "Милгамма Н",
-    "titleEn": "Milgamma N",
-    "activeSubstance": "vit. B1, B6, B12",
+    "title": "Милгамма Н табл",
+    "titleEn": "Milgamma N tabl",
+    "activeSubstance": "витамин Б1, витамин Б6, витамин Б12",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
@@ -2670,6 +2670,28 @@
         ],
         "activeSubstanceDoseDecorator": "tabl",
         "applicationMethod": "PO 3 пъти на ден за 1 месец (q8h)"
+      }
+    },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "nervous",
+    "title": "Милгамма Н амп",
+    "titleEn": "Milgamma N amp",
+    "activeSubstance": "витамин Б1, витамин Б6, витамин Б12",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0.2
+        ],
+        "activeSubstanceDoseDecorator": "ml",
+        "applicationMethod": "IM от първи до пети ден, по 0.3 мл 5.-10. ден, 1/4 табл 10.-20. ден. (?)"
       }
     },
     "indications"       : [],
@@ -3266,7 +3288,7 @@
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/ears/mitex.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/nervous/prednisolone.pdf" }
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/prednisolone.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -4169,7 +4191,7 @@
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/antibiotics/ospexin-500mg.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/cefalexin.pdf" }
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/cephalexin.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -4195,7 +4217,7 @@
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/antibiotics/tsefalen.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/cefalexin.pdf" }
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/cephalexin.pdf" }
     ],
     "indications"       : ["група: цефалоспорини"],
     "contraindications" : [],
@@ -4220,7 +4242,8 @@
       }
     },
     "links": [
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/cefalexin.pdf" }
+      { "title": "листовка", "link": "pdfs/@medication/antibiotics/tsefalen.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/cephalexin.pdf" }
     ],
     "indications"       : ["група: цефалоспорини"],
     "contraindications" : [],
@@ -4784,6 +4807,33 @@
     "type": "antibiotics",
     "title": "Бисептол 400 мг/ 80 мг",
     "titleEn": "Biseptol 400 mg/ 80 mg",
+    "activeSubstance": "сулфаметоксазол, триметоприм",
+    "drugConcentration": 480,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          15,
+          30
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "ПО q12h за 7-14 дни (28 дни при токсоплазмоза и др. инфекции), може и 30 mg/kg q24h"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/antibiotics/biseptol.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/sulfadiazine-sulfamethoxazole-trimetoprim.pdf" }
+    ],
+    "indications"       : ["група: сулфонамиди"],
+    "contraindications" : ["Because of its potential for crystallization in the urine, it may be wise to avoid the use of sulfadiazine in dogs known to have uroliths, at increased risk for developing uroliths or known to have highly concentrated or acidic urine.", "blood dyscrasias", "Hypersensitivity to sulfas, thiazides, or sulfonylurea agents; severe renal or hepatic impairment."],
+    "drugInteractions"  : ["Antacids: May decrease the bioavailability of sulfonamides if administered concurrently", "Cyclosporine: TMP/sulfa may increase the risk of nephrotoxicity", "Digoxin: TMP/sulfa may increase digoxin levels", "Diuretics, thiazide: May increase risk for thrombocytopenia", "Hypoglycemic agents, oral: TMP/sulfa may potentiate effects", "Methotrexate: TMP/sulfa may displace from plasma proteins and increase risk for toxic effects; it can also interfere with MTX assays (competitive protein binding technique)", "Phenytoin: TMP/sulfa may increase half-life", "Tricyclic antidepressants: TMP/sulfa may decrease efficacy", "Warfarin: TMP/sulfa may prolong INR/PT"],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antibiotics",
+    "title": "Трисулфин 400 мг/ 80 мг табл",
+    "titleEn": "Trisulfin 400 mg/ 80 mg tabl",
     "activeSubstance": "сулфаметоксазол, триметоприм",
     "drugConcentration": 480,
     "drugConcentrationDecorator": "mg_tabl",
@@ -7094,6 +7144,31 @@
     ],
     "indications"       : ["Дротаверина применяют собакам и кошкам для купирования спазмов гладкой мускулатуры, связанные с заболеваниями: ", "билиарного тракта (холецистолитиаз, холангиолитиаз, холецистит, перихолецистит, холангит, папиллит); ", "мочевыводящих путей (нефролитиаз, уретролитиаз, пиелит, цистит, тенезмы мочевого пузыря);", "гинекологических заболеваниях; желудочно-кишечного тракта (язвенная болезнь желудка и двенадцатиперстной кишки, гастрит, спазмы кардии и привратника, энтерит, колит)."],
     "contraindications" : ["Не применять при индивидуальной повышенной чувствительности к нестероидным противовоспалительным средствам, нарушениях функций печени, почек, органов кроветворения, при кровопотерях и кровотечениях, язвах желудочно-кишечного тракта, а также беременным и лактирующим самкам. Не использовать совместно с нестероидными противовоспалительными средствами, глюкокортикоидами и антикоагулянтами, а также животным моложе 2-месячного возраста."],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "nervous",
+    "title": "Невробекс табл.",
+    "titleEn": "Neurobex tabl",
+    "activeSubstance": "витамин Б1, витамин Б6, витамин Б12",
+    "drugConcentration": 40,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "по схема"
+      }
+    },
+    "links": [
+      { "title": "схема", "link": "pdfs/@medication/nervous/nevrobeks-shema.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
