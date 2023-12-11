@@ -88,7 +88,7 @@
       {
         "title": "Procedure",
         "content" : [
-          "@/assets/pdfs/@test/caniv-4-leish/caniv-4-leish-4-1.png",
+          "@/assets/pdfs/@test/caniv-4-leish/caniv-4-leish-1.png",
           "Using a disposable capillary tube, add 20 μl of whole blood into each sample hole. Or, add 10 μl of serum/plasma into each sample hole using a micropipette.",
           "@/assets/pdfs/@test/caniv-4-leish/caniv-4-leish-2.png",
           "Dispense 2 drops of assay diluent into each sample hole.",
@@ -178,7 +178,7 @@
 
   {
     "type"          : "both",
-    "title"         : "Giardia",
+    "title"         : "Giardia Ag",
     "section"       : [
       {
         "title"   : "Detects",
@@ -189,7 +189,7 @@
       {
         "title"   : "Sample",
         "content" : [
-          " canine or feline feces. If samples are not tested immediately, they should be stored at 2~8°C for 24 hours. The amount of fecal swab may affect the results."
+          "canine or feline feces. If samples are not tested immediately, they should be stored at 2~8°C for 24 hours. The amount of fecal swab may affect the results."
         ]
       },
       {
