@@ -1980,6 +1980,28 @@
   },
   {
     "type": "urogenital",
+    "title": "Ипакитин диетична храна за кучета и котки с ББ недостатъчност 60 г",
+    "titleEn": "Ipakitine diet food 60 g",
+    "activeSubstance": "лактоза, калциев карбонат, хитозан, протеини, влакнини, мазнини",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "cat": {
+        "activeSubstanceDose": [
+          200
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "1 г/5 кг два пъти дневно през устата или смесено с основната храна."
+      }
+    },
+    "indications"       : ["Първият по рода си в света продукт, завършена и оптимизирана комбинация от съставки с превъзходен вкус, които играят ролята да улавят фосфати, т.е. да редуцират фосфатемията. През периода на приложение трябва да се осигури постоянен достъп до прясна вода. Прилагането може да продължи през целия остатък от живота."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "urogenital",
     "title": "Ализин 30 мг/мл",
     "titleEn": "Alizin 30 mg/ml",
     "activeSubstance": "аглепристон",
@@ -5868,7 +5890,7 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/urogenital/oksitocin.pdf" },
+      { "title": "листовка", "link": "pdfs/@medication/endocrine/oksitocin.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/oxytocin.pdf" }
     ],
     "indications"       : ["Повторно може да се приложи след 20-40 минути", "За стимулиране на родовата дейност при слаби и неефективни контракции на матката (само при отворена маточна шийка);", "при атония на матката след раждане;", "при след родилни маточни кръвотечения; при задържане на плацентата;", "при пуерперални ендометрити;", "при изпадане на матката;", "при хипогалакция и агалакция след раждане;", "при задържане на млякото."],
@@ -6688,6 +6710,32 @@
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/atropine-sulfate.pdf" }
     ],
     "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Ред сел кеър",
+    "titleEn": "Red cell care",
+    "activeSubstance": "желязо, мед, витамини група Б, витамин А, мед, селен, цинк, манган, холин",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "ml_kg",
+        "applicationMethod": "PO mixed with food or directly with a syringe"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/others/atropin.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/atropine-sulfate.pdf" }
+    ],
+    "indications"       : ["Iron-deficiency anaemia: Up to 4 ml / 1 kg."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
