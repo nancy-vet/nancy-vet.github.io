@@ -2024,9 +2024,9 @@
   },
   {
     "type": "urogenital",
-    "title": "Уриновет Кат",
+    "title": "УриноВет Кет",
     "titleEn": "UrinoVet Cat",
-    "activeSubstance": "-",
+    "activeSubstance": "червена боровинка, магданоз, глюкозамин, маточина",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
@@ -2038,7 +2038,53 @@
         "applicationMethod": "q24h"
       }
     },
-    "indications"       : [],
+    "indications"       : ["за пациенти, предразположени към заболявания на долните пикочни пътища (FLUTD), включително идиопатичен цистит и уролитиаза",
+    "такива страдащи и податливи на инфекции на пикочните пътища, като пиелонефрит, цистит, уретрит",
+    "за всички пациенти, подложени на лечение от уролитиаза, независимо от вида на камъните и след операция за отстраняване на пикочните камъни."],
+    "contraindications" : [],
+    "drugInteractions"  : ["Капсулата се реже и изстисква."],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "urogenital",
+    "title": "УриноВет Кет Дилушън",
+    "titleEn": "UrinoVet Cat Dilution",
+    "activeSubstance": "червена боровинка, магданоз, глюкозамин, метионин, валериана, коприва, витамин Ц",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "cat": {
+        "activeSubstanceDose": [
+          2
+        ],
+        "activeSubstanceDoseDecorator": "caps",
+        "applicationMethod": "q24h, т. е. по 1 капсула сутрин и вечер"
+      }
+    },
+    "indications"       : ["Съдържа подкиселяващи съставки.", "Капсулата се реже и изстисква.", "смесена с храната или да се даде директно в устата"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "urogenital",
+    "title": "УриноВет Дог",
+    "titleEn": "UrinoVet Dog",
+    "activeSubstance": "червена боровинка, магданоз, глюкозамин",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "cat": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl_10_kg",
+        "applicationMethod": "q24h, PO или смесена с храна"
+      }
+    },
+    "indications"       : ["инфекции на пикочните пътища"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -2771,8 +2817,8 @@
   },
   {
     "type": "nervous",
-    "title": "Милгамма Н табл",
-    "titleEn": "Milgamma N tabl",
+    "title": "Милгамма Н 40 мг/90 мг/250 микрог капс",
+    "titleEn": "Milgamma N caps",
     "activeSubstance": "витамин Б1, витамин Б6, витамин Б12",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
@@ -2781,7 +2827,7 @@
         "activeSubstanceDose": [
           1
         ],
-        "activeSubstanceDoseDecorator": "tabl",
+        "activeSubstanceDoseDecorator": "caps",
         "applicationMethod": "PO 3 пъти на ден за 1 месец (q8h)"
       }
     },
@@ -2807,6 +2853,31 @@
         "applicationMethod": "IM от първи до пети ден, по 0.3 мл 5.-10. ден, 1/4 табл 10.-20. ден. (?)"
       }
     },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "nervous",
+    "title": "Невробекс 15 мг/10 мг/0,02 мг табл.",
+    "titleEn": "Neurobex tabl",
+    "activeSubstance": "витамин Б1, витамин Б6, витамин Б12",
+    "drugConcentration": 40,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "по схема"
+      }
+    },
+    "links": [
+      { "title": "схема", "link": "pdfs/@medication/nervous/nevrobeks-shema.pdf" }
+    ],
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -6802,10 +6873,167 @@
 
 
 
-
-
-
-
+  {
+    "type": "others",
+    "title": "ПролактиНо табл",
+    "titleEn": "ProlactiNo",
+    "activeSubstance": "витекс, глухарче, магданоз, кестен",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl_5_kg",
+        "applicationMethod": "q24h, за не повече от 30 дни"
+      }
+    },
+    "indications"       : ["за фалшива бременност", "противоедемно, диуретично и антипролактинно действие."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : ["витекс - инхибира пролактина", "магданоз и глухарче - има диуретични свойства, което намалява подуването на млечните жлези и инхибира отделянето на кърма", "кестен - противоедемни свойства, което намалява на подуването на млечните жлези и лактацията."]
+  },
+  {
+    "type": "others",
+    "title": "ПролактиНо за големи породи",
+    "titleEn": "ProlactiNo Large Breed",
+    "activeSubstance": "витекс, глухарче, магданоз, кестен",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl_15_kg",
+        "applicationMethod": "q24h"
+      }
+    },
+    "indications"       : ["за фалшива бременност", "противоедемно, диуретично и антипролактинно действие."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : ["витекс - инхибира пролактина", "магданоз и глухарче - има диуретични свойства, което намалява подуването на млечните жлези и инхибира отделянето на кърма", "кестен - противоедемни свойства, което намалява на подуването на млечните жлези и лактацията."]
+  },
+  {
+    "type": "others",
+    "title": "ВетАминекс за кучета и котки",
+    "titleEn": "VetAminex",
+    "activeSubstance": "хидрокси-метилбутиратна киселина (HMB), Бета-глюкан",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "cat": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "caps",
+        "applicationMethod": "q48h, PO или смесен с храната"
+      },
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "caps_10_kg",
+        "applicationMethod": "q24h, PO или смесен с храната (ако КЧ < 5 кг - по 1 капс на 2 дни)"
+      }
+    },
+    "indications"       : ["мултивитамини", "подходяща за животни, хранени с домашно приготвена диета"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "АртроВет Комплекс за кучета и котки",
+    "titleEn": "ArthroVet Complex",
+    "activeSubstance": "хондроитин, глюкозамин хидрохлорид, хиалурат, L-карнитин, Harpagophytum procumbens, авокадо, соя, Витамин C, Манган",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "cat": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl_40_kg",
+        "applicationMethod": "q24h, PO или смесен с храната"
+      }
+    },
+    "indications"       : ["имуностимулатори", "Капсулата се реже и изстисква.", "Лечебна доза - 1 табл/ 20 кг.", "Профилактична доза - 1 табл/ 40 кг."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : ["Глюкозаминът повишава синтезата на хрущялната тъкан.", "Хондроитинът и хиалуроновата киселина правят хрущяла по-пластичен и резистентен на травми", "Harpagophytum procumbens, авокадо, соя - противовъзпалителни свойства.", "Витамин C и Манган подпомагат синтезата на ставния хрущял."]
+  },
+  {
+    "type": "others",
+    "title": "АртроВет за кучета и котки",
+    "titleEn": "ArthroVet",
+    "activeSubstance": "хондроитин, глюкозамин хидрохлорид, хиалурат",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "cat": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl_40_kg",
+        "applicationMethod": "q24h, PO или смесен с храната"
+      }
+    },
+    "indications"       : ["имуностимулатори", "Капсулата се реже и изстисква.", "Лечебна доза - 1 табл/ 20 кг.", "Профилактична доза - 1 табл/ 40 кг."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : ["Глюкозаминът повишава синтезата на хрущялната тъкан.", "Хондроитинът и хиалуроновата киселина правят хрущяла по-пластичен и резистентен на травми"]
+  },
+  {
+    "type": "others",
+    "title": "ВетоМун за кучета и котки",
+    "titleEn": "VetoMune",
+    "activeSubstance": "хидрокси-метилбутиратна киселина (HMB), Бета-глюкан",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "cat": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl_10_kg",
+        "applicationMethod": "q24h, PO или смесен с храната"
+      }
+    },
+    "indications"       : ["имуностимулатори", "Капсулата се реже и изстисква."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "ГериатиВет",
+    "titleEn": "GeriatiVet",
+    "activeSubstance": "глюкозамин, масло от касис",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "cat": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl_5_kg",
+        "applicationMethod": "-"
+      }
+    },
+    "indications"       : ["за възрасни котки над 8 години", "2 капсули за котки над 5 кг живо тегло", "Капсулата се реже и изстисква."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : ["DL-Метионин и коприва имат положителен ефект върху уринарния тракт."]
+  },
   {
     "type": "others",
     "title": "Атропин 1 мг/мл",
@@ -6814,7 +7042,7 @@
     "drugConcentration": 1,
     "drugConcentrationDecorator": "mg_ml",
     "application": {
-      "dog": {
+      "any": {
         "activeSubstanceDose": [
           1
         ],
@@ -6840,7 +7068,7 @@
     "drugConcentration": 1,
     "drugConcentrationDecorator": "mg_ml",
     "application": {
-      "dog": {
+      "any": {
         "activeSubstanceDose": [
           1
         ],
@@ -7309,31 +7537,6 @@
     ],
     "indications"       : ["Дротаверина применяют собакам и кошкам для купирования спазмов гладкой мускулатуры, связанные с заболеваниями: ", "билиарного тракта (холецистолитиаз, холангиолитиаз, холецистит, перихолецистит, холангит, папиллит); ", "мочевыводящих путей (нефролитиаз, уретролитиаз, пиелит, цистит, тенезмы мочевого пузыря);", "гинекологических заболеваниях; желудочно-кишечного тракта (язвенная болезнь желудка и двенадцатиперстной кишки, гастрит, спазмы кардии и привратника, энтерит, колит)."],
     "contraindications" : ["Не применять при индивидуальной повышенной чувствительности к нестероидным противовоспалительным средствам, нарушениях функций печени, почек, органов кроветворения, при кровопотерях и кровотечениях, язвах желудочно-кишечного тракта, а также беременным и лактирующим самкам. Не использовать совместно с нестероидными противовоспалительными средствами, глюкокортикоидами и антикоагулянтами, а также животным моложе 2-месячного возраста."],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "nervous",
-    "title": "Невробекс табл.",
-    "titleEn": "Neurobex tabl",
-    "activeSubstance": "витамин Б1, витамин Б6, витамин Б12",
-    "drugConcentration": 40,
-    "drugConcentrationDecorator": "mg_tabl",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "по схема"
-      }
-    },
-    "links": [
-      { "title": "схема", "link": "pdfs/@medication/nervous/nevrobeks-shema.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
