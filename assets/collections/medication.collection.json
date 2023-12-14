@@ -1522,6 +1522,50 @@
   },
   {
     "type": "cardiovascular",
+    "title": "Енап 10 мг табл",
+    "titleEn": "Enap 10 mg tabl",
+    "activeSubstance": "еналаприл",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "dogs": {
+        "activeSubstanceDose": [
+          0
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "-"
+      }
+    },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "cardiovascular",
+    "title": "Енап 10 мг/12,5 мг табл",
+    "titleEn": "Enap 10 mg/12,5 mg tabl",
+    "activeSubstance": "еналаприл, хидрохлоротиазид",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "dogs": {
+        "activeSubstanceDose": [
+          0
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "-"
+      }
+    },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "cardiovascular",
     "title": "Манитол 15%",
     "titleEn": "Mannitol 15%",
     "activeSubstance": "манитол",
@@ -1545,6 +1589,28 @@
     "drugInteractions"  : [],
     "adverseEffects"    : ["Fluid & electrolyte imbalances, gI (nausea, vomiting), cardiovascu lar (pulmonary edema, CHF, tachycardia), & CNs effects (dizziness, headache, etc.)"],
     "pharmacology"      : []
+  },
+  {
+    "type": "cardiovascular",
+    "title": "ХемоВет табл",
+    "titleEn": "HemoVet tabl",
+    "activeSubstance": "желязо, мед, витамин Б6, витамин Б9, витамин Б12, витамин Ц",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl_10_kg",
+        "applicationMethod": "q24h"
+      }
+    },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : ["Жлязото участва в продукцията на хемоглобин и миоглобин", "Медта е в състава на ензими, окисляващи желязото и при липсата на мед мобилизацията на желязо от депата се нарушава", "Витамин В6 (пиридоксал) участва в производството на хем.", "Недостигът на тези витамините Б9 и Б12 води до увреждане ДНК-то на бързо делящите се клетки в костния мозък"]
   },
   {
     "type": "urogenital",
@@ -2444,7 +2510,7 @@
     "titleEn": "Epityl 60 mg tabl",
     "activeSubstance": "Фенобарбитал",
     "drugConcentration": 60,
-    "drugConcentrationDecorator": "mg_ml",
+    "drugConcentrationDecorator": "mg_tabl",
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -2457,6 +2523,31 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/nervous/epityl.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/nervous/phenobarbital.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "nervous",
+    "title": "Финлепсин 200 мг табл",
+    "titleEn": "Finlepsin 200 mg tabl",
+    "activeSubstance": "карбамазепин",
+    "drugConcentration": 200,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/nervous/finlepsin.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -3362,7 +3453,7 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/eyes/otoxolan.pdf" },
+      { "title": "листовка", "link": "pdfs/@medication/ears/otoxolan.pdf" },
       { "title": "Plumbs Dexa", "link": "pdfs/@medication/plumbs-pdf/dexamethasone.pdf" },
       { "title": "Plumbs Marbo", "link": "pdfs/@medication/plumbs-pdf/marbofloxacin.pdf" }
     ],
@@ -5918,6 +6009,32 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/endocrine/vetoril.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/trilostane.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "endocrine",
+    "title": "Л-Тироксин 100 микрограма табл",
+    "titleEn": "L-Thyroxin 100 micrograms tabl",
+    "activeSubstance": "Левотироксин",
+    "drugConcentration": 100,
+    "drugConcentrationDecorator": "µg_tabl",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          0
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/endocrine/l-tiroksin.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/levothyroxine.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
