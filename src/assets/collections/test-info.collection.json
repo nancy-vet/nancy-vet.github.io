@@ -52,6 +52,7 @@
       {
         "title": "Procedure",
         "content" : [
+          "@/assets/pdfs/@test/caniv-4/caniv-4-komplekt.png",
           "@/assets/pdfs/@test/caniv-4/caniv-4-1.png",
           "Using a disposable capillary tube, add 20 μl of whole blood into each sample hole. Or, add 10 μl of serum/plasma into each sample hole using a micropipette.",
           "@/assets/pdfs/@test/caniv-4/caniv-4-2.png",
@@ -88,6 +89,7 @@
       {
         "title": "Procedure",
         "content" : [
+          "@/assets/pdfs/@test/caniv-4-leish/caniv-4-leish-komplekt.png",
           "@/assets/pdfs/@test/caniv-4-leish/caniv-4-leish-1.png",
           "Using a disposable capillary tube, add 20 μl of whole blood into each sample hole. Or, add 10 μl of serum/plasma into each sample hole using a micropipette.",
           "@/assets/pdfs/@test/caniv-4-leish/caniv-4-leish-2.png",
@@ -120,6 +122,7 @@
       {
         "title": "Procedure",
         "content" : [
+          "@/assets/pdfs/@test/cpv-ccv-gia/cpv-ccv-gia-komplekt.png",
           "@/assets/pdfs/@test/cpv-ccv-gia/cpv-ccv-gia-0.png",
           "Use 2 swabs.",
           "@/assets/pdfs/@test/cpv-ccv-gia/cpv-ccv-gia-1.png",
@@ -234,6 +237,7 @@
       {
         "title": "Procedure",
         "content" : [
+          "@/assets/pdfs/@test/felid-3/felid-3-komplekt.png",
           "@/assets/pdfs/@test/felid-3/felid-3-0.png",
           "Use 2 swabs.",
           "@/assets/pdfs/@test/felid-3/felid-3-1.png",
@@ -273,7 +277,7 @@
       {
         "title": "Procedure",
         "content" : [
-          "@/assets/pdfs/@test/fpv-ag/fpv-komplekt.jpg",
+          "@/assets/pdfs/@test/fpv-ag/fpv-ag-komplekt.png",
           "Use a swab.",
           "@/assets/pdfs/@test/fpv-ag/fpv-ag-1.png",
           "Insert the swab into tube. Mix the swab until the sample has been dissolved (approximately 10 sec.).",
@@ -460,6 +464,7 @@
       {
         "title": "Procedure",
         "content" : [
+          "@/assets/pdfs/@test/toxoplasma-ab/toxoplasma-komplekt.png",
           "@/assets/pdfs/@test/toxoplasma-ab/toxoplasma-ab-1.png",
           "Using a disposable dropper, dispense 10μℓ of sample into sample well of the test device.",
           "@/assets/pdfs/@test/toxoplasma-ab/toxoplasma-ab-2.png",
