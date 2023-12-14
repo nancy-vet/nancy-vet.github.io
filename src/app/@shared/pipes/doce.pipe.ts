@@ -19,6 +19,8 @@ export class DosePipe implements PipeTransform {
     if(value == 'ml_5_kg'           ) return 'ml/5 kg';
     if(value == 'ml_10_kg'          ) return 'ml/10 kg';
     if(value == 'tabl'              ) return 'tabl';
+    if(value == 'mg_tabl'           ) return 'mg/tabl';
+    if(value == 'µg_tabl'           ) return 'µg/tabl';
     if(value == 'tabl_5_kg'         ) return 'tabl/5 kg';
     if(value == 'tabl_2.5_kg'       ) return 'tabl/2.5 kg';
     if(value == 'caps_5_kg'         ) return 'caps/5 kg';
