@@ -7112,7 +7112,7 @@
     "type": "others",
     "title": "Ентерозоо детоксикиращ гел",
     "titleEn": "EnteroZoo",
-    "activeSubstance": "polymethylsiloxane polyhydrate",
+    "activeSubstance": "polymethylsiloxane polyhydrate (полиметилсилоксан полихидрат)",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
@@ -7128,7 +7128,7 @@
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
-    "pharmacology"      : ["EnteroZoo свързва и елиминира селективно и с изключителна ефиктивност токсини, вредни субстанции, патогени и алергени в храносмилателния тракт и върху кожата."]
+    "pharmacology"      : ["EnteroZoo свързва и елиминира селективно и с изключителна ефиктивност токсини, вредни субстанции, патогени и алергени в храносмилателния тракт и върху кожата.", "При преминаването си през стомашно-чревния тракт се свързва с патогенните организми (паразити, бактерии), токсичните вещества и алергените, извеждайки ги с фекалиите от организма."]
   },
   {
     "type": "others",
@@ -7873,27 +7873,5 @@
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
-  },
-  {
-    "type": "others",
-    "title": "ЕнтероЗоо детоксикиращ гел",
-    "titleEn": "EnteroZoo gel",
-    "activeSubstance": "полиметилсилоксан полихидрат",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "mg_tabl",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "tabl",
-        "applicationMethod": "PO на куче"
-      }
-    },
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : ["При преминаването си през стомашно-чревния тракт се свързва с патогенните организми (паразити, бактерии), токсичните вещества и алергените, извеждайки ги с фекалиите от организма."]
   }
 ]
