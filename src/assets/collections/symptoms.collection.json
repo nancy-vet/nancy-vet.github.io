@@ -1,5 +1,144 @@
 [
   {
+    "symptom" : "Diarrhea, acute",
+    "type"    :"gastrointestinal",
+    "meaning" : "diarrhea less than 7-14 days",
+    "causes"  : [
+      {
+        "group": "Diet", "children": [
+          {"title": "Intolerance/ allergy"      },
+          {"title": "Poor quality food"         },
+          {"title": "Rapid dietary change"      },
+          {"title": "Bacterial food poisoning"  },
+          {"title": "Dietary indiscretion"      }
+        ]
+      },
+      {
+        "group": "Parasites", "children": [
+          {"title": "Helminths" },
+          {"title": "Protozoa", "children": [
+            {"title": "Giardia"             },
+            {"title": "Trichomonas (feline)"},
+            {"title": "Coccidia"            }
+          ]}
+        ]
+      },
+      {
+        "group": "Infectious causes", "children": [
+          {"title": "Viral causes"          },
+          {"title": "Bacterial causes"      },
+          {"title": "Rickettsial infection" }
+        ]
+      },
+      {
+        "group": "Other causes", "children": [
+          {"title": "Gastroenteritis" },
+          {"title": "Spoiled food"    },
+          {"title": "Various drugs"   }
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Клиничен преглед" , "link": "pdfs/@algorithms/clinichen-pregled-algoritym.pdf" },
+      { "title": "Алгоритъм куче НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_dog.pdf" },
+      { "title": "Алгоритъм котка НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_cat.pdf" },
+      { "title": "Алгоритъм миниВет" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea-minivet.pdf" }
+    ]
+  },
+  {
+    "symptom" : "Diarrhea, chronic",
+    "type"    :"gastrointestinal",
+    "meaning" : "diarrhea more than 7-14 days",
+    "causes"  : [
+      {
+        "group" : "Small bowel diarrhea", "children": [
+          {"title": "Food intolerance or allergy"},
+          {"title": "Inflammatory bowel disease"},
+          {"title": "GI lymphoma"},
+          {"title": "Pancreatic exocrine insufficiency"},
+          {"title": "Chronic parasitism (hookworm, Giardia)"},
+          {"title": "Histoplasmosis"},
+          {"title": "Intestinal lymphangiectasia"},
+          {"title": "Partial obstruction"},
+          {"title": "Pancreatic carcinoma"},
+          {"title": "Gastrinoma"},
+          {"title": "Liver disease (hepatocellular failure, cholestasis)"},
+          {"title": "Endocrine disease (hypoadrenocorticism, hypothyroidism, hyperthyroidism)"},
+          {"title": "Renal disease (uremia, nephrotic syndrome)"},
+          {"title": "Chronic intussusception"},
+          {"title": "Small intestinal bacterial overgrowth"},
+          {"title": "Pythiosis"}
+        ]
+      },
+      {
+        "group" : "Large bowel diarrhea", "children": [
+          {"title": "Food intolerance or allergy"},
+          {"title": "Parasitism (whipworm, Giardia, Trichomonas, Heterobilharzia)"},
+          {"title": "Clostridial colitis"},
+          {"title": "Irritable bowel syndrome (fiber-responsive)"},
+          {"title": "Histoplasmosis"},
+          {"title": "Pythiosis"},
+          {"title": "Inflammatory bowel disease"},
+          {"title": "Neoplasia (lymphoma, adenocarcinoma)"},
+          {"title": "FeLV/FIV (infections secondary to these viruses)"}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Клиничен преглед" , "link": "pdfs/@algorithms/clinichen-pregled-algoritym.pdf" },
+      { "title": "Алгоритъм куче НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_dog.pdf" },
+      { "title": "Алгоритъм котка НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_cat.pdf" },
+      { "title": "Алгоритъм миниВет" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea-minivet.pdf" },
+      { "title": "Хронична диария Котки" , "link": "pdfs/@algorithms/gastrointestinal/chronic-diarrhea-cats.pdf" }
+    ]
+  },
+  {
+    "symptom" : "Dysuria, Stranguria, Pollakiuria",
+    "type"    :"urogenital",
+    "meaning" : "Dysuria—difficult or painful urination. Pollakiuria—voiding small quantities of urine with increased frequency. Stranguria—straining to urinate.",
+    "causes"  : [
+      {
+        "group": "Inflammatory disease", "children": [
+          { "title" : "Feline idiopathic cystitis, urethritis (idiopathic feline lower urinary tract disease) - No.1 cause" },
+          { "title" : "Urinary tract infection" },
+          { "title" : "Chemically induced inflammation (e.g., cyclophosphamide-induced cystitis)" },
+
+          { "title" : "Polypoid cystitis" },
+          { "title" : "Proliferative urethritis (granulomatous urethritis)" }
+        ]
+      },
+      {
+        "group": "Urolithiasis - No.2 cause", "children": [
+          {"title": "Cystic calculi"    },
+          {"title": "Urethral calculi"  }
+        ]
+      },
+      {
+        "group": "Neoplasia", "children": [
+          {"title": "Transitional cell carcinoma of bladder or urethra"    },
+          {"title": "Prostatic neoplasia"  },
+          {"title": "Vaginal neoplasia"    }
+        ]
+      },
+      {
+        "group": "Trauma", "children": [
+          {"title": "Bladder or urethral rupture"    },
+          {"title": "Urethral stricture (previous trauma or surgery)"  }
+        ]
+      },
+      {
+        "group": "Neurogenic disorder", "children": [
+          {"title": "Reflex dyssynergia"    }
+        ]
+      },
+      {
+        "group": "Other", "children": [
+          {"title": "Perineal hernia"    }
+        ]
+      }
+    ]
+  },
+  {
     "symptom" : "Dysphagia -",
     "type"    :"gastrointestinal",
     "meaning" : "",
@@ -200,99 +339,7 @@
       }
     ]
   },
-  {
-    "symptom" : "Diarrhea, acute",
-    "type"    :"gastrointestinal",
-    "meaning" : "diarrhea less than 7-14 days",
-    "causes"  : [
-      {
-        "group": "Diet", "children": [
-          {"title": "Intolerance/ allergy"      },
-          {"title": "Poor quality food"         },
-          {"title": "Rapid dietary change"      },
-          {"title": "Bacterial food poisoning"  },
-          {"title": "Dietary indiscretion"      }
-        ]
-      },
-      {
-        "group": "Parasites", "children": [
-          {"title": "Helminths" },
-          {"title": "Protozoa", "children": [
-            {"title": "Giardia"             },
-            {"title": "Trichomonas (feline)"},
-            {"title": "Coccidia"            }
-          ]}
-        ]
-      },
-      {
-        "group": "Infectious causes", "children": [
-          {"title": "Viral causes"          },
-          {"title": "Bacterial causes"      },
-          {"title": "Rickettsial infection" }
-        ]
-      },
-      {
-        "group": "Other causes", "children": [
-          {"title": "Gastroenteritis" },
-          {"title": "Spoiled food"    },
-          {"title": "Various drugs"   }
-        ]
-      }
-    ],
-    "links" : [
-      { "title": "Клиничен преглед" , "link": "pdfs/@algorithms/clinichen-pregled-algoritym.pdf" },
-      { "title": "Алгоритъм куче НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_dog.pdf" },
-      { "title": "Алгоритъм котка НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_cat.pdf" },
-      { "title": "Алгоритъм миниВет" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea-minivet.pdf" }
-    ]
-  },
-  {
-    "symptom" : "Diarrhea, chronic",
-    "type"    :"gastrointestinal",
-    "meaning" : "diarrhea more than 7-14 days",
-    "causes"  : [
-      {
-        "group" : "Small bowel diarrhea", "children": [
-          {"title": "Food intolerance or allergy"},
-          {"title": "Inflammatory bowel disease"},
-          {"title": "GI lymphoma"},
-          {"title": "Pancreatic exocrine insufficiency"},
-          {"title": "Chronic parasitism (hookworm, Giardia)"},
-          {"title": "Histoplasmosis"},
-          {"title": "Intestinal lymphangiectasia"},
-          {"title": "Partial obstruction"},
-          {"title": "Pancreatic carcinoma"},
-          {"title": "Gastrinoma"},
-          {"title": "Liver disease (hepatocellular failure, cholestasis)"},
-          {"title": "Endocrine disease (hypoadrenocorticism, hypothyroidism, hyperthyroidism)"},
-          {"title": "Renal disease (uremia, nephrotic syndrome)"},
-          {"title": "Chronic intussusception"},
-          {"title": "Small intestinal bacterial overgrowth"},
-          {"title": "Pythiosis"}
-        ]
-      },
-      {
-        "group" : "Large bowel diarrhea", "children": [
-          {"title": "Food intolerance or allergy"},
-          {"title": "Parasitism (whipworm, Giardia, Trichomonas, Heterobilharzia)"},
-          {"title": "Clostridial colitis"},
-          {"title": "Irritable bowel syndrome (fiber-responsive)"},
-          {"title": "Histoplasmosis"},
-          {"title": "Pythiosis"},
-          {"title": "Inflammatory bowel disease"},
-          {"title": "Neoplasia (lymphoma, adenocarcinoma)"},
-          {"title": "FeLV/FIV (infections secondary to these viruses)"}
-        ]
-      }
-    ],
-    "links" : [
-      { "title": "Клиничен преглед" , "link": "pdfs/@algorithms/clinichen-pregled-algoritym.pdf" },
-      { "title": "Алгоритъм куче НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_dog.pdf" },
-      { "title": "Алгоритъм котка НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_cat.pdf" },
-      { "title": "Алгоритъм миниВет" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea-minivet.pdf" },
-      { "title": "Хронична диария Котки" , "link": "pdfs/@algorithms/gastrointestinal/chronic-diarrhea-cats.pdf" }
-    ]
-  },
+
   {
     "symptom" : "Hematochezia -",
     "type"    :"gastrointestinal",
@@ -1059,7 +1106,7 @@
   {
     "symptom" : "Hematuria",
     "type"    :"urogenital",
-    "meaning" : "",
+    "meaning" : "blood in the urine, micro- and macrohematuria",
     "causes"  : [
       {
         "group": "Urinarytract origin", "children": [
@@ -1085,53 +1132,6 @@
           {"title": "Estrus"  },
           {"title": "Subinvolution of placental sites"  },
           {"title": "Inflammatory, neoplastic, and traumatic lesions of the genital tract"  }
-        ]
-      }
-    ]
-  },
-
-  {
-    "symptom" : "Dysuria",
-    "type"    :"urogenital",
-    "meaning" : "",
-    "causes"  : [
-      {
-        "group": "Inflammatory disease", "children": [
-          { "title" : "Urinary tract infection"              },
-          { "title" : "Feline idiopathic cystitis, urethritis (idiopathic feline lower urinary tract disease)"        },
-          { "title" : "Chemically induced inflammation (e.g., cyclophosphamide-induced cystitis)"            },
-
-          { "title" : "Polypoid cystitis"            },
-          { "title" : "Proliferative urethritis (granulomatous urethritis)"            }
-        ]
-      },
-      {
-        "group": "Urolithiasis", "children": [
-          {"title": "Cystic calculi"    },
-          {"title": "Urethral calculi"  }
-        ]
-      },
-      {
-        "group": "Neoplasia", "children": [
-          {"title": "Transitional cell carcinoma of bladder or urethra"    },
-          {"title": "Prostatic neoplasia"  },
-          {"title": "Vaginal neoplasia"    }
-        ]
-      },
-      {
-        "group": "Trauma", "children": [
-          {"title": "Bladder or urethral rupture"    },
-          {"title": "Urethral stricture (previous trauma or surgery)"  }
-        ]
-      },
-      {
-        "group": "Neurogenic disorder", "children": [
-          {"title": "Reflex dyssynergia"    }
-        ]
-      },
-      {
-        "group": "Other", "children": [
-          {"title": "Perineal hernia"    }
         ]
       }
     ]

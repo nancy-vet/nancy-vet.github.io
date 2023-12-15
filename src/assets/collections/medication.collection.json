@@ -6921,7 +6921,7 @@
     "type": "others",
     "title": "ВетАминекс за кучета и котки",
     "titleEn": "VetAminex",
-    "activeSubstance": "хидрокси-метилбутиратна киселина (HMB), Бета-глюкан",
+    "activeSubstance": "мултивитамини",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
@@ -6940,7 +6940,7 @@
         "applicationMethod": "q24h, PO или смесен с храната (ако КЧ < 5 кг - по 1 капс на 2 дни)"
       }
     },
-    "indications"       : ["мултивитамини", "подходяща за животни, хранени с домашно приготвена диета"],
+    "indications"       : ["подходяща за животни, хранени с домашно приготвена диета"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
