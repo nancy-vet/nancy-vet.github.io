@@ -82,11 +82,11 @@
   },
   {
     "title"     : "Demodex canis",
-    "frontImage": "assets/pdfs/@probes/ear/otodectes-1.jpg",
+    "frontImage": "assets/pdfs/@probes/ear/demodex-1.png",
     "gallery"   : [
-      "assets/pdfs/@probes/ear/otodectes-1.jpg",
-      "assets/pdfs/@probes/ear/otodectes-2.jpg",
-      "assets/pdfs/@probes/ear/otodectes-3.jpg"
+      "assets/pdfs/@probes/ear/demodex-1.png",
+      "assets/pdfs/@probes/ear/demodex-2.png",
+      "assets/pdfs/@probes/ear/demodex-3.png"
     ],
     "section"   : [
       {
