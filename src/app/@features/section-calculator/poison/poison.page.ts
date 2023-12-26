@@ -1,8 +1,6 @@
 import { Component, inject  } from '@angular/core';
-import { MenuController     } from '@ionic/angular';
-import { DataService        } from 'nv@services/data.service';
-import { DialogService } from 'nv@services/dialog.service';
-import { ResultModal } from './@modal/result-modal/result-modal.component';
+import { DialogService      } from 'nv@services/dialog.service';
+import { ResultModal        } from './@modal/result-modal/result-modal.component';
 
 @Component({
   selector    : 'page-calculator-poison',
@@ -11,8 +9,6 @@ import { ResultModal } from './@modal/result-modal/result-modal.component';
 })
 export class PoisonPage {
 
-  private ttt: MenuController       = inject(MenuController);
-  private dataService: DataService  = inject(DataService);
   private dialogService: DialogService  = inject(DialogService);
 
   public $componentState = {
@@ -27,19 +23,20 @@ export class PoisonPage {
     patientWeight : '',
     patientType   : 'dog',
 
-    volumeOption  : null,
-    bankOption    : null,
-
-
     c1: null,
-    c2: null,
-    v2: null
+    c2: 5,
+    v2: 100
   }
 
   public volumeOption = [
     { key: '5%'   , value: 5    },
     { key: '7%'   , value: 7    },
     { key: '30%'  , value: 30   },
+    { key: '20%'  , value: 20   },
+  ];
+
+  public volumeOption2 = [
+    { key: '5%'   , value: 5    },
     { key: '20%'  , value: 20   },
   ];
 
@@ -90,5 +87,19 @@ export class PoisonPage {
 
   public selectAnimalType($event: any) {
     this.$formProperty.patientType = ($event.detail.checked) ? 'cat' : 'dog';
+  }
+
+  /**
+   * @author Mihail Petrov
+   */
+  public clearAllValues() {
+
+    this.$formProperty = {
+      patientWeight : null,
+      patientType   : 'dog',
+      c1            : null,
+      c2            : 5,
+      v2            : 100
+    }
   }
 }

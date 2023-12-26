@@ -12,7 +12,7 @@
     </ion-title>
 
     <ion-buttons slot="end" style="margin-right: 10px;">
-      <ion-icon name="trash-outline"></ion-icon>
+      <ion-icon  (click)="clearAllValues()" name="trash-outline"></ion-icon>
     </ion-buttons>
 
   </ion-toolbar>
@@ -89,10 +89,23 @@
       </ion-col>
 
       <ion-col size="8" class="flex">
-        <dose-picker
-          [inputData]="volumeOption"
-          (onSelect)="onSelectVolumeOption($event)">
-        </dose-picker>
+
+        @if ($formProperty.patientType == 'dog') {
+          <dose-picker
+            [inputData]="volumeOption2"
+            (onSelect)="onSelectVolumeOption($event)">
+          </dose-picker>
+        }
+
+
+        @if ($formProperty.patientType == 'cat') {
+          <dose-picker
+            [inputData]="volumeOption"
+            (onSelect)="onSelectVolumeOption($event)">
+          </dose-picker>
+        }
+
+
       </ion-col>
     </ion-row>
 
