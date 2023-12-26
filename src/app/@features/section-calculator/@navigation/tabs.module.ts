@@ -29,7 +29,10 @@ const routes: Routes = [
       {
         path          : 'tab3',
         loadChildren  : () => import('../dose/dose.module').then(m => m.DosePageModule)
-
+      },
+      {
+        path          : 'tab4',
+        loadChildren  : () => import('../poison/poison.module').then(m => m.PoisonPageModule)
       },
       {
         path: '',

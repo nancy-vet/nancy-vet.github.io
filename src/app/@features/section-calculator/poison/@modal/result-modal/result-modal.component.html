@@ -1,0 +1,57 @@
+<nv-info-modal [inputTitle]="'Резултат'" class="ion-page">
+
+  <ion-grid>
+
+    <ion-row style="border-bottom: solid #dedede 1px; padding-bottom: 8px;">
+      <div style="font-size: 18px; font-weight: bold; text-transform: uppercase;">
+        <ion-icon name="flask-outline"></ion-icon>
+        Подготовка
+      </div>
+    </ion-row>
+
+    <ion-row class="mt8">
+      <ion-col>от банка</ion-col>
+      <ion-col>{{selectedObject.v2}} ml</ion-col>
+    </ion-row>
+
+    <ion-row class="mt8">
+      <ion-col>извадете</ion-col>
+      <ion-col>{{selectedObject.v1}} ml</ion-col>
+    </ion-row>
+
+    <ion-row class="mt8">
+      <ion-col><strong style="color: #ff0000;">след това</strong></ion-col>
+    </ion-row>
+
+    <ion-row class="mt8">
+      <ion-col>добавете</ion-col>
+      <ion-col>{{selectedObject.v1}} ml</ion-col>
+    </ion-row>
+
+    <ion-row class="mt8">
+      <ion-col>от р-р</ion-col>
+      <ion-col>{{selectedObject.c1}} %</ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+  <ion-grid class="mt32">
+    <ion-row style="border-bottom: solid #dedede 1px; padding-bottom: 8px;">
+      <div style="font-size: 18px; font-weight: bold; text-transform: uppercase;">
+        <ion-icon name="eyedrop-outline"></ion-icon>
+        Употреба
+      </div>
+    </ion-row>
+    <ion-row class="mt8">
+      <ion-col  size="4"><div style="margin-top: 2px;">Поставя се</div></ion-col>
+      <ion-col  size="8"><strong style="font-size: 20px;">{{$uiPropery.administrationValue}}</strong> ml</ion-col>
+
+    </ion-row>
+    <ion-row class="mt8">
+      <div style="background-color: #ffe6cc; padding: 5px;">
+        {{$uiPropery.description}}
+      </div>
+    </ion-row>
+  </ion-grid>
+
+</nv-info-modal>

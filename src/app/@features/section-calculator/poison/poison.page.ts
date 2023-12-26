@@ -1,0 +1,94 @@
+import { Component, inject  } from '@angular/core';
+import { MenuController     } from '@ionic/angular';
+import { DataService        } from 'nv@services/data.service';
+import { DialogService } from 'nv@services/dialog.service';
+import { ResultModal } from './@modal/result-modal/result-modal.component';
+
+@Component({
+  selector    : 'page-calculator-poison',
+  templateUrl : 'poison.page.html',
+  styleUrl    : 'poison.page.scss'
+})
+export class PoisonPage {
+
+  private ttt: MenuController       = inject(MenuController);
+  private dataService: DataService  = inject(DataService);
+  private dialogService: DialogService  = inject(DialogService);
+
+  public $componentState = {
+    isPatientCreated: false
+  };
+
+  public $uiProperty = {
+    title: 'Добави пациент'
+  }
+
+  public $formProperty: any = {
+    patientWeight : '',
+    patientType   : 'dog',
+
+    volumeOption  : null,
+    bankOption    : null,
+
+
+    c1: null,
+    c2: null,
+    v2: null
+  }
+
+  public volumeOption = [
+    { key: '5%'   , value: 5    },
+    { key: '7%'   , value: 7    },
+    { key: '30%'  , value: 30   },
+    { key: '20%'  , value: 20   },
+  ];
+
+  public bankOption = [
+    { key: '100'    , value: 100  },
+    { key: '250'    , value: 250 },
+    { key: '500'    , value: 500 },
+    { key: '1000'   , value: 1000 },
+  ];
+
+  public onSelectVolumeOption($value: any) {
+    this.$formProperty.c2 = $value;
+  }
+
+  public onSelectBankOption($value: any) {
+    this.$formProperty.v2 = $value;
+  }
+
+  /**
+   * @author Mihail Petrov
+   * @param $event
+   */
+  public processSelectPatientType($patientType: any): void {
+    this.$formProperty.patientType = $patientType;
+  }
+
+  /**
+   * @author Mihail Petrov
+   */
+  public processCalculation() {
+
+    this.dialogService.open(ResultModal, {
+      selectedObject: this.$formProperty
+    });
+  }
+
+  /**
+   * @author Mihail Petrov
+   * @returns
+   */
+  public isProcessable() {
+
+    return  this.$formProperty.c2 != null &&
+            this.$formProperty.c1 != null &&
+            this.$formProperty.v2 != null &&
+            this.$formProperty.patientWeight != null;
+  }
+
+  public selectAnimalType($event: any) {
+    this.$formProperty.patientType = ($event.detail.checked) ? 'cat' : 'dog';
+  }
+}
