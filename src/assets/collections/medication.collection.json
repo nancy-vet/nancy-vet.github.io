@@ -707,7 +707,7 @@
     "links": [
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/activated-charcoal.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["За абсорбент: 10 мл/кг 20%-ова каша (1 г активен въглен в 5 мл вода)", "За остро отравяне: 1-4 г/кг ПО в 50-200 мл вода. Заедно с активния въглен или до 30 мин след даването му да се даде осмотичен катартик (“osmotic cathartic”), напр. натриев сулфат или сорбитол."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -1022,9 +1022,9 @@
       { "title": "листовка", "link": "pdfs/@medication/respiratory/torphadine.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/acetylcysteine.pdf" }
     ],
-    "indications"       : ["За небулизатор: АЦЦ 400 мг (=2 сашета) + NaCl 90 ml р-р + Gentamycine 1 ml + Dexamethasone (4 мг/мл или 2 мг/мл?) 4 ml"],
+    "indications"       : ["антидот за отравяне с парацетамол: за КЧ и КТ: Първоначална доза – 140 мг/кг (разредена на 5% в декстроза или стерилна вода), последвана от 70 мг/кг ПО 4 пъти дневно (q6h) за 7 третирания.", "За небулизатор: АЦЦ 400 мг (=2 сашета) + NaCl 90 ml р-р + Gentamycine 1 ml + Dexamethasone (4 мг/мл или 2 мг/мл?) 4 ml"],
     "contraindications" : [],
-    "drugInteractions"  : [],
+    "drugInteractions"  : ["Трябва да има разлика от 2-3 часа между активния въглен и АЦЦ."],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -2423,7 +2423,7 @@
       { "title": "листовка", "link": "pdfs/@medication/nervous/ksilazin.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/xylazine.pdf" }
     ],
-    "indications"       : ["Препаратът действа седативно, аналгетично, анестетично и мускулно- релаксантно при говеда, коне, кучета и котки. При всички случаи на необходимост от аналгезия и релаксия – транспорт, хирургични намеси, тежки раждания, при манипулации на злонрави животни."],
+    "indications"       : ["еметик при КТ: 0,44 мг/кг ИМ", "Препаратът действа седативно, аналгетично, анестетично и мускулно- релаксантно при говеда, коне, кучета и котки. При всички случаи на необходимост от аналгезия и релаксия – транспорт, хирургични намеси, тежки раждания, при манипулации на злонрави животни."],
     "contraindications" : ["Да не се прилага при говеда в последния месец на бременността и при животни с хронични сърдечни или белодробни заболявания."],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -7044,17 +7044,17 @@
     "application": {
       "any": {
         "activeSubstanceDose": [
-          1
+          0.2
         ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "¼ от дозата ИВ, ¾ от дозата ПК, колкото е необходимо"
       }
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/others/atropin.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/atropine-sulfate.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["при отравяне с ФОС и карбамати"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -7484,7 +7484,7 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/others/flexadin.pdf" }
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/phytonadione.pdf" }
     ],
     "indications"       : ["Възрастни кучета: 1 таблетка дневно за 10 кг телесно тегло.", "Кученца: 1 таблетка дневно за 5 кг телесно тегло.", "Котки: 1 таблетка дневно.", "Допълваща храна за кучета и котки. Ежедневна добавка от K-витамин. За подпомагане  функцията на черния дроб и синтеза на протеини, важни за кръвосъсирването."],
     "contraindications" : [],
@@ -7509,6 +7509,10 @@
         "applicationMethod": "на ден за минимум 7 дни (при отравяне с кумарини)"
       }
     },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/plumbs-pdf/vitacen.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/phytonadione.pdf" }
+    ],
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
@@ -7869,6 +7873,87 @@
       { "title": "листовка", "link": "pdfs/@medication/others/flexadin.pdf" }
     ],
     "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Етанол",
+    "titleEn": "Ethanol",
+    "activeSubstance": "етанол",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "mg",
+        "applicationMethod": "IV"
+      }
+    },
+    "links": [
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ethanol.pdf" }
+    ],
+    "indications"       : ["за отравяне с етиленгликол виж 'Калкулатори -> Дози антидоти'"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Фомепизол",
+    "titleEn": "fomepizole",
+    "activeSubstance": "фомепизол",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "mg",
+        "applicationMethod": "IV"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/others/fomepizole.pdf" }
+    ],
+    "indications"       : ["за отравяне с етиленгликол виж 'Калкулатори -> Дози антидоти'",
+                            "КЧ: Първоначална доза - 20 мг/кг ИВ;",
+                            "12-ия час след първоначалната доза – 15 мг/кг ИВ;",
+                            "24-ия час след първоначалната доза – 15 мг/кг ИВ;",
+                            "36-ия час след първоначалната доза – 5 мг/кг ИВ;",
+                            "При необходимост да се даде още 5 мг/кг ИВ;",
+                            "КТ: Първоначална доза – 125 мг/кг бавно ИВ; На 12-ия, 24-ия и 36-ия час след първоначалната доза – 31,25 мг/кг ИВ"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Фомепизол",
+    "titleEn": "fomepizole",
+    "activeSubstance": "фомепизол",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "mg",
+        "applicationMethod": "IV"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/others/fomepizole.pdf" }
+    ],
+    "indications"       : ["за отравяне с етиленгликол виж 'Калкулатори -> Дози антидоти'"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
