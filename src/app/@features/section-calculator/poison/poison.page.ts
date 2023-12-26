@@ -30,9 +30,9 @@ export class PoisonPage {
 
   public volumeOption = [
     { key: '5%'   , value: 5    },
+    { key: '20%'  , value: 20   },
     { key: '7%'   , value: 7    },
     { key: '30%'  , value: 30   },
-    { key: '20%'  , value: 20   },
   ];
 
   public volumeOption2 = [
