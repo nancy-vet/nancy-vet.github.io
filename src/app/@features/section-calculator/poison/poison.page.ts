@@ -11,21 +11,13 @@ export class PoisonPage {
 
   private dialogService: DialogService  = inject(DialogService);
 
-  public $componentState = {
-    isPatientCreated: false
-  };
-
-  public $uiProperty = {
-    title: 'Добави пациент'
-  }
-
   public $formProperty: any = {
     patientWeight : '',
     patientType   : 'dog',
 
-    c1: null,
-    c2: 5,
-    v2: 100
+    c1            : null,
+    c2            : 5,
+    v2            : 100
   }
 
   public volumeOption = [
@@ -85,6 +77,10 @@ export class PoisonPage {
             this.$formProperty.patientWeight != null;
   }
 
+  /**
+   * @author Mihail Petrov
+   * @param $event
+   */
   public selectAnimalType($event: any) {
     this.$formProperty.patientType = ($event.detail.checked) ? 'cat' : 'dog';
   }

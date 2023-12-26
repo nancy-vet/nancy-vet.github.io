@@ -62,6 +62,15 @@ export class ResultModal implements OnInit {
         this.$uiPropery.description             = 'ИВ като болус, последвано от постоянна инфузия (CRI) от 0,42 мг/кг/ч ИВ за 48 часа.';
       }
     }
-
   }
+
+  /**
+   * @author Mihail Petrov
+   * @param $value
+   * @returns
+   */
+  public calculateMassValue($value: number): string {
+    return `${$value * parseFloat(this.selectedObject.patientWeight)}`;
+  }
+
 }
