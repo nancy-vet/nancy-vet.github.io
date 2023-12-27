@@ -1,7 +1,6 @@
 <nv-info-modal [inputTitle]="'Резултат'" class="ion-page">
 
   <ion-grid>
-
     <ion-row style="border-bottom: solid #dedede 1px; padding-bottom: 8px;">
       <div style="font-size: 18px; font-weight: bold; text-transform: uppercase;">
         🟥 Отравяне с етиленгликол
@@ -24,16 +23,18 @@
     </ion-row>
 
     <ion-row class="mt8">
-      <ion-col>извадете</ion-col>
+      <ion-col class="c-fail">извадете</ion-col>
       <ion-col>{{selectedObject.v1}} ml</ion-col>
     </ion-row>
 
     <ion-row class="mt8">
-      <ion-col><strong style="color: #ff0000;">след това</strong></ion-col>
+      <ion-col>
+        <strong>след това</strong>
+      </ion-col>
     </ion-row>
 
     <ion-row class="mt8">
-      <ion-col>добавете</ion-col>
+      <ion-col class="c-success">добавете</ion-col>
       <ion-col>{{selectedObject.v1}} ml</ion-col>
     </ion-row>
 
@@ -87,12 +88,21 @@
 
   </ion-grid>
 
-  <!-- Отравяне с Еметици -->
-  <ion-grid class="mt32">
-
+  <ion-grid>
     <ion-row style="border-bottom: solid #dedede 1px; padding-bottom: 8px;">
       <div style="font-size: 18px; font-weight: bold; text-transform: uppercase;">
-        🟪 Отравяне с Еметици
+        🟪 Промивка на стомаха
+      </div>
+    </ion-row>
+  </ion-grid>
+
+
+  <!-- Отравяне с Еметици -->
+  <ion-grid>
+
+    <ion-row style="border-bottom: solid #dedede 1px; padding-bottom: 8px;">
+      <div style="font-size: 15px; font-weight: bold">
+        Еметици
       </div>
     </ion-row>
 
@@ -132,8 +142,8 @@
   <ion-grid class="mt32">
 
     <ion-row style="border-bottom: solid #dedede 1px; padding-bottom: 8px;">
-      <div style="font-size: 18px; font-weight: bold; text-transform: uppercase;">
-        🟧 Промивка на стомаха
+      <div style="font-size: 15px; font-weight: bold">
+        Активен въглен
       </div>
     </ion-row>
 
