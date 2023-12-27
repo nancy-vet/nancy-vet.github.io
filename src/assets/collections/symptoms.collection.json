@@ -701,7 +701,8 @@
       }
     ],
     "links" : [
-      { "title": "алгоритъм - SAIM" , "link": "pdfs/@algorithms/gastrointestinal/abdominal-distention-algorithm-saim.png" }
+      { "title": "алгоритъм - SAIM" , "link": "pdfs/@algorithms/gastrointestinal/abdominal-distention-algorithm-saim.png" },
+      { "title": "алгоритъм - CSAD" , "link": "pdfs/@algorithms/gastrointestinal/abdominal-enlargement-CSAD.pdf" }
     ]
   },
   {
