@@ -123,14 +123,14 @@
     @if(selectedObject.patientType == 'dog') {
       <ion-row class="mt8">
         <ion-col>Апоморфин </ion-col>
-        <ion-col> {{calculateMassValue(0.05)}} мг. - {{calculateMassValue(0.1)}} ПК </ion-col>
+        <ion-col> {{calculateMassValue(0.05)}} мг - {{calculateMassValue(0.1)}} ПК </ion-col>
       </ion-row>
     }
 
     @if(selectedObject.patientType == 'cat') {
       <ion-row class="mt8">
         <ion-col>Ксилазин </ion-col>
-        <ion-col> {{calculateMassValue(0.44)}} мг. ИМ </ion-col>
+        <ion-col> {{calculateMassValue(0.44)}} мг ИМ </ion-col>
       </ion-row>
     }
 
@@ -149,12 +149,12 @@
 
     <ion-row class="mt8">
       <ion-col>За абсорбент</ion-col>
-      <ion-col> {{calculateMassValue(1)}} ml - {{calculateMassValue(5)}} ml.</ion-col>
+      <ion-col> {{calculateMassValue(1)}} ml 20%-ова каша (1 г активен въглен в 5 мл вода)</ion-col>
     </ion-row>
 
     <ion-row class="mt8">
       <ion-col>За остро отравяне </ion-col>
-      <ion-col> {{calculateMassValue(1)}} гр. - {{calculateMassValue(4)}} гр. в 50 - 200 мл. вода </ion-col>
+      <ion-col> {{calculateMassValue(1)}} гр - {{calculateMassValue(4)}} гр в 50 - 200 мл вода </ion-col>
     </ion-row>
 
     <ion-row class="mt8">
