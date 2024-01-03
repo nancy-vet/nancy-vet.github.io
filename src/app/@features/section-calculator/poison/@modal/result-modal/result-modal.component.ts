@@ -70,7 +70,7 @@ export class ResultModal implements OnInit {
    * @returns
    */
   public calculateMassValue($value: number): string {
-    return `${$value * parseFloat(this.selectedObject.patientWeight)}`;
+    return `${Math.round((100*($value * parseFloat(this.selectedObject.patientWeight)))/100)}`;
   }
 
 }
