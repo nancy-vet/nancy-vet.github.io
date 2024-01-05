@@ -100,7 +100,7 @@
   },
 
   {
-    "title"     : "Cheyletiella",
+    "title"     : "Хейлетиелоза",
     "frontImage": "/assets/pdfs/@probes/trichogram/cheyletiella-1-nt.jpg",
     "gallery"   : [
       "/assets/pdfs/@probes/trichogram/cheyletiella-1-nt.jpg",
@@ -140,7 +140,7 @@
 
 
   {
-    "title"     : "Demodex",
+    "title"     : "Демодекоза",
     "frontImage": "/assets/pdfs/@probes/trichogram/demodex-1.png",
     "gallery"   : [
       "/assets/pdfs/@probes/trichogram/demodex-1.png",
@@ -171,6 +171,44 @@
         "sectionTitle": "Диагностика",
         "content"     : [
           "Трихограма и дълбоко остъргване на кожата със скалпел."
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Тромбикулоза",
+    "frontImage": "/assets/pdfs/@probes/trichogram/trombicula-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/trombicula-1.png",
+      "/assets/pdfs/@probes/trichogram/trombicula-2.png",
+      "/assets/pdfs/@probes/trichogram/trombicula-3.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          ""
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          ""
         ]
       },
       {
@@ -231,7 +269,6 @@
       "/assets/pdfs/@probes/trichogram/lice-2.png",
       "/assets/pdfs/@probes/trichogram/lice-3.png",
       "/assets/pdfs/@probes/trichogram/lice-4.png",
-      "/assets/pdfs/@probes/trichogram/lice-5.png",
       "/assets/pdfs/@probes/trichogram/polyplax-and-myocoptes-musculinus.jpg"
     ],
     "section"   : [
