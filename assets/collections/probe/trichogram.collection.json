@@ -1,10 +1,111 @@
 [
   {
-    "title"     : "Anagen phase hair",
+    "title"     : "Анаген фаза",
     "frontImage": "/assets/pdfs/@probes/trichogram/anagen-1.png",
     "gallery"   : [
       "/assets/pdfs/@probes/trichogram/anagen-1.png",
-      "/assets/pdfs/@probes/trichogram/anagen-2.png"
+      "/assets/pdfs/@probes/trichogram/anagen-2.png",
+      "/assets/pdfs/@probes/trichogram/anagen-3.png",
+      "/assets/pdfs/@probes/trichogram/anagen-catagen-telogen.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Фази на растеж:",
+        "content"     : [
+          "Анаген, фаза на растеж – клетките се делят с бърза скорост.",
+          "Катаген, фаза на регресия – клетките спират да се делят, започва миграция на косъма към повърхността на кожата.",
+          "Телоген, фаза на почивка – косъма остава във фоликула за 2-3 месеца и бива избутан, когато започне да расте нов косъм."
+        ]
+      },
+      {
+        "sectionTitle": "Как да ги различаваме",
+        "content"     : [
+          "Косми в анаген – пигментирани, със заоблен край.",
+          "Косми в катаген – обикновено непигментирани, със заострен край."
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Катаген фаза",
+    "frontImage": "/assets/pdfs/@probes/trichogram/catagen-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/catagen-1.png",
+      "/assets/pdfs/@probes/trichogram/anagen-2.png",
+      "/assets/pdfs/@probes/trichogram/anagen-3.png",
+      "/assets/pdfs/@probes/trichogram/anagen-catagen-telogen.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Фази на растеж:",
+        "content"     : [
+          "Анаген, фаза на растеж – клетките се делят с бърза скорост.",
+          "Катаген, фаза на регресия – клетките спират да се делят, започва миграция на косъма към повърхността на кожата.",
+          "Телоген, фаза на почивка – косъма остава във фоликула за 2-3 месеца и бива избутан, когато започне да расте нов косъм."
+        ]
+      },
+      {
+        "sectionTitle": "Как да ги различаваме",
+        "content"     : [
+          "Косми в анаген – пигментирани, със заоблен край.",
+          "Косми в катаген – обикновено непигментирани, със заострен край."
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Увреждания на косъма",
+    "frontImage": "/assets/pdfs/@probes/trichogram/hair-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/hair-1.png",
+      "/assets/pdfs/@probes/trichogram/hair-2.png",
+      "/assets/pdfs/@probes/trichogram/hair-3.png",
+      "/assets/pdfs/@probes/trichogram/hair-4.png",
+      "/assets/pdfs/@probes/trichogram/hair-5.png",
+      "/assets/pdfs/@probes/trichogram/hair-6.png",
+      "/assets/pdfs/@probes/trichogram/hair-7.png",
+      "/assets/pdfs/@probes/trichogram/hair-8.png",
+      "/assets/pdfs/@probes/trichogram/hair-9.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Струпване на меланин",
+    "frontImage": "/assets/pdfs/@probes/trichogram/melanin-clumping-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/melanin-clumping-1.png",
+      "/assets/pdfs/@probes/trichogram/melanin-clumping-2.png",
+      "/assets/pdfs/@probes/trichogram/melanin-clumping-3.png",
+      "/assets/pdfs/@probes/trichogram/melanin-clumping-4.png",
+      "/assets/pdfs/@probes/trichogram/melanin-clumping-5.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Заболявания",
+        "content"     : [
+          "Color dilution alopecia"
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Cheyletiella",
+    "frontImage": "/assets/pdfs/@probes/trichogram/cheyletiella-1-nt.jpg",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/cheyletiella-1-nt.jpg",
+      "/assets/pdfs/@probes/trichogram/cheyletiella-2.png",
+      "/assets/pdfs/@probes/trichogram/cheyletiella-3.png"
     ],
     "section"   : [
       {
@@ -24,6 +125,90 @@
         "sectionTitle": "Диагностика",
         "content"     : [
           ""
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Demodex",
+    "frontImage": "/assets/pdfs/@probes/trichogram/demodex-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/demodex-1.png",
+      "/assets/pdfs/@probes/trichogram/demodex-2.png",
+      "/assets/pdfs/@probes/trichogram/demodex-3.png",
+      "/assets/pdfs/@probes/trichogram/demodex-4.png",
+      "/assets/pdfs/@probes/trichogram/demodex-5.png",
+      "/assets/pdfs/@probes/trichogram/demodex-6.png",
+      "/assets/pdfs/@probes/trichogram/demodex-7.png",
+      "/assets/pdfs/@probes/trichogram/demodex-8.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          ""
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          "Трихограма и дълбоко остъргване на кожата със скалпел."
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Dermatophytosis",
+    "frontImage": "/assets/pdfs/@probes/trichogram/dermatophytosis-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-1.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-2.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-3.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-4.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-5.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-6.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-7.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          ""
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          "Трихограма и дълбоко остъргване на кожата със скалпел."
         ]
       },
       {
