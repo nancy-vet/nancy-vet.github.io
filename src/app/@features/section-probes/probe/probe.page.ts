@@ -32,7 +32,7 @@ export class ProbePage implements OnInit {
 
     (await this.dialogService.open(DetailModal, {
       selectedObject: element
-    }));
+    }))
   }
 
   /**
