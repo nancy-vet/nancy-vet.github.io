@@ -105,7 +105,9 @@
     "gallery"   : [
       "/assets/pdfs/@probes/trichogram/cheyletiella-1-nt.jpg",
       "/assets/pdfs/@probes/trichogram/cheyletiella-2.png",
-      "/assets/pdfs/@probes/trichogram/cheyletiella-3.png"
+      "/assets/pdfs/@probes/trichogram/cheyletiella-3.png",
+      "/assets/pdfs/@probes/trichogram/cheyletiella-4.png",
+      "/assets/pdfs/@probes/trichogram/cheyletiella-5.png"
     ],
     "section"   : [
       {
@@ -148,7 +150,8 @@
       "/assets/pdfs/@probes/trichogram/demodex-5.png",
       "/assets/pdfs/@probes/trichogram/demodex-6.png",
       "/assets/pdfs/@probes/trichogram/demodex-7.png",
-      "/assets/pdfs/@probes/trichogram/demodex-8.png"
+      "/assets/pdfs/@probes/trichogram/demodex-8.png",
+      "/assets/pdfs/@probes/trichogram/demodex-9.png"
     ],
     "section"   : [
       {
@@ -180,7 +183,7 @@
   },
 
   {
-    "title"     : "Dermatophytosis",
+    "title"     : "Дерматофитоза",
     "frontImage": "/assets/pdfs/@probes/trichogram/dermatophytosis-1.png",
     "gallery"   : [
       "/assets/pdfs/@probes/trichogram/dermatophytosis-1.png",
@@ -209,6 +212,95 @@
         "sectionTitle": "Диагностика",
         "content"     : [
           "Трихограма и дълбоко остъргване на кожата със скалпел."
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Въшки, смучещи",
+    "frontImage": "/assets/pdfs/@probes/trichogram/lice-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/lice-1.png",
+      "/assets/pdfs/@probes/trichogram/lice-2.png",
+      "/assets/pdfs/@probes/trichogram/lice-3.png",
+      "/assets/pdfs/@probes/trichogram/lice-4.png",
+      "/assets/pdfs/@probes/trichogram/lice-5.png",
+      "/assets/pdfs/@probes/trichogram/polyplax-and-myocoptes-musculinus.jpg"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          "Polyplax spp.",
+          "Haematopinus spp.",
+          "Linognathus spp.",
+          "Solenoptes spp.",
+          "Phthirus spp.",
+          "Pediculus spp."
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Въшки, хапещи",
+    "frontImage": "/assets/pdfs/@probes/trichogram/mallophagan-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/mallophagan-1.png",
+      "/assets/pdfs/@probes/trichogram/mallophagan-2.png",
+      "/assets/pdfs/@probes/trichogram/mallophagan-3.png",
+      "/assets/pdfs/@probes/trichogram/mallophagan-4.png",
+      "/assets/pdfs/@probes/trichogram/mallophagan-5.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          "Polyplax spp.",
+          "Haematopinus spp.",
+          "Linognathus spp.",
+          "Solenoptes spp.",
+          "Phthirus spp.",
+          "Pediculus spp."
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          ""
         ]
       },
       {
