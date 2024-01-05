@@ -1,11 +1,56 @@
 [
+
   {
-    "title"     : "Sarcoptes scabiei",
+    "title"     : "Дерматофитоза",
+    "frontImage": "/assets/pdfs/@probes/trichogram/dermatophytosis-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-1.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-2.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-3.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-4.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-5.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-6.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-7.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          ""
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          "Трихограма и дълбоко остъргване на кожата със скалпел."
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Саркоптоза",
     "frontImage": "/assets/pdfs/@probes/skin/sarcoptes-1.png",
     "gallery"   : [
       "/assets/pdfs/@probes/skin/sarcoptes-1.png",
       "/assets/pdfs/@probes/skin/sarcoptes-2.png",
-      "/assets/pdfs/@probes/skin/sarcoptes-3.png"
+      "/assets/pdfs/@probes/skin/sarcoptes-3.png",
+      "/assets/pdfs/@probes/skin/sarcoptes-4.png"
     ],
     "section"   : [
       {
@@ -32,14 +77,14 @@
           "Локалната форма засяга ръбовете на ушите, муцуната, лицето, гърдите, корема, лактите и краката.",
           "Кожата се удебелява, набръчква и напуква",
           "Саркоптидните кърлежи се хранят с клетки и тъканни течности, а не с кръв. Оказват Травматично действие",
-          "\\- Разрушават кожата при прокопаването на тунелите.",
-          "\\- причиняват силен сърбеж.",
-          "\\- Възпаление на кожата",
-          "\\- Образуват се везикули и пустули, след спукването на които се образуват крусти.",
-          "\\- алопеция",
-          "\\- удебеляване на кожата = hyperkeratosis",
-          "\\- резорбция на токсични продукти – обща интоксикация на организма",
-          "\\- алергични реакции"
+          "- Разрушават кожата при прокопаването на тунелите.",
+          "- причиняват силен сърбеж.",
+          "- Възпаление на кожата",
+          "- Образуват се везикули и пустули, след спукването на които се образуват крусти.",
+          "- алопеция",
+          "- удебеляване на кожата = hyperkeratosis",
+          "- резорбция на токсични продукти – обща интоксикация на организма",
+          "- алергични реакции"
         ]
       },
       {
@@ -47,10 +92,10 @@
         "content"     : [
           "ушно-крачен рефлекс при кучета – третиране при положителен резултат",
           "Паразитологично изследване – получаване на материал, чрез дълбоко остъргване на границата между здрава и изменена тъкан и обработка с:",
-          "\\- млечна киселина",
-          "\\- глицерин и вода по равни части",
-          "\\- 10% КОН или NaOH",
-          "!!! при проява на някои признаци, но отсъствие на сърбеж, саркоптидната краста следва да бъде изключена!!!"
+          "- млечна киселина",
+          "- глицерин и вода по равни части",
+          "- 10% КОН или NaOH",
+          "При поява на някои признаци, но отсъствие на сърбеж, саркоптидната краста следва да бъде изключена!!!"
         ]
       },
       {
@@ -61,5 +106,170 @@
         ]
       }
     ]
+  },
+
+
+
+
+
+  {
+    "title"     : "Нотоедроза",
+    "frontImage": "/assets/pdfs/@probes/skin/notoedres-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/skin/notoedres-1.png",
+      "/assets/pdfs/@probes/skin/notoedres-2.png",
+      "/assets/pdfs/@probes/skin/notoedres-3.png",
+      "/assets/pdfs/@probes/skin/notoedres-4.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          ""
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Демодекоза",
+    "frontImage": "/assets/pdfs/@probes/trichogram/demodex-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/demodex-1.png",
+      "/assets/pdfs/@probes/trichogram/demodex-2.png",
+      "/assets/pdfs/@probes/trichogram/demodex-3.png",
+      "/assets/pdfs/@probes/trichogram/demodex-4.png",
+      "/assets/pdfs/@probes/trichogram/demodex-5.png",
+      "/assets/pdfs/@probes/trichogram/demodex-6.png",
+      "/assets/pdfs/@probes/trichogram/demodex-7.png",
+      "/assets/pdfs/@probes/trichogram/demodex-8.png",
+      "/assets/pdfs/@probes/trichogram/demodex-9.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          ""
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          "Трихограма и дълбоко остъргване на кожата със скалпел."
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Хейлетиелоза",
+    "frontImage": "/assets/pdfs/@probes/trichogram/cheyletiella-1-nt.jpg",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/cheyletiella-1-nt.jpg",
+      "/assets/pdfs/@probes/trichogram/cheyletiella-2.png",
+      "/assets/pdfs/@probes/trichogram/cheyletiella-3.png",
+      "/assets/pdfs/@probes/trichogram/cheyletiella-4.png",
+      "/assets/pdfs/@probes/trichogram/cheyletiella-5.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          ""
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Тромбикулоза",
+    "frontImage": "/assets/pdfs/@probes/trichogram/trombicula-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/trombicula-1.png",
+      "/assets/pdfs/@probes/trichogram/trombicula-2.png",
+      "/assets/pdfs/@probes/trichogram/trombicula-3.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          ""
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
   }
+
+
 ]
