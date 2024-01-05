@@ -1,0 +1,37 @@
+[
+  {
+    "title"     : "Anagen phase hair",
+    "frontImage": "/assets/pdfs/@probes/trichogram/anagen-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/trichogram/anagen-1.png",
+      "/assets/pdfs/@probes/trichogram/anagen-2.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          ""
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  }
+]

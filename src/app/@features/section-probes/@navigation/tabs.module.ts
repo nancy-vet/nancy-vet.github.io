@@ -33,6 +33,10 @@ const routes: Routes = [
         loadChildren  : () => import('../probe/probe.module').then(m => m.FeatureModule)
       },
       {
+        path          : 'tab4',
+        loadChildren  : () => import('../probe/probe.module').then(m => m.FeatureModule)
+      },
+      {
         path          : '',
         redirectTo    : 'tab1',
         pathMatch     : 'full'

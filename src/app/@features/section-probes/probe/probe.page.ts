@@ -45,6 +45,7 @@ export class ProbePage implements OnInit {
     if(pathId == 'tab1') return 'copro';
     if(pathId == 'tab2') return 'ear';
     if(pathId == 'tab3') return 'skin';
+    if(pathId == 'tab4') return 'trichogram';
     return '';
   }
 }
