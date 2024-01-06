@@ -113,26 +113,35 @@
       {
         "sectionTitle": "Етиология и епидемиология",
         "content"     : [
-          ""
+          "Причинител: Cheyletiella spp., микроскопични кърлежи",
+          "нар. се „пълзящ пърхот“",
+          "не проявяват строга гостоприемникова специфичност, могат да инвазират и човека",
+          "най-често се заразяват млади ЖВ, взети наскоро от развъдници"
         ]
       },
 
       {
         "sectionTitle": "Клинични признаци",
         "content"     : [
-          ""
+          "сърбеж",
+          "люспи по кожата",
+          "движещи се кожни люспи (пълзящ пърхот)",
+          "може да е асимптоматично"
         ]
       },
       {
         "sectionTitle": "Диагностика",
         "content"     : [
-          ""
+          "Трихограма",
+          "Остъргване на кожата",
+          "Проба с тиксо"
         ]
       },
       {
         "sectionTitle": "Лечение",
         "content"     : [
-          ""
+          "Неостомозан ампула - пръска се по гърба и по тила на 5 дена, разрежда се 1 мл в 400 мл вода.",
+          "Ектолуцил - от него е възможно да се получи алергична реакция."
         ]
       }
     ]
@@ -151,32 +160,48 @@
       "/assets/pdfs/@probes/trichogram/demodex-6.png",
       "/assets/pdfs/@probes/trichogram/demodex-7.png",
       "/assets/pdfs/@probes/trichogram/demodex-8.png",
-      "/assets/pdfs/@probes/trichogram/demodex-9.png"
+      "/assets/pdfs/@probes/trichogram/demodex-9.png",
+      "/assets/pdfs/@probes/trichogram/demodex-10.png",
+      "/assets/pdfs/@probes/trichogram/demodex-11.png",
+      "/assets/pdfs/@probes/trichogram/demodex-12.png",
+      "/assets/pdfs/@probes/trichogram/demodex-13.png"
     ],
     "section"   : [
       {
         "sectionTitle": "Етиология и епидемиология",
         "content"     : [
-          ""
+          "Причинител: Demodex canis, D. injai, D. cornei, D. cati, D. gotoi",
+          "- част от нормалната фауна на кожата, обикновено в малки количества;",
+          "- живее в космените фоликули и мастните жлези на кожата;",
+          "- предава се от майка на новородено през първите 2-3 дни от кърменето;",
+          "- демодекоза се развива при прекалено количество демодекси или при имуносупресия."
         ]
       },
 
       {
         "sectionTitle": "Клинични признаци",
         "content"     : [
-          ""
+          "бива локализирана и генерализирана;",
+          "еритема;",
+          "алопеция;",
+          "люспене на кожата."
         ]
       },
       {
         "sectionTitle": "Диагностика",
         "content"     : [
-          "Трихограма и дълбоко остъргване на кожата със скалпел."
+          "Трихограма заедно с дълбоко остъргване на кожата със скалпел."
         ]
       },
       {
         "sectionTitle": "Лечение",
         "content"     : [
-          ""
+          "Симпарика (сароланер)",
+          "Бравекто (флураланер)",
+          "Адвокейт (моксидектин)",
+          "Моксиклиър (моксидектин)",
+          "НексГард Спектра",
+          "Неостомозан"
         ]
       }
     ]
@@ -189,20 +214,27 @@
     "gallery"   : [
       "/assets/pdfs/@probes/trichogram/trombicula-1.png",
       "/assets/pdfs/@probes/trichogram/trombicula-2.png",
-      "/assets/pdfs/@probes/trichogram/trombicula-3.png"
+      "/assets/pdfs/@probes/trichogram/trombicula-3.png",
+      "/assets/pdfs/@probes/trichogram/trombicula-4.png",
+      "/assets/pdfs/@probes/trichogram/trombicula-5.png",
+      "/assets/pdfs/@probes/trichogram/trombicula-6.png"
     ],
     "section"   : [
       {
         "sectionTitle": "Етиология и епидемиология",
         "content"     : [
-          ""
+          "само техните шестоноги ларви са паразити",
+          "осмоногите нимфи и възрастните паразити живеят в околната среда и не са паразити",
+          "ларвите секретират слюнчени протеолитични ензими, които смилат тъканите на гостоприемника.",
+          "В същото време кожата се втвърдява.",
+          "ларвите паразитират за 3-4 дни, след което напускат гостоприемника"
         ]
       },
 
       {
         "sectionTitle": "Клинични признаци",
         "content"     : [
-          ""
+          "оранжеви гнезда, прикрепени към космите"
         ]
       },
       {
@@ -214,7 +246,7 @@
       {
         "sectionTitle": "Лечение",
         "content"     : [
-          ""
+          "Ектолуцил - външно, локално, чрез напръскване. Напръскват се заболелите участъци от разстояние 10-15 cm един път дневно в продължение на 2–3 дни. След 15 дни процедурата се повтаря."
         ]
       }
     ]
@@ -230,32 +262,57 @@
       "/assets/pdfs/@probes/trichogram/dermatophytosis-4.png",
       "/assets/pdfs/@probes/trichogram/dermatophytosis-5.png",
       "/assets/pdfs/@probes/trichogram/dermatophytosis-6.png",
-      "/assets/pdfs/@probes/trichogram/dermatophytosis-7.png"
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-7.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-8.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-9.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-10.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-11.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-12.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-13.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-14-nt.png",
+      "/assets/pdfs/@probes/trichogram/dermatophytosis-15.png"
     ],
     "section"   : [
       {
         "sectionTitle": "Етиология и епидемиология",
         "content"     : [
-          ""
+          "Причинители: Microsporum canis, Trichophyton mentagrophytes, Microsporum gypseum.",
+          "Дерматофитите растат в кератинизиралия слой на космите, ноктите и кожата;",
+          "те не могат да оживеят върху живи тъкани или при тежко възпаление;",
+          "инкубационен период: 1-4 седмици;",
+          "кортикостероидите потискат възпалението и удължават инфекцията;",
+          "Зооноза"
         ]
       },
 
       {
         "sectionTitle": "Клинични признаци",
         "content"     : [
-          ""
+          "алопеция с цилиндрична форма",
+          "люспене на кожата (невинаги)",
+          "еритема (невинаги)",
+          "сърбеж (невинаги)",
+          "Възможно е да се появят: паронихия, грануломи, кериони."
         ]
       },
       {
         "sectionTitle": "Диагностика",
         "content"     : [
-          "Трихограма и дълбоко остъргване на кожата със скалпел."
+          "Трихограма и дълбоко остъргване на кожата със скалпел.",
+          "Лампа на Ууд - фалшиво положителния резултат е често срещан (някои лекарства, кератинът и себумът може да дадат фалшиво-позитивен резултат). Лампата трябва да се затопли за минимум 5 мин., след което да свети върху поразената тъкан около 5 мин. Истински положителния резултат вследствие на M. canis е когато има флуоресценция на космите."
         ]
       },
       {
         "sectionTitle": "Лечение",
         "content"     : [
-          ""
+          "Кетоконазол",
+          "Итраконазол",
+          "Гризеофулвин",
+          "Тербинафин",
+          "Клотримазол - не е много ефективен за котки",
+          "Енилконазол",
+          "Миконазол",
+          "Флуконазол"
         ]
       }
     ]
@@ -269,6 +326,7 @@
       "/assets/pdfs/@probes/trichogram/lice-2.png",
       "/assets/pdfs/@probes/trichogram/lice-3.png",
       "/assets/pdfs/@probes/trichogram/lice-4.png",
+      "/assets/pdfs/@probes/trichogram/lice-5.png",
       "/assets/pdfs/@probes/trichogram/polyplax-and-myocoptes-musculinus.jpg"
     ],
     "section"   : [
@@ -313,7 +371,8 @@
       "/assets/pdfs/@probes/trichogram/mallophagan-2.png",
       "/assets/pdfs/@probes/trichogram/mallophagan-3.png",
       "/assets/pdfs/@probes/trichogram/mallophagan-4.png",
-      "/assets/pdfs/@probes/trichogram/mallophagan-5.png"
+      "/assets/pdfs/@probes/trichogram/mallophagan-5.png",
+      "/assets/pdfs/@probes/trichogram/mallophagan-6.png"
     ],
     "section"   : [
       {
@@ -324,7 +383,8 @@
           "Linognathus spp.",
           "Solenoptes spp.",
           "Phthirus spp.",
-          "Pediculus spp."
+          "Pediculus spp.",
+          "Главата е по-широка от първи гръден сегмент."
         ]
       },
 
