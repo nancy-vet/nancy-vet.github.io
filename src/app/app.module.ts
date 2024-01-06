@@ -39,6 +39,10 @@ const routes: Routes = [
   {
     path          : AppNavigationRouteEnum.VACINATION,
     loadChildren  : () => import('./@features/section-vaccination/@navigation/tabs.module').then(m => m.TabsPageModule)
+  },
+  {
+    path          : AppNavigationRouteEnum.TRIVIA,
+    loadChildren  : () => import('./@features/section-trivia/@navigation/tabs.module').then(m => m.TabsPageModule)
   }
 ];
 
