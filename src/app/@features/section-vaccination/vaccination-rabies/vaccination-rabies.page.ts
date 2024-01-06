@@ -9,6 +9,7 @@ export class VaccinationRabiesPage implements OnInit {
 
   public currentDate: any;
   public validationDate: any;
+  public travellingDate: any;
 
   public ngOnInit(): void {
 
@@ -20,5 +21,12 @@ export class VaccinationRabiesPage implements OnInit {
     validationDateObj.setDate(date.getDate() + 21);
 
     this.validationDate = validationDateObj.toLocaleDateString('bg-BG');
+
+
+
+    const travellingDateObj = new Date(date);
+    travellingDateObj.setDate(date.getDate() - 21);
+
+    this.travellingDate = travellingDateObj.toLocaleDateString('bg-BG');
   }
 }
