@@ -4,13 +4,13 @@
 
   {
     "title"     : "Malassezia spp.",
-    "frontImage": "assets/pdfs/@probes/ear/malassezia-1.png",
+    "frontImage": "assets/pdfs/@probes/skin/malassezia-1.png",
     "gallery"   : [
-      "assets/pdfs/@probes/ear/malassezia-1.png",
-      "assets/pdfs/@probes/ear/malassezia-2.png",
-      "assets/pdfs/@probes/ear/malassezia-3.png",
-      "assets/pdfs/@probes/ear/malassezia-4.png",
-      "assets/pdfs/@probes/ear/malassezia-5.png"
+      "assets/pdfs/@probes/skin/malassezia-1.png",
+      "assets/pdfs/@probes/skin/malassezia-2.png",
+      "assets/pdfs/@probes/skin/malassezia-3.png",
+      "assets/pdfs/@probes/skin/malassezia-4.png",
+      "assets/pdfs/@probes/skin/malassezia-5.png"
     ],
     "section"   : [
       {
