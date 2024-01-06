@@ -10,6 +10,9 @@ import { PrimaryMenu            } from 'nv@features/@menu/primary-menu/primary-m
 
 @Component({
   selector    : 'app-tabs',
+  styles: `ion-tab-bar {
+    overflow: scroll;
+  }`,
   templateUrl : 'tabs.page.html'
 })
 export class TabsPage { }
