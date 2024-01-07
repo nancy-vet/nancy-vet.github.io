@@ -1,6 +1,7 @@
 import { Component, OnInit, inject  } from '@angular/core';
 // import { DialogService } from 'nv@services/dialog.service';
 import { ProbeService } from 'nv@services/probe.service';
+import { TriviaService } from 'nv@services/trivia.service';
 
 @Component({
   selector    : 'page-trivia',
@@ -9,7 +10,7 @@ import { ProbeService } from 'nv@services/probe.service';
 })
 export class MainPage implements OnInit {
 
-  private $probeService: ProbeService   = inject(ProbeService);
+  private $dataService: TriviaService   = inject(TriviaService);
   // private dialogService: DialogService  = inject(DialogService);
 
   public $data: any;
@@ -18,33 +19,9 @@ export class MainPage implements OnInit {
 
     const pathCollection = window.location.pathname.split('/');
     const serviceId      = pathCollection[pathCollection.length - 1];
-    const service        = this.getServiceBasedOnPath(serviceId);
+    console.log(serviceId);
+    this.$data           = this.$dataService.get(serviceId);
 
-    this.$data = this.$probeService.get(service);
-  }
-
-  /**
-   * @author Mihail Petrov
-   * @param element
-   */
-  // public async onSelectCard(element: any) {
-
-  //   (await this.dialogService.open(DetailModal, {
-  //     selectedObject: element
-  //   }))
-  // }
-
-  /**
-   * @author Mihail Petrov
-   * @param pathId
-   * @returns
-   */
-  private getServiceBasedOnPath(pathId: string): string {
-
-    if(pathId == 'tab1') return 'copro';
-    if(pathId == 'tab2') return 'ear';
-    if(pathId == 'tab3') return 'skin';
-    if(pathId == 'tab4') return 'trichogram';
-    return '';
+    console.log(this.$data);
   }
 }

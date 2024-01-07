@@ -1,4 +1,4 @@
-import { Component, Input } from "@angular/core";
+import { Component, Input, OnInit } from "@angular/core";
 import { SectionContentModel } from "nv@models/test-info.model";
 
 @Component({
@@ -12,8 +12,12 @@ export class NvSectionContentView {
   @Input({required: true})
   public inputSectionContent: SectionContentModel[] = [];
 
+  /**
+   * @author Mihail Petrov
+   * @param data
+   * @returns
+   */
   public getDataExperimentalForRemoval(data: string) {
     return data.slice(1, data.length);
   }
-
 }

@@ -1,5 +1,6 @@
 export type SectionContentModel = {
-  title   : string,
+  title?   : string,
+  sectionTitle?: string,
   content : string[]
 }
 

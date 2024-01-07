@@ -15,6 +15,7 @@ import { NvInfoModal              } from 'nv@components/@layouts/nv-info-modal/n
 import { SplitPipe                } from 'nv@pipes/split.pipe';
 import { NvLinkButtonComponent    } from 'nv@components/@forms/nv-link-button/nv-link-button.component';
 import { MainPage                 } from './main.page';
+import { NvSectionContentView     } from 'nv@components/@layouts/nv-section-content-view/nv-section-content-view.component';
 
 const routes: Routes = [{
     path      : '',
@@ -42,7 +43,8 @@ const routes: Routes = [{
       NvSearchToolbarComponent      ,
       CategoryPickerComponent       ,
       NvInfoModal                   ,
-      NvLinkButtonComponent
+      NvLinkButtonComponent         ,
+      NvSectionContentView
     ]
 })
 export class FeatureModule {}
