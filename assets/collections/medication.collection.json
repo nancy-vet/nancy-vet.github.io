@@ -7178,17 +7178,17 @@
     "application": {
       "dog": {
         "activeSubstanceDose": [
-          1
+          5
         ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": ""
+        "activeSubstanceDoseDecorator": "μg_kg",
+        "applicationMethod": "SC q24h"
       }
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/antiparasitic/zarzio.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/filgrastim.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["цитокин, който в костния мозък стимулира пролиферацията, дирефенциацията и активацията на прогениторни клетки на неутрофилите.", "при неутропения"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -7211,7 +7211,7 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antiparasitic/levkeran.pdf" }
+      { "title": "листовка", "link": "pdfs/@medication/others/levkeran.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -7259,20 +7259,33 @@
     "title": "Витамин Ц Софарма 100 мг/мл",
     "titleEn": "Vitamin C Sopharma",
     "activeSubstance": "витамин Ц",
-    "drugConcentration": 1000,
+    "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
     "application": {
       "dog": {
         "activeSubstanceDose": [
-          1
+          0.25,
+          0.75
+        ],
+        "activeSubstanceDoseDecorator": "ml_kg",
+        "applicationMethod": "SC, а при PO - 0.03-0.08 гр"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          0.1,
+          0.3
         ],
         "activeSubstanceDoseDecorator": "ml",
         "applicationMethod": "PO"
       }
     },
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/others/vitamin-c.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ascorbic-acid.pdf" }
+    ],
+    "indications"       : ["urinary acidifier in small animals"],
+    "contraindications" : ["used with caution in patients with diabetes mellitus due to the laboratory interactions (see below), or in patients susceptible to urolithiasis.", "avoid vitamin C’s use in animals with copper-associated hepatopathy"],
+    "drugInteractions"  : ["Aminoglycosides: (e.g., gentamicin) and erythromycin: Are more effective in an alkaline medium; urine acidification may diminish these drugs’ effectiveness in treating bacterial urinary tract infections", "Quinidine: Urine acidification may increase renal excretion", "Deferoxamine: While vitamin C may be synergistic with deferoxamine in re moving iron, it may lead to increased iron tissue toxicity, especially in cardiac muscle. It should be used with caution, particularly in patients with preexisting cardiac disease."],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -7280,16 +7293,17 @@
     "type": "others",
     "title": "Интровит Б-комплекс",
     "titleEn": "Introvit B-complex",
-    "activeSubstance": "витамини Б комплекс",
+    "activeSubstance": "витамин Б1, витамин Б2, витамин Б3, витамин Б4, витамин Б5, витамин Б6, витамин Б7, витамин Б12",
     "drugConcentration": 0,
     "drugConcentrationDecorator": "-",
     "application": {
       "dog": {
         "activeSubstanceDose": [
-          0
+          0.5,
+          2
         ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
+        "activeSubstanceDoseDecorator": "ml",
+        "applicationMethod": "SC или IM"
       }
     },
     "links": [
@@ -7967,31 +7981,6 @@
                             "36-ия час след първоначалната доза – 5 мг/кг ИВ;",
                             "При необходимост да се даде още 5 мг/кг ИВ;",
                             "КТ: Първоначална доза – 125 мг/кг бавно ИВ; На 12-ия, 24-ия и 36-ия час след първоначалната доза – 31,25 мг/кг ИВ"],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "others",
-    "title": "Фомепизол",
-    "titleEn": "fomepizole",
-    "activeSubstance": "фомепизол",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "same",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "mg",
-        "applicationMethod": "IV"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/others/fomepizole.pdf" }
-    ],
-    "indications"       : ["за отравяне с етиленгликол виж 'Калкулатори -> Дози антидоти'"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
