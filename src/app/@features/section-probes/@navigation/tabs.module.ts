@@ -40,6 +40,10 @@ const routes: Routes = [
         loadChildren  : () => import('../probe/probe.module').then(m => m.FeatureModule)
       },
       {
+        path          : 'tab5',
+        loadChildren  : () => import('../probe/probe.module').then(m => m.FeatureModule)
+      },
+      {
         path          : '',
         redirectTo    : 'tab1',
         pathMatch     : 'full'

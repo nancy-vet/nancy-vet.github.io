@@ -1,0 +1,492 @@
+[
+  {
+    "title"     : "Специфично тегло на урината (USG)",
+    "frontImage": "/assets/pdfs/@probes/urine/usg.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/usg.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Норма",
+        "content"     : [
+          "1.015–1.045 - кучета",
+          "1.035–1.060 - котки"
+        ]
+      },
+      {
+        "sectionTitle": "1.008–1.012 (изостенурия)",
+        "content"     : [
+          "Това е концентрацията на плазмата, което означава, че ББ не концентрират урината. ОТУ е в тези граници при много състояние с полиурия/ полидипсия. ОТУ с азотемия подкрепя диагнозата ББ недостатъчност."
+        ]
+      },
+      {
+        "sectionTitle": "<1.008 (хипостенурия, разредена урина)",
+        "content"     : [
+          "Това означава, че ББ правят още по-разредена урина, което изключва ББ недостатъчност. Възможни причини: захарен диабет, първична полидипсия или състояние, които засягат АДХ хормона."
+        ]
+      },
+      {
+        "sectionTitle": ">1.030 куче | >1.035 котка (концентрирана урина)",
+        "content"     : [
+          "Suggests kidney disease is not present. Useful to confirm prerenal azotaemia. Approximately two-thirds of nephron function must be lost before abnormalities in renal concentrating ability occur, therefore clinically inapparent renal disease could be present with concentrated urine."
+        ]
+      },
+      {
+        "sectionTitle": "1.013–1.029 куче | 1.013–1.034 котка (частично концентрирана урина)",
+        "content"     : [
+          "May be partial impairment of renal function or partial deficiency/lack of response to ADH. If the animal is clinically dehydrated this is considered inappropriately dilute (see below)."
+        ]
+      },
+      {
+        "sectionTitle": "<1.030 куче | <1.035 котка с азотемия/ дехидратация",
+        "content"     : [
+          "This can be due to renal disease, or a partial deficiency or incomplete action of ADH. Concurrent pre-renal azotaemia and a condition that causes a deficiency/ reduced action of ADH is also possible."
+        ]
+      },
+      {
+        "sectionTitle": ">1.007 при хидратирано ЖВ",
+        "content"     : [
+          "Suggests there is renal disease because the kidneys should produce dilute urine in this situation."
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Ленти за урина",
+    "frontImage": "",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/urine-strips.png",
+      "/assets/pdfs/@probes/urine/urine-strips-2.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Клетки в седимента",
+    "frontImage": "/assets/pdfs/@probes/urine/cells-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/cells-1.png",
+      "/assets/pdfs/@probes/urine/cells-2.png",
+      "/assets/pdfs/@probes/urine/cells-3.png",
+      "/assets/pdfs/@probes/urine/cells-4.png",
+      "/assets/pdfs/@probes/urine/cells-5.png",
+      "/assets/pdfs/@probes/urine/cells-6.png",
+      "/assets/pdfs/@probes/urine/cells-7.png",
+      "/assets/pdfs/@probes/urine/cells-8.png",
+      "/assets/pdfs/@probes/urine/cells-9.png",
+      "/assets/pdfs/@probes/urine/cells-10.png",
+      "/assets/pdfs/@probes/urine/cells-11.png",
+      "/assets/pdfs/@probes/urine/cells-12.png",
+      "/assets/pdfs/@probes/urine/cells-13.png",
+      "/assets/pdfs/@probes/urine/cells-14.png",
+      "/assets/pdfs/@probes/urine/cells-15.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Еритроцити",
+        "content"     : [
+          "Причини: възпаление, травма, неоплазия, еструс, коагулопатия.",
+          "При съхранение на пробата Er може да се лизират."
+        ]
+      },
+      {
+        "sectionTitle": "Левкоцити",
+        "content"     : [
+          "Причини: възпаление на уринарния или гениталния тракт",
+          "При съхранение на пробата Leu намаляват.",
+          "Някои кученца имат по-висока концентрация на левкоцити в урината."
+        ]
+      },
+      {
+        "sectionTitle": "Епителни клетки",
+        "content"     : [
+          "Биват: ренални, преходни, сквамозни",
+          "Често при възпаление се откриват много епителни клетки заедно с много левкоцити и малко еритроцити.",
+          "Когато има много епителни клетки, но няма възпаление, много вероятно е да е карцином."
+
+        ]
+      },
+      {
+        "sectionTitle": "Неопластични клетки",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Сперма",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+
+
+  {
+    "title"     : "Струвитни кристали",
+    "frontImage": "/assets/pdfs/@probes/urine/struvite-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/struvite-1.png",
+      "/assets/pdfs/@probes/urine/struvite-2.png",
+      "/assets/pdfs/@probes/urine/struvite-3.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          "Биват: Магнезиеви, амониеви, форфорни",
+          "Разпространение: Често срещани"
+        ]
+      },
+      {
+        "sectionTitle": "pH",
+        "content"     : [
+          "≥7"
+        ]
+      },
+      {
+        "sectionTitle": "Значимост",
+        "content"     : [
+          "• May be incidental finding in healthy dogs and cats",
+          "• Often associated with UTI, especially in dogs",
+          "• May predispose to urolithiasis"
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Кристали, калциев оксалат дихидрат",
+    "frontImage": "/assets/pdfs/@probes/urine/ca-ox-dihydrate.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/ca-ox-dihydrate.png",
+      "/assets/pdfs/@probes/urine/ca-ox-dihydrate-2.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "pH",
+        "content"     : [
+          "≤7"
+        ]
+      },
+      {
+        "sectionTitle": "Значимост",
+        "content"     : [
+          "• May be incidental finding in healthy dogs and cats",
+          "• Rarely seen in association with ethylene glycol toxicity",
+          "• May predispose to urolithiasis"
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Кристали, калциев оксалат монохидрат",
+    "frontImage": "/assets/pdfs/@probes/urine/ca-ox-monohydrate-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/ca-ox-monohydrate-1.png",
+      "/assets/pdfs/@probes/urine/ca-ox-monohydrate-2.png",
+      "/assets/pdfs/@probes/urine/ca-ox-monohydrate-3.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "pH",
+        "content"     : [
+          "≤7"
+        ]
+      },
+      {
+        "sectionTitle": "Значимост",
+        "content"     : [
+          "• Very occasionally an incidental finding in healthy dogs and cats",
+          "• Associated with ethylene glycol toxicity"
+        ]
+      }
+    ]
+  },
+
+
+
+
+  {
+    "title"     : "Кристали, калциев фосфат",
+    "frontImage": "/assets/pdfs/@probes/urine/ca-phos-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/ca-phos-1.png",
+      "/assets/pdfs/@probes/urine/ca-phos-2.png",
+      "/assets/pdfs/@probes/urine/ca-phos-3.png",
+      "/assets/pdfs/@probes/urine/ca-ca-3.png",
+      "/assets/pdfs/@probes/urine/ca-phos-4.png",
+      "/assets/pdfs/@probes/urine/ca-phos-5.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "pH",
+        "content"     : [
+          "All except ‘brushites’: ≥7",
+          "Amorphous phosphates: ≥7",
+          "‘Brushites’: <7"
+        ]
+      },
+      {
+        "sectionTitle": "Значимост",
+        "content"     : [
+          "• May be an incidental finding in healthy dogs and cats",
+          "• Associated with hypercalcaemia and other factors",
+          "• Small numbers can be associated with UTI-induced struvite crystalluria",
+          "• May predispose to urolithiasis",
+          "their presence is an indication to check serum calcium.",
+          "They may be amorphous (distinguishable from amorphous urates by their presence in alkaline pH and lack of yellowish colouring), spherical (dogs only), or needle-like, sometimes aggregating into rosettes. In acidic urine, ‘brushite’ (calcium hydrogen phosphate dihydrate) crystals may form; these are narrow, elongated rectangular crystals often present in aggregates."
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Кристали, калциев карбонат",
+    "frontImage": "/assets/pdfs/@probes/urine/ca-ca-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/ca-ca-1.png",
+      "/assets/pdfs/@probes/urine/ca-ca-2.png",
+      "/assets/pdfs/@probes/urine/ca-ca-3.png",
+      "/assets/pdfs/@probes/urine/ca-ca-4.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "pH",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Значимост",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+  {
+    "title"     : "Кристали от амониеви урати и пикочна киселина",
+    "frontImage": "/assets/pdfs/@probes/urine/urate-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/urate-1.png",
+      "/assets/pdfs/@probes/urine/urate-2.png",
+      "/assets/pdfs/@probes/urine/urate-3.png",
+      "/assets/pdfs/@probes/urine/urate-4.png",
+      "/assets/pdfs/@probes/urine/urate-5.png",
+      "/assets/pdfs/@probes/urine/urate-6.png",
+      "/assets/pdfs/@probes/urine/urate-7.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "pH",
+        "content"     : [
+          "Ammonium urate: ≥7",
+          "Uric acid: <7",
+          "Amorphous urates: ≤7"
+        ]
+      },
+      {
+        "sectionTitle": "Значимост",
+        "content"     : [
+          "Ammonium urate (or biurate) crystals generally appear as brown or yellow-brown spherical bodies with irregular protrusions (“thorn-apples”).",
+          "• May be seen in healthy Dalmatians, Bulldogs and other breeds",
+          "• Associated with hepatic insufficiency and PSS",
+          "• Predispose to urolithiasis (it is not understood why some Dalmatians do not form uroliths)"
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Кристали от билирубин",
+    "frontImage": "/assets/pdfs/@probes/urine/bilirubin-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/bilirubin-1.png",
+      "/assets/pdfs/@probes/urine/bilirubin-2.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "pH",
+        "content"     : [
+          "Variable, usually acidic"
+        ]
+      },
+      {
+        "sectionTitle": "Значимост",
+        "content"     : [
+          "• May be an incidental finding in dogs; abnormal in cats",
+          "• Associated with hepatobiliary disease and intravascular haemolysis",
+          "• Not associated with uroliths"
+        ]
+      }
+    ]
+  },
+
+
+
+
+  {
+    "title"     : "Кристали от цистин",
+    "frontImage": "/assets/pdfs/@probes/urine/cystine-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/cystine-1.png",
+      "/assets/pdfs/@probes/urine/cystine-2.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "pH",
+        "content"     : [
+          "≤7"
+        ]
+      },
+      {
+        "sectionTitle": "Значимост",
+        "content"     : [
+          "• Always abnormal",
+          "• Associated with inherited tubular reabsorption defect",
+          "• Bull Mastiff, mastiffs, Bulldog, Dachshund, Chihuahua, Newfoundland, Australian Cattle Dog, Scottish Deerhound, Basset Hound",
+          "• May predispose to urolithiasis"
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Кристали от тирозин",
+    "frontImage": "/assets/pdfs/@probes/urine/tyrosine-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/tyrosine-1.png",
+      "/assets/pdfs/@probes/urine/tyrosine-2.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "pH",
+        "content"     : [
+          "≤7"
+        ]
+      },
+      {
+        "sectionTitle": "Значимост",
+        "content"     : [
+          "• Always abnormal",
+          "• Associated with liver disease or inherited tubular reabsorption defect"
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Кристали от холестерол",
+    "frontImage": "/assets/pdfs/@probes/urine/cholesterol-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/cholesterol-1.png",
+      "/assets/pdfs/@probes/urine/cholesterol-2.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "pH",
+        "content"     : [
+          "варира"
+        ]
+      },
+      {
+        "sectionTitle": "Значимост",
+        "content"     : [
+          "• Minimal clinical significance",
+          "• Not associated with uroliths"
+        ]
+      }
+    ]
+  },
+
+
+
+
+  {
+    "title"     : "Кристали от медикаменти",
+    "frontImage": "/assets/pdfs/@probes/urine/drug-crystals-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/drug-crystals-1.png",
+      "/assets/pdfs/@probes/urine/drug-crystals-2.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          "• Sulphonamides",
+          "• Ampicillin",
+          "• Allopurinol",
+          "• Ciprofloxacin",
+          "• Tetracyclines",
+          "• Primidone",
+          "• Radiopaque contrast agents"
+        ]
+      },
+      {
+        "sectionTitle": "pH",
+        "content"     : [
+          "варира"
+        ]
+      },
+      {
+        "sectionTitle": "Значимост",
+        "content"     : [
+          "Some drug-associated uroliths have been reported, but these are rare."
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Кристали от левцин",
+    "frontImage": "/assets/pdfs/@probes/urine/leucine-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/leucine-1.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "pH",
+        "content"     : [
+          "кисело"
+        ]
+      },
+      {
+        "sectionTitle": "Значимост",
+        "content"     : [
+          "These crystals are yellow-brown disks with concentric rings like a tree trunk.",
+          "They’re typically a symptom of severe liver disease. Other symptoms may include abdominal swelling, vomiting, nausea, disorientation, and malaise.",
+          "Treatment involves improving liver function and health immediately. This will include medications to reduce the risk of bleeding and reduce swelling caused by excess fluid."
+        ]
+      }
+    ]
+  }
+
+]

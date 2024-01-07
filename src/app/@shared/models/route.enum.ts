@@ -4,6 +4,6 @@ export enum AppNavigationRouteEnum {
   LIBRARY     = "library",
   INFO        = "info",
   EXAMINATION = "examination",
-  VACINATION  = "vacinations",
+  VACCINATION  = "vaccinations",
   TRIVIA      = "trivia"
 }

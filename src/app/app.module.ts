@@ -37,7 +37,7 @@ const routes: Routes = [
     loadChildren  : () => import('./@features/section-probes/@navigation/tabs.module').then(m => m.TabsPageModule)
   },
   {
-    path          : AppNavigationRouteEnum.VACINATION,
+    path          : AppNavigationRouteEnum.VACCINATION,
     loadChildren  : () => import('./@features/section-vaccination/@navigation/tabs.module').then(m => m.TabsPageModule)
   },
   {
