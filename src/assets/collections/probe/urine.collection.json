@@ -180,7 +180,8 @@
     "type"      : "crystal",
     "gallery"   : [
       "/assets/pdfs/@probes/urine/ca-ox-dihydrate.png",
-      "/assets/pdfs/@probes/urine/ca-ox-dihydrate-2.png"
+      "/assets/pdfs/@probes/urine/ca-ox-dihydrate-2.png",
+      "/assets/pdfs/@probes/urine/ca-ox-radiograph.png"
     ],
     "section"   : [
       {
@@ -209,7 +210,8 @@
     "gallery"   : [
       "/assets/pdfs/@probes/urine/ca-ox-monohydrate-1.png",
       "/assets/pdfs/@probes/urine/ca-ox-monohydrate-2.png",
-      "/assets/pdfs/@probes/urine/ca-ox-monohydrate-3.png"
+      "/assets/pdfs/@probes/urine/ca-ox-monohydrate-3.png",
+      "/assets/pdfs/@probes/urine/ca-ox-radiograph.png"
     ],
     "section"   : [
       {
