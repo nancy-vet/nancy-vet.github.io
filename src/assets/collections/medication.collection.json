@@ -191,18 +191,19 @@
     "application": {
       "any": {
         "activeSubstanceDose": [
+          0.5,
           1
         ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": ""
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO q24h"
       }
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/sopral.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/omeprazole.pdf" }
     ],
-    "indications"       : [],
-    "contraindications" : [],
+    "indications"       : ["Proton pump inhibitor used for GI ulcers & erosions"],
+    "contraindications" : [" Known hypersensitivity; may need to adjust dosage with hepatic or renal disease"],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
@@ -242,6 +243,7 @@
     "application": {
       "any": {
         "activeSubstanceDose": [
+          0.7,
           1
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
@@ -252,7 +254,7 @@
       { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/panrazol.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/pantoprazole.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["Proton pump inhibitor similar to omeprazole; also available in IV dosage form."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -294,18 +296,19 @@
     "application": {
       "any": {
         "activeSubstanceDose": [
-          1
+          0.5
         ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO, SC, IM, IV q12-24h (Plump)"
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/famotidin-alkaloid.pdf" }
+      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/famotidin-alkaloid.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/famotidine.pdf" }
     ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
+    "indications"       : ["In veterinary medicine, famotidine may be useful for the treatment and/or pro phylaxis of gastric, abomasal and duodenal ulcers, uremic gastritis, stress-related or drug-induced erosive gastritis, esophagitis, duodenal gastric reflux, and esophageal reflux."],
+    "contraindications" : ["Famotidine should be used cautiously in geriatric patients and patients with significantly impaired hepatic or renal function. Consider dosage reduction in patients with significant renal dysfunction. Famotidine may have negative inotropic effects and have some cardioarrhythmogenic properties. Use with caution in patients with cardiac disease."],
+    "drugInteractions"  : ["Azole antifungals (ketoconazole, itraconazole, fluconazole): By raising gastric ph, famotidine may decrease the absorption of these agents; if both drugs are required, administer the azole one hour prior to famotidine", "Cefpodoxime, cefuroxime: Famotidine may decrease the absorption of these cephalosporins; taking with food may alleviate this effect", "Iron salts (oral): Famotidine may decrease the absorption of oral iron;"],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -351,9 +354,18 @@
     "drugConcentration": 2,
     "drugConcentrationDecorator": "mg_tabl",
     "application": {
-      "any": {
+      "dog": {
         "activeSubstanceDose": [
-          0.1
+          0.1,
+          0.2
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO q12h"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          0.08,
+          0.16
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
         "applicationMethod": "PO q12h"
@@ -363,10 +375,10 @@
       { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/imodium.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/loperamide.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["Synthetic opiate GI motility modifier.", "Use of antidiarrheal opiates in cats is controversial; this species may react with excitatory behavior."],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["Constipation, bloat, & sedation."],
     "pharmacology"      : []
   },
   {
@@ -502,7 +514,7 @@
     "type": "gastrointestinal",
     "title": "ДаФорте",
     "titleEn": "DaForte",
-    "activeSubstance": "-",
+    "activeSubstance": "олигозахариди, фибри, aтапулгит",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "ml",
     "application": {
@@ -511,13 +523,13 @@
           0.4
         ],
         "activeSubstanceDoseDecorator": "ml_kg",
-        "applicationMethod": "s.i.d."
+        "applicationMethod": "q24h при остра и q48-72h при хронична диария"
       }
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/daforte.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["при акутна и субакутна диария;", " Разклащане преди употреба!"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -552,7 +564,7 @@
     "type": "gastrointestinal",
     "title": "Диа-Таб",
     "titleEn": "Dia-Tab",
-    "activeSubstance": "-",
+    "activeSubstance": "пектин, декстроза, минерали",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
@@ -568,7 +580,7 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/diatab.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["при остри чревни нарушения;", "под 10 кг - по 1/2 табл q12h.", "10-20 кг - по 1 табл q12h.", "над 20 кг - по 1 табл q8h."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -578,7 +590,7 @@
     "type": "gastrointestinal",
     "title": "ЕнтероМикро паста",
     "titleEn": "EnteroMicro Pasta",
-    "activeSubstance": "-",
+    "activeSubstance": "пребиотици, пробиотици",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
@@ -593,7 +605,7 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/enteromicro.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["в случай на променен баланс на чревната флора в резултат на прием на лекарствени средства, стрес, небалансирани диети; отслабена реакция на имунната система.", "1 отделение на спринцовката на 5 кг телесно тегло веднъж дневно в продължение на най-малко 6 дни."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -636,7 +648,7 @@
         "applicationMethod": "PO"
       }
     },
-    "indications"       : ["Administer 1-2 hours before the regular meal. If preferred, administer in portions each 12 hours."],
+    "indications"       : ["Прилага се 1-2 часа преди хранене. За предпочитане е да се раздели на порции, които да се дадат през 12 часа."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -646,7 +658,7 @@
     "type": "gastrointestinal",
     "title": "Малцова паста",
     "titleEn": "Malt paste",
-    "activeSubstance": "-",
+    "activeSubstance": "малц",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
@@ -759,7 +771,7 @@
     "links": [
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ademethionine.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["подпомагаща терапия при ЧД заболявания.", "може да се използва и при остеоартрит, отравяне с ацетаминофен (парацетамол) и при риск от ЧД увреждане"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -794,7 +806,7 @@
     "type": "gastrointestinal",
     "title": "Легафитон 50",
     "titleEn": "Legaphyton 50",
-    "activeSubstance": "-",
+    "activeSubstance": "лактоза, силибин/фосфолипиди, соеви фибри, орнитин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
@@ -803,13 +815,13 @@
           1
         ],
         "activeSubstanceDoseDecorator": "tabl_2.5_kg",
-        "applicationMethod": "PO"
+        "applicationMethod": "PO за 10 дни"
       }
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/legaphyton.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["Диетична допълваща храна за кучета и котки, поддържаща функцията на черния дроб и доставяща антиоксиданти", "препоръчително е дневната доза да се раздели на два приема – сутрин и вечер"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -870,7 +882,7 @@
     "type": "gastrointestinal",
     "title": "Панкреалекс",
     "titleEn": "Pancrealex",
-    "activeSubstance": "-",
+    "activeSubstance": "Atropa belladonna, Berberis vulgaris, Calcium carbonicum, Lycopodium clavatum, Matricaria recutita, Taraxacum officinalis, други",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
@@ -882,7 +894,7 @@
         "applicationMethod": "IM SC"
       }
     },
-    "indications"       : [],
+    "indications"       : ["оказва противовъзпалително и протективно действие на панкреаса, способсва съхранението на ацинарните клетки, регулира ендокринната функция, има антиеметичен ефект", "-за лечение на остър панкреатит при КЧ – 1-2 пъти дневно в течение 5-7 дни, после 3-4 инжекции 1 път на всеки 1-3 дни.", "-за лечение на остър панкреатит при КТ – 2 пъти дневно в течение 5-7 дни, после 3-4 инжекции 1 път на всеки 1 ден.", "-за лечение на хроничен панкреатит, в това число и остър стадий, при КЧ и КТ – 1-2 пъти дневно в течение на 5-7 дни, после 2-3 пъти седмично в течение 1-2 седмици.", "-за лечение на хроничен панкреатит, част от триадит при КТ – 2 пъти дневно в течение на 3-5 дни, после 1 път дневно в течение 5-10 дни.", "– за подобряване на храносмилането (възстановяване на екзокринната функция на панкреаса) при кучета – 1 път на ден в продължение на 14 дни.", "Не са установени специфични ефекти при първата употреба или при спиране на лекарството."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -926,21 +938,21 @@
           0.6
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO q24h not to exceed 30 mg per day for appetite stimulation"
+        "applicationMethod": "PO q24h не повече от 30 мг/ден за стимулиране на апетита"
       },
       "cat": {
         "activeSubstanceDose": [
           3
         ],
         "activeSubstanceDoseDecorator": "mg",
-        "applicationMethod": "per cat PO q72h (every 3 days)"
+        "applicationMethod": "на котка PO q72h (всеки 3 дни)"
       }
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/remirta.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/mirtazapine.pdf" }
     ],
-    "indications"       : ["антидепресант", " an appetite stimulant & antiemetic in dogs & cats"],
+    "indications"       : ["антидепресант", "апетитостимулиращо и антиеметично при КЧ и КТ"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -961,7 +973,7 @@
           0.6
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "SAIM:  IM SC, IV, q6-8h"
+        "applicationMethod": "SAIM: IM SC, IV, q6-8h"
       }
     },
     "links": [
@@ -988,7 +1000,7 @@
           0.6
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "SAIM:  IM SC, IV, q6-8h"
+        "applicationMethod": "SAIM: IM SC, IV, q6-8h"
       }
     },
     "links": [
@@ -1015,7 +1027,7 @@
           0.6
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "SAIM:  IM SC, IV, q6-8h"
+        "applicationMethod": "SAIM: IM SC, IV, q6-8h"
       }
     },
     "links": [
@@ -1049,11 +1061,11 @@
       { "title": "листовка",  "link": "pdfs/@medication/respiratory/ventolin.pdf" },
       { "title": "Plumbs",     "link": "pdfs/@medication/plumbs-pdf/albuterol.pdf" }
     ],
-    "indications"       : [],
-    "contraindications" : [],
+    "indications"       : ["бронходилататор, облекчаване на кашлица;", "като бронходилататор при котешка астма"],
+    "contraindications" : ["С повишено внимание при диабет, хипертиреоидизъм, хипертензия, епилепсия, сърдечно-съдово заболяване.", "може да инхибира маточните съкращения по време на бременност."],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
-    "pharmacology"      : []
+    "pharmacology"      : ["При КТ астма с нетежки симптоми: по 1 впръскване аерозолно заендо с преднизон 1 мг/кг ПО q24h 5 дни. При тежки симптоми: Впръскване на всеки 20 мин, кислородотерапия, глюкокортикоиди"]
   },
   {
     "type": "respiratory",
@@ -1065,8 +1077,7 @@
     "application": {
       "any": {
         "activeSubstanceDose": [
-          5,
-          6
+          10
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
         "applicationMethod": "бавно IV"
@@ -1076,7 +1087,7 @@
       { "title": "листовка", "link": "pdfs/@medication/respiratory/sophafylin.pdf" },
       { "title": "Plumbs Theophylline", "link": "pdfs/@medication/plumbs-pdf/theophylline.pdf" }
     ],
-    "indications"       : ["Bronchodilator drug with diuretic activity; used for bronchospasm & cardiogenic pulmonary edema"],
+    "indications"       : ["Бронходилататор с диуретично действие.", "При бронхоспазми и кардиогенен БД оток."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -1090,27 +1101,19 @@
     "drugConcentration": 300,
     "drugConcentrationDecorator": "mg_tabl",
     "application": {
-      "dog": {
+      "any": {
         "activeSubstanceDose": [
-          6,
           10
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "3 пъти на ден"
-      },
-      "cat": {
-        "activeSubstanceDose": [
-          4
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "1-3 пъти на ден"
+        "applicationMethod": "2 пъти на ден"
       }
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/respiratory/teotard.pdf" },
       { "title": "Plumbs Theophylline", "link": "pdfs/@medication/plumbs-pdf/theophylline.pdf" }
     ],
-    "indications"       : ["Bronchodilator drug with diuretic activity; used for bronchospasm & cardiogenic pulmonary edema"],
+    "indications"       : ["Бронходилататор с диуретично действие.", "При бронхоспазми и кардиогенен БД оток."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -1185,11 +1188,11 @@
       }
     },
     "links": [
-      { "title": "Plumbs", "link": "pdfs/@medication/cardiovascular/sildenafil.pdf" }
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/sildenafil.pdf" }
     ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
+    "indications"       : ["при БД хипертензия"],
+    "contraindications" : ["заедно с органични нитрати"],
+    "drugInteractions"  : ["КЧ може да се третират и с кислород, АЦЕ-инхибитори, фуроземид, амлодипин, дилтиазем, теофилин, фенобарбитал и/или антибиотици."],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -1218,12 +1221,12 @@
       }
     },
     "links": [
-      { "title": "Plumbs", "link": "pdfs/@medication/cardiovascular/sotalol.pdf" }
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/sotalol.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["Неселективен бета-блокер. Клас 3 антиаритмичен за вентрикуларна тахикардия."],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["negative inotropism & pro-arrhythmic but dyspnea/bronchospasm, fatigue/dizziness, & nausea/vomiting possible"],
     "pharmacology"      : []
   },
   {
@@ -1245,10 +1248,10 @@
     "links" : [
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/clopidogrel.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["Перорален, веднъж дневно, инхибирор на агрегацията на тромбоцитите, който може да помогне в предотввратяването на тромбоемболизъм при котките."],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["повръщане или кървене"],
     "pharmacology"      : []
   },
   {
@@ -1484,7 +1487,7 @@
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/cardiovascular/cardisure.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/cardiovascular/pimobendan.pdf" }
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/pimobendan.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -1511,7 +1514,7 @@
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/cardiovascular/fortekor.pdf" },
-      { "title": "Plumbs Pimobendan", "link": "pdfs/@medication/cardiovascular/pimobendan.pdf" },
+      { "title": "Plumbs Pimobendan", "link": "pdfs/@medication/plumbs-pdf/pimobendan.pdf" },
       { "title": "Plumbs Benazepril", "link": "pdfs/@medication/plumbs-pdf/benazepril.pdf" }
     ],
     "indications"       : ["застойна сърдечна недостатъчност, причинена от недостатъчност на атриовентрикуларния клапан или от разширена кардиомиопатия"],
@@ -1525,18 +1528,21 @@
     "title": "Енап 10 мг табл",
     "titleEn": "Enap 10 mg tabl",
     "activeSubstance": "еналаприл",
-    "drugConcentration": 1,
+    "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_tabl",
     "application": {
       "dogs": {
         "activeSubstanceDose": [
-          0
+          0.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "-"
+        "applicationMethod": "ПО q12-24h"
       }
     },
-    "indications"       : [],
+    "links": [
+      { "title": "Plumbs ", "link": "pdfs/@medication/plumbs-pdf/enalapril.pdf" }
+    ],
+    "indications"       : ["АЦЕ инхибитор, използван като вазодилататор при лечението на сърдечна недостатъчност и хипертензия.", "може да има благоприятен ефект при ХБН или ентеропатии със загуба на протеини."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -1547,18 +1553,18 @@
     "title": "Енап 10 мг/12,5 мг табл",
     "titleEn": "Enap 10 mg/12,5 mg tabl",
     "activeSubstance": "еналаприл, хидрохлоротиазид",
-    "drugConcentration": 1,
+    "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_tabl",
     "application": {
       "dogs": {
         "activeSubstanceDose": [
-          0
+          0.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "-"
+        "applicationMethod": "ПО q12-24h"
       }
     },
-    "indications"       : [],
+    "indications"       : ["АЦЕ инхибитор, използван като вазодилататор при лечението на сърдечна недостатъчност и хипертензия.", "може да има благоприятен ефект при ХБН или ентеропатии със загуба на протеини."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -2989,10 +2995,11 @@
     "application": {
       "dog": {
         "activeSubstanceDose": [
-          1
+          1,
+          2
         ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
+        "activeSubstanceDoseDecorator": "gtt",
+        "applicationMethod": "на всеки 4-6 часа от 5 до 10 дни"
       }
     },
     "links": [
@@ -7171,17 +7178,17 @@
     "application": {
       "dog": {
         "activeSubstanceDose": [
-          1
+          5
         ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": ""
+        "activeSubstanceDoseDecorator": "μg_kg",
+        "applicationMethod": "SC q24h"
       }
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/antiparasitic/zarzio.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/filgrastim.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["цитокин, който в костния мозък стимулира пролиферацията, дирефенциацията и активацията на прогениторни клетки на неутрофилите.", "при неутропения"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -7204,7 +7211,7 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antiparasitic/levkeran.pdf" }
+      { "title": "листовка", "link": "pdfs/@medication/others/levkeran.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -7252,20 +7259,33 @@
     "title": "Витамин Ц Софарма 100 мг/мл",
     "titleEn": "Vitamin C Sopharma",
     "activeSubstance": "витамин Ц",
-    "drugConcentration": 1000,
+    "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
     "application": {
       "dog": {
         "activeSubstanceDose": [
-          1
+          0.25,
+          0.75
+        ],
+        "activeSubstanceDoseDecorator": "ml_kg",
+        "applicationMethod": "SC, а при PO - 0.03-0.08 гр"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          0.1,
+          0.3
         ],
         "activeSubstanceDoseDecorator": "ml",
         "applicationMethod": "PO"
       }
     },
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/others/vitamin-c.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ascorbic-acid.pdf" }
+    ],
+    "indications"       : ["urinary acidifier in small animals"],
+    "contraindications" : ["used with caution in patients with diabetes mellitus due to the laboratory interactions (see below), or in patients susceptible to urolithiasis.", "avoid vitamin C’s use in animals with copper-associated hepatopathy"],
+    "drugInteractions"  : ["Aminoglycosides: (e.g., gentamicin) and erythromycin: Are more effective in an alkaline medium; urine acidification may diminish these drugs’ effectiveness in treating bacterial urinary tract infections", "Quinidine: Urine acidification may increase renal excretion", "Deferoxamine: While vitamin C may be synergistic with deferoxamine in re moving iron, it may lead to increased iron tissue toxicity, especially in cardiac muscle. It should be used with caution, particularly in patients with preexisting cardiac disease."],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -7273,16 +7293,17 @@
     "type": "others",
     "title": "Интровит Б-комплекс",
     "titleEn": "Introvit B-complex",
-    "activeSubstance": "витамини Б комплекс",
+    "activeSubstance": "витамин Б1, витамин Б2, витамин Б3, витамин Б4, витамин Б5, витамин Б6, витамин Б7, витамин Б12",
     "drugConcentration": 0,
     "drugConcentrationDecorator": "-",
     "application": {
       "dog": {
         "activeSubstanceDose": [
-          0
+          0.5,
+          2
         ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
+        "activeSubstanceDoseDecorator": "ml",
+        "applicationMethod": "SC или IM"
       }
     },
     "links": [
@@ -7960,31 +7981,6 @@
                             "36-ия час след първоначалната доза – 5 мг/кг ИВ;",
                             "При необходимост да се даде още 5 мг/кг ИВ;",
                             "КТ: Първоначална доза – 125 мг/кг бавно ИВ; На 12-ия, 24-ия и 36-ия час след първоначалната доза – 31,25 мг/кг ИВ"],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "others",
-    "title": "Фомепизол",
-    "titleEn": "fomepizole",
-    "activeSubstance": "фомепизол",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "same",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "mg",
-        "applicationMethod": "IV"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/others/fomepizole.pdf" }
-    ],
-    "indications"       : ["за отравяне с етиленгликол виж 'Калкулатори -> Дози антидоти'"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],

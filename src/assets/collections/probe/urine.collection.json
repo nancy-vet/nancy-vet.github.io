@@ -2,6 +2,7 @@
   {
     "title"     : "Специфично тегло на урината (USG)",
     "frontImage": "/assets/pdfs/@probes/urine/usg.png",
+    "type"      : "cell",
     "gallery"   : [
       "/assets/pdfs/@probes/urine/usg.png"
     ],
@@ -56,6 +57,7 @@
   {
     "title"     : "Ленти за урина",
     "frontImage": "",
+    "type"      : "cell",
     "gallery"   : [
       "/assets/pdfs/@probes/urine/urine-strips.png",
       "/assets/pdfs/@probes/urine/urine-strips-2.png"
@@ -75,6 +77,7 @@
   {
     "title"     : "Клетки в седимента",
     "frontImage": "/assets/pdfs/@probes/urine/cells-1.png",
+    "type"      : "cell",
     "gallery"   : [
       "/assets/pdfs/@probes/urine/cells-1.png",
       "/assets/pdfs/@probes/urine/cells-2.png",
@@ -138,6 +141,7 @@
   {
     "title"     : "Струвитни кристали",
     "frontImage": "/assets/pdfs/@probes/urine/struvite-1.png",
+    "type"      : "crystal",
     "gallery"   : [
       "/assets/pdfs/@probes/urine/struvite-1.png",
       "/assets/pdfs/@probes/urine/struvite-2.png",
@@ -173,9 +177,11 @@
   {
     "title"     : "Кристали, калциев оксалат дихидрат",
     "frontImage": "/assets/pdfs/@probes/urine/ca-ox-dihydrate.png",
+    "type"      : "crystal",
     "gallery"   : [
       "/assets/pdfs/@probes/urine/ca-ox-dihydrate.png",
-      "/assets/pdfs/@probes/urine/ca-ox-dihydrate-2.png"
+      "/assets/pdfs/@probes/urine/ca-ox-dihydrate-2.png",
+      "/assets/pdfs/@probes/urine/ca-ox-radiograph.png"
     ],
     "section"   : [
       {
@@ -200,10 +206,12 @@
   {
     "title"     : "Кристали, калциев оксалат монохидрат",
     "frontImage": "/assets/pdfs/@probes/urine/ca-ox-monohydrate-1.png",
+    "type"      : "crystal",
     "gallery"   : [
       "/assets/pdfs/@probes/urine/ca-ox-monohydrate-1.png",
       "/assets/pdfs/@probes/urine/ca-ox-monohydrate-2.png",
-      "/assets/pdfs/@probes/urine/ca-ox-monohydrate-3.png"
+      "/assets/pdfs/@probes/urine/ca-ox-monohydrate-3.png",
+      "/assets/pdfs/@probes/urine/ca-ox-radiograph.png"
     ],
     "section"   : [
       {
@@ -228,6 +236,7 @@
   {
     "title"     : "Кристали, калциев фосфат",
     "frontImage": "/assets/pdfs/@probes/urine/ca-phos-1.png",
+    "type"      : "crystal",
     "gallery"   : [
       "/assets/pdfs/@probes/urine/ca-phos-1.png",
       "/assets/pdfs/@probes/urine/ca-phos-2.png",
@@ -262,6 +271,7 @@
   {
     "title"     : "Кристали, калциев карбонат",
     "frontImage": "/assets/pdfs/@probes/urine/ca-ca-1.png",
+    "type"      : "crystal",
     "gallery"   : [
       "/assets/pdfs/@probes/urine/ca-ca-1.png",
       "/assets/pdfs/@probes/urine/ca-ca-2.png",
@@ -287,6 +297,7 @@
   {
     "title"     : "Кристали от амониеви урати и пикочна киселина",
     "frontImage": "/assets/pdfs/@probes/urine/urate-1.png",
+    "type"      : "crystal",
     "gallery"   : [
       "/assets/pdfs/@probes/urine/urate-1.png",
       "/assets/pdfs/@probes/urine/urate-2.png",
@@ -322,6 +333,7 @@
   {
     "title"     : "Кристали от билирубин",
     "frontImage": "/assets/pdfs/@probes/urine/bilirubin-1.png",
+    "type"      : "crystal",
     "gallery"   : [
       "/assets/pdfs/@probes/urine/bilirubin-1.png",
       "/assets/pdfs/@probes/urine/bilirubin-2.png"
@@ -350,6 +362,7 @@
   {
     "title"     : "Кристали от цистин",
     "frontImage": "/assets/pdfs/@probes/urine/cystine-1.png",
+    "type"      : "crystal",
     "gallery"   : [
       "/assets/pdfs/@probes/urine/cystine-1.png",
       "/assets/pdfs/@probes/urine/cystine-2.png"
@@ -378,6 +391,7 @@
   {
     "title"     : "Кристали от тирозин",
     "frontImage": "/assets/pdfs/@probes/urine/tyrosine-1.png",
+    "type"      : "crystal",
     "gallery"   : [
       "/assets/pdfs/@probes/urine/tyrosine-1.png",
       "/assets/pdfs/@probes/urine/tyrosine-2.png"
@@ -404,6 +418,7 @@
   {
     "title"     : "Кристали от холестерол",
     "frontImage": "/assets/pdfs/@probes/urine/cholesterol-1.png",
+    "type"      : "crystal",
     "gallery"   : [
       "/assets/pdfs/@probes/urine/cholesterol-1.png",
       "/assets/pdfs/@probes/urine/cholesterol-2.png"
@@ -431,6 +446,7 @@
   {
     "title"     : "Кристали от медикаменти",
     "frontImage": "/assets/pdfs/@probes/urine/drug-crystals-1.png",
+    "type"      : "crystal",
     "gallery"   : [
       "/assets/pdfs/@probes/urine/drug-crystals-1.png",
       "/assets/pdfs/@probes/urine/drug-crystals-2.png"
@@ -464,10 +480,10 @@
   },
 
 
-
   {
     "title"     : "Кристали от левцин",
     "frontImage": "/assets/pdfs/@probes/urine/leucine-1.png",
+    "type"      : "crystal",
     "gallery"   : [
       "/assets/pdfs/@probes/urine/leucine-1.png"
     ],
@@ -484,6 +500,349 @@
           "These crystals are yellow-brown disks with concentric rings like a tree trunk.",
           "They’re typically a symptom of severe liver disease. Other symptoms may include abdominal swelling, vomiting, nausea, disorientation, and malaise.",
           "Treatment involves improving liver function and health immediately. This will include medications to reduce the risk of bleeding and reduce swelling caused by excess fluid."
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "title"     : "Хиалинни цилиндри (Hyaline casts)",
+    "frontImage": "/assets/pdfs/@probes/urine/hyaline-1.png",
+    "type"      : "cast",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/hyaline-1.png",
+      "/assets/pdfs/@probes/urine/hyaline-2.png",
+      "/assets/pdfs/@probes/urine/hyaline-3.png",
+      "/assets/pdfs/@probes/urine/hyaline-4.png",
+      "/assets/pdfs/@probes/urine/hyaline-5.png",
+      "/assets/pdfs/@probes/urine/hyaline-granular.png",
+      "/assets/pdfs/@probes/urine/hyaline-granular-2.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          "Occasional hyaline casts can be found in healthy animals, but increased numbers are seen with glomerular proteinuria or after strenuous exercise. They appear as smooth, almost transparent bodies with no internal structure."
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Гранулирани цилиндри (Granular casts)",
+    "frontImage": "/assets/pdfs/@probes/urine/granular-cast-1.png",
+    "type"      : "cast",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/granular-cast-1.png",
+      "/assets/pdfs/@probes/urine/granular-cast-2.png",
+      "/assets/pdfs/@probes/urine/granular-cast-3.png",
+      "/assets/pdfs/@probes/urine/granular-cellular-mixed.png",
+      "/assets/pdfs/@probes/urine/hyaline-granular.png",
+      "/assets/pdfs/@probes/urine/hyaline-granular-2.png",
+      "/assets/pdfs/@probes/urine/granular-cellular-waxy.png",
+      "/assets/pdfs/@probes/urine/granular-to-waxy.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          "These form when cellular debris or plasma proteins are incorporated into the Tamm–Horsfall matrix, or possibly by degeneration of cellular casts. Occasional granular casts can be found in healthy animals, but increased numbers indicate tubular cell degeneration, necrosis or inflammation. They may contain fine or coarse granules, depending on their constitutive material and the time elapsed since formation"
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Клетъчни цилиндри (Cellular casts)",
+    "frontImage": "/assets/pdfs/@probes/urine/cellular-cast-1.png",
+    "type"      : "cast",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/leucine-1.png",
+      "/assets/pdfs/@probes/urine/cellular-cast-2.png",
+      "/assets/pdfs/@probes/urine/cellular-waxy.png",
+      "/assets/pdfs/@probes/urine/granular-cellular-mixed.png",
+      "/assets/pdfs/@probes/urine/granular-cellular-waxy.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          "Състав: епителни клетки, еритроцити, левкоцити"
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          "Always pathological, these form when epithelial cells, erythrocytes or leucocytes (or a mixture of these) are incorporated into the Tamm–Horsfall matrix. Epithelial cell casts occur when there is active tubular degeneration or necrosis (e.g. toxic nephrosis; haemoglobinuria or myoglobinuria-associated nephropathy; or ischaemic damage), while leucocyte casts indicate renal tubule inflammation (i.e. tubular nephrosis and pyelonephritis). Erythrocyte casts form with glomerular or tubular haemorrhage."
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Мастни цилиндри (Fatty casts)",
+    "frontImage": "/assets/pdfs/@probes/urine/fatty-cast-1.png",
+    "type"      : "cast",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/fatty-cast-1.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          "These form with the incorporation of lipid droplets or lipid-laden cell remnants into the Tamm– Horsfall matrix and are associated with the same pathology as epithelial cell casts (indeed, they may be aged epithelial cell casts)."
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Восъчни цилиндри (Waxy casts)",
+    "frontImage": "/assets/pdfs/@probes/urine/waxy-1.png",
+    "type"      : "cast",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/waxy-1.png",
+      "/assets/pdfs/@probes/urine/waxy-granular-1.png",
+      "/assets/pdfs/@probes/urine/waxy-granular-mixed.png",
+      "/assets/pdfs/@probes/urine/cellular-waxy.png",
+      "/assets/pdfs/@probes/urine/waxy-variant.png",
+      "/assets/pdfs/@probes/urine/granular-cellular-waxy.png",
+      "/assets/pdfs/@probes/urine/granular-to-waxy.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          "Rarely seen, these are thought to be formed by the in vivo deterioration and solidification of granular or epithelial cell casts; they suggest chronic renal disease."
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "title"     : "Bacilli",
+    "frontImage": "/assets/pdfs/@probes/urine/bacilli-1.png",
+    "type"      : "infectious",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/bacilli-1.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          "не се срещат в стерилна урина от здраво ЖВ."
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Cocci",
+    "frontImage": "/assets/pdfs/@probes/urine/cocci-1.png",
+    "type"      : "infectious",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/cocci-1.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          "Bacterial cocci are readily identified when they form long chains (likely Streptococcus spp.) as shown in the image of urine at left. However, doublets and clusters must be distinguished from small amorphous crystals, cellular debris, and small fat droplets, all of which show brownian motion in urine. A Gram-stained smear of urine sediment could be done to confirm the presence of cocci and distinguish them from non-bacterial structures."
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Fungi",
+    "frontImage": "/assets/pdfs/@probes/urine/yeasts-fungi-1.png",
+    "type"      : "infectious",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/yeasts-fungi-1.png",
+      "/assets/pdfs/@probes/urine/yeasts-fungi-2.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Yeast",
+    "frontImage": "/assets/pdfs/@probes/urine/yeasts-fungi-1.png",
+    "type"      : "infectious",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/yeasts-fungi-1.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Capillaria plica",
+    "frontImage": "/assets/pdfs/@probes/urine/capillaria-1.png",
+    "type"      : "infectious",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/capillaria-1.png",
+      "/assets/pdfs/@probes/urine/capillaria-2.png",
+      "/assets/pdfs/@probes/urine/capillaria-3.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Dioctophyme renale",
+    "frontImage": "/assets/pdfs/@probes/urine/dioctophyme-1.png",
+    "type"      : "infectious",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/dioctophyme-1.png",
+      "/assets/pdfs/@probes/urine/dioctophyme-2.png",
+      "/assets/pdfs/@probes/urine/dioctophyme-3.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Diatom",
+    "frontImage": "/assets/pdfs/@probes/urine/diatoms.png",
+    "type"      : "infectious",
+    "gallery"   : [
+      "/assets/pdfs/@probes/urine/diatoms.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          "Diatoms are a plankton found in fresh water. Their presence in this urine sample from a dog indicates contamination with fresh pond water or other natural waterway"
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
         ]
       }
     ]
