@@ -21,24 +21,24 @@ const routes: Routes = [
     component : TabsPage,
     children  : [
       {
-        path          : 'tab1',
+        path          : 'teeth',
         loadChildren  : () => import('../main/main.module').then(m => m.FeatureModule)
       },
       {
-        path          : 'tab2',
+        path          : 'gender',
         loadChildren  : () => import('../main/main.module').then(m => m.FeatureModule)
       },
       {
-        path          : 'tab3',
+        path          : 'indicators',
         loadChildren  : () => import('../main/main.module').then(m => m.FeatureModule)
       },
       {
-        path          : 'tab4',
+        path          : 'dispersal',
         loadChildren  : () => import('../main/main.module').then(m => m.FeatureModule)
       },
       {
         path          : '',
-        redirectTo    : 'tab1',
+        redirectTo    : 'teeth',
         pathMatch     : 'full'
       }
     ]

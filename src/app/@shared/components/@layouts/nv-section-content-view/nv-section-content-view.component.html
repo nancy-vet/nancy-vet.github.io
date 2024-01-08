@@ -1,7 +1,16 @@
 <div>
+
   @for(element of inputSectionContent; track element) {
 
-    <div class="h3 mt16">{{element.title}}</div>
+
+    @if(element.title) {
+      <div class="h3 mt16">{{element.title}}</div>
+    }
+
+    @if(element.sectionTitle) {
+      <div class="h3 mt16">{{element.sectionTitle}}</div>
+    }
+
 
     @for(sectionElement of element.content; track sectionElement) {
 
