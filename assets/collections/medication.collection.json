@@ -2605,7 +2605,7 @@
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/nervous/epityl.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/nervous/phenobarbital.pdf" }
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/phenobarbital.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
