@@ -2581,7 +2581,7 @@
         "applicationMethod": "бавно венозно"
       }
     },
-    "indications"       : [],
+    "indications"       : ["дава се еднократно при Status epilepticus, след което се преминава към таблетки (Епитил)."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -2610,6 +2610,33 @@
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
+    "adverseEffects"    : ["седация, полиурия, полидипсия, полифагия. Седацията трае 3-5 дни, а другите странични ефекти продължават до първите седмици от лечението. При КЧ често усложнение е ЧД увреждане (при КТ това не се среща).", "неутропения и тромбоцитопения", "При някои ЖВ АЛАТ и АФ се повишават при продължителен прием на фенобарбитал."],
+    "pharmacology"      : []
+  },
+  {
+    "type": "nervous",
+    "title": "Диазепам 5 мг/мл ампула",
+    "titleEn": "Diazepam 5 mg/ml amp",
+    "activeSubstance": "диазепам",
+    "drugConcentration": 5,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0.5,
+          1
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "ИВ, ИМ, ПО, а при ректално дозата е двойна"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/nervous/finlepsin.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/diazepam.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : ["Фенобарбитал: понижава нивата на диазепам."],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
