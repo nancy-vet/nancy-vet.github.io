@@ -981,7 +981,7 @@
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/butorphanol.pdf" }
     ],
     "indications"       : [],
-    "contraindications" : [],
+    "contraindications" : ["Contraindicated or caution in patients with liver disease, hypothyroidism, or renal insufficiency, Addison’s, head trauma, increased CSF pressure or other CNS dysfunction (e.g., coma) & in geriatric or severely debilitated patients "],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
@@ -2595,12 +2595,20 @@
     "drugConcentration": 60,
     "drugConcentrationDecorator": "mg_tabl",
     "application": {
-      "any": {
+      "dog": {
         "activeSubstanceDose": [
           2.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO "
+        "applicationMethod": "PO q12h"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          1,
+          2
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO q12h"
       }
     },
     "links": [
@@ -2634,10 +2642,44 @@
       { "title": "листовка", "link": "pdfs/@medication/nervous/finlepsin.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/diazepam.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["транквилант (успокоява ЖВ без да губят пълно съзнание).", "използва се при status epilepticus", "Urine marking and anxiety for cats: 0.2 – 0.4 mg/kg PO q12 – 24h (start at 0.2 mg/kg PO q12h)"],
     "contraindications" : [],
-    "drugInteractions"  : ["Фенобарбитал: понижава нивата на диазепам."],
-    "adverseEffects"    : [],
+    "drugInteractions"  : ["Антидот: Флумазенил", "Фенобарбитал: понижава нивата на диазепам.", "Дигоксин: увеличава концентрациите на диазепама."],
+    "adverseEffects"    : ["при КТ може да доведе до ЧД некроза при продължителен прием."],
+    "pharmacology"      : []
+  },
+  {
+    "type": "nervous",
+    "title": "Ноепикс 500 мг табл",
+    "titleEn": "Noepix 500 mg tabl",
+    "activeSubstance": "леветирацетам",
+    "drugConcentration": 500,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          10,
+          20
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO q8h в допълнение с фенобарбитал"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          20
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO q8h в допълнение с фенобарбитал, като бавно се повишава до ефект"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/nervous/noepix.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/levetiracetam.pdf" }
+    ],
+    "indications"       : ["при епилепсия", "намалява дозите на фенобарбитала без да води до появата на епилептични припадъци."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : ["безапетитие при някои котки."],
     "pharmacology"      : []
   },
   {
@@ -2679,7 +2721,7 @@
           6
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IV"
+        "applicationMethod": "бавно IV, 25% от дозата на всеки 30 секунди до постигане на ефект."
       }
     },
     "links": [
@@ -2687,7 +2729,9 @@
     ],
     "indications"       : [],
     "contraindications" : [],
-    "drugInteractions"  : []
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
   },
   {
     "type": "nervous",

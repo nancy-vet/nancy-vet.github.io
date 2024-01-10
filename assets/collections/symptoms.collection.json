@@ -1,6 +1,6 @@
 [
   {
-    "symptom" : "Diarrhea, acute",
+    "symptom" : "Диария, остра",
     "type"    :"gastrointestinal",
     "meaning" : "diarrhea less than 7-14 days",
     "causes"  : [
@@ -46,7 +46,7 @@
     ]
   },
   {
-    "symptom" : "Diarrhea, chronic",
+    "symptom" : "Диария, хронична",
     "type"    :"gastrointestinal",
     "meaning" : "diarrhea more than 7-14 days",
     "causes"  : [
@@ -90,6 +90,45 @@
       { "title": "Алгоритъм котка НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_cat.pdf" },
       { "title": "Алгоритъм миниВет" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea-minivet.pdf" },
       { "title": "Хронична диария Котки" , "link": "pdfs/@algorithms/gastrointestinal/chronic-diarrhea-cats.pdf" }
+    ]
+  },
+  {
+    "symptom" : "Status epilepticus",
+    "type"    :"nervous",
+    "meaning" : "a state of continuous seizure activity lasting at least 5 minutes or when two or more seizures occur without complete recovery between them.",
+    "causes"  : [
+      {
+          "group": "INTRACRANIAL", "children": [
+            { "title" : "Neoplasia" },
+            { "title" : "Inflammatory/Infectious" },
+            { "title" : "Vascular" },
+            { "title" : "Degenerative/congenital/anomalous/malformation" },
+            { "title" : "Traumatic" }
+          ]
+      },
+      {
+          "group": "EXTRACRANIAL", "children": [
+            { "title" : "Metabolic" , "children": [
+                {"title" : "Hepatic encephalopathy"},
+                {"title" : "Hyperthyroidism"},
+                {"title" : "Hypocalcemia"},
+                {"title" : "Hypoglycemia"},
+                {"title" : "Severe uremia (end-stage renal disease)"}
+              ]
+            },
+            { "title" : "Toxins" },
+            { "title" : "Nutritional - Thiamine deficiency (terminal stage)" }
+          ]
+      },
+      {
+        "group": "EPILEPSY", "children": [
+            { "title" : "Functional: Idiopathic or Genetic" },
+            { "title" : "Structural: Postencephalitic; Posttraumatic; Postischemic (FIE, hypoxic event)" }
+          ]
+      }
+    ],
+    "links" : [
+      { "title": "алгоритъм", "link": "pdfs/@algorithms/nervous/status_epilepticus.pdf" }
     ]
   },
   {
