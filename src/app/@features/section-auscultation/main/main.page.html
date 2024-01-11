@@ -14,9 +14,23 @@
   [fullscreen]="true">
 
   @for(element of $data; track element) {
-    <nv-section-content-view
-      [inputSectionContent]="element.section">
-    </nv-section-content-view>
+    <ion-grid>
+      <ion-row>
+        <ion-col size="12">
+
+          <div>
+            <div>{{element.title}}</div>
+            <div>
+              <img src="{{element.frontImage}}"/>
+              <audio controls>
+                <source src="{{element.frontAudio}}" type="audio/wav">
+              </audio>
+            </div>
+          </div>
+
+        </ion-col>
+      </ion-row>
+    </ion-grid>
   }
 
 </ion-content>

@@ -147,8 +147,8 @@
 
   {
     "title"     : "S3",
-    "frontImage": "/assets/pdfs/@auscultation/heart/aortic-regurgitation.png",
-    "frontAudio": "/assets/pdfs/@auscultation/heart/aortic-regurgitation.wav",
+    "frontImage": "/assets/pdfs/@auscultation/heart/s3.png",
+    "frontAudio": "/assets/pdfs/@auscultation/heart/s3.wav",
     "type"      : "допълнителен шум",
     "section"   : [
       {
@@ -167,8 +167,8 @@
   },
   {
     "title"     : "S4",
-    "frontImage": "/assets/pdfs/@auscultation/heart/aortic-regurgitation.png",
-    "frontAudio": "/assets/pdfs/@auscultation/heart/aortic-regurgitation.wav",
+    "frontImage": "/assets/pdfs/@auscultation/heart/s4.png",
+    "frontAudio": "/assets/pdfs/@auscultation/heart/s4.wav",
     "type"      : "допълнителен шум",
     "section"   : [
       {
