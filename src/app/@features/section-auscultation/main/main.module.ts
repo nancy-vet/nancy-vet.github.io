@@ -17,6 +17,8 @@ import { NvLinkButtonComponent    } from 'nv@components/@forms/nv-link-button/nv
 import { MainPage                 } from './main.page';
 import { NvSectionContentView     } from 'nv@components/@layouts/nv-section-content-view/nv-section-content-view.component';
 
+import { DetailModal              } from './@modal/detail/detail.component';
+
 const routes: Routes = [{
     path      : '',
     component : MainPage,
@@ -28,7 +30,8 @@ const routes: Routes = [{
     CUSTOM_ELEMENTS_SCHEMA
   ],
     declarations                    : [
-      MainPage
+      MainPage                      ,
+      DetailModal
     ],
     imports                         : [
       RouterModule.forChild(routes) ,

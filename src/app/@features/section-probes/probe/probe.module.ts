@@ -30,7 +30,7 @@ const routes: Routes = [{
     CUSTOM_ELEMENTS_SCHEMA
   ],
     declarations                    : [
-      ProbePage                ,
+      ProbePage                     ,
       DetailModal                   ,
       GalleryModal
     ],

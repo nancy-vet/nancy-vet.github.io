@@ -10,7 +10,7 @@ export class AuscultationService {
   public get(groupId: string) {
 
     if(groupId == 'heart'       ) return heartTable;
-    if(groupId == 'lungs'      ) return lungsTable;
+    if(groupId == 'lungs'       ) return lungsTable;
 
     return [];
   }
