@@ -1,8 +1,8 @@
 [
   {
     "title"     : "Нормален сърдечен звук",
-    "frontImage": "/assets/pdfs/@auscultation/heart/aortic-pulmonic-stenosis-1.png",
-    "frontAudio": "/assets/pdfs/@auscultation/heart/aortic-pulmonic-stenosis-1.wav",
+    "frontImage": "/assets/pdfs/@auscultation/heart/normal-heart.png",
+    "frontAudio": "/assets/pdfs/@auscultation/heart/normal-heart.wav",
     "type"      : "систоличен шум",
     "section"   : [
       {
