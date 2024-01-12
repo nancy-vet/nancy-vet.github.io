@@ -18,10 +18,10 @@
       <ion-row>
         <ion-col size="12">
 
-          <div (click)="onSelectCard(element)">
+          <div>
             <div>{{element.title}}</div>
             <div>
-              <img src="{{element.frontImage}}"/>
+              <img src="{{element.frontImage}}" (click)="onSelectCard(element)"/>
               <audio controls>
                 <source src="{{element.frontAudio}}" type="audio/wav">
               </audio>
