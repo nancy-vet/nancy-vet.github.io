@@ -1963,6 +1963,63 @@
   },
   {
     "type": "urogenital",
+    "title": "Рокалтрол 0,25 мкг капс",
+    "titleEn": "Rocaltrol 0.25 mcg caps",
+    "activeSubstance": "калцитриол",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          0.0025,
+          0.0035
+        ],
+        "activeSubstanceDoseDecorator": "µg_kg",
+        "applicationMethod": "PO веднъж дневно"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          0.0025,
+          0.0035
+        ],
+        "activeSubstanceDoseDecorator": "µg_kg",
+        "applicationMethod": "PO веднъж дневно"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/urogenital/rocaltrol.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/calcitriol.pdf" }
+    ],
+    "indications"       : ["калцитриолът е най-активната форма на витамин D3", "подпомага усвояването на калций от храната и регулира костната минерализация.", "при бъбречна недостатъчност", "при идиопатична себорея"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : ["Серумният калций се измерва на 7-ия и на 14-ия дни, след което на всеки 6 месеца.", "Серумният креатинин се измерва на всеки 1-3 месеца."],
+    "pharmacology"      : ["1. Потвърди хроничната ББ недостатъчност (креатинин > 176,84 µmol/L).", "2. Намали хиперфосфатемията до 530.52 µmol/L.", "3. Ако Crea = 176,84-265.26 µmol/L и фосфор = 530.52 µmol/L, то започни калцитриол на 2.5–3.5 нанограма на кг на ден."]
+  },
+  {
+    "type": "urogenital",
+    "title": "Ипакитин диетична храна за кучета и котки с ББ недостатъчност 60 г",
+    "titleEn": "Ipakitine diet food 60 g",
+    "activeSubstance": "лактоза, калциев карбонат, хитозан, протеини, влакнини, мазнини",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "cat": {
+        "activeSubstanceDose": [
+          200
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "1 г/5 кг два пъти дневно през устата или смесено с основната храна."
+      }
+    },
+    "indications"       : ["Първият по рода си в света продукт, завършена и оптимизирана комбинация от съставки с превъзходен вкус, които играят ролята да улавят фосфати, т.е. да редуцират фосфатемията. През периода на приложение трябва да се осигури постоянен достъп до прясна вода. Прилагането може да продължи през целия остатък от живота."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "urogenital",
     "title": "ИркВет 50 мл",
     "titleEn": "IrcVet",
     "activeSubstance": "-",
@@ -1977,7 +2034,7 @@
         "applicationMethod": "чрез разклащане и приложение PO или върху храната"
       }
     },
-    "indications"       : [],
+    "indications"       : ["за бъбречни проблеми", "предпазва ББ клетки", "свързва ентерално фосфора", "синергично действие с Ипакитин и Рубенал"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -2010,7 +2067,7 @@
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
-    "pharmacology"      : []
+    "pharmacology"      : ["Калциевият и магнезиевият карбонат намаляват количеството на фосфора, постъпил с храната, като се свързват с него в червата.", "Хитозанът се свързва с токсините в червата.", "Полизахаридите в състава на астрагала допринасят за поддържане нормалната структура на бъбреците.", "Олигопептидите с морски произход допринасят за поддържане на нормално кръвно налягане."]
   },
   {
     "type": "urogenital",
@@ -2122,28 +2179,6 @@
       }
     },
     "indications"       : ["инфекции на пикочните пътища"],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "urogenital",
-    "title": "Ипакитин диетична храна за кучета и котки с ББ недостатъчност 60 г",
-    "titleEn": "Ipakitine diet food 60 g",
-    "activeSubstance": "лактоза, калциев карбонат, хитозан, протеини, влакнини, мазнини",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "same",
-    "application": {
-      "cat": {
-        "activeSubstanceDose": [
-          200
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "1 г/5 кг два пъти дневно през устата или смесено с основната храна."
-      }
-    },
-    "indications"       : ["Първият по рода си в света продукт, завършена и оптимизирана комбинация от съставки с превъзходен вкус, които играят ролята да улавят фосфати, т.е. да редуцират фосфатемията. През периода на приложение трябва да се осигури постоянен достъп до прясна вода. Прилагането може да продължи през целия остатък от живота."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
