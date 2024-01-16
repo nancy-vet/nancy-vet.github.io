@@ -4742,7 +4742,7 @@
     "indications"       : ["група: аминогликозиди"],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["нелечима ототоксичност", "ББ увреждане"],
     "pharmacology"      : []
   },
   {
@@ -5716,22 +5716,22 @@
     "title": "Кандизол 150 мг капс.",
     "titleEn": "Kandizol 150 mg caps",
     "activeSubstance": "флуконазол",
-    "drugConcentration": 20,
+    "drugConcentration": 150,
     "drugConcentrationDecorator": "mg_caps",
     "application": {
-      "any": {
+      "dog": {
         "activeSubstanceDose": [
-          1
+          5
         ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO q24h"
       }
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/antibiotics/kandizol.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/fluconazole.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["маласезиен дерматит"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
