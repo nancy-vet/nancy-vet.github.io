@@ -2,7 +2,7 @@
   {
     "title"       : "Диаскопия",
     "titleEn"     : "Diascopy",
-    "type"        : "ear",
+    "type"        : ["ear", "skin"],
     "section"     : [
       {
         "title"  : "Начин",
@@ -21,7 +21,7 @@
   {
     "title"       : "Проба с тиксо",
     "titleEn"     : "Skin scraping (superficial)",
-    "type"        : "ear",
+    "type"        : ["ear", "skin"],
     "section"     : [
       {
         "title"  : "Начин",
@@ -41,7 +41,7 @@
   {
     "title"       : "Остъргване на кожата (повърхностно)",
     "titleEn"     : "Diascopy",
-    "type"        : "ear",
+    "type"        : ["ear", "skin"],
     "section"     : [
       {
         "title"  : "Начин",
@@ -64,7 +64,7 @@
   {
     "title"       : "Остъргване на кожата (дълбоко)",
     "titleEn"     : "Skin scraping (deep)",
-    "type"        : "ear",
+    "type"        : ["ear", "skin"],
     "section"     : [
       {
         "title"  : "Начин",
@@ -84,7 +84,7 @@
   {
     "title"       : "Ушен секрет, взет чрез тампон",
     "titleEn"     : "",
-    "type"        : "ear",
+    "type"        : ["ear", "skin"],
     "section"     : [
       {
         "title"  : "Начин",
@@ -105,7 +105,7 @@
   {
     "title"       : "Трихография",
     "titleEn"     : "Trichography",
-    "type"        : "",
+    "type"        : ["ear", "skin"],
     "section"     : [
       {
         "title"  : "Начин",
@@ -113,6 +113,203 @@
             "С хемостатик се взимат около 100 косми, които се слагат върху предметно стъкло.",
             "Нареждат се перпендикулярно, като всички корени са от едната страна, а върховете на космите - от друга.",
             "Накапват се с течен парафин или КОН."
+        ]
+      },
+      {
+        "title"  : "Какво се открива?",
+        "content"       : [
+            ""
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "title"       : "Метод на Фюлеборн",
+    "titleEn"     : "",
+    "type"        : ["feces"],
+    "section"     : [
+      {
+        "title"  : "Начин",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Какво се открива?",
+        "content"       : [
+            ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Метод на Шидър",
+    "titleEn"     : "",
+    "type"        : ["feces"],
+    "section"     : [
+      {
+        "title"  : "Начин",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Какво се открива?",
+        "content"       : [
+            ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Метод на последователните утаявания",
+    "titleEn"     : "",
+    "type"        : ["feces"],
+    "section"     : [
+      {
+        "title"  : "Начин",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Какво се открива?",
+        "content"       : [
+            ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Метод на Берман",
+    "titleEn"     : "",
+    "type"        : ["feces"],
+    "section"     : [
+      {
+        "title"  : "Начин",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Какво се открива?",
+        "content"       : [
+            ""
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
+  {
+    "title"       : "Кръвна натривка, оцветена",
+    "titleEn"     : "",
+    "type"        : ["blood"],
+    "section"     : [
+      {
+        "title"  : "Начин",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Какво се открива?",
+        "content"       : [
+            ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Кръвна натривка за микрофиларии",
+    "titleEn"     : "",
+    "type"        : ["blood"],
+    "section"     : [
+      {
+        "title"  : "Начин",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Какво се открива?",
+        "content"       : [
+            ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Метод на Нот (Knott)",
+    "titleEn"     : "",
+    "type"        : ["blood"],
+    "section"     : [
+      {
+        "title"  : "Начин",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Какво се открива?",
+        "content"       : [
+            ""
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+
+  {
+    "title"       : "Вагинален секрет",
+    "titleEn"     : "",
+    "type"        : ["vagina"],
+    "section"     : [
+      {
+        "title"  : "Начин",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Какво се открива?",
+        "content"       : [
+            ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Евтаназия",
+    "titleEn"     : "Eutanasia",
+    "type"        : ["death"],
+    "section"     : [
+      {
+        "title"  : "Начин",
+        "content"       : [
+            ""
         ]
       },
       {
