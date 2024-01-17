@@ -2,6 +2,7 @@
 
   {
     "title"       : "Хронична бъбречна недостатъчност",
+    "titleEn"     : "",
     "type"        : "пикочо-полова система",
     "animals"     : "cats",
     "bodySystem"  : ["U"],
@@ -54,6 +55,7 @@
   },
   {
     "title"       : "Feline lower urinary tract disease (FLUTD)",
+    "titleEn"     : "",
     "type"        : "пикочо-полова система",
     "animals"     : "cats",
     "bodySystem"  : ["U"],
@@ -112,6 +114,7 @@
 
   {
     "title"       : "Епилепсия",
+    "titleEn"     : "",
     "type"        : "нервна система",
     "animals"     : "both",
     "bodySystem"  : ["N"],
@@ -171,6 +174,7 @@
 
   {
     "title"       : "Панлевкопения",
+    "titleEn"     : "",
     "type"        : "инфекциозно",
     "animals"     : "cats",
     "bodySystem"  : ["G"],
@@ -224,6 +228,7 @@
 
   {
     "title"       : "Херпесвироза",
+    "titleEn"     : "",
     "type"        : "инфекциозно",
     "animals"     : "cats",
     "bodySystem"  : ["eyes", "nose"],
@@ -287,6 +292,7 @@
 
   {
     "title"       : "Калицивироза",
+    "titleEn"     : "",
     "type"        : "инфекциозно",
     "animals"     : "cats",
     "bodySystem"  : ["eyes", "nose"],
@@ -349,6 +355,7 @@
 
   {
     "title"       : "Хламидиоза",
+    "titleEn"     : "",
     "type"        : "инфекциозно",
     "animals"     : "cats",
     "bodySystem"  : ["eyes", "nose"],
@@ -408,6 +415,7 @@
 
   {
     "title"       : "Левкемия",
+    "titleEn"     : "",
     "type"        : "инфекциозно",
     "animals"     : "cats",
     "bodySystem"  : ["G"],
@@ -461,6 +469,7 @@
 
   {
     "title"       : "Имунодефицитен синдром",
+    "titleEn"     : "",
     "type"        : "инфекциозно",
     "animals"     : "cats",
     "bodySystem"  : ["G"],
@@ -514,6 +523,7 @@
 
   {
     "title"       : "Гана",
+    "titleEn"     : "",
     "type"        : "инфекциозно",
     "animals"     : "both",
     "bodySystem"  : ["G", "R"],
@@ -569,6 +579,7 @@
   },
   {
     "title"       : "Парвовироза",
+    "titleEn"     : "",
     "type"        : "инфекциозно",
     "animals"     : "dogs",
     "bodySystem"  : ["G"],
@@ -625,6 +636,7 @@
 
   {
     "title"       : "Висцерална лайшманиоза",
+    "titleEn"     : "",
     "type"        : "инфекциозно",
     "animals"     : "dogs",
     "bodySystem"  : ["G"],
@@ -681,6 +693,7 @@
 
   {
     "title"       : "Хемобартонелоза",
+    "titleEn"     : "",
     "type"        : "инфекциозно",
     "animals"     : "both",
     "bodySystem"  : ["G"],
@@ -722,6 +735,7 @@
 
   {
     "title"       : "Инфекциозен перитонит",
+    "titleEn"     : "",
     "type"        : "инфекциозно",
     "animals"     : "cats",
     "bodySystem"  : ["G"],
@@ -769,10 +783,998 @@
       }
     ]
   },
+  {
+    "title"       : "Бордетелоза",
+    "titleEn"     : "",
+    "type"        : "инфекциозно",
+    "animals"     : "cats",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Бордетелоза.docx" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
 
 
   {
-    "title"       : "",
+    "title"       : "Дилатативна кардиомиопатия",
+    "titleEn"     : "",
+    "type"        : "сърдечна система",
+    "animals"     : "cats",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Дилатативна кардиомиопатия.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Миксоматозно заболяване на митралната клапа",
+    "titleEn"     : "",
+    "type"        : "сърдечна система",
+    "animals"     : "cats",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Миксоматозно заболяване на митралната клапа.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Постоянен дуктус артериозус",
+    "titleEn"     : "Persistent ductus arteriosus",
+    "type"        : "сърдечна система",
+    "animals"     : "cats",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Постоянен дуктус артериозус.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Тетралогия на Фало",
+    "titleEn"     : "Tetralogy of Fallot",
+    "type"        : "сърдечна система",
+    "animals"     : "cats",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Тетралогия на Фало.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Хипертрофична кардиомиопатия",
+    "titleEn"     : "Hypertrophic cardiomyopathy",
+    "type"        : "сърдечна система",
+    "animals"     : "dogs",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Хипертрофична кардиомиопатия.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "title"       : "Бруцелоза",
+    "titleEn"     : "Brucellosis",
+    "type"        : "инфекциозно",
+    "animals"     : "cats",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Бруцелоза.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Бяс",
+    "titleEn"     : "",
+    "type"        : "инфекциозно",
+    "animals"     : "cats",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Бяс.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Векторни бактериални инфекции при кучетата",
+    "titleEn"     : "",
+    "type"        : "инфекциозно",
+    "animals"     : "cats",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Векторни бактериални инфекции при кучетата.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Колиинфекции",
+    "titleEn"     : "",
+    "type"        : "инфекциозно",
+    "animals"     : "cats",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Колиинфекции.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Салмонелози и паратифни заболявания",
+    "titleEn"     : "",
+    "type"        : "инфекциозно",
+    "animals"     : "cats",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Салмонелози и паратифни заболявания.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Туберкулоза",
+    "titleEn"     : "",
+    "type"        : "инфекциозно",
+    "animals"     : "cats",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Туберкулоза.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Лептоспироза",
+    "titleEn"     : "",
+    "type"        : "инфекциозно",
+    "animals"     : "cats",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Лептоспироза.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Листериоза",
+    "titleEn"     : "",
+    "type"        : "инфекциозно",
+    "animals"     : "cats",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Листериоза.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Ку-треска",
+    "titleEn"     : "",
+    "type"        : "инфекциозно",
+    "animals"     : "cats",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Ку-треска.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Туларемия",
+    "titleEn"     : "",
+    "type"        : "инфекциозно",
+    "animals"     : "cats",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Туларемия.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+  {
+    "title"       : "Вторичен бъбречен хиперпаратиреоидизъм",
+    "titleEn"     : "",
+    "type"        : "пикочо-полова система",
+    "animals"     : "cats",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Вторичен бъбречен хиперпаратиреоидизъм.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Захарен диабет",
+    "titleEn"     : "",
+    "type"        : "ендокринна система",
+    "animals"     : "both",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Панкреатит",
+    "titleEn"     : "",
+    "type"        : "ендокринна система",
+    "animals"     : "both",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Панкреатит.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Екзокринна панкреасна недостатъчност",
+    "titleEn"     : "Exocrine Pancreatic Insufficiency",
+    "type"        : "ендокринна система",
+    "animals"     : "both",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Еклампсия",
+    "titleEn"     : "",
+    "type"        : "пикочо-полова система",
+    "animals"     : "cats",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Еклампсия.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Липидоза",
+    "titleEn"     : "Feline Hepatic Lipidosis",
+    "type"        : "пикочо-полова система",
+    "animals"     : "cats",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Липидоза.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Колапс на трахеята",
+    "titleEn"     : "Tracheal collapse",
     "type"        : "пикочо-полова система",
     "animals"     : "cats",
     "bodySystem"  : ["U"],
@@ -816,6 +1818,7 @@
   },
   {
     "title"       : "",
+    "titleEn"     : "",
     "type"        : "пикочо-полова система",
     "animals"     : "cats",
     "bodySystem"  : ["U"],
@@ -859,221 +1862,7 @@
   },
   {
     "title"       : "",
-    "type"        : "пикочо-полова система",
-    "animals"     : "cats",
-    "bodySystem"  : ["U"],
-
-    "links": [
-      { "title": "описание", "link": "pdfs/@diseases/.pdf" }
-    ],
-
-    "section"     : [
-      {
-        "title"  : "Етиология",
-        "content"       : [
-            ""
-        ]
-      },
-      {
-        "title"  : "Клиника",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диагностика",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Лечение",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диференциална диагноза",
-        "content"       : [
-          ""
-        ]
-      }
-    ]
-  },
-  {
-    "title"       : "",
-    "type"        : "пикочо-полова система",
-    "animals"     : "cats",
-    "bodySystem"  : ["U"],
-
-    "links": [
-      { "title": "описание", "link": "pdfs/@diseases/.pdf" }
-    ],
-
-    "section"     : [
-      {
-        "title"  : "Етиология",
-        "content"       : [
-            ""
-        ]
-      },
-      {
-        "title"  : "Клиника",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диагностика",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Лечение",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диференциална диагноза",
-        "content"       : [
-          ""
-        ]
-      }
-    ]
-  },
-  {
-    "title"       : "",
-    "type"        : "пикочо-полова система",
-    "animals"     : "cats",
-    "bodySystem"  : ["U"],
-
-    "links": [
-      { "title": "описание", "link": "pdfs/@diseases/.pdf" }
-    ],
-
-    "section"     : [
-      {
-        "title"  : "Етиология",
-        "content"       : [
-            ""
-        ]
-      },
-      {
-        "title"  : "Клиника",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диагностика",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Лечение",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диференциална диагноза",
-        "content"       : [
-          ""
-        ]
-      }
-    ]
-  },
-  {
-    "title"       : "",
-    "type"        : "пикочо-полова система",
-    "animals"     : "cats",
-    "bodySystem"  : ["U"],
-
-    "links": [
-      { "title": "описание", "link": "pdfs/@diseases/.pdf" }
-    ],
-
-    "section"     : [
-      {
-        "title"  : "Етиология",
-        "content"       : [
-            ""
-        ]
-      },
-      {
-        "title"  : "Клиника",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диагностика",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Лечение",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диференциална диагноза",
-        "content"       : [
-          ""
-        ]
-      }
-    ]
-  },
-  {
-    "title"       : "",
-    "type"        : "пикочо-полова система",
-    "animals"     : "cats",
-    "bodySystem"  : ["U"],
-
-    "links": [
-      { "title": "описание", "link": "pdfs/@diseases/.pdf" }
-    ],
-
-    "section"     : [
-      {
-        "title"  : "Етиология",
-        "content"       : [
-            ""
-        ]
-      },
-      {
-        "title"  : "Клиника",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диагностика",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Лечение",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диференциална диагноза",
-        "content"       : [
-          ""
-        ]
-      }
-    ]
-  },
-  {
-    "title"       : "",
+    "titleEn"     : "",
     "type"        : "пикочо-полова система",
     "animals"     : "cats",
     "bodySystem"  : ["U"],
