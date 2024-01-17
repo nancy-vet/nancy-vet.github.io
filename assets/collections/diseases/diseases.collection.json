@@ -3,6 +3,7 @@
   {
     "title"       : "Хронична бъбречна недостатъчност",
     "type"        : "пикочо-полова система",
+    "animals"     : "cats",
     "bodySystem"  : ["U"],
 
     "links": [
@@ -54,6 +55,7 @@
   {
     "title"       : "Feline lower urinary tract disease (FLUTD)",
     "type"        : "пикочо-полова система",
+    "animals"     : "cats",
     "bodySystem"  : ["U"],
 
     "links": [
@@ -111,6 +113,7 @@
   {
     "title"       : "Епилепсия",
     "type"        : "нервна система",
+    "animals"     : "both",
     "bodySystem"  : ["N"],
 
     "links": [
@@ -167,8 +170,9 @@
   },
 
   {
-    "title"       : "Панлевкопения КТ",
+    "title"       : "Панлевкопения",
     "type"        : "инфекциозно",
+    "animals"     : "cats",
     "bodySystem"  : ["G"],
 
     "links": [
@@ -221,7 +225,8 @@
   {
     "title"       : "Херпесвироза",
     "type"        : "инфекциозно",
-    "bodySystem"  : ["G"],
+    "animals"     : "cats",
+    "bodySystem"  : ["eyes", "nose"],
 
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Херпесвироза.pdf" }
@@ -283,7 +288,8 @@
   {
     "title"       : "Калицивироза",
     "type"        : "инфекциозно",
-    "bodySystem"  : ["G"],
+    "animals"     : "cats",
+    "bodySystem"  : ["eyes", "nose"],
 
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Калицивироза.pdf" }
@@ -344,7 +350,8 @@
   {
     "title"       : "Хламидиоза",
     "type"        : "инфекциозно",
-    "bodySystem"  : ["G"],
+    "animals"     : "cats",
+    "bodySystem"  : ["eyes", "nose"],
 
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Хламидиоза.pdf" }
@@ -402,6 +409,7 @@
   {
     "title"       : "Левкемия",
     "type"        : "инфекциозно",
+    "animals"     : "cats",
     "bodySystem"  : ["G"],
 
     "links": [
@@ -454,6 +462,7 @@
   {
     "title"       : "Имунодефицитен синдром",
     "type"        : "инфекциозно",
+    "animals"     : "cats",
     "bodySystem"  : ["G"],
 
     "links": [
@@ -506,6 +515,7 @@
   {
     "title"       : "Гана",
     "type"        : "инфекциозно",
+    "animals"     : "both",
     "bodySystem"  : ["G", "R"],
 
     "links": [
@@ -560,6 +570,7 @@
   {
     "title"       : "Парвовироза",
     "type"        : "инфекциозно",
+    "animals"     : "dogs",
     "bodySystem"  : ["G"],
 
     "links": [
@@ -615,6 +626,7 @@
   {
     "title"       : "Висцерална лайшманиоза",
     "type"        : "инфекциозно",
+    "animals"     : "dogs",
     "bodySystem"  : ["G"],
 
     "links": [
@@ -670,6 +682,7 @@
   {
     "title"       : "Хемобартонелоза",
     "type"        : "инфекциозно",
+    "animals"     : "both",
     "bodySystem"  : ["G"],
 
     "section"     : [
@@ -710,6 +723,7 @@
   {
     "title"       : "Инфекциозен перитонит",
     "type"        : "инфекциозно",
+    "animals"     : "cats",
     "bodySystem"  : ["G"],
 
     "links": [
@@ -760,6 +774,308 @@
   {
     "title"       : "",
     "type"        : "пикочо-полова система",
+    "animals"     : "cats",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "",
+    "type"        : "пикочо-полова система",
+    "animals"     : "cats",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "",
+    "type"        : "пикочо-полова система",
+    "animals"     : "cats",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "",
+    "type"        : "пикочо-полова система",
+    "animals"     : "cats",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "",
+    "type"        : "пикочо-полова система",
+    "animals"     : "cats",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "",
+    "type"        : "пикочо-полова система",
+    "animals"     : "cats",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "",
+    "type"        : "пикочо-полова система",
+    "animals"     : "cats",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "",
+    "type"        : "пикочо-полова система",
+    "animals"     : "cats",
     "bodySystem"  : ["U"],
 
     "links": [
