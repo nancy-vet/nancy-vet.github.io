@@ -45,6 +45,10 @@ const routes: Routes = [
     loadChildren  : () => import('./@features/section-trivia/@navigation/tabs.module').then(m => m.TabsPageModule)
   },
   {
+    path          : AppNavigationRouteEnum.METHODS,
+    loadChildren  : () => import('./@features/section-methods/@navigation/tabs.module').then(m => m.TabsPageModule)
+  },
+  {
     path          : AppNavigationRouteEnum.AUSCULTATION,
     loadChildren  : () => import('./@features/section-auscultation/@navigation/tabs.module').then(m => m.TabsPageModule)
   }

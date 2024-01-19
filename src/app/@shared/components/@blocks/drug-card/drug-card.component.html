@@ -1,7 +1,7 @@
 <ion-grid>
   <ion-row (click)="processCard()">
     <ion-col size="2">
-      <div [ngClass]="['card-img', object?.type]">
+      <div [ngClass]="['card-img', convert(object?.type)]">
         <img [src]="imagePath" alt="image">
       </div>
     </ion-col>

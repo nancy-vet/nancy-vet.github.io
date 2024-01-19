@@ -29,8 +29,16 @@ export class DrugCard implements OnInit {
   }
 
   public processCard() {
-    console.log(this.object);
     this.onSelectCard.emit(this.object);
+  }
+
+  /**
+   * @author Mihail Petrov
+   * @param data
+   * @returns
+   */
+  public convert(data: any) {
+    return (data.length > 0) ? data[0] : data;
   }
 
   private buildAssetPath(): string {
