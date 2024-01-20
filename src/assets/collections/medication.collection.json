@@ -7780,6 +7780,31 @@
   },
   {
     "type": "others",
+    "title": "Репозе",
+    "titleEn": "Repose",
+    "activeSubstance": "пентобарбитал",
+    "drugConcentration": 500,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0.28
+        ],
+        "activeSubstanceDoseDecorator": "ml_kg",
+        "applicationMethod": "IV"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/others/repose.pdf" }
+    ],
+    "indications"       : ["За евтаназия на кучета,котки,говеда,коне,свине,овце,кози,зайци,птици."],
+    "contraindications" : ["Не се разрешава за употреба при животни,предназначени за човешка консумация.Животните, които са евтаназирани с Т 61 са обект на Националните закони за рискови/опасни материали."],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
     "title": "Амониев хлорид (нишадър)",
     "titleEn": "Amonnium chloride",
     "activeSubstance": "амониев хлорид",
