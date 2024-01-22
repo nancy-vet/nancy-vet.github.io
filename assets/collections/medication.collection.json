@@ -2073,19 +2073,19 @@
     "type": "urogenital",
     "title": "Ути-Зен табл.",
     "titleEn": "Uti-Zen tabl",
-    "activeSubstance": "-",
+    "activeSubstance": "червена боровинка",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
       "any": {
         "activeSubstanceDose": [
-          1,2
+          1
         ],
         "activeSubstanceDoseDecorator": "tabl_10_kg",
         "applicationMethod": "PO"
       }
     },
-    "indications"       : [],
+    "indications"       : ["добавка при уринарни проблеми, може да се дават с храната", "0-10 кг - 1/2 табл./ден.", "10-20 кг - 1 табл./ден.", "20-40 кг - 2 табл./ден."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],

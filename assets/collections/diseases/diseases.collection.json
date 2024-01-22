@@ -1,5 +1,180 @@
 [
+  {
+    "title"       : "Рахит",
+    "titleEn"     : "",
+    "type"        : "ендокринна система",
+    "animals"     : "dogs",
+    "bodySystem"  : ["U"],
 
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Рахит.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Спондилоза",
+    "titleEn"     : "",
+    "type"        : "ендокринна система",
+    "animals"     : "dogs",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Спондилоза.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Възпалителни чревни заболявания",
+    "titleEn"     : "",
+    "type"        : "ендокринна система",
+    "animals"     : "dogs",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Възпалителни чревни заболявания.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "Портосистемен шънт",
+    "titleEn"     : "",
+    "type"        : "ендокринна система",
+    "animals"     : "dogs",
+    "bodySystem"  : ["U"],
+
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Портосистемен шънт.pdf" }
+    ],
+
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
   {
     "title"       : "Хипотиреоидизъм",
     "titleEn"     : "",
@@ -8,7 +183,7 @@
     "bodySystem"  : ["U"],
 
     "links": [
-      { "title": "описание", "link": "pdfs/@diseases/.pdf" }
+      { "title": "описание", "link": "pdfs/@diseases/Хипотиреоидизъм.pdf" }
     ],
 
     "section"     : [
@@ -57,7 +232,7 @@
     "bodySystem"  : ["U"],
 
     "links": [
-      { "title": "описание", "link": "pdfs/@diseases/.pdf" }
+      { "title": "описание", "link": "pdfs/@diseases/Хипертиреоидизъм.pdf" }
     ],
 
     "section"     : [
