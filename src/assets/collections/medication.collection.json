@@ -2934,7 +2934,9 @@
     ],
     "indications"       : [],
     "contraindications" : [],
-    "drugInteractions"  : []
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
   },
   {
     "type": "nervous",
@@ -3400,7 +3402,9 @@
     ],
     "indications"       : [],
     "contraindications" : [],
-    "drugInteractions"  : []
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
   },
   {
     "type": "eyes",
@@ -5745,21 +5749,23 @@
     "drugConcentration": 20,
     "drugConcentrationDecorator": "mg_caps",
     "application": {
-      "any": {
+      "dog": {
         "activeSubstanceDose": [
-          1
+          5
         ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO q24h"
       }
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/antibiotics/fungolon.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/fluconazole.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["маласезиен дерматит"],
     "contraindications" : [],
-    "drugInteractions"  : []
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
   },
   {
     "type": "antibiotics",
@@ -5781,7 +5787,7 @@
       { "title": "Листовка", "link": "pdfs/@medication/antibiotics/mikonafin.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/terbinafine.pdf" }
     ],
-    "indications"       : ["for treating dermatophytic and other fungal infections in dogs and cats."],
+    "indications"       : ["не се дава повече от 2 седмици;", "for treating dermatophytic and other fungal infections in dogs and cats."],
     "contraindications" : ["does not recommend its use in patients with active or chronic liver disease or with significantly impaired renal function. If terbinafine is to be used in veterinary patents with markedly impaired liver or renal function, do so with extreme caution; dosage adjustments should be considered."],
     "drugInteractions"  : ["cyclosporine: Terbinafine may increase the elimination of cyclosporine", "rifampin: May increase terbinafine clearance", "As it shares the same metabolic pathway (CYP2D6), terbinafine could affect the metabolism of: beta-blockers, mao inhibitors (amitraz, selegiline), SSRI’s (fluoxetine, etc.), tricyclic, antidepressants."],
     "adverseEffects"    : [],
