@@ -3212,7 +3212,7 @@
         "activeSubstanceDose": [
           1
         ],
-        "activeSubstanceDoseDecorator": "-",
+        "activeSubstanceDoseDecorator": "gtt",
         "applicationMethod": "-"
       }
     },
@@ -3239,7 +3239,7 @@
         "activeSubstanceDose": [
           1
         ],
-        "activeSubstanceDoseDecorator": "-",
+        "activeSubstanceDoseDecorator": "gtt",
         "applicationMethod": "-"
       }
     },
@@ -3265,7 +3265,7 @@
         "activeSubstanceDose": [
           1
         ],
-        "activeSubstanceDoseDecorator": "-",
+        "activeSubstanceDoseDecorator": "gtt",
         "applicationMethod": "-"
       }
     },
@@ -3291,7 +3291,7 @@
         "activeSubstanceDose": [
           1
         ],
-        "activeSubstanceDoseDecorator": "-",
+        "activeSubstanceDoseDecorator": "gtt",
         "applicationMethod": "-"
       }
     },
@@ -3317,7 +3317,7 @@
         "activeSubstanceDose": [
           1
         ],
-        "activeSubstanceDoseDecorator": "-",
+        "activeSubstanceDoseDecorator": "gtt",
         "applicationMethod": "-"
       }
     },
@@ -3368,14 +3368,14 @@
         "activeSubstanceDose": [
           1
         ],
-        "activeSubstanceDoseDecorator": "-",
+        "activeSubstanceDoseDecorator": "gtt",
         "applicationMethod": "-"
       }
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/eyes/oftagel.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["капки за овлажняване, при сухота на очите."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -3385,22 +3385,22 @@
     "type": "eyes",
     "title": "Алкаин 5 мг/мл",
     "titleEn": "Alcaine 5 mg/ml",
-    "activeSubstance": "",
+    "activeSubstance": "проксиметакаин",
     "drugConcentration": 1,
-    "drugConcentrationDecorator": "-",
+    "drugConcentrationDecorator": "same",
     "application": {
       "any": {
         "activeSubstanceDose": [
           1
         ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
+        "activeSubstanceDoseDecorator": "gtt",
+        "applicationMethod": "в окото"
       }
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/eyes/alkain.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["за обезболяване на окото"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -3443,15 +3443,15 @@
         "activeSubstanceDose": [
           1
         ],
-        "activeSubstanceDoseDecorator": "идк",
-        "applicationMethod": "идк"
+        "activeSubstanceDoseDecorator": "gtt",
+        "applicationMethod": "в окото, q12h за 7-14 дни"
       }
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/eyes/aciklovir.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/acyclovir.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["при херпервироза"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -3495,15 +3495,15 @@
         "activeSubstanceDose": [
           1
         ],
-        "activeSubstanceDoseDecorator": "идк",
-        "applicationMethod": "идк"
+        "activeSubstanceDoseDecorator": "gtt",
+        "applicationMethod": "в окото q12h"
       }
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/eyes/oftan.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/timolol.pdf" }
     ],
-    "indications"       : ["глаукома"],
+    "indications"       : ["глаукома", "едем на роговицата"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -3512,7 +3512,7 @@
   {
     "type": "eyes",
     "title": "Максидекс 1 мг/мл",
-    "titleEn": "Oftan timolol 5 mg/ml eye drops",
+    "titleEn": "Maxidex 1 mg/ml",
     "activeSubstance": "дексаметазон",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "same",

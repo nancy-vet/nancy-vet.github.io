@@ -178,6 +178,21 @@
     ]
   },
   {
+    "symptom" : "Алопеция",
+    "type"    :"skin",
+    "meaning" : "",
+    "causes"  : [
+      {
+        "group": "", "children": [
+          {"title": ""      }
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Алопеция алгоритъм" , "link": "pdfs/@algorithms/skin/alopecia-algorithm.png" }
+    ]
+  },
+  {
     "symptom" : "Dysphagia -",
     "type"    :"gastrointestinal",
     "meaning" : "",
