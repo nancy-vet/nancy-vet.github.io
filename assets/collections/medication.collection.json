@@ -16,8 +16,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/vominil.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/maropitant.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/vominil.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/maropitant.pdf" }
     ],
 
     "indications"       : ["За лечение и предотвратяване на повръщането, индуцирано от химиотерапия. Поради това се препоръчва антиеметикът да се прилага преди агентът на химиотерапията.", "За предотвратяване на повръщане, с изключение на повръщане, предизвикано от пътуване.", "За лечение на повръщане в комбинация с други поддържащи мерки."],
@@ -43,8 +43,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/cerenia.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/maropitant.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/cerenia.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/maropitant.pdf" }
     ],
 
     "indications"       : ["За лечение и предотвратяване на повръщането, индуцирано от химиотерапия. Поради това се препоръчва антиеметикът да се прилага преди агентът на химиотерапията.", "За предотвратяване на повръщане, с изключение на повръщане, предизвикано от пътуване.", "За лечение на повръщане в комбинация с други поддържащи мерки."],
@@ -70,8 +70,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/prevomax.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/maropitant.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/prevomax.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/maropitant.pdf" }
     ],
     "indications"       : ["За лечение и предотвратяване на повръщането, индуцирано от химиотерапия. Поради това се препоръчва антиеметикът да се прилага преди агентът на химиотерапията.", "За предотвратяване на повръщане, с изключение на повръщане, предизвикано от пътуване.", "За лечение на повръщане в комбинация с други поддържащи мерки."],
     "contraindications" : ["Няма"],
@@ -146,8 +146,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/ondansentron.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ondansetron.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/ondansentron.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/ondansetron.pdf" }
     ],
     "indications"       : ["The use of ondansetron in cats is somewhat controversial and some state it should not be used in this species.", "Used as an antiemetic when conventional antiemetics are ineffective."],
     "contraindications" : ["Use with caution in patients with hepatic dysfunction as half-life may be prolonged.", "Because ondansetron is potentially a neurotoxic substrate of P-glycoprotein, it should be used with caution in those herding breeds (e.g., Collies, Shelties, Australian shepherds, etc.) that may have the gene mutation that causes a nonfunctional protein."],
@@ -172,8 +172,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/nolpaza.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/pantoprazole.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/nolpaza.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/pantoprazole.pdf" }
     ],
     "indications"       : ["Pantoprazole has been shown to directly reduce in vitro counts of H. pylori and is used in some H. pylori treatment protocols for humans. Tablets must be given whole; do not split or crush"],
     "contraindications" : ["do not give IM or SQ"],
@@ -199,8 +199,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/sopral.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/omeprazole.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/sopral.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/omeprazole.pdf" }
     ],
     "indications"       : ["Proton pump inhibitor used for GI ulcers & erosions"],
     "contraindications" : [" Known hypersensitivity; may need to adjust dosage with hepatic or renal disease"],
@@ -251,8 +251,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/panrazol.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/pantoprazole.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/panrazol.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/pantoprazole.pdf" }
     ],
     "indications"       : ["Proton pump inhibitor similar to omeprazole; also available in IV dosage form."],
     "contraindications" : [],
@@ -277,8 +277,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/quamatel.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/famotidine.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/quamatel.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/famotidine.pdf" }
     ],
     "indications"       : ["In veterinary medicine, famotidine may be useful for the treatment and/or pro phylaxis of gastric, abomasal and duodenal ulcers, uremic gastritis, stress-related or drug-induced erosive gastritis, esophagitis, duodenal gastric reflux, and esophageal reflux."],
     "contraindications" : ["Famotidine should be used cautiously in geriatric patients and patients with significantly impaired hepatic or renal function. Consider dosage reduction in patients with significant renal dysfunction. Famotidine may have negative inotropic effects and have some cardioarrhythmogenic properties. Use with caution in patients with cardiac disease."],
@@ -303,8 +303,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/famotidin-alkaloid.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/famotidine.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/famotidin-alkaloid.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/famotidine.pdf" }
     ],
     "indications"       : ["In veterinary medicine, famotidine may be useful for the treatment and/or pro phylaxis of gastric, abomasal and duodenal ulcers, uremic gastritis, stress-related or drug-induced erosive gastritis, esophagitis, duodenal gastric reflux, and esophageal reflux."],
     "contraindications" : ["Famotidine should be used cautiously in geriatric patients and patients with significantly impaired hepatic or renal function. Consider dosage reduction in patients with significant renal dysfunction. Famotidine may have negative inotropic effects and have some cardioarrhythmogenic properties. Use with caution in patients with cardiac disease."],
@@ -372,8 +372,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/imodium.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/loperamide.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/imodium.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/loperamide.pdf" }
     ],
     "indications"       : ["Synthetic opiate GI motility modifier.", "Use of antidiarrheal opiates in cats is controversial; this species may react with excitatory behavior."],
     "contraindications" : [],
@@ -424,8 +424,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/laktuloza.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/lactulose.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/laktuloza.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/lactulose.pdf" }
     ],
     "indications"       : ["The primary use of lactulose in veterinary medicine is to reduce ammonia blood levels in the prevention and treatment of hepatic encephalopathy (portal-systemic encephalopathy; PSE) in small animals and pet birds. It is also used as a laxative in small animals."],
     "contraindications" : ["Lactulose syrup contains some free lactose and galactose, and may alter the insulin requirements in diabetic patients. In patients with preexisting fluid and electrolyte imbalances, lactulose may exacerbate these conditions if it causes diarrhea; use cautiously."],
@@ -450,8 +450,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/dufalak.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/lactulose.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/dufalak.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/lactulose.pdf" }
     ],
     "indications"       : ["The primary use of lactulose in veterinary medicine is to reduce ammonia blood levels in the prevention and treatment of hepatic encephalopathy (portal-systemic encephalopathy; PSE) in small animals and pet birds. It is also used as a laxative in small animals."],
     "contraindications" : ["Lactulose syrup contains some free lactose and galactose, and may alter the insulin requirements in diabetic patients. In patients with preexisting fluid and electrolyte imbalances, lactulose may exacerbate these conditions if it causes diarrhea; use cautiously."],
@@ -743,8 +743,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/ursofalk.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ursodiol.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/ursofalk.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/ursodiol.pdf" }
     ],
     "indications"       : ["In small animals, ursodiol may be useful as adjunctive therapy for the medical management of cholesterol-containing gallstones and/or in patients with chronic liver disease, particularly where cholestasis (bile toxicity) plays an important role. Ursodiol’s benefit in treating canine or feline hepatobiliary disease is unknown at the time of writing (studies are ongoing), but it may be of help in slowing the progression of inflammatory hepatic disorders, particularly autoimmune hepatitis and acute hepatotoxicity."],
     "contraindications" : ["The benefits of using ursodiol should be weighed against its risks in patients with complications associated with gallstones (e.g., biliary obstruction, biliary fistulas, cholecystitis, pancreatitis, cholangitis). While ursodiol may be useful in treating patients with chronic liver disease, some patients may experience further impairment of bile acid metabolism."],
@@ -765,13 +765,13 @@
           18
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "q12h"
+        "applicationMethod": "q12h, час преди хранене"
       }
     },
     "links": [
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ademethionine.pdf" }
     ],
-    "indications"       : ["подпомагаща терапия при ЧД заболявания.", "може да се използва и при остеоартрит, отравяне с ацетаминофен (парацетамол) и при риск от ЧД увреждане"],
+    "indications"       : ["подпомагаща терапия при ЧД заболявания.", "може да се използва и при остеоартрит, отравяне с ацетаминофен (парацетамол) и при риск от ЧД увреждане", "дава се 1 час преди хранене."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -790,7 +790,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "tabl_5_kg",
-        "applicationMethod": "PO"
+        "applicationMethod": "PO, час преди хранене"
       }
     },
     "links": [
@@ -800,6 +800,41 @@
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "gastrointestinal",
+    "title": "Карсил 110 мг табл",
+    "titleEn": "Carsil 110 mg tabl",
+    "activeSubstance": "силимарин",
+    "drugConcentration": 110,
+    "drugConcentrationDecorator": "mg",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          20,
+          50
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "на ден"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          4,
+          8
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "на ден"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/carsil.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/silymarin.pdf" }
+    ],
+    "indications"       : ["при ЧД недостатъчност, ЧД цироза."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : ["гастроинтестинални смущения."],
     "pharmacology"      : []
   },
   {
@@ -949,8 +984,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/remirta.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/mirtazapine.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/remirta.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/mirtazapine.pdf" }
     ],
     "indications"       : ["антидепресант", "апетитостимулиращо и антиеметично при КЧ и КТ"],
     "contraindications" : [],
@@ -977,8 +1012,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/respiratory/butomidor.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/butorphanol.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/respiratory/butomidor.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/butorphanol.pdf" }
     ],
     "indications"       : [],
     "contraindications" : ["Contraindicated or caution in patients with liver disease, hypothyroidism, or renal insufficiency, Addison’s, head trauma, increased CSF pressure or other CNS dysfunction (e.g., coma) & in geriatric or severely debilitated patients "],
@@ -1004,8 +1039,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/respiratory/torphadine.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/butorphanol.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/respiratory/torphadine.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/butorphanol.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -1031,8 +1066,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/respiratory/torphadine.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/acetylcysteine.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/respiratory/torphadine.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/acetylcysteine.pdf" }
     ],
     "indications"       : ["антидот за отравяне с парацетамол: за КЧ и КТ: Първоначална доза – 140 мг/кг (разредена на 5% в декстроза или стерилна вода), последвана от 70 мг/кг ПО 4 пъти дневно (q6h) за 7 третирания.", "За небулизатор: АЦЦ 400 мг (=2 сашета) + NaCl 90 ml р-р + Gentamycine 1 ml + Dexamethasone (4 мг/мл или 2 мг/мл?) 4 ml"],
     "contraindications" : [],
@@ -1059,7 +1094,7 @@
     },
     "links": [
       { "title": "листовка",  "link": "pdfs/@medication/respiratory/ventolin.pdf" },
-      { "title": "Plumbs",     "link": "pdfs/@medication/plumbs-pdf/albuterol.pdf" }
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/albuterol.pdf" }
     ],
     "indications"       : ["бронходилататор, облекчаване на кашлица;", "като бронходилататор при котешка астма"],
     "contraindications" : ["С повишено внимание при диабет, хипертиреоидизъм, хипертензия, епилепсия, сърдечно-съдово заболяване.", "може да инхибира маточните съкращения по време на бременност."],
@@ -1298,8 +1333,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/cardiovascular/furozemid.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/furosemide.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/cardiovascular/furozemid.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/furosemide.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -1351,8 +1386,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/cardiovascular/isemid.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/torsemide.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/cardiovascular/isemid.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/torsemide.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -1459,8 +1494,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/cardiovascular/vetmedin.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/pimobendan.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/cardiovascular/vetmedin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/pimobendan.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -1486,8 +1521,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/cardiovascular/cardisure.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/pimobendan.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/cardiovascular/cardisure.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/pimobendan.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -1674,8 +1709,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/urogenital/nonovulin.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/megestrol-acetate.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/urogenital/nonovulin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/megestrol-acetate.pdf" }
     ],
     "indications"       : ["За прекъсване и отлагане на еструса при кучета и котки; за успокояване на сексуално възбудени мъжки кучета и котараци (сатириазис); при котки се препоръчва за успешно лечение на милиарен дерматит и еозинофилен гранулом."],
     "contraindications" : ["pregnant animals, diabetes mellitus, or mammary neoplasias", "Do not use in dogs prior to their first estrous cycle"],
@@ -1700,8 +1735,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/urogenital/galastop.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/cabergoline.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/urogenital/galastop.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/cabergoline.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -1751,8 +1786,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/urogenital/kabergovet.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/cabergoline.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/urogenital/kabergovet.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/cabergoline.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -1800,8 +1835,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/urogenital/suprelorin.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/deslorelin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/urogenital/suprelorin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/deslorelin.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -1987,8 +2022,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/urogenital/rocaltrol.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/calcitriol.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/urogenital/rocaltrol.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/calcitriol.pdf" }
     ],
     "indications"       : ["калцитриолът е най-активната форма на витамин D3", "подпомага усвояването на калций от храната и регулира костната минерализация.", "при бъбречна недостатъчност", "при идиопатична себорея"],
     "contraindications" : [],
@@ -2201,8 +2236,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/urogenital/alizin.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/aglepristone.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/urogenital/alizin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/aglepristone.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -2228,8 +2263,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/nervous/bupak.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/buprenorphine.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/nervous/bupak.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/buprenorphine.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -2262,8 +2297,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/nervous/insistor.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/methadone.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/nervous/insistor.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/methadone.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -2289,8 +2324,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/nervous/apovomin.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/apomorphine.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/nervous/apovomin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/apomorphine.pdf" }
     ],
     "indications"       : ["Индукция на емеза"],
     "contraindications" : ["Да не се използва при котки.", "Да не се използва, ако разтворът е станал зелен. "],
@@ -2399,8 +2434,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/nervous/zoletil.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/tiletamine.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/nervous/zoletil.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/tiletamine.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -2434,8 +2469,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/nervous/zoletil.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/tiletamine.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/nervous/zoletil.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/tiletamine.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -2492,8 +2527,8 @@
       }
     },
     "links" : [
-      { "title": "листовка", "link": "pdfs/@medication/nervous/ksilazin.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/xylazine.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/nervous/ksilazin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/xylazine.pdf" }
     ],
     "indications"       : ["еметик при КТ: 0,44 мг/кг ИМ", "Препаратът действа седативно, аналгетично, анестетично и мускулно- релаксантно при говеда, коне, кучета и котки. При всички случаи на необходимост от аналгезия и релаксия – транспорт, хирургични намеси, тежки раждания, при манипулации на злонрави животни."],
     "contraindications" : ["Да не се прилага при говеда в последния месец на бременността и при животни с хронични сърдечни или белодробни заболявания."],
@@ -2525,8 +2560,8 @@
       }
     },
     "links" : [
-      { "title": "листовка", "link": "pdfs/@medication/nervous/dorben.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/medetomidine.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/nervous/dorben.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/medetomidine.pdf" }
     ],
     "indications"       : ["За премедикация преди обща анестезия", "За седиране с цел улеснение манипулация.", "При котки: В комбинация с кетамин за обща анестезия", "Личев упояване на кт: дорбен 0,04 мл/котка и бутомидор 0,1 мл/котка"],
     "contraindications" : [],
@@ -2558,8 +2593,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/nervous/antisedan.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/atipamezole.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/nervous/antisedan.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/atipamezole.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -2591,8 +2626,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/nervous/atipazol.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/atipamezole.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/nervous/atipazol.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/atipamezole.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -2647,8 +2682,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/nervous/epityl.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/phenobarbital.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/nervous/epityl.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/phenobarbital.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -2674,8 +2709,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/nervous/finlepsin.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/diazepam.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/nervous/finlepsin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/diazepam.pdf" }
     ],
     "indications"       : ["транквилант (успокоява ЖВ без да губят пълно съзнание).", "използва се при status epilepticus", "Urine marking and anxiety for cats: 0.2 – 0.4 mg/kg PO q12 – 24h (start at 0.2 mg/kg PO q12h)"],
     "contraindications" : [],
@@ -2708,8 +2743,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/nervous/noepix.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/levetiracetam.pdf" }
+      { "title": "листовка", "link":  "pdfs/@medication/nervous/noepix.pdf" },
+      { "title": "Plumbs", "link":    "pdfs/@medication/plumbs-pdf/levetiracetam.pdf" }
     ],
     "indications"       : ["при епилепсия", "намалява дозите на фенобарбитала без да води до появата на епилептични припадъци."],
     "contraindications" : [],
@@ -2785,8 +2820,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/nervous/anaket.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ketamine.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/nervous/anaket.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/ketamine.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -2819,8 +2854,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/nervous/dexdomidor.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ketamine.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/nervous/dexdomidor.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/ketamine.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -3055,8 +3090,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/nervous/gabagamma.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/gabapentin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/nervous/gabagamma.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/gabapentin.pdf" }
     ],
     "indications"       : ["prevent seizures and treat neuropathic pain", "Preclinic sedation"],
     "contraindications" : ["The human oral liquid product contains xylitol, which is toxic to dogs.", "Doses of 50 mg/cat and 100 mg/cat have been shown to attenuate fear response in cats."],
@@ -3111,8 +3146,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/eyes/dex-tobrin.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/dexamethasone.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/eyes/dex-tobrin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/dexamethasone.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -3138,8 +3173,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/eyes/tobrakulin.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/tobramycin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/eyes/tobrakulin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/tobramycin.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -3165,8 +3200,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/eyes/tobrakulin-d.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/tobramycin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/eyes/tobrakulin-d.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/tobramycin.pdf" }
     ],
     "indications"       : ["Преди употреба флаконът се разклаща енергично.", "След всяко накапване вътрешният ъгъл на окото се притиска за около 30 - 60 секунди, за да се предотврати изтичане на суспензията през слъзните канали", "Продуктът се прилага при възпалителни състояния на конюнктивата, роговицата и предната очна камера, при които се препоръчва употребата на кортикостероиди и е налице повърхностна бактериална инфекция или съществува риск от нея - конюнктивити, кератити, кератоконюнктивити, блефарити, блефароконюнктивити, хордеолуми, дакриоцистити, ирит, след екстракция на чужди тела на роговицата и конюнктивата, предоперативно и следоперативно при екстра- и интрабулбови операции при кучета и котки."],
     "contraindications" : ["Да не се използва при вирусни и гъбни инфекции на очите.", "Да не се използват други очни капки или унгвенти по време на лечението с Тобракулин-Д"],
@@ -3191,8 +3226,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/eyes/gentakulin.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/gentamicin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/eyes/gentakulin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/gentamicin.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -3244,8 +3279,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/eyes/gentamicin-vision-maz.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/gentamicin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/eyes/gentamicin-vision-maz.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/gentamicin.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -3270,8 +3305,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/eyes/floxal.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/cyprofloxacin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/eyes/floxal.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/cyprofloxacin.pdf" }
     ],
     "indications"       : ["хинолон", "for established gram negative corneal infections"],
     "contraindications" : [],
@@ -3296,8 +3331,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/eyes/ciloxan.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/cyprofloxacin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/eyes/ciloxan.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/cyprofloxacin.pdf" }
     ],
     "indications"       : ["хинолон", "for established gram negative corneal infections"],
     "contraindications" : [],
@@ -3322,8 +3357,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/eyes/spersadeks.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/chloramphenicol.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/eyes/spersadeks.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/chloramphenicol.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -3448,8 +3483,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/eyes/aciklovir.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/acyclovir.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/eyes/aciklovir.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/acyclovir.pdf" }
     ],
     "indications"       : ["при херпервироза"],
     "contraindications" : [],
@@ -3474,8 +3509,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/eyes/aciklovir.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/acyclovir.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/eyes/aciklovir.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/acyclovir.pdf" }
     ],
     "indications"       : ["1 амп. глюкоза 40%, 1 амп вит Б1, 1 амп вит Б12, 0,1 инсулин."],
     "contraindications" : ["Срок на годност: 2 седмици."],
@@ -3500,8 +3535,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/eyes/oftan.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/timolol.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/eyes/oftan.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/timolol.pdf" }
     ],
     "indications"       : ["глаукома", "едем на роговицата"],
     "contraindications" : [],
@@ -3619,8 +3654,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/ears/mitex.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/prednisolone.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/ears/mitex.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/prednisolone.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -3646,8 +3681,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/ears/surolan.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/nervous/prednisolone.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/ears/surolan.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/nervous/prednisolone.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -3862,8 +3897,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/skin/betazon.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/bethamethasone.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/skin/betazon.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/bethamethasone.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -3942,8 +3977,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/skin/daktacort.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/miconazole.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/skin/daktacort.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/miconazole.pdf" }
     ],
     "indications"       : ["за гъбична инфекция"],
     "contraindications" : [],
@@ -4184,8 +4219,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/synulox-rtu.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/synulox-rtu.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf" }
     ],
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
@@ -4210,8 +4245,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/synulox-tabs.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/synulox-tabs.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf" }
     ],
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
@@ -4236,8 +4271,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/synulox-tabs.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/synulox-tabs.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf" }
     ],
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
@@ -4262,8 +4297,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/medoklav.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/medoklav.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -4363,8 +4398,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/clavaseptin.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/clavaseptin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf" }
     ],
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
@@ -4389,8 +4424,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/clavaseptin.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/clavaseptin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf" }
     ],
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
@@ -4415,8 +4450,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/clavaseptin250.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/clavaseptin250.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf" }
     ],
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
@@ -4441,8 +4476,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/clavaseptin250.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/clavaseptin250.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/amoxicillin-clavulanate.pdf" }
     ],
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
@@ -4468,8 +4503,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/unazin.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ampicillin-sulbactam.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/unazin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/ampicillin-sulbactam.pdf" }
     ],
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
@@ -4522,8 +4557,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/ospexin-500mg.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/cephalexin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/ospexin-500mg.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/cephalexin.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -4548,8 +4583,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/tsefalen.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/cephalexin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/tsefalen.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/cephalexin.pdf" }
     ],
     "indications"       : ["група: цефалоспорини"],
     "contraindications" : [],
@@ -4574,8 +4609,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/tsefalen.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/cephalexin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/tsefalen.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/cephalexin.pdf" }
     ],
     "indications"       : ["група: цефалоспорини"],
     "contraindications" : [],
@@ -4627,8 +4662,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/medaxon.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ceftriaxone.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/medaxon.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/ceftriaxone.pdf" }
     ],
     "indications"       : ["група: цефалоспорини", "Ceftriaxone is used to treat serious infections.", "for treating Lyme’s disease."],
     "contraindications" : [],
@@ -4713,8 +4748,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/ksimebak.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/cefpodoxime.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/ksimebak.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/cefpodoxime.pdf" }
     ],
     "indications"       : ["група: цефалоспорини"],
     "contraindications" : [],
@@ -4740,8 +4775,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/genta-100.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/gentamicin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/genta-100.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/gentamicin.pdf" }
     ],
     "indications"       : ["група: аминогликозиди"],
     "contraindications" : [],
@@ -4767,8 +4802,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/gentamicin.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/gentamicin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/gentamicin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/gentamicin.pdf" }
     ],
     "indications"       : ["група: аминогликозиди"],
     "contraindications" : [],
@@ -4793,8 +4828,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/gentamicin-maz.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/gentamicin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/gentamicin-maz.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/gentamicin.pdf" }
     ],
     "indications"       : ["група: аминогликозиди"],
     "contraindications" : [],
@@ -4844,8 +4879,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/baytril.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/enrofloxacin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/baytril.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/enrofloxacin.pdf" }
     ],
     "indications"       : ["група: хинолони", "Tози лекарствен продукт се използва при кучета и котки за лечение на бактериални инфекции на храносмилателния, респираторния и урогениталния тракт, кожата, вторични инфекции на рани и otitis externa, когато клиничният опит определя енрофлоксацин като подходящо лекарствено средство."],
     "contraindications" : ["Да не се използва при кучета по-малки от 1 година или при изключително големи породи кучета, с по-дълъг период на растеж, по-малки от 18 месечна възраст, тъй като ставният хрущял може да се увреди по време на периода на бърз растеж.", "Да не се използва при котки, по-малки от 8 седмици.", "Да не се използва при кучета, които имат гърчове, тъй като енрофлоксацин може да доведе до стимулиране на ЦНС. ", "Да не се използва за профилактика."],
@@ -4870,8 +4905,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/enroksil-50.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/enrofloxacin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/enroksil-50.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/enrofloxacin.pdf" }
     ],
     "indications"       : ["група: хинолони", "Tози лекарствен продукт се използва при кучета и котки за лечение на бактериални инфекции на храносмилателния, респираторния и урогениталния тракт, кожата, вторични инфекции на рани и otitis externa, когато клиничният опит определя енрофлоксацин като подходящо лекарствено средство."],
     "contraindications" : ["Да не се използва при кучета по-малки от 1 година или при изключително големи породи кучета, с по-дълъг период на растеж, по-малки от 18 месечна възраст, тъй като ставният хрущял може да се увреди по време на периода на бърз растеж.", "Да не се използва при котки, по-малки от 8 седмици.", "Да не се използва при кучета, които имат гърчове, тъй като енрофлоксацин може да доведе до стимулиране на ЦНС. ", "Да не се използва за профилактика."],
@@ -4896,8 +4931,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/enroksil-15.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/enrofloxacin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/enroksil-15.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/enrofloxacin.pdf" }
     ],
     "indications"       : ["група: хинолони", "Tози лекарствен продукт се използва при кучета и котки за лечение на бактериални инфекции на храносмилателния, респираторния и урогениталния тракт, кожата, вторични инфекции на рани и otitis externa, когато клиничният опит определя енрофлоксацин като подходящо лекарствено средство."],
     "contraindications" : ["Да не се използва при кучета по-малки от 1 година или при изключително големи породи кучета, с по-дълъг период на растеж, по-малки от 18 месечна възраст, тъй като ставният хрущял може да се увреди по време на периода на бърз растеж.", "Да не се използва при котки, по-малки от 8 седмици.", "Да не се използва при кучета, които имат гърчове, тъй като енрофлоксацин може да доведе до стимулиране на ЦНС. ", "Да не се използва за профилактика."],
@@ -4922,8 +4957,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/marfloksin-inj.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/marbofloxacin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/marfloksin-inj.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/marbofloxacin.pdf" }
     ],
     "indications"       : ["група: хинолони"],
     "contraindications" : [],
@@ -4948,8 +4983,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/marfloksin-20-tabl.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/marbofloxacin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/marfloksin-20-tabl.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/marbofloxacin.pdf" }
     ],
     "indications"       : ["група: хинолони"],
     "contraindications" : [],
@@ -5099,8 +5134,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/biseptol.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/sulfadiazine-sulfamethoxazole-trimetoprim.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/biseptol.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/sulfadiazine-sulfamethoxazole-trimetoprim.pdf" }
     ],
     "indications"       : ["група: сулфонамиди"],
     "contraindications" : ["Because of its potential for crystallization in the urine, it may be wise to avoid the use of sulfadiazine in dogs known to have uroliths, at increased risk for developing uroliths or known to have highly concentrated or acidic urine.", "blood dyscrasias", "Hypersensitivity to sulfas, thiazides, or sulfonylurea agents; severe renal or hepatic impairment."],
@@ -5126,8 +5161,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/biseptol.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/sulfadiazine-sulfamethoxazole-trimetoprim.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/biseptol.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/sulfadiazine-sulfamethoxazole-trimetoprim.pdf" }
     ],
     "indications"       : ["група: сулфонамиди"],
     "contraindications" : ["Because of its potential for crystallization in the urine, it may be wise to avoid the use of sulfadiazine in dogs known to have uroliths, at increased risk for developing uroliths or known to have highly concentrated or acidic urine.", "blood dyscrasias", "Hypersensitivity to sulfas, thiazides, or sulfonylurea agents; severe renal or hepatic impairment."],
@@ -5153,8 +5188,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/biseptol.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/sulfadiazine-sulfamethoxazole-trimetoprim.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/biseptol.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/sulfadiazine-sulfamethoxazole-trimetoprim.pdf" }
     ],
     "indications"       : ["група: сулфонамиди"],
     "contraindications" : ["Because of its potential for crystallization in the urine, it may be wise to avoid the use of sulfadiazine in dogs known to have uroliths, at increased risk for developing uroliths or known to have highly concentrated or acidic urine.", "blood dyscrasias", "Hypersensitivity to sulfas, thiazides, or sulfonylurea agents; severe renal or hepatic impairment."],
@@ -5180,8 +5215,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/biseptol.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/sulfadiazine-sulfamethoxazole-trimetoprim.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/biseptol.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/sulfadiazine-sulfamethoxazole-trimetoprim.pdf" }
     ],
     "indications"       : ["група: сулфонамиди"],
     "contraindications" : ["Because of its potential for crystallization in the urine, it may be wise to avoid the use of sulfadiazine in dogs known to have uroliths, at increased risk for developing uroliths or known to have highly concentrated or acidic urine.", "blood dyscrasias", "Hypersensitivity to sulfas, thiazides, or sulfonylurea agents; severe renal or hepatic impairment."],
@@ -5334,8 +5369,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/zodon" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/clindamycin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/zodon" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/clindamycin.pdf" }
     ],
     "indications"       : ["група: линкозамиди", "Котки: лечение на инфектирани рани и абсцеси, причинени от Staphylococcus spp. и Streptococcus spp., чувствителни на клиндамицин.", "Кучета:", "– лечение на инфектирани рани, абсцеси и инфекции на устната кухина и зъбите, причинени или свързани със Staphylococcus spp., Streptococcus spp., Bacteroides spp., Fusobacterium necrophorum, Clostridium perfringens, чувствителни на клиндамицин;", "– допълнителна терапия при механични или хирургични периодонтални интервенции при лечение на инфекции на гингивалните и периодонталните тъкани;", "– лечение на остеомиелит, причинен от Staphylococcus aureus."],
     "contraindications" : ["in patients with known hypersensitivity to it or lincomycin.", "Patients with very severe renal and/or hepatic disease.", "Клиндамицинът не трябва да се прилага на хамстери, морски свинчета, зайци, чинчили, коне и преживни животни, защото може да причини сериозни смущения в храносмилането при тези видове."],
@@ -5360,8 +5395,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/dalacin-c.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/clindamycin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/dalacin-c.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/clindamycin.pdf" }
     ],
     "indications"       : ["група: линкозамиди", "Котки: лечение на инфектирани рани и абсцеси, причинени от Staphylococcus spp. и Streptococcus spp., чувствителни на клиндамицин.", "Кучета:", "– лечение на инфектирани рани, абсцеси и инфекции на устната кухина и зъбите, причинени или свързани със Staphylococcus spp., Streptococcus spp., Bacteroides spp., Fusobacterium necrophorum, Clostridium perfringens, чувствителни на клиндамицин;", "– допълнителна терапия при механични или хирургични периодонтални интервенции при лечение на инфекции на гингивалните и периодонталните тъкани;", "– лечение на остеомиелит, причинен от Staphylococcus aureus."],
     "contraindications" : ["in patients with known hypersensitivity to it or lincomycin.", "Patients with very severe renal and/or hepatic disease.", "Клиндамицинът не трябва да се прилага на хамстери, морски свинчета, зайци, чинчили, коне и преживни животни, защото може да причини сериозни смущения в храносмилането при тези видове."],
@@ -5386,8 +5421,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/clindavet.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/clindamycin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/clindavet.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/clindamycin.pdf" }
     ],
     "indications"       : ["група: линкозамиди", "Котки: лечение на инфектирани рани и абсцеси, причинени от Staphylococcus spp. и Streptococcus spp., чувствителни на клиндамицин.", "Кучета:", "– лечение на инфектирани рани, абсцеси и инфекции на устната кухина и зъбите, причинени или свързани със Staphylococcus spp., Streptococcus spp., Bacteroides spp., Fusobacterium necrophorum, Clostridium perfringens, чувствителни на клиндамицин;", "– допълнителна терапия при механични или хирургични периодонтални интервенции при лечение на инфекции на гингивалните и периодонталните тъкани;", "– лечение на остеомиелит, причинен от Staphylococcus aureus."],
     "contraindications" : ["in patients with known hypersensitivity to it or lincomycin.", "Patients with very severe renal and/or hepatic disease.", "Клиндамицинът не трябва да се прилага на хамстери, морски свинчета, зайци, чинчили, коне и преживни животни, защото може да причини сериозни смущения в храносмилането при тези видове."],
@@ -5444,8 +5479,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/sumamed.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/antibiotics/azithromycin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/sumamed.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/antibiotics/azithromycin.pdf" }
     ],
     "indications"       : ["група: макролиди", "разтваря се в 12 мл вода", "дава се реди вит. Б12"],
     "contraindications" : [],
@@ -5497,8 +5532,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/klacid.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/clarithromycin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/klacid.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/clarithromycin.pdf" }
     ],
     "indications"       : ["група: макролиди"],
     "contraindications" : [],
@@ -5523,8 +5558,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/tylovet.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/tylosin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/tylovet.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/tylosin.pdf" }
     ],
     "indications"       : ["група: макролиди"],
     "contraindications" : [],
@@ -5550,8 +5585,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/metronidazol.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/metronidazole.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/metronidazol.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/metronidazole.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -5576,8 +5611,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/eradia.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/metronidazole.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/eradia.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/metronidazole.pdf" }
     ],
     "indications"       : ["Лечение на инфекции в областта на храносмилателния тракт, причинени от Giardia spp. и Clostridium spp. (напр.: C. perfringens или C. difficile).", "Лечение на инфекции в областта на урогениталния тракт, устната кухина, гърлото и кожата, причинени от облигатни анаеробни бактерии (напр. Clostridium spp.), чувствителни на метронидазол.", "Метронидазолът е ефективен срещу протозои, но не е ефективен срещу факултативни анаероби, облигатни аероби и микроаерофилни бактерии."],
     "contraindications" : ["Да не се използва при увреждания на черния дроб."],
@@ -5602,8 +5637,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/flagyl.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/metronidazole.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/flagyl.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/metronidazole.pdf" }
     ],
     "indications"       : ["giardia in cats", "antibacterial (anaerobes) & antiprotozoal agent"],
     "contraindications" : ["hepatic dysfunction", "pregnant or nursing"],
@@ -5628,8 +5663,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/stomorgil.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/metronidazole.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/stomorgil.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/metronidazole.pdf" }
     ],
     "indications"       : ["спирамицин (макролиди)", "Инфекции, причинени от чувствителни аеробни и анаеробни бактерии, в частност инфекции в устната кухина: стоматити, гингивити, периодонтални заболявания, пиореа, халитоза."],
     "contraindications" : ["Да не се използва при свръхчувствителност към активните субстанции."],
@@ -5654,8 +5689,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/rovamet.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/metronidazole.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/rovamet.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/metronidazole.pdf" }
     ],
     "indications"       : ["спирамицин (макролиди)", "Инфекции, причинени от чувствителни аеробни и анаеробни бактерии, в частност инфекции в устната кухина: стоматити, гингивити, периодонтални заболявания, пиореа, халитоза."],
     "contraindications" : ["Да не се използва при свръхчувствителност към активните субстанции."],
@@ -5680,8 +5715,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/metrovis.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/metronidazole.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/metrovis.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/metronidazole.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -5706,8 +5741,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/metrobactin.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/metronidazole.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/metrobactin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/metronidazole.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -5732,8 +5767,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/kandizol.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/fluconazole.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/kandizol.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/fluconazole.pdf" }
     ],
     "indications"       : ["маласезиен дерматит"],
     "contraindications" : [],
@@ -5758,8 +5793,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/fungolon.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/fluconazole.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/fungolon.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/fluconazole.pdf" }
     ],
     "indications"       : ["маласезиен дерматит"],
     "contraindications" : [],
@@ -5784,8 +5819,8 @@
       }
     },
     "links": [
-      { "title": "Листовка", "link": "pdfs/@medication/antibiotics/mikonafin.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/terbinafine.pdf" }
+      { "title": "Листовка",  "link": "pdfs/@medication/antibiotics/mikonafin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/terbinafine.pdf" }
     ],
     "indications"       : ["не се дава повече от 2 седмици;", "for treating dermatophytic and other fungal infections in dogs and cats."],
     "contraindications" : ["does not recommend its use in patients with active or chronic liver disease or with significantly impaired renal function. If terbinafine is to be used in veterinary patents with markedly impaired liver or renal function, do so with extreme caution; dosage adjustments should be considered."],
@@ -5810,8 +5845,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/klotrimazol.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/clotrimazole.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/klotrimazol.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/clotrimazole.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -5844,8 +5879,8 @@
       }
     },
     "links": [
-      { "title": "листовка",      "link": "pdfs/@medication/antiparasitic/espacox.pdf" },
-      { "title": "Plumbs",  "link": "pdfs/@medication/plumbs-pdf/toltrazuril.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiparasitic/espacox.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/toltrazuril.pdf" }
     ],
     "indications"       : ["за лечение на кокцидиоза", "oocyst shedding stage of toxoplasmosis in cats"],
     "contraindications" : [],
@@ -5877,8 +5912,8 @@
       }
     },
     "links": [
-      { "title": "листовка",      "link": "pdfs/@medication/antiparasitic/tolzesia.pdf" },
-      { "title": "Plumbs",  "link": "pdfs/@medication/plumbs-pdf/toltrazuril.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiparasitic/tolzesia.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/toltrazuril.pdf" }
     ],
     "indications"       : ["за лечение на кокцидиоза", "oocyst shedding stage of toxoplasmosis in cats"],
     "contraindications" : [],
@@ -5910,8 +5945,8 @@
       }
     },
     "links": [
-      { "title": "листовка",      "link": "pdfs/@medication/antiparasitic/intracox-oral.pdf" },
-      { "title": "Plumbs",  "link": "pdfs/@medication/plumbs-pdf/toltrazuril.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiparasitic/intracox-oral.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/toltrazuril.pdf" }
     ],
     "indications"       : ["за лечение на кокцидиоза", "oocyst shedding stage of toxoplasmosis in cats", "В клиниката - 0,6 мл/кг първи и пети ден."],
     "contraindications" : [],
@@ -5963,8 +5998,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antiparasitic/imochem.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/imidocarb.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiparasitic/imochem.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/imidocarb.pdf" }
     ],
     "indications"       : ["За КЧ бабезиоза."],
     "contraindications" : ["Да не се използва при ЖВ с увредени ЧД или ББ функции."],
@@ -6029,8 +6064,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antiparasitic/intermectin.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ivermectin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiparasitic/intermectin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/ivermectin.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -6081,8 +6116,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antiparasitic/kepromec.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ivermectin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiparasitic/kepromec.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/ivermectin.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -6107,8 +6142,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antiparasitic/imiticid.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/melarsomine.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiparasitic/imiticid.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/melarsomine.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -6167,8 +6202,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antiparasitic/panacur.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/fenbendazole.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiparasitic/panacur.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/fenbendazole.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -6202,8 +6237,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/endocrine/oksitocin.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/oxytocin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/endocrine/oksitocin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/oxytocin.pdf" }
     ],
     "indications"       : ["Повторно може да се приложи след 20-40 минути", "За стимулиране на родовата дейност при слаби и неефективни контракции на матката (само при отворена маточна шийка);", "при атония на матката след раждане;", "при след родилни маточни кръвотечения; при задържане на плацентата;", "при пуерперални ендометрити;", "при изпадане на матката;", "при хипогалакция и агалакция след раждане;", "при задържане на млякото."],
     "contraindications" : ["Не се прилага до разкритие на маточната шийка преди раждане. Окситоцинът е противопоказан при животни с дистоция (затруднено раждане) поради неправилно положение на плода, освен ако е извършена корекция"],
@@ -6228,8 +6263,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/endocrine/vetoril.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/trilostane.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/endocrine/vetoril.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/trilostane.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -6254,8 +6289,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/endocrine/l-tiroksin.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/levothyroxine.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/endocrine/l-tiroksin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/levothyroxine.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -6283,8 +6318,8 @@
       }
     },
     "links" : [
-      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/dexafort.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/dexamethasone.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/dexafort.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/dexamethasone.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -6370,8 +6405,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/revmocam.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/revmocam.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
     ],
     "indications"       : ["Облекчаване на възпалението и намаляване на болката както при остри, така и при хронични мускулно-скелетни нарушения при кучета."],
     "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
@@ -6396,8 +6431,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/rheumocam-1.5.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/rheumocam-1.5.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
     ],
     "indications"       : ["Облекчаване на възпалението и намаляване на болката както при остри, така и при хронични мускулно-скелетни нарушения при кучета."],
     "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
@@ -6422,8 +6457,8 @@
       }
     },
     "links": [
-      { "title": "листовка Ревмокам 1,5", "link": "pdfs/@medication/antiinflammatory/rheumocam-1.5.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/rheumocam-1.5.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
     ],
     "indications"       : ["Облекчаване на възпалението и намаляване на болката както при остри, така и при хронични мускулно-скелетни нарушения при кучета."],
     "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
@@ -6449,8 +6484,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/metilprednizolon.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/methylprednisolone.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/metilprednizolon.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/methylprednisolone.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -6476,8 +6511,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/depo-medrol.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/methylprednisolone.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/depo-medrol.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/methylprednisolone.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -6524,8 +6559,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/melbek-15mg.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/melbek-15mg.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
     ],
     "indications"       : ["osteoarthritis in dogs", "control of postoperative pain when administered prior to surgery"],
     "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
@@ -6550,8 +6585,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/melbek-7.5mg.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/melbek-7.5mg.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
     ],
     "indications"       : ["osteoarthritis in dogs", "control of postoperative pain when administered prior to surgery"],
     "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
@@ -6576,8 +6611,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/melbek-15mg.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/melbek-15mg.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
     ],
     "indications"       : ["osteoarthritis in dogs", "control of postoperative pain when administered prior to surgery"],
     "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
@@ -6602,8 +6637,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/movalis.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/movalis.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
     ],
     "indications"       : ["osteoarthritis in dogs", "control of postoperative pain when administered prior to surgery"],
     "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
@@ -6636,8 +6671,8 @@
       }
     },
     "links" : [
-      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/deksametazonik.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/dexamethasone.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/deksametazonik.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/dexamethasone.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -6670,8 +6705,8 @@
       }
     },
     "links" : [
-      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/deksametazonik.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/dexamethasone.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/deksametazonik.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/dexamethasone.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -6697,8 +6732,8 @@
       }
     },
     "links" : [
-      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/deksametazonik.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/dexamethasone.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/deksametazonik.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/dexamethasone.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -6724,8 +6759,8 @@
       }
     },
     "links" : [
-      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/caliercortin.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/dexamethasone.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/caliercortin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/dexamethasone.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -6810,8 +6845,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/meloxoral.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/meloxoral.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -6836,8 +6871,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/meloxidolor.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/meloxidolor.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -7201,8 +7236,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/others/atropin.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/atropine-sulfate.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/others/atropin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/atropine-sulfate.pdf" }
     ],
     "indications"       : ["при отравяне с ФОС и карбамати"],
     "contraindications" : [],
@@ -7227,8 +7262,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/others/atropin.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/atropine-sulfate.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/others/atropin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/atropine-sulfate.pdf" }
     ],
     "indications"       : ["Iron-deficiency anaemia: Up to 4 ml / 1 kg."],
     "contraindications" : [],
@@ -7297,8 +7332,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antiparasitic/zarzio.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/filgrastim.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiparasitic/zarzio.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/filgrastim.pdf" }
     ],
     "indications"       : ["цитокин, който в костния мозък стимулира пролиферацията, дирефенциацията и активацията на прогениторни клетки на неутрофилите.", "при неутропения"],
     "contraindications" : [],
@@ -7357,8 +7392,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/others/vitamin-c.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ascorbic-acid.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/others/vitamin-c.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/ascorbic-acid.pdf" }
     ],
     "indications"       : ["urinary acidifier in small animals"],
     "contraindications" : ["used with caution in patients with diabetes mellitus due to the laboratory interactions (see below), or in patients susceptible to urolithiasis.", "avoid vitamin C’s use in animals with copper-associated hepatopathy"],
@@ -7392,8 +7427,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/others/vitamin-c.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ascorbic-acid.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/others/vitamin-c.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/ascorbic-acid.pdf" }
     ],
     "indications"       : ["urinary acidifier in small animals"],
     "contraindications" : ["used with caution in patients with diabetes mellitus due to the laboratory interactions (see below), or in patients susceptible to urolithiasis.", "avoid vitamin C’s use in animals with copper-associated hepatopathy"],
@@ -7476,8 +7511,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/others/catosal.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/cyanocobalamin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/others/catosal.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/cyanocobalamin.pdf" }
     ],
     "indications"       : ["Смущения в метаболизма причинени от лошо хранене, неправилно отглеждане или заболяване.", "Смущения в развитието и храненето на млади животни поради заболяване в ранна възраст.", "Метафилактика при безплодие и следродилни заболявания и поддържащо лечение при безплодие.", "При мускулни спазми и парези, като допълнение на Ca/Mg терапия.", "Като подсилващо средство при стрес, пренапрежение и намалени съпротивителни сили при здрави животни.", "Като тонизиращо средство в случаи на слабост и преумора."],
     "contraindications" : [],
@@ -7511,8 +7546,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/others/vitamin-b1-amp.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/thiamine.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/others/vitamin-b1-amp.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/thiamine.pdf" }
     ],
     "indications"       : ["A “B” vitamin used for treatment or prevention of thiamine deficiency. May be useful for adjunctive treatment of lead poisoning & ethylene glycol toxicity. Clinical signs of thiamine deficiency may be manifested as gastrointestinal (anorexia, salivation), neuromuscular/CNS signs (ataxia, seizures, loss of reflexes), or cardiac effects (brady- or tachyarrhythmias).","При периферни парализи, неврити и невралгии;", "при сърдечни и чернодробни увреждания; при дерматити;", "като спомагателен препарат при заразни заболявания; ", "при вътрешно прилагане на сулфаниламиди, нитрофуранови съединения и антибиотици; "],
     "contraindications" : [],
@@ -7546,8 +7581,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/others/vitamin-b12-amp.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/cyanocobalamin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/others/vitamin-b12-amp.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/cyanocobalamin.pdf" }
     ],
     "indications"       : ["Средна доза - 2 мкг/кг", "In cases of hyperchromatic, macrocytic and hypoplastic anemias; secondary anemias due to pregnancy, helminthoses, haemosporidioses; in heavy metal intoxications, benzene and organochlorine insecticides products; for therapy and prevention of liver degeneration, neuritis, myelitis, neuralgia; radiation sickness; at feed poisoning; for improvement of digestion; as a stimulating growth factor in adolescent animals; for increased food consumption; at runts."],
     "contraindications" : [],
@@ -7650,10 +7685,10 @@
     "links": [
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/phytonadione.pdf" }
     ],
-    "indications"       : ["Възрастни кучета: 1 таблетка дневно за 10 кг телесно тегло.", "Кученца: 1 таблетка дневно за 5 кг телесно тегло.", "Котки: 1 таблетка дневно.", "Допълваща храна за кучета и котки. Ежедневна добавка от K-витамин. За подпомагане  функцията на черния дроб и синтеза на протеини, важни за кръвосъсирването."],
+    "indications"       : ["ПРИ ОТРАВЯНИЯ:", "1 мг/кг ПО q24h за 4-6 дни - варфарин, фумарин, пиндон, валон.", "2,5 мг/кг ПО q24h за 2-3 седмици - бромадиолон, бродифакум.", "2,5-5 мг/кг ПО q24h за  3-4 седмици - дифацинон, хлорфацинон.", "Възрастни кучета: 1 таблетка дневно за 10 кг телесно тегло.", "Кученца: 1 таблетка дневно за 5 кг телесно тегло.", "Котки: 1 таблетка дневно.", "Допълваща храна за кучета и котки. Ежедневна добавка от K-витамин. За подпомагане  функцията на черния дроб и синтеза на протеини, важни за кръвосъсирването."],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["Витамин К е сравнително безопасен."],
     "pharmacology"      : []
   },
   {
@@ -7674,8 +7709,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/plumbs-pdf/vitacen.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/phytonadione.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/plumbs-pdf/vitacen.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/phytonadione.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -8000,8 +8035,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/others/virbagen.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/interferon-omega.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/others/virbagen.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/interferon-omega.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -8033,8 +8068,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/others/virbagen.pdf" },
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/interferon-omega.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/others/virbagen.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/interferon-omega.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
