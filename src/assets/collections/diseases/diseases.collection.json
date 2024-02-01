@@ -285,7 +285,11 @@
     "bodySystem"  : ["U"],
 
     "links": [
-      { "title": "описание", "link": "pdfs/@diseases/Хронична бъбречна недостатъчност.pdf" }
+      { "title": "описание", "link": "pdfs/@diseases/Хронична бъбречна недостатъчност.pdf" },
+      { "title": "IRIS стадий на ХБН", "link": "pdfs/@diseases/additional-files/IRIS-staging.pdf" },
+      { "title": "IRIS накратко", "link": "pdfs/@diseases/additional-files/IRIS-pocket-guide.pdf" },
+      { "title": "IRIS лечение КЧ", "link": "pdfs/@diseases/additional-files/IRIS-dog-treatment.pdf" },
+      { "title": "IRIS лечение КТ", "link": "pdfs/@diseases/additional-files/IRIS-cat-treatment.pdf" }
     ],
 
     "section"     : [
