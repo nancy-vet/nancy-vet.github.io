@@ -55,12 +55,21 @@
           Методи
         </ion-label>
       </ion-item>
+      <ion-item>
+        <ion-icon class="menu-icon" name="cafe-outline"></ion-icon>
+        <ion-label (click)="processNavigation('feedback')">
+          Обратна връзка
+        </ion-label>
+      </ion-item>
     </ion-list>
   </ion-content>
 
   <ion-footer>
     <ion-toolbar>
-      <ion-title class="tac">v. {{$buildVersion}}</ion-title>
+      <div class="tac"><a href="https://forms.gle/etJRGCi5FPeJPbH98">Обратна връзка</a></div>
+      <div class="tac">v. {{$buildVersion}}</div>
+      <!-- <ion-title class="tac">v. {{$buildVersion}}</ion-title> -->
+      <!-- <ion-title class="tac">v. {{$buildVersion}}</ion-title> -->
     </ion-toolbar>
   </ion-footer>
 
