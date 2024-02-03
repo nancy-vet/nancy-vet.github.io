@@ -21,10 +21,10 @@
 
     @for(sectionElement of element.content; track sectionElement) {
 
-      @if(sectionElement.startsWith("@")) {
+      @if(sectionElement.startsWith("$")) {
         <div class="mt5">
           <video width="320" height="240" controls>
-            <source src="{{sectionElement}}" type="video/mp4">
+            <source src="{{renderVideo(sectionElement)}}" type="video/mp4">
           </video>
         </div>
       }

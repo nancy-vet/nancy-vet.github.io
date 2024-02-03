@@ -38,7 +38,12 @@ export class DrugCard implements OnInit {
    * @returns
    */
   public convert(data: any) {
-    return (data.length > 0) ? data[0] : data;
+
+    if(Array.isArray(data) && data.length > 0) {
+      return data[0];
+    }
+
+    return data;
   }
 
   private buildAssetPath(): string {
