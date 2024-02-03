@@ -2823,7 +2823,7 @@
       { "title": "листовка",  "link": "pdfs/@medication/nervous/anaket.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/ketamine.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["Интравенозна инфузия за обезболяване при КЧ: В 500 мл банка се добавят 0,3 мл кетамин и 5 мл лидокаин от 20 мг за 5 мл/кг/ч. Лидокаин на КОТКА не се дава!", "Интравенозна инфузия за обезболяване при КТ: В 250 мл банка се добавят 0,6 мл кетамин за 5 мл/кг/ч."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -6298,6 +6298,33 @@
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
+  {
+    "type": "endocrine",
+    "title": "Бинокрит амп. 4000 IU",
+    "titleEn": "Binocrit amp. 4000 IU",
+    "activeSubstance": "епоетин алфа",
+    "drugConcentration": 4000,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          0
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/endocrine/binocrit.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/epoetin.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+
 
 
   {

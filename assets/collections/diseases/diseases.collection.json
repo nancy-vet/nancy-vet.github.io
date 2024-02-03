@@ -5,11 +5,9 @@
     "type"        : "ендокринна система",
     "animals"     : "dogs",
     "bodySystem"  : [""],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Рахит.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -57,11 +55,9 @@
     "type"        : "",
     "animals"     : "dogs",
     "bodySystem"  : [""],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Спондилоза.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -101,11 +97,9 @@
     "type"        : "",
     "animals"     : "both",
     "bodySystem"  : [""],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Възпалителни чревни заболявания.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -145,11 +139,9 @@
     "type"        : "гастроинтестинална система",
     "animals"     : "both",
     "bodySystem"  : ["G"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Портосистемен шънт.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -189,11 +181,9 @@
     "type"        : "ендокринна система",
     "animals"     : "dogs",
     "bodySystem"  : ["E"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Хипотиреоидизъм.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -238,11 +228,9 @@
     "type"        : "ендокринна система",
     "animals"     : "cats",
     "bodySystem"  : ["E"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Хипертиреоидизъм.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -283,7 +271,6 @@
     "type"        : "пикочо-полова система",
     "animals"     : "cats",
     "bodySystem"  : ["U"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Хронична бъбречна недостатъчност.pdf" },
       { "title": "IRIS стадий на ХБН", "link": "pdfs/@diseases/additional-files/IRIS-staging.pdf" },
@@ -291,7 +278,6 @@
       { "title": "IRIS лечение КЧ", "link": "pdfs/@diseases/additional-files/IRIS-dog-treatment.pdf" },
       { "title": "IRIS лечение КТ", "link": "pdfs/@diseases/additional-files/IRIS-cat-treatment.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -321,8 +307,10 @@
         "content"       : [
           "Renal храна",
           "Ипакитин/ Пронефра/ Ирквет - намаляват фосфора в кръвта. Дава се докато не премина кризата при остра ББ нед. или се дава постоянно при хронична ББ нед.",
+          "Орнипурал 2 мл",
           "Рингер лактат, до 1,5-2 пъти над дневните флуидни нужди (може да се добави калий).",
           "Рокартрол (калцитриол).",
+          "Епоетин (Бинокрит/ Неорекормон) - стимулира костния мозък да произв повече еритроцити; при анемия заради бъбречно заболяване.",
           "За стимулиране на апетит – антацид, противоповръщателно.",
           "След 2 седмици лечение - контрола (кръвни изследвания и анализ на урина с рефрактометър."
         ]
@@ -341,11 +329,9 @@
     "type"        : "пикочо-полова система",
     "animals"     : "cats",
     "bodySystem"  : ["U"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Feline lower urinary tract disease.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -401,11 +387,9 @@
     "type"        : "нервна система",
     "animals"     : "both",
     "bodySystem"  : ["N"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/epilepsy.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -461,11 +445,9 @@
     "type"        : "инфекциозно",
     "animals"     : "cats",
     "bodySystem"  : ["G"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Панлевкопения КТ.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -515,11 +497,9 @@
     "type"        : "инфекциозно",
     "animals"     : "cats",
     "bodySystem"  : ["eyes", "nose"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Херпесвироза.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -580,11 +560,9 @@
     "type"        : "инфекциозно",
     "animals"     : "cats",
     "bodySystem"  : ["eyes", "nose"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Калицивироза.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -644,11 +622,9 @@
     "type"        : "инфекциозно",
     "animals"     : "cats",
     "bodySystem"  : ["eyes", "nose"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Хламидиоза.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -704,11 +680,9 @@
     "type"        : "инфекциозно",
     "animals"     : "cats",
     "bodySystem"  : ["G"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/levkemia.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -758,11 +732,9 @@
     "type"        : "инфекциозно",
     "animals"     : "cats",
     "bodySystem"  : ["G"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/imunodeficiten-sindrom.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -812,11 +784,9 @@
     "type"        : "инфекциозно",
     "animals"     : "both",
     "bodySystem"  : ["G", "R"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/gana.pdf" }
     ],
-
     "section" : [
       {
         "title"  : "Дефиниция",
@@ -868,11 +838,9 @@
     "type"        : "инфекциозно",
     "animals"     : "dogs",
     "bodySystem"  : ["G"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/parvoviroza.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Дефиниция",
@@ -925,11 +893,9 @@
     "type"        : "инфекциозно",
     "animals"     : "dogs",
     "bodySystem"  : ["G"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Висцерална лайшманиоза.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Дефиниция",
@@ -1024,11 +990,9 @@
     "type"        : "инфекциозно",
     "animals"     : "cats",
     "bodySystem"  : ["G"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Инфекциозен перитонит КТ.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Дефиниция",
@@ -1074,11 +1038,9 @@
     "type"        : "инфекциозно",
     "animals"     : "cats",
     "bodySystem"  : ["U"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Бордетелоза.docx" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -1120,11 +1082,9 @@
     "type"        : "сърдечна система",
     "animals"     : "cats",
     "bodySystem"  : ["U"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Дилатативна кардиомиопатия.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -1164,11 +1124,9 @@
     "type"        : "сърдечна система",
     "animals"     : "cats",
     "bodySystem"  : ["U"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Миксоматозно заболяване на митралната клапа.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -1208,11 +1166,9 @@
     "type"        : "сърдечна система",
     "animals"     : "cats",
     "bodySystem"  : ["U"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Постоянен дуктус артериозус.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -1252,11 +1208,9 @@
     "type"        : "сърдечна система",
     "animals"     : "cats",
     "bodySystem"  : ["U"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Тетралогия на Фало.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -1296,11 +1250,9 @@
     "type"        : "сърдечна система",
     "animals"     : "dogs",
     "bodySystem"  : ["U"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Хипертрофична кардиомиопатия.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -1354,11 +1306,9 @@
     "type"        : "инфекциозно",
     "animals"     : "cats",
     "bodySystem"  : ["U"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Бруцелоза.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -1398,11 +1348,9 @@
     "type"        : "инфекциозно",
     "animals"     : "cats",
     "bodySystem"  : ["U"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Бяс.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -1442,11 +1390,9 @@
     "type"        : "инфекциозно",
     "animals"     : "cats",
     "bodySystem"  : ["U"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Векторни бактериални инфекции при кучетата.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -1486,11 +1432,9 @@
     "type"        : "инфекциозно",
     "animals"     : "cats",
     "bodySystem"  : ["U"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Колиинфекции.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -1530,11 +1474,9 @@
     "type"        : "инфекциозно",
     "animals"     : "cats",
     "bodySystem"  : ["U"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Салмонелози и паратифни заболявания.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -1574,11 +1516,9 @@
     "type"        : "инфекциозно",
     "animals"     : "cats",
     "bodySystem"  : ["U"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Туберкулоза.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -1618,11 +1558,9 @@
     "type"        : "инфекциозно",
     "animals"     : "cats",
     "bodySystem"  : ["U"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Лептоспироза.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -1662,11 +1600,9 @@
     "type"        : "инфекциозно",
     "animals"     : "cats",
     "bodySystem"  : ["U"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Листериоза.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -1706,11 +1642,9 @@
     "type"        : "инфекциозно",
     "animals"     : "cats",
     "bodySystem"  : ["U"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Ку-треска.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -1750,11 +1684,9 @@
     "type"        : "инфекциозно",
     "animals"     : "cats",
     "bodySystem"  : ["U"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Туларемия.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -1799,11 +1731,9 @@
     "type"        : "пикочо-полова система",
     "animals"     : "cats",
     "bodySystem"  : ["U"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Вторичен бъбречен хиперпаратиреоидизъм.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -1843,11 +1773,9 @@
     "type"        : "ендокринна система",
     "animals"     : "both",
     "bodySystem"  : ["U"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -1887,11 +1815,9 @@
     "type"        : "ендокринна система",
     "animals"     : "both",
     "bodySystem"  : ["U"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Панкреатит.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -1931,11 +1857,9 @@
     "type"        : "ендокринна система",
     "animals"     : "both",
     "bodySystem"  : ["U"],
-
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -1972,14 +1896,12 @@
   {
     "title"       : "Еклампсия",
     "titleEn"     : "",
-    "type"        : "пикочо-полова система",
-    "animals"     : "cats",
-    "bodySystem"  : ["U"],
-
+    "type"        : "",
+    "animals"     : "",
+    "bodySystem"  : [""],
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Еклампсия.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -2016,14 +1938,12 @@
   {
     "title"       : "Липидоза",
     "titleEn"     : "Feline Hepatic Lipidosis",
-    "type"        : "пикочо-полова система",
+    "type"        : "",
     "animals"     : "cats",
-    "bodySystem"  : ["U"],
-
+    "bodySystem"  : [""],
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Липидоза.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -2060,14 +1980,12 @@
   {
     "title"       : "Колапс на трахеята",
     "titleEn"     : "Tracheal collapse",
-    "type"        : "пикочо-полова система",
-    "animals"     : "cats",
-    "bodySystem"  : ["U"],
-
+    "type"        : "",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -2104,14 +2022,12 @@
   {
     "title"       : "",
     "titleEn"     : "",
-    "type"        : "пикочо-полова система",
-    "animals"     : "cats",
-    "bodySystem"  : ["U"],
-
+    "type"        : "",
+    "animals"     : "",
+    "bodySystem"  : [""],
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
@@ -2148,14 +2064,12 @@
   {
     "title"       : "",
     "titleEn"     : "",
-    "type"        : "пикочо-полова система",
-    "animals"     : "cats",
-    "bodySystem"  : ["U"],
-
+    "type"        : "",
+    "animals"     : "",
+    "bodySystem"  : [""],
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/.pdf" }
     ],
-
     "section"     : [
       {
         "title"  : "Етиология",
