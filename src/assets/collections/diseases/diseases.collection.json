@@ -4,7 +4,7 @@
     "titleEn"     : "",
     "type"        : "ендокринна система",
     "animals"     : "dogs",
-    "bodySystem"  : ["U"],
+    "bodySystem"  : [""],
 
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Рахит.pdf" }
@@ -54,9 +54,9 @@
   {
     "title"       : "Спондилоза",
     "titleEn"     : "",
-    "type"        : "ендокринна система",
+    "type"        : "",
     "animals"     : "dogs",
-    "bodySystem"  : ["U"],
+    "bodySystem"  : [""],
 
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Спондилоза.pdf" }
@@ -98,9 +98,9 @@
   {
     "title"       : "Възпалителни чревни заболявания",
     "titleEn"     : "",
-    "type"        : "ендокринна система",
-    "animals"     : "dogs",
-    "bodySystem"  : ["U"],
+    "type"        : "",
+    "animals"     : "both",
+    "bodySystem"  : [""],
 
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Възпалителни чревни заболявания.pdf" }
@@ -142,9 +142,9 @@
   {
     "title"       : "Портосистемен шънт",
     "titleEn"     : "",
-    "type"        : "ендокринна система",
-    "animals"     : "dogs",
-    "bodySystem"  : ["U"],
+    "type"        : "гастроинтестинална система",
+    "animals"     : "both",
+    "bodySystem"  : ["G"],
 
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Портосистемен шънт.pdf" }
@@ -188,7 +188,7 @@
     "titleEn"     : "",
     "type"        : "ендокринна система",
     "animals"     : "dogs",
-    "bodySystem"  : ["U"],
+    "bodySystem"  : ["E"],
 
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Хипотиреоидизъм.pdf" }
@@ -237,7 +237,7 @@
     "titleEn"     : "",
     "type"        : "ендокринна система",
     "animals"     : "cats",
-    "bodySystem"  : ["U"],
+    "bodySystem"  : ["E"],
 
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Хипертиреоидизъм.pdf" }
@@ -369,7 +369,8 @@
       {
         "title"  : "Диагностика",
         "content"       : [
-          ""
+          "пълен пикочен мехур при палпация и евентуално невъзможност за изпикаване.",
+          "при заседнал уролит в уретер пикочният мехур се препълва и настъпва интоксикация, при което температурата пада."
         ]
       },
       {
