@@ -28,6 +28,9 @@
           </video>
         </div>
       }
+      @if(sectionElement.startsWith("@")) {
+        <img src="{{renderImage(sectionElement)}}"/>
+      }
       @else {
         <div class="mt5">{{sectionElement}}</div>
       }

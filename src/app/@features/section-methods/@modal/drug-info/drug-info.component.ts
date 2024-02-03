@@ -58,4 +58,8 @@ export class DrugInfoModal {
   public renderVideo(tag: string) {
     return tag.replace("$", "");
   }
+
+  public renderImage(tag: string) {
+    return tag.replace("@", "");
+  }
 }
