@@ -29,4 +29,18 @@ export class VaccinationRabiesPage implements OnInit {
 
     this.travellingDate = travellingDateObj.toLocaleDateString('bg-BG');
   }
+
+  public processTravelingDate(a: any) {
+
+    const rrr = new Date(a.detail.value);
+    console.log(rrr);
+
+    const validationDateObj = new Date(a.detail.value);
+    validationDateObj.setDate(rrr.getDate() + 21);
+
+    console.log("@@@");
+    console.log(a);
+    console.log(validationDateObj);
+    this.travellingDate = validationDateObj.toLocaleDateString('bg-BG');
+  }
 }

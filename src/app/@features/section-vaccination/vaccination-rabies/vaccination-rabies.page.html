@@ -45,21 +45,38 @@
       </ion-col>
     </ion-row>
 
+
       <ion-col>
         <div class="rabies-box">
           <div class="rabies-text mt16">
             Животното ще пътува на:
           </div>
-          <input type="date" id="travelling-input-date">
+          <ion-datetime
+            prefer-wheel="true"
+            presentation="date"
+            (ionChange)="processTravelingDate($event)">
+          </ion-datetime>
         </div>
 
         <div class="rabies-box">
-          <div class="rabies-text mt16">
+          <div class="rabies-text">
+            Ваксината за бяс трябва да е на:
+          </div>
+          <div id="current-date" class="flex">
+            <div class="mr8" style="font-size: 20px; padding: 3px;">
+              <ion-icon name="calendar-clear-outline"></ion-icon>
+            </div>
+            <div>
+              {{travellingDate}}
+            </div>
+          </div>
+
+          <!-- <div class="rabies-text mt16">
             Ваксината за бяс трябва да е на:
           </div>
           <div>
             {{travellingDate}}
-          </div>
+          </div> -->
         </div>
       </ion-col>
 
