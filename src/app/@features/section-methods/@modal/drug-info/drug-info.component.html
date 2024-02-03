@@ -4,6 +4,9 @@
     {{selectedObject.title}}
   </div>
 
+
+
+
   @for(element of selectedObject.links; track element) {
 
     <nv-link-button
@@ -13,16 +16,26 @@
   }
 
   @for(element of selectedObject.section; track element) {
-    <div class="h3 mt16">{{element.title}}</div>
+      <div class="h3 mt16">{{element.title}}</div>
+
 
     @for(sectionElement of element.content; track sectionElement) {
-      <div class="mt5">{{sectionElement}}</div>
+
+      @if(sectionElement.startsWith("@")) {
+        <div class="mt5">
+          <video width="320" height="240" controls>
+            <source src="{{sectionElement}}" type="video/mp4">
+          </video>
+        </div>
+      }
+      @else {
+        <div class="mt5">{{sectionElement}}</div>
+      }
     }
+
+
   }
 
 
-  <video width="320" height="240" controls>
-    <source src="(video)">
-  </video>
 
 </nv-info-modal>
