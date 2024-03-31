@@ -1864,7 +1864,7 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/urogenital/ipozan.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["При доброкачествена хиперплазия на простатата.", "1 табл. веднъж дневно за 7 дни.", "Има 6-месечен ефект."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -1890,7 +1890,7 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/urogenital/ipozan.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["При доброкачествена хиперплазия на простатата.", "1 табл. веднъж дневно за 7 дни.", "Има 6-месечен ефект."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -1916,7 +1916,7 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/urogenital/ipozan.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["При доброкачествена хиперплазия на простатата.", "1 табл. веднъж дневно за 7 дни.", "Има 6-месечен ефект."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -1942,7 +1942,7 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/urogenital/ipozan.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["При доброкачествена хиперплазия на простатата.", "1 табл. веднъж дневно за 7 дни.", "Има 6-месечен ефект."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -2805,11 +2805,11 @@
   },
   {
     "type": "nervous",
-    "title": "Анакет",
+    "title": "Анакет 100 мг/мл",
     "titleEn": "Anaket",
     "activeSubstance": "кетамин",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "-",
+    "drugConcentration": 100,
+    "drugConcentrationDecorator": "mg_ml",
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -2825,7 +2825,7 @@
     ],
     "indications"       : ["Интравенозна инфузия за обезболяване при КЧ: В 500 мл банка се добавят 0,3 мл кетамин и 5 мл лидокаин от 20 мг за 5 мл/кг/ч. Лидокаин на КОТКА не се дава!", "Интравенозна инфузия за обезболяване при КТ: В 250 мл банка се добавят 0,6 мл кетамин за 5 мл/кг/ч."],
     "contraindications" : [],
-    "drugInteractions"  : [],
+    "drugInteractions"  : ["Ketamine/xylazine has induced cardiac arrhythmias, pulmonary edema, and respiratory depression in dogs. This combination should be used with caution."],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -5438,16 +5438,23 @@
     "drugConcentration": 250,
     "drugConcentrationDecorator": "mg_tabl",
     "application": {
-      "any": {
+      "dog": {
         "activeSubstanceDose": [
-          0
+          10
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": ""
+        "applicationMethod": "PO за 8 последователни дни"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          5
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO за 8 последователни дни"
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics.pdf" }
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/azithromycin.pdf" }
     ],
     "indications"       : ["група: макролиди"],
     "contraindications" : [],
@@ -5480,9 +5487,42 @@
     },
     "links": [
       { "title": "листовка",  "link": "pdfs/@medication/antibiotics/sumamed.pdf" },
-      { "title": "Plumbs",    "link": "pdfs/@medication/antibiotics/azithromycin.pdf" }
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/azithromycin.pdf" }
     ],
-    "indications"       : ["група: макролиди", "разтваря се в 12 мл вода", "дава се реди вит. Б12"],
+    "indications"       : ["група: макролиди", "разтваря се в 12 мл вода", "дава се преди вит. Б12"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antibiotics",
+    "title": "Азатрил 100 мг/ 5 мл перорална суспензия",
+    "titleEn": "Azatril 100 mg/ 5 ml",
+    "activeSubstance": "азитромицин",
+    "drugConcentration": 20,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          10
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO за 8 последователни дни"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          5
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO за 8 последователни дни"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/azatril.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/azithromycin.pdf" }
+    ],
+    "indications"       : ["група: макролиди", "дава се преди вит. Б12"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -5506,7 +5546,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antibiotics/azatril.png" }
+      { "title": "листовка", "link": "pdfs/@medication/antibiotics/azatril.png" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/azithromycin.pdf" }
     ],
     "indications"       : ["група: макролиди"],
     "contraindications" : [],
