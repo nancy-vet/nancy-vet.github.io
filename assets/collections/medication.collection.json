@@ -183,6 +183,33 @@
   },
   {
     "type": "gastrointestinal",
+    "title": "Панразол 20 мг табл.",
+    "titleEn": "Oanrazol 20 mg tabl",
+    "activeSubstance": "пантопразол",
+    "drugConcentration": 20,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0.7,
+          1
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "q24h PO"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/panrazol.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/pantoprazole.pdf" }
+    ],
+    "indications"       : ["Proton pump inhibitor similar to omeprazole; also available in IV dosage form."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "gastrointestinal",
     "title": "Сопрал 20 мг капс",
     "titleEn": "Sopral 20 mg caps",
     "activeSubstance": "омепразол",
@@ -228,33 +255,6 @@
       { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/neksium.pdf" }
     ],
     "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "gastrointestinal",
-    "title": "Панразол 20 мг табл.",
-    "titleEn": "Oanrazol 20 mg tabl",
-    "activeSubstance": "пантопразол",
-    "drugConcentration": 20,
-    "drugConcentrationDecorator": "mg_tabl",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          0.7,
-          1
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "q24h PO"
-      }
-    },
-    "links": [
-      { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/panrazol.pdf" },
-      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/pantoprazole.pdf" }
-    ],
-    "indications"       : ["Proton pump inhibitor similar to omeprazole; also available in IV dosage form."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -338,7 +338,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/antepsin.pdf" }
+      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/antepsin.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/sucralfate.pdf" }
     ],
     "indications"       : ["Sucralfate has been used in the treatment of oral, esophageal, gastric, and duodenal ulcers. It has also been employed to prevent drug-induced (e.g., aspirin) gastric erosions, but efficacy for this is somewhat sporadic. Sucralfate has been used in human patients with hyperphosphatemia secondary to renal failure and potentially could be useful for this in animals as well."],
     "contraindications" : [],
@@ -481,31 +482,6 @@
     ],
     "indications"       : ["Psyllium, which is derived from seeds of Plantago spp plants, provides predominantly soluble dietary fiber that can increase digesta viscosity or form mucilaginous gels in water at sufficient concentration.11 Psyllium is less rapidly fermented in the colon compared with other soluble dietary fiber, which benefits the distal colon by allowing fermentation to occur there.", "Psyllium increases concentrations of short-chain fatty acids, which are beneficial in restoring microbial balance and acidifying colonic contents.", "Patients with no change after receiving doses at the upper end of the published effective range (ie, 4.9 g/kg q24h) are considered nonresponsive.", "Typically start with the lower dose, dividing the dose over daily meals, and increase the dose slowly as needed.", "Изсипете предписаното количество в чаша вода (сок, кисело мляко), разбъркайте енергично и изпийте веднага. Приема се 30 минути преди хранене"],
     "contraindications" : ["constipation is a result a too little fiber in their diets or when straining to defecate may be deleterious", "used to increase stool consistency in patients with chronic, watery diarrhea. The total amount of water in the stool remains unchanged."],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "gastrointestinal",
-    "title": "Еспумизан Л капки",
-    "titleEn": "Espumisan L",
-    "activeSubstance": "симетикон",
-    "drugConcentration": 40,
-    "drugConcentrationDecorator": "same",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          0
-        ],
-        "activeSubstanceDoseDecorator": "ml_kg",
-        "applicationMethod": "-"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/espumisan.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
