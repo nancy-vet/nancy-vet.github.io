@@ -1,0 +1,43 @@
+<!-- App Header -->
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button size="default"  color="dark"></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Ехограф</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- App Content -->
+<ion-content
+  class="ion-padding"
+  [fullscreen]="true">
+
+  <ion-input [(ngModel)]="age" [placeholder]="'Възраст'"></ion-input>
+  <ion-input [(ngModel)]="weight" [placeholder]="'Килограми'"></ion-input>
+  <ion-button (click)="processCalculation()">Калкулирай</ion-button>
+
+  <table style="margin-top: 36px;">
+    <tr>
+      <td>L</td>
+      <td>{{L}}</td>
+    </tr>
+    <tr>
+      <td>W</td>
+      <td>{{W}}</td>
+    </tr>
+    <tr>
+      <td>Hsag</td>
+      <td>{{Hsag}}</td>
+    </tr>
+    <tr>
+      <td>Htr</td>
+      <td>{{Htr}}</td>
+    </tr>
+    <tr>
+      <td>V</td>
+      <td>{{V}}</td>
+    </tr>
+  </table>
+
+</ion-content>

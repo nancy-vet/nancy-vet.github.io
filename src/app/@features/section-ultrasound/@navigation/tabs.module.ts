@@ -25,16 +25,16 @@ const routes: Routes = [
         loadChildren  : () => import('../main/main.module').then(m => m.FeatureModule)
       },
       {
-        path          : 'pregnancy',
-        loadChildren  : () => import('../main/main.module').then(m => m.FeatureModule)
-      },
-      {
         path          : 'measurements',
         loadChildren  : () => import('../main/main.module').then(m => m.FeatureModule)
       },
       {
+        path          : 'pregnancy',
+        loadChildren  : () => import('../pregnancy/pregnancy.module').then(m => m.FeatureModule)
+      },
+      {
         path          : 'prostate',
-        loadChildren  : () => import('../main/main.module').then(m => m.FeatureModule)
+        loadChildren  : () => import('../prostate/prostate.module').then(m => m.FeatureModule)
       },
       {
         path          : '',
