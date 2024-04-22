@@ -51,6 +51,10 @@ const routes: Routes = [
   {
     path          : AppNavigationRouteEnum.AUSCULTATION,
     loadChildren  : () => import('./@features/section-auscultation/@navigation/tabs.module').then(m => m.TabsPageModule)
+  },
+  {
+    path          : AppNavigationRouteEnum.ULTRASOUND,
+    loadChildren  : () => import('./@features/section-ultrasound/@navigation/tabs.module').then(m => m.TabsPageModule)
   }
 ];
 
