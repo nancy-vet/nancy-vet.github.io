@@ -13,29 +13,31 @@
   class="ion-padding"
   [fullscreen]="true">
 
-  <ion-input [(ngModel)]="age" [placeholder]="'Възраст'"></ion-input>
-  <ion-input [(ngModel)]="weight" [placeholder]="'Килограми'"></ion-input>
+  <ion-item>Изчисляване на максималните размери на простатата при кучета</ion-item>
+
+  <ion-input [(ngModel)]="age" [placeholder]="'Възраст'">Възраст (години)</ion-input>
+  <ion-input [(ngModel)]="weight" [placeholder]="'Килограми'">Тегло (кг)</ion-input>
   <ion-button (click)="processCalculation()">Калкулирай</ion-button>
 
   <table style="margin-top: 36px;">
     <tr>
-      <td>L</td>
-      <td>{{L}}</td>
+      <td>Дължина = </td>
+      <td>{{L}} см</td>
     </tr>
     <tr>
-      <td>W</td>
-      <td>{{W}}</td>
+      <td>Ширина = </td>
+      <td>{{W}} см</td>
     </tr>
     <tr>
-      <td>Hsag</td>
-      <td>{{Hsag}}</td>
+      <td>Височина (сагитално) = </td>
+      <td>{{Hsag}} см</td>
     </tr>
     <tr>
-      <td>Htr</td>
-      <td>{{Htr}}</td>
+      <td>Височина (трансверзално) = </td>
+      <td>{{Htr}} см</td>
     </tr>
     <tr>
-      <td>V</td>
+      <td>Обем = </td>
       <td>{{V}}</td>
     </tr>
   </table>

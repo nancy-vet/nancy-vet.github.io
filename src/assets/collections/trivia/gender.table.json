@@ -10,7 +10,7 @@
         ]
       },
       {
-        "sectionTitle": "Разтояния",
+        "sectionTitle": "Разстояния",
         "content" : [
           "@/assets/pdfs/@trivia/gender/gender1.png",
           "@/assets/pdfs/@trivia/gender/gender2.png",

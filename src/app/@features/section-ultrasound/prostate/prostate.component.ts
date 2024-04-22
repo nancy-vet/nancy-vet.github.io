@@ -18,10 +18,10 @@ export class ProstateComponent {
 
   public processCalculation() {
 
-    this.L    = (0.055 * this.weight) + (0.143 * this.age) + 3.31;
-    this.W    = (0.047 * this.weight) + (0.089 * this.age) + 3.45;
-    this.Hsag = (0.046 * this.weight) + (0.069 * this.age) + 2.68;
-    this.Htr  = (0.044 * this.weight) + (0.083 * this.age) + 2.25;
-    this.V    = (0.867 * this.weight) + (1.885 * this.age) + 15.88;
+    this.L    = Math.round(((0.055 * this.weight) + (0.143 * this.age) + 3.31)*100)/100;
+    this.W    = Math.round(((0.047 * this.weight) + (0.089 * this.age) + 3.45)*100)/100;
+    this.Hsag = Math.round(((0.046 * this.weight) + (0.069 * this.age) + 2.68)*100)/100;
+    this.Htr  = Math.round(((0.044 * this.weight) + (0.083 * this.age) + 2.25)*100)/100;
+    this.V    = Math.round(((0.867 * this.weight) + (1.885 * this.age) + 15.88)*100)/100;
   }
 }
