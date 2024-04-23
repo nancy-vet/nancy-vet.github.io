@@ -133,6 +133,153 @@
     }
   </ion-grid>
 
+
+  @if($formProperty.animalType == 'cat' && $formProperty.when == 'before') {
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20">IGCD</div>
+      </ion-col>
+      <ion-col size="8" style="display: flex;">
+        <ion-input
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          [counter]="true"
+          [(ngModel)]="IGCD"></ion-input>
+          <div style="width: 50px; margin-left: 10px; margin-top: 26px;">мм</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20">EGCD</div>
+      </ion-col>
+      <ion-col size="8" style="display: flex;">
+        <ion-input
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          [counter]="true"
+          [(ngModel)]="EGCD"></ion-input>
+          <div style="width: 50px; margin-left: 10px; margin-top: 26px;">мм</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20">Embryonic length</div>
+      </ion-col>
+      <ion-col size="8" style="display: flex;">
+        <ion-input
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          [counter]="true"
+          [(ngModel)]="EL"></ion-input>
+          <div style="width: 50px; margin-left: 10px; margin-top: 26px;">мм</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12">
+        <ion-button
+          size="default"
+          expand="block"
+          (click)="processCalculation()">Калкулирай
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  }
+
+  @if($formProperty.animalType == 'cat' && $formProperty.when == 'after') {
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20">HD</div>
+      </ion-col>
+      <ion-col size="8" style="display: flex;">
+        <ion-input
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          [counter]="true"
+          [(ngModel)]="HD"></ion-input>
+          <div style="width: 50px; margin-left: 10px; margin-top: 26px;">мм</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20">BD</div>
+      </ion-col>
+      <ion-col size="8" style="display: flex;">
+        <ion-input
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          [counter]="true"
+          [(ngModel)]="BD"></ion-input>
+          <div style="width: 50px; margin-left: 10px; margin-top: 26px;">мм</div>
+      </ion-col>
+    </ion-row>
+<!--
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20">Fetal Abdominal  diameter (FAD)</div>
+      </ion-col>
+      <ion-col size="8" style="display: flex;">
+        <ion-input
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          [counter]="true"
+          [(ngModel)]="FAD"></ion-input>
+          <div style="width: 50px; margin-left: 10px; margin-top: 26px;">мм</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20">Fetal biparietal diameter (FBD)</div>
+      </ion-col>
+      <ion-col size="8" style="display: flex;">
+        <ion-input
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          [counter]="true"
+          [(ngModel)]="FBD"></ion-input>
+          <div style="width: 50px; margin-left: 10px; margin-top: 26px;">мм</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20">Fetal Stomach Diameter (FSD)</div>
+      </ion-col>
+      <ion-col size="8" style="display: flex;">
+        <ion-input
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          [counter]="true"
+          [(ngModel)]="FSD"></ion-input>
+          <div style="width: 50px; margin-left: 10px; margin-top: 26px;">мм</div>
+      </ion-col>
+    </ion-row> -->
+
+    <ion-row>
+      <ion-col size="12">
+        <ion-button
+          size="default"
+          expand="block"
+          (click)="processCalculation()">Калкулирай
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  }
+
   <ion-grid>
     <ion-row>
       <ion-col size="6">
