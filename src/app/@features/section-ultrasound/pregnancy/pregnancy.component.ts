@@ -26,14 +26,18 @@ export class PregnancyComponent {
 
   public processCalculation() {
 
-    this.GAB1  = Math.round(((6 * this.GSD) + 20)*100)/100;
-    this.GAB2  = Math.round(((3 * this.CRL) + 27)*100)/100;
-    this.GAB  = Math.round((this.GAB1 / this.GAB2)*100)/100;
+    this.GAB1  = Math.round(((6 * this.GSD) + 20) *100) /100;
+    this.GAB2  = Math.round(((3 * this.CRL) + 27) *100) /100;
+    this.GAB  = Math.round(((this.GAB1 + this.GAB2) /2)*100)/100;
 
-    this.GAA1  = Math.round(((15 * this.HD) + 20)*100)/100;
-    this.GAA2  = Math.round(((7 * this.BD) + 29)*100)/100;
-    this.GAA3  = Math.round(((6 * this.HD) + (3 * this.BD) + 30)*100)/100;
-    this.GAA   = Math.round((this.GAA1 / this.GAA2 / this.GAA3)*100)/100;
+    console.log(this.GAB1);
+    console.log(this.GAB2);
+    console.log(this.GAB);
+
+    this.GAA1  = Math.round(((15 * this.HD) + 20) *100) /100;
+    this.GAA2  = Math.round(((7 * this.BD) + 29) *100) /100;
+    this.GAA3  = Math.round(((6 * this.HD) + (3 * this.BD) + 30) *100) /100;
+    this.GAA   = Math.round(((this.GAA1 + this.GAA2 + this.GAA3) /3) *100) /100;
 
     this.DBP1  = Math.round((61 - this.GAB)*100)/100;
     this.DBP2  = Math.round((61 - this.GAA)*100)/100;

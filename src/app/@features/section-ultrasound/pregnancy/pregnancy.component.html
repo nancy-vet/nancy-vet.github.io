@@ -13,29 +13,37 @@
   class="ion-padding"
   [fullscreen]="true">
 
-  <ion-item>Изчисляване на възрастта на плодовете (КУЧЕ)</ion-item>
+  <ion-item>Изчисляване на възрастта на плодовете (КУЧЕ) при бременност ПОД 40 дни</ion-item>
 
   <ion-input [(ngModel)]="GSD" [placeholder]="'GSD'">Gestational sac diameter (GSD) (cm)</ion-input>
   <ion-input [(ngModel)]="CRL" [placeholder]="'CRL'">Crown-rump length (CRL) (cm)</ion-input>
-  <ion-input [(ngModel)]="HD" [placeholder]="'HD'">Head diameter (cm)</ion-input>
-  <ion-input [(ngModel)]="BD" [placeholder]="'BD'">Body diameter (cm)</ion-input>
-  <ion-button (click)="processCalculation()">Калкулирай</ion-button>
 
   <table style="margin-top: 36px;">
     <tr>
-      <td>Възраст на плода преди 40-ия ден</td>
+      <td>Възраст на плода</td>
       <td> = {{GAB}} дни ±3 дни</td>
     </tr>
     <tr>
-      <td>Възраст на плода след 40-ия ден</td>
+      <td>Оставащи дни до раждане</td>
+      <td> = {{DBP1}} дни</td>
+    </tr>
+  </table>
+
+  <ion-item>Изчисляване на възрастта на плодовете (КУЧЕ) при бременност НАД 40 дни</ion-item>
+
+  <ion-input [(ngModel)]="HD" [placeholder]="'HD'">Head diameter (cm)</ion-input>
+  <ion-input [(ngModel)]="BD" [placeholder]="'BD'">Body diameter (cm)</ion-input>
+
+  <ion-button (click)="processCalculation()">Калкулирай</ion-button>
+
+  <table style="margin-top: 36px;">
+
+    <tr>
+      <td>Възраст на плода</td>
       <td> = {{GAA}} дни</td>
     </tr>
     <tr>
-      <td>Оставащи дни до раждане (ако плодовете са под 40 дни)</td>
-      <td> = {{DBP1}} дни</td>
-    </tr>
-    <tr>
-      <td>Оставащи дни до раждане (ако плодовете са над 40 дни)</td>
+      <td>Оставащи дни до раждане</td>
       <td> = {{DBP2}} дни</td>
     </tr>
   </table>
