@@ -8,6 +8,7 @@ import { ProstateComponent      } from './prostate.component';
 import { PatientPicker          } from 'nv@components/@blocks/patient-picker/patient-picker.component';
 import { DosePicker             } from 'nv@components/@blocks/dose-picker/dose-picker.component';
 import { NvInfoModal            } from 'nv@components/@layouts/nv-info-modal/nv-info-modal.component';
+import { ResultModal            } from './@modal/result-modal/result-modal.component';
 
 const routes: Routes = [{
     path      : '',
@@ -17,7 +18,8 @@ const routes: Routes = [{
 
 @NgModule({
   declarations                    : [
-    ProstateComponent
+    ProstateComponent,
+    ResultModal
   ],
   imports                         : [
     RouterModule.forChild(routes) ,

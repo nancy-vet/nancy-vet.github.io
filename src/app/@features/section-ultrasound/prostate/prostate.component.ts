@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProstateComponent {
 
+  public isVisible = false;
+
   public age: number = 0;
   public weight: number = 0;
 
@@ -18,6 +20,7 @@ export class ProstateComponent {
 
   public processCalculation() {
 
+    this.isVisible = true;
     this.L    = Math.round(((0.055 * this.weight) + (0.143 * this.age) + 3.31)*100)/100;
     this.W    = Math.round(((0.047 * this.weight) + (0.089 * this.age) + 3.45)*100)/100;
     this.Hsag = Math.round(((0.046 * this.weight) + (0.069 * this.age) + 2.68)*100)/100;
