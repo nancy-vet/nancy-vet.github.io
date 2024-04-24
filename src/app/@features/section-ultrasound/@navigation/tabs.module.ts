@@ -26,7 +26,7 @@ const routes: Routes = [
       },
       {
         path          : 'measurements',
-        loadChildren  : () => import('../main/main.module').then(m => m.FeatureModule)
+        loadChildren  : () => import('../measurements/measurements.module').then(m => m.FeatureModule)
       },
       {
         path          : 'pregnancy',
