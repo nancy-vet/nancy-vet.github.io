@@ -23,8 +23,6 @@ export class ResultModal implements OnInit {
         parseFloat(this.selectedObject.c2) /  parseFloat(this.selectedObject.c1)
       ) * parseFloat(this.selectedObject.v2);
 
-      console.log(this.selectedObject);
-
     if(this.selectedObject.patientType   == 'dog') {
 
       if(this.selectedObject.c2 == '5') {

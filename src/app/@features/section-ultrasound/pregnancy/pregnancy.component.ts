@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, inject } from '@angular/core';
+import { DialogService } from 'nv@services/dialog.service';
+import { ResultModal } from './@modal/result-modal/result-modal.component';
 
 @Component({
   selector: 'app-pregnancy',
@@ -6,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pregnancy.component.scss']
 })
 export class PregnancyComponent {
+
+  private dialogService     = inject(DialogService);
 
   public $formProperty = {
     animalType  : "dog",
@@ -60,7 +64,7 @@ export class PregnancyComponent {
     this.$formProperty.when = ($event.detail.checked) ? 'after' : 'before';
   }
 
-  public processCalculation() {
+  public async processCalculation() {
 
     if(this.$formProperty.animalType == 'dog' && this.$formProperty.when == 'before') {
 
@@ -109,5 +113,9 @@ export class PregnancyComponent {
       this.$ui.fetusAge         = this.GAA;
       this.$ui.daysBeforeTermin = this.DBP1;
     }
+
+    (await this.dialogService.open(ResultModal, {
+      selectedObject: this.$ui
+    }));
   }
 }

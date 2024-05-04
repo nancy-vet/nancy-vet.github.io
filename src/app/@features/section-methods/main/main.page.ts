@@ -15,9 +15,7 @@ export class MainPage implements OnInit {
   public $data: any;
 
   public ngOnInit(): void {
-
     this.$data = this.$dataService.get();
-    console.log(this.$data);
   }
 
   /**

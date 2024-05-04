@@ -20,10 +20,7 @@ export class MainPage implements OnInit {
 
     const pathCollection = window.location.pathname.split('/');
     const serviceId      = pathCollection[pathCollection.length - 1];
-    console.log(serviceId);
     this.$data           = this.$dataService.get(serviceId);
-
-    console.log(this.$data);
   }
 
   public async onSelectCard(element: any) {

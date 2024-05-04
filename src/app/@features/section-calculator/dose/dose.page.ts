@@ -10,6 +10,9 @@ import { DataService        } from 'nv@services/data.service';
 })
 export class DosePage {
 
+  private ttt: MenuController       = inject(MenuController);
+  private dataService: DataService  = inject(DataService);
+
   public inputSuggestionCollection  = [];
   public cardCollection: any[]      = [];
 
@@ -27,8 +30,6 @@ export class DosePage {
     patientType   : '',
     activeMedicine: ''
   }
-
-  private dataService: DataService = inject(DataService);
 
   /**
    * @author Mihail Petrov
@@ -75,11 +76,7 @@ export class DosePage {
     this.cardCollection.push($event);
   }
 
-
-  private ttt: MenuController = inject(MenuController);
   public processOpenMenu() {
-
-    console.log("start menu item");
 
     this.ttt.close('first-menu')
     this.ttt.open('first-menu')

@@ -110,10 +110,6 @@ export class DiseasesService {
    * @returns
    */
   public get() {
-
-    console.log("*** GO");
-    console.log(this.$intermediateCollection);
-
     return this.$intermediateCollection;
   }
 }

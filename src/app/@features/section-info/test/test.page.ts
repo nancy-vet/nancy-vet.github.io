@@ -13,8 +13,8 @@ import { DetailModal          } from './@modal/detail/detail.component';
 })
 export class TestPage {
 
-  private $dataService = inject(TestService);
-  private dialogService     = inject(DialogService);
+  private $dataService  = inject(TestService);
+  private dialogService = inject(DialogService);
 
   public imageCollection: any[]     = this.$dataService.getByCategoryType();
   public $selectedCategories: any[] = [];
@@ -70,8 +70,6 @@ export class TestPage {
    * @returns
    */
   public translate(label: string) {
-
-    console.log(label);
 
     if(label == 'cat'         ) return "ЗА КОТКИ";
     if(label == 'dog'         ) return "ЗА КУЧЕТА";

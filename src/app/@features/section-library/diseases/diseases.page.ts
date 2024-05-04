@@ -74,10 +74,6 @@ export class DiseasesPage implements OnInit {
    */
   private processfilterItemCollection(filterValue: string) {
 
-    console.log("@@@");
-    console.log(filterValue);
-    console.log("@@@");
-
     this.$collection = this.$dataService
                         .select()
                         .filterByCategory(this.$selectedCategories)

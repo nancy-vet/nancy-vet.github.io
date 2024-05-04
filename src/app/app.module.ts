@@ -1,9 +1,13 @@
-import { NgModule, isDevMode } from '@angular/core';
+import { NgModule, isDevMode    } from '@angular/core';
 import { CommonModule           } from '@angular/common';
-import { BrowserModule } from '@angular/platform-browser';
-import { NoPreloading, RouteReuseStrategy, RouterModule, Routes } from '@angular/router';
-import { ServiceWorkerModule } from '@angular/service-worker';
-import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
+import { BrowserModule          } from '@angular/platform-browser';
+import {  NoPreloading          ,
+          RouteReuseStrategy    ,
+          RouterModule          ,
+          Routes                } from '@angular/router';
+import { ServiceWorkerModule    } from '@angular/service-worker';
+import {  IonicModule           ,
+          IonicRouteStrategy    } from '@ionic/angular';
 
 import { AppComponent           } from './app.component';
 

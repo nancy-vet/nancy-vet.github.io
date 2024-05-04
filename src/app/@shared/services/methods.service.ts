@@ -27,8 +27,6 @@ export class MethodService {
       }
     }
 
-    console.log(collection);
-
     return collection;
   }
 }
