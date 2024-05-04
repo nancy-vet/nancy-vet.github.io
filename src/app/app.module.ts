@@ -26,39 +26,39 @@ const routes: Routes = [
   },
   {
     path          : AppNavigationRouteEnum.CALCULATOR,
-    loadChildren  : () => import('./@features/section-calculator/@navigation/tabs.module').then(m => m.TabsPageModule)
+    loadChildren  : () => import('./@features/@section/calculator/@navigation/tabs.module').then(m => m.TabsPageModule)
   },
   {
     path          : AppNavigationRouteEnum.LIBRARY,
-    loadChildren  : () => import('./@features/section-library/@navigation/tabs.module').then(m => m.TabsPageModule)
+    loadChildren  : () => import('./@features/@section/library/@navigation/tabs.module').then(m => m.TabsPageModule)
   },
   {
     path          : AppNavigationRouteEnum.INFO,
-    loadChildren  : () => import('./@features/section-info/@navigation/tabs.module').then(m => m.TabsPageModule)
+    loadChildren  : () => import('./@features/@section/info/@navigation/tabs.module').then(m => m.TabsPageModule)
   },
   {
     path          : AppNavigationRouteEnum.EXAMINATION,
-    loadChildren  : () => import('./@features/section-probes/@navigation/tabs.module').then(m => m.TabsPageModule)
+    loadChildren  : () => import('./@features/@section/probes/@navigation/tabs.module').then(m => m.TabsPageModule)
   },
   {
     path          : AppNavigationRouteEnum.VACCINATION,
-    loadChildren  : () => import('./@features/section-vaccination/@navigation/tabs.module').then(m => m.TabsPageModule)
+    loadChildren  : () => import('./@features/@section/vaccination/@navigation/tabs.module').then(m => m.TabsPageModule)
   },
   {
     path          : AppNavigationRouteEnum.TRIVIA,
-    loadChildren  : () => import('./@features/section-trivia/@navigation/tabs.module').then(m => m.TabsPageModule)
+    loadChildren  : () => import('./@features/@section/trivia/@navigation/tabs.module').then(m => m.TabsPageModule)
   },
   {
     path          : AppNavigationRouteEnum.METHODS,
-    loadChildren  : () => import('./@features/section-methods/@navigation/tabs.module').then(m => m.TabsPageModule)
+    loadChildren  : () => import('./@features/@section/methods/@navigation/tabs.module').then(m => m.TabsPageModule)
   },
   {
     path          : AppNavigationRouteEnum.AUSCULTATION,
-    loadChildren  : () => import('./@features/section-auscultation/@navigation/tabs.module').then(m => m.TabsPageModule)
+    loadChildren  : () => import('./@features/@section/auscultation/@navigation/tabs.module').then(m => m.TabsPageModule)
   },
   {
     path          : AppNavigationRouteEnum.ULTRASOUND,
-    loadChildren  : () => import('./@features/section-ultrasound/@navigation/tabs.module').then(m => m.TabsPageModule)
+    loadChildren  : () => import( './@features/@section/ultrasound/@navigation/tabs.module').then(m => m.TabsPageModule)
   }
 ];
 
