@@ -7660,8 +7660,8 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antiparasitic/vitamin-ad3e.pdf" },
-      { "title": "листовка КЧ КТ", "link": "pdfs/@medication/antiparasitic/vitamin-ad3e-pandex.pdf" }
+      { "title": "листовка", "link": "pdfs/@medication/others/vitamin-ad3e.pdf" },
+      { "title": "листовка КЧ КТ", "link": "pdfs/@medication/others/vitamin-ad3e-pandex.pdf" }
     ],
     "indications"       : ["При А-, Д- и Е-хиповитаминозни състояния;", "при гастроинтестинални и белодробни заболявания;", "при мускулна дистрофия при агнета и телета;", "при смущение в спермиогенезата при разплодници;", "за повишаване на резистентността при младите животни при инфекциозни и инвазионни болести;", "при остеомалация."],
     "contraindications" : [],

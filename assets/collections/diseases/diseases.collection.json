@@ -1831,7 +1831,7 @@
     "animals"     : "both",
     "bodySystem"  : ["U"],
     "links": [
-      { "title": "описание", "link": "pdfs/@diseases/.pdf" }
+      { "title": "описание", "link": "pdfs/@diseases/Захарен диабет.pdf" }
     ],
     "section"     : [
       {
@@ -1915,7 +1915,7 @@
     "animals"     : "both",
     "bodySystem"  : ["U"],
     "links": [
-      { "title": "описание", "link": "pdfs/@diseases/.pdf" }
+      { "title": "описание", "link": "pdfs/@diseases/Екзокринна панкреасна недостатъчност.pdf" }
     ],
     "section"     : [
       {
@@ -2041,7 +2041,7 @@
     "animals"     : "dogs",
     "bodySystem"  : [""],
     "links": [
-      { "title": "описание", "link": "pdfs/@diseases/.pdf" }
+      { "title": "описание", "link": "pdfs/@diseases/Колапс на трахеята.pdf" }
     ],
     "section"     : [
       {
