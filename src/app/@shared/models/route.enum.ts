@@ -8,5 +8,6 @@ export enum AppNavigationRouteEnum {
   TRIVIA        = "trivia",
   AUSCULTATION  = "auscultation",
   METHODS       = "methods",
-  ULTRASOUND    = "ultrasound"
+  ULTRASOUND    = "ultrasound",
+  NEWBORNS      = "newborns"
 }
