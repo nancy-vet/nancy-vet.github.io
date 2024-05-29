@@ -31,6 +31,11 @@ const routes: Routes = [
       {
         path          : 'critical',
         loadChildren  : () => import('../main/main.module').then(m => m.FeatureModule)
+      },
+      {
+        path          : '',
+        redirectTo    : 'growth',
+        pathMatch     : 'full'
       }
     ]
   }
