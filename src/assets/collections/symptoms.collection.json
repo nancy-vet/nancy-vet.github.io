@@ -2,39 +2,39 @@
   {
     "symptom" : "Диария, остра",
     "type"    :"gastrointestinal",
-    "meaning" : "diarrhea less than 7-14 days",
+    "meaning" : "диария под 7-14 дни",
     "causes"  : [
       {
-        "group": "Diet", "children": [
-          {"title": "Intolerance/ allergy"      },
-          {"title": "Poor quality food"         },
-          {"title": "Rapid dietary change"      },
-          {"title": "Bacterial food poisoning"  },
-          {"title": "Dietary indiscretion"      }
+        "group": "Диета", "children": [
+          {"title": "Хранителна непоносимост/ алергия"},
+          {"title": "Некачествена храна"},
+          {"title": "Бърза промяна в диетата"},
+          {"title": "Бактериално хранително отравяне"},
+          {"title": "Диетична недискретност"}
         ]
       },
       {
-        "group": "Parasites", "children": [
-          {"title": "Helminths" },
-          {"title": "Protozoa", "children": [
-            {"title": "Giardia"             },
-            {"title": "Trichomonas (feline)"},
-            {"title": "Coccidia"            }
+        "group": "Паразити", "children": [
+          {"title": "Хелминти"},
+          {"title": "Протозои", "children": [
+            {"title": "Гиардиаза"},
+            {"title": "Трихомониаза (котешка)"},
+            {"title": "Кокцидиоза"}
           ]}
         ]
       },
       {
-        "group": "Infectious causes", "children": [
-          {"title": "Viral causes"          },
-          {"title": "Bacterial causes"      },
-          {"title": "Rickettsial infection" }
+        "group": "Инфекциозни причини", "children": [
+          {"title": "Вирусни причини"},
+          {"title": "Бактериални причини"},
+          {"title": "Рикетсиална инфекция"}
         ]
       },
       {
-        "group": "Other causes", "children": [
-          {"title": "Gastroenteritis" },
-          {"title": "Spoiled food"    },
-          {"title": "Various drugs"   }
+        "group": "Други причини", "children": [
+          {"title": "Гастроентерит"},
+          {"title": "Развалена храна"},
+          {"title": "Различни лекарства"}
         ]
       }
     ],
@@ -48,39 +48,39 @@
   {
     "symptom" : "Диария, хронична",
     "type"    :"gastrointestinal",
-    "meaning" : "diarrhea more than 7-14 days",
+    "meaning" : "диария над 7-14 дни",
     "causes"  : [
       {
-        "group" : "Small bowel diarrhea", "children": [
-          {"title": "Food intolerance or allergy"},
-          {"title": "Inflammatory bowel disease"},
-          {"title": "GI lymphoma"},
-          {"title": "Pancreatic exocrine insufficiency"},
-          {"title": "Chronic parasitism (hookworm, Giardia)"},
-          {"title": "Histoplasmosis"},
-          {"title": "Intestinal lymphangiectasia"},
-          {"title": "Partial obstruction"},
-          {"title": "Pancreatic carcinoma"},
-          {"title": "Gastrinoma"},
-          {"title": "Liver disease (hepatocellular failure, cholestasis)"},
-          {"title": "Endocrine disease (hypoadrenocorticism, hypothyroidism, hyperthyroidism)"},
-          {"title": "Renal disease (uremia, nephrotic syndrome)"},
-          {"title": "Chronic intussusception"},
-          {"title": "Small intestinal bacterial overgrowth"},
-          {"title": "Pythiosis"}
+        "group" : "Тънки черва", "children": [
+          {"title": "Хранителна непоносимост или алергия"},
+          {"title": "Възпалително чревно заболяване"},
+          {"title": "GI лимфом"},
+          {"title": "Екзокринна панкреатична недостатъчност"},
+          {"title": "Хроничен паразитизъм (Ancylostoma, Giardia)"},
+          {"title": "Хистоплазмоза"},
+          {"title": "Чревна лимфангиектазия"},
+          {"title": "Частична обструкция"},
+          {"title": "Панкреатичен карцином"},
+          {"title": "Гастрином"},
+          {"title": "Чернодробно заболяване (чернодробна недостатъчност, холестаза)"},
+          {"title": "Ендокринно заболяване (хипоадренокортицизъм, хипотиреоидизъм, хипертиреоидизъм)"},
+          {"title": "Бъбречно заболяване (уремия, нефротичен синдром)"},
+          {"title": "Хронична инвагинация"},
+          {"title": "Прекомерен бактериален растеж в тънките черва"},
+          {"title": "Питиоза"}
         ]
       },
       {
-        "group" : "Large bowel diarrhea", "children": [
-          {"title": "Food intolerance or allergy"},
-          {"title": "Parasitism (whipworm, Giardia, Trichomonas, Heterobilharzia)"},
-          {"title": "Clostridial colitis"},
-          {"title": "Irritable bowel syndrome (fiber-responsive)"},
-          {"title": "Histoplasmosis"},
-          {"title": "Pythiosis"},
-          {"title": "Inflammatory bowel disease"},
-          {"title": "Neoplasia (lymphoma, adenocarcinoma)"},
-          {"title": "FeLV/FIV (infections secondary to these viruses)"}
+        "group" : "Дебели черва", "children": [
+          {"title": "Хранителна нетолерантност или алергия"},
+          {"title": "Паразитизъм (Trichuris, Giardia, Trichomonas, Heterobilharzia)"},
+          {"title": "Клостридиална колит"},
+          {"title": "Синдром на раздразненото черво (отговарящ на фибри)"},
+          {"title": "Хистоплазмоза"},
+          {"title": "Питиоза"},
+          {"title": "Възпалително чревно заболяване"},
+          {"title": "Неоплазия (лимфом, аденокарцином)"},
+          {"title": "FeLV/FIV (инфекции вторични на тези вируси)"}
         ]
       }
     ],
@@ -93,38 +93,38 @@
     ]
   },
   {
-    "symptom" : "Status epilepticus",
+    "symptom" : "Епилептичен статус",
     "type"    :"nervous",
-    "meaning" : "a state of continuous seizure activity lasting at least 5 minutes or when two or more seizures occur without complete recovery between them.",
+    "meaning" : "характеризира се с последователни епилептични пристъпи, без възстановяване на съзнанието между тях",
     "causes"  : [
       {
-          "group": "INTRACRANIAL", "children": [
-            { "title" : "Neoplasia" },
-            { "title" : "Inflammatory/Infectious" },
-            { "title" : "Vascular" },
-            { "title" : "Degenerative/congenital/anomalous/malformation" },
-            { "title" : "Traumatic" }
-          ]
+        "group": "ИНТРАКРАНИАЛНИ", "children": [
+          { "title" : "Неоплазия" },
+          { "title" : "Възпалителни/Инфекциозни" },
+          { "title" : "Съдови" },
+          { "title" : "Дегенеративни/вродени/аномалии/малформации" },
+          { "title" : "Травматични" }
+        ]
       },
       {
-          "group": "EXTRACRANIAL", "children": [
-            { "title" : "Metabolic" , "children": [
-                {"title" : "Hepatic encephalopathy"},
-                {"title" : "Hyperthyroidism"},
-                {"title" : "Hypocalcemia"},
-                {"title" : "Hypoglycemia"},
-                {"title" : "Severe uremia (end-stage renal disease)"}
-              ]
-            },
-            { "title" : "Toxins" },
-            { "title" : "Nutritional - Thiamine deficiency (terminal stage)" }
-          ]
+        "group": "ЕКСТРАКРАНИАЛНИ", "children": [
+          { "title" : "Метаболитни" , "children": [
+              {"title" : "Чернодробна енцефалопатия"},
+              {"title" : "Хипертиреоидизъм"},
+              {"title" : "Хипокалциемия"},
+              {"title" : "Хипогликемия"},
+              {"title" : "Тежка уремия (краен стадий на бъбречно заболяване)"}
+            ]
+          },
+          { "title" : "Токсини" },
+          { "title" : "Хранителни - Дефицит на тиамин (краен стадий)" }
+        ]
       },
       {
-        "group": "EPILEPSY", "children": [
-            { "title" : "Functional: Idiopathic or Genetic" },
-            { "title" : "Structural: Postencephalitic; Posttraumatic; Postischemic (FIE, hypoxic event)" }
-          ]
+        "group": "ЕПИЛЕПСИЯ", "children": [
+          { "title" : "Функционална: Идиопатична или Генетична" },
+          { "title" : "Структурна: Следенцефалитна; Следтравматична; Следисхемична (FIE, хипоксично събитие)" }
+        ]
       }
     ],
     "links" : [
@@ -132,47 +132,46 @@
     ]
   },
   {
-    "symptom" : "Dysuria, Stranguria, Pollakiuria",
+    "symptom" : "Дизурия, Странгурия, Полакиурия",
     "type"    :"urogenital",
-    "meaning" : "Dysuria—difficult or painful urination. Pollakiuria—voiding small quantities of urine with increased frequency. Stranguria—straining to urinate.",
+    "meaning" : "Дизурия—затруднено или болезнено уриниране. Полакиурия—често уриниране на малки количества. Странгурия—напрежение при уриниране.",
     "causes"  : [
       {
-        "group": "Inflammatory disease", "children": [
-          { "title" : "Feline idiopathic cystitis, urethritis (idiopathic feline lower urinary tract disease) - No.1 cause" },
-          { "title" : "Urinary tract infection" },
-          { "title" : "Chemically induced inflammation (e.g., cyclophosphamide-induced cystitis)" },
-
-          { "title" : "Polypoid cystitis" },
-          { "title" : "Proliferative urethritis (granulomatous urethritis)" }
+        "group": "Възпалителни заболявания", "children": [
+          { "title" : "Идиопатичен цистит при котки, уретрит (идиопатично заболяване на долния уринарен тракт при котки) - Причина №1" },
+          { "title" : "Инфекция на уринарния тракт" },
+          { "title" : "Ятрогенно възпаление (напр. цистит, предизвикан от циклофосфамид)" },
+          { "title" : "Полипоиден цистит" },
+          { "title" : "Пролиферативен уретрит (грануломатозен уретрит)" }
         ]
       },
       {
-        "group": "Urolithiasis - No.2 cause", "children": [
-          {"title": "Cystic calculi"    },
-          {"title": "Urethral calculi"  }
+        "group": "Уролитиаза - Причина №2", "children": [
+          {"title": "Камъни в пикочния мехур"},
+          {"title": "Камъни в уретрата"}
         ]
       },
       {
-        "group": "Neoplasia", "children": [
-          {"title": "Transitional cell carcinoma of bladder or urethra"    },
-          {"title": "Prostatic neoplasia"  },
-          {"title": "Vaginal neoplasia"    }
+        "group": "Неоплазия", "children": [
+          {"title": "Преходноклетъчен карцином на пикочния мехур или уретрата"},
+          {"title": "Простатна неоплазия"},
+          {"title": "Вагинална неоплазия"}
         ]
       },
       {
-        "group": "Trauma", "children": [
-          {"title": "Bladder or urethral rupture"    },
-          {"title": "Urethral stricture (previous trauma or surgery)"  }
+        "group": "Травма", "children": [
+          {"title": "Руптура на пикочния мехур или уретрата"},
+          {"title": "Уретрална стриктура (предишна травма или операция)"}
         ]
       },
       {
-        "group": "Neurogenic disorder", "children": [
-          {"title": "Reflex dyssynergia"    }
+        "group": "Неврогенни разстройства", "children": [
+          {"title": "Рефлексна диссинергия"}
         ]
       },
       {
-        "group": "Other", "children": [
-          {"title": "Perineal hernia"    }
+        "group": "Други", "children": [
+          {"title": "Перинеална херния"}
         ]
       }
     ]
@@ -184,7 +183,7 @@
     "causes"  : [
       {
         "group": "", "children": [
-          {"title": ""      }
+          {"title": ""}
         ]
       }
     ],
@@ -193,98 +192,98 @@
     ]
   },
   {
-    "symptom" : "Dysphagia -",
+    "symptom" : "Дисфагия",
     "type"    :"gastrointestinal",
-    "meaning" : "",
+    "meaning" : "затруднено преглъщане",
     "causes"  : [
       {
-        "group": "Oral Pain", "children": [
-          { "title" : "Fractured bones or teeth"  },
-          { "title" : "Trauma"                    },
-          { "title" : "Periodontitis"             },
-          { "title" : "Stomatitis, glossitis, pharyngitis, gingivitis, tonsillitis, or sialoadenitis" },
-          { "title" : "Uremia"                    }
+        "group": "Орална болка", "children": [
+          { "title" : "Счупени кости или зъби"  },
+          { "title" : "Травма"                  },
+          { "title" : "Пародонтит"              },
+          { "title" : "Стоматит, глосит, фарингит, гингивит, тонзилит или сиалоаденит" },
+          { "title" : "Уремия"                  }
         ]
       },
       {
-        "group": "Oral Trauma", "children": [
-          {"title": "Fractured bones"         },
-          {"title": "Soft tissue laceration"  },
-          {"title": "Hematoma"                }
+        "group": "Орална травма", "children": [
+          {"title": "Счупени кости"           },
+          {"title": "Разкъсване на меки тъкани"},
+          {"title": "Хематом"                 }
         ]
       },
       {
-        "group": "Oral Mass", "children": [
-          {"title": "Tumor"                   },
-          {"title": "Eosinophilic granuloma"  },
-          {"title": "Foreign object"          }
+        "group": "Орална маса", "children": [
+          {"title": "Тумор"                  },
+          {"title": "Еозинофилен гранулом"   },
+          {"title": "Чуждо тяло"             }
         ]
       },
       {
-        "group": "Neuromuscular Disease", "children": [
-          {"title": "Localized myasthenia"            },
-          {"title": "myositis"                        },
-          {"title": "Temporomandibular joint disease" }
+        "group": "Невромускулни заболявания", "children": [
+          {"title": "Локализирана миастения"         },
+          {"title": "Миозит"                         },
+          {"title": "Заболяване на темпоромандибуларната става" }
         ]
       }
     ]
   },
   {
-    "symptom" : "Halitosis -",
+    "symptom" : "Халитоза",
     "type"    :"gastrointestinal",
-    "meaning" : "",
+    "meaning" : "лош дъх от устната кухина",
     "causes"  : [
       {
-        "group": "Bacterial Causes", "children": [
-          { "title" : "Food retained"            },
-          { "title" : "Tartar or periodontitis"  },
-          { "title" : "Stomatitis/ glossitis"    },
-          { "title" : "Stomatitis, glossitis, pharyngitis, gingivitis, tonsillitis, or sialoadenitis" },
-          { "title" : "Uremia"                   }
+        "group": "Бактериални причини", "children": [
+          { "title" : "Задържана храна"        },
+          { "title" : "Зъбен камък или пародонтит" },
+          { "title" : "Стоматит/глосит"        },
+          { "title" : "Стоматит, глосит, фарингит, гингивит, тонзилит или сиалоаденит" },
+          { "title" : "Уремия"                 }
         ]
       },
       {
-        "group": "Eating Noxious Substances", "children": [
-          {"title": "Feces"                        },
-          {"title": "Necrotic or odoriferous food" }
+        "group": "Хранене със зловонни вещества", "children": [
+          {"title": "Фекалии"                   },
+          {"title": "Некротична или миризлива храна" }
         ]
       }
     ]
   },
   {
-    "symptom" : "Drooling -",
+    "symptom" : "Слюноотделяне",
     "type"    :"gastrointestinal",
     "meaning" : "",
     "causes"  : [
       {
-        "group": "Ptyalism", "children": [
-          { "title" : "Nausea"           },
-          { "title" : "Seizure"          },
-          { "title" : "Behavior"         },
-          { "title" : "Salivary gland hypersecretion" }
+        "group": "Птиализъм (увеличено кол-во слюнка)", "children": [
+          { "title" : "Гадене"           },
+          { "title" : "Припадък"         },
+          { "title" : "Поведение"        },
+          { "title" : "Хиперсекреция на слюнчените жлези" }
         ]
       },
       {
-        "group": "Pseudoptyalism", "children": [
-          {"title": "Oral pain" },
-          {"title": "Dysphagia" }
+        "group": "Псевдоптиализъм (нормално кол-во слюнка)", "children": [
+          {"title": "Орална болка" },
+          {"title": "Дисфагия" }
         ]
       }
     ]
   },
   {
-    "symptom" : "Regurgitation -",
+    "symptom" : "Регургитация",
     "type"    :"gastrointestinal",
-    "meaning" : "",
+    "meaning" : "връщане на стомашно съдържимо обратно в хранопровода, още се нар. гастро-езофагеален рефлукс (ГЕР)",
     "causes"  : [
       {
-        "group": "Dysphagia"
+        "group": "Дисфагия"
       },
       {
-        "group": "Esophageal dysfunction", "children": [
-          {"title": "Esophageal obstruction"  },
-          {"title": "Esophageal weakness"     },
-          {"title": "Esophagitis"             }
+        "group": "Езофагеална дисфункция", "children": [
+          {"title": "Езофагеална обструкция"  },
+          {"title": "Езофагеална слабост"     },
+          {"title": "Езофагит"                }
         ]
       }
     ],
@@ -292,67 +291,68 @@
       { "title": "алгоритъм - SAIM", "link": "pdfs/@algorithms/gastrointestinal/regurgitation-algorihm-saim.png" }
     ]
   },
+
   {
-    "symptom" : "Vomiting -",
+    "symptom" : "Повръщане",
     "type"    :"gastrointestinal",
     "meaning" : "",
     "causes"  : [
       {
-        "group": "Motion Sickness (Acute)"
+        "group": "Морска болест (остра)"
       },
       {
-        "group": "Diet", "children": [
-          {"title": "Dietary intolerance"  },
-          {"title": "Dietary indiscretion" }
+        "group": "Диета", "children": [
+          {"title": "Хранителна непоносимост"  },
+          {"title": "Извратен апетит (парорексия)"     }
         ]
       },
       {
-        "group": "Emetogenic Substances (Acute)", "children": [
-          {"title": "Drugs: almost any drug can cause vomiting (especially drugs administered orally [PO]), but the following drugs seem especially likely to cause vomiting:"  },
-          {"title": "Toxic chemicals: strychnine, heavy metals"  }
+        "group": "Повръщателни вещества (остро)", "children": [
+          {"title": "Лекарства: почти всяко лекарство може да причини повръщане (особено лекарства, прилагани перорално)."  },
+          {"title": "Токсични химикали: стрихнин, тежки метали"  }
         ]
       },
       {
-        "group": "Gastrointestinal Tract Obstruction (Acute or Chronic)", "children": [
-          {"title": "Gastric outflow obstruction", "children": [
-            {"title": "Pyloric stenosis"  },
-            {"title": "Foreign object"    },
-            {"title": "Neoplasia"         },
-            {"title": "Gastric dilation or volvulus"  }
+        "group": "Обструкция на стомашно-чревния тракт (остра или хронична)", "children": [
+          {"title": "Обструкция на изхода на стомаха", "children": [
+            {"title": "Пилорна стеноза"         },
+            {"title": "Чуждо тяло"              },
+            {"title": "Неоплазия"               },
+            {"title": "Стомашна дилатация или волвулус" }
           ] },
-          {"title": "Intestinal"  , "children": [
-            {"title": "Foreign object"    },
-            {"title": "Neoplasia"         },
-            {"title": "Torsion/ volvulus" }
+          {"title": "Чревна обструкция" , "children": [
+            {"title": "Чуждо тяло"              },
+            {"title": "Неоплазия"               },
+            {"title": "Торзио/волвулус"         }
           ] }
         ]
       },
       {
-        "group": "Gastrointestinal/Abdominal Inflammation (Acute or Chronic)", "children": [
-          {"title": "Gastritis"    },
-          {"title": "Enteritis"    },
-          {"title": "Pancreatitis" },
-          {"title": "Peritonitis"  },
-          {"title": "Colitis"      },
-          {"title": "Splenitis"    }
+        "group": "Възпаление на стомашно-чревния тракт/корема (остро или хронично)", "children": [
+          {"title": "Гастрит"       },
+          {"title": "Ентерит"       },
+          {"title": "Панкреатит"    },
+          {"title": "Перитонит"     },
+          {"title": "Колит"         },
+          {"title": "Спленит"       }
         ]
       },
       {
-        "group": "Extraalimentary Tract Diseases (Acute or Chronic)", "children": [
-          {"title": "Uremia"                },
-          {"title": "Pyometra"              },
-          {"title": "Diabetic ketoacidosis" },
-          {"title": "Hypercalcemia"         },
-          {"title": "Adrenal insufficiency" },
-          {"title": "Cholecytitis"          },
-          {"title": "Hepatic insufficiency or disease" },
-          {"title": "Endotoxemia/ septicemia" }
+        "group": "Заболявания на екстралиментарния тракт (остри или хронични)", "children": [
+          {"title": "Уремия"                        },
+          {"title": "Пиометра"                      },
+          {"title": "Диабетна кетоацидоза"          },
+          {"title": "Хиперкалцемия"                 },
+          {"title": "Надбъбречна недостатъчност"    },
+          {"title": "Холецистит"                    },
+          {"title": "Чернодробна недостатъчност или заболяване" },
+          {"title": "Ендотоксемия/септицемия"       }
         ]
       },
       {
-        "group": "Miscellaneous Causes (Acute or Chronic)", "children": [
-          {"title": "Feline hyperthyroidism" },
-          {"title": "Overeating"             }
+        "group": "Други причини (остри или хронични)", "children": [
+          {"title": "Котешки хипертиреоидизъм" },
+          {"title": "Прехранване"              }
         ]
       }
     ],
@@ -363,62 +363,62 @@
   },
 
   {
-    "symptom" : "Hematemesis -",
+    "symptom" : "Хематемеза",
     "type"    :"gastrointestinal",
-    "meaning" : "the vomiting of blood",
+    "meaning" : "повръщане на кръв",
     "causes"  : [
       {
-        "group": "Coagulopathy (uncommon)", "children": [
-          { "title" : "DIC (Disseminated intravascular coagulation)"  },
-          { "title" : "Thrombocytopenia"                              },
-          { "title" : "Clotting factor deficiency"                    },
-          { "title" : "Salivary gland hypersecretion"                 }
+        "group": "Коагулопатия (рядко)", "children": [
+          { "title" : "Дисеминирано вътресъдово съсирване (ДИК, Дисеминираната интраваскуларна коагулация)"  },
+          { "title" : "Тромбоцитопения"                            },
+          { "title" : "Недостиг на коагулационни фактори"          },
+          { "title" : "Хиперсекреция на слюнчените жлези"          }
         ]
       },
       {
-        "group": "Alimentary Tract Lesion", "children": [
-          {"title": "Ulceration/ erosion"   },
-          {"title": "Gastritis"             },
-          {"title": "Mucosal trauma"        },
-          {"title": "Polyps"                },
-          {"title": "Bleeding oral lesion"  },
-          {"title": "Other causes: Hepatic disease, hypoadrenocorticism, pancreatitis" }
+        "group": "Лезия на стомашно-чревния тракт", "children": [
+          {"title": "Язви или ерозии"          },
+          {"title": "Гастрит"                   },
+          {"title": "Травма на лигавицата"      },
+          {"title": "Полипи"                    },
+          {"title": "Кървяща орална лезия"      },
+          {"title": "Други причини: Чернодробно заболяване, надбъбречна недостатъчност, панкреатит" }
         ]
       },
       {
-        "group": "Extraalimentary Tract Lesion (blood is swallowed and then vomited) (rare)", "children": [
-          {"title": "Respiratory tract disorders" },
-          {"title": "Dietary indiscretion" }
+        "group": "Лезия на екстралиментарния тракт (кръв се поглъща и след това повръща) (рядко)", "children": [
+          {"title": "Заболявания на дихателните пътища" },
+          {"title": "Извратен апетит (парорексия)" }
         ]
       }
     ]
   },
 
   {
-    "symptom" : "Hematochezia -",
+    "symptom" : "Хематохезия",
     "type"    :"gastrointestinal",
-    "meaning" : "the passage of fresh blood per anus, usually in or with stools",
+    "meaning" : "изхождане на прясна кръв през ануса, обикновено в или с изпражнения",
     "causes"  : [
       {
-        "group": "Dog", "children": [
-          { "title" : "Anal-rectal disease", "children":[
-            {"title": "Anal sacculitis"   },
-            {"title": "Neoplasia"         },
-            {"title": "Perianal fistulas" }
-          ]           },
-          { "title" : "Colonic/ Intestinal disease", "children": [
-            {"title": "Parasitism"        },
-            {"title": "IBD"               },
-            {"title": "Hemorrhagic gastroenteritis" },
-            {"title": "Parvoviral gastroenteritis"  }
+        "group": "Куче", "children": [
+          { "title" : "Болести на ануса и ректума", "children":[
+            {"title": "Възпаление на аналните жлези" },
+            {"title": "Неоплазия"                   },
+            {"title": "Перианални фистули"          }
+          ] },
+          { "title" : "Болести на тънкото/дебелото черва", "children": [
+            {"title": "Паразитоза"                  },
+            {"title": "Възпалително чревно заболяване (ВЧЗ, IBD)" },
+            {"title": "Хеморагичен гастроентерит"   },
+            {"title": "Парвовирусен гастроентерит"  }
           ]}
         ]
       },
       {
-        "group": "Cat", "children": [
-          {"title": "Dietary responsive" },
-          {"title": "IBD"                },
-          {"title": "Coccidia"           }
+        "group": "Котка", "children": [
+          {"title": "Намаляваща хематохезия при хранителен режим" },
+          {"title": "Възпалително чревно заболяване (ВЧЗ, IBD)" },
+          {"title": "Кокцидии"           }
         ]
       }
     ],
@@ -427,665 +427,728 @@
     ]
   },
   {
-    "symptom" : "Melena -",
+    "symptom" : "Мелена",
     "type"    :"gastrointestinal",
-    "meaning" : "",
+    "meaning" : "кръв в изпражненията",
     "causes"  : [
       {
-        "group": "Dog", "children": [
-          { "title" : "Hookworms"            },
-          { "title" : "Ulceration/ erosion"  },
-          { "title" : "Tumor/ polyp"         },
-          { "title" : "Ingested food"        },
-          { "title" : "Hypoadrenocorticism"  },
-          { "title" : "Coagulopathies"       }
+        "group": "Куче", "children": [
+          { "title" : "Анкилостомоза"             },
+          { "title" : "Улцерация/ерозия"          },
+          { "title" : "Тумор/полип"               },
+          { "title" : "Погълната храна"           },
+          { "title" : "Хипоадренокортицизъм"      },
+          { "title" : "Коагулопатии"              }
         ]
       },
       {
-        "group": "Cat", "children": [
-          {"title": "Tumor"           },
-          {"title": "Coagulopathies"  }
+        "group": "Котка", "children": [
+          {"title": "Тумор"            },
+          {"title": "Коагулопатии"     }
         ]
       }
     ]
   },
   {
-    "symptom" : "Tenesmus and/or Dyschezia -",
+    "symptom" : "Тенезъм и/или дисхезия",
+    "type"    :"gastrointestinal",
+    "meaning" : "тенезъм - Мъчителен, болезнен, неефективен позив за уриниране или дефекация. Дисхезия - затруднено или болезнено изхождане.",
+    "causes"  : [
+      {
+        "group": "Куче", "children": [
+          { "title" : "Възпаление на аналните жлези"         },
+          { "title" : "Възпаление/болка в ректума"           },
+          { "title" : "Обструкция на дебелото черво/ректума" }
+        ]
+      },
+      {
+        "group": "Котка", "children": [
+          {"title": "Обструкция на уретрата"  },
+          {"title": "Обструкция на ректума"   },
+          {"title": "Запек"                   }
+        ]
+      }
+    ]
+  },
+
+  {
+    "symptom" : "Запек",
     "type"    :"gastrointestinal",
     "meaning" : "",
     "causes"  : [
       {
-        "group": "Dog", "children": [
-          { "title" : "Anal sacculitis"             },
-          { "title" : "Rectal inflammation/ pain"   },
-          { "title" : "Colonic/ rectal obstruction" }
+        "group": "Ятрогенни причини - лекарства" },
+      {
+        "group": "Поведенчески/екологични причини", "children": [
+          {"title": "Промяна в домакинския режим" },
+          {"title": "Неактивност" }
         ]
       },
       {
-        "group": "Cat", "children": [
-          {"title": "Urethral obstruction"  },
-          {"title": "Rectal obstruction"    },
-          {"title": "Constipation"          }
+        "group": "Отказ от дефекация", "children": [
+          {"title": "Болка" },
+          {"title": "Невъзможност за заемане на позиция за дефекация" }
+        ]
+      },
+      {
+        "group": "Диетични причини", "children": [
+          {"title": "Хранене, богато на влакнини" },
+          {"title": "Ненормална диета: косми, кости, растения и др." }
+        ]
+      },
+      {
+        "group": "Обструкция на дебелото черво", "children": [
+          {"title": "Херния"             },
+          {"title": "Тумор"              },
+          {"title": "Абсцес"             },
+          {"title": "Увеличена простата" }
+        ]
+      },
+      {
+        "group": "Слабост на дебелото черво", "children": [
+          {"title": "Системно заболяване" },
+          {"title": "Локализирано невромускулно заболяване" }
+        ]
+      },
+      {
+        "group": "Други причини", "children": [
+          {"title": "Тежка дехидратация"  },
+          {"title": "Мегаколон"           }
         ]
       }
     ]
   },
   {
-    "symptom" : "Constipation -",
+    "symptom" : "Фекална инконтиненция",
+    "type"    :"gastrointestinal",
+    "meaning" : "незадържане на фекалии",
+    "causes"  : [
+      { "group": "Невромускулно заболяване"       },
+      { "group": "Частична ректална обструкция"  },
+      { "group": "Тежък проктит" }
+    ]
+  },
+  {
+    "symptom" : "Загуба на тегло",
     "type"    :"gastrointestinal",
     "meaning" : "",
     "causes"  : [
       {
-        "group": "Iatrogenic causes - Drugs" },
-      {
-        "group": "Behavioral/ Environmental causes", "children": [
-          {"title": "Change in household routine" },
-          {"title": "Inactivity" }
+        "group": "Храна", "children": [
+          { "title" : "НедостатъчнО количество"    },
+          { "title" : "Ниско качество"  }
+        ]
+      },
+      { "group": "Анорексия"              },
+      { "group": "Дисфагия"               },
+      { "group": "Повръщане"              },
+      { "group": "Малдигестия (лошо храносмилане)"  },
+      { "group": "Малабсорбция (лошо храносмилане)" },
+      { "group": "Маласимилация", "children": [
+          {"title": "Органна недостатъчност: сърдечна, чернодробна, бъбречна, надбъбречна" }
         ]
       },
       {
-        "group": "Refusal to defecate", "children": [
-          {"title": "Pain" },
-          {"title": "Inability to assume position to defecate" }
+        "group": "Рак"
+      },
+      {
+        "group": "Прекомерна консумация на калории", "children": [
+          {"title": "Лактация"      },
+          {"title": "Повишена активност"  },
+          {"title": "Бременност"    },
+          {"title": "Треска"        }
         ]
       },
       {
-        "group": "Dietary causes", "children": [
-          {"title": "Excessive fiber" },
-          {"title": "Abnormal diet: hair, bones, plants, etc." }
+        "group": "Повишена загуба на хранителни вещества", "children": [
+          {"title": "Захарен диабет" },
+          {"title": "Нефропатия"     },
+          {"title": "Ентеропатия"    }
         ]
       },
       {
-        "group": "Colonic obstruction", "children": [
-          {"title": "Hernia"  },
-          {"title": "Tumor"   },
-          {"title": "Abscess" }
-        ]
-      },
-      {
-        "group": "Colonic weakness", "children": [
-          {"title": "Systemic disease" },
-          {"title": "Localized neuromuscular disease" }
-        ]
-      },
-      {
-        "group": "Miscellaneous causes", "children": [
-          {"title": "Severe dehydration"  },
-          {"title": "Megacolon"           }
-        ]
+        "group": "Невромускулно заболяване"
       }
     ]
   },
   {
-    "symptom" : "Fecal incontinence",
+    "symptom" : "Анорексия/Хипорексия",
     "type"    :"gastrointestinal",
-    "meaning" : "",
+    "meaning" : "анорексия - отказ от храна, хипорексия - намален прием на храна",
     "causes"  : [
-      { "group": "Neuromuscular disease"       },
-      { "group": "Partial rectal obstruction"  },
-      { "group": "Severe irritative proctitis" }
+      {
+        "group": "Възпалително заболяване", "children": [
+          { "title" : "Бактериални инфекции"   },
+          { "title" : "Вирусни инфекции"       },
+          { "title" : "Гъбични инфекции"       },
+          { "title" : "Рикетсиални инфекции"   },
+          { "title" : "Протозойни инфекции"    },
+          { "title" : "Стерилно възпаление"    },
+          { "title" : "Треска"                 }
+        ]
+      },
+      { "group": "Дисфагия"                      },
+      { "group": "Гадене"                        },
+      { "group": "Метаболитно заболяване"        },
+      { "group": "Заболяване на централната нервна система" },
+      { "group": "Ракова кахексия"               },
+      { "group": "Аносмия (рядко)"               },
+      { "group": "Психологически причини"        }
     ]
   },
   {
-    "symptom" : "Weight loss -",
+    "symptom" : "Асцит",
     "type"    :"gastrointestinal",
-    "meaning" : "",
+    "meaning" : "наличие на течност в коремната кухина",
     "causes"  : [
-      {
-        "group": "Food", "children": [
-          { "title" : "Not enough"       },
-          { "title" : "Poor quality"     }
-        ]
-      },
-      { "group": "Anorexia"              },
-      { "group": "Dysphagia"             },
-      { "group": "Vomiting"              },
-      { "group": "Maldigestive disease"  },
-      { "group": "Malabsorptive disease" },
-      {
-        "group": "Malassimilation", "children": [
-          {"title": "Organ failure: cardiac, hepatic, renal, adrenal" }
-        ]
-      },
-      {
-        "group": "Cancer"
-      },
-      {
-        "group": "Excessive utilization of calories", "children": [
-          {"title": "Lactation"       },
-          {"title": "Increased work"  },
-          {"title": "Pregnancy"       },
-          {"title": "Fever"           }
-        ]
-      },
-      {
-        "group": "Increased loss of nutrients", "children": [
-          {"title": "Diabetes mellitus" },
-          {"title": "Nephropathy"       },
-          {"title": "Enteropathy"       }
-        ]
-      },
-      {
-        "group": "Neuromuscular disease"
-      }
+      { "title" : "Хипоалбуминемия"         },
+      { "title" : "Портална хипертония"     },
+      { "title" : "Перитонеално възпаление" }
     ]
   },
   {
-    "symptom" : "Anorexia/ Hyporexia -",
+    "symptom" : "Остър корем",
     "type"    :"gastrointestinal",
-    "meaning" : "",
+    "meaning" : "синдром, който се манифестира със силни болки в корема, гадене, повръщане, нарушенчревен пасаж, влошаващо се общо състояние и перитонеално дразнене, обективизиращо се с дефанс",
     "causes"  : [
       {
-        "group": "Inflammatory disease", "children": [
-          { "title" : "Bacterial infections"    },
-          { "title" : "Viral infections"        },
-          { "title" : "Fungal infections"       },
-          { "title" : "Rickettsial infections"  },
-          { "title" : "Protozoal infections"    },
-          { "title" : "Sterile inflammation"    },
-          { "title" : "Fever"                   }
-        ]
-      },
-      { "group": "Dysphagia"                      },
-      { "group": "Nausea"                         },
-      { "group": "Metabolic disease"              },
-      { "group": "Central nervous system disease" },
-      { "group": "Cancer cachexia"                },
-      { "group": "Anosmia (rare)"                 },
-      { "group": "Psychological causes"           }
-    ]
-  },
-  {
-    "symptom" : "Abdominal effusion -",
-    "type"    :"gastrointestinal",
-    "meaning" : "",
-    "causes"  : [
-      { "title" : "Hypoalbuminemia"         },
-      { "title" : "Portal hypertension"     },
-      { "title" : "Peritoneal inflammation" }
-    ]
-  },
-  {
-    "symptom" : "Acute abdomen -",
-    "type"    :"gastrointestinal",
-    "meaning" : "",
-    "causes"  : [
-      {
-        "group": "Septic inflammation", "children": [
-          { "title" : ""           },
-          { "title" : ""          },
-          { "title" : ""         },
+        "group": "Септично възпаление", "children": [
+          { "title" : "" },
+          { "title" : "" },
+          { "title" : "" },
           { "title" : "" }
         ]
       },
       {
-        "group": "Nonseptic Inflammation", "children": [
-          {"title": "Pancreatitis (common and important)" },
-          {"title": "Uroabdomen (important)" },
-          {"title": "Pansteatitis (възпаление на мазнините)" }
+        "group": "Несептично възпаление", "children": [
+          {"title": "Панкреатит (често и важно)" },
+          {"title": "Уроабдомен (важно)" },
+          {"title": "Панстеатит (възпаление на мазнините)" }
         ]
       },
       {
-        "group": "Organ Distention or Obstruction", "children": [
-          {"title": "Gastric dilation or volvulus (common and important)" },
-          {"title": "Intestinal obstruction resulting from many causes (common and important)" },
-          {"title": "Intussusception (important, especially younger animals) (вгъване на част от червото в др. част" }
+        "group": "Раздуване или обструкция на орган", "children": [
+          {"title": "Стомашна дилатация или волвулус (често и важно)" },
+          {"title": "Чревна обструкция, причинена от много причини (често и важно)" },
+          {"title": "Инвагинация (важно, особено при по-млади животни)" }
         ]
       },
       {
-        "group": "Ishemia", "children": [
-          {"title": "Torsion of spleen, liver lobe, testicle, or other organ (rare)" },
-          {"title": "Thromboembolism of abdominal organ(s) (rare)" }
+        "group": "Исхемия", "children": [
+          {"title": "Торзио на слезка, чернодробен лоб, тестис или друг орган (рядко)" },
+          {"title": "Тромбоемболия на абдоминален орган (рядко)" }
         ]
       },
       {
-        "group": "Abdominal hemorrhage", "children": [
-          {"title": "Abdominal neoplasia" },
-          {"title": "Coagulopathy" }
+        "group": "Коремно кръвотечение", "children": [
+          {"title": "Коремна неоплазия" },
+          {"title": "Коагулопатия" }
         ]
       },
       {
-        "group": "Abdominal neoplasia"
+        "group": "Коремна неоплазия"
       }
     ]
   },
   {
-    "symptom" : "Abdominal pain -",
+    "symptom" : "Коремна болка",
     "type"    :"gastrointestinal",
     "meaning" : "",
     "causes"  : [
       {
-        "group": "Poor Palpation Technique (“Pseudo-pain”)"
+        "group": "Лоша техника на палпация (“Псевдоболка”)"
       },
       {
-        "group": "Peritoneum", "children": [
-          {"title": "Peritonitis" },
-          {"title": "Adhesions" }
+        "group": "Перитонеум", "children": [
+          {"title": "Перитонит" },
+          {"title": "Адхезии" }
         ]
       },
       {
-        "group": "Gastrointestinal Tract", "children": [
-          {"title": "ulcer" },
-          {"title": "Foreign object" },
-          {"title": "Neoplasm" }
+        "group": "Стомашно-чревен тракт", "children": [
+          {"title": "Улцер" },
+          {"title": "Чуждо тяло" },
+          {"title": "Неоплазия" }
         ]
       },
       {
-        "group": "Hepatobiliary Tract", "children": [
-          {"title": "Hepatitis" },
-          {"title": "Cholelithiasis or cholecystitis" }
+        "group": "Хепатобилиарен тракт", "children": [
+          {"title": "Хепатит" },
+          {"title": "Холелитиаза или холецистит" }
         ]
       },
       {
-        "group": "Pancreas", "children": [
-          {"title": "Pancreatitis (common and important)" }
+        "group": "Панкреас", "children": [
+          {"title": "Панкреатит (често и важно)" }
         ]
       },
       {
-        "group": "Spleen", "children": [
-          {"title": "Rupture" },
-          {"title": "Neoplasm" },
-          {"title": "Torsion (rare)" },
-          {"title": "Infection (rare)" }
+        "group": "Слезка", "children": [
+          {"title": "Руптура" },
+          {"title": "Неоплазия" },
+          {"title": "Торзио (рядко)" },
+          {"title": "Инфекция (рядко)" }
         ]
       },
       {
-        "group": "Urogenital system", "children": [
-          {"title": "Pyelonephritis (important)" },
-          {"title": "Prostatitis (common)" },
-          {"title": "Nonseptic cystitis (common in cats)" },
-          {"title": "Urethritis or obstruction (common)" }
+        "group": "Урогенитална система", "children": [
+          {"title": "Пиелонефрит (важно)" },
+          {"title": "Простатит (често)" },
+          {"title": "Несептичен цистит (често при котки)" },
+          {"title": "Уретрит или обструкция (често)" }
         ]
       },
       {
-        "group": "Musculoskeletal system (mimics abdominal pain", "children": [
-          { "title" : "fractures"                                           },
-          { "title" : "intervertebral disk disease (important and common)"  },
-          { "title" : "diskospondylitis (important)"                        },
-          { "title" : "Abscesses"                                           }
+        "group": "Мускулно-скелетна система (имитира коремна болка)", "children": [
+          { "title" : "Фрактури" },
+          { "title" : "Междупрешленна дискова херния (важно и често)"  },
+          { "title" : "Дискоспондилит (важно)" },
+          { "title" : "Абсцеси" }
         ]
-      }
-    ]
-  },
-  {
-    "symptom" : "Abdominal enlargement/ distention -",
-    "type"    :"gastrointestinal",
-    "meaning" : "",
-    "causes"  : [
-      {
-        "group": "Tissue", "children": [
-          { "title" : "Pregnancy (common and important)"                                          },
-          { "title" : "Hepatomegaly (infiltrative or inflammatory disease, lipidosis, neoplasia)" },
-          { "title" : "Splenomegaly (infiltrative or inflammatory disease, neoplasia, hematoma)"  },
-          { "title" : "Renomegaly (neoplasia, infiltrative disease, compensatory hypertrophy)"    },
-          { "title" : "Miscellaneous neoplasia"                                                   },
-          { "title" : "Granuloma (e.g., pythiosis)"                                               }
-        ]
-      },
-      {
-        "group": "Fluid", "children": [
-          {"title": "Contained in organ(s)", "children": [
-            {"title": "Torsion, volvulus, fluid from heart failure" },
-            {"title": "Pyometra"                                    },
-            {"title": "Cysts: paraprostatic, perinephric, hepatic"  },
-            {"title": "Hydronephrosis"                              }
-            ]
-          },
-          {"title": "Free in abdomen (common and important)" }
-        ]
-      },
-      {
-        "group": "Gas", "children": [
-          {"title": "Stomach (gastric dilation or volvulus)" },
-          {"title": "Intestines (resulting from obstruction)" }
-        ]
-      },
-      {
-        "group": "Fat", "children": [
-          {"title": "Obesity" }
-        ]
-      },
-      {
-        "group": "Weak abdominal muscles", "children": [
-          {"title": "Hyperadrenocorticism (important)" }
-        ]
-      },
-      {
-        "group": "Feces"
       }
     ],
-    "links" : [
-      { "title": "алгоритъм - SAIM" , "link": "pdfs/@algorithms/gastrointestinal/abdominal-distention-algorithm-saim.png" },
-      { "title": "алгоритъм - CSAD" , "link": "pdfs/@algorithms/gastrointestinal/abdominal-enlargement-CSAD.pdf" }
+    "links": [
+      { "title": "Алгоритъм", "link": "pdfs/@algorithms/gastrointestinal/acute-abdominal-pain-algorithm.png" }
     ]
   },
+
   {
-    "symptom" : "Abdominal pain",
-    "type"    :"gastrointestinal",
-    "meaning" : "",
-    "causes"  : [
+    "symptom": "Уголемяване/разширяван на корема -",
+    "type": "gastrointestinal",
+    "meaning": "",
+    "causes": [
       {
-        "group": "Tissue", "children": []
+        "group": "Тъкан", "children": [
+          { "title": "Бременност (честа и важна)" },
+          { "title": "Хепатомегалия (инфилтративно или възпалително заболяване, липидоза, неоплазия)" },
+          { "title": "Спленомегалия (инфилтративно или възпалително заболяване, неоплазия, хематом)" },
+          { "title": "Реномегалия (неоплазия, инфилтративно заболяване, компенсаторна хипертрофия)" },
+          { "title": "Различни неоплазии" },
+          { "title": "Гранулом (например, питиоза)" }
+        ]
+      },
+      {
+        "group": "Течност", "children": [
+          {
+            "title": "В органи", "children": [
+              { "title": "Торзио, волвулус, течност от сърдечна недостатъчност" },
+              { "title": "Пиометра" },
+              { "title": "Кисти: парапростатична, перинефрична, чернодробна" },
+              { "title": "Хидронефроза" }
+            ]
+          },
+          { "title": "Свободна в корема (често и важно)" }
+        ]
+      },
+      {
+        "group": "Газ", "children": [
+          { "title": "Стомах (стомашна дилатация или волвулус)" },
+          { "title": "Черва (в резултат на запушване)" }
+        ]
+      },
+      {
+        "group": "Мазнини", "children": [
+          { "title": "Затлъстяване" }
+        ]
+      },
+      {
+        "group": "Слаби коремни мускули", "children": [
+          { "title": "Хиперадренокортицизъм (важен)" }
+        ]
+      },
+      {
+        "group": "Фекалии"
       }
     ],
-    "links" : [
-      { "title": "Algorithm" , "link": "pdfs/@algorithms/gastrointestinal/acute-abdominal-pain-algorithm.png" }
+    "links": [
+      { "title": "алгоритъм - SAIM", "link": "pdfs/@algorithms/gastrointestinal/abdominal-distention-algorithm-saim.png" },
+      { "title": "алгоритъм - CSAD", "link": "pdfs/@algorithms/gastrointestinal/abdominal-enlargement-CSAD.pdf" }
     ]
   },
   {
-    "symptom" : "Jaundice",
-    "type"    :"gastrointestinal",
-    "meaning" : "",
-    "causes"  : [
+    "symptom": "Жълтеница",
+    "type": "gastrointestinal",
+    "meaning": "",
+    "causes": [
       {
-        "group": "Prehepatic jaundice" },
+        "group": "Прехепатална жълтеница"
+      },
       {
-        "group": "Hepatic", "children": [
-          { "title" : "Infectious", "children": [
-            { "title" : "Leishmaniasis" },
-            { "title" : "Leptospirosis" },
-            { "title" : "Canine adenovirus" }
+        "group": "Хепатална", "children": [
+          {
+            "title": "Инфекциозна", "children": [
+              { "title": "Лайшманиоза" },
+              { "title": "Лептоспироза" },
+              { "title": "Кучешки аденовирус" }
             ]
           },
-          { "title" : "Inflammatory/immune-mediated", "children": [
-            { "title" : "Chronic active hepatitis" }
+          {
+            "title": "Възпалителна/имуномедиирана", "children": [
+              { "title": "Хроничен активен хепатит" }
             ]
           },
-          { "title" : "Toxic" , "children": [
-            { "title" : "Copper hepatopathy" }
+          {
+            "title": "Токсична", "children": [
+              { "title": "Медна хепатопатия" }
             ]
           },
-          { "title" : "Neoplastic", "children": [
-            { "title" : "Lymphoma" },
-            { "title" : "Carcinoma" },
-            { "title" : "Metastasis" }
+          {
+            "title": "Неопластична", "children": [
+              { "title": "Лимфом" },
+              { "title": "Карценом" },
+              { "title": "Метастази" }
             ]
           }
         ]
       },
       {
-        "group": "Posthepatic", "children": [
-          { "title" : "Intraluminal obstruction", "children": [
-            { "title" : "Mucocele" },
-            { "title" : "Cholelithiasis" },
-            { "title" : "Cholangitis" },
-            { "title" : "Neoplasm" }
+        "group": "Постхепатална", "children": [
+          {
+            "title": "Интралуминална обструкция", "children": [
+              { "title": "Мукоцеле" },
+              { "title": "Холелитиаза" },
+              { "title": "Холангит" },
+              { "title": "Неоплазия" }
             ]
           },
-          { "title" : "Extraluminal obstruction", "children": [
-            { "title" : "Duodenal foreign body" },
-            { "title" : "Regional lymphadenopathy" },
-            { "title" : "Pancreatitis" },
-            { "title" : "Intestinal neoplasm" }
+          {
+            "title": "Екстралуминална обструкция", "children": [
+              { "title": "Дуоденално чуждо тяло" },
+              { "title": "Регионална лимфаденопатия" },
+              { "title": "Панкреатит" },
+              { "title": "Чревна неоплазия" }
             ]
           }
         ]
       }
     ],
-    "links" : [
-      { "title": "" , "link": "pdfs/@algorithms/gastrointestinal/jaundice-algorithm.png" }
+    "links": [
+      { "title": "", "link": "pdfs/@algorithms/gastrointestinal/jaundice-algorithm.png" }
     ]
   },
-
-
-
-
-
   {
-    "symptom" : "Syncope",
-    "type"    :"cardiovascular",
-    "meaning" : "",
-    "causes"  : [
+    "symptom": "Синкоп",
+    "type": "cardiovascular",
+    "meaning": "",
+    "causes": [
       {
-          "group": "Cardiovascular Causes", "children": [
-            { "title" : "Bradyarrhythmias (second- or third-degree AV block, sinus arrest, sick sinus syndrome, atrial standstill)" },
-            { "title" : "Tachyarrhythmias (paroxysmal atrial or ventricular tachycardia, reentrant supraventricular tachycardia, atrial fibrillation)" },
-            { "title" : "Congenital ventricular outflow obstruction (pulmonic stenosis, subaortic stenosis)" },
-            { "title" : "Acquired ventricular outflow obstruction (heartworm disease and other causes of pulmonary hypertension, hypertrophic obstructive cardiomyopathy, intracardiac tumor, thrombus)" },
-            { "title" : "Cyanotic heart disease (tetralogy of Fallot, pulmonary hypertension, and “reversed” shunt)" },
-            { "title" : "Impaired forward cardiac output (severe valvular insufficiency, dilated cardiomyopathy, myocardial infarction or inflammation)" },
-            { "title" : "Impaired cardiac filling (e.g., cardiac tamponade, constrictive pericarditis, hypertrophic or restrictive cardiomyopathy, intracardiac tumor, thrombus)" },
-            { "title" : "Cardiovascular drugs (diuretics, vasodilators)" },
-            { "title" : "Neurocardiogenic reflexes (vasovagal, cough-syncope, other situational syncope)" }
-          ]
-      },
-      {
-        "group": "Pulmonary Causes", "children": [
-          { "title" : "Diseases causing hypoxemia" },
-          { "title" : "Pulmonary hypertension" },
-          { "title" : "Pulmonary thromboembolism" }
+        "group": "Кардиоваскуларни причини", "children": [
+          { "title": "Брадиаритмии (втора или трета степен AV блок, синусов арест, синдром на болния синус, предсърдно застой)" },
+          { "title": "Тахиаритмии (пароксизмална предсърдна или вентрикуларна тахикардия, рецидивираща суправентрикуларна тахикардия, предсърдно мъждене)" },
+          { "title": "Вродена обструкция на вентрикуларния изход (пулмонална стеноза, субаортна стеноза)" },
+          { "title": "Придобита обструкция на вентрикуларния изход (болест на сърцето от сърдечен червей и други причини за пулмонална хипертония, хипертрофична обструктивна кардиомиопатия, интракардиален тумор, тромб)" },
+          { "title": "Цианотична сърдечна болест (тетралогия на Фалот, пулмонална хипертония и \"обърнат\" шънт)" },
+          { "title": "Нарушено предно сърдечно изходно изхвърляне (тежка клапна недостатъчност, разширена кардиомиопатия, миокарден инфаркт или възпаление)" },
+          { "title": "Нарушено сърдечно пълнене (напр. сърдечна тампонада, конструктивен перикардит, хипертрофична или рестриктивна кардиомиопатия, интракардиален тумор, тромб)" },
+          { "title": "Кардиоваскуларни лекарства (диуретици, вазодилататори)" },
+          { "title": "Неврокардиогенни рефлекси (васовагален, синкоп от кашлица, други ситуационни синкопи)" }
         ]
       },
       {
-        "group": "Metabolic and Hematologic Causes", "children": [
-          { "title" : "Hypoglycemia" },
-          { "title" : "Hypoadrenocorticism" },
-          { "title" : "Electrolyte imbalance (especially potassium, calcium)" },
-          { "title" : "Anemia" },
-          { "title" : "Sudden hemorrhage" }
-       ]
-      },
-      {
-       "group": "Neurologic Causes", "children": [
-          { "title" : "Cerebrovascular accident" },
-          { "title" : "Brain tumor (seizures)" }
+        "group": "Пулмонални причини", "children": [
+          { "title": "Заболявания, причиняващи хипоксемия" },
+          { "title": "Пулмонална хипертония" },
+          { "title": "Пулмонална тромбоемболия" }
         ]
       },
       {
-        "group": "Neuromuscular Disease", "children": [
-          { "title" : "(Narcolepsy, cataplexy)" }
+        "group": "Метаболитни и хематологични причини", "children": [
+          { "title": "Хипогликемия" },
+          { "title": "Хипоадренокортицизъм" },
+          { "title": "Електролитен дисбаланс (особено калий, калций)" },
+          { "title": "Анемия" },
+          { "title": "Внезапно кървене" }
+        ]
+      },
+      {
+        "group": "Неврологични причини", "children": [
+          { "title": "Цереброваскуларен инцидент" },
+          { "title": "Мозъчен тумор (припадъци)" }
+        ]
+      },
+      {
+        "group": "Невромускулни заболявания", "children": [
+          { "title": "(Нарколепсия, катаплексия)" }
         ]
       }
     ]
   },
   {
-    "symptom" : "Abnormal arterial pulse",
+    "symptom" : "Аномален артериален пулс",
     "type"    :"cardiovascular",
     "meaning" : "",
     "causes"  : [
       {
-          "group": "Weak Pulses", "children": [
-            { "title" : "Dilated cardiomyopathy" },
-            { "title" : "(Sub)aortic stenosis" },
-            { "title" : "Pulmonic stenosis" },
-            { "title" : "Shock" },
-            { "title" : "Dehydration" }
+          "group": "Слаби пулсове", "children": [
+            { "title" : "Дилатирана кардиомиопатия" },
+            { "title" : "(Под)аортална стеноза" },
+            { "title" : "Пулмонална стеноза" },
+            { "title" : "Шок" },
+            { "title" : "Дехидратация" }
           ]
       },
       {
-        "group": "Strong Pulses", "children": [
-          { "title" : "Excitement" },
-          { "title" : "Hyperthyroidism" },
-          { "title" : "Fever" },
-          { "title" : "Hypertrophic cardiomyopathy" }
+        "group": "Силни пулсове", "children": [
+          { "title" : "Вълнение" },
+          { "title" : "Хипертиреоидизъм" },
+          { "title" : "Температура" },
+          { "title" : "Хипертрофична кардиомиопатия" }
         ]
       },
       {
-        "group": "Very Strong, Bounding Pulses", "children": [
-          { "title" : "Patent ductus arteriosus" },
-          { "title" : "Fever/sepsis" },
-          { "title" : "Severe aortic regurgitation" }
+        "group": "Много силни, пулсиращи пулсове", "children": [
+          { "title" : "Отворен проток на артерията" },
+          { "title" : "Температура/сепсис" },
+          { "title" : "Тежка аортална регургитация" }
         ]
       }
     ]
   },
   {
-    "symptom" : "Hypovolemia -",
-    "type"    :"cardiovascular",
-    "meaning" : "a decrease in the volume of blood circulating within the body",
-    "causes"  : [
-      {"group": "Dehydration"                           },
-      {"group": "Hemorrhage"                            },
-      {"group": "Shock"                                 },
-      {"group": "Burns"                                 },
-      {"group": "Gastrointestinal diseases"             },
-      {"group": "Kidney disease"                        },
-      {"group": "Fluid loss from the respiratory tract" },
-      {"group": "Diuretics"                             },
-      {"group": "Diabetes insipidus"                    },
-      {"group": "Gastrointestinal obstructions"         },
-      {"group": "Heatstroke"                            }
+    "symptom": "Сърдечен шум",
+    "type": "cardiovascular",
+    "meaning": "",
+    "causes": [
+      {
+        "group": "Вродени сърдечни дефекти", "children": [
+          { "title": "Стеноза" },
+          { "title": "Регургитация" },
+          { "title": "Септални дефекти" },
+          { "title": "Патентен дуктус артериозус" }
+        ]
+      },
+      {
+        "group": "Придобити сърдечни заболявания", "children": [
+          { "title": "Стеноза" },
+          { "title": "Регургитация" },
+          { "title": "Инфекциозен ендокардит" },
+          { "title": "Кардиомиопатии" }
+        ]
+      },
+      {
+        "group": "Извънсърдечни причини", "children": [
+          { "title": "Висок изходен поток" },
+          { "title": "Хипертония" },
+          { "title": "Анормални структури" }
+        ]
+      }
+    ]
+  },
+  {
+    "symptom": "Сърцебиене",
+    "type": "cardiovascular",
+    "meaning": "",
+    "causes": [
+      {
+        "group": "Аритмии", "children": [
+          { "title": "Предсърдна фибрилация" },
+          { "title": "Тахикардия" },
+          { "title": "Вентрикуларни аритмии" }
+        ]
+      },
+      {
+        "group": "Стрес и тревожност", "children": [
+          { "title": "Емоционален стрес" },
+          { "title": "Паник атаки" },
+          { "title": "Фобии" }
+        ]
+      },
+      {
+        "group": "Други", "children": [
+          { "title": "Медикаменти" },
+          { "title": "Хормонални нарушения" },
+          { "title": "Хипертиреоидизъм" }
+        ]
+      }
     ]
   },
 
 
+  {
+    "symptom" : "Хиповолемия",
+    "type"    :"cardiovascular",
+    "значение" : "намаление на обема на кръвта, циркулираща в тялото",
+    "причини"  : [
+      {"group": "Дехидратация"                           },
+      {"group": "Кръвоизлив"                             },
+      {"group": "Шок"                                    },
+      {"group": "Изгаряния"                              },
+      {"group": "Гастроинтестинални заболявания"         },
+      {"group": "Болести на бъбреците"                   },
+      {"group": "Загуба на течности от дихателния тракт" },
+      {"group": "Диуретици"                              },
+      {"group": "Централен диабетен инсипид"             },
+      {"group": "Гастроинтестинални обструкции"          },
+      {"group": "Топлинен удар"                          }
+    ]
+  },
 
   {
-    "symptom" : "Cough",
+    "symptom": "Кашлица",
+    "type": "respiratory",
+    "meaning": "",
+    "causes": [
+      {
+        "group": "Респираторни заболявания", "children": [
+          { "title": "Инфекциозни заболявания" },
+          { "title": "Възпалителни заболявания" },
+          { "title": "Неоплазии" },
+          { "title": "Алергии" }
+        ]
+      },
+      {
+        "group": "Сърдечни заболявания", "children": [
+          { "title": "Сърдечна недостатъчност" }
+        ]
+      },
+      {
+        "group": "Други", "children": [
+          { "title": "Чужди тела" },
+          { "title": "Травма" }
+        ]
+      }
+    ]
+  },
+  {
+    "symptom" : "Носни изтечения",
     "type"    :"respiratory",
-    "meaning" : "",
-    "causes"  : [
+    "значение" : "",
+    "причини"  : [
       {
-          "group": "", "children": [
-            { "title" : "cardiogenic pulmonary edema" },
-            { "title" : "" }
-          ]
-      }
-    ],
-    "links" : [
-      { "title": "" , "link": "pdfs/@algorithms/respiratory/.png" }
-    ]
-  },
-  {
-    "symptom" : "Nasal discharge",
-    "type"    :"respiratory",
-    "meaning" : "",
-    "causes"  : [
-      {
-        "group": "Serous Discharge", "children": [
-          { "title" : "Normal" },
-          { "title" : "Viral infection" },
-          { "title" : "Early sign of etiology of mucopurulent discharge" }
+        "group": "Серозни изтечения", "children": [
+          { "title" : "Нормално" },
+          { "title" : "Вирусна инфекция" },
+          { "title" : "Ранен признак на етиология на мукопуролентни изтечения" }
         ]
       },
       {
-        "group": "Mucopurulent Discharge with or without Hemorrhage", "children": [
-          { "title" : "Viral infection", "children" : [
-            { "title" : "Feline herpesvirus (rhinotracheitis virus)" },
-            { "title" : "Feline calicivirus" },
-            { "title" : "Canine influenza virus" }
+        "group": "Мукопуролентни изтечения с или без кръвоизлив", "children": [
+          { "title" : "Вирусна инфекция", "children" : [
+            { "title" : "Котешки херпесвирус (вирус на ринотрахеита)" },
+            { "title" : "Котешки калицивирус" },
+            { "title" : "Кучешки инфлуенца вирус" }
             ]
           },
-          { "title" : "Bacterial infection (usually secondary)" },
-          { "title" : "Fungal infection", "children": [
-            { "title" : "Aspergillus" },
-            { "title" : "Cryptococcus" },
-            { "title" : "Penicillium" },
-            { "title" : "Rhinosporidium" }
+          { "title" : "Бактериална инфекция (обикновено вторична)" },
+          { "title" : "Гъбична инфекция", "children": [
+            { "title" : "Аспергили" },
+            { "title" : "Криптококус" },
+            { "title" : "Пеницилиум" },
+            { "title" : "Риноспоридиум" }
             ]
           },
-          { "title" : "Nasal parasites", "children": [
-            { "title" : "Pneumonyssoides" },
-            { "title" : "Capillaria (Eucoleus)" }
+          { "title" : "Назални паразити", "children": [
+            { "title" : "Пнеумонисоидес" },
+            { "title" : "Капилария (Еуколеус)" }
             ]
           },
-          { "title" : "Foreign body" },
-          { "title" : "Neoplasia" },
-          { "title" : "Nasopharyngeal polyp" },
-          { "title" : "Extension of oral disease" },
-          { "title" : "Allergic rhinitis" },
-          { "title" : "Feline chronic rhinosinusitis" },
-          { "title" : "Canine chronic/lymphoplasmacytic rhinitis" }
+          { "title" : "Чуждо тяло" },
+          { "title" : "Неоплазия" },
+          { "title" : "Назофарингеален полип" },
+          { "title" : "Разширение на устното заболяване" },
+          { "title" : "Алергичен ринит" },
+          { "title" : "Котешки хроничен риносинусит" },
+          { "title" : "Кучешки хроничен/лимфоплазмоцитен ринит" }
         ]
       },
       {
-        "group": "Pure Hemorrhagic Discharge (Epistaxis)", "children": [
-          { "title" : "Nasal disease", "children": [
-            { "title" : "Acute trauma" },
-            { "title" : "Acute foreign body" },
-            { "title" : "Neoplasia" },
-            { "title" : "Fungal infection" },
-            { "title" : "Less commonly, other etiologies as listed for mucopurulent discharge" }
+        "group": "Чисти кървави изтечения (епистаксис)", "children": [
+          { "title" : "Назално заболяване", "children": [
+            { "title" : "Остра травма" },
+            { "title" : "Чуждо тяло" },
+            { "title" : "Неоплазия" },
+            { "title" : "Гъбична инфекция" },
+            { "title" : "По-рядко други етиологии, както е посочено за мукопуролентните изтечения" }
            ]
           },
-          { "title" : "Systemic disease", "children": [
-            { "title" : "Clotting disorders" },
-            { "title" : "Vasculitis" },
-            { "title" : "Hyperviscosity syndrome" },
-            { "title" : "Polycythemia" },
-            { "title" : "Systemic hypertension" }
+          { "title" : "Системно заболяване", "children": [
+            { "title" : "Кървене поради коагулационни нарушения" },
+            { "title" : "Васкулит" },
+            { "title" : "Хипервискозитет синдром" },
+            { "title" : "Полицитемия" },
+            { "title" : "Системна хипертензия" }
            ]
           }
         ]
       }
     ],
     "links" : [
-      { "title": "General Diagnostic Approach to Chronic Nasal Discharge" , "link": "pdfs/@algorithms/respiratory/nasal-discharge-chronic-saim.png" }
+      { "title": "Общ подход при диагностика на хронично назално отделяне" , "link": "pdfs/@algorithms/respiratory/nasal-discharge-chronic-saim.png" }
     ]
   },
   {
-    "symptom" : "Dyspnea (respiratory distress)",
+    "symptom" : "Диспнея",
     "type"    :"respiratory",
-    "meaning" : "abnormally increased effort in breathing",
-    "causes"  : [
-      {"group" : "Pale Mucous Membranes", "children": [
-          {"title" : "Anemia - Anemic animals may not appear cyanotic even with marked hypoxemia because 5 g/dL of desaturated hemoglobin is necessary for visible cyanosis."},
-          {"title" : "Poor cardiac output/high sympathetic tone"}
+    "значение" : "неправилно и затруднено дишане",
+    "причини"  : [
+      {"group" : "Бледи лигавици", "children": [
+          {"title" : "Анемия - Анемичните животни може да не изглеждат цианотични дори при значителна хипоксемия, защото са необходими 5 g/dL дезатуриран хемоглобин за видима цианоза."},
+          {"title" : "Намален сърдечен дебит/повишен симпатиков тонус"}
         ]
       },
-      {"group" : "Injected, Brick-Red Membranes", "children": [
-          {"title" : "Polycythemia (erythrocytosis)"},
-          {"title" : "Sepsis"},
-          {"title" : "Excitement"},
-          {"title" : "Other causes of peripheral vasodilation"}
+      {"group" : "Зачервени лигавици", "children": [
+          {"title" : "Полицитемия (еритроцитоза)"},
+          {"title" : "Сепсис"},
+          {"title" : "Възбуда"},
+          {"title" : "Други причини за периферна вазодилатация"}
         ]
       },
-      {"group" : "Cyanotic Mucous Membranes", "children": [
-          {"title" : "Pulmonary parenchymal disease"},
-          {"title" : "Airway obstruction"},
-          {"title" : "Pleural space disease"},
-          {"title" : "Pulmonary edema"},
-          {"title" : "Right-to-left shunting congenital cardiac defect"},
-          {"title" : "Hypoventilation"},
-          {"title" : "Shock"},
-          {"title" : "Cold exposure"},
-          {"title" : "Methemoglobinemia"}
+      {"group" : "Цианотични лигавици", "children": [
+          {"title" : "Паренхимни болести на белите дробове"},
+          {"title" : "Обструкция на дихателните пътища"},
+          {"title" : "Болести на плевралното пространство"},
+          {"title" : "Белодробен оток"},
+          {"title" : "Конгенитален шънт на сърцето отдясно наляво"},
+          {"title" : "Хиповентилация"},
+          {"title" : "Шок"},
+          {"title" : "Излагане на студ"},
+          {"title" : "Метемоглобинемия"}
         ]
       },
-      {"group" : "Differential Cyanosis", "children": [
-          {"title" : "Reversed patent ductus arteriosus (head and forelimbs receive normally oxygenated blood, but caudal part of body receives desaturated blood via the ductus, which arises from the descending aorta)"}
+      {"group" : "Диференциална цианоза", "children": [
+          {"title" : "Обратен отворен дуктус Артериозус (главата и предните крайници получават нормално оксигенирана кръв, но каудалната част на тялото получава дезатурирана кръв през дукта, който възниква от aorta descendens)"}
         ]
       },
-      {"group" : "Icteric Mucous Membranes", "children": [
-          {"title" : "Hemolysis"},
-          {"title" : "Hepatobiliary disease"},
-          {"title" : "Biliary obstruction"}
+      {"group" : "Иктерични лигавици", "children": [
+          {"title" : "Хемолиза"},
+          {"title" : "Хепатобилиарни заболявания"},
+          {"title" : "Билиарна обструкция"}
         ]
       }
     ],
-    "links" : [
-      {"title" : "Classification", "link" : "pdfs/@algorithms/respiratory/dyspnoea-classification.png"},
-      {"title" : "Algorithm", "link" : "pdfs/@algorithms/respiratory/dyspnoea-algorithm.png"},
-      {"title" : "Algorithm - Clinicians brief", "link" : "pdfs/@algorithms/respiratory/respiratory-distress-algorithm.png"}
+    "връзки" : [
+      {"заглавие" : "Класификация", "връзка" : "pdfs/@algorithms/respiratory/dyspnoea-classification.png"},
+      {"заглавие" : "Алгоритъм", "връзка" : "pdfs/@algorithms/respiratory/dyspnoea-algorithm.png"},
+      {"заглавие" : "Алгоритъм - Clinicians brief", "връзка" : "pdfs/@algorithms/respiratory/respiratory-distress-algorithm.png"}
     ]
   },
   {
-    "symptom" : "Rhinoscopic abnormalities",
+    "symptom" : "Аномалии, открити при риноскопия",
     "type"    :"respiratory",
-    "meaning" : "",
-    "causes"  : [
+    "значение" : "",
+    "причини"  : [
       {
-          "group": "Inflammation (Mucosal Swelling, Hyperemia, Increased Mucus, Exudate)", "children": [
-            { "title" : "Nonspecific finding; consider all differential diagnoses for mucopurulent nasal discharge (infectious, inflammatory, neoplastic)" }
+          "group": "Възпаление (Оток на мукозата, Хиперемия, Увеличено количество мукус, Ексудат)", "children": [
+            { "title" : "Неспецифична находка; разгледайте всички диференциални диагнози за мукопуролентно назално отделяне (инфекциозно, възпалително, неопластично)" }
           ]
       },
       {
-        "group": "Mass", "children": [
-          { "title" : "Neoplasia" },
-          { "title" : "Nasopharyngeal polyp" },
-          { "title" : "Cryptococcosis" },
-          { "title" : "Mat of fungal hyphae or fungal granuloma (aspergillosis, penicilliosis, rhinosporidiosis)" }
+        "group": "Маса", "children": [
+          { "title" : "Неоплазия" },
+          { "title" : "Назофарингеален полип" },
+          { "title" : "Криптококоза" },
+          { "title" : "Плоча от гъбични хифи или гъбична гранулома (aspergillosis, penicilliosis, rhinosporidiosis)" }
         ]
       },
       {
-        "group": "Turbinate Erosion", "children": [
-          { "title" : "Mild", "children": [
-            { "title" : "Feline herpesvirus" },
-            { "title" : "Chronic inflammatory process" }
+        "group": "Ерозия на носната преграда", "children": [
+          { "title" : "Умерено тежка", "children": [
+            { "title" : "Котешка херпесвироза" },
+            { "title" : "Хроничен възпалителен процес" }
           ]
           },
-          { "title" : "Marked", "children": [
-            { "title" : "Aspergillosis" },
+          { "title" : "С петна", "children": [
+            { "title" : "Аспергилоза" },
             { "title" : "Neoplasia" },
             { "title" : "Cryptococcosis" },
             { "title" : "Penicilliosis" }
@@ -1094,319 +1157,360 @@
         ]
       },
       {
-        "group": "Fungal Plaques", "children": [
+        "group": "Гъбични плаки", "children": [
           { "title" : "Aspergillosis" },
           { "title" : "Penicilliosis" }
         ]
       },
       {
-        "group": "Parasites", "children": [
-          { "title" : "Mites: Pneumonyssoides caninum" },
-          { "title" : "Worms: Capillaria (Eucoleus) boehmi" }
+        "group": "Паразити", "children": [
+          { "title" : "Pneumonyssoides caninum" },
+          { "title" : "Capillaria (Eucoleus) boehmi" }
         ]
       },
-      { "group": "Foreign Bodies" }
+      { "group": "Чужди тела" }
+    ]
+  },
+
+
+  {
+    "symptom": "Кихане",
+    "type": "respiratory",
+    "meaning": "",
+    "causes": [
+      { "group": "Чуждо тяло в носната кухина" },
+      { "group": "Инфекция на горните дихателни пътища при котки" },
+      { "group": "Кърлеж в назалната кухина" },
+      { "group": "Дразнещи аерозоли" }
     ]
   },
   {
-    "symptom" : "Sneezing",
-    "type"    :"respiratory",
-    "meaning" : "",
-    "causes"  : [
-      { "group": "Nasal foreign body" },
-      { "group": "Feline upper respiratory infection" },
-      { "group": "Nasal mite" },
-      { "group": "Irritating aerosols" }
+    "symptom": "Обратно кихане",
+    "type": "respiratory",
+    "meaning": "",
+    "causes": [
+      { "group": "Чуждо тяло в носа" },
+      { "group": "Възпаление на назофаринкса" },
+      { "group": "Възпаление на епиглотиса" },
+      { "group": "Идиопатично" },
+      { "group": "Вълнение или пиене" }
     ]
   },
   {
-    "symptom" : "Reverse sneezing",
-    "type"    :"respiratory",
-    "meaning" : "",
-    "causes"  : [
-      { "group": "Nasal foreign body" },
-      { "group": "Nasopharyngeal inflammation" },
-      { "group": "Epiglottic entrapment" },
-      { "group": "Idiopathic" },
-      { "group": "excitement or drinking" }
-    ]
-  },
-  {
-    "symptom" : "Stertor -",
-    "type"    :"respiratory",
-    "meaning" : "coarse, audible snoring or snorting sounds associated with breathing",
-    "causes"  : [
+    "symptom": "Стертор",
+    "type": "respiratory",
+    "meaning": "Груби, чуваеми шумове на храпене или хъркане, свързани с дишането",
+    "causes": [
       {
-          "group": "", "children": [
-            { "title" : "" },
-            { "title" : "" }
-          ]
+        "group": "",
+        "children": [
+          { "title": "" },
+          { "title": "" }
+        ]
       }
     ]
   },
   {
-    "symptom" : "Facial deformity -",
-    "type"    :"respiratory",
-    "meaning" : "",
-    "causes"  : [
-      { "group": "Carnassial tooth root abscess" },
-      { "group": "Neoplasia" },
-      { "group": "Cryptococcosis (in cats)" }
+    "symptom": "Деформация на лицето",
+    "type": "respiratory",
+    "meaning": "",
+    "causes": [
+      { "group": "Абсцес на корените на моларите" },
+      { "group": "Неоплазии" },
+      { "group": "Криптококоза (при котки)" }
     ]
   },
-
-
-
-
   {
-    "symptom" : "Hematuria",
-    "type"    :"urogenital",
-    "meaning" : "blood in the urine, micro- and macrohematuria",
-    "causes"  : [
+    "symptom": "Хематурия",
+    "type": "urogenital",
+    "meaning": "Кръв в урината, микро- и макрохематурия",
+    "causes": [
       {
-        "group": "Urinarytract origin", "children": [
-          { "title" : "Trauma", "children" : [
-              { "title": "Traumatic collection (e.g., catheterization, cystocentesis)" },
-              { "title": "Renal biopsy" },
-              { "title": "Blunt trauma (e.g., automobile accident)"}
+        "group": "Произход от уринарния тракт",
+        "children": [
+          {
+            "title": "Травма",
+            "children": [
+              { "title": "Травматично събиране (например, катетеризация, цистоцентеза)" },
+              { "title": "Биопсия на бъбреците" },
+              { "title": "Тъпа травма (например, катастрофа с автомобил)" }
             ]
           },
-          { "title" : "Urulithiasis"        },
-          { "title" : "Noplasia"            },
-          { "title" : "Inflamatory disease", "children": [
-            { "title" : "Urinary tract infection" },
-            { "title" : "Feline idiopathic cystitis, urethritis (idiopathic feline lower urinary tract disease)" },
-            { "title" : "Chemically induced inflammation (e.g.,cyclophosphamide-induced cystitis)" },
-            { "title" : "Polypoid cystitis" },
-            { "title" : "Proliferative urethritis (granulomatous urethritis)" }
-          ] }
+          { "title": "Уролитиаза" },
+          { "title": "Неоплазии" },
+          {
+            "title": "Възпалително заболяване",
+            "children": [
+              { "title": "Инфекция на урогениталния тракт" },
+              { "title": "Идиопатичен цистит, уретрит при котки (идиопатично урологично заболяване при котки)" },
+              { "title": "Химически индуцирано възпаление (например, цистит, индуциран от циклосфосфамид)" },
+              { "title": "Полипоиден цистит" },
+              { "title": "Пролиферативен уретрит (грануломатозен уретрит)" }
+            ]
+          }
         ]
       },
       {
-        "group": "Genital tract contamination", "children": [
-          {"title": "Estrus"  },
-          {"title": "Subinvolution of placental sites"  },
-          {"title": "Inflammatory, neoplastic, and traumatic lesions of the genital tract"  }
+        "group": "Замърсяване на гениталния тракт",
+        "children": [
+          { "title": "Еструс" },
+          { "title": "Субинволюция на плацентата" },
+          { "title": "Възпалителни, неопластични и травматични увреждания на гениталния тракт" }
         ]
       }
     ]
   },
   {
-    "symptom" : "Polyuria and polydipsia -",
-    "type"    :"urogenital",
-    "meaning" : "",
-    "causes"  : [
+    "symptom": "Полиурия и полидипсия",
+    "type": "urogenital",
+    "meaning": "",
+    "causes": [
       {
-        "group": "Dogs", "children": [
-          { "title" : "Common causes", "children": [
-            {"title": "Chronic kidney disease"},
-            {"title": "pyometra"},
-            {"title": "diabetes mellitus"},
-            {"title": "hyperadrenocorticism"},
-            {"title": "hypercalcaemia"},
-            {"title": "pyelonephritis"},
-            {"title": "iatrogenic causes (drugs, diet or fluid therapy)"}
-          ]   },
-          { "title" : "Uncommon causes", "children": [
-            {"title": "liver disease"},
-            {"title": "hypoadrenocorticism"},
-            {"title": "primary polydipsia"}
-          ] },
-          { "title" : "Rare", "children": [
-            {"title": "central diabetes insipidus (CDI)"},
-            {"title": "primary nephrogenic diabetes insipidus (primary NDI)"},
-            {"title": "Hyperviscosity syndrome"},
-            {"title": "Primary glycosuria"},
-            {"title": "Fanconi syndrome"},
-            {"title": "Acromegaly"},
-            {"title": "Hypokalaemia"},
-            {"title": "Gastrointestinal disorders"},
-            {"title": "Polycythaemia"},
-            {"title": "Phaeochromocytoma"},
-            {"title": "Primary hyperaldosteronism"},
-            {"title": "Leiomyosarcoma"},
-            {"title": "Sudden acquired retinal degeneration syndrome (SARDS)"}
-          ] }
-        ]
-      },
-      {
-        "group": "Cats", "children": [
-          { "title" : "Common causes", "children": [
-            {"title": "Chronic kidney disease"},
-            {"title": "Hyperthyroidism"},
-            {"title": "Diabetes mellitus"},
-            {"title": "Postobstructive diuresis"},
-            {"title": "Iatrogenic causes (drugs, diet, or fluid therapy)"}
-          ] },
-          { "title" : "Uncommon causes", "children": [
-            {"title": "Liver disease"},
-            {"title": "Pyometra"},
-            {"title": "Pyelonephritis"},
-            {"title": "Hypokalaemia (with kidney disease)"}
-          ]  },
-          { "title" : "Rare", "children": [
-            {"title": "Central diabetes insipidus"},
-            {"title": "Hypercalcaemia"},
-            {"title": "Acromegaly"},
-            {"title": "Hyperadrenocorticism"},
-            {"title": "Hypoadrenocorticism"},
-            {"title": "Primary hyperaldosteronism"}
-          ]  }
-        ]
-      }
-    ], "links" : [
-      { "title": "Endocrine Disorders causing polyuria and polydipsia" , "link": "pdfs/@algorithms/gastrointestinal/endocrine-disorders-polyuria-polydipsia-saim.png" }
-    ]
-  },
-  {
-    "symptom" : "Pyuria",
-    "type"    :"urogenital",
-    "meaning" : "",
-    "causes"  : [
-      {
-        "group": "Urinary tract origin", "children": [
-          { "title" : "Infectious", "children" : [
-              { "title": "Urinary tract infection (e.g., pyelonephritis, cystitis, urethritis)" }
+        "group": "Кучета",
+        "children": [
+          {
+            "title": "Чести причини",
+            "children": [
+              { "title": "Хронично бъбречно заболяване" },
+              { "title": "Пиометра" },
+              { "title": "Диабет" },
+              { "title": "Хиперадренокортицизъм" },
+              { "title": "Хиперкалциемия" },
+              { "title": "Пиелонефрит" },
+              { "title": "Ятрогенни причини (лекарства, диета или терапия с течности)" }
             ]
           },
-          { "title" : "Noninfectious", "children": [
-            { "title" : "Urolithiasis" },
-            { "title" : "Neoplasia" },
-            { "title" : "Trauma" },
-            { "title" : "Chemically induced (e.g., cyclophosphamide)" }
-          ] }
+          {
+            "title": "Нечести причини",
+            "children": [
+              { "title": "Болести на черния дроб" },
+              { "title": "Хипоадренокортицизъм" },
+              { "title": "Първична полидипсия" }
+            ]
+          },
+          {
+            "title": "Редки",
+            "children": [
+              { "title": "Централен диабет инсипидус (ЦДИ)" },
+              { "title": "Първичен нефрогенен диабет инсипидус (първичен НДИ)" },
+              { "title": "Хипервискозитет синдром" },
+              { "title": "Първична гликозурия" },
+              { "title": "Синдром на Фанкони" },
+              { "title": "Акромегалия" },
+              { "title": "Хипокалиемия" },
+              { "title": "Гастроинтестинални разстройства" },
+              { "title": "Полицитемия" },
+              { "title": "Феохромоцитома" },
+              { "title": "Първичен хипералдостеронизъм" },
+              { "title": "Леиомиосаркома" },
+              { "title": "Синдром на внезапно придобита дегенерация на ретината (Sudden acquired retinal degeneration syndrome, SARDS)" }
+            ]
+          }
         ]
       },
       {
-        "group": "Genital tract contamination"
+        "group": "Котки",
+        "children": [
+          {
+            "title": "Чести причини",
+            "children": [
+              { "title": "Хронично бъбречно заболяване" },
+              { "title": "Хипертиреоидизъм" },
+              { "title": "Диабет" },
+              { "title": "Постобструктивна диуреза" },
+              { "title": "Ятрогенни причини (лекарства, диета или терапия с течности)" }
+            ]
+          },
+          {
+            "title": "Нечести причини",
+            "children": [
+              { "title": "Болести на черния дроб" },
+              { "title": "Пиометра" },
+              { "title": "Пиелонефрит" },
+              { "title": "Хипокалемия (при бъбречно заболяване)" }
+            ]
+          },
+          {
+            "title": "Редки",
+            "children": [
+              { "title": "Централен диабет инсипидус" },
+              { "title": "Хиперкалциемия" },
+              { "title": "Акромегалия" },
+              { "title": "Хиперадренокортицизъм" },
+              { "title": "Хипоадренокортицизъм" },
+              { "title": "Първичен хипералдостеронизъм" }
+            ]
+          }
+        ]
+      }
+    ],
+    "links": [
+      { "title": "Ендокринни разстройства, причиняващи полиурия и полидипсия", "link": "pdfs/@алгоритми/гастроинтестинални/разстройства-във-водния-метаболизъм-полиурия-полидипсия-saim.png" }
+    ]
+  },
+  {
+    "symptom": "Пиурия",
+    "type": "urogenital",
+    "meaning": "",
+    "causes": [
+      {
+        "group": "Произход от урогениталния тракт",
+        "children": [
+          { "title": "Инфекциозни", "children": [
+              { "title": "Инфекция на урогениталния тракт (например, пиелонефрит, цистит, уретрит)" }
+            ]
+          },
+          { "title": "Незаразни", "children":
+            [
+              { "title": "Уролитиаза" },
+              { "title": "Неоплазии" },
+              { "title": "Травма" },
+              { "title": "Химически индуцирана (например, циклофосфамид)" }
+            ]
+          }
+        ]
+      },
+      { "group": "Замърсяване на гениталния тракт" }
+    ]
+  },
+  {
+    "symptom": "Кристалурия",
+    "type": "urogenital",
+    "meaning": "образуване на кристали в урината",
+    "causes": [
+      {
+        "group": "Струвитни кристали",
+        "children": [
+          { "title": "Нормално" },
+          { "title": "Инфекция на урогениталния тракт с бактерии, произвеждащи уреаза" },
+          { "title": "Струвитна уролитиаза" },
+          { "title": "Диета, базирана на растителни протеини" }
+        ]
+      },
+      {
+        "group": "Калциев-оксалатни кристали",
+        "children": [
+          { "title": "Нормално" },
+          { "title": "Токсикация с етиленгликол" },
+          { "title": "Оксалатна уролитиаза" }
+        ]
+      },
+      {
+        "group": "Амониево-уратни кристали",
+        "children": [
+          { "title": "Свързано с породата (например, далматинци, английски булдозери)" },
+          { "title": "Уратна уролитиаза" },
+          { "title": "Заболяване на черния дроб" },
+          { "title": "Портосистемично отклонение" }
+        ]
+      },
+      {
+        "group": "Цистинови кристали",
+        "children": [{ "title": "Цистинурия" }]
+      },
+      {
+        "group": "Билирубинови кристали",
+        "children": [
+          { "title": "Нормално в концентрирана урина от кучета (особено мъжки); ненормално в котешката урина" },
+          { "title": "Хемолитична болест" },
+          { "title": "Заболяване на черния дроб" },
+          { "title": "Постхепатично заболяване" }
+        ]
       }
     ]
   },
-
   {
-    "symptom" : "Crystalluria -",
-    "type"    :"urogenital",
-    "meaning" : "",
-    "causes"  : [
+    "symptom": "Имуномедииран гломерулонефрит",
+    "type": "urogenital",
+    "meaning": "",
+    "causes": [
       {
-        "group": "Struvite", "children": [
-          { "title" : "Normal"  },
-          { "title" : "Urinary tract infection with urease-positive bacteria"  },
-          { "title" : "Struvite urolithiasis" },
-          { "title" : "Plant protein–based diet" }
-        ]
-      },
-      {
-        "group": "Calcium oxalate", "children": [
-          {"title": "Normal" },
-          {"title": "Ethylene glycol intoxication" },
-          {"title": "Oxalate urolithiasis" }
-        ]
-      },
-      {
-        "group": "Ammonium biurate", "children": [
-          {"title": "Breed-related (e.g., Dalmatian, English Bulldog)" },
-          {"title": "Urate urolithiasis" },
-          {"title": "Liver disease" },
-          {"title": "Portosystemic shunt" }
-        ]
-      },
-      {
-        "group": "Cystine", "children": [
-          {"title": "Cystinuria" }
-        ]
-      },
-      {
-        "group": "Bilirubin", "children": [
-          {"title": "Normal in concentrated urine from dogs (especially males); abnormal in feline urine" },
-          {"title": "Hemolytic disease" },
-          {"title": "Liver disease" },
-          {"title": "Posthepatic disease" }
-        ]
-      }
-    ]
-  },
-  {
-    "symptom" : "Immune-Mediated Glomerulonephritis",
-    "type"    :"urogenital",
-    "meaning" : "",
-    "causes"  : [
-      {
-        "group": "Dogs", "children": [
-          { "title" : "Infectious diseases", "children": [
-            {"title": "Dirofilariasis"},
-            {"title": "Blastomycosis"},
-            {"title": "Coccidioidomycosis"},
-            {"title": "Pyometra"},
-            {"title": "Bacterial endocarditis"},
-            {"title": "Brucellosis"},
-            {"title": "Pyoderma"},
-            {"title": "Borreliosis", "children": [
-              {"title": "Membranoproliferative glomerulonephritis (GN) in Bernese Mountain dogs inherited as an autosomal recessive trait has a strong association with seropositivity for Borrelia burgdorferi."}
-            ]},
-            {"title": "Ehrlichiosis"},
-            {"title": "Rocky Mountain spotted fever (Rickettsia rickettsii)"},
-            {"title": "Bartonellosis"},
-            {"title": "Other chronic bacterial infections"},
-            {"title": "Leishmaniasis"},
-            {"title": "Babesiosis"},
-            {"title": "Hepatozoonosis"},
-            {"title": "Trypanosomiasis"},
-            {"title": "Canine adenovirus-1 (infectious canine hepatitis)"}
-          ]           },
-          { "title" : "Noninfectious inflammatory diseases", "children": [
-            {"title": "Systemic lupus erythematosus (SLE)"},
-            {"title": "Immune-mediated polyarthritis"},
-            {"title": "Chronic inflammatory skin disease"},
-            {"title": "Pancreatitis"}
-          ]          },
-          { "title" : "Neoplasia", "children": [
-            {"title": "Lymphoma"},
-            {"title": "Mast cell tumor"},
-            {"title": "Other tumors"}
-          ]            },
-          { "title" : "Other disease associations", "children": [
-            {"title": "Exogenous or endogenous (e.g., hyperadrenocorticism) glucocorticoids (dogs treated with glucocorticoids develop proteinuria and glomerular lesions but not deposition of immune complexes)"},
-            {"title": "Drug reaction (e.g., trimethoprim-sulfonamide, masitinib and toceranib, and minimal-change nephropathy in a dog)"}
+        "group": "Кучета",
+        "children": [
+          {
+            "title": "Инфекциозни болести", "children": [
+              { "title": "Дирофилариаза" },
+              { "title": "Бластомикоза" },
+              { "title": "Кокцидиомикоза" },
+              { "title": "Пиометра" },
+              { "title": "Бактериален ендокардит" },
+              { "title": "Бруцелоза" },
+              { "title": "Пиодермия" },
+              { "title": "Борелиоза", "children": [
+                { "title": "Мембранопролиферативен гломерулонефрит при Бернски зененхунд, наследяван рецесивно, има силна асоциация с серопозитивността за Borrelia burgdorferi." }] },
+              { "title": "Ерлихиоза" },
+              { "title": "Петниста треска, предизвикана от Rickettsia rickettsii" },
+              { "title": "Бартонелоза" },
+              { "title": "Други хронични бактериални инфекции" },
+              { "title": "Лайшманиоза" },
+              { "title": "Бабезиоза" },
+              { "title": "Хепатоцитозоноза" },
+              { "title": "Трипаносомоза" },
+              { "title": "Кучешки аденовирус-1 (инфекциозен кучешки хепатит)" }
+            ]
+          },
+          {
+            "title": "Неинфекциозни болести", "children": [
+              { "title": "Системен лупус еритематозус" },
+              { "title": "Имуномедииран полиартрит" },
+              { "title": "Хронично възпаление на кожата" },
+              { "title": "Панкреатит" }
+            ]
+          },
+          {
+            "title": "Неоплазия", "children": [
+              { "title": "Лимфома" },
+              { "title": "Мастоцитома" },
+              { "title": "Други тумори" }
+            ]
+          },
+          { "title" : "Други заболявания", "children": [
+            {"title": "Екзогенни или ендогенни (напр., хиперадренокортицизъм) глюкокортикоиди (кучета, лекувани с глюкокортикоиди, развиват протеинурия и гломерулни лезии, но без депозиции на имунни комплекси)"},
+            {"title": "Лекарствени реакции (напр., триметоприм-сулфонамид, маситиниб и токераниб, и минимална промяна в бъбречния плът при куче)"}
           ]    },
-          { "title" : "Familial glomerular disease", "children": [
-            {"title": "Familial membranous or membranoproliferative GN in soft-coated Wheaten Terriers", "children": [
-              {"title": "Associated with protein-losing enteropathy in many affected dogs"},
-              {"title": "Progressive leading to glomerular sclerosis and end-stage renal disease"}
+          { "title" : "Наследствено гломерулно заболяване", "children": [
+            {"title": "Наследствена мембранозна или мембранопролиферативна гломерулонефропатия при кучета от породата мекокосмест пшеничен териер", "children": [
+              {"title": "Асоциирана с протеин-губеща ентеропатия при много засегнати кучета"},
+              {"title": "Прогресивна и водеща до гломерулна склероза и бъбречна болест в краен стадий"}
             ]},
-            {"title": "Membranoproliferative GN associated with hereditary deficiency of complement component III in Brittany Spaniels"},
-            {"title": "Autosomal recessive type IV collagen defect in English Cocker Spaniels"},
-            {"title": "X-linked dominant type IV collagen defect in Samoyeds"},
-            {"title": "Suspected basement membrane disorders in Doberman Pinschers and Bull Terriers"},
-            {"title": "Glomerulopathy with increased collagen deposition and glomerular sclerosis in young Newfoundland dogs"}
+            {"title": "Мембранопролиферативна гломерулонефропатия, асоциирана с наследствен дефицит на компонент III на комлемента при бретон шпаньол"},
+            {"title": "Аутозомно рецесивно дефицит на колаген тип IV при английски кокър шпаниели"},
+            {"title": "Х-хромозомно доминантен дефицит на колаген тип IV при самоеди"},
+            {"title": "Предполагаеми нарушения на базалната мембрана при доберман пинчери и бултериери"},
+            {"title": "Гломерулопатия с увеличено депозиране на колаген и гломерулна склероза при млади новошландски кучета"}
           ]    }
         ]
       },
       {
-        "group": "Cats", "children": [
-          {"title": "Infectious diseases", "children": [
-            {"title": "Feline leukemia virus infection"},
-            {"title": "Feline immunodeficiency virus"},
-            {"title": "Feline infectious peritonitis"},
-            {"title": "Chronic progressive polyarthritis (Mycoplasma gatae)"},
-            {"title": "Other chronic bacterial infections"}
-          ] },
-          {"title": "Noninfectious inflammatory diseases", "children": [
-            {"title": "Pancreatitis"},
-            {"title": "Systemic lupus erythematosus"}
-          ] },
-          {"title": "Neoplasia", "children": [
-            {"title": "Lymphoma"},
-            {"title": "Mastocytosis"},
-            {"title": "Other tumors"}
-          ]  },
-          {"title": "Familial (sibling cats with GN)" }
+        "group": "Котки",
+        "children": [
+          {
+            "title": "Инфекциозни болести",
+            "children": [
+              { "title": "Котешка левкемия" },
+              { "title": "Котешки имунодефицитен вирус" },
+              { "title": "Котешки инфекциозен перитонит" },
+              { "title": "Хроничен прогресивен полиартрит (Mycoplasma gatae)" },
+              { "title": "Други хронични бактериални инфекции" }
+            ]
+          },
+          {
+            "title": "Неинфекциозни болести",
+            "children": [
+              { "title": "Системен лупус еритематозус" },
+              { "title": "Панкреатит" }
+            ]
+          },
+          {
+            "title": "Наследственост"
+          }
         ]
       }
     ]
   },
+
   {
-    "symptom" : "Proteinuria",
+    "symptom" : "Протеинурия",
     "type"    :"urogenital",
     "meaning" : "",
     "causes"  : [],
@@ -1415,80 +1519,80 @@
     ]
   },
   {
-    "symptom" : "Acute renal failure",
+    "symptom" : "Остра бъбречна недостатъчност",
     "type"    :"urogenital",
     "meaning" : "",
     "causes"  : [
-      {"group": "Nephrotoxins", "children": [
-        {"title": "Ethylene glycol"},
-        {"title": "Aminoglycosides"},
-        {"title": "Amphotericin B"},
-        {"title": "Easter lily (cats)"},
-        {"title": "Grape or raisin toxicity (dogs)"},
-        {"title": "Hypercalcemia", "children": [
-          {"title": "Cholecalciferol rodenticide"},
-          {"title": "Calcipotriene (Dovonex)"}
+      {"group": "Нефротоксини", "children": [
+        {"title": "Етиленгликол"},
+        {"title": "Аминогликозиди"},
+        {"title": "Амфотерицин B"},
+        {"title": "Великденска лилия (котки)"},
+        {"title": "Интоксикация с грозде или стафиди (кучета)"},
+        {"title": "Хиперкалциемия", "children": [
+          {"title": "Родентицид холекалциферол"},
+          {"title": "Калципотриен"}
         ]
       },
-        {"title": "Anticancer drugs (Cisplatin)"},
-        {"title": "Radiocontrast agents administered intravenously"},
-        {"title": "Heavy metals (e.g., thiacetarsamide)"},
-        {"title": "Tainted food (melamine, cyanuric acid)"}
+        {"title": "Противотуморни лекарства (Цисплатин)"},
+        {"title": "Радиоконтрастни агенти, приложени интравенозно"},
+        {"title": "Тежки метали (напр. тиацетарсамид)"},
+        {"title": "Замърсена храна (меламин, цианурна киселина)"}
         ]
       },
-      {"group": "Renal Ischemia", "children": [
-        {"title": "Dehydration"},
-        {"title": "Trauma"},
-        {"title": "Anesthesia"},
-        {"title": "Sepsis"},
-        {"title": "Heat stroke"},
-        {"title": "Pigment nephropathy (Myoglobinuria)"},
-        {"title": "Shock"},
-        {"title": "Hemorrhage"},
-        {"title": "Surgery"},
-        {"title": "Nonsteroidal antiinflammatory drugs (NSAIDs)"}
+      {"group": "Бъбречна исхемия", "children": [
+        {"title": "Дехидратация"},
+        {"title": "Травма"},
+        {"title": "Анестезия"},
+        {"title": "Сепсис"},
+        {"title": "Топлинен удар"},
+        {"title": "Пигментна нефропатия (миоглобинурия)"},
+        {"title": "Шок"},
+        {"title": "Кръвоизлив"},
+        {"title": "Хирургия"},
+        {"title": "Нестероидни противовъзпалителни средства (НСПВС)"}
         ]
       },
-      {"group": "Nephritis", "children": [
-        {"title": "Leptospirosis—acute tubulointerstitial nephritis"},
-        {"title": "Borrelia—rapidly progressive glomerulonephritis"}
+      {"group": "Нефрит", "children": [
+        {"title": "Лептоспироза - остър тубулоинтерстициален нефрит"},
+        {"title": "Борелиоза - бързо прогресиращ гломерулонефрит"}
         ]
       },
-      {"group": "Acute Hyperphosphatemia", "children": [
-        {"title": "Tumor lysis syndrome"}
+      {"group": "Остра хиперфосфатемия", "children": [
+        {"title": "Синдром на разграждане на тумора (Tumor lysis syndrome)"}
         ]
       }
     ]
   },
   {
-    "symptom" : "Chronic renal failure",
+    "symptom" : "Хронична бъбречна недостатъчност",
     "type"    :"urogenital",
     "meaning" : "",
     "causes"  : [
-      {"group": "Dog", "children": [
-        {"title": "Chronic interstitial nephritis (CIN) of unknown cause (most common pathologic diagnosis)"},
-        {"title": "Chronic pyelonephritis (can be difficult to distinguish histologically from CIN)"},
-        {"title": "Chronic glomerulonephritis (can be difficult to distinguish histologically from CIN)"},
-        {"title": "Amyloidosis"},
-        {"title": "Familial renal disease (several dog breeds can be affected)"},
-        {"title": "Healing of acute kidney injury"}
+      {"group": "Куче", "children": [
+        {"title": "Хроничен интерстициален нефрит (ХИН) с неизвестна етиология (най-честата диагноза)"},
+        {"title": "Хроничен пиелонефрит (може да бъде трудно да се различи хистологично от ХИН)"},
+        {"title": "Хроничен гломерулонефрит (може да бъде трудно да се различи хистологично от ХИН)"},
+        {"title": "Амилоидоза"},
+        {"title": "Наследствено бъбречно заболяване (няколко породи кучета могат да бъдат засегнати)"},
+        {"title": "Лечение на остра бъбречна травма"}
         ]
       },
-      {"group": "Cat", "children": [
-        {"title": "CIN of unknown cause (most common pathologic diagnosis)"},
-        {"title": "Chronic pyelonephritis (can be difficult to distinguish histologically from CIN)"},
-        {"title": "Chronic glomerulonephritis (can be difficult to distinguish histologically from CIN)"},
-        {"title": "Amyloidosis (uncommon in mixed breed cats but familial in Abyssinians)"},
-        {"title": "Polycystic kidney disease (familial in Persians)"},
-        {"title": "Healing of acute kidney injury"},
-        {"title": "Neoplasia (renal lymphoma)"},
-        {"title": "Pyogranulomatous nephritis caused by feline infectious peritonitis"}
+      {"group": "Котка", "children": [
+        {"title": "ХИН с неизвестна етиология (най-честата диагноза)"},
+        {"title": "Хроничен пиелонефрит (може да бъде трудно да се различи хистологично от ХИН)"},
+        {"title": "Хроничен гломерулонефрит (може да бъде трудно да се различи хистологично от ХИН)"},
+        {"title": "Амилоидоза (рядка при мешана порода котки, но фамилна при абисинци)"},
+        {"title": "Поликистозно бъбречно заболяване (фамилно при персийски котки)"},
+        {"title": "Лечение на остра бъбречна травма"},
+        {"title": "Неоплазия (бъбречен лимфом)"},
+        {"title": "Пиогрануломатозен нефрит, предизвикан от фелинен инфекциозен перитонит"}
         ]
       }
     ],
     "links"   : [
-      { "title": "Характеристики на ХБН - SAIM", "link": "pdfs/@algorithms/urogenital/ckf-features-saim.png" },
-      { "title": "Етапи на ХБН - SAIM", "link": "pdfs/@algorithms/urogenital/ckf-iris-stages-saim.png" }
+      { "title": "Характеристики на ХБН - SAIM", "link": "pdfs/@алгоритми/урогенитален/хбн-характеристики-saim.png" },
+      { "title": "Етапи на ХБН - SAIM", "link": "pdfs/@алгоритми/урогенитален/хбн-стадии-ирис-saim.png" }
     ]
   },
 
@@ -1496,77 +1600,68 @@
 
 
 
-
   {
-    "symptom" : "Joint disorder",
+    "symptom" : "Заболяване на ставите",
     "type"    :"antiinflammatory",
     "meaning" : "",
     "causes"  : [
       {
-          "group": "Noninflammatory Joint Disease", "children": [
-            { "title" : "Developmental" },
-            { "title" : "Degenerative" },
-            { "title" : "Traumatic" },
-            { "title" : "Neoplastic" }
+          "group": "Невъзпалителни ставни заболявания", "children": [
+            { "title" : "Развиващо се" },
+            { "title" : "Дегенеративно" },
+            { "title" : "Травматично" },
+            { "title" : "Неопластично" }
           ]
       },
       {
-        "group": "Inflammatory Joint Disease", "children": [
-          { "title" : "Infectious" },
-          { "title" : "Noninfectious (immune-mediated)", "children" : [
-            {"title" : "Nonerosive"},
-            {"title" : "Erosive"}
+        "group": "Възпалителни ставни заболявания", "children": [
+          { "title" : "Инфекциозни" },
+          { "title" : "Невъзпалителни (имуномедиирани)", "children" : [
+            {"title" : "Неерозивни"},
+            {"title" : "Ерозивни"}
           ] }
         ]
       }
     ]
   },
   {
-    "symptom" : "Fever",
+    "symptom" : "Треска",
     "type"    :"antiinflammatory",
     "meaning" : "",
     "causes"  : [
-      { "group": "V ascular: embolisms, haemorrhages." },
-      { "group": "I nfectious: bacterial, fungal, viral, or protozoan." },
-      { "group": "T oxic: endogenous (uraemia, hepatic encephalopathy) or exogenous." },
-      { "group": "T raumatic." },
-      { "group": "A bnormalities." },
-      { "group": "M etabolic: due to altered metabolism." },
-      { "group": "I mmune-mediated (noninfectious) inflammations." },
-      { "group": "N eoplasms: primary or metastatic." },
-      { "group": "D egenerative." }
+      { "group": "V ascular: емболии, кръвоизливи." },
+      { "group": "I nfectious: бактериални, гъбични, вирусни или протозоални." },
+      { "group": "T oxic: ендогенни (уреемия, хепатична енцефалопатия) или екзогенни." },
+      { "group": "T raumatic - травматични." },
+      { "group": "A bnormalities - Аномалии." },
+      { "group": "M etabolic: поради променен метаболизъм." },
+      { "group": "I mmune-mediated: Имуномедиирани (неинфекциозни) възпаления" },
+      { "group": "N eoplasms: първични или метастатичниc." },
+      { "group": "D egenerative - Дегенеративни." }
     ],
     "links" : [
-      { "title": "Algorithm" , "link": "pdfs/@algorithms/others/fever-algorithm.png" }
+      { "title": "Алгоритъм" , "link": "pdfs/@алгоритми/други/алгоритъм-за-треска.png" }
     ]
   },
   {
-    "symptom" : "Hypothermia",
+    "symptom" : "Хипотермия",
     "type"    :"antiinflammatory",
     "meaning" : "",
     "causes"  : [ ],
     "links" : [
-      { "title": "Algorithm" , "link": "pdfs/@algorithms/others/hypothermia-algorithm.pdf" }
+      { "title": "Алгоритъм" , "link": "pdfs/@алгоритми/други/алгоритъм-за-хипотермия.pdf" }
     ]
   },
   {
-    "symptom" : "Status epilepticus",
+    "symptom" : "Колапс",
     "type"    :"antiinflammatory",
     "meaning" : "",
     "causes"  : [ ],
     "links" : [
-      { "title": "Algorithm" , "link": "pdfs/@algorithms/others/status-epilepticus-algorithm.pdf" }
-    ]
-  },
-  {
-    "symptom" : "Collapse",
-    "type"    :"antiinflammatory",
-    "meaning" : "",
-    "causes"  : [ ],
-    "links" : [
-      { "title": "Algorithm" , "link": "pdfs/@algorithms/others/collapse-algorithm.pdf" }
+      { "title": "Алгоритъм" , "link": "pdfs/@алгоритми/други/алгоритъм-за-колапс.pdf" }
     ]
   }
+
 
 
 ]
