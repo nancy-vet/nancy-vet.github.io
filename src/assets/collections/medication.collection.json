@@ -7973,13 +7973,14 @@
           1
         ],
         "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
+        "applicationMethod": "стрива се с лъжица и се вкарва в устата"
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/others/vertigohil.pdf" }
+      { "title": "листовка", "link": "pdfs/@medication/others/vertigohil.pdf" },
+      { "title": "Дозировка", "link": "pdfs/@medication/others/vertigoheel-dosage.png" }
     ],
-    "indications"       : [],
+    "indications"       : ["Подпомага оросяването на мозъка."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
