@@ -1,5 +1,20 @@
 [
   {
+    "symptom" : "Запушване на уретрата",
+    "type"    :"urogenital",
+    "meaning" : "",
+    "causes"  : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/zapushvane-na-uretrata.pdf" }
+    ]
+  },
+  {
     "symptom" : "Диария, остра",
     "type"    :"gastrointestinal",
     "meaning" : "диария под 7-14 дни",
@@ -823,7 +838,7 @@
       }
     ],
     "links": [
-      { "title": "", "link": "pdfs/@algorithms/gastrointestinal/jaundice-algorithm.png" }
+      { "title": "Алгоритъм", "link": "pdfs/@algorithms/gastrointestinal/jaundice-algorithm.png" }
     ]
   },
   {
@@ -1073,7 +1088,7 @@
       }
     ],
     "links" : [
-      { "title": "Общ подход при диагностика на хронично назално отделяне" , "link": "pdfs/@algorithms/respiratory/nasal-discharge-chronic-saim.png" }
+      { "title": "Алгоритъм при диагностика на хронично назални изтечения" , "link": "pdfs/@algorithms/respiratory/nasal-discharge-chronic-saim.png" }
     ]
   },
   {
@@ -1345,7 +1360,7 @@
       }
     ],
     "links": [
-      { "title": "Ендокринни разстройства, причиняващи полиурия и полидипсия", "link": "pdfs/@алгоритми/гастроинтестинални/разстройства-във-водния-метаболизъм-полиурия-полидипсия-saim.png" }
+      { "title": "Ендокринни разстройства, причиняващи полиурия и полидипсия", "link": "pdfs/@algorithms/gastrointestinal/endocrine-disorders-polyuria-polydipsia-saim.png" }
     ]
   },
   {
@@ -1591,8 +1606,8 @@
       }
     ],
     "links"   : [
-      { "title": "Характеристики на ХБН - SAIM", "link": "pdfs/@алгоритми/урогенитален/хбн-характеристики-saim.png" },
-      { "title": "Етапи на ХБН - SAIM", "link": "pdfs/@алгоритми/урогенитален/хбн-стадии-ирис-saim.png" }
+      { "title": "Характеристики на ХБН - SAIM", "link": "pdfs/@algorithms/urogenital/ckf-features-saim.png" },
+      { "title": "Етапи на ХБН - SAIM", "link": "pdfs/@algorithms/urogenital/ckf-iris-stages-saim.png" }
     ]
   },
 
@@ -1637,10 +1652,11 @@
       { "group": "M etabolic: поради променен метаболизъм." },
       { "group": "I mmune-mediated: Имуномедиирани (неинфекциозни) възпаления" },
       { "group": "N eoplasms: първични или метастатичниc." },
-      { "group": "D egenerative - Дегенеративни." }
+      { "group": "D egenerative - Дегенеративни." },
+      { "group": "Други: слънчев и топлинен удар." }
     ],
     "links" : [
-      { "title": "Алгоритъм" , "link": "pdfs/@алгоритми/други/алгоритъм-за-треска.png" }
+      { "title": "Алгоритъм" , "link": "pdfs/@algorithms/others/fever-algorithm.png" }
     ]
   },
   {
@@ -1649,7 +1665,7 @@
     "meaning" : "",
     "causes"  : [ ],
     "links" : [
-      { "title": "Алгоритъм" , "link": "pdfs/@алгоритми/други/алгоритъм-за-хипотермия.pdf" }
+      { "title": "Алгоритъм" , "link": "pdfs/@algorithms/others/hypothermia-algorithm.pdf" }
     ]
   },
   {
@@ -1658,7 +1674,7 @@
     "meaning" : "",
     "causes"  : [ ],
     "links" : [
-      { "title": "Алгоритъм" , "link": "pdfs/@алгоритми/други/алгоритъм-за-колапс.pdf" }
+      { "title": "Алгоритъм" , "link": "pdfs/@algorithms/others/collapse-algorithm.pdf" }
     ]
   }
 
