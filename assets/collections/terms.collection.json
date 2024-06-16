@@ -13,28 +13,28 @@
     "title": "Неутрофили",
     "description": "",
     "increaseWhen": [
-      "Physiological response to exercise, fear, pain",
-      "Stress/corticosteroid-induced",
-      "Acute inflammatory response: Bacterial infection (localized or general)",
-      "Acute inflammatory response: Immune-mediated disease, e.g. IMHA, polyarthritis",
-      "Acute inflammatory response: Tissue necrosis, e.g. pancreatitis",
-      "Acute inflammatory response: Neoplasia, especially tumour necrosis",
-      "Neutrophil dysfunction",
-      "Chronic granulocytic leukaemia",
-      "Paraneoplastic syndromes"
+      "Физиологичен отговор при физическо натоварване, страх, болка.",
+      "Стрес/кортикостероиди.",
+      "Остър възпалителен отговор: Бактериална инфекция (локализирана или обща).",
+      "Остър възпалителен отговор: Имунно-предизвикана болест, напр. IMHA (Имунно-медиирана хемолитична анемия), полиартрит.",
+      "Остър възпалителен отговор: Некроза на тъканите, напр. панкреатит.",
+      "Остър възпалителен отговор: Неоплазии, особено туморна некроза.",
+      "Дисфункция на неутрофилите.",
+      "Хронична гранулоцитна левкемия.",
+      "Паранеопластични синдроми."
     ],
     "decreaseWhen": [
-      "Overwhelming demand (e.g. sepsis)",
-      "Reduced granulopoiesis: Myeloproliferative and lymphoproliferative disease",
-      "Reduced granulopoiesis: Myelofibrosis",
-      "Reduced granulopoiesis: Cytotoxic drug-related myelosuppression",
-      "Reduced granulopoiesis: Idiosyncratic drug reactions, e.g. phenobarbital in dogs, chloramphenicol and azathioprine in cats",
-      "Reduced granulopoiesis: Endogenous or exogenous oestrogens (NB neutrophilia early)",
-      "Reduced granulopoiesis: Some infections (e.g. canine parvovirus, feline panleucopenia virus, FeLV, FIV, Ehrlichia)",
-      "Ineffective granulopoiesis: Myeloproliferative and myelodysplastic diseases",
-      "Ineffective granulopoiesis: Cyclic haemopoiesis",
-      "Ineffective granulopoiesis: Immune-mediated neutropenia",
-      "Cobalamin deficiency"
+      "Прекомерно натоварване (напр. сепсис)",
+      "Намалена гранулопоеза: Миелопролиферативни и лимфопролиферативни заболявания.",
+      "Намалена гранулопоеза: Миелофиброза.",
+      "Намалена гранулопоеза: Миелосупресия, предизвикана от цитотоксични лекарства.",
+      "Намалена гранулопоеза: Идиосинкратични реакции на лекарства, като фенобарбитал при кучета, хлорамфеникол и азатиоприн при котки.",
+      "Намалена гранулопоеза: Ендогенни или екзогенни естогени (NB ранна неутрофилия).",
+      "Намалена гранулопоеза: Някои инфекции (напр. кучешки парвовирус, котешки вирус на панлевкопения, FeLV, FIV, Ehrlichia).",
+      "Неефективна гранулопоеза: Миелопролиферативни и миелодиспластични заболявания.",
+      "Неефективна гранулопоеза: Циклична хемопоеза.",
+      "Неефективна гранулопоеза: Имунно-предизвикана неутропения.",
+      "Дефицит на кобаламин."
     ]
   },
   {
@@ -43,23 +43,21 @@
     "title": "Лимфоцити",
     "description": "",
     "increaseWhen": [
-      "Physiological: stress (especially cats), excitement, exercise",
-      "Reactive: Chronic infection",
-      "Reactive: Transient post-vaccination",
-      "Reactive: Young animals",
-      "Lymphoproliferative disease",
-      "Hypoadrenocorticism",
-      "Immune-mediated disease"
+      "Физиологично: стрес (особено при котки), вълнение, упражнение.",
+      "Реактивно: Хронична инфекция.",
+      "Реактивно: Предходно ваксиниране.",
+      "Реактивно: Млади животни.",
+      "Лимфопролиферативни болести.",
+      "Хипоадренокортицизъм.",
+      "Имунно-медиирано заболяване."
     ],
     "decreaseWhen": [
-      "Corticosteroids: Endogenous (hyperadrenocorticism)",
-      "Corticosteroids: Exogenous",
-      "Acute inflammation, e.g. bacterial or viral infection",
-      "Loss: Chylothorax",
-      "Loss: Lymphangiectasia",
-      "Decreased production: Immunosuppressive drug therapy",
-      "Decreased production: Destruction of lymphoid tissue, e.g. multicentric lymphoma",
-      "Inherited immunodeficiency"
+      "Остра възпалителна реакция, напр. бактериална или вирусна инфекция.",
+      "Загуба: Хилоторакс.",
+      "Загуба: Лимфангиектазия.",
+      "Намалена продукция: Имунопресивна лекарствена терапия.",
+      "Намалена продукция: Унищожаване на лимфоидна тъкан, напр. мултицентрична лимфома.",
+      "Наследствена имунна недостатъчност."
     ]
   },
   {
@@ -68,26 +66,26 @@
     "title": "Моноцити",
     "description": "",
     "increaseWhen": [
-      "Acute, in trauma",
-      "Stress/corticosteroids (especially dogs)",
-      "Chronic inflammation: Infection",
-      "Chronic inflammation: Malignancy",
-      "Chronic inflammation: Internal haemorrhage",
-      "Chronic inflammation: Pyogranulomatous inflammation",
-      "Chronic inflammation: Necrosis",
-      "Immune-mediated disease",
-      "Compensatory, secondary to neutropenia",
-      "Haemolysis",
-      "Monocytic or myelomonocytic leukaemia"
+      "Остро, при травма",
+      "Стрес/кортикостероиди (особено кучета).",
+      "Хронично възпаление: Инфекция.",
+      "Хронично възпаление: Злокачествен тумор.",
+      "Хронично възпаление: Вътрешен кръвоизлив.",
+      "Хронично възпаление: Пиогрануломатозно възпаление.",
+      "Хронично възпаление: Некроза.",
+      "Имунно-предизвикано заболяване.",
+      "Компенсаторно, вторично на неутропения.",
+      "Хемолиза.",
+      "Моноцитна или миеломоноцитна левкемия."
       ],
     "decreaseWhen": [
-      "Physiological: stress (especially cats), excitement, exercise",
-      "Reactive: Chronic infection",
-      "Reactive: Transient post-vaccination",
-      "Reactive: Young animals",
-      "Lymphoproliferative disease",
-      "Hypoadrenocorticism",
-      "Immune-mediated disease"
+      "Физиологично: стрес (особено при котки), вълнение, физическо натоварване.",
+      "Реактивно: Хронична инфекция.",
+      "Реактивно: Скорошна ваксинация.",
+      "Реактивно: Млади животни.",
+      "Лимфопролиферативни заболявания.",
+      "Хипоадренокортицизъм.",
+      "Имунно-предизвикано заболяване."
       ]
   },
   {
@@ -95,25 +93,28 @@
     "type"          : "CBC",
     "title"         : "Еозинофили",
     "description"   : "",
-    "increaseWhen"  : ["алергия", "вътрешна или външна паразитоза", "кожно заболяване", "тумор",
-      "Parasitic infection (endo- and ectoparasites)",
-      "Allergy/hypersensitivity: Allergic skin disease, eosinophillic granuloma complex in cats",
-      "Allergy/hypersensitivity: Eosinophilic enteritis",
-      "Allergy/hypersensitivity: Eosinophilic bronchopneumopathy (pulmonary infiltrate with eosinophils (PIE))",
-      "Allergy/hypersensitivity: Feline asthma",
-      "Inflammatory: Panosteitis",
-      "Inflammatory: Eosinophillic myositis",
-      "Paraneoplastic: Mast cell tumours",
-      "Paraneoplastic: T cell lymphoma",
-      "Inconsistently in hypoadrenocorticism",
-      "Feline hypereosinophilic syndrome",
-      "Eosinophilic leukaemia"],
+    "increaseWhen"  : [
+      "Вътрешна или външна паразитоза.",
+      "Кожно заболяване.",
+      "Тумор.",
+      "Алергия/хиперчувствителност: Алергично кожно заболяване, еозинофилен гранулом при котки.",
+      "Алергия/хиперчувствителност: Еозинофилна ентерит.",
+      "Алергия/хиперчувствителност: Еозинофилна бронхопневмония (пулмонален инфилтрат с еозинофили (PIE)).",
+      "Алергия/хиперчувствителност: Котешка астма.",
+      "Възпаление: Паностеит.",
+      "Възпаление: Еозинофилен миозит.",
+      "Паранеопластично: Тумори на мастните клетки.",
+      "Паранеопластично: Т-клетъчен лимфом.",
+      "Хипоадренокортицизъм.",
+      "Котешки хипереозинофилен синдром.",
+      "Еозинофилна левкемия."
+    ],
     "decreaseWhen"  : [
-      "стрес",
-      "Corticosteroids: Endogenous (hyperadrenocorticism)",
-      "Corticosteroids: Exogenous",
-      "Acute infection/inflammation",
-      "Bone marrow aplasia/hypoplasia"
+      "Стрес.",
+      "Кортикостероиди: Ендогенни (хиперадренокортицизъм).",
+      "Кортикостероиди: Екзогенни.",
+      "Остра инфекция/възпаление.",
+      "Аплазия/хипоплазия на костния мозък."
     ]
   },
   {
@@ -121,8 +122,15 @@
     "type"          : "CBC",
     "title"         : "Еритроцити",
     "description"   : "",
-    "increaseWhen"  : ["Dehydration", "Splenic contraction", "Primary erythrocytosis (polycythaemia rubra vera)", "Secondary to renal neoplasia, extrarenal neoplasia, other renal diseases", "Secondary to hypoxia, e.g. respiratory disease, right to left cardiac shunts", "Hyperthyroidism"],
-    "decreaseWhen"  : ["анемия"]
+    "increaseWhen"  : [
+      "Дехидратация.",
+      "Стрес.",
+      "Първична еритроцитоза (полицитемия вера).",
+      "Секундарно на бъбречни неоплазии, екстранеални неоплазии, други бъбречни заболявания.",
+      "Секундарно на хипоксия, напр. белодробно заболяване, шунтове от дясно на ляво в сърцето.",
+      "Хипертиреоидизъм."
+    ],
+    "decreaseWhen"  : ["Анемия."]
   },
   {
     "id"            : "Анемия",
@@ -131,34 +139,33 @@
     "description"   : "",
     "increaseWhen"  : [
       "РЕГЕНЕРАТИВНА АНЕМИЯ:",
-      "Immune-mediated haemolytic anaemia (dogs > cats; often secondary in cats)",
-      "Haemotrophic Mycoplasma infection",
-      "Babesiosis",
-      "FeLV (may have other mechanisms concurrently)",
-      "Onion toxicity",
-      "Zinc toxicity",
-      "Acute or chronic haemorrhage",
-      "Microangiopathic haemolytic anaemia associated with, for example, neoplasia, disseminated intravascular coagulation, splenic torsion",
-      "Haemophagocytic histiocytic sarcoma",
-      "PK deficiency, PFK deficiency"
+      "Имунно-медиирана хемолитична анемия (кучета > котки; често вторична при котки).",
+      "Инфекция с микоплазми (Haemotrophic Mycoplasma infection).",
+      "Бабезиоза.",
+      "FeLV (може едновременно да има и други механизми).",
+      "Токсичност от лук.",
+      "Токсичност от цинк.",
+      "Остра или хронична хеморагия.",
+      "Микроангиопатична хемолитична анемия, свързана например с неоплазии, разпръскана вътресъдова коагулация, торзио на далака..",
+      "Хемофагоцитен хистиоцитен сарком.",
+      "Пируват-киназен недостатъчност, Фосфофруктокиназна недостатъчност."
     ],
     "decreaseWhen"  : [
-      "ДЕГЕНЕРАТИВНА АНЕМИЯ:",
-      "Anaemia of chronic/inflammatory disease",
-      "Anaemia of renal failure",
-      "Liver disease, e.g. portosystemic shunt",
-      "Iron deficiency",
-      "Aplastic anaemia (aplastic pancytopenia)",
-      "Pure red cell aplasia",
-      "Immune-mediated non-regenerative anaemia",
-      "Myelofibrosis",
-      "Myelo/lymphoproliferative disease",
-      "Myelodysplasia",
-      "FeLV-related",
-      "Infectious agents, e.g. ehrlichiosis",
-      "Endocrine disease, e.g. hypothyroidism, hypoadrenocorticism, hyperoestrogenism",
-      "Drug toxicity, e.g. oestrogens, chemotherapy",
-      "Severe malnutrition"
+      "ДЕГЕНЕРАТИВНА АНЕМИЯ:.",
+      "Анемия на хроничния възпалителен процес.",
+      "Анемия на бъбречната недостатъчност.",
+      "Заболявания на черния дроб, напр. портосистемен шунт.",
+      "Дефицит на желязо.",
+      "Апластична анемия (апластична панцитопения).",
+      "Чиста апластична анемия на еритроцитите.",
+      "Имунно-медиирана нерегенеративна анемия.",
+      "Миело/лимфопролиферативно заболяване.",
+      "Миелодисплазия.",
+      "Свързана с FeLV.",
+      "Инфекциозни патогени, напр. ерлихиоза.",
+      "Ендокринни заболявания, напр. хипотиреоидизъм, хипоадренокортицизъм, хиперестрогенемия.",
+      "Токсичност от лекарства, напр. естогени, химиотерапия.",
+      "Силна недохранване."
     ]
   },
   {
@@ -223,15 +230,19 @@
     "title"         : "",
     "description"   : "Тромбоцити",
     "increaseWhen"  : [
-      "Тромбоцитоза", "вирусни инфекции", "хронично възпаление", "травма", "операция",
-      "Stress/corticosteroids",
-      "Rebound following acute haemorrhage or thrombocytopenia",
-      "Chronic gastrointestinal (GI) bleeding/iron deficiency",
-      "Secondary to inflammation (e.g. infection, immune-mediated)",
-      "Secondary to neoplasia",
-      "Following vincristine",
-      "Primary (essential) thrombocythaemia",
-      "Acute megakaryoblastic leukaemia"
+      "Тромбоцитоза.",
+      "вирусни инфекции.",
+      "хронично възпаление.",
+      "травма.",
+      "операция.",
+      "Стрес/кортикостероиди.",
+      "Реакция (отскок) след остро кръвотечение или тромбоцитопения.",
+      "Хронично кръвотечение от гастроинтестиналния тракт/дефицит на желязо.",
+      "Вторично възникнало след възпаление (напр. инфекция, имуномедиирана).",
+      "Вторично възникнало след неоплазия.",
+      "След винкристин.",
+      "Основна тромбоцитемия.",
+      "Остра мегакариобластна левкемия."
       ],
     "decreaseWhen"  : [
       "Тромбоцитопения", "вирусни инфекци", "увреждания на костния мозък", "тумор", "някои лекарства",
@@ -246,7 +257,23 @@
       "Loss: acute blood loss",
       "Mixed aetiology: Infectious (ehrlichiosis/anaplasmosis, babesiosis, FeLV, FIV, CPV)",
       "Mixed aetiology: Neoplasia",
-      "Breed-related: Cavalier King Charles Spaniel, Norfolk Terrier, Greyhound, Lurcher, Whippet"
+      "Breed-related: Cavalier King Charles Spaniel, Norfolk Terrier, Greyhound, Lurcher, Whippet",
+      "вирусни инфекции.",
+      "увреждания на костния мозък.",
+      "тумор.",
+      "някои лекарства.",
+      "Секвестрация на далака.",
+      "Намалено производство: Токсичност от лекарства: естогени, TMS.",
+      "Намалено производство: Миелофиброза.",
+      "Намалено производство: Миело/лимфопролиферативни заболявания.",
+      "Намалено производство: Апластична анемия (апластична панцитопения).",
+      "Увеличено разрушаване: Имунно-медиирана тромбоцитопения (първична и вторична).",
+      "Увеличено разрушаване: Дисеминирана интравазална коагулопатия.",
+      "Увеличено разрушаване: Васкулит/ендокардит.",
+      "Загуба: Остра загуба на кръв.",
+      "Смесена етиология: Инфекциозни (ерлихиоза/анаплазмоза, бабезиоза, FeLV, FIV, CPV).",
+      "Смесена етиология: Неоплазия.",
+      "Породно свързани: Кавалер кинг чарлз шпаньол, Норфолк териер, Грейхаунд, Лърчър, Уипет."
     ]
   },
   {
@@ -285,8 +312,8 @@
     "id"            : "P-LCR",
     "type"          : "CBC",
     "title"         : "Platelet-large cell ratio",
-    "description"   : "measures the percentage of larger platelets (often referred to as large platelet or giant platelet population) in the total platelet count",
-    "increaseWhen"  : ["Elevated P-LCR values can be seen in various conditions, including immune thrombocytopenia and certain bone marrow disorders. It is used as an additional indicator of platelet health and can provide insights into platelet production and activity."],
+    "description"   : "измерва процента на по-големите тромбоцити (често наричани големи или гигантски популации на тромбоцити) в общия брой тромбоцити",
+    "increaseWhen"  : ["Повишени стойности на P-LCR могат да се забележат при различни състояния, включително имунно-медиирана тромбоцитопения и някои заболявания на костния мозък. Той се използва като допълнителен показател за състоянието на тромбоцитите и дава информация за производството и активността на тромбоцитите."],
     "decreaseWhen"  : []
   },
   {
@@ -316,12 +343,11 @@
     "id"            : "AST",
     "type"          : "liver",
     "title"         : "",
-    "description"   : "The highest concentration is in the skeletal muscles, then the liver and then the cardiac muscle",
+    "description"   : "Най-високата концентрация се намира в скелетните мускули, след това в черния дроб и след това в сърдечния мускул.",
     "increaseWhen"  : [
-      "Increased serum AST levels most commonly indicate either hepatocellular or muscle injury (skeletal or cardiac)",
-      "Hepatocyte damage: see ALT",
-      "Muscle damage",
-      "Haemolysis"
+      "Повишени серумни стойности на ALT най-често показват травма на черния дроб или на мускулите (скелетни или сърдечни).",
+      "Увреждане на черния дроб: виж ALT.",
+      "Хемолиза."
     ],
     "decreaseWhen"  : []
   },
