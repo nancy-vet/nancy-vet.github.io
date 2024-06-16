@@ -399,7 +399,14 @@
     "type"          : "liver",
     "title"         : "Bile acids",
     "description"   : "Bile acids are a product of cholesterol metabolism and they are secreted to bile with which they are transported to the intestines and then they return to the hepatic portal vein – called the hepato-intestinal (enterohepatic) circulation. BA measurements assess biliary excretion, portal circulation, and hepatic function. ",
-    "increaseWhen"  : ["Increased in hepatic insufficiency, cholestatic disease, or portosystemic shunts."],
+    "increaseWhen"  : [
+      "Increased in hepatic insufficiency, cholestatic disease, or portosystemic shunts.",
+      "Biliary obstruction/cholestasis",
+      "Reduced hepatic function (e.g. chronic active hepatitis, cirrhosis)",
+      "Portosystemic shunt",
+      "Microvascular dysplasia",
+      "Reactive/secondary hepatopathy, e.g. due to hyperadrenocorticism"
+    ],
     "decreaseWhen"  : []
   },
   {
@@ -407,7 +414,12 @@
     "type"          : "liver",
     "title"         : "Билирубин",
     "description"   : "",
-    "increaseWhen"  : ["Prehepatic icterus - Erythrocyte breakdown", "Hepatic icterus – decreased hepatic uptake, conjugation or excretion", "Posthepatic icterus – extrahepatic cholestasis"],
+    "increaseWhen"  : [
+      "Prehepatic icterus - Erythrocyte breakdown", "Hepatic icterus – decreased hepatic uptake, conjugation or excretion", "Posthepatic icterus – extrahepatic cholestasis",
+      "Prehepatic: haemolysis (e.g. immune-mediated haemolytic anaemia, oxidant toxicity, haemotrophic mycoplasmosis, babesiosis)",
+      "Intrahepatic (e.g. cirrhosis, hepatic lipidosis, cholangiohepatitis, neoplasia, FIP)",
+      "Posthepatic (e.g. pancreatitis, cholangitis, cholelithiasis, biliary neoplasia)"
+    ],
     "decreaseWhen"  : []
   },
   {
@@ -431,16 +443,52 @@
     "type"          : "liver",
     "title"         : "Total Cholesterol",
     "description"   : "",
-    "increaseWhen"  : ["Hypercholesterolaemia is common in canine and feline patients with CKD, even those with predominantly tubulointerstitial rather than glomerular disease. The mechanisms for this have not been investigated."],
-    "decreaseWhen"  : []
+    "increaseWhen"  : [
+      "Hypercholesterolaemia is common in canine and feline patients with CKD, even those with predominantly tubulointerstitial rather than glomerular disease. The mechanisms for this have not been investigated.",
+      "Postprandial",
+      "Diabetes mellitus",
+      "Hypothyroidism",
+      "Hyperadrenocorticism",
+      "Pancreatitis",
+      "Cholestasis (many liver diseases)",
+      "Protein-losing nephropathy with nephrotic syndrome",
+      "Drug therapy: glucocorticoids, methimazole",
+      "Primary hyperlipidaemia"
+    ],
+    "decreaseWhen"  : [
+      "Severe liver disease",
+      "Portosystemic shunt",
+      "Protein-losing enteropathy (especially lymphangiectasia)",
+      "Hypoadrenocorticism",
+      "Severe malnutrition"
+    ]
   },
   {
     "id"            : "TP",
     "type"          : "liver",
-    "title"         : "Total Protein",
+    "title"         : "Total Protein (A = albumin; G = globulin)",
     "description"   : "Зависят от състоянието на ЧД, защото там се синтезират плазмените белтъци (т. е. глобулините)",
-    "increaseWhen"  : ["Хиперпротеинемия – при дехидратация"],
-    "decreaseWhen"  : ["Хипопротеинемия – при хидратация"]
+    "increaseWhen"  : [
+      "Хиперпротеинемия – при дехидратация",
+      "Dehydration (A and G)",
+      "Inflammation, particularly of liver (G)",
+      "Infectious diseases e.g. FIP, Leishmania, Ehrlichia, Anaplasma",
+      "Neoplasia (G)",
+      "Plasma cell myeloma (monoclonal G)",
+      "Spurious: lipaemia (A and G)"
+    ],
+    "decreaseWhen"  : [
+      "Хипопротеинемия – при хидратация",
+      "Haemorrhage (A and G)",
+      "Protein-losing nephropathy (A)",
+      "Protein-losing enteropathy (A and G)",
+      "Third-space loss of fluid (A>G)",
+      "Severe liver disease (A)",
+      "Young animals",
+      "Starvation",
+      "Diuresis",
+      "Acute phase response (A) (mild)"
+    ]
   },
   {
     "id"            : "A/G",
@@ -513,8 +561,15 @@
     "type"          : "kidneys",
     "title"         : "Креатинин",
     "description"   : "Креатинът от мускулите чрез креатин фосфат се превръща в креатин фосфат (служи за енергиен резерв на мускулите, фосфата се прехвърля на АДФ), който се превръща в креатинин, който се екскретира чрез ББ.",
-    "increaseWhen"  : ["Повишава се при ББ недостатъчност."],
-    "decreaseWhen"  : []
+    "increaseWhen"  : [
+      "Повишава се при ББ недостатъчност.",
+      "Prerenal causes (though less affected than urea): hypovolaemia, decreased cardiac output, shock",
+      "Renal disease",
+      "Postrenal conditions: urinary tract obstruction, urinary tract rupture",
+      "Increased production: high protein diet, protein catabolism, intestinal haemorrhage",
+      "Dogs with high muscle mass, e.g. sighthounds"
+    ],
+    "decreaseWhen"  : ["Decreased muscle mass"]
   },
   {
     "id"            : "PHOS",
@@ -568,9 +623,22 @@
   {
     "id"            : "BUN",
     "type"          : "kidneys",
-    "title"         : "Урея, Urea nitrogen",
+    "title"         : "Урея, Blood Urea Nitrogen (BUN)",
     "description"   : "",
-    "increaseWhen"  : ["Уреята се повишава при ББ заболявания (както и при ЧД, затова се използва формула)."],
+    "increaseWhen"  : [
+      "Уреята се повишава при ББ заболявания (както и при ЧД, затова се използва формула).",
+      "High-protein diet",
+      "GI bleeding",
+      "Renal failure (acute or chronic)",
+      "Prerenal azotaemia",
+      "Urinary obstruction",
+      "Rupture of ureter, bladder or urethra",
+      "Severe starvation",
+      "Diuresis",
+      "Portosystemic shunts",
+      "Hepatic disease/insufficiency",
+      "Diabetes insipidus"
+    ],
     "decreaseWhen"  : []
   },
   {
@@ -800,6 +868,66 @@
       "Phenobarbital"
     ],
     "decreaseWhen": []
+  },
+  {
+    "id": "Триглицериди",
+    "type": "others",
+    "title": "Триглицериди",
+    "description": "",
+    "increaseWhen": [
+      "Postprandial",
+      "Diabetes mellitus",
+      "Hypothyroidism",
+      "Hyperadrenocorticism",
+      "Oestrogens",
+      "Acute pancreatitis",
+      "Idiopathic/familial hyperlipoproteinaemia"
+    ],
+    "decreaseWhen": [
+      "Hypotriglyceridaemia",
+      "Drug therapy: heparin"
+    ]
+  },
+  {
+    "id": "Глюкоза",
+    "type": "others",
+    "title": "Глюкоза",
+    "description": "",
+    "increaseWhen": [
+      "Hyperglycaemia",
+      "Stress (especially cats)",
+      "Diabetes mellitus",
+      "Hyperadrenocorticism",
+      "Growth hormone excess",
+      "Dioestrus",
+      "Pancreatitis",
+      "Neuroendocrine tumour, e.g. glucagonoma",
+      "Drugs: intravenous glucose; alpha-2 agonists (e.g. medetomidine); ketamine, propofol, progestagens",
+      "Ethylene glycol toxicity",
+      "Postprandial (mild)",
+      "Spurious: lipaemia"
+    ],
+    "decreaseWhen": [
+      "Hypoglycaemia",
+      "Toy breeds",
+      "Neonates",
+      "Starvation",
+      "Bacteraemia/septicaemia",
+      "Parvovirus and other severe GI infections",
+      "Hypoadrenocorticism",
+      "Insulinoma",
+      "Hepatic and GI smooth muscle tumours",
+      "Renal failure",
+      "Liver failure (severe)",
+      "Portosystemic shunt",
+      "Cachexia (cardiac or neoplastic)",
+      "Seizure activity",
+      "Glycogen storage disease",
+      "Drugs: insulin overdose, ethanol, salicylates, propanolol",
+      "Xylitol ingestion",
+      "Artefact: delay in processing",
+      "Polycythaemia and leucocytosis (may only be relevant in cases of delayed sample separation)"
+    ]
   }
 
 
