@@ -609,6 +609,9 @@
       { "group": "Ракова кахексия"               },
       { "group": "Аносмия (рядко)"               },
       { "group": "Психологически причини"        }
+    ],
+    "links" : [
+      { "title": "Алгоритъм (в процес)", "link": "pdfs/@algorithms/gastrointestinal/anorexia.pdf" }
     ]
   },
   {
@@ -1653,7 +1656,8 @@
       { "group": "I mmune-mediated: Имуномедиирани (неинфекциозни) възпаления" },
       { "group": "N eoplasms: първични или метастатичниc." },
       { "group": "D egenerative - Дегенеративни." },
-      { "group": "Други: слънчев и топлинен удар." }
+      { "group": "Други: слънчев и топлинен удар." },
+      { "group": "Най-честата причина е кърлежово-преносимо заболяване." }
     ],
     "links" : [
       { "title": "Алгоритъм" , "link": "pdfs/@algorithms/others/fever-algorithm.png" }
