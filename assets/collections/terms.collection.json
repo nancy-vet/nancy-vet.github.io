@@ -8,12 +8,158 @@
     "decreaseWhen"  : ["увреждания на костния мозък", "вирусни инфекции", "силни инфекции", "автоимунни заболявания", "дефицити на хр. в-ва", "някои лекарства"]
   },
   {
+    "id": "Neu",
+    "type": "CBC",
+    "title": "Неутрофили",
+    "description": "",
+    "increaseWhen": [
+      "Physiological response to exercise, fear, pain",
+      "Stress/corticosteroid-induced",
+      "Acute inflammatory response: Bacterial infection (localized or general)",
+      "Acute inflammatory response: Immune-mediated disease, e.g. IMHA, polyarthritis",
+      "Acute inflammatory response: Tissue necrosis, e.g. pancreatitis",
+      "Acute inflammatory response: Neoplasia, especially tumour necrosis",
+      "Neutrophil dysfunction",
+      "Chronic granulocytic leukaemia",
+      "Paraneoplastic syndromes"
+    ],
+    "decreaseWhen": [
+      "Overwhelming demand (e.g. sepsis)",
+      "Reduced granulopoiesis: Myeloproliferative and lymphoproliferative disease",
+      "Reduced granulopoiesis: Myelofibrosis",
+      "Reduced granulopoiesis: Cytotoxic drug-related myelosuppression",
+      "Reduced granulopoiesis: Idiosyncratic drug reactions, e.g. phenobarbital in dogs, chloramphenicol and azathioprine in cats",
+      "Reduced granulopoiesis: Endogenous or exogenous oestrogens (NB neutrophilia early)",
+      "Reduced granulopoiesis: Some infections (e.g. canine parvovirus, feline panleucopenia virus, FeLV, FIV, Ehrlichia)",
+      "Ineffective granulopoiesis: Myeloproliferative and myelodysplastic diseases",
+      "Ineffective granulopoiesis: Cyclic haemopoiesis",
+      "Ineffective granulopoiesis: Immune-mediated neutropenia",
+      "Cobalamin deficiency"
+    ]
+  },
+  {
+    "id": "Lym",
+    "type": "CBC",
+    "title": "Лимфоцити",
+    "description": "",
+    "increaseWhen": [
+      "Physiological: stress (especially cats), excitement, exercise",
+      "Reactive: Chronic infection",
+      "Reactive: Transient post-vaccination",
+      "Reactive: Young animals",
+      "Lymphoproliferative disease",
+      "Hypoadrenocorticism",
+      "Immune-mediated disease"
+    ],
+    "decreaseWhen": [
+      "Corticosteroids: Endogenous (hyperadrenocorticism)",
+      "Corticosteroids: Exogenous",
+      "Acute inflammation, e.g. bacterial or viral infection",
+      "Loss: Chylothorax",
+      "Loss: Lymphangiectasia",
+      "Decreased production: Immunosuppressive drug therapy",
+      "Decreased production: Destruction of lymphoid tissue, e.g. multicentric lymphoma",
+      "Inherited immunodeficiency"
+    ]
+  },
+  {
+    "id": "Mo",
+    "type": "CBC",
+    "title": "Моноцити",
+    "description": "",
+    "increaseWhen": [
+      "Acute, in trauma",
+      "Stress/corticosteroids (especially dogs)",
+      "Chronic inflammation: Infection",
+      "Chronic inflammation: Malignancy",
+      "Chronic inflammation: Internal haemorrhage",
+      "Chronic inflammation: Pyogranulomatous inflammation",
+      "Chronic inflammation: Necrosis",
+      "Immune-mediated disease",
+      "Compensatory, secondary to neutropenia",
+      "Haemolysis",
+      "Monocytic or myelomonocytic leukaemia"
+      ],
+    "decreaseWhen": [
+      "Physiological: stress (especially cats), excitement, exercise",
+      "Reactive: Chronic infection",
+      "Reactive: Transient post-vaccination",
+      "Reactive: Young animals",
+      "Lymphoproliferative disease",
+      "Hypoadrenocorticism",
+      "Immune-mediated disease"
+      ]
+  },
+  {
     "id"            : "Eos",
     "type"          : "CBC",
     "title"         : "Еозинофили",
     "description"   : "",
-    "increaseWhen"  : ["алергия", "вътрешна или външна паразитоза", "кожно заболяване", "тумор"],
-    "decreaseWhen"  : ["стрес"]
+    "increaseWhen"  : ["алергия", "вътрешна или външна паразитоза", "кожно заболяване", "тумор",
+      "Parasitic infection (endo- and ectoparasites)",
+      "Allergy/hypersensitivity: Allergic skin disease, eosinophillic granuloma complex in cats",
+      "Allergy/hypersensitivity: Eosinophilic enteritis",
+      "Allergy/hypersensitivity: Eosinophilic bronchopneumopathy (pulmonary infiltrate with eosinophils (PIE))",
+      "Allergy/hypersensitivity: Feline asthma",
+      "Inflammatory: Panosteitis",
+      "Inflammatory: Eosinophillic myositis",
+      "Paraneoplastic: Mast cell tumours",
+      "Paraneoplastic: T cell lymphoma",
+      "Inconsistently in hypoadrenocorticism",
+      "Feline hypereosinophilic syndrome",
+      "Eosinophilic leukaemia"],
+    "decreaseWhen"  : [
+      "стрес",
+      "Corticosteroids: Endogenous (hyperadrenocorticism)",
+      "Corticosteroids: Exogenous",
+      "Acute infection/inflammation",
+      "Bone marrow aplasia/hypoplasia"
+    ]
+  },
+  {
+    "id"            : "RBC",
+    "type"          : "CBC",
+    "title"         : "Еритроцити",
+    "description"   : "",
+    "increaseWhen"  : ["Dehydration", "Splenic contraction", "Primary erythrocytosis (polycythaemia rubra vera)", "Secondary to renal neoplasia, extrarenal neoplasia, other renal diseases", "Secondary to hypoxia, e.g. respiratory disease, right to left cardiac shunts", "Hyperthyroidism"],
+    "decreaseWhen"  : ["анемия"]
+  },
+  {
+    "id"            : "Анемия",
+    "type"          : "CBC",
+    "title"         : "Анемия",
+    "description"   : "",
+    "increaseWhen"  : [
+      "РЕГЕНЕРАТИВНА АНЕМИЯ:",
+      "Immune-mediated haemolytic anaemia (dogs > cats; often secondary in cats)",
+      "Haemotrophic Mycoplasma infection",
+      "Babesiosis",
+      "FeLV (may have other mechanisms concurrently)",
+      "Onion toxicity",
+      "Zinc toxicity",
+      "Acute or chronic haemorrhage",
+      "Microangiopathic haemolytic anaemia associated with, for example, neoplasia, disseminated intravascular coagulation, splenic torsion",
+      "Haemophagocytic histiocytic sarcoma",
+      "PK deficiency, PFK deficiency"
+    ],
+    "decreaseWhen"  : [
+      "ДЕГЕНЕРАТИВНА АНЕМИЯ:",
+      "Anaemia of chronic/inflammatory disease",
+      "Anaemia of renal failure",
+      "Liver disease, e.g. portosystemic shunt",
+      "Iron deficiency",
+      "Aplastic anaemia (aplastic pancytopenia)",
+      "Pure red cell aplasia",
+      "Immune-mediated non-regenerative anaemia",
+      "Myelofibrosis",
+      "Myelo/lymphoproliferative disease",
+      "Myelodysplasia",
+      "FeLV-related",
+      "Infectious agents, e.g. ehrlichiosis",
+      "Endocrine disease, e.g. hypothyroidism, hypoadrenocorticism, hyperoestrogenism",
+      "Drug toxicity, e.g. oestrogens, chemotherapy",
+      "Severe malnutrition"
+    ]
   },
   {
     "id"            : "HGB",
@@ -76,8 +222,32 @@
     "type"          : "CBC",
     "title"         : "",
     "description"   : "Тромбоцити",
-    "increaseWhen"  : ["Тромбоцитоза", "вирусни инфекции", "хронично възпаление", "травма", "операция"],
-    "decreaseWhen"  : ["Тромбоцитопения", "вирусни инфекци", "увреждания на костния мозък", "тумор", "някои лекарства"]
+    "increaseWhen"  : [
+      "Тромбоцитоза", "вирусни инфекции", "хронично възпаление", "травма", "операция",
+      "Stress/corticosteroids",
+      "Rebound following acute haemorrhage or thrombocytopenia",
+      "Chronic gastrointestinal (GI) bleeding/iron deficiency",
+      "Secondary to inflammation (e.g. infection, immune-mediated)",
+      "Secondary to neoplasia",
+      "Following vincristine",
+      "Primary (essential) thrombocythaemia",
+      "Acute megakaryoblastic leukaemia"
+      ],
+    "decreaseWhen"  : [
+      "Тромбоцитопения", "вирусни инфекци", "увреждания на костния мозък", "тумор", "някои лекарства",
+      "Sequestration: splenomegaly",
+      "Decreased production: Drug toxicity: oestrogens, TMS",
+      "Decreased production: Myelofibrosis",
+      "Decreased production: Myelo/lymphoproliferative disease",
+      "Decreased production: Aplastic anaemia (aplastic pancytopenia)",
+      "Increased destruction: Immune-mediated thrombocytopenia (primary and secondary)",
+      "Increased destruction: Disseminated intravascular coagulation (DIC)",
+      "Increased destruction: Vasculitis/endocarditis",
+      "Loss: acute blood loss",
+      "Mixed aetiology: Infectious (ehrlichiosis/anaplasmosis, babesiosis, FeLV, FIV, CPV)",
+      "Mixed aetiology: Neoplasia",
+      "Breed-related: Cavalier King Charles Spaniel, Norfolk Terrier, Greyhound, Lurcher, Whippet"
+    ]
   },
   {
     "id"            : "MPV",
@@ -124,7 +294,22 @@
     "type"          : "liver",
     "title"         : "",
     "description"   : "Can be called liver-specific",
-    "increaseWhen"  : ["2-3 times increased = mild damage (леко увреждане)", "5-10 times = moderate damage (средно увреждане)", "> 10 times = severe damage (тежко увреждане)"],
+    "increaseWhen"  : [
+      "2-3 times increased = mild damage (леко увреждане)", "5-10 times = moderate damage (средно увреждане)", "> 10 times = severe damage (тежко увреждане)",
+      "Hepatocyte damage in primary liver disease:",
+      "Inflammatory hepatic disease (e.g. chronic active hepatitis, cholangiohepatitis, FIP, infectious canine hepatitis)",
+      "Drug-related, due to phenobarbital, carprofen, glucocorticoids, methimazole/carbimazole in cats",
+      "Trauma",
+      "Toxic damage",
+      "Hepatic neoplasia",
+      "Hepatocyte damage secondary to extrahepatic disease. Examples include:",
+      "Pancreatitis",
+      "GI disease",
+      "Periodontal disease",
+      "Endocrine disease (e.g. diabetes mellitus, hyperadrenocorticism, hyperthyroidism)",
+      "Hypoxia due to anaemia or reduced blood flow (e.g. in thromboembolism)",
+      "Congestive heart failure"
+    ],
     "decreaseWhen"  : []
   },
   {
@@ -132,7 +317,12 @@
     "type"          : "liver",
     "title"         : "",
     "description"   : "The highest concentration is in the skeletal muscles, then the liver and then the cardiac muscle",
-    "increaseWhen"  : ["Increased serum AST levels most commonly indicate either hepatocellular or muscle injury (skeletal or cardiac)"],
+    "increaseWhen"  : [
+      "Increased serum AST levels most commonly indicate either hepatocellular or muscle injury (skeletal or cardiac)",
+      "Hepatocyte damage: see ALT",
+      "Muscle damage",
+      "Haemolysis"
+    ],
     "decreaseWhen"  : []
   },
   {
@@ -148,7 +338,28 @@
     "type"          : "liver",
     "title"         : "Алкална фосфатаза (Alkaline phosphatase)",
     "description"   : "ALP is primarily associated with the liver and bone",
-    "increaseWhen"  : ["Liver: Високи ст-ти на АФ при ЧД заболяване, особено холестаза.", "Bones: Bone conditions like bone tumors or fractures can also elevate ALP levels because it is produced by osteoblasts, cells involved in bone formation.", "Growth or Pregnancy: ALP levels can be elevated in growing puppies or during pregnancy due to bone and placental ALP production.", "Steroid Medications: Certain medications, particularly glucocorticoids (steroids), can increase ALP levels as a side effect.", "Inflammatory Conditions: Some inflammatory conditions, including conditions involving the intestines, can lead to elevated ALP.", "Cushing's Disease: In dogs with Cushing's disease (hyperadrenocorticism), ALP levels can be elevated."],
+    "increaseWhen"  : [
+      "Liver: Високи ст-ти на АФ при ЧД заболяване, особено холестаза.", "Bones: Bone conditions like bone tumors or fractures can also elevate ALP levels because it is produced by osteoblasts, cells involved in bone formation.", "Growth or Pregnancy: ALP levels can be elevated in growing puppies or during pregnancy due to bone and placental ALP production.", "Steroid Medications: Certain medications, particularly glucocorticoids (steroids), can increase ALP levels as a side effect.", "Inflammatory Conditions: Some inflammatory conditions, including conditions involving the intestines, can lead to elevated ALP.", "Cushing's Disease: In dogs with Cushing's disease (hyperadrenocorticism), ALP levels can be elevated.",
+      "Cholestasis:",
+      "Intrahepatic (e.g. cholangiohepatitis, hepatic lipidosis, chronic hepatitis, nodular hyperplasia, neoplasia, FIP)",
+      "Posthepatic (e.g. pancreatitis, cholangitis, cholelithiasis, ruptured gallbladder)",
+      "Steroid induction – dogs only:",
+      "Hyperadrenocorticism",
+      "Steroid therapy",
+      "Drug induction:",
+      "Phenobarbital",
+      "Bone remodelling:",
+      "Young animal",
+      "Fracture",
+      "Neoplasia",
+      "Osteomyelitis",
+      "Hyperthyroidism",
+      "Secondary to extrahepatic disease. Examples include:",
+      "GI disease",
+      "Periodontal disease",
+      "Endocrine disease (e.g. diabetes mellitus, hyperadrenocorticism, hyperthyroidism)",
+      "Congestive heart failure"
+    ],
     "decreaseWhen"  : ["Lowered ALP levels are less common and are not typically a focus of concern in veterinary medicine."]
   },
   {
@@ -269,8 +480,33 @@
     "id"            : "Ca",
     "type"          : "kidneys",
     "title"         : "Калций",
-    "increaseWhen"  : [],
-    "decreaseWhen"  : ["Може да се понижи при ББ заболяване."]
+    "increaseWhen"  : [
+      "Growing animals",
+      "Malignancy-associated (e.g. lymphoma, anal sac adenocarcinoma, multiple myeloma)",
+      "Hyperparathyroidism",
+      "Hypoadrenocorticism",
+      "Chronic renal failure",
+      "Acute renal failure – diuretic phase",
+      "Osteolytic bone lesions",
+      "Vitamin D intoxication",
+      "Granulomatous disease",
+      "Excessive calcium supplementation",
+      "Chronic dietary phosphate restriction"
+    ],
+    "decreaseWhen"  : [
+      "Може да се понижи при ББ заболяване.",
+      "Low albumin (hypocalcaemia not clinically significant)",
+      "Eclampsia (lactation tetany)",
+      "Acute pancreatitis",
+      "Hypoparathyroidism following thyroidectomy (common) or lymphocytic parathyroiditis (rare)",
+      "Acute renal failure",
+      "Chronic renal failure",
+      "Malabsorption, protein-losing enteropathy",
+      "Ethylene glycol toxicity",
+      "Post-transfusion (excess anticoagulant)",
+      "Furosemide treatment",
+      "Spurious: EDTA contamination"
+    ]
   },
   {
     "id"            : "CREA",
@@ -283,10 +519,35 @@
   {
     "id"            : "PHOS",
     "type"          : "kidneys",
-    "title"         : "Phosphorus",
+    "title"         : "Фосфор",
     "description"   : "",
-    "increaseWhen"  : ["Може да се повиши при ББ заболяване."],
-    "decreaseWhen"  : []
+    "increaseWhen"  : [
+      "Може да се повиши при ББ заболяване.",
+      "Young animals",
+      "Reduced glomerular filtration rate (due to prerenal, renal or postrenal causes)",
+      "Ruptured urinary bladder",
+      "Vitamin D toxicity",
+      "Diabetic ketoacidosis",
+      "Tumour lysis syndrome",
+      "Acute severe myopathy",
+      "Osteolytic bone lesions",
+      "Hyperthyroidism (cats)",
+      "Phosphate-containing enemas",
+      "Ischaemic intestinal lesions",
+      "High phosphate:calcium diet"
+      ],
+    "decreaseWhen"  : [
+      "Hyperparathyroidism",
+      "Malignancy-associated hypercalcaemia with release of PTHrP",
+      "Hypovitaminosis D (e.g. intestinal malabsorption, dietary deficiency)",
+      "Following insulin therapy",
+      "Re-feeding syndrome (cats)",
+      "Anorexia/decreased intake",
+      "Phosphate binders",
+      "Vomiting and diarrhoea",
+      "Fanconi syndrome",
+      "Eclampsia"
+    ]
   },
   {
     "id"            : "tCO2",
@@ -370,7 +631,12 @@
     "type"          : "others",
     "title"         : "Amylase",
     "description"   : "ПАНКРЕАС: Това е ензим, който се секретира от панкреаса и се излъчва с панкреатичния сок. При остър панкреатит ст-тите на амилазата се повишават (само при КЧ, при КТ дори може да се понижи). При карцином също се повишава.",
-    "increaseWhen"  : [],
+    "increaseWhen"  : [
+      "Pancreatitis",
+      "Pancreatic neoplasia",
+      "Azotaemia (2–3 times upper reference limit)",
+      "Intestinal disease"
+    ],
     "decreaseWhen"  : []
   },
   {
@@ -378,7 +644,14 @@
     "type"          : "others",
     "title"         : "Lipase",
     "description"   : "ПАНКРЕАС: Липазата е ензим от панкреаса. При панкреатит се повишава. При понижена липаза се появява стеаторея, загуба на тегло, полифагия.",
-    "increaseWhen"  : [],
+    "increaseWhen"  : [
+      "Pancreatitis",
+      "Pancreatic neoplasia",
+      "Azotaemia",
+      "Glucocorticoids",
+      "Hepatic disease (especially neoplasia)",
+      "Enteritis (?)"
+    ],
     "decreaseWhen"  : []
   },
   {
@@ -386,7 +659,15 @@
     "type"          : "others",
     "title"         : "Creatine Kinase (Креатинкиназа)",
     "description"   : "Мускули. very sensitive indicator of muscle disease. It catalyses the reaction of phosphocreatine and adenosine diphosphate (ADP) that results in production of adenosine triphosphate (ATP) and creatine. CK is an enzyme that is released from muscle cells to the blood. Plasma concentrations start to increase 4–6 hours after muscle injury, peak 12 hours after enzyme release into the circulation and decrease back to normal within 24–48 hours (unless muscle damage is ongoing).",
-    "increaseWhen"  : ["Myopathies", "Myositis", "Muscle ischaemia, e.g. aortic thromboembolism", "Trauma", "Intramuscular injections", "Haemolysis", "Hypothyroidism"],
+    "increaseWhen"  : [
+      "Hypothyroidism",
+      "Myopathies",
+      "Myositis",
+      "Muscle ischaemia, e.g. aortic thromboembolism",
+      "Trauma",
+      "Intramuscular injections",
+      "Haemolysis"
+    ],
     "decreaseWhen"  : []
   },
   {
@@ -396,5 +677,132 @@
     "description"   : "Мускули. Lactate dehydrogenase (LDH) and aldolase are rarely measured in small animals because they lack specificity and sensitivity, and LDH is artefactually elevated in even slight haemolysis.",
     "increaseWhen"  : [],
     "decreaseWhen"  : []
+  },
+  {
+    "id": "Cl-",
+    "type": "others",
+    "title": "Хлор",
+    "description": "",
+    "increaseWhen": [
+      "In parallel with hypernatraemia (e.g. due to dehydration, diabetes insipidus)",
+      "Hyperchloraemic metabolic acidosis (e.g. due to alimentary loss of bicarbonate, renal tubular acidosis)",
+      "Hyperaldosteronism",
+      "Potassium chloride (KCl) in fluid therapy",
+      "Respiratory alkalosis",
+      "Spurious: bromide therapy (interferes with assay)"
+    ],
+    "decreaseWhen": [
+      "In association with hyponatraemia (see sodium)",
+      "Hypoadrenocorticism",
+      "Metabolic alkalosis due to loss of hydrogen chloride (HCl) in gastric vomiting",
+      "High anion gap metabolic acidosis (e.g. ketoacidosis, lactic acidosis)",
+      "Chronic respiratory acidosis",
+      "Furosemide and thiazides"
+    ]
+  },
+  {
+    "id": "Mag",
+    "type": "others",
+    "title": "Магнезий",
+    "description": "",
+    "increaseWhen": [
+      "Renal failure (prerenal, renal or postrenal azotaemia)",
+      "Intravascular haemolysis"
+    ],
+    "decreaseWhen": [
+      "Hypoproteinaemia",
+      "Acute or chronic diarrhoea",
+      "Diabetes mellitus, especially with ketoacidosis"
+    ]
+  },
+  {
+    "id": "P",
+    "type": "others",
+    "title": "Калий",
+    "description": "",
+    "increaseWhen": [
+      "Acute oliguric or anuric renal failure",
+      "Urinary tract obstruction or rupture",
+      "Hypoadrenocorticism",
+      "Severe diarrhoea, e.g. due to trichuriasis (pseudohypoadrenocorticism)",
+      "Metabolic acidosis",
+      "Tumour lysis syndrome",
+      "Rhabdomyolysis or tissue necrosis",
+      "Drug therapy: Spironolactone",
+      "Drug therapy: ACE inhibitors",
+      "Drug therapy: Heparin",
+      "Drug therapy: Mitotane",
+      "Drug therapy: KCl in intravenous fluids",
+      "Drug therapy: Transfusions",
+      "Hypoaldosteronism",
+      "Repeated drainage of chylous thoracic effusions",
+      "Peritoneal effusions in cats",
+      "Spurious: marked thrombocytosis or leucocytosis; haemolysis (Japanese Akitas); EDTA contamination of sample"
+    ],
+    "decreaseWhen": [
+      "Anorexia",
+      "Fluid therapy using low potassium fluids",
+      "Vomiting and/or diarrhoea",
+      "Chronic renal failure",
+      "Diabetic ketoacidosis",
+      "Initial insulin therapy of diabetes mellitus (especially ketoacidotic)",
+      "Hyperaldosteronism (Conn’s syndrome)",
+      "Acute hyperventilation (respiratory alkalosis)",
+      "Hypokalaemic myopathy of Burmese cats",
+      "Drug therapy: Furosemide",
+      "Drug therapy: Thiazides",
+      "Fanconi syndrome"
+    ]
+  },
+  {
+    "id": "Na",
+    "type": "others",
+    "title": "Натрий",
+    "description": "",
+    "increaseWhen": [
+      "Osmotic diarrhoea",
+      "Diabetes mellitus",
+      "Central diabetes insipidus",
+      "Nephrogenic diabetes insipidus",
+      "Primary adipsia",
+      "Heatstroke",
+      "Burns or extensive degloving injury",
+      "Water deprivation",
+      "Hypertonic intravenous fluid therapy/increased salt intake",
+      "Hyperaldosteronism",
+      "Sodium bicarbonate therapy"
+    ],
+    "decreaseWhen": [
+      "Hypoadrenocorticism",
+      "Vomiting or diarrhoea",
+      "Third-space loss of fluid: pleural effusion or peritoneal effusion",
+      "Volume overload associated with congestive heart failure, liver disease, nephrotic syndrome, hypotonic fluid administration",
+      "Diuretics (e.g. thiazide)",
+      "Diabetes mellitus with marked hyperglycaemia and/or ketoacidosis",
+      "Mannitol infusion",
+      "Fanconi syndrome",
+      "Syndrome of inappropriate antidiuretic hormone secretion (SIADH)",
+      "Psychogenic polydipsia",
+      "Spurious: lipaemia"
+    ]
+  },
+  {
+    "id": "GGT",
+    "type": "others",
+    "title": "Гама-глутамилтрансфераза (GGT)",
+    "description": "",
+    "increaseWhen": [
+      "Cholestasis:",
+      "Intrahepatic (e.g cholangiohepatitis, neoplasia)",
+      "Posthepatic (e.g. pancreatitis, cholangitis, cholelithiasis)",
+      "Drug-induced:",
+      "Corticosteroids",
+      "Phenobarbital"
+    ],
+    "decreaseWhen": []
   }
+
+
+
+
 ]
