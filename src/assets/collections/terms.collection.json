@@ -245,19 +245,7 @@
       "Остра мегакариобластна левкемия."
       ],
     "decreaseWhen"  : [
-      "Тромбоцитопения", "вирусни инфекци", "увреждания на костния мозък", "тумор", "някои лекарства",
-      "Sequestration: splenomegaly",
-      "Decreased production: Drug toxicity: oestrogens, TMS",
-      "Decreased production: Myelofibrosis",
-      "Decreased production: Myelo/lymphoproliferative disease",
-      "Decreased production: Aplastic anaemia (aplastic pancytopenia)",
-      "Increased destruction: Immune-mediated thrombocytopenia (primary and secondary)",
-      "Increased destruction: Disseminated intravascular coagulation (DIC)",
-      "Increased destruction: Vasculitis/endocarditis",
-      "Loss: acute blood loss",
-      "Mixed aetiology: Infectious (ehrlichiosis/anaplasmosis, babesiosis, FeLV, FIV, CPV)",
-      "Mixed aetiology: Neoplasia",
-      "Breed-related: Cavalier King Charles Spaniel, Norfolk Terrier, Greyhound, Lurcher, Whippet",
+      "Тромбоцитопения",
       "вирусни инфекции.",
       "увреждания на костния мозък.",
       "тумор.",
@@ -304,7 +292,7 @@
     "id"            : "P-LCC",
     "type"          : "CBC",
     "title"         : "Platelet-Large Cell Count",
-    "description"   : "the absolute count of large platelets in a blood sample",
+    "description"   : "абсолютния брой на големите тромбоцити в кръвната проба",
     "increaseWhen"  : [],
     "decreaseWhen"  : []
   },
@@ -320,7 +308,7 @@
     "id"            : "ALT",
     "type"          : "liver",
     "title"         : "",
-    "description"   : "Can be called liver-specific",
+    "description"   : "Може да се нарече чернодробно-специфичен.",
     "increaseWhen"  : [
       "2-3 пъти увеличение = леко увреждане.",
       "5-10 пъти увеличение = средно тежко увреждане.",
@@ -357,7 +345,7 @@
     "id"            : "GLDH",
     "type"          : "liver",
     "title"         : "Глутамат-дехидрогеназа",
-    "description"   : "Highest concentration is found in hepatocytes situated near to central vein => the damage is deep",
+    "description"   : "Най-високата концентрация се намира в хепатоцитите, които са близо до централната вена -> увреждането е дълбоко.",
     "increaseWhen"  : [],
     "decreaseWhen"  : []
   },
@@ -365,7 +353,7 @@
     "id"            : "ALP",
     "type"          : "liver",
     "title"         : "Алкална фосфатаза (Alkaline phosphatase), АФ",
-    "description"   : "ALP is primarily associated with the liver and bone",
+    "description"   : "ALP се аспциира с ЧД и костите.",
     "increaseWhen"  : [
       "Черният дроб: Високи стойности на АФ при чернодробни заболявания, особено холестаза.",
       "Кости: Костни състояния като костни тумори или фрактури също могат да повишат нивата на АФ, защото тя се произвежда от остеобласти, клетки, участващи в костообразуването.",
