@@ -322,20 +322,22 @@
     "title"         : "",
     "description"   : "Can be called liver-specific",
     "increaseWhen"  : [
-      "2-3 times increased = mild damage (леко увреждане)", "5-10 times = moderate damage (средно увреждане)", "> 10 times = severe damage (тежко увреждане)",
-      "Hepatocyte damage in primary liver disease:",
-      "Inflammatory hepatic disease (e.g. chronic active hepatitis, cholangiohepatitis, FIP, infectious canine hepatitis)",
-      "Drug-related, due to phenobarbital, carprofen, glucocorticoids, methimazole/carbimazole in cats",
-      "Trauma",
-      "Toxic damage",
-      "Hepatic neoplasia",
-      "Hepatocyte damage secondary to extrahepatic disease. Examples include:",
-      "Pancreatitis",
-      "GI disease",
-      "Periodontal disease",
-      "Endocrine disease (e.g. diabetes mellitus, hyperadrenocorticism, hyperthyroidism)",
-      "Hypoxia due to anaemia or reduced blood flow (e.g. in thromboembolism)",
-      "Congestive heart failure"
+      "2-3 пъти увеличение = леко увреждане.",
+      "5-10 пъти увеличение = средно тежко увреждане.",
+      "> 10 пъти увеличение = тежко увреждане.",
+      "Увреждане на хепатоцитите при първично чернодробно заболяване:.",
+      "Възпалително чернодробно заболяване (напр. хроничен активен хепатит, холангиохепатит, FIP, инфекциозен кучешки хепатит).",
+      "Свързано с лекарства, напр. фенобарбитал, карпрофен, глюкокортикоиди, метимазол/карбимазол при котки.",
+      "Травма.",
+      "Токсично увреждане.",
+      "Чернодробна неоплазия.",
+      "Увреждане на хепатоцитите вторично на екстрахепатално заболяване. Примери включват:.",
+      "Панкреатит.",
+      "ГИ заболяване.",
+      "Пародонтално заболяване.",
+      "Ендокринно заболяване (напр. диабет, хиперадренокортицизъм, хипертиреоидизъм).",
+      "Хипоксия поради анемия или намален кръвен поток (напр. при тромбоемболизъм).",
+      "Конгестивна сърдечна недостатъчност."
     ],
     "decreaseWhen"  : []
   },
@@ -362,45 +364,50 @@
   {
     "id"            : "ALP",
     "type"          : "liver",
-    "title"         : "Алкална фосфатаза (Alkaline phosphatase)",
+    "title"         : "Алкална фосфатаза (Alkaline phosphatase), АФ",
     "description"   : "ALP is primarily associated with the liver and bone",
     "increaseWhen"  : [
-      "Liver: Високи ст-ти на АФ при ЧД заболяване, особено холестаза.", "Bones: Bone conditions like bone tumors or fractures can also elevate ALP levels because it is produced by osteoblasts, cells involved in bone formation.", "Growth or Pregnancy: ALP levels can be elevated in growing puppies or during pregnancy due to bone and placental ALP production.", "Steroid Medications: Certain medications, particularly glucocorticoids (steroids), can increase ALP levels as a side effect.", "Inflammatory Conditions: Some inflammatory conditions, including conditions involving the intestines, can lead to elevated ALP.", "Cushing's Disease: In dogs with Cushing's disease (hyperadrenocorticism), ALP levels can be elevated.",
-      "Cholestasis:",
-      "Intrahepatic (e.g. cholangiohepatitis, hepatic lipidosis, chronic hepatitis, nodular hyperplasia, neoplasia, FIP)",
-      "Posthepatic (e.g. pancreatitis, cholangitis, cholelithiasis, ruptured gallbladder)",
-      "Steroid induction – dogs only:",
-      "Hyperadrenocorticism",
-      "Steroid therapy",
-      "Drug induction:",
-      "Phenobarbital",
-      "Bone remodelling:",
-      "Young animal",
-      "Fracture",
-      "Neoplasia",
-      "Osteomyelitis",
-      "Hyperthyroidism",
-      "Secondary to extrahepatic disease. Examples include:",
-      "GI disease",
-      "Periodontal disease",
-      "Endocrine disease (e.g. diabetes mellitus, hyperadrenocorticism, hyperthyroidism)",
-      "Congestive heart failure"
+      "Черният дроб: Високи стойности на АФ при чернодробни заболявания, особено холестаза.",
+      "Кости: Костни състояния като костни тумори или фрактури също могат да повишат нивата на АФ, защото тя се произвежда от остеобласти, клетки, участващи в костообразуването.",
+      "Растеж или бременност: Нивата на АФ могат да бъдат повишени при растящи кученца или по време на бременност поради продукция на костна и плацентарна АФ.",
+      "Стероидни лекарства: Някои лекарства, особено глюкокортикоиди (стероиди), могат да повишат нивата на АФ като страничен ефект.",
+      "Възпалителни състояния: Някои възпалителни състояния, включително състояния, засягащи червата, могат да доведат до повишени нива на АФ.",
+      "Болест на Кушинг: При кучета с болестта на Кушинг (хиперадренокортицизъм) нивата на АФ могат да бъдат повишени.",
+      "Холестаза:",
+      "Интрахепатична (напр. холангиохепатит, хепатална липидоза, хроничен хепатит, нодуларна хиперплазия, неоплазия, FIP)",
+      "Постхепатична (напр. панкреатит, холангит, холелитиаза, разкъсан жлъчен мехур)",
+      "Стероидна индукция – само при кучета:",
+      "Хиперадренокортицизъм",
+      "Стероидна терапия",
+      "Повишена АФ от лекарства:",
+      "Фенобарбитал",
+      "Костно ремоделиране:",
+      "Млади животни",
+      "Фрактура",
+      "Неоплазия",
+      "Остеомиелит",
+      "Хипертиреоидизъм",
+      "Вторично на екстрахепатално заболяване. Примери включват:",
+      "ГИ заболяване",
+      "Пародонтално заболяване",
+      "Ендокринно заболяване (напр. диабет, хиперадренокортицизъм, хипертиреоидизъм)",
+      "Конгестивна сърдечна недостатъчност"
     ],
-    "decreaseWhen"  : ["Lowered ALP levels are less common and are not typically a focus of concern in veterinary medicine."]
+    "decreaseWhen"  : ["Намалените нива на АФ са по-рядко срещани и обикновено не са основен фокус във ветеринарната медицина."]
   },
   {
     "id"            : "ALB",
     "type"          : "liver",
     "title"         : "албумин",
-    "description"   : "With liver disease hypoalbuminemia is not seen until >70% of hepatobiliary function has been compromised",
+    "description"   : "При чернодробно заболяване хипоалбуминемия не се наблюдава, докато не бъде засегната над 70% от хепатобилиарната функция.",
     "increaseWhen"  : [],
     "decreaseWhen"  : []
   },
   {
     "id"            : "PT",
     "type"          : "liver",
-    "title"         : "Протромбиново време",
-    "description"   : "The synthesis of vitamin K-dependent coagulation might be decreased (factor II, VII, IX, X) as well as a decrease of fibrinogen production might develop. In chronic liver diseases, haemostasis should be evaluated based on the prothrombin time.",
+    "title"         : "Prothrombin, Протромбиново време",
+    "description"   : "Синтезата на коагулационни фактори, зависими от витамин К (фактори II, VII, IX, X), може да бъде намалена, както и производството на фибриноген може да бъде намалено. При хронични чернодробни заболявания хемостазата трябва да се оценява на базата на протромбиновото време.",
     "increaseWhen"  : [],
     "decreaseWhen"  : []
   },
@@ -416,50 +423,65 @@
     "id"            : "BUN",
     "type"          : "liver",
     "title"         : "Blood Urea Nitrogen, Урея",
-    "description"   : "It is the principal end product of protein metabolism. Assess glomerular filtration rate",
-    "increaseWhen"  : [],
-    "decreaseWhen"  : ["Decrease in severe hepatopathies and in portosystemic shunt. При увреждания на ЧД продукцията на урея се забавя и това води до понижаване на уреята."]
+    "description": "Основен краен продукт на метаболизма на протеини. Оценява скоростта на гломерулната филтрация.",
+    "increaseWhen": [
+      "Уреята се повишава при ББ заболявания (както и при ЧД, затова се използва формула).",
+      "Диета с високо съдържание на протеин.",
+      "Кървене от стомашно-чревния тракт.",
+      "Бъбречна недостатъчност (остра или хронична).",
+      "Преренална азотемия.",
+      "Запушване на пикочните пътища.",
+      "Руптура на уретера, пикочния мехур или уретрата.",
+      "Тежко гладуване.",
+      "Диуреза.",
+      "Портосистемни шънтове.",
+      "Чернодробно заболяване/недостатъчност.",
+      "Диабет инсипидус."
+    ],
+    "decreaseWhen": ["Намалява при тежки хепатопатии и портосистемни шънтове. При увреждания на черния дроб продукцията на урея се забавя и това води до понижаване на уреята."]
   },
   {
-    "id"            : "BA",
-    "type"          : "liver",
-    "title"         : "Bile acids",
-    "description"   : "Bile acids are a product of cholesterol metabolism and they are secreted to bile with which they are transported to the intestines and then they return to the hepatic portal vein – called the hepato-intestinal (enterohepatic) circulation. BA measurements assess biliary excretion, portal circulation, and hepatic function. ",
-    "increaseWhen"  : [
-      "Increased in hepatic insufficiency, cholestatic disease, or portosystemic shunts.",
-      "Biliary obstruction/cholestasis",
-      "Reduced hepatic function (e.g. chronic active hepatitis, cirrhosis)",
-      "Portosystemic shunt",
-      "Microvascular dysplasia",
-      "Reactive/secondary hepatopathy, e.g. due to hyperadrenocorticism"
+    "id": "BA",
+    "type": "liver",
+    "title": "Жлъчни киселини",
+    "description": "Жлъчните киселини са продукт на метаболизма на холестерола и се секретират в жлъчката, с която се транспортират до червата и след това се връщат в чернодробната портална вена - наречено хепато-ентестинална (ентеро-хепатална) циркулация. Стойностите на жлъчните киселини са показателни за жлъчната екскреция, порталната циркулация и чернодробната функция.",
+    "increaseWhen": [
+      "Повишени при чернодробна недостатъчност, холестаза или портосистемни шънтове.",
+      "Билиарна обструкция/холестаза.",
+      "Намалена чернодробна функция (напр. хроничен активен хепатит, цироза).",
+      "Портосистемен шънт.",
+      "Микроваскуларна дисплазия.",
+      "Реактивна/вторична хепатопатия, напр. поради хиперадренокортицизъм."
     ],
-    "decreaseWhen"  : []
+    "decreaseWhen": []
   },
   {
-    "id"            : "Br",
-    "type"          : "liver",
-    "title"         : "Билирубин",
-    "description"   : "",
-    "increaseWhen"  : [
-      "Prehepatic icterus - Erythrocyte breakdown", "Hepatic icterus – decreased hepatic uptake, conjugation or excretion", "Posthepatic icterus – extrahepatic cholestasis",
-      "Prehepatic: haemolysis (e.g. immune-mediated haemolytic anaemia, oxidant toxicity, haemotrophic mycoplasmosis, babesiosis)",
-      "Intrahepatic (e.g. cirrhosis, hepatic lipidosis, cholangiohepatitis, neoplasia, FIP)",
-      "Posthepatic (e.g. pancreatitis, cholangitis, cholelithiasis, biliary neoplasia)"
+    "id": "Br",
+    "type": "liver",
+    "title": "Билирубин",
+    "description": "Произвежда се по време на нормалния цикъл на разпадане на еритроцитите. Билирубинът преминава през черния дроб, след което се екскретира извън тялото.",
+    "increaseWhen": [
+      "Прехепатална жълтеница - разпад на еритроцитите.",
+      "Хепатична жълтеница – намалено чернодробно усвояване, конюгация или екскреция.",
+      "Постхепатична жълтеница – екстрахепатална холестаза.",
+      "Прехепатално: хемолиза (напр. имуномедиирана хемолитична анемия, токсичност от оксиданти, хемотрофна микоплазмоза, бабезиоза).",
+      "Интрахепатално: (напр. цироза, чернодробна липидоза, холангиохепатит, неоплазия, FIP).",
+      "Постхепатално: (напр. панкреатит, холангит, холелитиаза, билиарна неоплазия)."
     ],
-    "decreaseWhen"  : []
+    "decreaseWhen": []
   },
   {
     "id"            : "TBA",
     "type"          : "liver",
-    "title"         : "Total bile acids",
-    "description"   : "Bile is a fluid that is made and released by the liver and stored in the gallbladder. Bile helps with digestion. It breaks down fats into fatty acids, which can be taken into the body by the digestive tract. Bile contains: Mostly cholesterol; Bile acids (also called bile salts); Bilirubin (a breakdown product or red blood cells); Other things (water, copper, body salts, etc.).",
+    "title"         : "Total bile acids (TBA), общи жлъчни киселини",
+    "description"   : "Жлъчката е течност, която се произвежда и освобождава от черния дроб и се съхранява в жлъчния мехур. Жлъчката помага за храносмилането. Тя разгражда мазнините до мастни киселини, които могат да бъдат приети от организма през храносмилателния тракт. Жлъчката съдържа: предимно холестерол; жлъчни киселини (наричани също жлъчни соли); билирубин (продукт от разграждането на червените кръвни клетки); други вещества (вода, мед, соли на организма и др.).",
     "increaseWhen"  : [],
     "decreaseWhen"  : []
   },
   {
     "id"            : "TB",
     "type"          : "liver",
-    "title"         : "Total bilirubin",
+    "title"         : "Total bilirubin, Общ билирубин",
     "description"   : "",
     "increaseWhen"  : [],
     "decreaseWhen"  : []
@@ -467,81 +489,83 @@
   {
     "id"            : "TC",
     "type"          : "liver",
-    "title"         : "Total Cholesterol",
+    "title"         : "Total Cholesterol, Общ холестерол",
     "description"   : "",
     "increaseWhen"  : [
-      "Hypercholesterolaemia is common in canine and feline patients with CKD, even those with predominantly tubulointerstitial rather than glomerular disease. The mechanisms for this have not been investigated.",
-      "Postprandial",
-      "Diabetes mellitus",
-      "Hypothyroidism",
-      "Hyperadrenocorticism",
-      "Pancreatitis",
-      "Cholestasis (many liver diseases)",
-      "Protein-losing nephropathy with nephrotic syndrome",
-      "Drug therapy: glucocorticoids, methimazole",
-      "Primary hyperlipidaemia"
+      "Хиперхолестеролемията е често срещана при кучета и котки с хронична бъбречна недостатъчност (ХБН), дори при тези предимно с тубулоинтерстициално, а не гломерулно заболяване. Механизмите за това не са проучени.",
+      "След хранене.",
+      "Захарен диабет.",
+      "Хипотиреоидизъм.",
+      "Хиперадренокортицизъм.",
+      "Панкреатит.",
+      "Холестаза (много чернодробни заболявания).",
+      "Загуба на протеини чрез бъбреците с нефротичен синдром.",
+      "Лечение с лекарства: глюкокортикоиди, метимазол.",
+      "Първична хиперлипидемия."
     ],
     "decreaseWhen"  : [
-      "Severe liver disease",
-      "Portosystemic shunt",
-      "Protein-losing enteropathy (especially lymphangiectasia)",
-      "Hypoadrenocorticism",
-      "Severe malnutrition"
+      "Тежко чернодробно заболяване.",
+      "Портосистемен шънт.",
+      "Протеин губеща ентеропатия (особено лимфангиектазия).",
+      "Хипоадренокортицизъм.",
+      "Тежко недохранване."
     ]
   },
   {
-    "id"            : "TP",
-    "type"          : "liver",
-    "title"         : "Total Protein (A = albumin; G = globulin)",
-    "description"   : "Зависят от състоянието на ЧД, защото там се синтезират плазмените белтъци (т. е. глобулините)",
-    "increaseWhen"  : [
-      "Хиперпротеинемия – при дехидратация",
-      "Dehydration (A and G)",
-      "Inflammation, particularly of liver (G)",
-      "Infectious diseases e.g. FIP, Leishmania, Ehrlichia, Anaplasma",
-      "Neoplasia (G)",
-      "Plasma cell myeloma (monoclonal G)",
-      "Spurious: lipaemia (A and G)"
+    "id": "TP",
+    "type": "liver",
+    "title": "Общ протеин (A = албумин; G = глобулин)",
+    "description": "Зависят от състоянието на черния дроб, защото там се синтезират плазмените белтъци (т. е. глобулините)",
+    "increaseWhen": [
+      "Хиперпротеинемия – при дехидратация.",
+      "Дехидратация (А и G).",
+      "Възпаление, особено на черния дроб (G).",
+      "Инфекциозни заболявания, напр. FIP, Лейшмания, Ерлихия, Анаплазма.",
+      "Неоплазия (G).",
+      "Миелом на плазматичните клетки (моноклонален G).",
+      "Липемия (А и G)."
     ],
-    "decreaseWhen"  : [
-      "Хипопротеинемия – при хидратация",
-      "Haemorrhage (A and G)",
-      "Protein-losing nephropathy (A)",
-      "Protein-losing enteropathy (A and G)",
-      "Third-space loss of fluid (A>G)",
-      "Severe liver disease (A)",
-      "Young animals",
-      "Starvation",
-      "Diuresis",
-      "Acute phase response (A) (mild)"
+    "decreaseWhen": [
+      "Хипопротеинемия – при хидратация.",
+      "Кръвоизлив (А и G).",
+      "Загуба на протеини чрез бъбреците (A).",
+      "Загуба на протеини чрез червата (A и G).",
+      "Загуба на течности в трето пространство (A>G).",
+      "Тежко чернодробно заболяване (A).",
+      "Млади животни.",
+      "Глад.",
+      "Диуреза.",
+      "Остра фаза на възпаление (A) (лек)."
     ]
   },
   {
-    "id"            : "A/G",
-    "type"          : "liver",
-    "title"         : "Albumin/Globulin",
-    "description"   : "With liver disease hypoalbuminemia is not seen until >70% of hepatobiliary function has been compromised",
-    "increaseWhen"  : ["Повишаване – не се наблюдава свръхпродукция на албумин; в резултат на дехидратация."],
-    "decreaseWhen"  : ["Понижаване – при ББ, чревни заболявания, при остри ЧД заболявания и нефротичен синдром."]
+    "id": "A/G",
+    "type": "liver",
+    "title": "Албумин/Глобулин",
+    "description": "При чернодробно заболяване хипоалбуминемия не се наблюдава, докато не са засегнати >70% от хепатобилиарната функция.",
+    "increaseWhen": ["Повишаване – не се наблюдава свръхпродукция на албумин; в резултат на дехидратация."],
+    "decreaseWhen": ["Понижаване – при бъбречни заболявания, чернодробни заболявания и нефротичен синдром."]
   },
   {
     "id"            : "GLOB",
     "type"          : "liver",
-    "title"         : "Globulin",
+    "title"         : "Globulin, глобулин",
     "description"   : "",
     "increaseWhen"  : ["Високите глобулини водят до хиперпротеинемия. Може да посочи и автоимунни заболявания."],
     "decreaseWhen"  : []
   },
   {
-    "id"            : "APPT",
-    "type"          : "liver",
-    "title"         : "Actived partial thromboplastin",
-    "description"   : "evaluates various aspects of the blood's ability to clot",
-    "increaseWhen"  : ["Hemophilia: Inherited bleeding disorders, such as hemophilia, can result in a prolonged aPTT due to deficiencies in specific clotting factors.", "Liver Disease: Liver disease can impair the synthesis of clotting factors, leading to prolonged aPTT.", "Anticoagulant Medications: The use of anticoagulant drugs, such as heparin, can increase aPTT."],
-    "decreaseWhen"  : ["This is less common and is usually not a primary indicator of any specific medical condition."]
+    "id": "aPPT",
+    "type": "liver",
+    "title": "Actived partial thromboplastin (aPPT), Активирано парциално тромбопластиново време (аПТТ)",
+    "description": "Оценява различни аспекти на способността на кръвта да коагулира",
+    "increaseWhen": [
+      "Хемофилия: Наследените заболявания, свързани с кръвоизливи като хемофилия, могат да доведат до удължено aPPT поради недостатъци на конкретни фактори за свързване.",
+      "Заболявания на черния дроб: Заболяванията на черния дроб могат да нарушат синтеза на фактори за свързване, което води до удължено aPPT.",
+      "Антикоагулантни лекарства: Употребата на антикоагулантни медикаменти, като например хепарин, може да увеличи aPPT."
+    ],
+    "decreaseWhen": ["Случва се по-рядко и обикновено не е основен показател за някакво конкретно заболяване."]
   },
-
-
   {
     "id"            : "ALB",
     "type"          : "kidneys",
@@ -551,51 +575,52 @@
     "decreaseWhen"  : ["Понижава се при гломерулонефрит."]
   },
   {
-    "id"            : "Ca",
-    "type"          : "kidneys",
-    "title"         : "Калций",
-    "increaseWhen"  : [
-      "Growing animals",
-      "Malignancy-associated (e.g. lymphoma, anal sac adenocarcinoma, multiple myeloma)",
-      "Hyperparathyroidism",
-      "Hypoadrenocorticism",
-      "Chronic renal failure",
-      "Acute renal failure – diuretic phase",
-      "Osteolytic bone lesions",
-      "Vitamin D intoxication",
-      "Granulomatous disease",
-      "Excessive calcium supplementation",
-      "Chronic dietary phosphate restriction"
+    "id": "Ca",
+    "type": "kidneys",
+    "title": "Калций",
+    "description"   : "",
+    "increaseWhen": [
+      "Растящи животни.",
+      "Свързано със злокачествен тумор (напр. лимфом, аденокарцином на аналните жлези, множествена миелома).",
+      "Хиперпаратиреоидизъм.",
+      "Хипоадренокортицизъм.",
+      "Хронична бъбречна недостатъчност.",
+      "Остра бъбречна недостатъчност.",
+      "Остеолитични костни лезии.",
+      "Интоксикация с витамин D.",
+      "Грануломатозни заболявания.",
+      "Прекомерно приложение на калциеви добавки.",
+      "Хронично ограничение на фосфатите в диетата."
     ],
-    "decreaseWhen"  : [
-      "Може да се понижи при ББ заболяване.",
-      "Low albumin (hypocalcaemia not clinically significant)",
-      "Eclampsia (lactation tetany)",
-      "Acute pancreatitis",
-      "Hypoparathyroidism following thyroidectomy (common) or lymphocytic parathyroiditis (rare)",
-      "Acute renal failure",
-      "Chronic renal failure",
-      "Malabsorption, protein-losing enteropathy",
-      "Ethylene glycol toxicity",
-      "Post-transfusion (excess anticoagulant)",
-      "Furosemide treatment",
-      "Spurious: EDTA contamination"
+    "decreaseWhen": [
+      "Може да се понижи при бъбречни заболявания.",
+      "Ниско ниво на албумин (хипокалциемията не е клинично значима).",
+      "Еклампсия (лактационен тетаниум).",
+      "Остър панкреатит.",
+      "Хипопаратиреоидизъм след тиреоидектомия (често) или лимфоцитарен паратиреоидит (рядко).",
+      "Остра бъбречна недостатъчност.",
+      "Хронична бъбречна недостатъчност.",
+      "Малабсорбция, загуба на протеини през черния дроб.",
+      "Токсичност от етиленгликол.",
+      "След трансфузия (излишен антикоагулант).",
+      "Лечение с фуроземид.",
+      "Грешка: замърсяване с ЕДТА."
     ]
   },
   {
-    "id"            : "CREA",
-    "type"          : "kidneys",
-    "title"         : "Креатинин",
-    "description"   : "Креатинът от мускулите чрез креатин фосфат се превръща в креатин фосфат (служи за енергиен резерв на мускулите, фосфата се прехвърля на АДФ), който се превръща в креатинин, който се екскретира чрез ББ.",
-    "increaseWhen"  : [
-      "Повишава се при ББ недостатъчност.",
-      "Prerenal causes (though less affected than urea): hypovolaemia, decreased cardiac output, shock",
-      "Renal disease",
-      "Postrenal conditions: urinary tract obstruction, urinary tract rupture",
-      "Increased production: high protein diet, protein catabolism, intestinal haemorrhage",
-      "Dogs with high muscle mass, e.g. sighthounds"
+    "id": "CREA",
+    "type": "kidneys",
+    "title": "Creatinine (Crea), Креатинин",
+    "description": "Креатинът от мускулите чрез креатин фосфат се превръща в креатинин (служи за енергиен резерв на мускулите, фосфата се прехвърля на АДФ), който се превръща в креатинин, който се екскретира чрез ББ, служейки като показател за ББ функция.",
+    "increaseWhen": [
+        "Повишава се при бъбречна недостатъчност.",
+        "Пренални причини (въпреки че са по-малко засегнати от уреята): хиповолемия, намален сърдечен изход, шок",
+        "Бъбречно заболяване",
+        "Постбъбречни състояния: обструкция на уринарните пътища, разрив на уринарните пътища",
+        "Увеличено производство: диета с високо съдържание на протеини, катаболизъм на протеини, червена кръвна течност",
+        "Кучета с висока мускулна маса, напр. гонче"
     ],
-    "decreaseWhen"  : ["Decreased muscle mass"]
+    "decreaseWhen": ["Намалена мускулна маса."]
   },
   {
     "id"            : "PHOS",
@@ -603,37 +628,37 @@
     "title"         : "Фосфор",
     "description"   : "",
     "increaseWhen"  : [
-      "Може да се повиши при ББ заболяване.",
-      "Young animals",
-      "Reduced glomerular filtration rate (due to prerenal, renal or postrenal causes)",
-      "Ruptured urinary bladder",
-      "Vitamin D toxicity",
-      "Diabetic ketoacidosis",
-      "Tumour lysis syndrome",
-      "Acute severe myopathy",
-      "Osteolytic bone lesions",
-      "Hyperthyroidism (cats)",
-      "Phosphate-containing enemas",
-      "Ischaemic intestinal lesions",
-      "High phosphate:calcium diet"
-      ],
-    "decreaseWhen"  : [
-      "Hyperparathyroidism",
-      "Malignancy-associated hypercalcaemia with release of PTHrP",
-      "Hypovitaminosis D (e.g. intestinal malabsorption, dietary deficiency)",
-      "Following insulin therapy",
-      "Re-feeding syndrome (cats)",
-      "Anorexia/decreased intake",
-      "Phosphate binders",
-      "Vomiting and diarrhoea",
-      "Fanconi syndrome",
-      "Eclampsia"
+      "Може да се повиши при бъбречни заболявания.",
+      "Растящи животни.",
+      "Намален бъбречен филтрационен капацитет (поради преренални, ренални или постренални причини).",
+      "Разкъсана уретрална мека част.",
+      "Токсичност от витамин D.",
+      "Диабетна кетоацидоза.",
+      "Тумор лизис синдром.",
+      "Остра миопатия.",
+      "Остеолитични костни лезии.",
+      "Хипертиреоидизъм (котки).",
+      "Фосфат-съдържащи клизми.",
+      "Исхемични чернодробни лезии.",
+      "Диета с високо съдържание на фосфат:калций."
+  ],
+  "decreaseWhen": [
+      "Хиперпаратиреоидизъм.",
+      "Свързана с тумор хиперкалциемия с освобождаване на PTHrP.",
+      "Хиповитаминоза D (напр. чернодробна малабсорбция, дефицит в диетата).",
+      "След инсулинова терапия.",
+      "Синдром на рехидратация (котки).",
+      "Анорексия/намален прием.",
+      "Фосфатови връзки.",
+      "Повръщане и  диария.",
+      "Синдром на Фанкони.",
+      "Еклампсия."
     ]
   },
   {
     "id"            : "tCO2",
     "type"          : "kidneys",
-    "title"         : "Bicarbonate",
+    "title"         : "Bicarbonate, Бикарбонати",
     "description"   : "",
     "increaseWhen"  : [],
     "decreaseWhen"  : []
@@ -653,24 +678,24 @@
     "description"   : "",
     "increaseWhen"  : [
       "Уреята се повишава при ББ заболявания (както и при ЧД, затова се използва формула).",
-      "High-protein diet",
-      "GI bleeding",
-      "Renal failure (acute or chronic)",
-      "Prerenal azotaemia",
-      "Urinary obstruction",
-      "Rupture of ureter, bladder or urethra",
-      "Severe starvation",
-      "Diuresis",
-      "Portosystemic shunts",
-      "Hepatic disease/insufficiency",
-      "Diabetes insipidus"
+      "Диета с високо съдържание на протеин.",
+      "Кървене от стомашно-чревния тракт.",
+      "Бъбречна недостатъчност (остра или хронична).",
+      "Преренална азотемия.",
+      "Запушване на пикочните пътища.",
+      "Руптура на уретера, пикочния мехур или уретрата.",
+      "Тежко гладуване.",
+      "Диуреза.",
+      "Портосистемни шънтове.",
+      "Чернодробно заболяване/недостатъчност.",
+      "Диабет инсипидус."
     ],
-    "decreaseWhen"  : []
+    "decreaseWhen"  : ["Намалява при тежки хепатопатии и портосистемни шънтове. При увреждания на черния дроб продукцията на урея се забавя и това води до понижаване на уреята."]
   },
   {
     "id"            : "B/C",
     "type"          : "kidneys",
-    "title"         : "Urea nitrogen/Creatinine",
+    "title"         : "Urea nitrogen/Creatinine. Урея/ Креатинин",
     "description"   : "",
     "increaseWhen"  : [],
     "decreaseWhen"  : []
@@ -678,36 +703,81 @@
 
 
   {
-    "id"            : "APPT",
+    "id": "APPT",
+    "type": "coagulation",
+    "title": "Активирано частично тромбопластиново време",
+    "description": "оценява различни аспекти на способността на кръвта да се свръзва",
+    "increaseWhen": ["Хемофилия: Наследените кръвоизливни разстройства, като хемофилия, могат да доведат до удължено APPT поради недостиг на конкретни фактори за свръзване.", "Заболявания на черния дроб: Заболяванията на черния дроб могат да нарушат синтеза на факторите за свръзване, което води до удължено APPT.", "Лекарства с антикоагулантно действие: Употребата на антикоагулантни лекарства, като например хепарин, може да удължи APPT."],
+    "decreaseWhen": ["Това е по-малко често и обикновено не е основен индикатор за някакво конкретно медицинско състояние."]
+  },
+  {
+    "id": "PT",
+    "type": "coagulation",
+    "title": "Протромбин",
+    "description": "оценява различни аспекти на способността на кръвта да се свръзва",
+    "increaseWhen": ["Недостиг на витамин К: Недостигът на витамин К, който е необходим за производството на фактори за свръзване, може да доведе до удължен PT.", "Заболявания на черния дроб: Нарушенията на функцията на черния дроб могат да засегнат производството на фактори за свръзване, което води до удължен PT.", "Лекарства с антикоагулантно действие: Уарфаринът и другите антагонисти на витамин К могат да удължат PT."],
+    "decreaseWhen": ["Много кратките времена на PT са редки и обикновено не са свързани с конкретни медицински състояния."]
+  },
+  {
+    "id": "TT",
+    "type": "coagulation",
+    "title": "Тромбин",
+    "description": "оценява различни аспекти на способността на кръвта да се свръзва",
+    "increaseWhen": ["Употреба на хепарин: Хепаринът може да удължи TT, като пречи на преобразуването на фибриноген в фибрин."],
+    "decreaseWhen": ["Скъсяването на TT не е често срещано явление и обикновено не е свързано с конкретни медицински състояния."]
+  },
+  {
+    "id": "Fib",
+    "type": "coagulation",
+    "title": "Фибриноген",
+    "description": "оценява различни аспекти на способността на кръвта да се свръзва",
+    "increaseWhen": ["Възпаление: Възпалителни състояния, като инфекции или автоимунни заболявания, могат да повишат нивата на фибриноген.", "Увреждане на тъканите: Травми или увреждания на тъканите могат да доведат до увеличени нива на фибриноген като част от телесния отговор за изцеляване.", "Стрес или вълнение: Някои животни могат да покажат повишени нива на фибриноген по време на стресови ситуации."],
+    "decreaseWhen": ["Заболявания на черния дроб: Тежките заболявания на черния дроб могат да намалят производството на фибриноген.", "Разпространената вътрасърчна коагулация (DIC): При DIC фибриногенът се консумира като част от процеса на свръзване, водещ до намалени нива."]
+  },
+
+  {
+    "id"            : "aPPT",
     "type"          : "coagulation",
-    "title"         : "Actived partial thromboplastin",
-    "description"   : "evaluates various aspects of the blood's ability to clot",
-    "increaseWhen"  : ["Hemophilia: Inherited bleeding disorders, such as hemophilia, can result in a prolonged aPTT due to deficiencies in specific clotting factors.", "Liver Disease: Liver disease can impair the synthesis of clotting factors, leading to prolonged aPTT.", "Anticoagulant Medications: The use of anticoagulant drugs, such as heparin, can increase aPTT."],
-    "decreaseWhen"  : ["This is less common and is usually not a primary indicator of any specific medical condition."]
+    "title"         : "Actived partial thromboplastin (aPPT), Активирано парциално тромбопластиново време (аПТТ)",
+    "description"   : "Оценява различни аспекти на способността на кръвта да коагулира.",
+    "increaseWhen"  : ["Хемофилия: Наследените заболявания, свързани с кръвоизливи като хемофилия, могат да доведат до удължено aPPT поради недостатъци на конкретни фактори за свързване.",
+      "Заболявания на черния дроб: Заболяванията на черния дроб могат да нарушат синтеза на фактори за свързване, което води до удължено aPPT.",
+      "Антикоагулантни лекарства: Употребата на антикоагулантни медикаменти, като например хепарин, може да увеличи aPPT."
+    ],
+    "decreaseWhen": ["Случва се по-рядко и обикновено не е основен показател за някакво конкретно заболяване."]
   },
   {
     "id"            : "PT",
     "type"          : "coagulation",
-    "title"         : "Prothrombin",
-    "description"   : "evaluates various aspects of the blood's ability to clot",
-    "increaseWhen"  : ["Vitamin K Deficiency: A deficiency in vitamin K, which is required for the production of clotting factors, can lead to prolonged PT.", "Liver Disease: Liver dysfunction can affect clotting factor production, resulting in a prolonged PT.", "Anticoagulant Medications: Warfarin and other vitamin K antagonists can extend PT."],
-    "decreaseWhen"  : ["Very short PT times are rare and are generally not associated with specific medical conditions."]
+    "title"         : "Prothrombin, Протромбиново време",
+    "description"   : "Оценява различни аспекти на способността на кръвта да коагулира.",
+    "increaseWhen": ["Хемофилия: Наследственитр генетични нарушения на кръвосъсирването като хемофилия, могат да доведат до удължено APPT поради недостиг на конкретни фактори за свързване.",
+    "Заболявания на черния дроб: Заболяванията на черния дроб могат да нарушат синтеза на факторите за свръзване, което води до удължено APPT.",
+    "Лекарства с антикоагулантно действие: Употребата на антикоагулантни лекарства, като например хепарин, може да удължи APPT."],
+    "decreaseWhen": ["По-рядко срещано и обикновено не е основен индикатор за някакво конкретно заболяване."]
   },
   {
     "id"            : "TT",
     "type"          : "coagulation",
     "title"         : "Thrombin",
-    "description"   : "evaluates various aspects of the blood's ability to clot",
-    "increaseWhen"  : ["Heparin Use: Heparin can prolong TT as it interferes with the conversion of fibrinogen to fibrin."],
-    "decreaseWhen"  : ["Shortened TT is not a commonly reported finding and is usually not associated with specific medical conditions."]
+    "description"   : "Оценява различни аспекти на способността на кръвта да коагулира.",
+    "increaseWhen"  : ["Употреба на хепарин: Хепаринът може да удължи TT, като пречи на преобразуването на фибриноген във фибрин."],
+    "decreaseWhen"  : ["По-рядко срещано и обикновено не е основен индикатор за някакво конкретно заболяване."]
   },
   {
     "id"            : "Fib",
     "type"          : "coagulation",
     "title"         : "Fibrinogen",
-    "description"   : "evaluates various aspects of the blood's ability to clot",
-    "increaseWhen"  : ["Inflammation: Inflammatory conditions, such as infections or autoimmune diseases, can increase fibrinogen levels.", "Tissue Damage: Trauma or tissue injury can lead to increased fibrinogen levels as part of the body's healing response.", "Stress or Excitement: Some animals may show elevated fibrinogen levels during stressful situations."],
-    "decreaseWhen"  : ["Liver Disease: Severe liver disease can decrease fibrinogen production.", "Disseminated Intravascular Coagulation (DIC): In DIC, fibrinogen is consumed as part of the clotting process, leading to decreased levels."]
+    "description"   : "Оценява различни аспекти на способността на кръвта да коагулира.",
+   "increaseWhen": [
+    "Възпаление: Възпалителни състояния, като инфекции или автоимунни заболявания, могат да повишат нивата на фибриноген.",
+    "Увреждане на тъканите: Травми или увреждания на тъканите могат да доведат до увеличени нива на фибриноген като част от телесния отговор за изцеляване.",
+    "Стрес или вълнение: Някои животни могат да покажат повишени нива на фибриноген по време на стресови ситуации."
+    ],
+    "decreaseWhen": [
+    "Заболявания на черния дроб: Тежките заболявания на черния дроб могат да намалят производството на фибриноген.",
+    "Разпространената вътрасърчна коагулация (DIC): При DIC фибриногенът се консумира като част от процеса на свръзване, водещ до намалени нива."
+    ]
   },
 
 
@@ -726,10 +796,10 @@
     "title"         : "Amylase",
     "description"   : "ПАНКРЕАС: Това е ензим, който се секретира от панкреаса и се излъчва с панкреатичния сок. При остър панкреатит ст-тите на амилазата се повишават (само при КЧ, при КТ дори може да се понижи). При карцином също се повишава.",
     "increaseWhen"  : [
-      "Pancreatitis",
-      "Pancreatic neoplasia",
-      "Azotaemia (2–3 times upper reference limit)",
-      "Intestinal disease"
+        "Панкреатит.",
+        "Панкреатични неоплазии.",
+        "Азотемия (2–3 пъти над горния референтен лимит).",
+        "Чревни заболявания."
     ],
     "decreaseWhen"  : []
   },
@@ -739,12 +809,12 @@
     "title"         : "Lipase",
     "description"   : "ПАНКРЕАС: Липазата е ензим от панкреаса. При панкреатит се повишава. При понижена липаза се появява стеаторея, загуба на тегло, полифагия.",
     "increaseWhen"  : [
-      "Pancreatitis",
-      "Pancreatic neoplasia",
-      "Azotaemia",
-      "Glucocorticoids",
-      "Hepatic disease (especially neoplasia)",
-      "Enteritis (?)"
+      "Панкреатит.",
+      "Панкреатични неоплазии.",
+      "Азотемия.",
+      "Глюкокортикоиди.",
+      "Чернични заболявания (особено неоплазии).",
+      "Ентерит (?)."
     ],
     "decreaseWhen"  : []
   },
@@ -752,15 +822,15 @@
     "id"            : "CK",
     "type"          : "others",
     "title"         : "Creatine Kinase (Креатинкиназа)",
-    "description"   : "Мускули. very sensitive indicator of muscle disease. It catalyses the reaction of phosphocreatine and adenosine diphosphate (ADP) that results in production of adenosine triphosphate (ATP) and creatine. CK is an enzyme that is released from muscle cells to the blood. Plasma concentrations start to increase 4–6 hours after muscle injury, peak 12 hours after enzyme release into the circulation and decrease back to normal within 24–48 hours (unless muscle damage is ongoing).",
+    "description"   : "Мускули. Много чувствителен показател за мускулните заболявания. Тя катализира реакцията на фосфокреатин и аденозиндифосфат (АДФ), която довежда до производството на аденозинтрифосфат (АТФ) и креатин. Креатинкиназата е ензим, който се освобождава от мускулните клетки в кръвта. Плазмените концентрации започват да се увеличават след 4–6 часа след повреждане на мускула, достигат максимума си 12 часа след освобождаването на ензима в кръвообращението и се връщат към нормалните стойности в рамките на 24–48 часа (освен ако увреждането на мускула продължава).",
     "increaseWhen"  : [
-      "Hypothyroidism",
-      "Myopathies",
-      "Myositis",
-      "Muscle ischaemia, e.g. aortic thromboembolism",
-      "Trauma",
-      "Intramuscular injections",
-      "Haemolysis"
+      "Хипотиреоидизъм.",
+      "Миопатии.",
+      "Миозит.",
+      "Мускулна ишемия, напр. аортна тромбоемболия.",
+      "Травма.",
+      "Интрамускулни инжекции.",
+      "Хемолиза."
     ],
     "decreaseWhen"  : []
   },
@@ -768,7 +838,7 @@
     "id"            : "LDH",
     "type"          : "others",
     "title"         : "Lactate dehydrogenase",
-    "description"   : "Мускули. Lactate dehydrogenase (LDH) and aldolase are rarely measured in small animals because they lack specificity and sensitivity, and LDH is artefactually elevated in even slight haemolysis.",
+    "description"   : "Мускули. Лактат дехидрогеназата (LDH) и алдолазата рядко се измерват при младите животни, тъй като липсват специфичност и чувствителност, а LDH е изкуствено повишена дори при лека хемолиза.",
     "increaseWhen"  : [],
     "decreaseWhen"  : []
   },
@@ -778,20 +848,20 @@
     "title": "Хлор",
     "description": "",
     "increaseWhen": [
-      "In parallel with hypernatraemia (e.g. due to dehydration, diabetes insipidus)",
-      "Hyperchloraemic metabolic acidosis (e.g. due to alimentary loss of bicarbonate, renal tubular acidosis)",
-      "Hyperaldosteronism",
-      "Potassium chloride (KCl) in fluid therapy",
-      "Respiratory alkalosis",
-      "Spurious: bromide therapy (interferes with assay)"
+      "Паралелно с хипернатриемия (например поради обезводняване, диабет инсипидус).",
+      "Хиперхлоремична метаболитна ацидоза (например поради алиментарна загуба на бикарбонати, бъбречна тубуларна ацидоза).",
+      "Хипералдостеронизъм.",
+      "Калиев хлорид (KCl) във флуидна терапия.",
+      "Респираторна алкалоза.",
+      "Липси: бромидна терапия (пречи на анализа)."
     ],
     "decreaseWhen": [
-      "In association with hyponatraemia (see sodium)",
-      "Hypoadrenocorticism",
-      "Metabolic alkalosis due to loss of hydrogen chloride (HCl) in gastric vomiting",
-      "High anion gap metabolic acidosis (e.g. ketoacidosis, lactic acidosis)",
-      "Chronic respiratory acidosis",
-      "Furosemide and thiazides"
+      "В асоциация с хипонатриемия (вижте натрия).",
+      "Хипоадренокортицизъм.",
+      "Метаболитна алкалоза поради загуба на натриев хлорид (HCl) при повръщане на съдържание от стомаха.",
+      "Метаболитна ацидоза с висок анионен разлик (например кетоацидоза, лактична ацидоза).",
+      "Хронична респираторна ацидоза.",
+      "Фуроземид и тиазиди."
     ]
   },
   {
@@ -800,13 +870,13 @@
     "title": "Магнезий",
     "description": "",
     "increaseWhen": [
-      "Renal failure (prerenal, renal or postrenal azotaemia)",
-      "Intravascular haemolysis"
+      "Бъбречна недостатъчност (преренална, ренална или постренална азотемия).",
+      "Интраваскуларна хемолиза."
     ],
     "decreaseWhen": [
-      "Hypoproteinaemia",
-      "Acute or chronic diarrhoea",
-      "Diabetes mellitus, especially with ketoacidosis"
+      "Хипопротеинемия.",
+      "Остра или хронична диария.",
+      "Захарен диабет, особено с кетоацидоза."
     ]
   },
   {
@@ -815,37 +885,37 @@
     "title": "Калий",
     "description": "",
     "increaseWhen": [
-      "Acute oliguric or anuric renal failure",
-      "Urinary tract obstruction or rupture",
-      "Hypoadrenocorticism",
-      "Severe diarrhoea, e.g. due to trichuriasis (pseudohypoadrenocorticism)",
-      "Metabolic acidosis",
-      "Tumour lysis syndrome",
-      "Rhabdomyolysis or tissue necrosis",
-      "Drug therapy: Spironolactone",
-      "Drug therapy: ACE inhibitors",
-      "Drug therapy: Heparin",
-      "Drug therapy: Mitotane",
-      "Drug therapy: KCl in intravenous fluids",
-      "Drug therapy: Transfusions",
-      "Hypoaldosteronism",
-      "Repeated drainage of chylous thoracic effusions",
-      "Peritoneal effusions in cats",
-      "Spurious: marked thrombocytosis or leucocytosis; haemolysis (Japanese Akitas); EDTA contamination of sample"
+        "Остра бъбречна недостатъчност с олигурия или анурия.",
+        "Обструкция или разкъсване на уринарния тракт.",
+        "Хипоадренокортицизъм.",
+        "Силна диария, напр. поради трихуриаза (псевдохипоадренокортицизъм).",
+        "Метаболна ацидоза.",
+        "Тумор лизис синдром.",
+        "Рабдомиолиза или тъканна некроза.",
+        "Лекарствена терапия: Спиронолактон.",
+        "Лекарствена терапия: АCE инхибитори.",
+        "Лекарствена терапия: Хепарин.",
+        "Лекарствена терапия: Митотан.",
+        "Лекарствена терапия: KCl във венозни течности.",
+        "Лекарствена терапия: Трансфузии.",
+        "Хипоалдостеронизъм.",
+        "Повтарящи се дренажи на гръдната кухина заради хилусна течност.",
+        "Перитонеални ефузии при котки.",
+        "Липси: значителна тромбоцитоза или левкоцитоза; хемолиза (японски акити); замърсяване на пробата с EDTA."
     ],
     "decreaseWhen": [
-      "Anorexia",
-      "Fluid therapy using low potassium fluids",
-      "Vomiting and/or diarrhoea",
-      "Chronic renal failure",
-      "Diabetic ketoacidosis",
-      "Initial insulin therapy of diabetes mellitus (especially ketoacidotic)",
-      "Hyperaldosteronism (Conn’s syndrome)",
-      "Acute hyperventilation (respiratory alkalosis)",
-      "Hypokalaemic myopathy of Burmese cats",
-      "Drug therapy: Furosemide",
-      "Drug therapy: Thiazides",
-      "Fanconi syndrome"
+        "Анорексия.",
+        "Флудна терапия с ниско съдържание на калий.",
+        "Повръщания и/или диария.",
+        "Хронична бъбречна недостатъчност",
+        "Диабетна кетоацидоза",
+        "Начална инсулинова терапия на диабет mellitus (особено кетоацидотична)",
+        "Хипералдостеронизъм (Синдром на Кон, Conn’s syndrome).",
+        "Остра хипервентилация (респираторна алкалоза).",
+        "Хипокалиемична миопатия при бурмански котки.",
+        "Лекарствена терапия: Фуроземид.",
+        "Лекарствена терапия: Тиазиди.",
+        "Синдром на Фанкони."
     ]
   },
   {
@@ -854,30 +924,30 @@
     "title": "Натрий",
     "description": "",
     "increaseWhen": [
-      "Osmotic diarrhoea",
-      "Diabetes mellitus",
-      "Central diabetes insipidus",
-      "Nephrogenic diabetes insipidus",
-      "Primary adipsia",
-      "Heatstroke",
-      "Burns or extensive degloving injury",
-      "Water deprivation",
-      "Hypertonic intravenous fluid therapy/increased salt intake",
-      "Hyperaldosteronism",
-      "Sodium bicarbonate therapy"
+        "Осмотична диария.",
+        "Захарен диабет.",
+        "Централен диабет инсипидус.",
+        "Нефрогенен диабет инсипидус.",
+        "Първична адипсия.",
+        "Топлинен удар.",
+        "Изгаряния или обширни наранявания.",
+        "Липса на вода.",
+        "Хипертонична венозна терапия/увеличено приемане на сол.",
+        "Хипералдостеронизъм.",
+        "Терапия с натриев бикарбонат."
     ],
     "decreaseWhen": [
-      "Hypoadrenocorticism",
-      "Vomiting or diarrhoea",
-      "Third-space loss of fluid: pleural effusion or peritoneal effusion",
-      "Volume overload associated with congestive heart failure, liver disease, nephrotic syndrome, hypotonic fluid administration",
-      "Diuretics (e.g. thiazide)",
-      "Diabetes mellitus with marked hyperglycaemia and/or ketoacidosis",
-      "Mannitol infusion",
-      "Fanconi syndrome",
-      "Syndrome of inappropriate antidiuretic hormone secretion (SIADH)",
-      "Psychogenic polydipsia",
-      "Spurious: lipaemia"
+        "Хипоадренокортицизъм.",
+        "Повръщане или диария.",
+        "Загуба на течности в пространствоа: плеврален излив или перитонеален излив.",
+        "Претоварване, свързано със сърдечна недостатъчност, бъбречна болест, нефротичен синдром, хипотонична венозна терапия.",
+        "Диуретици (напр. тиазиди).",
+        "Захарен диабет с изразена хипергликемия и/или кетоацидоза.",
+        "Инфузия с манитол.",
+        "Синдром на Фанкони.",
+        "Синдром на неадекватна секреция на антидиуретичен хормон (SIADH, Syndrome of inappropriate antidiuretic hormone secretion).",
+        "Психогенна полидипсия.",
+        "Липемия."
     ]
   },
   {
@@ -886,12 +956,10 @@
     "title": "Гама-глутамилтрансфераза (GGT)",
     "description": "",
     "increaseWhen": [
-      "Cholestasis:",
-      "Intrahepatic (e.g cholangiohepatitis, neoplasia)",
-      "Posthepatic (e.g. pancreatitis, cholangitis, cholelithiasis)",
-      "Drug-induced:",
-      "Corticosteroids",
-      "Phenobarbital"
+        "Холестаза:",
+        "Ренална (напр. холангиохепатит, неоплазия).",
+        "Постренална (напр. панкреатит, холангит, холелитаза).",
+        "Медикаментозно-индуцирана: Кортикостероиди, Фенобарбитал"
     ],
     "decreaseWhen": []
   },
@@ -901,17 +969,17 @@
     "title": "Триглицериди",
     "description": "",
     "increaseWhen": [
-      "Postprandial",
-      "Diabetes mellitus",
-      "Hypothyroidism",
-      "Hyperadrenocorticism",
-      "Oestrogens",
-      "Acute pancreatitis",
-      "Idiopathic/familial hyperlipoproteinaemia"
+        "След хранене",
+        "Диабет mellitus",
+        "Хипотиреоз",
+        "Хиперадренокортицизъм",
+        "Естрогени",
+        "Остър панкреатит",
+        "Идиопатична/семейна хиперлипопротеинемия"
     ],
     "decreaseWhen": [
-      "Hypotriglyceridaemia",
-      "Drug therapy: heparin"
+        "Хипотриглицеридемия",
+        "Лекарствена терапия: хепарин"
     ]
   },
   {
@@ -920,43 +988,40 @@
     "title": "Глюкоза",
     "description": "",
     "increaseWhen": [
-      "Hyperglycaemia",
-      "Stress (especially cats)",
-      "Diabetes mellitus",
-      "Hyperadrenocorticism",
-      "Growth hormone excess",
-      "Dioestrus",
-      "Pancreatitis",
-      "Neuroendocrine tumour, e.g. glucagonoma",
-      "Drugs: intravenous glucose; alpha-2 agonists (e.g. medetomidine); ketamine, propofol, progestagens",
-      "Ethylene glycol toxicity",
-      "Postprandial (mild)",
-      "Spurious: lipaemia"
+        "Хипергликемия.",
+        "Стрес (особено при котки).",
+        "Захарен диабет.",
+        "Хиперадренокортицизъм.",
+        "Прекомерно количество хормон на растежа.",
+        "Диеструс.",
+        "Панкреатит.",
+        "Невроендокринна туморна лезия, напр. глюкагоном.",
+        "Лекарства: интравенозна глюкоза; алфа-2 агонисти (напр. медетомидин); кетамин, пропофол, прогестагени.",
+        "Токсичност от етиленгликол.",
+        "След хранене (лека).",
+        "Липемия."
     ],
     "decreaseWhen": [
-      "Hypoglycaemia",
-      "Toy breeds",
-      "Neonates",
-      "Starvation",
-      "Bacteraemia/septicaemia",
-      "Parvovirus and other severe GI infections",
-      "Hypoadrenocorticism",
-      "Insulinoma",
-      "Hepatic and GI smooth muscle tumours",
-      "Renal failure",
-      "Liver failure (severe)",
-      "Portosystemic shunt",
-      "Cachexia (cardiac or neoplastic)",
-      "Seizure activity",
-      "Glycogen storage disease",
-      "Drugs: insulin overdose, ethanol, salicylates, propanolol",
-      "Xylitol ingestion",
-      "Artefact: delay in processing",
-      "Polycythaemia and leucocytosis (may only be relevant in cases of delayed sample separation)"
+        "Хипогликемия.",
+        "Породи кучета играчки.",
+        "Новородени.",
+        "Глад.",
+        "Бактериемия/сепсис.",
+        "Парвовироза и други тежки гастроинтестинални инфекции.",
+        "Хипоадренокортицизъм.",
+        "Инсулином.",
+        "Хепатични и ГИ тумори на гладките мускули.",
+        "Бъбречна недостатъчност.",
+        "ЧД недостатъчност (тежка).",
+        "Портосистемен шънт.",
+        "Кахексия (сърдечна или неопластична).",
+        "Припадъци.",
+        "Заболяване на гликогеновия метаболизъм.",
+        "Лекарства: прекомерни дози инсулин, етанол, салицилати, пропанолол.",
+        "Поглъщане на ксилитол.",
+        "Артефакт: забавяне в обработката.",
+        "Полицитемия и левкоцитоза (важни са само при случаи на забавена сепарация на пробата)."
     ]
   }
-
-
-
 
 ]
