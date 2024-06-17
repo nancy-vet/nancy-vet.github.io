@@ -6273,18 +6273,18 @@
     "application": {
       "dog": {
         "activeSubstanceDose": [
-          0
+          2
         ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "q24h с храна"
       }
     },
     "links": [
       { "title": "листовка",  "link": "pdfs/@medication/endocrine/vetoril.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/trilostane.pdf" }
     ],
-    "indications"       : [],
-    "contraindications" : [],
+    "indications"       : ["Лечение на хипофизно-зависим и надбъбречно-зависим хиперадренокортицизъм (болест и синдром на Кушинг)."],
+    "contraindications" : ["Да не се използва при животни, страдащи от първично чернодробно заболяване и/или бъбречна недостатъчност.", "Да не се използва при кучета с телесна маса под 10 kg."],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
@@ -8198,6 +8198,31 @@
                             "36-ия час след първоначалната доза – 5 мг/кг ИВ;",
                             "При необходимост да се даде още 5 мг/кг ИВ;",
                             "КТ: Първоначална доза – 125 мг/кг бавно ИВ; На 12-ия, 24-ия и 36-ия час след първоначалната доза – 31,25 мг/кг ИВ"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Диамел Петс",
+    "titleEn": "Diamel Pets",
+    "activeSubstance": "червена боровинка, малтодекстрин, Витамини C, B6 и B12, фолиева киселина, цинков сулфат, Л-карнитин, калциев D-пантотенат, аргинин, глицин, Л-цестеин, орнитин, фумарова киселина",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "ml_5_kg",
+        "applicationMethod": "q12h"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/others/diamel-pets.pdf" }
+    ],
+    "indications"       : ["стимулира продукцията на инсулин и предпазва от усложненията на диабета."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
