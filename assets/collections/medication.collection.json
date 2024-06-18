@@ -96,13 +96,14 @@
       }
     },
     "links" : [
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/metoclopramide.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/degan.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/metoclopramide.pdf" }
     ],
-    "indications"       : ["It has been used clinically for gastric stasis disorders, gastroesophageal reflux, to allow intubation of the small intestine, as a general antiemetic (for parvovirus, uremic gastritis, etc.), and an antiemetic to prevent or treat chemotherapy-induced vomiting."],
-    "contraindications" : ["Metoclopramide is contraindicated in patients with GI hemorrhage, obstruction or perforation, and in those hypersensitive to it. It is relatively contraindicated in patients with seizure disorders. In patients with pheochromocytoma, metoclopramide may induce a hypertensive crisis."],
+    "indications"       : ["Използва се при гастропареза, гастроезофагеален рефлукс, за позволяване на ендоскопия на тънкото черво, като общ антиеметик (за парвовирус, уремичен гастрит и др.) и антиеметик за предотвратяване или при лечение на химиотерапия-индуцирано повръщане."],
+    "contraindications" : ["Метоклопрамид е противопоказан при пациенти с кръвоизлив от стомашно-чревния тракт, обструкция или перфорация, както и при тези с повишена чувствителност към него. Противопоказан е при пациенти с гърчови разстройства. При пациенти с феохромоцитом той може да предизвика хипертонична криза."],
     "drugInteractions"  : [],
-    "adverseEffects"    : ["changes in mentation and behavior (motor restless and hyperactivity to drowsiness/depression)", " frenzied behavior or disorientation in cats", "constipation"],
-    "pharmacology"      : ["stimulates motility of the upper GI without stimulating gastric, pancreatic or biliary secretions", "In the CNS, metoclopramide apparently antagonizes dopamine"]
+    "adverseEffects"    : ["Промени в менталното състояние и поведението (хиперактивност до сънливост/депресия)", "безумно поведение или дезориентация при котки", "запек"],
+    "pharmacology"      : ["стимулира мотилитета на горния стомашно-чревен тракт без да стимулира стомашната, панкреатичната или билиарната секреция", "В ЦНС метоклопрамид антагонизира допамина"]
   },
   {
     "type": "gastrointestinal",
@@ -121,10 +122,11 @@
       }
     },
     "links" : [
-      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ondansetron.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/zofran.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/ondansetron.pdf" }
     ],
-    "indications"       : ["The use of ondansetron in cats is somewhat controversial and some state it should not be used in this species.", "Used as an antiemetic when conventional antiemetics are ineffective."],
-    "contraindications" : ["Use with caution in patients with hepatic dysfunction as half-life may be prolonged.", "Because ondansetron is potentially a neurotoxic substrate of P-glycoprotein, it should be used with caution in those herding breeds (e.g., Collies, Shelties, Australian shepherds, etc.) that may have the gene mutation that causes a nonfunctional protein."],
+    "indications"       : ["Употребата на ондансетрон при котки е донякъде противопоказана и някои твърдят, че не трябва да се използва при този вид.", "Използва се като антиеметик, когато конвенционалните антиеметици са неефективни."],
+    "contraindications" : ["Използвайте с повишено внимание при пациенти с чернодробно заболяване, тъй като полуживотът може да бъде удължен.", "Понеже ондансетрон е потенциално невротоксичен субстрат на P-гликопротеина, той трябва да се използва с повишено внимание при тези породи пастирски кучета (напр. коли, шелти, австралийски овчарки и др.), които може да имат генетична мутация, причиняваща нефункционален протеин."],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
@@ -149,8 +151,8 @@
       { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/ondansentron.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/ondansetron.pdf" }
     ],
-    "indications"       : ["The use of ondansetron in cats is somewhat controversial and some state it should not be used in this species.", "Used as an antiemetic when conventional antiemetics are ineffective."],
-    "contraindications" : ["Use with caution in patients with hepatic dysfunction as half-life may be prolonged.", "Because ondansetron is potentially a neurotoxic substrate of P-glycoprotein, it should be used with caution in those herding breeds (e.g., Collies, Shelties, Australian shepherds, etc.) that may have the gene mutation that causes a nonfunctional protein."],
+    "indications"       : ["Употребата на ондансетрон при котки е донякъде противопоказана и някои твърдят, че не трябва да се използва при този вид.", "Използва се като антиеметик, когато конвенционалните антиеметици са неефективни."],
+    "contraindications" : ["Използвайте с повишено внимание при пациенти с чернодробно заболяване, тъй като полуживотът може да бъде удължен.", "Понеже ондансетрон е потенциално невротоксичен субстрат на P-гликопротеина, той трябва да се използва с повишено внимание при тези породи пастирски кучета (напр. коли, шелти, австралийски овчарки и др.), които може да имат генетична мутация, причиняваща нефункционален протеин."],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
@@ -175,16 +177,16 @@
       { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/nolpaza.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/pantoprazole.pdf" }
     ],
-    "indications"       : ["Pantoprazole has been shown to directly reduce in vitro counts of H. pylori and is used in some H. pylori treatment protocols for humans. Tablets must be given whole; do not split or crush"],
-    "contraindications" : ["do not give IM or SQ"],
-    "drugInteractions"  : ["Drugs requiring decreased gastric PH for optimal absorption (e.g., ketoconazole, itraconazole, iron, ampicillin esters): Pantoprazole may decrease drug absorption", "Sucralfate: May decrease bioavailability of orally administered pantoprazole"],
+    "indications"       : ["Инхибитор на протонната помпа, близък до омепразола. Доказано е че пантопразолът директно намалява in vitro броя на H. pylori и се използва в някои случаи за лечение на H. pylori при хора. Таблетките трябва да се дават цели; не ги разделяйте или смачквайте"],
+    "contraindications" : ["не давайте IM или SQ"],
+    "drugInteractions"  : ["Лекарства, изискващи намалено стомашно pH за оптимална абсорбция (напр. кетоконазол, итраконазол, желязо, естери на ампицилин): Пантопразолът може да намали абсорбцията на лекарствата.", "Сукралфат: Може да намали бионаличността на перорално прилагания пантопразол"],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
   {
     "type": "gastrointestinal",
     "title": "Панразол 20 мг табл.",
-    "titleEn": "Oanrazol 20 mg tabl",
+    "titleEn": "Panrazol 20 mg tabl",
     "activeSubstance": "пантопразол",
     "drugConcentration": 20,
     "drugConcentrationDecorator": "mg_tabl",
@@ -202,9 +204,9 @@
       { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/panrazol.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/pantoprazole.pdf" }
     ],
-    "indications"       : ["Proton pump inhibitor similar to omeprazole; also available in IV dosage form."],
-    "contraindications" : [],
-    "drugInteractions"  : [],
+    "indications"       : ["Инхибитор на протонната помпа, близък до омепразола. Доказано е че пантопразолът директно намалява in vitro броя на H. pylori и се използва в някои случаи за лечение на H. pylori при хора. Таблетките трябва да се дават цели; не ги разделяйте или смачквайте"],
+    "contraindications" : ["не давайте IM или SQ"],
+    "drugInteractions"  : ["Лекарства, изискващи намалено стомашно pH за оптимална абсорбция (напр. кетоконазол, итраконазол, желязо, естери на ампицилин): Пантопразолът може да намали абсорбцията на лекарствата.", "Сукралфат: Може да намали бионаличността на перорално прилагания пантопразол"],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -229,8 +231,8 @@
       { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/sopral.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/omeprazole.pdf" }
     ],
-    "indications"       : ["Proton pump inhibitor used for GI ulcers & erosions"],
-    "contraindications" : [" Known hypersensitivity; may need to adjust dosage with hepatic or renal disease"],
+    "indications"       : ["Инхибитор на протонната помпа, използван за стомашно-чревни язви и ерозии"],
+    "contraindications" : ["Известна свръхчувствителност; може да се наложи коригиране на дозата при чернодробно или бъбречно заболяване"],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
@@ -280,9 +282,9 @@
       { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/quamatel.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/famotidine.pdf" }
     ],
-    "indications"       : ["In veterinary medicine, famotidine may be useful for the treatment and/or pro phylaxis of gastric, abomasal and duodenal ulcers, uremic gastritis, stress-related or drug-induced erosive gastritis, esophagitis, duodenal gastric reflux, and esophageal reflux."],
-    "contraindications" : ["Famotidine should be used cautiously in geriatric patients and patients with significantly impaired hepatic or renal function. Consider dosage reduction in patients with significant renal dysfunction. Famotidine may have negative inotropic effects and have some cardioarrhythmogenic properties. Use with caution in patients with cardiac disease."],
-    "drugInteractions"  : ["Azole antifungals (ketoconazole, itraconazole, fluconazole): By raising gastric ph, famotidine may decrease the absorption of these agents; if both drugs are required, administer the azole one hour prior to famotidine", "Cefpodoxime, cefuroxime: Famotidine may decrease the absorption of these cephalosporins; taking with food may alleviate this effect", "Iron salts (oral): Famotidine may decrease the absorption of oral iron;"],
+    "indications"       : ["Във ветеринарната медицина фамотидин се използва за лечение и/или профилактика на стомашни, абомазални и дуоденални язви, уремичен гастрит, стрес-индуциран или медикаментозно-индуциран ерозивен гастрит, езофагит, дуоденален стомашен рефлукс и езофагеален рефлукс."],
+    "contraindications" : ["Фамотидин трябва да се използва с повишено внимание при гериатрични пациенти и пациенти със значително увредена чернодробна или бъбречна функция. Обмислете намаляване на дозата при пациенти със значителна бъбречна дисфункция. Фамотидин може да има негативни инотропни ефекти и някои кардиоаритмогенни свойства. Използвайте с повишено внимание при пациенти със сърдечно заболяване."],
+    "drugInteractions"  : ["Азолови антимикотици (кетоконазол, итраконазол, флуконазол): Повишавайки стомашното pH, фамотидин може да намали абсорбцията на тези агенти; ако и двете лекарства са необходими, прилагайте азола един час преди фамотидина", "Цефподоксим, цефуроксим: Фамотидин може да намали абсорбцията на тези цефалоспорини; приемането с храна може да облекчи този ефект", "Железни соли (перорално): Фамотидин може да намали абсорбцията на пероралното желязо;"],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -306,9 +308,9 @@
       { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/famotidin-alkaloid.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/famotidine.pdf" }
     ],
-    "indications"       : ["In veterinary medicine, famotidine may be useful for the treatment and/or pro phylaxis of gastric, abomasal and duodenal ulcers, uremic gastritis, stress-related or drug-induced erosive gastritis, esophagitis, duodenal gastric reflux, and esophageal reflux."],
-    "contraindications" : ["Famotidine should be used cautiously in geriatric patients and patients with significantly impaired hepatic or renal function. Consider dosage reduction in patients with significant renal dysfunction. Famotidine may have negative inotropic effects and have some cardioarrhythmogenic properties. Use with caution in patients with cardiac disease."],
-    "drugInteractions"  : ["Azole antifungals (ketoconazole, itraconazole, fluconazole): By raising gastric ph, famotidine may decrease the absorption of these agents; if both drugs are required, administer the azole one hour prior to famotidine", "Cefpodoxime, cefuroxime: Famotidine may decrease the absorption of these cephalosporins; taking with food may alleviate this effect", "Iron salts (oral): Famotidine may decrease the absorption of oral iron;"],
+    "indications"       : ["Във ветеринарната медицина фамотидин се използва за лечение и/или профилактика на стомашни, абомазални и дуоденални язви, уремичен гастрит, стрес-индуциран или медикаментозно-индуциран ерозивен гастрит, езофагит, дуоденален стомашен рефлукс и езофагеален рефлукс."],
+    "contraindications" : ["Фамотидин трябва да се използва с повишено внимание при гериатрични пациенти и пациенти със значително увредена чернодробна или бъбречна функция. Обмислете намаляване на дозата при пациенти със значителна бъбречна дисфункция. Фамотидин може да има негативни инотропни ефекти и някои кардиоаритмогенни свойства. Използвайте с повишено внимание при пациенти със сърдечно заболяване."],
+    "drugInteractions"  : ["Азолови антимикотици (кетоконазол, итраконазол, флуконазол): Повишавайки стомашното pH, фамотидин може да намали абсорбцията на тези агенти; ако и двете лекарства са необходими, прилагайте азола един час преди фамотидина", "Цефподоксим, цефуроксим: Фамотидин може да намали абсорбцията на тези цефалоспорини; приемането с храна може да облекчи този ефект", "Железни соли (перорално): Фамотидин може да намали абсорбцията на пероралното желязо;"],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -341,7 +343,7 @@
       { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/antepsin.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/sucralfate.pdf" }
     ],
-    "indications"       : ["Sucralfate has been used in the treatment of oral, esophageal, gastric, and duodenal ulcers. It has also been employed to prevent drug-induced (e.g., aspirin) gastric erosions, but efficacy for this is somewhat sporadic. Sucralfate has been used in human patients with hyperphosphatemia secondary to renal failure and potentially could be useful for this in animals as well."],
+    "indications": ["Сукралфат се използва при лечение на орални, езофагеални, стомашни и дуоденални язви. Също така се използва за предотвратяване на медикаментозно-индуцирани (например от аспирин) стомашни ерозии, но ефективността му за това е спорна. Сукралфат се използва при хора с хиперфосфатемия, вторична на бъбречна недостатъчност и може да бъде полезен и за животни."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -376,11 +378,10 @@
       { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/imodium.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/loperamide.pdf" }
     ],
-    "indications"       : ["Synthetic opiate GI motility modifier.", "Use of antidiarrheal opiates in cats is controversial; this species may react with excitatory behavior."],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : ["Constipation, bloat, & sedation."],
-    "pharmacology"      : []
+    "indications": ["Синтетичен опиатен модификатор на мотилитета на гтомашно-чревния тракт.", "Използването на антидиарийни опиати при котки е противопоказано; този вид може да реагира с безпокойство."],
+    "contraindications": [],
+    "drugInteractions": [],
+    "adverseEffects": ["Запек, подуване и седация."]
   },
   {
     "type": "gastrointestinal",
@@ -402,7 +403,7 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/zirid.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["Стимулира мотилитета на стомашно-чревния тракт, както чрез анти-допаминергични, така и чрез анти-ацетилхолинестеразни взаимодействия."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -428,10 +429,10 @@
       { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/laktuloza.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/lactulose.pdf" }
     ],
-    "indications"       : ["The primary use of lactulose in veterinary medicine is to reduce ammonia blood levels in the prevention and treatment of hepatic encephalopathy (portal-systemic encephalopathy; PSE) in small animals and pet birds. It is also used as a laxative in small animals."],
-    "contraindications" : ["Lactulose syrup contains some free lactose and galactose, and may alter the insulin requirements in diabetic patients. In patients with preexisting fluid and electrolyte imbalances, lactulose may exacerbate these conditions if it causes diarrhea; use cautiously."],
-    "drugInteractions"  : ["Antacids", "Laxatives", "neomycin"],
-    "adverseEffects"    : ["Signs of flatulence, gastric distention, cramping, etc. are not uncommon early in therapy, but generally abate with time. Diarrhea and dehydration are signs of overdosage; dosage should be reduced. Cats dislike the taste of lactulose and administration may be difficult."],
+    "indications": ["Основната употреба на лактулоза във ветеринарната медицина е за намаляване на нивата на амоняк в кръвта при предотвратяване и лечение на чернодробна енцефалопатия (портосистемна енцефалопатия; ПСЕ) при малки животни и домашни птици. Също така се използва като лаксатив при малки животни."],
+    "contraindications": ["Лактулозният сироп съдържа малко свободна лактоза и галактоза и може да промени инсулиновите изисквания при пациенти със захарен диабет. При пациенти с предварително съществуващ дисбаланс на течности и електролити лактулозата може да влоши тези състояния, ако предизвика диария; използвайте внимателно."],
+    "drugInteractions": ["Антациди", "Лаксативи", "Неомицин"],
+    "adverseEffects": ["Признаци на метеоризъм, дилатация на стомаха, спазми и др. не са необичайни в началото на терапията, но обикновено отшумяват с времето. Диария и дехидратация са признаци на предозиране; дозата трябва да се намали. Котките не харесват вкуса на лактулоза и прилагането може да бъде трудно."],
     "pharmacology"      : []
   },
   {
@@ -454,10 +455,10 @@
       { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/dufalak.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/lactulose.pdf" }
     ],
-    "indications"       : ["The primary use of lactulose in veterinary medicine is to reduce ammonia blood levels in the prevention and treatment of hepatic encephalopathy (portal-systemic encephalopathy; PSE) in small animals and pet birds. It is also used as a laxative in small animals."],
-    "contraindications" : ["Lactulose syrup contains some free lactose and galactose, and may alter the insulin requirements in diabetic patients. In patients with preexisting fluid and electrolyte imbalances, lactulose may exacerbate these conditions if it causes diarrhea; use cautiously."],
-    "drugInteractions"  : ["Antacids", "Laxatives", "neomycin"],
-    "adverseEffects"    : ["Signs of flatulence, gastric distention, cramping, etc. are not uncommon early in therapy, but generally abate with time. Diarrhea and dehydration are signs of overdosage; dosage should be reduced. Cats dislike the taste of lactulose and administration may be difficult."],
+    "indications": ["Основната употреба на лактулоза във ветеринарната медицина е за намаляване на нивата на амоняк в кръвта при предотвратяване и лечение на чернодробна енцефалопатия (портосистемна енцефалопатия; ПСЕ) при малки животни и домашни птици. Също така се използва като лаксатив при малки животни."],
+    "contraindications": ["Лактулозният сироп съдържа малко свободна лактоза и галактоза и може да промени инсулиновите изисквания при пациенти със захарен диабет. При пациенти с предварително съществуващ дисбаланс на течности и електролити лактулозата може да влоши тези състояния, ако предизвика диария; използвайте внимателно."],
+    "drugInteractions": ["Антациди", "Лаксативи", "Неомицин"],
+    "adverseEffects": ["Признаци на метеоризъм, дилатация на стомаха, спазми и др. не са необичайни в началото на терапията, но обикновено отшумяват с времето. Диария и дехидратация са признаци на предозиране; дозата трябва да се намали. Котките не харесват вкуса на лактулоза и прилагането може да бъде трудно."],
     "pharmacology"      : []
   },
   {
@@ -480,8 +481,8 @@
     "links": [
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/psyllium.pdf" }
     ],
-    "indications"       : ["Psyllium, which is derived from seeds of Plantago spp plants, provides predominantly soluble dietary fiber that can increase digesta viscosity or form mucilaginous gels in water at sufficient concentration.11 Psyllium is less rapidly fermented in the colon compared with other soluble dietary fiber, which benefits the distal colon by allowing fermentation to occur there.", "Psyllium increases concentrations of short-chain fatty acids, which are beneficial in restoring microbial balance and acidifying colonic contents.", "Patients with no change after receiving doses at the upper end of the published effective range (ie, 4.9 g/kg q24h) are considered nonresponsive.", "Typically start with the lower dose, dividing the dose over daily meals, and increase the dose slowly as needed.", "Изсипете предписаното количество в чаша вода (сок, кисело мляко), разбъркайте енергично и изпийте веднага. Приема се 30 минути преди хранене"],
-    "contraindications" : ["constipation is a result a too little fiber in their diets or when straining to defecate may be deleterious", "used to increase stool consistency in patients with chronic, watery diarrhea. The total amount of water in the stool remains unchanged."],
+    "indications": ["Псилиум, който се извлича от семената на растения от рода Plantago, предоставя предимно разтворими фибри, които могат да увеличат вискозитета на храносмилателната маса или да образуват слузести гелове във вода при достатъчна концентрация. Псилиумът ферментира по-бавно в дебелото черво в сравнение с други разтворими фибри, което благоприятства дебелото черво, като позволява ферментацията да се осъществява там.", "Псилиумът увеличава концентрациите на късоверижни мастни киселини, които са полезни за възстановяване на микробния баланс и подкиселяване на съдържанието на дебелото черво.", "Пациентите, които не показват промяна след получаване на максималната позволена доза (например 4.9 г/кг на всеки 24 часа), се считат за резистентни.", "Започнете с по-ниската доза, разделяйки дозата на дневни хранения, и увеличавайте дозата бавно според нуждите.", "Изсипете предписаното количество в чаша вода (сок, кисело мляко), разбъркайте енергично и изпийте веднага. Приема се 30 минути преди хранене."],
+    "contraindications": ["Запекът е резултат от твърде малко фибри в диетата или когато опитите за дефекация може да бъдат вредни", "Използва се за увеличаване на консистенцията на изпражненията при пациенти с хронична, водниста диария. Общото количество вода в изпражненията остава непроменено."],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
@@ -530,8 +531,8 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/fortiflora.pdf" }
     ],
-    "indications"       : [],
-    "contraindications" : [],
+    "indications"       : ["пробиотик"],
+    "contraindications" : ["Не се прилага наведнъж с антибиотик, но се прилага паралелно с антибиотичното лечение."],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
@@ -722,9 +723,9 @@
       { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/ursofalk.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/ursodiol.pdf" }
     ],
-    "indications"       : ["In small animals, ursodiol may be useful as adjunctive therapy for the medical management of cholesterol-containing gallstones and/or in patients with chronic liver disease, particularly where cholestasis (bile toxicity) plays an important role. Ursodiol’s benefit in treating canine or feline hepatobiliary disease is unknown at the time of writing (studies are ongoing), but it may be of help in slowing the progression of inflammatory hepatic disorders, particularly autoimmune hepatitis and acute hepatotoxicity."],
-    "contraindications" : ["The benefits of using ursodiol should be weighed against its risks in patients with complications associated with gallstones (e.g., biliary obstruction, biliary fistulas, cholecystitis, pancreatitis, cholangitis). While ursodiol may be useful in treating patients with chronic liver disease, some patients may experience further impairment of bile acid metabolism."],
-    "drugInteractions"  : ["Aluminum-containing antacids: May bind to ursodiol, thereby reducing its efficacy", "Cholestyramine resin: May bind to ursodiol, thereby reducing its efficacy."],
+    "indications": ["При малки животни урзодиол (още урзодезоксихолева киселина) се използва като допълваща терапия за холестерол-съдържащи жлъчни камъни и/или при пациенти с хронично чернодробно заболяване, особено при наличие на холестаза. Ползата от урзодиол при лечението на хепатобилиарно заболяване при кучета или котки не е известна към момента на писане (проучванията продължават), но може да помогне за забавяне на прогресията на възпалителни чернодробни заболявания, особено при автоимунен хепатит и остра хепатотоксичност."],
+    "contraindications": ["Повишено внимание при пациенти с усложнения, свързани със жлъчни камъни (например билиарна обструкция, билиарни фистули, холецистит, панкреатит, холангит). Докато урзодиол може да бъде полезен при лечение на пациенти с хронично чернодробно заболяване, някои пациенти могат да изпитат допълнително влошаване на метаболизма на жлъчните киселини."],
+    "drugInteractions": ["Антациди, съдържащи алуминий: Може да се свържат с урзодиол, като по този начин намаляват неговата ефективност", "Колестираминови смоли: Може да се свържат с урзодиол, като по този начин намаляват неговата ефективност."],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -992,7 +993,7 @@
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/butorphanol.pdf" }
     ],
     "indications"       : [],
-    "contraindications" : ["Contraindicated or caution in patients with liver disease, hypothyroidism, or renal insufficiency, Addison’s, head trauma, increased CSF pressure or other CNS dysfunction (e.g., coma) & in geriatric or severely debilitated patients "],
+    "contraindications" : ["Противопоказан или с повишено внимание при пациенти с чернодробно заболяване, хипотиреоидизъм или бъбречна недостатъчност, Адисонова болест, черепно-мозъчна травма, повишено вътречерепно налягане или друга дисфункция на ЦНС (например кома) и при гериатрични или силно отслабени пациенти."],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
@@ -1237,7 +1238,7 @@
     "indications"       : ["Неселективен бета-блокер. Клас 3 антиаритмичен за вентрикуларна тахикардия."],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : ["negative inotropism & pro-arrhythmic but dyspnea/bronchospasm, fatigue/dizziness, & nausea/vomiting possible"],
+    "adverseEffects"    : ["отрицателен инотропен ефект и проаритмичен ефект; възможна е появата на диспнея/бронхоспазъм, умора/световъртеж и гадене/повръщане"],
     "pharmacology"      : []
   },
   {
@@ -1601,10 +1602,10 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/cardiovascular/mannitol.pdf" }
     ],
-    "indications"       : ["Osmotic diuretic used for acute oliguric renal failure, to reduce intraocular & intracere bral pressures, to enhance urinary excretion of some toxins &, with other diuretics, to rapidly reduce edema or ascites (caution)"],
-    "contraindications" : ["Anuria secondary to renal disease, severe dehydration, intracranial bleeding (unless during craniotomy), severe pulmonary congestion, or pulmonary edema"],
-    "drugInteractions"  : [],
-    "adverseEffects"    : ["Fluid & electrolyte imbalances, gI (nausea, vomiting), cardiovascu lar (pulmonary edema, CHF, tachycardia), & CNs effects (dizziness, headache, etc.)"],
+    "indications": ["Осмотичен диуретик, използван при остра бъбречна недостатъчност с олигурия, за намаляване на вътреочното и вътремозъчното налягане, за повишаване на отделянето на някои токсини с урината и заедно с други диуретици за бързо намаляване на отока или асцита (с повишено внимание)."],
+    "contraindications": ["Анурия, вторично възникнала след бъбречно заболяване, тежка дехидратация, вътречерепно кървене (освен по време на краниотомия), тежка белодробна конгестия или белодробен оток"],
+    "drugInteractions": [],
+    "adverseEffects": ["Течни и електролитни дисбаланси, стомашно-чревни (гадене, повръщане), сърдечно-съдови (белодробен оток, сърдечна недостатъчност, тахикардия) и ЦНС ефекти (световъртеж, главоболие и др.)"],
     "pharmacology"      : []
   },
   {
@@ -1689,9 +1690,9 @@
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/megestrol-acetate.pdf" }
     ],
     "indications"       : ["За прекъсване и отлагане на еструса при кучета и котки; за успокояване на сексуално възбудени мъжки кучета и котараци (сатириазис); при котки се препоръчва за успешно лечение на милиарен дерматит и еозинофилен гранулом."],
-    "contraindications" : ["pregnant animals, diabetes mellitus, or mammary neoplasias", "Do not use in dogs prior to their first estrous cycle"],
-    "drugInteractions"  : [],
-    "adverseEffects"    : ["adrenocortical suppression, adrenal atrophy", "diabetes mellitus", "increased appetite and weight gain, lethargy, change in behavior or hair color, mucometra, endometritis, cystic endometrial hyperplasia, mammary enlargement and neoplasia, acromegaly"],
+    "contraindications": ["бременни животни, захарен диабет или тумори на млечните жлези.", "Не използвайте при кучета преди първия им еструс."],
+    "drugInteractions": [],
+    "adverseEffects": ["потискане на адренокортикалната функция, атрофия на надбъбречните жлези", "захарен диабет", "повишен апетит и наддаване на тегло, летаргия, промяна в поведението или цвета на козината, мукометра, ендометрит, кистозна ендометриална хиперплазия, уголемяване и неоплазия на млечните жлези, акромегалия"],
     "pharmacology"      : []
   },
   {
@@ -2122,9 +2123,9 @@
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/phenylpropanolamine.pdf" }
     ],
     "indications"       : ["за лечение на инконтиненция/ недостатъчност на уретралния сфинктер", "Протичане на урина по време на сън.", "Изпускането на урина при възрастните животни по време на емоционални натоварвания.", "Изпускането на урина след стерилизация", "Възрастово отслабване на мускулатурата на таза, водещо до изпускане на урината."],
-    "contraindications" : ["Glaucoma, prostatic hypertrophy, hyperthyroidism, diabetes mellitus, cardiovascular disorders, or hypertension"],
-    "drugInteractions"  : [],
-    "adverseEffects"    : ["restlessness, irritability, urine retention, tachycardia, and hypertension. Anorexia, stroke"],
+    "contraindications": ["Глаукома, хипертрофия на простатата, хипертиреоидизъм, захарен диабет, сърдечносъдови заболявания или хипертония"],
+    "drugInteractions": [],
+    "adverseEffects": ["безпокойство, раздразнителност, задържане на урина, тахикардия и хипертония. Анорексия, инсулт"],
     "pharmacology"      : ["Основното вещество (FPA) действа върху алфа и бета рецепторите, засягайки мускулите, разположени в долната част на отделителния тракт. Под влияние на лекарството мускулите придобиват тонус, свиването на сфинктера се подобрява. Напикаване при бурна радост или по време на сън, най-често е признак за слабост на сфинктера на пикочния мехур на кучето.", "Женските страдат от този проблем по-често от мъжките, а кутретата в повечето случаи се отървават от него докато израснат или малко след това. Но ако слабостта в сфинктера е следствие на вродени аномалии, от някакви възрастови промени в организма на кучето или се е появила след операция за стерилизация, то Пропалин може да помогне."]
   },
   {
@@ -2688,7 +2689,7 @@
       { "title": "листовка",  "link": "pdfs/@medication/nervous/finlepsin.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/diazepam.pdf" }
     ],
-    "indications"       : ["транквилант (успокоява ЖВ без да губят пълно съзнание).", "използва се при status epilepticus", "Urine marking and anxiety for cats: 0.2 – 0.4 mg/kg PO q12 – 24h (start at 0.2 mg/kg PO q12h)"],
+    "indications"       : ["транквилант (успокоява ЖВ без да губят пълно съзнание).", "използва се при status epilepticus", "Маркиране на територията и тревожност при котки: 0.2 – 0.4 mg/kg PO q12 – 24h (започнете с 0.2 mg/kg PO q12h)"],
     "contraindications" : [],
     "drugInteractions"  : ["Антидот: Флумазенил", "Фенобарбитал: понижава нивата на диазепам.", "Дигоксин: увеличава концентрациите на диазепама."],
     "adverseEffects"    : ["при КТ може да доведе до ЧД некроза при продължителен прием."],
@@ -2801,7 +2802,7 @@
     ],
     "indications"       : ["Интравенозна инфузия за обезболяване при КЧ: В 500 мл банка се добавят 0,3 мл кетамин и 5 мл лидокаин от 20 мг за 5 мл/кг/ч. Лидокаин на КОТКА не се дава!", "Интравенозна инфузия за обезболяване при КТ: В 250 мл банка се добавят 0,6 мл кетамин за 5 мл/кг/ч."],
     "contraindications" : [],
-    "drugInteractions"  : ["Ketamine/xylazine has induced cardiac arrhythmias, pulmonary edema, and respiratory depression in dogs. This combination should be used with caution."],
+    "drugInteractions": ["Комбинацията кетамин/ксилазин води до сърдечни аритмии, белодробен оток и дихателна депресия при кучета. Тази комбинация трябва да се използва с внимание."],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -3069,8 +3070,8 @@
       { "title": "листовка",  "link": "pdfs/@medication/nervous/gabagamma.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/gabapentin.pdf" }
     ],
-    "indications"       : ["prevent seizures and treat neuropathic pain", "Preclinic sedation"],
-    "contraindications" : ["The human oral liquid product contains xylitol, which is toxic to dogs.", "Doses of 50 mg/cat and 100 mg/cat have been shown to attenuate fear response in cats."],
+    "indications": ["предотвратяват се епилептичните гърчове и се лекува невропатична болка.", "Седация преди клиничен преглед."],
+    "contraindications": ["Човешкият течен аналог на габапентина съдържа ксилитол, който е токсичен за кучета.", "Дози от 50 мг/котка и 100 мг/котка са показани да ослабват страха при котки."],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
@@ -3284,10 +3285,10 @@
       { "title": "листовка",  "link": "pdfs/@medication/eyes/floxal.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/cyprofloxacin.pdf" }
     ],
-    "indications"       : ["хинолон", "for established gram negative corneal infections"],
+    "indications"       : ["Хинолон", "за установени грамотрицателни инфекции на роговицата"],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : ["crusting or crystalline precipitates in the superficial portion of corneal defects"],
+    "adverseEffects"    : ["абразия или кристални преципитати в повърхностната част на роговицата"],
     "pharmacology"      : []
   },
   {
@@ -4201,7 +4202,7 @@
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : ["High doses or very prolonged use of penicillins have been associated with neurotoxicity (e.g., ataxia in dogs)."],
+    "adverseEffects"    : ["Високи дози и продължително лечение с пеницилинови антибиотици може да доведат до невротоксичност (напр. атаксия при КЧ)."],
     "pharmacology"      : []
   },
   {
@@ -4227,7 +4228,7 @@
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["Високи дози и продължително лечение с пеницилинови антибиотици може да доведат до невротоксичност (напр. атаксия при КЧ)."],
     "pharmacology"      : []
   },
   {
@@ -4253,7 +4254,7 @@
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["Високи дози и продължително лечение с пеницилинови антибиотици може да доведат до невротоксичност (напр. атаксия при КЧ)."],
     "pharmacology"      : []
   },
   {
@@ -4279,7 +4280,7 @@
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["Високи дози и продължително лечение с пеницилинови антибиотици може да доведат до невротоксичност (напр. атаксия при КЧ)."],
     "pharmacology"      : []
   },
   {
@@ -4304,7 +4305,7 @@
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["Високи дози и продължително лечение с пеницилинови антибиотици може да доведат до невротоксичност (напр. атаксия при КЧ)."],
     "pharmacology"      : []
   },
   {
@@ -4329,7 +4330,7 @@
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["Високи дози и продължително лечение с пеницилинови антибиотици може да доведат до невротоксичност (напр. атаксия при КЧ)."],
     "pharmacology"      : []
   },
   {
@@ -4354,7 +4355,7 @@
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["Високи дози и продължително лечение с пеницилинови антибиотици може да доведат до невротоксичност (напр. атаксия при КЧ)."],
     "pharmacology"      : []
   },
   {
@@ -4380,7 +4381,7 @@
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["Високи дози и продължително лечение с пеницилинови антибиотици може да доведат до невротоксичност (напр. атаксия при КЧ)."],
     "pharmacology"      : []
   },
   {
@@ -4406,7 +4407,7 @@
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["Високи дози и продължително лечение с пеницилинови антибиотици може да доведат до невротоксичност (напр. атаксия при КЧ)."],
     "pharmacology"      : []
   },
   {
@@ -4432,7 +4433,7 @@
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["Високи дози и продължително лечение с пеницилинови антибиотици може да доведат до невротоксичност (напр. атаксия при КЧ)."],
     "pharmacology"      : []
   },
   {
@@ -4458,7 +4459,7 @@
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["Високи дози и продължително лечение с пеницилинови антибиотици може да доведат до невротоксичност (напр. атаксия при КЧ)."],
     "pharmacology"      : []
   },
   {
@@ -4485,7 +4486,7 @@
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : ["High doses or very prolonged use of penicillins have been associated with neurotoxicity (e.g., ataxia in dogs)."],
+    "adverseEffects"    : ["Високи дози и продължително лечение с пеницилинови антибиотици може да доведат до невротоксичност (напр. атаксия при КЧ)."],
     "pharmacology"      : []
   },
   {
@@ -4512,7 +4513,7 @@
     "indications"       : ["група: пеницилини"],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["Високи дози и продължително лечение с пеницилинови антибиотици може да доведат до невротоксичност (напр. атаксия при КЧ)."],
     "pharmacology"      : []
   },
   {
