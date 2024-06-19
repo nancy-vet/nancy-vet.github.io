@@ -4615,9 +4615,9 @@
     "links": [
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ceftriaxone.pdf" }
     ],
-    "indications"       : ["група: цефалоспорини", "Ceftriaxone is used to treat serious infections.", "for treating Lyme’s disease."],
+    "indications"       : ["група: цефалоспорини", "Цефтриаксон се използва за лечение на сериозни инфекции.", "за лечение на Лаймска болест."],
     "contraindications" : [],
-    "drugInteractions"  : ["Aminoglycosides/nephrotoxic drugs: The concurrent use of parenteral aminoglycosides or other nephrotoxic drugs (e.g., amphotericin B) with cephalosporins is somewhat controversial.", "Calcium: Concomitant use with calcium containing solutions have caused fatal calcium-ceftriaxone precipitates in lungs and kidneys of neonatal humans"],
+    "drugInteractions"  : ["Аминогликозиди/нефротоксични лекарства: Едновременното използване на парентерални аминогликозиди или други нефротоксични лекарства (напр. амфотерицин B) с цефалоспорини е според някои противопоказано.", "Калций: Едновременната употреба с калций-съдържащи разтвори е причинила фатални калциево-цефтриаксонови преципитати в белите дробове и бъбреците на новородени."],
     "adverseEffects"    : [],
     "pharmacology"      : ["минава през мозъчната и плацентарната бариери"]
   },
@@ -4642,9 +4642,9 @@
       { "title": "листовка",  "link": "pdfs/@medication/antibiotics/medaxon.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/ceftriaxone.pdf" }
     ],
-    "indications"       : ["група: цефалоспорини", "Ceftriaxone is used to treat serious infections.", "for treating Lyme’s disease."],
+    "indications"       : ["група: цефалоспорини", "Цефтриаксон се използва за лечение на сериозни инфекции.", "за лечение на Лаймска болест."],
     "contraindications" : [],
-    "drugInteractions"  : ["Aminoglycosides/nephrotoxic drugs: The concurrent use of parenteral aminoglycosides or other nephrotoxic drugs (e.g., amphotericin B) with cephalosporins is somewhat controversial.", "Calcium: Concomitant use with calcium containing solutions have caused fatal calcium-ceftriaxone precipitates in lungs and kidneys of neonatal humans"],
+    "drugInteractions"  : ["Аминогликозиди/нефротоксични лекарства: Едновременното използване на парентерални аминогликозиди или други нефротоксични лекарства (напр. амфотерицин B) с цефалоспорини е според някои противопоказано.", "Калций: Едновременната употреба с калций-съдържащи разтвори е причинила фатални калциево-цефтриаксонови преципитати в белите дробове и бъбреците на новородени."],
     "adverseEffects"    : [],
     "pharmacology"      : ["минава през мозъчната и плацентарната бариери"]
   },
@@ -4668,9 +4668,9 @@
     "links": [
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ceftriaxone.pdf" }
     ],
-    "indications"       : ["група: цефалоспорини", "Ceftriaxone is used to treat serious infections.", "for treating Lyme’s disease."],
+    "indications"       : ["група: цефалоспорини", "Цефтриаксон се използва за лечение на сериозни инфекции.", "за лечение на Лаймска болест."],
     "contraindications" : [],
-    "drugInteractions"  : ["Aminoglycosides/nephrotoxic drugs: The concurrent use of parenteral aminoglycosides or other nephrotoxic drugs (e.g., amphotericin B) with cephalosporins is somewhat controversial.", "Calcium: Concomitant use with calcium containing solutions have caused fatal calcium-ceftriaxone precipitates in lungs and kidneys of neonatal humans"],
+    "drugInteractions"  : ["Аминогликозиди/нефротоксични лекарства: Едновременното използване на парентерални аминогликозиди или други нефротоксични лекарства (напр. амфотерицин B) с цефалоспорини е според някои противопоказано.", "Калций: Едновременната употреба с калций-съдържащи разтвори е причинила фатални калциево-цефтриаксонови преципитати в белите дробове и бъбреците на новородени."],
     "adverseEffects"    : [],
     "pharmacology"      : ["минава през мозъчната и плацентарната бариери"]
   },
@@ -4694,9 +4694,9 @@
     "links": [
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ceftriaxone.pdf" }
     ],
-    "indications"       : ["група: цефалоспорини", "Ceftriaxone is used to treat serious infections.", "for treating Lyme’s disease."],
+    "indications"       : ["група: цефалоспорини", "Цефтриаксон се използва за лечение на сериозни инфекции.", "за лечение на Лаймска болест."],
     "contraindications" : [],
-    "drugInteractions"  : ["Aminoglycosides/nephrotoxic drugs: The concurrent use of parenteral aminoglycosides or other nephrotoxic drugs (e.g., amphotericin B) with cephalosporins is somewhat controversial.", "Calcium: Concomitant use with calcium containing solutions have caused fatal calcium-ceftriaxone precipitates in lungs and kidneys of neonatal humans"],
+    "drugInteractions"  : ["Аминогликозиди/нефротоксични лекарства: Едновременното използване на парентерални аминогликозиди или други нефротоксични лекарства (напр. амфотерицин B) с цефалоспорини е според някои противопоказано.", "Калций: Едновременната употреба с калций-съдържащи разтвори е причинила фатални калциево-цефтриаксонови преципитати в белите дробове и бъбреците на новородени."],
     "adverseEffects"    : [],
     "pharmacology"      : ["минава през мозъчната и плацентарната бариери"]
   },
@@ -4833,11 +4833,15 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/antibiotics/intramicin.pdf" }
     ],
-    "indications"       : ["група: аминогликозиди"],
-    "contraindications" : ["Do not apply to animals with impaired renal function.", "Do not apply in the same time with antibiotics having antagonism (gentamycin or kanamycin).", "Do not apply in the same time with other B-lactam antibiotics of type G penicillin group."],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : ["Procaine benzylpenicillin shows bactericidal action mainly on gram-positive bacteria. The action of the substances is based on the inhibition of the activity of the peptidoglycan synthesis enzymes, which leads to arrest of bacterial growth, and also activates enzymes by peptidoglycan hydrolisation, which weakens the covalent bonds of the cell wall. Bacterial cells stops dividing, increase, swell and disintegrate with formation of small particles. Features of procaine benzylpenicillin are slow absorbing and prolonged action when intramuscular administration.", "Benzathine benzylpenicillin is a B-lactam antibiotic of G type penicillin group of prolonged action. Has bactericidal effect on sensitive microorganisms due to inhibition of cell wall's mucopeptides synthesis. Is active in regard to gram-positive microorganisms: Staphylococcus spp. (non-penicillinase-forming), Streptococcus spp., including Streptococcus pneumoniae і Streptococcus pyogenes A, Corynebacterium diphtheriae, Erysipelothrix rhusiopathiae, anaerobic sporogenous bacilluses: Bacillus anthracis, Clostridium spp., Actinomyces israelli; gram-negative microorganisms: Neisseria gonorrhoeae, Neisseria meningitidis, Treponema spp.", "After intramuscular administration, penicillins and dihydrostreptomycin widely distributed through all tissues of organism. High concentration is determined in kidneys, liver, muscles and lungs. When extrabuccal administration penicillin is resorbed slowly, so its peak concentration in blood serum is observed after 3-4 hours. Dihydrostreptomycin is well absorbed from a site of injection. It well penetrates into milk. Peak concentration of dihydrostreptomycin. Manifests itself in 30-90 minutes, and remains in body in a therapeutic concentration for at least 24 hours. Penicillin and dihydrostreptomycin are mostly excreted from the body with urine.", "Treatment of cattle, pigs, dogs and cats at diseases of alimentary tract (gastroenteritis, dispersions and diarrheas of different nature), respiratory organs (bronchitis, pneumonia of different etiology) and urogenital system (metritis, mastitis, cystitis) as well as at purulent and secondary infections caused by microorganisms sensitive to active substances of the preparation, including with gram-positive bacteria: Clostridium spp., Corynebacterium spp., Erysipelothrix spp., Enterococcus spp., Listeria spp., Staphylococcus spp. (including Staphylococcus aureus), Streptococcus spp .; and gram-negative microorganisms: Escherichia coli, Salmonella spp., Shigella spp., Klebsiella spp., Pasteurella spp., Brucella spp., Haemophilus spp., Campylobacter spp.etc., which have sensitivity to penicillin and dihydrostreptomycin."]
+    "indications"       : ["група: пеницилини, аминогликозиди"],
+    "contraindications": ["Не прилагайте на животни с увредена бъбречна функция.", "Не прилагайте едновременно с антибиотици, които имат антагонизъм (гентамицин или канамицин).", "Не прилагайте едновременно с други β-лактамни антибиотици от групата на пеницилините тип G."],
+      "drugInteractions": [],
+      "adverseEffects": [],
+      "pharmacology": [
+          "Бензатин бензилпеницилин е β-лактамен антибиотик от групата на пеницилините тип G с продължително действие. Има бактерицидно действие върху чувствителни микроорганизми чрез инхибиране на синтеза на мукопептидите на клетъчната стена. Активен е по отношение на грам-положителни микроорганизми: Staphylococcus spp. (неспособни за образуване на пеницилиназа), Streptococcus spp., включително Streptococcus pneumoniae и Streptococcus pyogenes A, Corynebacterium diphtheriae, Erysipelothrix rhusiopathiae, анаеробни спорогенни бацили: Bacillus anthracis, Clostridium spp., Actinomyces israelli; грам-отрицателни микроорганизми: Neisseria gonorrhoeae, Neisseria meningitidis, Treponema spp.",
+          "След интрамускулно приложение пеницилините и дихидрострептомицинът се разпределят широко във всички тъкани на организма. Високи концентрации се откриват в бъбреците, черния дроб, мускулите и белите дробове. При екстрабукално приложение пеницилинът се резорбира бавно, така че неговата пикова концентрация в кръвния серум се наблюдава след 3-4 часа. Дихидрострептомицинът се абсорбира добре от мястото на инжектиране. Той прониква добре в млякото. Пиковата концентрация на дихидрострептомицин се проявява в рамките на 30-90 минути и остава в организма в терапевтична концентрация поне 24 часа. Пеницилинът и дихидрострептомицинът се екскретират основно с урината.",
+          "Лечение на говеда, свине, кучета и котки при заболявания на храносмилателния тракт (гастроентерит, диспери и диарии с различна природа), дихателните органи (бронхит, пневмония с различна етиология) и урогениталната система (метрит, мастит, цистит), както и при гнойни и вторични инфекции, причинени от микроорганизми, чувствителни към активните вещества на препарата, включително грам-положителни бактерии: Clostridium spp., Corynebacterium spp., Erysipelothrix spp., Enterococcus spp., Listeria spp., Staphylococcus spp. (включително Staphylococcus aureus), Streptococcus spp.; и грам-отрицателни микроорганизми: Escherichia coli, Salmonella spp., Shigella spp., Klebsiella spp., Pasteurella spp., Brucella spp., Haemophilus spp., Campylobacter spp. и др., които са чувствителни към пеницилин и дихидрострептомицин."
+      ]
   },
   {
     "type": "antibiotics",
@@ -5068,8 +5072,8 @@
     "indications"       : ["група: тетрациклини"],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : ["nausea and vomiting. To alleviate these effects, the drug can be given with food"],
-    "pharmacology"      : ["Unlike either oxytetracycline or tetra cycline, doxycycline can be used in patients with renal insufficiency."]
+    "adverseEffects"    : ["гадене и повръщане. За облекчаване на тези ефекти, лекарството може да се дава с храна"],
+    "pharmacology"      : ["За разлика от окситетрациклин или тетрациклин, доксициклин може да се използва при пациенти с бъбречна недостатъчност."]
   },
   {
     "type": "antibiotics",
@@ -5115,8 +5119,18 @@
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/sulfadiazine-sulfamethoxazole-trimetoprim.pdf" }
     ],
     "indications"       : ["група: сулфонамиди"],
-    "contraindications" : ["Because of its potential for crystallization in the urine, it may be wise to avoid the use of sulfadiazine in dogs known to have uroliths, at increased risk for developing uroliths or known to have highly concentrated or acidic urine.", "blood dyscrasias", "Hypersensitivity to sulfas, thiazides, or sulfonylurea agents; severe renal or hepatic impairment."],
-    "drugInteractions"  : ["Antacids: May decrease the bioavailability of sulfonamides if administered concurrently", "Cyclosporine: TMP/sulfa may increase the risk of nephrotoxicity", "Digoxin: TMP/sulfa may increase digoxin levels", "Diuretics, thiazide: May increase risk for thrombocytopenia", "Hypoglycemic agents, oral: TMP/sulfa may potentiate effects", "Methotrexate: TMP/sulfa may displace from plasma proteins and increase risk for toxic effects; it can also interfere with MTX assays (competitive protein binding technique)", "Phenytoin: TMP/sulfa may increase half-life", "Tricyclic antidepressants: TMP/sulfa may decrease efficacy", "Warfarin: TMP/sulfa may prolong INR/PT"],
+    "contraindications": ["Поради свойството си да кристализира в урината, се препоръчва да се избягва употребата на сулфадиазин при кучета, които имат уролити, са с повишен риск за развитие на уролити или имат високо концентрирана или кисела урина.", "кръвни дискразии", "Свръхчувствителност към сулфонамиди, тиазиди или сулфонилурея агенти; тежко бъбречно или чернодробно увреждане."],
+    "drugInteractions": [
+      "Антациди: Могат да намалят бионаличността на сулфонамиди, ако се прилагат едновременно.",
+      "Циклоспорин: TMP/sulfa може да увеличи риска от нефротоксичност.",
+      "Дигоксин: TMP/sulfa може да увеличи нивата на дигоксин.",
+      "Диуретици, тиазид: Могат да увеличат риска от тромбоцитопения.",
+      "Хипогликемични агенти, орални: TMP/sulfa може да потенцира ефектите.",
+      "Метотрексат: TMP/sulfa може да измести от плазмените протеини и да увеличи риска от токсични ефекти; може също да се намеси в тестовете за MTX (конкурентна техника за свързване на протеини).",
+      "Фенитоин: TMP/sulfa може да увеличи полуживота.",
+      "Трициклични антидепресанти: TMP/sulfa може да намали ефективността.",
+      "Варфарин: TMP/sulfa може да удължи INR/PT."
+    ],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -5142,8 +5156,18 @@
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/sulfadiazine-sulfamethoxazole-trimetoprim.pdf" }
     ],
     "indications"       : ["група: сулфонамиди"],
-    "contraindications" : ["Because of its potential for crystallization in the urine, it may be wise to avoid the use of sulfadiazine in dogs known to have uroliths, at increased risk for developing uroliths or known to have highly concentrated or acidic urine.", "blood dyscrasias", "Hypersensitivity to sulfas, thiazides, or sulfonylurea agents; severe renal or hepatic impairment."],
-    "drugInteractions"  : ["Antacids: May decrease the bioavailability of sulfonamides if administered concurrently", "Cyclosporine: TMP/sulfa may increase the risk of nephrotoxicity", "Digoxin: TMP/sulfa may increase digoxin levels", "Diuretics, thiazide: May increase risk for thrombocytopenia", "Hypoglycemic agents, oral: TMP/sulfa may potentiate effects", "Methotrexate: TMP/sulfa may displace from plasma proteins and increase risk for toxic effects; it can also interfere with MTX assays (competitive protein binding technique)", "Phenytoin: TMP/sulfa may increase half-life", "Tricyclic antidepressants: TMP/sulfa may decrease efficacy", "Warfarin: TMP/sulfa may prolong INR/PT"],
+    "contraindications": ["Поради свойството си да кристализира в урината, се препоръчва да се избягва употребата на сулфадиазин при кучета, които имат уролити, са с повишен риск за развитие на уролити или имат високо концентрирана или кисела урина.", "кръвни дискразии", "Свръхчувствителност към сулфонамиди, тиазиди или сулфонилурея агенти; тежко бъбречно или чернодробно увреждане."],
+    "drugInteractions": [
+      "Антациди: Могат да намалят бионаличността на сулфонамиди, ако се прилагат едновременно.",
+      "Циклоспорин: TMP/sulfa може да увеличи риска от нефротоксичност.",
+      "Дигоксин: TMP/sulfa може да увеличи нивата на дигоксин.",
+      "Диуретици, тиазид: Могат да увеличат риска от тромбоцитопения.",
+      "Хипогликемични агенти, орални: TMP/sulfa може да потенцира ефектите.",
+      "Метотрексат: TMP/sulfa може да измести от плазмените протеини и да увеличи риска от токсични ефекти; може също да се намеси в тестовете за MTX (конкурентна техника за свързване на протеини).",
+      "Фенитоин: TMP/sulfa може да увеличи полуживота.",
+      "Трициклични антидепресанти: TMP/sulfa може да намали ефективността.",
+      "Варфарин: TMP/sulfa може да удължи INR/PT."
+    ],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -5169,8 +5193,18 @@
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/sulfadiazine-sulfamethoxazole-trimetoprim.pdf" }
     ],
     "indications"       : ["група: сулфонамиди"],
-    "contraindications" : ["Because of its potential for crystallization in the urine, it may be wise to avoid the use of sulfadiazine in dogs known to have uroliths, at increased risk for developing uroliths or known to have highly concentrated or acidic urine.", "blood dyscrasias", "Hypersensitivity to sulfas, thiazides, or sulfonylurea agents; severe renal or hepatic impairment."],
-    "drugInteractions"  : ["Antacids: May decrease the bioavailability of sulfonamides if administered concurrently", "Cyclosporine: TMP/sulfa may increase the risk of nephrotoxicity", "Digoxin: TMP/sulfa may increase digoxin levels", "Diuretics, thiazide: May increase risk for thrombocytopenia", "Hypoglycemic agents, oral: TMP/sulfa may potentiate effects", "Methotrexate: TMP/sulfa may displace from plasma proteins and increase risk for toxic effects; it can also interfere with MTX assays (competitive protein binding technique)", "Phenytoin: TMP/sulfa may increase half-life", "Tricyclic antidepressants: TMP/sulfa may decrease efficacy", "Warfarin: TMP/sulfa may prolong INR/PT"],
+    "contraindications": ["Поради свойството си да кристализира в урината, се препоръчва да се избягва употребата на сулфадиазин при кучета, които имат уролити, са с повишен риск за развитие на уролити или имат високо концентрирана или кисела урина.", "кръвни дискразии", "Свръхчувствителност към сулфонамиди, тиазиди или сулфонилурея агенти; тежко бъбречно или чернодробно увреждане."],
+    "drugInteractions": [
+      "Антациди: Могат да намалят бионаличността на сулфонамиди, ако се прилагат едновременно.",
+      "Циклоспорин: TMP/sulfa може да увеличи риска от нефротоксичност.",
+      "Дигоксин: TMP/sulfa може да увеличи нивата на дигоксин.",
+      "Диуретици, тиазид: Могат да увеличат риска от тромбоцитопения.",
+      "Хипогликемични агенти, орални: TMP/sulfa може да потенцира ефектите.",
+      "Метотрексат: TMP/sulfa може да измести от плазмените протеини и да увеличи риска от токсични ефекти; може също да се намеси в тестовете за MTX (конкурентна техника за свързване на протеини).",
+      "Фенитоин: TMP/sulfa може да увеличи полуживота.",
+      "Трициклични антидепресанти: TMP/sulfa може да намали ефективността.",
+      "Варфарин: TMP/sulfa може да удължи INR/PT."
+    ],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -5196,8 +5230,18 @@
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/sulfadiazine-sulfamethoxazole-trimetoprim.pdf" }
     ],
     "indications"       : ["група: сулфонамиди"],
-    "contraindications" : ["Because of its potential for crystallization in the urine, it may be wise to avoid the use of sulfadiazine in dogs known to have uroliths, at increased risk for developing uroliths or known to have highly concentrated or acidic urine.", "blood dyscrasias", "Hypersensitivity to sulfas, thiazides, or sulfonylurea agents; severe renal or hepatic impairment."],
-    "drugInteractions"  : ["Antacids: May decrease the bioavailability of sulfonamides if administered concurrently", "Cyclosporine: TMP/sulfa may increase the risk of nephrotoxicity", "Digoxin: TMP/sulfa may increase digoxin levels", "Diuretics, thiazide: May increase risk for thrombocytopenia", "Hypoglycemic agents, oral: TMP/sulfa may potentiate effects", "Methotrexate: TMP/sulfa may displace from plasma proteins and increase risk for toxic effects; it can also interfere with MTX assays (competitive protein binding technique)", "Phenytoin: TMP/sulfa may increase half-life", "Tricyclic antidepressants: TMP/sulfa may decrease efficacy", "Warfarin: TMP/sulfa may prolong INR/PT"],
+    "contraindications": ["Поради свойството си да кристализира в урината, се препоръчва да се избягва употребата на сулфадиазин при кучета, които имат уролити, са с повишен риск за развитие на уролити или имат високо концентрирана или кисела урина.", "кръвни дискразии", "Свръхчувствителност към сулфонамиди, тиазиди или сулфонилурея агенти; тежко бъбречно или чернодробно увреждане."],
+    "drugInteractions": [
+      "Антациди: Могат да намалят бионаличността на сулфонамиди, ако се прилагат едновременно.",
+      "Циклоспорин: TMP/sulfa може да увеличи риска от нефротоксичност.",
+      "Дигоксин: TMP/sulfa може да увеличи нивата на дигоксин.",
+      "Диуретици, тиазид: Могат да увеличат риска от тромбоцитопения.",
+      "Хипогликемични агенти, орални: TMP/sulfa може да потенцира ефектите.",
+      "Метотрексат: TMP/sulfa може да измести от плазмените протеини и да увеличи риска от токсични ефекти; може също да се намеси в тестовете за MTX (конкурентна техника за свързване на протеини).",
+      "Фенитоин: TMP/sulfa може да увеличи полуживота.",
+      "Трициклични антидепресанти: TMP/sulfa може да намали ефективността.",
+      "Варфарин: TMP/sulfa може да удължи INR/PT."
+    ],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -5222,8 +5266,18 @@
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/sulfadiazine-sulfamethoxazole-trimetoprim.pdf" }
     ],
     "indications"       : ["група: сулфонамиди"],
-    "contraindications" : ["Because of its potential for crystallization in the urine, it may be wise to avoid the use of sulfadiazine in dogs known to have uroliths, at increased risk for developing uroliths or known to have highly concentrated or acidic urine.", "blood dyscrasias", "Hypersensitivity to sulfas, thiazides, or sulfonylurea agents; severe renal or hepatic impairment."],
-    "drugInteractions"  : ["Antacids: May decrease the bioavailability of sulfonamides if administered concurrently", "Cyclosporine: TMP/sulfa may increase the risk of nephrotoxicity", "Digoxin: TMP/sulfa may increase digoxin levels", "Diuretics, thiazide: May increase risk for thrombocytopenia", "Hypoglycemic agents, oral: TMP/sulfa may potentiate effects", "Methotrexate: TMP/sulfa may displace from plasma proteins and increase risk for toxic effects; it can also interfere with MTX assays (competitive protein binding technique)", "Phenytoin: TMP/sulfa may increase half-life", "Tricyclic antidepressants: TMP/sulfa may decrease efficacy", "Warfarin: TMP/sulfa may prolong INR/PT"],
+    "contraindications": ["Поради свойството си да кристализира в урината, се препоръчва да се избягва употребата на сулфадиазин при кучета, които имат уролити, са с повишен риск за развитие на уролити или имат високо концентрирана или кисела урина.", "кръвни дискразии", "Свръхчувствителност към сулфонамиди, тиазиди или сулфонилурея агенти; тежко бъбречно или чернодробно увреждане."],
+    "drugInteractions": [
+      "Антациди: Могат да намалят бионаличността на сулфонамиди, ако се прилагат едновременно.",
+      "Циклоспорин: TMP/sulfa може да увеличи риска от нефротоксичност.",
+      "Дигоксин: TMP/sulfa може да увеличи нивата на дигоксин.",
+      "Диуретици, тиазид: Могат да увеличат риска от тромбоцитопения.",
+      "Хипогликемични агенти, орални: TMP/sulfa може да потенцира ефектите.",
+      "Метотрексат: TMP/sulfa може да измести от плазмените протеини и да увеличи риска от токсични ефекти; може също да се намеси в тестовете за MTX (конкурентна техника за свързване на протеини).",
+      "Фенитоин: TMP/sulfa може да увеличи полуживота.",
+      "Трициклични антидепресанти: TMP/sulfa може да намали ефективността.",
+      "Варфарин: TMP/sulfa може да удължи INR/PT."
+    ],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -5247,8 +5301,18 @@
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/sulfadiazine-sulfamethoxazole-trimetoprim.pdf" }
     ],
     "indications"       : ["група: сулфонамиди"],
-    "contraindications" : ["Because of its potential for crystallization in the urine, it may be wise to avoid the use of sulfadiazine in dogs known to have uroliths, at increased risk for developing uroliths or known to have highly concentrated or acidic urine.", "blood dyscrasias", "Hypersensitivity to sulfas, thiazides, or sulfonylurea agents; severe renal or hepatic impairment."],
-    "drugInteractions"  : ["Antacids: May decrease the bioavailability of sulfonamides if administered concurrently", "Cyclosporine: TMP/sulfa may increase the risk of nephrotoxicity", "Digoxin: TMP/sulfa may increase digoxin levels", "Diuretics, thiazide: May increase risk for thrombocytopenia", "Hypoglycemic agents, oral: TMP/sulfa may potentiate effects", "Methotrexate: TMP/sulfa may displace from plasma proteins and increase risk for toxic effects; it can also interfere with MTX assays (competitive protein binding technique)", "Phenytoin: TMP/sulfa may increase half-life", "Tricyclic antidepressants: TMP/sulfa may decrease efficacy", "Warfarin: TMP/sulfa may prolong INR/PT"],
+    "contraindications": ["Поради свойството си да кристализира в урината, се препоръчва да се избягва употребата на сулфадиазин при кучета, които имат уролити, са с повишен риск за развитие на уролити или имат високо концентрирана или кисела урина.", "кръвни дискразии", "Свръхчувствителност към сулфонамиди, тиазиди или сулфонилурея агенти; тежко бъбречно или чернодробно увреждане."],
+    "drugInteractions": [
+      "Антациди: Могат да намалят бионаличността на сулфонамиди, ако се прилагат едновременно.",
+      "Циклоспорин: TMP/sulfa може да увеличи риска от нефротоксичност.",
+      "Дигоксин: TMP/sulfa може да увеличи нивата на дигоксин.",
+      "Диуретици, тиазид: Могат да увеличат риска от тромбоцитопения.",
+      "Хипогликемични агенти, орални: TMP/sulfa може да потенцира ефектите.",
+      "Метотрексат: TMP/sulfa може да измести от плазмените протеини и да увеличи риска от токсични ефекти; може също да се намеси в тестовете за MTX (конкурентна техника за свързване на протеини).",
+      "Фенитоин: TMP/sulfa може да увеличи полуживота.",
+      "Трициклични антидепресанти: TMP/sulfa може да намали ефективността.",
+      "Варфарин: TMP/sulfa може да удължи INR/PT."
+    ],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -5350,9 +5414,13 @@
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/clindamycin.pdf" }
     ],
     "indications"       : ["група: линкозамиди", "Котки: лечение на инфектирани рани и абсцеси, причинени от Staphylococcus spp. и Streptococcus spp., чувствителни на клиндамицин.", "Кучета:", "– лечение на инфектирани рани, абсцеси и инфекции на устната кухина и зъбите, причинени или свързани със Staphylococcus spp., Streptococcus spp., Bacteroides spp., Fusobacterium necrophorum, Clostridium perfringens, чувствителни на клиндамицин;", "– допълнителна терапия при механични или хирургични периодонтални интервенции при лечение на инфекции на гингивалните и периодонталните тъкани;", "– лечение на остеомиелит, причинен от Staphylococcus aureus."],
-    "contraindications" : ["in patients with known hypersensitivity to it or lincomycin.", "Patients with very severe renal and/or hepatic disease.", "Клиндамицинът не трябва да се прилага на хамстери, морски свинчета, зайци, чинчили, коне и преживни животни, защото може да причини сериозни смущения в храносмилането при тези видове."],
+    "contraindications": [
+      "при пациенти със свръхчувствителност към него или към линкомицин.",
+      "Пациенти с много тежко бъбречно и/или чернодробно заболяване.",
+      "Клиндамицинът не трябва да се прилага при хамстери, морски свинчета, зайци, чинчили, коне и преживни животни, защото може да причини сериозни увреждания в храносмилането при тези видове."
+    ],
     "drugInteractions"  : ["НЕ ИЗПОЛЗВАЙ клиндамицин с хлорамфеникол, макролиди и аминогликозиди!", "Алуминиевите соли могат да намалят резорбцията на клиндамицина."],
-    "adverseEffects"    : ["Gastroenteritis, Esophagitis occurring in cats when solid dosage forms were given without food or a water bolus, hypersalivation or lip smacking"],
+    "adverseEffects"    : ["Гастроентерит и/или езофагит при котки, когато твърди лекарствени форми (таблетки) са давани без храна, хиперсаливация или облизване на муцуната."],
     "pharmacology"      : []
   },
   {
@@ -5376,9 +5444,13 @@
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/clindamycin.pdf" }
     ],
     "indications"       : ["група: линкозамиди", "Котки: лечение на инфектирани рани и абсцеси, причинени от Staphylococcus spp. и Streptococcus spp., чувствителни на клиндамицин.", "Кучета:", "– лечение на инфектирани рани, абсцеси и инфекции на устната кухина и зъбите, причинени или свързани със Staphylococcus spp., Streptococcus spp., Bacteroides spp., Fusobacterium necrophorum, Clostridium perfringens, чувствителни на клиндамицин;", "– допълнителна терапия при механични или хирургични периодонтални интервенции при лечение на инфекции на гингивалните и периодонталните тъкани;", "– лечение на остеомиелит, причинен от Staphylococcus aureus."],
-    "contraindications" : ["in patients with known hypersensitivity to it or lincomycin.", "Patients with very severe renal and/or hepatic disease.", "Клиндамицинът не трябва да се прилага на хамстери, морски свинчета, зайци, чинчили, коне и преживни животни, защото може да причини сериозни смущения в храносмилането при тези видове."],
+    "contraindications": [
+      "при пациенти със свръхчувствителност към него или към линкомицин.",
+      "Пациенти с много тежко бъбречно и/или чернодробно заболяване.",
+      "Клиндамицинът не трябва да се прилага при хамстери, морски свинчета, зайци, чинчили, коне и преживни животни, защото може да причини сериозни увреждания в храносмилането при тези видове."
+    ],
     "drugInteractions"  : ["НЕ ИЗПОЛЗВАЙ клиндамицин с хлорамфеникол, макролиди и аминогликозиди!", "Алуминиевите соли могат да намалят резорбцията на клиндамицина."],
-    "adverseEffects"    : ["Gastroenteritis, Esophagitis occurring in cats when solid dosage forms were given without food or a water bolus, hypersalivation or lip smacking"],
+    "adverseEffects"    : ["Гастроентерит и/или езофагит при котки, когато твърди лекарствени форми (таблетки) са давани без храна, хиперсаливация или облизване на муцуната."],
     "pharmacology"      : []
   },
   {
@@ -5402,9 +5474,13 @@
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/clindamycin.pdf" }
     ],
     "indications"       : ["група: линкозамиди", "Котки: лечение на инфектирани рани и абсцеси, причинени от Staphylococcus spp. и Streptococcus spp., чувствителни на клиндамицин.", "Кучета:", "– лечение на инфектирани рани, абсцеси и инфекции на устната кухина и зъбите, причинени или свързани със Staphylococcus spp., Streptococcus spp., Bacteroides spp., Fusobacterium necrophorum, Clostridium perfringens, чувствителни на клиндамицин;", "– допълнителна терапия при механични или хирургични периодонтални интервенции при лечение на инфекции на гингивалните и периодонталните тъкани;", "– лечение на остеомиелит, причинен от Staphylococcus aureus."],
-    "contraindications" : ["in patients with known hypersensitivity to it or lincomycin.", "Patients with very severe renal and/or hepatic disease.", "Клиндамицинът не трябва да се прилага на хамстери, морски свинчета, зайци, чинчили, коне и преживни животни, защото може да причини сериозни смущения в храносмилането при тези видове."],
+    "contraindications": [
+      "при пациенти със свръхчувствителност към него или към линкомицин.",
+      "Пациенти с много тежко бъбречно и/или чернодробно заболяване.",
+      "Клиндамицинът не трябва да се прилага при хамстери, морски свинчета, зайци, чинчили, коне и преживни животни, защото може да причини сериозни увреждания в храносмилането при тези видове."
+    ],
     "drugInteractions"  : ["НЕ ИЗПОЛЗВАЙ клиндамицин с хлорамфеникол, макролиди и аминогликозиди!", "Алуминиевите соли могат да намалят резорбцията на клиндамицина."],
-    "adverseEffects"    : ["Gastroenteritis, Esophagitis occurring in cats when solid dosage forms were given without food or a water bolus, hypersalivation or lip smacking"],
+    "adverseEffects"    : ["Гастроентерит и/или езофагит при котки, когато твърди лекарствени форми (таблетки) са давани без храна, хиперсаливация или облизване на муцуната."],
     "pharmacology"      : []
   },
   {
@@ -5658,9 +5734,9 @@
       { "title": "листовка",  "link": "pdfs/@medication/antibiotics/flagyl.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/metronidazole.pdf" }
     ],
-    "indications"       : ["giardia in cats", "antibacterial (anaerobes) & antiprotozoal agent"],
-    "contraindications" : ["hepatic dysfunction", "pregnant or nursing"],
-    "drugInteractions"  : ["Cimetidine: May decrease the metabolism of metronidazole and increase the likelihood of dose-related side effects occurring.", "Phenobarbital or phenytoin: May increase the metabolism of metronidazole, thereby decreasing blood levels. "],
+    "indications"       : ["гиардиаза при котки", "антибактериален (анаероби) и антипаразитен агент"],
+    "contraindications" : ["чернодробна дисфункция", "бременни или кърмещи"],
+    "drugInteractions"  : ["Циметидин: Може да намали метаболизма на метронидазол и да увеличи вероятността от появата на странични ефекти, свързани с дозата.", "Фенобарбитал или фенитоин: Може да увеличи метаболизма на метронидазол, като по този начин намалява нивата в кръвта."],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -5840,9 +5916,12 @@
       { "title": "Листовка",  "link": "pdfs/@medication/antibiotics/mikonafin.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/terbinafine.pdf" }
     ],
-    "indications"       : ["не се дава повече от 2 седмици;", "for treating dermatophytic and other fungal infections in dogs and cats."],
-    "contraindications" : ["does not recommend its use in patients with active or chronic liver disease or with significantly impaired renal function. If terbinafine is to be used in veterinary patents with markedly impaired liver or renal function, do so with extreme caution; dosage adjustments should be considered."],
-    "drugInteractions"  : ["cyclosporine: Terbinafine may increase the elimination of cyclosporine", "rifampin: May increase terbinafine clearance", "As it shares the same metabolic pathway (CYP2D6), terbinafine could affect the metabolism of: beta-blockers, mao inhibitors (amitraz, selegiline), SSRI’s (fluoxetine, etc.), tricyclic, antidepressants."],
+    "indications": ["не се дава повече от 2 седмици;", "за лечение на дерматофитни и други гъбични инфекции при кучета и котки."],
+    "contraindications": ["не се препоръчва да се прилага при пациенти с активно или хронично чернодробно заболяване или със значително нарушена бъбречна функция. Ако тербинафин трябва да се използва при ветеринарни пациенти с изразено нарушена чернодробна или бъбречна функция, направете го с изключителна предпазливост и евентуална корекция на дозата."],
+    "drugInteractions": [
+      "Циклоспорин: Тербинафин може да увеличи елиминацията на циклоспорин",
+      "Рифампин: Може да увеличи клиърънса на тербинафин",
+      "Тъй като споделя същия метаболитен път (CYP2D6), тербинафин може да повлияе на метаболизма на: бета-блокери, МАО инхибитори (амитраз, селегилин), СИОПН (флуоксетин и др.), трициклични антидепресанти."],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -5900,11 +5979,11 @@
       { "title": "листовка",  "link": "pdfs/@medication/antiparasitic/espacox.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/toltrazuril.pdf" }
     ],
-    "indications"       : ["за лечение на кокцидиоза", "oocyst shedding stage of toxoplasmosis in cats"],
+    "indications"       : ["за лечение на кокцидиоза", "за стадия на изхвърляне на ооцисти при токсоплазмоза при котки"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
-    "pharmacology"      : ["Toltrazuril has activity against Hepatozoon, Isospora, Sarcocystis, Toxoplasma, and all intracellular stages of coccidia."]
+    "pharmacology"      : ["Толтразурил има действие срещу Hepatozoon, Isospora, Sarcocystis, Toxoplasma и всички вътреклетъчни стадии на кокцидиите."]
   },
   {
     "type": "antiparasitic",
@@ -5933,11 +6012,11 @@
       { "title": "листовка",  "link": "pdfs/@medication/antiparasitic/tolzesia.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/toltrazuril.pdf" }
     ],
-    "indications"       : ["за лечение на кокцидиоза", "oocyst shedding stage of toxoplasmosis in cats"],
+    "indications"       : ["за лечение на кокцидиоза", "за стадия на изхвърляне на ооцисти при токсоплазмоза при котки"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
-    "pharmacology"      : ["Toltrazuril has activity against Hepatozoon, Isospora, Sarcocystis, Toxoplasma, and all intracellular stages of coccidia."]
+    "pharmacology"      : ["Толтразурил има действие срещу Hepatozoon, Isospora, Sarcocystis, Toxoplasma и всички вътреклетъчни стадии на кокцидиите."]
   },
   {
     "type": "antiparasitic",
@@ -5966,11 +6045,11 @@
       { "title": "листовка",  "link": "pdfs/@medication/antiparasitic/intracox-oral.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/toltrazuril.pdf" }
     ],
-    "indications"       : ["за лечение на кокцидиоза", "oocyst shedding stage of toxoplasmosis in cats", "В клиниката - 0,6 мл/кг първи и пети ден."],
+    "indications"       : ["за лечение на кокцидиоза", "за стадия на изхвърляне на ооцисти при токсоплазмоза при котки"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
-    "pharmacology"      : ["Toltrazuril has activity against Hepatozoon, Isospora, Sarcocystis, Toxoplasma, and all intracellular stages of coccidia."]
+    "pharmacology"      : ["Толтразурил има действие срещу Hepatozoon, Isospora, Sarcocystis, Toxoplasma и всички вътреклетъчни стадии на кокцидиите."]
   },
   {
     "type": "antiparasitic",
@@ -6607,10 +6686,10 @@
       { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/melbek-15mg.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
     ],
-    "indications"       : ["osteoarthritis in dogs", "control of postoperative pain when administered prior to surgery"],
+    "indications"       : ["остеоартрит при кучета", "контрол на постоперативната болка, когато се прилага преди операцията"],
     "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
     "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти."],
-    "adverseEffects"    : ["vomiting, soft stools, diarrhea, and inappetance", "elevated liver enzymes, pruritus, azotemia, elevated creatinine, and renal failure", " Repeated use of meloxicam in cats had been associated with renal failure and death"],
+    "adverseEffects"    : ["повръщане, кашави фекалии, диария и безапетитие", "повишени ЧД ензими, сърбеж, азотемия, повишен креатинин и ББ недостатъчност.", "Повтарящото се използване на мелоксикам при котки се асоциира с ББ недостатъчност и смърт."],
     "pharmacology"      : []
   },
   {
@@ -6633,10 +6712,10 @@
       { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/melbek-7.5mg.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
     ],
-    "indications"       : ["osteoarthritis in dogs", "control of postoperative pain when administered prior to surgery"],
+    "indications"       : ["остеоартрит при кучета", "контрол на постоперативната болка, когато се прилага преди операцията"],
     "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
     "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти."],
-    "adverseEffects"    : ["vomiting, soft stools, diarrhea, and inappetance", "elevated liver enzymes, pruritus, azotemia, elevated creatinine, and renal failure", " Repeated use of meloxicam in cats had been associated with renal failure and death"],
+    "adverseEffects"    : ["повръщане, кашави фекалии, диария и безапетитие", "повишени ЧД ензими, сърбеж, азотемия, повишен креатинин и ББ недостатъчност.", "Повтарящото се използване на мелоксикам при котки се асоциира с ББ недостатъчност и смърт."],
     "pharmacology"      : []
   },
   {
@@ -6659,10 +6738,10 @@
       { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/melbek-15mg.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
     ],
-    "indications"       : ["osteoarthritis in dogs", "control of postoperative pain when administered prior to surgery"],
+    "indications"       : ["остеоартрит при кучета", "контрол на постоперативната болка, когато се прилага преди операцията"],
     "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
     "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти."],
-    "adverseEffects"    : ["vomiting, soft stools, diarrhea, and inappetance", "elevated liver enzymes, pruritus, azotemia, elevated creatinine, and renal failure", " Repeated use of meloxicam in cats had been associated with renal failure and death"],
+    "adverseEffects"    : ["повръщане, кашави фекалии, диария и безапетитие", "повишени ЧД ензими, сърбеж, азотемия, повишен креатинин и ББ недостатъчност.", "Повтарящото се използване на мелоксикам при котки се асоциира с ББ недостатъчност и смърт."],
     "pharmacology"      : []
   },
   {
@@ -6685,10 +6764,10 @@
       { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/movalis.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
     ],
-    "indications"       : ["osteoarthritis in dogs", "control of postoperative pain when administered prior to surgery"],
+    "indications"       : ["остеоартрит при кучета", "контрол на постоперативната болка, когато се прилага преди операцията"],
     "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
     "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти."],
-    "adverseEffects"    : ["vomiting, soft stools, diarrhea, and inappetance", "elevated liver enzymes, pruritus, azotemia, elevated creatinine, and renal failure", " Repeated use of meloxicam in cats had been associated with renal failure and death"],
+    "adverseEffects"    : ["повръщане, кашави фекалии, диария и безапетитие", "повишени ЧД ензими, сърбеж, азотемия, повишен креатинин и ББ недостатъчност.", "Повтарящото се използване на мелоксикам при котки се асоциира с ББ недостатъчност и смърт."],
     "pharmacology"      : []
   },
   {
@@ -6893,10 +6972,10 @@
       { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/meloxoral.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
     ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "indications"       : ["остеоартрит при кучета", "контрол на постоперативната болка, когато се прилага преди операцията"],
+    "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
+    "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти."],
+    "adverseEffects"    : ["повръщане, кашави фекалии, диария и безапетитие", "повишени ЧД ензими, сърбеж, азотемия, повишен креатинин и ББ недостатъчност.", "Повтарящото се използване на мелоксикам при котки се асоциира с ББ недостатъчност и смърт."],
     "pharmacology"      : []
   },
   {
@@ -6919,10 +6998,10 @@
       { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/meloxidolor.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
     ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "indications"       : ["остеоартрит при кучета", "контрол на постоперативната болка, когато се прилага преди операцията"],
+    "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
+    "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти."],
+    "adverseEffects"    : ["повръщане, кашави фекалии, диария и безапетитие", "повишени ЧД ензими, сърбеж, азотемия, повишен креатинин и ББ недостатъчност.", "Повтарящото се използване на мелоксикам при котки се асоциира с ББ недостатъчност и смърт."],
     "pharmacology"      : []
   },
   {
@@ -7332,7 +7411,7 @@
         "applicationMethod": "за минимум 15 дни"
       }
     },
-    "indications"       : ["It makes stool taste disagreable in case of coprophagia.", "КТ и КЧ (<10 kg) – ½-1 лъжичка.", "КЧ (10-25 kg) – 1-1 and 2 лъжички.", "КЧ (>25 kg) – 2 and 12 лъжички."],
+    "indications"       : ["При копрофагия - прави фекалиите неприятни за поглъщане.", "КТ и КЧ (<10 кг) – от 1/2 до 1 лъжичка.", "КЧ (10-25 кг) – от 1 до 1 и 1/2 лъжички.", "КЧ (>25 кг) – 2 и 1/2 лъжички."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -7440,9 +7519,9 @@
       { "title": "листовка",  "link": "pdfs/@medication/others/vitamin-c.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/ascorbic-acid.pdf" }
     ],
-    "indications"       : ["urinary acidifier in small animals"],
-    "contraindications" : ["used with caution in patients with diabetes mellitus due to the laboratory interactions (see below), or in patients susceptible to urolithiasis.", "avoid vitamin C’s use in animals with copper-associated hepatopathy"],
-    "drugInteractions"  : ["Aminoglycosides: (e.g., gentamicin) and erythromycin: Are more effective in an alkaline medium; urine acidification may diminish these drugs’ effectiveness in treating bacterial urinary tract infections", "Quinidine: Urine acidification may increase renal excretion", "Deferoxamine: While vitamin C may be synergistic with deferoxamine in re moving iron, it may lead to increased iron tissue toxicity, especially in cardiac muscle. It should be used with caution, particularly in patients with preexisting cardiac disease."],
+    "indications"       : ["Подкиселява урината при дребните животни."],
+    "contraindications" : ["използва се с внимание при пациенти със захарен диабет или при пациенти, склонни към уролитиаза.", "избягвайте употребата на витамин C при животни с хепатопария, предизвикана от мед."],
+    "drugInteractions"  : ["Аминогликозиди (напр. гентамицин) и еритромицин: Те са по-ефективни в алкална среда; подкиселяването на урината може да намали тяхната ефективност в лечението на бактериални урогенитални инфекции", "Кинидин: подкиселяването на урината може да увеличи бъбречният клирънс.", "Дефероксамин: Въпреки че витамин C може да е синергичен с дефероксамин в премахването на желязото, той може да увеличи токсичността на желязото в тъканите, особено в сърдечния мускул. Трябва да се използва с внимание, особено при пациенти със заболявания на сърцето."],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -7475,9 +7554,9 @@
       { "title": "листовка",  "link": "pdfs/@medication/others/vitamin-c.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/ascorbic-acid.pdf" }
     ],
-    "indications"       : ["urinary acidifier in small animals"],
-    "contraindications" : ["used with caution in patients with diabetes mellitus due to the laboratory interactions (see below), or in patients susceptible to urolithiasis.", "avoid vitamin C’s use in animals with copper-associated hepatopathy"],
-    "drugInteractions"  : ["Aminoglycosides: (e.g., gentamicin) and erythromycin: Are more effective in an alkaline medium; urine acidification may diminish these drugs’ effectiveness in treating bacterial urinary tract infections", "Quinidine: Urine acidification may increase renal excretion", "Deferoxamine: While vitamin C may be synergistic with deferoxamine in re moving iron, it may lead to increased iron tissue toxicity, especially in cardiac muscle. It should be used with caution, particularly in patients with preexisting cardiac disease."],
+  "indications"       : ["Подкиселява урината при дребните животни."],
+  "contraindications" : ["използва се с внимание при пациенти със захарен диабет или при пациенти, склонни към уролитиаза.", "избягвайте употребата на витамин C при животни с хепатопария, предизвикана от мед."],
+  "drugInteractions"  : ["Аминогликозиди (напр. гентамицин) и еритромицин: Те са по-ефективни в алкална среда; подкиселяването на урината може да намали тяхната ефективност в лечението на бактериални урогенитални инфекции", "Кинидин: подкиселяването на урината може да увеличи бъбречният клирънс.", "Дефероксамин: Въпреки че витамин C може да е синергичен с дефероксамин в премахването на желязото, той може да увеличи токсичността на желязото в тъканите, особено в сърдечния мускул. Трябва да се използва с внимание, особено при пациенти със заболявания на сърцето."],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -7524,7 +7603,7 @@
         "applicationMethod": "ИМ, ПК или бавно ИВ"
       }
     },
-    "indications"       : ["Ornipural is a solution for injection. It is used for stimulation of the hepatodigestive activity in digestive disorders and kidney failure."],
+    "indications"       : ["Орнипурал е разтвор за инжекции. Използва се за стимулиране на хепатодигестивната активност при храносмилателни разстройства и бъбречна недостатъчност."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -7594,7 +7673,7 @@
       { "title": "листовка",  "link": "pdfs/@medication/others/vitamin-b1-amp.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/thiamine.pdf" }
     ],
-    "indications"       : ["A “B” vitamin used for treatment or prevention of thiamine deficiency. May be useful for adjunctive treatment of lead poisoning & ethylene glycol toxicity. Clinical signs of thiamine deficiency may be manifested as gastrointestinal (anorexia, salivation), neuromuscular/CNS signs (ataxia, seizures, loss of reflexes), or cardiac effects (brady- or tachyarrhythmias).","При периферни парализи, неврити и невралгии;", "при сърдечни и чернодробни увреждания; при дерматити;", "като спомагателен препарат при заразни заболявания; ", "при вътрешно прилагане на сулфаниламиди, нитрофуранови съединения и антибиотици; "],
+    "indications"       : ["Витамин Б, използван за лечение или предотвратяване на дефицит на тиамин. Може да бъде полезен за допълващо лечение при отравяване с олово и токсикоза с етиленгликол. Клиничните признаци на дефицит на тиамин включват гастроинтестинални симптоми (анорексия, слюноотделяне), невромускулни/ЦНС симптоми (атаксия, судороги, загуба на рефлекси) или сърдечни смущения (бради- или тахиаритмии).","При периферни парализи, неврити и невралгии;", "при сърдечни и чернодробни увреждания; при дерматити;", "като спомагателен препарат при заразни заболявания; ", "при вътрешно прилагане на сулфаниламиди, нитрофуранови съединения и антибиотици; "],
     "contraindications" : [],
     "drugInteractions"  : ["Витамин Б1 може да усили действието на нервно-мускулните блокатори. Не се препоръчва едновременното прилагане в една спринцовка или инфузионен разтвор на вит. Б1 с вит. Б12 поради прякото разграждащо витамините действие на кобалта във вит. Б12.", " При предозиране, особено при венозно вкарване може да предизвика шокови явления (“тиаминов шок”). При въвеждане на много високи дози (LD50 е 350 mg/ml) се наблюдава нервно-мускулна блокада при животните; хипотензия и учестено дишане."],
     "adverseEffects"    : ["При предозиране, особено при венозно вкарване може да предизвика шокови явления (“тиаминов шок”). При въвеждане на много високи дози (LD50 е 350 mg/ml) се наблюдава нервно-мускулна блокада при животните; хипотензия и учестено дишане."],
@@ -7629,11 +7708,11 @@
       { "title": "листовка",  "link": "pdfs/@medication/others/vitamin-b12-amp.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/cyanocobalamin.pdf" }
     ],
-    "indications"       : ["Средна доза - 2 мкг/кг", "In cases of hyperchromatic, macrocytic and hypoplastic anemias; secondary anemias due to pregnancy, helminthoses, haemosporidioses; in heavy metal intoxications, benzene and organochlorine insecticides products; for therapy and prevention of liver degeneration, neuritis, myelitis, neuralgia; radiation sickness; at feed poisoning; for improvement of digestion; as a stimulating growth factor in adolescent animals; for increased food consumption; at runts."],
+    "indications"       : ["Средна доза - 2 мкг/кг", "При хиперхроматична, макроцитна и хипопластична анемия; вторични анемии вследствие на бременност, паразитози, хемоспоридиози; при тежки метални отравяния, бензенови и продукти от органохлорни инсектициди; за терапия и профилактика на ЧД дегенерация, неврити, миелити, невралгии; при лъчева болест; при отравяне с храна; за подобряване на храносмилането; като стимулиращ фактор за растежа при юношески животни; за повишаване на хранителното потребление; при слаб растеж."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
-    "pharmacology"      : ["there appears to be a high percentage of cats with exocrine pancreatic insufficiency or gastrointestinal disease that are deficient in cobalamin"]
+    "pharmacology"      : ["Изглежда, че има висок процент котки с екзокринна панкреасна недостатъчност или болести на гастроинтестиналния тракт, при които има липса на кобаламин."]
   },
   {
     "type": "others",
@@ -8029,7 +8108,7 @@
     "links": [
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/lysine.pdf" }
     ],
-    "indications"       : ["Reduce the severity of clinical signs of cats infected with HVF-1", "Decrease the number of outbreaks in cats with recurrent infections.", "Reduce contagiousness", "Enhance the immune system.", "A treatment of 2 to 3 weeks is recommended, depending on the severity of the symptoms or prophylactic use. Check with your veterinarian."],
+    "indications"       : ["Намаляване на тежестта на клиничните симптоми при заразени с FHV-1 котки.", "Намаляване на броя на рецидивите при котки с повторни инфекции.", "Намаляване на заразителността.", "Подобряване на имунната система.", "Препоръчително е лечението да продължи от 2 до 3 седмици в зависимост от тежестта на симптомите или за профилактика."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
