@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1718780471770,
+  "timestamp": 1718862094040,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -17,7 +17,7 @@
         "/1399.a6acb590edbd467a.js",
         "/1433.3f0d7663131407b9.js",
         "/1577.83971a8c58f84f8a.js",
-        "/1684.632f26d4bdbe5611.js",
+        "/1684.296780fdeddcc4e4.js",
         "/2075.8812742946387791.js",
         "/2105.1eece33ceced5216.js",
         "/2118.c6490a5a6b71e240.js",
@@ -98,13 +98,13 @@
         "/9977.b4100bc4c8d8d645.js",
         "/common.58560a277f616532.js",
         "/index.html",
-        "/main.deed5a1b83d56d4b.js",
+        "/main.3f721a98140e5b95.js",
         "/manifest.webmanifest",
         "/polyfills-core-js.c76198334f717402.js",
         "/polyfills-dom.bf542500b6fca113.js",
         "/polyfills.299138d26190f871.js",
-        "/runtime.071b147a0f23630f.js",
-        "/styles.330164afcb95abd3.css"
+        "/runtime.196a1c378dca5c59.js",
+        "/styles.daaf624af994f00c.css"
       ],
       "patterns": []
     },
@@ -1107,7 +1107,7 @@
     "/1399.a6acb590edbd467a.js": "432cfcc26b0a896a8810d612f481066ea4e4ca1e",
     "/1433.3f0d7663131407b9.js": "457a5df44ade498d52c0c6a8be1a309278e97629",
     "/1577.83971a8c58f84f8a.js": "1ce5f13675b6211d69449c470fa4b4f3552b94c0",
-    "/1684.632f26d4bdbe5611.js": "b7469f31e7247e3ca554d6f218a88cceff1a3714",
+    "/1684.296780fdeddcc4e4.js": "d1fced314ecf72a805b37def5bef26db6114b390",
     "/2075.8812742946387791.js": "e7d448151e870e1aa5dd82893dfa8c50227dd0a9",
     "/2105.1eece33ceced5216.js": "0a5a4df51e27b14ae5a63e68a6b51e41ce1a4eac",
     "/2118.c6490a5a6b71e240.js": "907efef6eb30665c3080611b4dd29e7b2fcfc75d",
@@ -1186,7 +1186,7 @@
     "/964.ab6f2f6a713ef75e.js": "97f8a9c1a0c0535842f2dd93b98f792330a96f52",
     "/9874.39de62162fc62417.js": "84d2770e59cda132f286e0599dd6ed8cf5dc204e",
     "/9977.b4100bc4c8d8d645.js": "d0bac75ce7e39f61fa8391401088967f5b94737a",
-    "/assets/build.json": "4e12b1be29435518126e37d77b9e374995b4c23f",
+    "/assets/build.json": "849eb6c93e7d81e1984f45e26db7ef4e9406fc19",
     "/assets/collections/auscultation/auscultation-heart.collection.json": "6a7b6b73a8c2a4807a2dc9bb08795c0f0f8d6dba",
     "/assets/collections/auscultation/auscultation-lungs.collection.json": "1694749e7d28c6ac300896528be693d22ebfcf82",
     "/assets/collections/diseases/diseases.collection.json": "97e9083a7ebbca1c1520c2bfde4deb07688e47d6",
@@ -2166,14 +2166,14 @@
     "/assets/pdfs/@trivia/teeth/teeth8.png": "40c8cb347666adb73e7114c8b29321391d86a220",
     "/assets/shapes.svg": "5413e95adabcb2cb639970051f55e0ddb64ace53",
     "/common.58560a277f616532.js": "1d4cd231dba8766b74523548991416a4d0368e41",
-    "/index.html": "6ec530e18119b66a51ad5d9c72250e52f10e67a2",
-    "/main.deed5a1b83d56d4b.js": "c373585834b322f10e30765b48b7fee3f00c6f11",
+    "/index.html": "6b3e3d79be7c3c7be5c3f629624842d811525ce2",
+    "/main.3f721a98140e5b95.js": "6260cb0f9cffc41449247cbd234c95610ba48711",
     "/manifest.webmanifest": "583b002856e3fb83638e8e4743a46e530863f235",
     "/polyfills-core-js.c76198334f717402.js": "d6e270a2944b6a95a9b97dafd25599ba825e8d7f",
     "/polyfills-dom.bf542500b6fca113.js": "3fa333db66c8050f12e99d977f5098a6de8dd593",
     "/polyfills.299138d26190f871.js": "d113c2292e23bee1d739d79af90b5bad1aacd449",
-    "/runtime.071b147a0f23630f.js": "10c72512d2619678b810b7c571d82d32eaea3327",
-    "/styles.330164afcb95abd3.css": "d5f067c69c0fe204abd10677bda4c42bb9b591ee"
+    "/runtime.196a1c378dca5c59.js": "c1e0a0b81ba6a71491e7909c2bd3845604960c52",
+    "/styles.daaf624af994f00c.css": "0d84fb831501bc4f5769e8b0d8b3978ec4c5ca41"
   },
   "navigationUrls": [
     {
