@@ -378,6 +378,82 @@
         ]
       }
     ]
+  },
+
+
+  {
+    "title"     : "Gliricola Porcelli",
+    "frontImage": "/assets/pdfs/@probes/skin/gliricola-porcelli-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/skin/gliricola-porcelli-1.png",
+      "/assets/pdfs/@probes/skin/gliricola-porcelli-nt.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          "Засяга морските свинчета."
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          "Сърбеж.",
+          "Алопеция.",
+          "Люспене на кожата."
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          "Проба с тиксо."
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          "Неостомозан ампула - 1 ампула се разрежда в 5 л вода. Морското свинче се пръска всяка седмица."
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Trixacarus caviae",
+    "frontImage": "/assets/pdfs/@probes/skin/trixacarus-caviae-1.png",
+    "gallery"   : [
+      "/assets/pdfs/@probes/skin/trixacarus-caviae-1.png",
+      "/assets/pdfs/@probes/skin/trixacarus-caviae-nt.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Етиология и епидемиология",
+        "content"     : [
+          "Засяга морските свинчета."
+        ]
+      },
+
+      {
+        "sectionTitle": "Клинични признаци",
+        "content"     : [
+          "Сърбеж.",
+          "Алопеция.",
+          "Люспене на кожата."
+        ]
+      },
+      {
+        "sectionTitle": "Диагностика",
+        "content"     : [
+          "Проба с тиксо."
+        ]
+      },
+      {
+        "sectionTitle": "Лечение",
+        "content"     : [
+          "Неостомозан ампула - 1 ампула се разрежда в 5 л вода. Морското свинче се пръска всяка седмица."
+        ]
+      }
+    ]
   }
 
 
