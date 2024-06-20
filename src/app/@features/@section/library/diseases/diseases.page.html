@@ -14,10 +14,10 @@
   @for(element of $collection; track element) {
 
     <dc-card
-      [inputTitle]="element?.title"
-      [inputSubTitle]="element?.type"
-      [object]="element"
-      (onSelectCard)="onSelectCard($event)">
+      [inputTitle]    = "element?.title"
+      [inputSubTitle] = "element?.type"
+      [object]        = "element"
+      (onSelectCard)  = "onSelectCard($event)">
     </dc-card>
   }
 

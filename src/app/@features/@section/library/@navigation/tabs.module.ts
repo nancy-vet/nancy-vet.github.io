@@ -33,11 +33,6 @@ const routes: Routes = [
         loadChildren  : () => import('../diseases/diseases.module').then(m => m.DiseasesPageModule)
       },
       {
-        path          : 'tab4',
-        loadChildren  : () => import('../term/term.module').then(m => m.TermPageModule)
-      },
-
-      {
         path          : '',
         redirectTo    : 'tab1',
         pathMatch     : 'full'
