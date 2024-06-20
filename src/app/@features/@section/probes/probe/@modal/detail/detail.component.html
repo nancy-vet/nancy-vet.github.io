@@ -1,14 +1,14 @@
 <nv-info-modal
-  [inputTitle]="'Инфо'"
+  [inputTitle]="'Информация'"
   class="ion-page">
 
   <div class="h1">
     {{selectedObject.title}}
   </div>
 
-  <div class="mt5 flex bc-orange gallery" (click)="onGalleryOpen()">
+  <div class="mt5 flex bcn-lightblue italic fb600 gallery" (click)="onGalleryOpen()">
     <ion-icon class="mr8" name="camera-outline"></ion-icon>
-    <div>Галерия спесименти</div>
+    <div>Галерия</div>
   </div>
 
   @for(element of selectedObject.section; track element) {
