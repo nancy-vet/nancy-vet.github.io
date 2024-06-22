@@ -1,4 +1,6 @@
 import { Component, OnInit, inject } from '@angular/core';
+import { DialogService } from 'nv@services/dialog.service';
+import { ResultModal } from './@modal/result-modal/result-modal.component';
 
 @Component({
   selector: 'app-pregnancy',
@@ -6,6 +8,8 @@ import { Component, OnInit, inject } from '@angular/core';
   styleUrls: ['./pregnancy.component.scss']
 })
 export class PregnancyComponent {
+
+  private dialogService     = inject(DialogService);
 
   public $formProperty = {
     animalType  : "dog",
@@ -39,6 +43,10 @@ export class PregnancyComponent {
   public FBD: number = 0;
   public FSD: number = 0;
 
+  public $ui = {
+    fetusAge          : 0,
+    daysBeforeTermin  : 0
+  }
 
   /**
    * @author Mihail Petrov
@@ -65,6 +73,8 @@ export class PregnancyComponent {
       this.GAB   = Math.round(((this.GAB1 + this.GAB2) /2) * 100) / 100;
       this.DBP1  = Math.round((61 - this.GAB) * 100) / 100;
 
+      this.$ui.fetusAge         = this.GAB;
+      this.$ui.daysBeforeTermin = this.DBP1;
     }
 
     if(this.$formProperty.animalType == 'dog' && this.$formProperty.when == 'after') {
@@ -75,6 +85,8 @@ export class PregnancyComponent {
       this.GAA   = Math.round(((this.GAA1 + this.GAA2 + this.GAA3) /3) *100) /100;
       this.DBP2  = Math.round((61 - this.GAA)*100)/100;
 
+      this.$ui.fetusAge         = this.GAA;
+      this.$ui.daysBeforeTermin = this.DBP2;
     }
 
     if(this.$formProperty.animalType == 'cat' && this.$formProperty.when == 'before') {
@@ -86,6 +98,8 @@ export class PregnancyComponent {
       this.GAB   = Math.round(((this.GAB1 + this.GAB2 + this.GAB3) /3) * 100) / 100;
       this.DBP1  = Math.round((61 - this.GAB) * 100) / 100;
 
+      this.$ui.fetusAge         = this.GAB;
+      this.$ui.daysBeforeTermin = this.DBP1;
     }
 
     if(this.$formProperty.animalType == 'cat' && this.$formProperty.when == 'after') {
@@ -96,7 +110,12 @@ export class PregnancyComponent {
       this.GAA   = Math.round(((this.GAA1 + this.GAA2) /2) * 100) / 100;
       this.DBP1  = Math.round((61 - this.GAA) * 100) / 100;
 
+      this.$ui.fetusAge         = this.GAA;
+      this.$ui.daysBeforeTermin = this.DBP1;
     }
 
+    (await this.dialogService.open(ResultModal, {
+      selectedObject: this.$ui
+    }));
   }
 }
