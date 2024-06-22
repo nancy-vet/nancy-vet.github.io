@@ -29,25 +29,25 @@
       {
         "sectionTitle": ">1.030 куче | >1.035 котка (концентрирана урина)",
         "content"     : [
-          "Suggests kidney disease is not present. Useful to confirm prerenal azotaemia. Approximately two-thirds of nephron function must be lost before abnormalities in renal concentrating ability occur, therefore clinically inapparent renal disease could be present with concentrated urine."
+          "Показва, че няма бъбречно заболяване. Полезно е за потвърждаване на преренална азотемия. Около две трети от функцията на нефроните трябва да бъде загубена преди да се появят аномалии при бъбречната функция, поради което клинично неявно бъбречно заболяване може да се манифестира с концентрирана урина."
         ]
       },
       {
         "sectionTitle": "1.013–1.029 куче | 1.013–1.034 котка (частично концентрирана урина)",
         "content"     : [
-          "May be partial impairment of renal function or partial deficiency/lack of response to ADH. If the animal is clinically dehydrated this is considered inappropriately dilute (see below)."
+          "Може да има частично нарушение на бъбречната функция или частична липса/недостатъчен отговор на АДХ хормон. Ако животното е клинично дехидратирано, това се счита за некоректно изследване на урина."
         ]
       },
       {
         "sectionTitle": "<1.030 куче | <1.035 котка с азотемия/ дехидратация",
         "content"     : [
-          "This can be due to renal disease, or a partial deficiency or incomplete action of ADH. Concurrent pre-renal azotaemia and a condition that causes a deficiency/ reduced action of ADH is also possible."
+          "Това може да се дължи на бъбречно заболяване или на частичнао липса или непълно действие на АДХ хормон. Също така е възможно да има преренална азотемия и състояние, което предизвиква липса/намалено действие на АДХ хормон."
         ]
       },
       {
         "sectionTitle": ">1.007 при хидратирано ЖВ",
         "content"     : [
-          "Suggests there is renal disease because the kidneys should produce dilute urine in this situation."
+          "Показва наличие на бъбречно заболяване, защото бъбреците произвеждат разредена урина."
         ]
       }
     ]
@@ -164,9 +164,9 @@
       {
         "sectionTitle": "Значимост",
         "content"     : [
-          "• May be incidental finding in healthy dogs and cats",
-          "• Often associated with UTI, especially in dogs",
-          "• May predispose to urolithiasis"
+          "• Може да бъде случайна находка при здрави кучета и котки.",
+          "• Често е свързан с инфекции на пикочните пътища, особено при кучета.",
+          "• Може да предразполага за уролитиаза."
         ]
       }
     ]
@@ -193,9 +193,9 @@
       {
         "sectionTitle": "Значимост",
         "content"     : [
-          "• May be incidental finding in healthy dogs and cats",
-          "• Rarely seen in association with ethylene glycol toxicity",
-          "• May predispose to urolithiasis"
+          "• Може да бъде случайна находка при здрави кучета и котки.",
+          "• Рядко има връзка с интоксикация заради етиленгликол.",
+          "• Може да предразполага за уролитиаза."
         ]
       }
     ]
@@ -223,8 +223,8 @@
       {
         "sectionTitle": "Значимост",
         "content"     : [
-          "• Very occasionally an incidental finding in healthy dogs and cats",
-          "• Associated with ethylene glycol toxicity"
+          "• Може да бъде случайна находка при здрави кучета и котки.",
+          "• Рядко има връзка с интоксикация заради етиленгликол."
         ]
       }
     ]
@@ -257,12 +257,12 @@
       {
         "sectionTitle": "Значимост",
         "content"     : [
-          "• May be an incidental finding in healthy dogs and cats",
-          "• Associated with hypercalcaemia and other factors",
-          "• Small numbers can be associated with UTI-induced struvite crystalluria",
-          "• May predispose to urolithiasis",
-          "their presence is an indication to check serum calcium.",
-          "They may be amorphous (distinguishable from amorphous urates by their presence in alkaline pH and lack of yellowish colouring), spherical (dogs only), or needle-like, sometimes aggregating into rosettes. In acidic urine, ‘brushite’ (calcium hydrogen phosphate dihydrate) crystals may form; these are narrow, elongated rectangular crystals often present in aggregates."
+          "• Може да бъде случайна находка при здрави кучета и котки.",
+          "• Свързан с хиперкалцемия и др.",
+          "• Малки количества могат да бъдат намерени при инфекции на пикочните пътища със струвитни кристали.",
+          "• Може да предразполага за уролитиаза",
+          "Наличието им е индикация за проверка на серумния калций.",
+          "Те могат да бъдат аморфни (различими от аморфните урати чрез тяхното присъствие в алкална среда и липса на жълтеникаво оцветяване), сферични (само при кучета) или иглоподобни, събрани в розетки. В кисела урина може да се образува ‘brushite’ (дицетилфосфат на калций дихидрат); това са тесни, удължени правоъгълни кристали често присъстващи в агрегати."
         ]
       }
     ]
@@ -319,10 +319,10 @@
       {
         "sectionTitle": "Значимост",
         "content"     : [
-          "Ammonium urate (or biurate) crystals generally appear as brown or yellow-brown spherical bodies with irregular protrusions (“thorn-apples”).",
-          "• May be seen in healthy Dalmatians, Bulldogs and other breeds",
-          "• Associated with hepatic insufficiency and PSS",
-          "• Predispose to urolithiasis (it is not understood why some Dalmatians do not form uroliths)"
+          "Кристали от амониев урат (или биурат) обикновено се появяват като кафяви или жълто-кафяви сферични тела с неравни издатини („thorn-apples“).",
+          "• Могат да се наблюдават при здрави далматинци, булдози и други породи.",
+          "• Свързани с хепатична недостатъчност и PSS (портосистемен шънт).",
+          "• Предразполагат за уролитиаза (не е известно защо някои далматинци не образуват уролити)."
         ]
       }
     ]
@@ -348,9 +348,9 @@
       {
         "sectionTitle": "Значимост",
         "content"     : [
-          "• May be an incidental finding in dogs; abnormal in cats",
-          "• Associated with hepatobiliary disease and intravascular haemolysis",
-          "• Not associated with uroliths"
+          "• Може да бъде случайна находка при кучета; патология при котки.",
+          "• Свързан с хепатобилиарно заболяване и интраваскуларна хемолиза.",
+          "• Не е свързан с образуване на уролити."
         ]
       }
     ]
@@ -380,7 +380,12 @@
           "• Always abnormal",
           "• Associated with inherited tubular reabsorption defect",
           "• Bull Mastiff, mastiffs, Bulldog, Dachshund, Chihuahua, Newfoundland, Australian Cattle Dog, Scottish Deerhound, Basset Hound",
-          "• May predispose to urolithiasis"
+          "• May predispose to urolithiasis",
+
+          "• Винаги е патология.",
+          "• Свързано с наследен дефект в тубулната реабсорбция.",
+          "• Бул мастиф, мастиф, булдог, дакел, чихуахуа, нюфаундленд, австралийско пастирско куче, шотландска еленова хрътка, басетхаунд.",
+          "• Може да предразполага за уролитиаза."
         ]
       }
     ]
@@ -406,8 +411,8 @@
       {
         "sectionTitle": "Значимост",
         "content"     : [
-          "• Always abnormal",
-          "• Associated with liver disease or inherited tubular reabsorption defect"
+          "• Винаги патология.",
+          "• Свързано е с ЧД заболяване или наследствен дефект в тубулната реабсорбция."
         ]
       }
     ]
@@ -433,8 +438,8 @@
       {
         "sectionTitle": "Значимост",
         "content"     : [
-          "• Minimal clinical significance",
-          "• Not associated with uroliths"
+          "• Няма клинично значение.",
+          "• Не предразполага за уролитиаз."
         ]
       }
     ]
@@ -455,13 +460,13 @@
       {
         "sectionTitle": "",
         "content"     : [
-          "• Sulphonamides",
-          "• Ampicillin",
-          "• Allopurinol",
-          "• Ciprofloxacin",
-          "• Tetracyclines",
-          "• Primidone",
-          "• Radiopaque contrast agents"
+          "• Сулфонамиди",
+          "• Ампицилин",
+          "• Алопуринол",
+          "• Ципрофлоксацин",
+          "• Тетрациклини",
+          "• Примидон",
+          "• Контраст за образна диагностика"
         ]
       },
       {
@@ -473,7 +478,7 @@
       {
         "sectionTitle": "Значимост",
         "content"     : [
-          "Some drug-associated uroliths have been reported, but these are rare."
+          "Рядко се срещат."
         ]
       }
     ]
@@ -497,9 +502,9 @@
       {
         "sectionTitle": "Значимост",
         "content"     : [
-          "These crystals are yellow-brown disks with concentric rings like a tree trunk.",
-          "They’re typically a symptom of severe liver disease. Other symptoms may include abdominal swelling, vomiting, nausea, disorientation, and malaise.",
-          "Treatment involves improving liver function and health immediately. This will include medications to reduce the risk of bleeding and reduce swelling caused by excess fluid."
+          "Тези кристали са жълто-кафяви дискове с концентрични пръстени, подобни на стъблото на дърво.",
+          "Те обикновено са симптом на тежко заболяване на черния дроб. Други симптоми може да включват увеличаване на червата, повръщане, гадене, дезориентация и общо недомогване.",
+          "Лечението включва незабавно подобряване на функцията на черния дроб. Това включва приложение на лекарства за намаляване на риска от кървене и намаляване на отока, предизвикан от излишната течност."
         ]
       }
     ]
@@ -536,7 +541,7 @@
       {
         "sectionTitle": "",
         "content"     : [
-          "Occasional hyaline casts can be found in healthy animals, but increased numbers are seen with glomerular proteinuria or after strenuous exercise. They appear as smooth, almost transparent bodies with no internal structure."
+          "При здрави животни може да се наблюдават от време на време хиалинни цилиндри, но увеличен брой се вижда при гломеруларна протеинурия или след интензивно упражнение. Те изглеждат като гладки, почти прозрачни обекти без вътрешна структура."
         ]
       },
       {
@@ -568,7 +573,7 @@
       {
         "sectionTitle": "",
         "content"     : [
-          "These form when cellular debris or plasma proteins are incorporated into the Tamm–Horsfall matrix, or possibly by degeneration of cellular casts. Occasional granular casts can be found in healthy animals, but increased numbers indicate tubular cell degeneration, necrosis or inflammation. They may contain fine or coarse granules, depending on their constitutive material and the time elapsed since formation"
+          "Те се формират, когато клетъчни остатъци или плазмени протеини се инкорпорират в Tamm Horsfall протеини, или може би чрез дегенерация на клетъчни цилиндри. От време на време гранулирани цилиндри може да се намерят при здрави животни, но увеличен брой е симптом на дегенерация, некроза или възпаление на бъбречните тубуларни клетки. Те могат да съдържат фини или груби гранули, в зависимост от материала, от който са съставени, и времето, изминало от тяхното образуване."
         ]
       },
       {
@@ -603,7 +608,8 @@
       {
         "sectionTitle": "",
         "content"     : [
-          "Always pathological, these form when epithelial cells, erythrocytes or leucocytes (or a mixture of these) are incorporated into the Tamm–Horsfall matrix. Epithelial cell casts occur when there is active tubular degeneration or necrosis (e.g. toxic nephrosis; haemoglobinuria or myoglobinuria-associated nephropathy; or ischaemic damage), while leucocyte casts indicate renal tubule inflammation (i.e. tubular nephrosis and pyelonephritis). Erythrocyte casts form with glomerular or tubular haemorrhage."
+          "Винаги патологични.",
+          "Тези тела се формират, когато епителни клетки, еритроцити или левкоцити (или тяхна смес) се инкорпорират в Tamm–Horsfall протеини. Епителните клетъчни цилиндри се появяват при активна дегенерация или некроза на бъбречните тубуларни клетки (например токсична нефроза; нефропатия, свързана с хемоглобинурия или миоглобинурия; или исхемично увреждане), докато левкоцитните цилиндри показват възпаление на бъбречните тубуларни клетки (т.е. тубулна нефроза и пиелонефрит). Еритроцитните цилиндри се формират при гломеруларно или тубуларно кървене."
         ]
       }
     ]
@@ -622,7 +628,7 @@
       {
         "sectionTitle": "",
         "content"     : [
-          "These form with the incorporation of lipid droplets or lipid-laden cell remnants into the Tamm– Horsfall matrix and are associated with the same pathology as epithelial cell casts (indeed, they may be aged epithelial cell casts)."
+          "Тези се формират чрез инкорпориране на липидни капки или остатъци от клетки, натоварени с липиди, в Tamm–Horsfall протеини и са свързани със същата патология като епителните клетъчни цилиндри (наистина, те могат да бъдат стари епителни клетъчни цилиндри)."
         ]
       },
       {
@@ -653,7 +659,8 @@
       {
         "sectionTitle": "",
         "content"     : [
-          "Rarely seen, these are thought to be formed by the in vivo deterioration and solidification of granular or epithelial cell casts; they suggest chronic renal disease."
+          "Рядко срещани.",
+          "Счита се, че се формират чрез вътрешното разрушаване и втвърдяване на грануларни или епителни клетъчни цилиндри; те показват хронично бъбречно заболяване."
         ]
       },
       {
@@ -711,7 +718,7 @@
       {
         "sectionTitle": "",
         "content"     : [
-          "Bacterial cocci are readily identified when they form long chains (likely Streptococcus spp.) as shown in the image of urine at left. However, doublets and clusters must be distinguished from small amorphous crystals, cellular debris, and small fat droplets, all of which show brownian motion in urine. A Gram-stained smear of urine sediment could be done to confirm the presence of cocci and distinguish them from non-bacterial structures."
+          "Бактериалните коки се идентифицират лесно, когато образуват дълги вериги (напр. Streptococcus spp.). Въпреки това, диплококи (двойка коки) и гроздове трябва да бъдат разграничени от малки аморфни кристали, клетъчни остатъци и малки мастни капки, които показват 'brownian motion' в урината. Може да се извърши оцветяване по Грам на седимента на урината, за да се потвърди присъствието на коки и да се разграничат от не-бактериалните структури."
         ]
       },
       {
@@ -836,7 +843,7 @@
       {
         "sectionTitle": "",
         "content"     : [
-          "Diatoms are a plankton found in fresh water. Their presence in this urine sample from a dog indicates contamination with fresh pond water or other natural waterway"
+          "Диатоми са планктон, намерен в прясна вода. Тяхното присъствие в този проба урина от куче показва водопой с вода от езеро или друг природен воден източник."
         ]
       },
       {
