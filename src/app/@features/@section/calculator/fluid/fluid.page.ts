@@ -86,7 +86,7 @@ export class FluidPage {
     this.$formProperty.urineValue            = 0;
     this.$formProperty.vomitValue            = 0;
     this.$formProperty.diariaValue           = 0;
-    this.$formProperty.dehydrationValue    = 0;
+    this.$formProperty.dehydrationValue      = 0;
   }
 
   /**
