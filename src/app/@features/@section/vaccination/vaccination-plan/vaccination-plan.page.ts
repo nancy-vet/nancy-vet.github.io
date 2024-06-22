@@ -7,4 +7,13 @@ import { Component, inject    } from '@angular/core';
 })
 export class VaccinationPlanPage {
 
+
+  public calculateWeeksAfterDate(startDate: any, weeks: any) {
+
+    const oneWeekInMilliseconds = 7 * 24 * 60 * 60 * 1000;
+    const targetDate = new Date(startDate.getTime() + weeks * oneWeekInMilliseconds);
+    return targetDate;
+}
+
+
 }

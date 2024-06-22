@@ -35,7 +35,7 @@ export class VaccinationRabiesPage implements OnInit {
     const rrr = new Date(a.detail.value);
 
     const validationDateObj = new Date(a.detail.value);
-    validationDateObj.setDate(rrr.getDate() + 21);
+    validationDateObj.setDate(rrr.getDate() - 21);
 
     this.travellingDate = validationDateObj.toLocaleDateString('bg-BG');
   }
