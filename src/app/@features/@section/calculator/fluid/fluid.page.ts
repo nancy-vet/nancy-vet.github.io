@@ -1,7 +1,7 @@
 import { Component, inject    } from '@angular/core';
 
 import { DialogService        } from 'nv@services/dialog.service';
-import { DehidratationModal   } from './@modal/dehidratation-info/dehidratation-info.component';
+import { DehydrationModal     } from './@modal/dehydration-info/dehydration-info.component';
 import { FluidResultModal     } from './@modal/result-modal/fluid-result-modal.component';
 
 @Component({
@@ -23,12 +23,12 @@ export class FluidPage {
     urineValue            : 0,
     vomitValue            : 0,
     diariaValue           : 0,
-    dehidratationValue    : 0
+    dehydrationValue    : 0
   };
 
   public $uiProperty = {
-    daylyDose   : 0,
-    hoyerlyDose : '0',
+    dailyDose   : 0,
+    hourlyDose : '0',
     isVisbible  : false
   }
 
@@ -40,7 +40,7 @@ export class FluidPage {
     { key: '200', value: 200  },
   ];
 
-  public dehidratationValueCollection = [
+  public dehydrationValueCollection = [
     { key: '0'  , value: 0      },
     { key: '5'   , value: 0.05   },
     { key: '7'   , value: 0.07   },
@@ -60,8 +60,8 @@ export class FluidPage {
     this.$formProperty.diariaValue = value;
   }
 
-  public onSelectDehidratationValue(value: any) {
-    this.$formProperty.dehidratationValue = value;
+  public onSelectDehydrationValue(value: any) {
+    this.$formProperty.dehydrationValue = value;
   }
 
   /**
@@ -86,13 +86,13 @@ export class FluidPage {
     this.$formProperty.urineValue            = 0;
     this.$formProperty.vomitValue            = 0;
     this.$formProperty.diariaValue           = 0;
-    this.$formProperty.dehidratationValue    = 0;
+    this.$formProperty.dehydrationValue    = 0;
   }
 
   /**
    *
    */
   public openInfoModal() {
-      this.dialogService.open(DehidratationModal);
+      this.dialogService.open(DehydrationModal);
   }
 }

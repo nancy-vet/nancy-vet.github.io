@@ -10,10 +10,10 @@ export class FluidService {
    * @param $formProperty
    * @returns
    */
-  public calculateDaylyDose($formProperty: any) {
+  public calculateDailyDose($formProperty: any) {
 
     return  this.calculateMaintanence($formProperty)   +
-            this.calculateDehidratation($formProperty) +
+            this.calculateDehydration($formProperty) +
             this.calculateOngoingLosses($formProperty) -
             this.calculateLiquidIntakePerHauer($formProperty);
   }
@@ -23,8 +23,8 @@ export class FluidService {
    * @param $formProperty
    * @returns
    */
-  public calculateHoyerlyDose($formProperty: any) {
-    return (this.calculateDaylyDose($formProperty) / 24).toFixed(3);
+  public calculateHourlyDose($formProperty: any) {
+    return (this.calculateDailyDose($formProperty) / 24).toFixed(3);
   }
 
   /**
@@ -55,8 +55,8 @@ export class FluidService {
    * @author Mihail Petrov
    * @returns
    */
-  private calculateDehidratation($formProperty: any) {
-    return $formProperty.dehidratationValue * $formProperty.patientWeight * 1000;
+  private calculateDehydration($formProperty: any) {
+    return $formProperty.dehydrationValue * $formProperty.patientWeight * 1000;
   }
 
   /**

@@ -10,7 +10,7 @@ import { DosePicker             } from 'nv@components/@blocks/dose-picker/dose-p
 import { NvInfoModal            } from 'nv@components/@layouts/nv-info-modal/nv-info-modal.component';
 
 import { FluidResultModal       } from './@modal/result-modal/fluid-result-modal.component';
-import { DehidratationModal     } from './@modal/dehidratation-info/dehidratation-info.component';
+import { DehydrationModal       } from './@modal/dehydration-info/dehydration-info.component';
 
 const routes: Routes = [{
     path      : '',
@@ -21,7 +21,7 @@ const routes: Routes = [{
 @NgModule({
   declarations                    : [
     FluidPage                     ,
-    DehidratationModal            ,
+    DehydrationModal              ,
     FluidResultModal
   ],
   imports                         : [

@@ -12,13 +12,13 @@ export class FluidResultModal implements OnInit {
   private selectedObject: any;
 
   public $uiProperty = {
-    daylyDose   : 0,
-    hoyerlyDose : ''
+    dailyDose   : 0,
+    hourlyDose : ''
   }
 
   public ngOnInit() {
 
-    this.$uiProperty.daylyDose    = this.fluidService.calculateDaylyDose(this.selectedObject);
-    this.$uiProperty.hoyerlyDose  = this.fluidService.calculateHoyerlyDose(this.selectedObject);
+    this.$uiProperty.dailyDose    = this.fluidService.calculateDailyDose(this.selectedObject);
+    this.$uiProperty.hourlyDose  = this.fluidService.calculateHourlyDose(this.selectedObject);
   }
 }
