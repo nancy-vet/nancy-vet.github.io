@@ -4,10 +4,10 @@ export enum AppNavigationRouteEnum {
   LIBRARY       = "library",
   INFO          = "info",
   EXAMINATION   = "examination",
+  METHODS       = "methods",
+  AUSCULTATION  = "auscultation",
+  ULTRASOUND    = "ultrasound",
   VACCINATION   = "vaccinations",
   TRIVIA        = "trivia",
-  AUSCULTATION  = "auscultation",
-  METHODS       = "methods",
-  ULTRASOUND    = "ultrasound",
   NEWBORNS      = "newborns"
 }
