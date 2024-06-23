@@ -1,15 +1,44 @@
-import { Component, inject  } from '@angular/core';
+import { Component, OnInit, inject  } from '@angular/core';
 import { DialogService      } from 'nv@services/dialog.service';
 import { ResultModal        } from './@modal/result-modal/result-modal.component';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector    : 'page-calculator-poison',
   templateUrl : 'poison.page.html',
   styleUrl    : 'poison.page.scss'
 })
-export class PoisonPage {
+export class PoisonPage implements OnInit {
 
   private dialogService: DialogService  = inject(DialogService);
+  private $router: ActivatedRoute       = inject(ActivatedRoute);
+
+  public $ui = {
+    isLiqidDoseProcessable : true
+  };
+
+  public ngOnInit() {
+
+    const data                    = this.$router.snapshot.params;
+    this.$formProperty.modalType  = data['id'];
+
+    if(data['id'] == 'rodentizidi' ) {
+      this.$ui.isLiqidDoseProcessable = false
+    }
+
+    if(data['id'] == 'parazetamol' ) {
+      this.$ui.isLiqidDoseProcessable = false
+    }
+
+    if(data['id'] == 'pestizidi' ) {
+      this.$ui.isLiqidDoseProcessable = false
+    }
+
+    if(data['id'] == 'promivka' ) {
+      this.$ui.isLiqidDoseProcessable = false
+    }
+  }
+
 
   public $formProperty: any = {
     patientWeight : '',
@@ -59,6 +88,7 @@ export class PoisonPage {
    * @author Mihail Petrov
    */
   public processCalculation() {
+
 
     this.dialogService.open(ResultModal, {
       selectedObject: this.$formProperty

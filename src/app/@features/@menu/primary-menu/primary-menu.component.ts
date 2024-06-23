@@ -19,7 +19,12 @@ export class PrimaryMenu implements OnInit {
   private mainMeny: MenuController     = inject(MenuController);
   private systemService: SystemService = inject(SystemService);
 
-  public $buildVersion = "";
+  public $buildVersion                 = "";
+
+  public $ui                           = {
+    isMainMenuVisible   : true,
+    isCalculatorVisible : false
+  }
 
   public ngOnInit() {
     this.$buildVersion = this.systemService.getVersion();
@@ -32,7 +37,19 @@ export class PrimaryMenu implements OnInit {
   public processNavigation(segment: string) {
 
     this.mainMeny.close("first-menu").then(() => {
+
+      console.log("@@@@@@@@@@@@@@@@@@@@");
+      console.log("@@@@@@@@@@@@@@@@@@@@");
+      console.log("@@@@@@@@@@@@@@@@@@@@");
+      console.log(`/${segment}`);
+
       this.router.navigate([`/${segment}`]);
     });
+  }
+
+  public processCalculator() {
+
+    this.$ui.isMainMenuVisible    = false;
+    this.$ui.isCalculatorVisible  = true;
   }
 }

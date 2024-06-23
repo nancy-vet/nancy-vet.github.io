@@ -19,19 +19,19 @@ const routes: Routes = [
     component : TabNavigation,
     children  : [
       {
-        path          : 'tab1',
+        path          : 'fluid',
         loadChildren  : () => import('../fluid/fluid.module').then(m => m.FluidPageModule)
       },
       {
-        path          : 'tab2',
+        path          : 'analysis',
         loadChildren  : () => import('../analysis/analysis.module').then(m => m.AnalysisPageModule)
       },
       {
-        path          : 'tab3',
+        path          : 'dose',
         loadChildren  : () => import('../dose/dose.module').then(m => m.DosePageModule)
       },
       {
-        path          : 'tab4',
+        path          : 'poison/:id',
         loadChildren  : () => import('../poison/poison.module').then(m => m.PoisonPageModule)
       },
       {
