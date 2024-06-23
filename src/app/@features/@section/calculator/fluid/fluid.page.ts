@@ -19,7 +19,7 @@ export class FluidPage {
   public $formProperty: any = {
     patientWeight         : null,
     consumeFood           : true,
-    liquidIntakePerHauer  : null,
+    liquidIntakePerHour   : null,
     urineValue            : 0,
     vomitValue            : 0,
     diariaValue           : 0,
@@ -27,9 +27,11 @@ export class FluidPage {
   };
 
   public $uiProperty = {
-    dailyDose   : 0,
-    hourlyDose : '0',
-    isVisbible  : false
+    dailyDose    : 0,
+    hourlyDose12 : '0',
+    hourlyDose24 : '0',
+    dehydration  : 0,
+    isVisbible   : false
   }
 
   public liquidValueCollection = [
@@ -82,7 +84,7 @@ export class FluidPage {
     this.$uiProperty.isVisbible              = false;
     this.$formProperty.patientWeight         = null,
     this.$formProperty.consumeFood           = true;
-    this.$formProperty.liquidIntakePerHauer  = null;
+    this.$formProperty.liquidIntakePerHour   = null;
     this.$formProperty.urineValue            = 0;
     this.$formProperty.vomitValue            = 0;
     this.$formProperty.diariaValue           = 0;
