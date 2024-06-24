@@ -1,0 +1,142 @@
+<!-- Header component -->
+<ion-header
+  [translucent]="true">
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+
+    <ion-title>
+      Антидоти
+    </ion-title>
+
+    <ion-buttons slot="end" style="margin-right: 10px;">
+      <ion-icon  (click)="clearAllValues()" name="trash-outline"></ion-icon>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<!-- Main content -->
+<ion-content id="main-content" [fullscreen]="true">
+
+  <ion-grid>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="ml8">
+          животно
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  class="flex">
+        <div class="mt5 mr16">куче</div>
+        <ion-toggle
+          [(ngModel)]="$formProperty.animalType"
+          [checked]="false"
+          (ionChange)="selectAnimalType($event)">
+        </ion-toggle>
+        <div class="mt5 ml16">котка</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20 ml8">
+          тегло
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  style="display: flex;">
+        <ion-input
+          [counter]="true"
+          [(ngModel)]="$formProperty.patientWeight"
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          placeholder="кг">
+        </ion-input>
+        <div style="width: 50px; margin-left: 10px; margin-top: 26px;">кг</div>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20 ml8">
+          доза
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  style="display: flex;">
+        <ion-input
+          [counter]="true"
+          [(ngModel)]="$formProperty.dose"
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          placeholder="мг/кг/ч">
+        </ion-input>
+        <div style="width: 50px; margin-left: 10px; margin-top: 26px;">кг</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="4">
+        <div class="mt20 ml8">
+          скорост
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  style="display: flex;">
+        <ion-input
+          [counter]="true"
+          [(ngModel)]="$formProperty.speed"
+          type="number"
+          aria-label="Custom input"
+          class="custom"
+          placeholder="мг/кг/ч">
+        </ion-input>
+        <div style="width: 50px; margin-left: 10px; margin-top: 26px;">кг</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="12">
+        <ion-button
+          (click)="processCalculation()"
+          size="default"
+          expand="block">Изчисли
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="4">
+        <div class="ml8">
+          ампула
+        </div>
+      </ion-col>
+
+      <ion-col size="8"  class="flex">
+          {{$ui.formulaResult}}
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="mt8">
+      <ion-col>
+        <div style="background-color: #ffe6cc; padding: 5px;">
+          мл от ампулата лидокаин, които да поставим в банката <strong>(500 мл) NaCl 0,9%</strong> при ампула лидокаин 100 мг/ 10 мл (т.е. 10 мг/мл)
+        </div>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+</ion-content>
+
+

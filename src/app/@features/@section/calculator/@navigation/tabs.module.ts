@@ -35,6 +35,10 @@ const routes: Routes = [
         loadChildren  : () => import('../poison/poison.module').then(m => m.PoisonPageModule)
       },
       {
+        path          : 'infusion-pain',
+        loadChildren  : () => import('../infusion-pain/infusion-pain.module').then(m => m.InfusionPainPageModule)
+      },
+      {
         path: '',
         redirectTo    : 'tab1',
         pathMatch     : 'full'
