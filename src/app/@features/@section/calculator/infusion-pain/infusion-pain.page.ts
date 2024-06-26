@@ -77,18 +77,11 @@ export class InfusionPainPage implements OnInit {
     this.$formProperty.v2 = $value;
   }
 
-  /**
-   * @author Mihail Petrov
-   * @param $event
-   */
   public processSelectPatientType($patientType: any): void {
     this.$formProperty.patientType = $patientType;
   }
 
-  /**
-   * @author Mihail Petrov
-   */
-  public processCalculation() {
+  public processCalculationFirstPainInfusion() {
 
     this.$ui.formulaResult = ((
       parseFloat(this.$formProperty.patientWeight) * (this.$formProperty.dose)
@@ -99,10 +92,11 @@ export class InfusionPainPage implements OnInit {
     // });
   }
 
-  /**
-   * @author Mihail Petrov
-   * @returns
-   */
+  public processCalculationSecondPainInfusion() {
+
+    this.$ui.formulaResult = parseFloat(this.$formProperty.patientWeight) * 5
+  }
+
   public isProcessable() {
 
     return  this.$formProperty.c2 != null &&
@@ -111,17 +105,12 @@ export class InfusionPainPage implements OnInit {
             this.$formProperty.patientWeight != null;
   }
 
-  /**
-   * @author Mihail Petrov
-   * @param $event
-   */
   public selectAnimalType($event: any) {
     this.$formProperty.patientType = ($event.detail.checked) ? 'cat' : 'dog';
+
+    console.log(this.$formProperty.patientType)
   }
 
-  /**
-   * @author Mihail Petrov
-   */
   public clearAllValues() {
 
     this.$formProperty = {
