@@ -39,6 +39,10 @@ const routes: Routes = [
         loadChildren  : () => import('../infusion-pain/infusion-pain.module').then(m => m.InfusionPainPageModule)
       },
       {
+        path          : 'ceftriaxone-dilution',
+        loadChildren  : () => import('../ceftriaxone-dilution/ceftriaxone-dilution.module').then(m => m.CeftriaxoneDilutionModule)
+      },
+      {
         path: '',
         redirectTo    : 'tab1',
         pathMatch     : 'full'
