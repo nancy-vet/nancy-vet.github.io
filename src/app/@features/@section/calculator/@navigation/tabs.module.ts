@@ -43,6 +43,10 @@ const routes: Routes = [
         loadChildren  : () => import('../ceftriaxone-dilution/ceftriaxone-dilution.module').then(m => m.CeftriaxoneDilutionModule)
       },
       {
+        path          : 'seizure-infusion',
+        loadChildren  : () => import('../seizure-infusion/seizure-infusion.module').then(m => m.SeizureInfusionModule)
+      },
+      {
         path: '',
         redirectTo    : 'tab1',
         pathMatch     : 'full'

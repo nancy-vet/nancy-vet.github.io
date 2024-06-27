@@ -4,11 +4,11 @@ import { ResultModal        } from './@modal/result-modal/result-modal.component
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector    : 'page-ceftriaxone-dilution',
-  templateUrl : 'ceftriaxone-dilution.page.html',
-  styleUrl    : 'ceftriaxone-dilution.page.scss'
+  selector    : 'page-seizure-infusion',
+  templateUrl : 'seizure-infusion.page.html',
+  styleUrl    : 'seizure-infusion.page.scss'
 })
-export class CeftriaxoneDilution {
+export class SeizureInfusion {
 
   private dialogService: DialogService  = inject(DialogService);
   private $router: ActivatedRoute       = inject(ActivatedRoute);
