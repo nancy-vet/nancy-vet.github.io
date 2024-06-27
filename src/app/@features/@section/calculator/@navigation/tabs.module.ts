@@ -43,6 +43,14 @@ const routes: Routes = [
         loadChildren  : () => import('../ceftriaxone-dilution/ceftriaxone-dilution.module').then(m => m.CeftriaxoneDilutionModule)
       },
       {
+        path          : 'solution-dilution',
+        loadChildren  : () => import('../solution-dilution/solution-dilution.module').then(m => m.SolutionDilutionModule)
+      },
+      {
+        path          : 'mixing-solutions',
+        loadChildren  : () => import('../mixing-solutions/mixing-solutions.module').then(m => m.MixingSolutionsModule)
+      },
+      {
         path          : 'seizure-infusion',
         loadChildren  : () => import('../seizure-infusion/seizure-infusion.module').then(m => m.SeizureInfusionModule)
       },
