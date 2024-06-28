@@ -1,5 +1,6 @@
 import { Component, inject  } from '@angular/core';
 import { MenuController     } from '@ionic/angular';
+import { DrugInfoModal } from 'nv@features/@section/methods/@modal/drug-info/drug-info.component';
 // import { PatientModel       } from 'nv@models/patient.model';
 import { DataService        } from 'nv@services/data.service';
 // import {DrugCollectionJson  } from "nv@json/medication.collection.json";
@@ -79,15 +80,112 @@ export class DosePage {
   //Бутон ИЗЧИСЛИ
   public processCalculationDosage() {
 
-    const weight            = this.$formProperty.patientWeight;
-    const drugConcentration = this.selectedDrug.drugConcentration;
+    const weight                        = this.$formProperty.patientWeight;
+    const drugConcentration             = this.selectedDrug.drugConcentration;
+    const drugConcentrationDecorator    = this.selectedDrug.drugConcentrationDecorator;
+    const patientType                   = this.$formProperty.patientType;
 
     // this.selectedDrug.drugConcentration
 
     console.log(this.selectedDrug.drugConcentration)
-
+    console.log(`drug_concentration: ${drugConcentration} ${drugConcentrationDecorator}`)
     // this.takePatientWeightUnit();
     // console.log(this.$formProperty.patientWeight)
+
+    let activeSubstance = this.selectedDrug.activeSubstance;
+    let activeSubstanceDose
+    let activeSubstanceDoseDecorator
+    let applicationMethod
+
+    if (patientType == "cat" ) {
+      if (this.selectedDrug.application.cat) {
+          activeSubstanceDose           = this.selectedDrug.application.cat.activeSubstanceDose;
+          activeSubstanceDoseDecorator  = this.selectedDrug.application.cat.activeSubstanceDoseDecorator;
+          applicationMethod             = this.selectedDrug.application.cat.applicationMethod;
+      } else {
+          activeSubstanceDose           = this.selectedDrug.application.any.activeSubstanceDose;
+          activeSubstanceDoseDecorator  = this.selectedDrug.application.any.activeSubstanceDoseDecorator;
+          applicationMethod             = this.selectedDrug.application.any.applicationMethod;
+      }
+  } else if (patientType == "dog") {
+      if (this.selectedDrug.application.dog) {
+          activeSubstanceDose           = this.selectedDrug.application.dog.activeSubstanceDose;
+          activeSubstanceDoseDecorator  = this.selectedDrug.application.dog.activeSubstanceDoseDecorator;
+          applicationMethod             = this.selectedDrug.application.dog.applicationMethod;
+      } else {
+          activeSubstanceDose           = this.selectedDrug.application.any.activeSubstanceDose;
+          activeSubstanceDoseDecorator  = this.selectedDrug.application.any.activeSubstanceDoseDecorator;
+          applicationMethod             = this.selectedDrug.application.any.applicationMethod;
+      }
+  } else if (patientType == "both") {
+      activeSubstanceDose               = this.selectedDrug.application.any.activeSubstanceDose;
+      activeSubstanceDoseDecorator      = this.selectedDrug.application.any.activeSubstanceDoseDecorator;
+      applicationMethod                 = this.selectedDrug.application.any.applicationMethod;
+  // } else {
+  //     alert("Избери вид домашен любимец!");
+  }
+
+
+  console.log(`active_substance: ${activeSubstance} ${activeSubstanceDose} ${activeSubstanceDoseDecorator} ${applicationMethod}`);
+
+        //CALCULATING Active substance needed:
+        const active_substance_needed = [];
+        let active_substance_needed_string = '';
+        let as_lowest_dose;
+        let as_highest_dose;
+        let as_dose;
+
+
+
+      //   if (activeSubstanceDose.length === 2) {
+      //     drugInfo =`
+      //     <div class="div-drug-calculated">
+      //         <div class="fw800">${this.selectedDrug.title}</div>
+      //         <div>
+      //             <span id="div-active-substance">${activeSubstance}</span>
+      //             <span>,</span>
+      //             <span id="div-active-substance-dose">${activeSubstanceDose[0]} - ${activeSubstanceDose[1]} ${activeSubstanceDoseDecorator}</span>
+      //         </div>
+      //         <div id="div-drug-appl">
+      //             <div>Как се поставя:</div>
+      //             <div id="div-drug-application">${applicationMethod}</div>
+      //         </div>
+      //     </div>
+      //     `;
+
+      // } else if (activeSubstanceDose.length === 1) {
+      //     drugInfo =`
+      //     <div class="div-drug-calculated">
+      //         <div class="fw800">${this.selectedDrug.title}</div>
+      //         <div>
+      //             <span id="div-active-substance">${activeSubstance}</span>
+      //             <span>,</span>
+      //             <span id="div-active-substance-dose">${activeSubstanceDose} ${activeSubstanceDoseDecorator}</span>
+      //         </div>
+      //         <div id="div-drug-appl">
+      //             <div>Как се поставя:</div>
+      //             <div id="div-drug-application">${applicationMethod}</div>
+      //         </div>
+      //     </div>
+      //     `;
+      // }
+
+
+      if (activeSubstanceDoseDecorator == "g") {
+        activeSubstanceDoseDecorator *= 1000;
+    }
+
+    else if (activeSubstanceDoseDecorator == "µg_kg") {
+        activeSubstanceDoseDecorator /= 1000;
+    }
+
+
+
+
+
+
+
+
   }
 
   /**
