@@ -14,66 +14,49 @@ export class MixingSolutions {
   private $router: ActivatedRoute       = inject(ActivatedRoute);
 
   public $ui = {
-    isLiqidDoseProcessable  : true,
-    concentrationResultIm   : 0,
-    concentrationResultIv   : 0,
-    animalDose              : 0,
-    animalDoseIm            : 0,
-    mlNeeded                : 0,
-    mlNeededIm              : 0
+    mustAddFirst            : 0,
+    mustAddSecond           : 0
   };
 
 
   public $formProperty: any = {
-    patientWeight             : 0,
-    dosage                    : 0,
-    injectionRoute            : 'IV',
-    solutionConcentration  : '1'
+    solutionConcentrationFirst   : 0,
+    solutionConcentrationSecond  : 0,
+    solutionConcentrationWanted  : 0
   }
 
 
-  public processSelectInjectionRoute($injectionRoute: any): void {
-    this.$formProperty.injectionRoute = $injectionRoute;
+  public processCalculationMixingSolutions() {
+
+    // Намираш колко МЛ са нужни от р-р ПЪРВИ
+    if( (this.$formProperty.solutionConcentrationSecond - this.$formProperty.solutionConcentrationWanted) > 0)
+      {
+        this.$ui.mustAddFirst = (this.$formProperty.solutionConcentrationSecond - this.$formProperty.solutionConcentrationWanted)
+      }
+     else(
+      this.$ui.mustAddFirst = (this.$formProperty.solutionConcentrationWanted - this.$formProperty.solutionConcentrationSecond)
+     )
+
+    console.log(this.$formProperty.solutionConcentrationWanted - this.$formProperty.solutionConcentrationSecond)
+
+
+    // Намираш колко МЛ са нужни от р-р ВТОРИ
+     if( (this.$formProperty.solutionConcentrationFirst - this.$formProperty.solutionConcentrationWanted) > 0)
+      {
+        this.$ui.mustAddSecond = (this.$formProperty.solutionConcentrationFirst - this.$formProperty.solutionConcentrationWanted)
+      }
+     else(
+      this.$ui.mustAddSecond = ((this.$formProperty.solutionConcentrationWanted - this.$formProperty.solutionConcentrationFirst))
+     )
   }
 
-  public processСelectCeftriaxoneConcentration($ceftriaxoneConcentration: any): void {
-    this.$formProperty.ceftriaxoneConcentration = $ceftriaxoneConcentration;
-  }
-
-  public processCalculationCeftriaxoneConcentration() {
-
-    // Дозировка на цефтриаксон ИВ
-    this.$ui.concentrationResultIv = parseFloat(this.$formProperty.ceftriaxoneConcentration) / 5 * 1000
-
-    this.$ui.animalDose = parseFloat(this.$formProperty.dosage) * parseFloat(this.$formProperty.patientWeight)
-
-    this.$ui.mlNeeded = (this.$ui.animalDose / (this.$ui.concentrationResultIv))
-
-    // Дозировка на цефтриаксон ИМ
-    this.$ui.concentrationResultIm = parseFloat(this.$formProperty.ceftriaxoneConcentration) / 4 * 1000
-
-    this.$ui.animalDoseIm = parseFloat(this.$formProperty.dosage) * parseFloat(this.$formProperty.patientWeight)
-
-    this.$ui.mlNeededIm = (this.$ui.animalDoseIm / (this.$ui.concentrationResultIm))
-
-  }
-
-  public selectInjectionRoute($event: any) {
-    this.$formProperty.injectionRoute = ($event.detail.checked) ? 'IM' : 'IV';
-  }
-
-  // ЦЕФТРИАКСОН ПРАХ - КОНЦЕНТРАЦИЯ
-  public selectCeftriaxoneConcentration($event: any) {
-    this.$formProperty.ceftriaxoneConcentration = ($event.detail.checked) ? '2' : '1';
-  }
 
   public clearAllValues() {
 
     this.$formProperty = {
-      patientWeight           : 0,
-      dosage                  : 0,
-      injectionRoute          : 'IV',
-      ceftriaxoneConcentration: '1'
+      solutionConcentrationFirst   : 0,
+      solutionConcentrationSecond  : 0,
+      solutionConcentrationWanted  : 0
     }
   }
 }

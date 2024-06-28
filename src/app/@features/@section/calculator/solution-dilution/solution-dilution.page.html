@@ -125,14 +125,21 @@
   </ion-row>
 
   <ion-row class="ml8">
-    C1/C2 = <strong>{{$ui.c1c2}}</strong>
+    C1/C2 = <div class="ml8 mr5 fb600">{{$ui.c1c2}}</div>
   </ion-row>
   <ion-row class="ml8">
     Aq = {{$formProperty.solutionVolume}} * ({{$ui.c1c2}} - 1)
   </ion-row>
 
   <ion-row class="ml8">
-    Обем вода, който трябва да добавя (Aq) = <strong>{{$ui.waterNeeded}}</strong> мл в разтвора, който имам.
+    Обем вода, който трябва да добавя (Aq) = <div class="ml8 mr5 fb600">{{$ui.waterNeeded}}</div> мл в разтвора, който имам.
   </ion-row>
 
+  <ion-row class="mt8">
+    <ion-col>
+      <div style="background-color: #ffe6cc; padding: 5px;">
+      Разрежда се разтвор, който е с по-<strong>голяма</strong> концентрация от разтвора, който се иска. Ако желания разтвор е с по-голяма концентрация от наличния, то се използва калкулатора "Смесване на разтвори".
+      </div>
+    </ion-col>
+  </ion-row>
 </ion-content>
