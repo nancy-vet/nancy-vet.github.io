@@ -16,64 +16,39 @@ export class SolutionDilution {
   public $ui = {
     isLiqidDoseProcessable  : true,
     concentrationResultIm   : 0,
-    concentrationResultIv   : 0,
-    animalDose              : 0,
-    animalDoseIm            : 0,
-    mlNeeded                : 0,
-    mlNeededIm              : 0
+    waterNeeded             : 0,
+    c1c2                    : 0
   };
 
 
   public $formProperty: any = {
-    patientWeight             : 0,
-    dosage                    : 0,
-    injectionRoute            : 'IV',
-    solutionConcentration  : '1'
+    solutionVolume                  : 0,
+    solutionConcentrationAvailable  : 0,
+    solutionConcentrationWanted     : 0
   }
 
 
-  public processSelectInjectionRoute($injectionRoute: any): void {
-    this.$formProperty.injectionRoute = $injectionRoute;
+  public processCalculationWaterNeeded() {
+
+    // Разделяне на C1 и C2 (концентрациите на наличния и желания р-ри)
+    this.$ui.c1c2 = parseFloat(this.$formProperty.solutionConcentrationAvailable) / parseFloat(this.$formProperty.solutionConcentrationWanted)
+
+    this.$ui.waterNeeded = parseFloat(this.$formProperty.solutionVolume) * ((this.$ui.c1c2) - 1)
+
+    console.log(this.$formProperty.solutionConcentrationAvailable)
+    console.log(this.$formProperty.solutionConcentrationWanted)
+    console.log(this.$ui.c1c2)
+    console.log(this.$ui.waterNeeded)
   }
 
-  public processСelectCeftriaxoneConcentration($ceftriaxoneConcentration: any): void {
-    this.$formProperty.ceftriaxoneConcentration = $ceftriaxoneConcentration;
-  }
 
-  public processCalculationCeftriaxoneConcentration() {
-
-    // Дозировка на цефтриаксон ИВ
-    this.$ui.concentrationResultIv = parseFloat(this.$formProperty.ceftriaxoneConcentration) / 5 * 1000
-
-    this.$ui.animalDose = parseFloat(this.$formProperty.dosage) * parseFloat(this.$formProperty.patientWeight)
-
-    this.$ui.mlNeeded = (this.$ui.animalDose / (this.$ui.concentrationResultIv))
-
-    // Дозировка на цефтриаксон ИМ
-    this.$ui.concentrationResultIm = parseFloat(this.$formProperty.ceftriaxoneConcentration) / 4 * 1000
-
-    this.$ui.animalDoseIm = parseFloat(this.$formProperty.dosage) * parseFloat(this.$formProperty.patientWeight)
-
-    this.$ui.mlNeededIm = (this.$ui.animalDoseIm / (this.$ui.concentrationResultIm))
-
-  }
-
-  public selectInjectionRoute($event: any) {
-    this.$formProperty.injectionRoute = ($event.detail.checked) ? 'IM' : 'IV';
-  }
-
-  // ЦЕФТРИАКСОН ПРАХ - КОНЦЕНТРАЦИЯ
-  public selectCeftriaxoneConcentration($event: any) {
-    this.$formProperty.ceftriaxoneConcentration = ($event.detail.checked) ? '2' : '1';
-  }
 
   public clearAllValues() {
 
     this.$formProperty = {
-      patientWeight           : 0,
-      dosage                  : 0,
-      injectionRoute          : 'IV',
-      ceftriaxoneConcentration: '1'
+      solutionVolume                  : 0,
+      solutionConcentrationAvailable  : 0,
+      solutionConcentrationWanted     : 0
     }
   }
 }
