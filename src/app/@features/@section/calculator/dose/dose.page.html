@@ -68,14 +68,22 @@
         </ion-col>
 
         <ion-col>
-          <ion-input size="8"
+          <ion-searchbar (ionInput)="onInput($event)"></ion-searchbar>
+          <!-- <ion-input size="8"
             placeholder="Въведи медикамент"
             [(ngModel)]="$formProperty.SearchDrug"
             (ionInput)="onInput($event)">
-          </ion-input>
-          <div id="drugDropdown" [innerHTML]="dropdownContent"></div>
+          </ion-input> -->
+          <!-- <div id="drugDropdown" [innerHTML]="dropdownContent"></div> -->
         </ion-col>
       </ion-row>
+      <div>
+        <ion-list>
+          <ion-item *ngFor="let result of inputSuggestionCollection">
+            <ion-label (click)="processDrugSelection(result)">{{ result?.title }}</ion-label>
+          </ion-item>
+        </ion-list>
+      </div>
 
       <ion-row>
 

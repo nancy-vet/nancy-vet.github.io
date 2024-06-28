@@ -12,7 +12,8 @@ import { DataService        } from 'nv@services/data.service';
 export class DosePage {
 
   // searchDrugValue: string = ''; // Chat GPT
-   dropdownContent: string = ''; // Chat GPT
+   public dropdownContent: string = ''; // Chat GPT
+   public drugCollectionResult: any[] = [];
 
   // private $drugCollection: any = [];
 
@@ -23,10 +24,12 @@ export class DosePage {
   // }
 
   private ttt: MenuController       = inject(MenuController);
-  private dataService: DataService  = inject(DataService);
+  public dataService: DataService  = inject(DataService);
 
-  public inputSuggestionCollection  = [];
+  public inputSuggestionCollection: any[]  = [];
   public cardCollection: any[]      = [];
+
+  private selectedDrug: any = null;
 
   public $componentState = {
     isPatientCreated: false
@@ -37,13 +40,13 @@ export class DosePage {
   }
 
   public $formProperty: any = {
-    searchDrug    : '',
-    patientName   : '',
-    patientWeight : 0,
+    searchDrug          : '',
+    patientName         : '',
+    patientWeight       : 0,
     patientWeightNumber : 0,
-    patientWeightUnit : 'kilogram',
-    patientType   : '',
-    activeMedicine: ''
+    patientWeightUnit   : 'kilogram',
+    patientType         : '',
+    activeMedicine      : ''
   }
 
   // Избери вид животно: any/ cat/ dog
@@ -64,48 +67,28 @@ export class DosePage {
         this.$formProperty.patientWeightNumber /= 1000;
         // console.log(this.$formProperty.patientWeightNumber)
     }
-
   }
 
 
-  //Създаване на списък с ЛЕКАРСТВА
+  public processDrugSelection(drug: any) {
+    this.selectedDrug = drug;
 
-  // public populateDropdown(result) {
-
-    //const searchDrugValue  = searchDrugInput?.value?.toLowerCase();
-    // const searchDrugValue  = searchDrugInput.value.id;
-
-    // if(searchDrugValue.length < 2) {
-    //     return drugDropdown.innerHTML = "";
-    // }
-
-    // const findDrugCollection = drugCollection.filter((element) => {
-    //   return element.title.toLowerCase().includes(searchDrugValue);
-    // })
-
-    // const collection = [];
-    // for (const menuItem of findDrugCollection) {
-    //     const index = drugCollection.findIndex((element) => element.title.toLowerCase() === menuItem.title.toLowerCase());
-    //     if (index !== -1) {
-    //         collection.push(`<div onclick="processOpenDrug(${index})">${menuItem.title}</div>`);
-    //     }
-    // }
-
-    // drugDropdown.innerHTML = collection.join('');
-  // }
-
-
+    //
+  }
 
   //Бутон ИЗЧИСЛИ
   public processCalculationDosage() {
-    this.takePatientWeightUnit();
-    console.log(this.$formProperty.patientWeight)
 
+    const weight            = this.$formProperty.patientWeight;
+    const drugConcentration = this.selectedDrug.drugConcentration;
 
+    // this.selectedDrug.drugConcentration
+
+    console.log(this.selectedDrug.drugConcentration)
+
+    // this.takePatientWeightUnit();
+    // console.log(this.$formProperty.patientWeight)
   }
-
-
-
 
   /**
    * @author Mihail Petrov
@@ -114,7 +97,7 @@ export class DosePage {
   public onInput($event: any): void {
 
     const value     = $event?.detail.value;
-    this.inputSuggestionCollection = this.dataService.getById(value);
+    this.inputSuggestionCollection = this.dataService.getById(value, true);
   }
 
   /**
@@ -149,7 +132,5 @@ export class DosePage {
     this.ttt.close('first-menu')
     this.ttt.open('first-menu')
   }
-
-
 
 }
