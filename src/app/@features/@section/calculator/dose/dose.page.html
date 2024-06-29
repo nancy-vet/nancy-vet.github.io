@@ -8,7 +8,7 @@
     </ion-buttons>
 
     <ion-title>
-      Пресмятане на дози на лекарства
+      Пресмятане на дози
     </ion-title>
 
   </ion-toolbar>
@@ -20,118 +20,34 @@
   <ion-grid>
 
     <ion-row>
-      <ion-col size="9" style="
-          margin-left: auto;
-          margin-right: auto;
-          ">
+      <ion-col size="9" style="display: flex;">
         <dc-patient-picker
-          (onSelected)="processSelectPatientType($event)" style="
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              max-width: 100%;
-              padding: 10px;
-              ">
+          (onSelected)="processSelectPatientType($event)">
         </dc-patient-picker>
       </ion-col>
-    </ion-row>
-  </ion-grid>
 
-    <ion-grid>
-      <ion-row>
-        <ion-col>
-          <ion-label>Тегло
-          </ion-label>
-        </ion-col>
-
-        <ion-col>
-            <ion-input
-            [counter]="true"
-            [(ngModel)]="$formProperty.patientWeight"
-            type="number"
-            min="0" placeholder="0">
-            </ion-input>
-        </ion-col>
-
-        <ion-col>
-          <ion-select value="kilogram" [(ngModel)]="$formProperty.patientWeightUnit" fill="solid" (ionChange)="takePatientWeightUnit();">мерна единица
-              <ion-select-option value="kilogram">килограмa</ion-select-option>
-              <ion-select-option value="gram">грамa</ion-select-option>
-          </ion-select>
-        </ion-col>
-      </ion-row>
-
-      <ion-row>
-        <ion-col size="4">
-          <ion-label for="weight-input">Медикамент
-          </ion-label>
-        </ion-col>
-
-        <ion-col>
-          <ion-searchbar (ionInput)="onInput($event)"></ion-searchbar>
-          <!-- <ion-input size="8"
-            placeholder="Въведи медикамент"
-            [(ngModel)]="$formProperty.SearchDrug"
-            (ionInput)="onInput($event)">
-          </ion-input> -->
-          <!-- <div id="drugDropdown" [innerHTML]="dropdownContent"></div> -->
-        </ion-col>
-      </ion-row>
-      <div>
-        <ion-list>
-          <ion-item *ngFor="let result of inputSuggestionCollection">
-            <ion-label (click)="processDrugSelection(result)">{{ result?.title }}</ion-label>
-          </ion-item>
-        </ion-list>
-      </div>
-
-      <ion-row>
-
-      </ion-row>
-
-      <ion-row>
-        <ion-col size="4"></ion-col>
-        <ion-col size="8">
-          <ion-button
-            [disabled]="($formProperty.patientWeight === 0)"
-            (click)="processCalculationDosage()"
-            size="default"
-            expand="block"
-            style="
-              font-size: 1rem;
-              font-weight: 700;
-              border-radius: 3px;">
-              Изчисли
-          </ion-button>
-        </ion-col>
-      </ion-row>
-    </ion-grid>
-
-    <!-- <div [innerHTML]="drugInfo"></div> -->
-
-
-    <div class="div-drug-calculated">
-      <div class="fw800">Синулокс</div>
-      <div>
-          <span id="div-active-substance">амоксицилин, клавуланова киселина</span>
-          <span>,</span>
-          <span id="div-active-substance-dose">12.5 mg_kg</span>
-      </div>
-      <div id="div-drug-appl">
-          <div>Как се поставя:</div>
-          <div id="div-drug-application">SC q12h</div>
-      </div>
-  </div>
-
-
-  <ion-grid>
-    <ion-row>
-      <ion-col size="12">
-        # Изчислени медикаменти:
+      <ion-col size="2">
+        <ion-input
+          aria-label="Custom input"
+          class="custom"
+          placeholder="Кг"
+          [counter]="true"
+          [(ngModel)]="$formProperty.patientWeight">
+        </ion-input>
       </ion-col>
     </ion-row>
-    <ion-row>
 
+  </ion-grid>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12">
+        <ion-searchbar
+          placeholder="Въведи медикамент"
+          [(ngModel)]="$formProperty.activeMedicine"
+          (ionInput)="onInput($event)">
+      </ion-searchbar>
+      </ion-col>
     </ion-row>
   </ion-grid>
 
@@ -139,29 +55,26 @@
     <ion-row>
       <ion-col size="12">
 
-        @for(element of inputSuggestionCollection; track element) {
-          <!-- <dc-card
+        <div *ngFor="let element of inputSuggestionCollection">
+          <dc-card
             [inputTitle]="element?.title"
             [object]="element"
             (onSelectCard)="processSelectedCard($event)">
-          </dc-card> -->
-        }
+          </dc-card>
+        </div>
 
-        @if(cardCollection.length > 0) {
+        <div *ngIf="cardCollection.length > 0">
+          <div style="font-weight: bold; font-size: 18px; margin-top: 16px;"># Предписани</div>
+          <div></div>
 
-          <div>
-            <div style="font-weight: bold; font-size: 18px; margin-top: 16px;"># Предписани</div>
-            <div></div>
-
-            @for(element of cardCollection; track element) {
-              <dc-card2
-                [inputPatientModel]="$formProperty"
-                [template]="'card'"
-                [object]="element">
-              </dc-card2>
-            }
+          <div *ngFor="let element of cardCollection">
+            <dc-card2
+              [inputPatientModel]="$formProperty"
+              [template]="'card'"
+              [object]="element">
+            </dc-card2>
           </div>
-        }
+        </div>
 
       </ion-col>
     </ion-row>

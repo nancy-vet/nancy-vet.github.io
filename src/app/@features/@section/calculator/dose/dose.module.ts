@@ -7,6 +7,7 @@ import { DosePage               } from './dose.page';
 
 import { PatientPicker          } from 'nv@components/@blocks/patient-picker/patient-picker.component';
 
+import { DrugCard              } from 'nv@components/@blocks/drug-card/drug-card.component';
 import { DrugCard2              } from 'nv@components/@blocks/drug-card2/drug-card2.component';
 import { PrimaryMenu            } from 'nv@features/@menu/primary-menu/primary-menu.component';
 
@@ -27,7 +28,8 @@ const routes: Routes = [{
     FormsModule                   ,
     PatientPicker                 ,
     PrimaryMenu                   ,
-    DrugCard2
+    DrugCard2                     ,
+    DrugCard
   ]
 })
 export class DosePageModule {}

@@ -32,14 +32,38 @@ export class DrugCard2 implements OnInit {
 
     const drugProperties                  = this.calculateDose(this.inputPatientModel, this.object);
 
+    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
+    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
+    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
+    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
+    console.log(drugProperties);
+    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
+    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
+    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
+    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
+
     this.imagePath                        = this.buildAssetPath();
     this.$uiProperty.title                = this.object.title;
     this.$uiProperty.activeSubstance      = this.object.activeSubstance;
 
-    this.$uiProperty.drugDose             = parseFloat(drugProperties.drugDose).toFixed(3);
+    // this.$uiProperty.drugDose             = parseFloat(drugProperties.drugDose).toFixed(3);
+    this.$uiProperty.drugDose             = drugProperties.drugDose //parseFloat(drugProperties.drugDose).toFixed(3);
     this.$uiProperty.activeSubstanceDose  = parseFloat(drugProperties.activeSubstanceDose).toFixed(3);
-    this.$uiProperty.patientDose          = parseFloat(drugProperties.patientDose).toFixed(3);
+    // this.$uiProperty.patientDose          = parseFloat(drugProperties.patientDose).toFixed(3);
+    this.$uiProperty.patientDose          = drugProperties.patientDose;
     this.$uiProperty.applicationMethod    = drugProperties.applicationMethod;
+
+
+    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
+    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
+    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
+    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
+    console.log(this.$uiProperty);
+    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
+    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
+    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
+    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
+
   }
 
   /**
@@ -77,10 +101,7 @@ export class DrugCard2 implements OnInit {
    * @param {*} drugTemplate
    * @returns
    */
-  private calculateDose(
-    patientModel: PatientModel,
-    drugModel: DrugModel
-  ) {
+  private calculateDose(patientModel: PatientModel, drugModel: DrugModel) {
 
     // get patient characteristics
     const patientWeight 			  = patientModel.patientWeight;
@@ -104,6 +125,21 @@ export class DrugCard2 implements OnInit {
       patientDose.push(patientWeight * activeSubstanceDose);
       drugDose.push((patientWeight * activeSubstanceDose) / drugConcentration);
     }
+
+    console.log("#$")
+    console.log("#$")
+    console.log("#$")
+    console.log("#$")
+    console.log("#$")
+    console.log("#$")
+    console.log(patientDose)
+    console.log(drugDose)
+    console.log("#$")
+    console.log("#$")
+    console.log("#$")
+    console.log("#$")
+    console.log("#$")
+    console.log("#$")
 
     return {
       activeSubstanceDose : activeSubstanceDose   ,
