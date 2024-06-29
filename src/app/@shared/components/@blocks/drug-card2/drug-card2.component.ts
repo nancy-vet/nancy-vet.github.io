@@ -25,22 +25,14 @@ export class DrugCard2 implements OnInit {
     drugDose            : '0',
     activeSubstanceDose : '0',
     patientDose         : '0',
-    applicationMethod   : ''
+    applicationMethod   : '',
+
+    drugDoseDecorator   : 'ml'
   }
 
   public ngOnInit() {
 
     const drugProperties                  = this.calculateDose(this.inputPatientModel, this.object);
-
-    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
-    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
-    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
-    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
-    console.log(drugProperties);
-    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
-    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
-    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
-    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
 
     this.imagePath                        = this.buildAssetPath();
     this.$uiProperty.title                = this.object.title;
@@ -53,17 +45,7 @@ export class DrugCard2 implements OnInit {
     this.$uiProperty.patientDose          = drugProperties.patientDose;
     this.$uiProperty.applicationMethod    = drugProperties.applicationMethod;
 
-
-    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
-    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
-    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
-    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
-    console.log(this.$uiProperty);
-    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
-    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
-    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
-    console.log("@@@@@@@@@@@@@@@@@@@@@@@")
-
+    this.$uiProperty.drugDoseDecorator    = drugProperties.drugConcentrationDecorator
   }
 
   /**
@@ -109,13 +91,31 @@ export class DrugCard2 implements OnInit {
     // get drug characteristics
     const drugConcentration     = drugModel.drugConcentration;
 
+    const drugDoseDecorator     = drugModel.drugConcentrationDecorator;
+
+    console.log("@@@@@")
+    console.log("@@@@@")
+    console.log("@@@@@")
+    console.log("@@@@@")
+    console.log("@@@@@")
+    console.log("@@@@@")
+    console.log("@@@@@")
+    console.log("@@@@@")
+    console.log(drugModel)
+    console.log(patientModel)
+    console.log("@@@@@")
+    console.log("@@@@@")
+    console.log("@@@@@")
+    console.log("@@@@@")
+    console.log("@@@@@")
+    console.log("@@@@@")
+    console.log("@@@@@")
+    console.log("@@@@@")
+
     // get application characteristics
     const applicationProperties = this.getApplicatyonMethodBasedOnType();
     const activeSubstanceDose   = applicationProperties.activeSubstanceDose;
     const applicationMethod     = applicationProperties.applicationMethod;
-
-    // const patientDose           = patientWeight * activeSubstanceDose;
-    // const drugDose              = patientDose / drugConcentration;
 
     let patientDose:number[] = [];
     let drugDose:number[]    = [];
@@ -126,26 +126,13 @@ export class DrugCard2 implements OnInit {
       drugDose.push((patientWeight * activeSubstanceDose) / drugConcentration);
     }
 
-    console.log("#$")
-    console.log("#$")
-    console.log("#$")
-    console.log("#$")
-    console.log("#$")
-    console.log("#$")
-    console.log(patientDose)
-    console.log(drugDose)
-    console.log("#$")
-    console.log("#$")
-    console.log("#$")
-    console.log("#$")
-    console.log("#$")
-    console.log("#$")
-
     return {
       activeSubstanceDose : activeSubstanceDose   ,
       applicationMethod   : applicationMethod     ,
       patientDose         : patientDose.join(' - ') ,
-      drugDose            : drugDose.join(' - ')
+      drugDose            : drugDose.join(' - '),
+
+      drugConcentrationDecorator : this.decoratorConvertor(drugModel.drugConcentrationDecorator)
     };
   }
 
@@ -171,4 +158,44 @@ export class DrugCard2 implements OnInit {
 
     return this.object!.application[applicationType];
   }
+
+
+  private decoratorConvertor(decorator: any) {
+
+  // Convert decorators:
+  if (decorator     == "mg_ml") return "mg/ml";
+  if (decorator     == "mg_tabl") return "mg/tabl";
+
+  if (decorator    == "ml") return "ml";
+  if (decorator     == "mg_caps") return "mg/caps";
+  if (decorator     == "µg_ml") return "µg/ml";
+
+  if (decorator == "mg_kg"            ) return "mg/kg";
+  if (decorator == "g"                ) return "g";
+  if (decorator == "µg_kg"            ) return "µg/kg";
+  if (decorator == "ml"               ) return "ml";
+  if (decorator == "ml_kg"            ) return "ml/kg";
+  if (decorator == "ml_5_kg"          ) return "ml/5 kg";
+  if (decorator == "ml_10_kg"         ) return "ml/10 kg";
+  if (decorator == "tabl_5_kg"        ) return "tabl/5 kg";
+  if (decorator == "tabl_2.5_kg"      ) return "tabl/2.5 kg";
+  if (decorator == "caps_5_kg"        ) return "caps/5 kg";
+  if (decorator == "tabl_10_kg"       ) return "tabl/10 kg";
+  if (decorator == "implant"          ) return "implant";
+  if (decorator == "tabl"             ) return "tabl";
+  if (decorator == "gtt"              ) return "gtt";
+  if (decorator == "gtt_2_kg"         ) return "gtt/2 kg";
+  if (decorator == "cm"               ) return "cm";
+  if (decorator == "ml"               ) return "ml";
+  if (decorator == "caps"             ) return "caps";
+  if (decorator == "sprays"           ) return "sprays";
+  if (decorator == "малко количество" ) return "малко количество";
+  if (decorator == "няколко капки"    ) return "няколко капки";
+  if (decorator == "ampula"           ) return "ампула";
+  if (decorator == "paketche"         ) return "пакетче";
+  if (decorator == "MU_kg"            ) return "MU/kg";
+
+    return '';
+  }
+
 }
