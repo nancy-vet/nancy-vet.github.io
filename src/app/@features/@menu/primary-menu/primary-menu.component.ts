@@ -38,10 +38,8 @@ export class PrimaryMenu implements OnInit {
 
     this.mainMeny.close("first-menu").then(() => {
 
-      console.log("@@@@@@@@@@@@@@@@@@@@");
-      console.log("@@@@@@@@@@@@@@@@@@@@");
-      console.log("@@@@@@@@@@@@@@@@@@@@");
-      console.log(`/${segment}`);
+      //console.log("@@@");
+      //console.log(`/${segment}`);
 
       this.router.navigate([`/${segment}`]);
     });

@@ -24,52 +24,53 @@ export class DosePage {
   public $formProperty: PatientModel = {
     patientName   : '',
     patientWeight : 0,
+    patientWeightUnit   : 'kilogram',
+    patientWeightNumber : 0,
     patientType   : '',
     activeMedicine: ''
   }
 
   private dataService: DataService = inject(DataService);
 
-  /**
-   * @author Mihail Petrov
-   * @param $event
-   */
   public onInput($event: any): void {
 
     const value     = $event?.detail.value;
     this.inputSuggestionCollection = this.dataService.getById(value);
   }
 
-  /**
-   * @author Mihail Petrov
-   * @param $event
-   */
-  public processSelectPatientType($patientType: any): void {
-    this.$formProperty.patientType = $patientType;
-  }
 
-  /**
-   * @author Mihail Petrov
-   * @param $event
-   */
+// Избери вид животно: any/ cat/ dog
+public processSelectPatientType ($patientType: any): void {
+  this.$formProperty.patientType = $patientType;
+}
+
+// ТЕГЛО - пресмятане
+public takePatientWeightUnit(): void {
+
+  console.log(this.$formProperty.patientWeightUnit);
+  this.$formProperty.patientWeightNumber = this.$formProperty.patientWeight;
+
+  if (this.$formProperty.patientWeightUnit == "kilogram") {
+    console.log(this.$formProperty.patientWeightNumber)
+  }
+  else{
+      this.$formProperty.patientWeightNumber /= 1000;
+      console.log(this.$formProperty.patientWeightNumber)
+  }
+}
+
   public processAddPatient($event: any): void {
     this.$componentState.isPatientCreated = true;
   }
 
-  /**
-   * @author Mihail Petrov
-   * @returns boolean
-   */
+
   public isMedicinePickerVisible(): boolean {
     return this.$componentState.isPatientCreated == true;
   }
 
-  /**
-   * @author Mihail Petrov
-   * @param $event
-   */
   public processSelectedCard($event: any) {
 
+    this.takePatientWeightUnit();
     this.inputSuggestionCollection    = [];
     this.$formProperty.activeMedicine = '';
     this.cardCollection.push($event);

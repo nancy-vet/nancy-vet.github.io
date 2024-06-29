@@ -27,8 +27,9 @@ export class DrugCard2 implements OnInit {
     patientDose         : '0',
     applicationMethod   : '',
 
-    medicationConcentrationDecorator   : 'ml',
-    activeSubstanceDecorator           : 'ml'
+    medicationConcentrationDecorator   : 'ml',  // концентрацията на продукта
+    activeSubstanceDecorator           : 'mg',  // мг/г/микрогр след дозата на АС
+    patientDoseDecorator               : 'mg'   // мг/ микрогр след дозировката на ЖВ
   }
 
   public ngOnInit() {
@@ -99,8 +100,17 @@ export class DrugCard2 implements OnInit {
     const activeSubstanceDose   = applicationProperties.activeSubstanceDose;
     const applicationMethod     = applicationProperties.applicationMethod;
 
-    let patientDose:number[] = [];
+    let patientDose: number[] = [];
     let drugDose:number[]    = [];
+
+    // Now converte values for patientDose
+    if (activeSubstanceDecorator === "g") {
+      patientDose = patientDose.map(dose => dose * 1000);
+    } else if (activeSubstanceDecorator === "µg_kg") {
+        patientDose = patientDose.map(dose => dose / 1000);
+    }
+
+    console.log(patientDose);
 
 
     for(const activeSubstanceDose of  applicationProperties.activeSubstanceDose) {
@@ -115,9 +125,11 @@ export class DrugCard2 implements OnInit {
       patientDose         : patientDose.join(' - ') ,
       drugDose            : drugDose.join(' - '),
 
-      drugConcentrationDecorator : this.decoratorConvertor(drugModel.drugConcentrationDecorator),
-      activeSubstanceDoseDecorator : this.decoratorConvertor(drugModel.activeSubstanceDoseDecorator)
+      drugConcentrationDecorator    : this.decoratorConvertor(drugModel.drugConcentrationDecorator),
+      activeSubstanceDecorator      : this.decoratorConvertor(drugModel.activeSubstanceDoseDecorator),
+      patientDoseDecorator          : this.patientDoseDecoratorConvertor(drugModel.activeSubstanceDoseDecorator),
     };
+
   }
 
   private getApplicationMethodBasedOnType() {
@@ -178,4 +190,42 @@ export class DrugCard2 implements OnInit {
     return '';
   }
 
+
+  private patientDoseDecoratorConvertor(decorator: any) {
+
+    // Convert decorators:
+    if (decorator     == "mg_ml") return "mg";
+    if (decorator     == "mg_tabl") return "mg";
+
+    if (decorator     == "ml") return "ml";
+    if (decorator     == "mg_caps") return "mg";
+    if (decorator     == "µg_ml") return "µg";
+
+    if (decorator == "mg_kg"            ) return "mg";
+    if (decorator == "g"                ) return "g";
+    if (decorator == "µg_kg"            ) return "µg";
+    if (decorator == "ml"               ) return "ml";
+    if (decorator == "ml_kg"            ) return "ml";
+    if (decorator == "ml_5_kg"          ) return "ml";
+    if (decorator == "ml_10_kg"         ) return "ml";
+    if (decorator == "tabl_5_kg"        ) return "tabl";
+    if (decorator == "tabl_2.5_kg"      ) return "tabl";
+    if (decorator == "caps_5_kg"        ) return "caps";
+    if (decorator == "tabl_10_kg"       ) return "tablg";
+    if (decorator == "implant"          ) return "implant";
+    if (decorator == "tabl"             ) return "tabl";
+    if (decorator == "gtt"              ) return "gtt";
+    if (decorator == "gtt_2_kg"         ) return "gtt";
+    if (decorator == "cm"               ) return "cm";
+    if (decorator == "ml"               ) return "ml";
+    if (decorator == "caps"             ) return "caps";
+    if (decorator == "sprays"           ) return "sprays";
+    if (decorator == "малко количество" ) return "малко количество";
+    if (decorator == "няколко капки"    ) return "няколко капки";
+    if (decorator == "ampula"           ) return "ампула";
+    if (decorator == "paketche"         ) return "пакетче";
+    if (decorator == "MU_kg"            ) return "MU";
+
+      return '';
+    }
 }
