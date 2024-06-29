@@ -180,6 +180,41 @@ export class DosePage {
     }
 
 
+    // CALCULATING Medication needed:
+    // Medication needed = Active substance needed/ drug_concentration
+    // АКО drug_concentration_decorator === "mg_ml",    то active_substance_dose_decorator е:
+    //    - mg_kg;
+    //    - g;
+    //    - ml;
+
+    // АКО drug_concentration_decorator === "same",    то active_substance_dose_decorator е:
+    //    - ml_kg;
+    //    - paketche;
+    //    - cm;
+    //    - i dr;
+
+    // АКО drug_concentration_decorator === "µg_ml",    то active_substance_dose_decorator е:
+    //    - µg_kg;
+
+    // АКО drug_concentration_decorator === "ml",       то active_substance_dose_decorator е:
+    //    - ml_kg;
+
+    // АКО drug_concentration_decorator === "mg_tabl",  то active_substance_dose_decorator е:
+    //    - mg_kg;
+    //    - tabl;
+    //    - µg_kg;
+
+    // АКО drug_concentration_decorator === "mg_caps",  то active_substance_dose_decorator е:
+    //    - mg_kg;
+
+
+      if (activeSubstanceDoseDecorator == "g") {
+        activeSubstanceDoseDecorator *= 1000;
+      }
+
+      else if (activeSubstanceDoseDecorator == "µg_kg") {
+          activeSubstanceDoseDecorator /= 1000;
+      }
 
 
 

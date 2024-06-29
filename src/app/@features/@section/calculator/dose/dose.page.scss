@@ -35,3 +35,49 @@ ion-input.custom .helper-text,
 ion-input.custom .counter {
   color: var(--ion-color-step-700, #373737);
 }
+
+
+//За полето с инфо за лекарството:
+
+
+#calculated-dose {
+  padding: 10px;
+}
+
+.div-drug-calculated {
+  cursor: pointer;
+  /* background: #4b8ffa4f; */
+  /* background: #41ace154; */
+  background: #249ea057;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+#div-active-substance, #div-active-substance-dose {
+  font-size: 0.8rem;
+}
+
+#div-calculated-doses {
+  display: flex;
+  margin-left: auto;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+#div-drug-needed-as {
+  background: #4b8ffa;
+  color: #fff;
+  padding: 5px 5px;
+}
+
+#div-drug-needed-med {
+  background: #d60b52;
+  color: #fff;
+  padding: 5px 5px;
+}
+
+#div-drug-appl {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0px;
+}
