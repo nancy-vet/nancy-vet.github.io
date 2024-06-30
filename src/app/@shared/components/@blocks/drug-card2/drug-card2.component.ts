@@ -22,13 +22,13 @@ export class DrugCard2 implements OnInit {
     title               : '',
     activeSubstance     : '',
 
-    drugDose            : '0',
+    drugDose            : '0', // даденото кол-во от медикамента, от което се нуждае ЖВ (мл)
     activeSubstanceDose : '0',
-    patientDose         : '0',
+    patientDose         : '0', // даденото кол-во АС, от което се нуждае даденото ЖВ (мг/ г)
     applicationMethod   : '',
 
     medicationConcentrationDecorator   : 'ml',
-    activeSubstanceDecorator           : 'ml'
+    activeSubstanceDecorator       : ''
   }
 
   public ngOnInit() {
@@ -50,10 +50,10 @@ export class DrugCard2 implements OnInit {
     this.$uiProperty.applicationMethod    = drugProperties.applicationMethod;
 
     this.$uiProperty.medicationConcentrationDecorator  = drugProperties.drugConcentrationDecorator
-    this.$uiProperty.activeSubstanceDecorator          = drugProperties.activeSubstanceDoseDecorator
+    this.$uiProperty.medicationConcentrationDecorator  = drugProperties.drugConcentrationDecorator
 
-    console.log(this.$uiProperty.drugDose)
-    console.log(this.$uiProperty.patientDose)
+    console.log(`drugDose:${this.$uiProperty.drugDose}`)
+    console.log(`patientDose:${this.$uiProperty.patientDose}`)
   }
 
   public processCard(): void {
@@ -86,21 +86,23 @@ export class DrugCard2 implements OnInit {
 
     // get drug characteristics
     const drugConcentration     = drugModel.drugConcentration;
-
     const medicationConcentrationDecorator    = drugModel.drugConcentrationDecorator;
-    const activeSubstanceDecorator            = drugModel.activeSubstanceDoseDecorator;
 
     // console.log("@@@@@")
     // console.log(drugModel)
     // console.log(patientModel)
+    console.log(`medicationConcentrationDecorator: ${medicationConcentrationDecorator}`)
 
     // get application characteristics
-    const applicationProperties = this.getApplicationMethodBasedOnType();
-    const activeSubstanceDose   = applicationProperties.activeSubstanceDose;
-    const applicationMethod     = applicationProperties.applicationMethod;
+    const applicationProperties         = this.getApplicationMethodBasedOnType();
+    const activeSubstanceDose           = applicationProperties.activeSubstanceDose;
+    const activeSubstanceDecorator      = applicationProperties.activeSubstanceDoseDecorator;
+    const applicationMethod             = applicationProperties.applicationMethod;
 
     let patientDose:number[] = [];
     let drugDose:number[]    = [];
+
+    console.log(`activeSubstanceDecorator: ${activeSubstanceDecorator}`)
 
 
     for(const activeSubstanceDose of  applicationProperties.activeSubstanceDose) {
@@ -115,10 +117,14 @@ export class DrugCard2 implements OnInit {
       patientDose         : patientDose.join(' - ') ,
       drugDose            : drugDose.join(' - '),
 
-      drugConcentrationDecorator : this.decoratorConvertor(drugModel.drugConcentrationDecorator),
-      activeSubstanceDoseDecorator : this.decoratorConvertor(drugModel.activeSubstanceDoseDecorator)
+      drugConcentrationDecorator      : drugModel.drugConcentrationDecorator,
+      // activeSubstanceDoseDecorator : applicationProperties.activeSubstanceDoseDecorator,
+     // drugConcentrationDecorator    : this.decoratorConvertor(drugModel.drugConcentrationDecorator),
+      activeSubstanceDecorator        : this.decoratorConvertor(drugModel.application.activeSubstanceDoseDecorator),
     };
   }
+
+
 
   private getApplicationMethodBasedOnType() {
 

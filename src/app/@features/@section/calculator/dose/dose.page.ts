@@ -47,15 +47,15 @@ public processSelectPatientType ($patientType: any): void {
 // ТЕГЛО - пресмятане
 public takePatientWeightUnit(): void {
 
-  console.log(this.$formProperty.patientWeightUnit);
+  console.log(`patientWeightUnit: ${this.$formProperty.patientWeightUnit}`)
   this.$formProperty.patientWeightNumber = this.$formProperty.patientWeight;
 
   if (this.$formProperty.patientWeightUnit == "kilogram") {
-    console.log(this.$formProperty.patientWeightNumber)
+    console.log(`patientWeightNumber: ${this.$formProperty.patientWeightNumber}`)
   }
   else{
       this.$formProperty.patientWeightNumber /= 1000;
-      console.log(this.$formProperty.patientWeightNumber)
+    console.log(`patientWeightNumber: ${this.$formProperty.patientWeightNumber}`)
   }
 }
 
