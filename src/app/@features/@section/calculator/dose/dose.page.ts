@@ -42,6 +42,9 @@ export class DosePage {
 // Избери вид животно: any/ cat/ dog
 public processSelectPatientType ($patientType: any): void {
   this.$formProperty.patientType = $patientType;
+
+console.log(`this.$formProperty.patientType From dose.page.ts: ${this.$formProperty.patientType}`)
+
 }
 
 // ТЕГЛО - пресмятане

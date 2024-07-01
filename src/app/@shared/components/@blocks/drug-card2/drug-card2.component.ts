@@ -53,9 +53,31 @@ export class DrugCard2 implements OnInit {
 
     // По-надолу отново пиша същите неща, за да може АС декоратора да ми излезе на html.
     const animalType              = this.inputPatientModel!.patientType;
+    console.log(`this.$formProperty.patientType From drug-card2: ${animalType}`);
     const applicationObject       = this.object!.application[animalType];
-    const applicationType         = applicationObject ? applicationObject : "any";
+
+
+    let applicationType: string;
+
+  if (applicationObject) {
+    applicationType = animalType;
+  } else {
+    // Handle case where applicationObject is undefined
+    console.warn(`No application properties found for animal type '${animalType}'. Falling back to 'any'.`);
+    applicationType = "any";
+  }
+
     const applicationProperties   = this.object!.application[applicationType];
+
+    console.log(`applicationObject: ${applicationObject}`)
+    console.log(`applicationType: ${applicationType}`)
+
+
+      // Handle case where applicationProperties is undefined
+    if (!applicationProperties) {
+      // Handle the error or set default values accordingly
+      throw new Error(`Application properties not defined for animal type '${animalType}'`);
+    }
 
     const activeSubstanceDecorator                      = applicationProperties.activeSubstanceDoseDecorator;
     this.$uiProperty.convertedActiveSubstanceDecorator  = this.decoratorConvertor(applicationProperties.activeSubstanceDoseDecorator)
@@ -101,32 +123,10 @@ export class DrugCard2 implements OnInit {
     const drugConcentration                 = drugModel.drugConcentration;
     const medicationConcentrationDecorator  = drugModel.drugConcentrationDecorator;
 
-    // console.log("@@@@@")
-    // console.log(drugModel)
-    // console.log(patientModel)
-    //console.log(`medicationConcentrationDecorator: ${medicationConcentrationDecorator}`)
 
-    // get application characteristics
-    //const applicationProperties         = this.getApplicationMethodBasedOnType(); //преди да отворя функцията getApplication...()
+    const animalType                    = this.getPatientKey(this.inputPatientModel.patientType, this.object.application);
 
-    // private getApplicationMethodBasedOnType() {  //това беше функция, която открих
-    // get infor based on the type of the patient
-    // check if we have a specific type of this patient
-    // ***
-    const animalType = this.inputPatientModel!.patientType;
-
-    if(!animalType) {
-      throw new Error("Something went completely wrong");
-    }
-
-    // check if animal type is applicable for this drug entity
-    // if not - process it with any in mind
-    const applicationObject = this.object!.application[animalType];
-    const applicationType   = applicationObject ? applicationObject : "any";
-    //return this.object!.application[applicationType];
-    // }
-
-    const applicationProperties         = this.object!.application[applicationType];
+    const applicationProperties         = this.object.application[animalType];
     const activeSubstanceDose           = applicationProperties.activeSubstanceDose;
     const activeSubstanceDecorator      = applicationProperties.activeSubstanceDoseDecorator;
     const applicationMethod             = applicationProperties.applicationMethod;
@@ -186,6 +186,16 @@ export class DrugCard2 implements OnInit {
 
       drugConcentrationDecorator      : drugModel.drugConcentrationDecorator
     };
+  }
+
+  private getPatientKey(animalType: string, keyCollection: any): string {
+
+    const patientTypeCollection = Object.keys(keyCollection);
+    if(patientTypeCollection.includes('any')) {
+      return 'any';
+    }
+
+    return animalType;
   }
 
 
