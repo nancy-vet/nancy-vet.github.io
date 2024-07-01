@@ -28,32 +28,40 @@ export class DrugCard2 implements OnInit {
     applicationMethod   : '',
 
     medicationConcentrationDecorator   : 'ml',
-    activeSubstanceDecorator       : ''
+    activeSubstanceDecorator       : '',
+    convertedActiveSubstanceDecorator: ''
   }
 
   public ngOnInit() {
 
-    const drugProperties                  = this.calculateDose(this.inputPatientModel, this.object);
+    const drugProperties                                = this.calculateDose(this.inputPatientModel, this.object);
 
-    this.imagePath                        = this.buildAssetPath();
-    this.$uiProperty.title                = this.object.title;
-    this.$uiProperty.activeSubstance      = this.object.activeSubstance;
+    this.imagePath                                      = this.buildAssetPath();
+    this.$uiProperty.title                              = this.object.title;
+    this.$uiProperty.activeSubstance                    = this.object.activeSubstance;
+    this.$uiProperty.drugDose                           = String(Math.round(parseFloat(drugProperties.drugDose) * 100) / 100);
+    this.$uiProperty.patientDose                        = String(Math.round(parseFloat(drugProperties.patientDose) * 100) / 100);
+    this.$uiProperty.applicationMethod                  = drugProperties.applicationMethod;
+    this.$uiProperty.medicationConcentrationDecorator   = drugProperties.drugConcentrationDecorator
+    this.$uiProperty.activeSubstanceDose                = String(Math.round(parseFloat(drugProperties.activeSubstanceDose) * 100) / 100);
 
-    //this.$uiProperty.drugDose             = parseFloat(drugProperties.drugDose).toFixed(2);
-   // this.$uiProperty.activeSubstanceDose  = parseFloat(drugProperties.activeSubstanceDose).toFixed(2);
-   // this.$uiProperty.patientDose          = parseFloat(drugProperties.patientDose).toFixed(2);
 
-    this.$uiProperty.drugDose             = String(Math.round(parseFloat(drugProperties.drugDose) * 100) / 100);
-    this.$uiProperty.activeSubstanceDose  = String(Math.round(parseFloat(drugProperties.activeSubstanceDose) * 100) / 100);
-    this.$uiProperty.patientDose          = String(Math.round(parseFloat(drugProperties.patientDose) * 100) / 100);
+    // По-надолу отново пиша същите неща, за да може АС декоратора да ми излезе на html.
+    const animalType              = this.inputPatientModel!.patientType;
+    const applicationObject       = this.object!.application[animalType];
+    const applicationType         = applicationObject ? applicationObject : "any";
+    const applicationProperties   = this.object!.application[applicationType];
 
-    this.$uiProperty.applicationMethod    = drugProperties.applicationMethod;
+    const activeSubstanceDecorator                      = applicationProperties.activeSubstanceDoseDecorator;
+    this.$uiProperty.convertedActiveSubstanceDecorator  = this.decoratorConvertor(applicationProperties.activeSubstanceDoseDecorator)
 
-    this.$uiProperty.medicationConcentrationDecorator  = drugProperties.drugConcentrationDecorator
-    this.$uiProperty.medicationConcentrationDecorator  = drugProperties.drugConcentrationDecorator
+    // console.log(`activeSubstanceDecorator: ${activeSubstanceDecorator}`)
+    // console.log(`convertedActiveSubstanceDecorator: ${this.$uiProperty.convertedActiveSubstanceDecorator}`)
 
-    console.log(`drugDose:${this.$uiProperty.drugDose}`)
-    console.log(`patientDose:${this.$uiProperty.patientDose}`)
+    // console.log(`drugDose:${this.$uiProperty.drugDose}`)
+    // console.log(`patientDose:${this.$uiProperty.patientDose}`)
+    // console.log(`medicationConcentrationDecorator: ${this.$uiProperty.medicationConcentrationDecorator}`)
+
   }
 
   public processCard(): void {
@@ -85,16 +93,35 @@ export class DrugCard2 implements OnInit {
     const patientWeightNumber 	= patientModel.patientWeightNumber;
 
     // get drug characteristics
-    const drugConcentration     = drugModel.drugConcentration;
-    const medicationConcentrationDecorator    = drugModel.drugConcentrationDecorator;
+    const drugConcentration                 = drugModel.drugConcentration;
+    const medicationConcentrationDecorator  = drugModel.drugConcentrationDecorator;
 
     // console.log("@@@@@")
     // console.log(drugModel)
     // console.log(patientModel)
-    console.log(`medicationConcentrationDecorator: ${medicationConcentrationDecorator}`)
+    //console.log(`medicationConcentrationDecorator: ${medicationConcentrationDecorator}`)
 
     // get application characteristics
-    const applicationProperties         = this.getApplicationMethodBasedOnType();
+    //const applicationProperties         = this.getApplicationMethodBasedOnType(); //преди да отворя функцията getApplication...()
+
+    // private getApplicationMethodBasedOnType() {  //това беше функция, която открих
+    // get infor based on the type of the patient
+    // check if we have a specific type of this patient
+    // ***
+    const animalType = this.inputPatientModel!.patientType;
+
+    if(!animalType) {
+      throw new Error("Something went completely wrong");
+    }
+
+    // check if animal type is applicable for this drug entity
+    // if not - process it with any in mind
+    const applicationObject = this.object!.application[animalType];
+    const applicationType   = applicationObject ? applicationObject : "any";
+    //return this.object!.application[applicationType];
+    // }
+
+    const applicationProperties         = this.object!.application[applicationType];
     const activeSubstanceDose           = applicationProperties.activeSubstanceDose;
     const activeSubstanceDecorator      = applicationProperties.activeSubstanceDoseDecorator;
     const applicationMethod             = applicationProperties.applicationMethod;
@@ -102,7 +129,9 @@ export class DrugCard2 implements OnInit {
     let patientDose:number[] = [];
     let drugDose:number[]    = [];
 
+    const convertedActiveSubstanceDecorator = this.decoratorConvertor(applicationProperties.activeSubstanceDoseDecorator)
     console.log(`activeSubstanceDecorator: ${activeSubstanceDecorator}`)
+    console.log(`convertedActiveSubstanceDecorator: ${convertedActiveSubstanceDecorator}`)
 
 
     for(const activeSubstanceDose of  applicationProperties.activeSubstanceDose) {
@@ -117,32 +146,8 @@ export class DrugCard2 implements OnInit {
       patientDose         : patientDose.join(' - ') ,
       drugDose            : drugDose.join(' - '),
 
-      drugConcentrationDecorator      : drugModel.drugConcentrationDecorator,
-      // activeSubstanceDoseDecorator : applicationProperties.activeSubstanceDoseDecorator,
-     // drugConcentrationDecorator    : this.decoratorConvertor(drugModel.drugConcentrationDecorator),
-      activeSubstanceDecorator        : this.decoratorConvertor(drugModel.application.activeSubstanceDoseDecorator),
+      drugConcentrationDecorator      : drugModel.drugConcentrationDecorator
     };
-  }
-
-
-
-  private getApplicationMethodBasedOnType() {
-
-    // get infor based on the type of the patient
-    // check if we have a specific type of this patient
-    // ***
-    const animalType = this.inputPatientModel!.patientType;
-
-    if(!animalType) {
-      throw new Error("Something went compleatly wrong");
-    }
-
-    // check if animal type is applicable for this drug entity
-    // if not - process it with any in mind
-    const applicationObject = this.object!.application[animalType];
-    const applicationType   = applicationObject ? applicationObject : "any";
-
-    return this.object!.application[applicationType];
   }
 
 

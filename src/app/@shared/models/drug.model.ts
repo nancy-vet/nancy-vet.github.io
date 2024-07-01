@@ -4,6 +4,7 @@ export interface DrugModel {
   activeSubstance: string;
   drugConcentration: number;
   drugConcentrationDecorator: string;
-  activeSubstanceDecorator: string;
+  activeSubstanceDecorator: any;
+  convertedActiveSubstanceDecorator: any;
   application: any;
 }

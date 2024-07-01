@@ -6,11 +6,11 @@
   <div
     class="ml8">
     <div class="card-title">
-      {{ $uiProperty.title }}
+      {{ $uiProperty.title }} {{ $uiProperty.medicationConcentrationDecorator }}
     </div>
 
     <div style="font-size: 12px;">
-      {{ $uiProperty.activeSubstance }}, доза: {{ $uiProperty.activeSubstanceDose }} {{ $uiProperty.activeSubstanceDecorator }}
+      {{ $uiProperty.activeSubstance }}, доза: {{ $uiProperty.activeSubstanceDose }} {{ $uiProperty.convertedActiveSubstanceDecorator }}
     </div>
   </div>
 
@@ -29,7 +29,7 @@
       </div>
 
       <div style="background: #4b8ffa; color: #fff; padding: 5px 5px;">
-        {{ $uiProperty.patientDose }} мг
+        {{ $uiProperty.patientDose }} (мг)
       </div>
     </div>
 
@@ -44,7 +44,7 @@
       </div>
 
       <div style="background: #d60b52; color: #fff; padding: 5px 5px;">
-        {{ $uiProperty.drugDose }} мл или табл
+        {{ $uiProperty.drugDose }} (мл или табл)
       </div>
     </div>
 
