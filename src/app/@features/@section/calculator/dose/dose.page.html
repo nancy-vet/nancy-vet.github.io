@@ -42,30 +42,30 @@
 
     <ion-grid>
       <ion-row>
-        <ion-col>
+        <ion-col style="place-content: center; padding: 10px;" class="bold" size="4">
           <ion-label>Тегло
           </ion-label>
         </ion-col>
 
-        <ion-col>
+        <ion-col size="3">
             <ion-input
             [counter]="true"
             [(ngModel)]="$formProperty.patientWeight"
             type="number"
-            min="0" placeholder="0">
+            min="0" placeholder="0" style="place-content: center; text-align: center; border-bottom: 1.3px solid #249ea0;">
             </ion-input>
         </ion-col>
 
         <ion-col>
-          <ion-select value="kilogram" [(ngModel)]="$formProperty.patientWeightUnit" fill="solid" (ionChange)="takePatientWeightUnit();">мерна единица
-              <ion-select-option value="kilogram">килограмa</ion-select-option>
+          <ion-select value="kilogram" [(ngModel)]="$formProperty.patientWeightUnit" fill="solid" (ionChange)="takePatientWeightUnit();" style="border-bottom: 1.3px solid #249ea0;">мерна единица
+              <ion-select-option value="kilogram"">килограмa</ion-select-option>
               <ion-select-option value="gram">грамa</ion-select-option>
           </ion-select>
         </ion-col>
       </ion-row>
 
       <ion-row>
-        <ion-col size="4">
+        <ion-col size="4" style="place-content: center; padding: 10px;" class="bold">
           <ion-label for="weight-input">Медикамент
           </ion-label>
         </ion-col>
