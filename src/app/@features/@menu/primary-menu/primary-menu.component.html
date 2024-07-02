@@ -77,6 +77,10 @@
     @if($ui.isCalculatorVisible)
     {
       <ion-list [inset]="true">
+        <ion-item (click)="returnToMainMenu()">
+          <ion-icon class="menu-icon" name="arrow-back-outline"></ion-icon>
+          <ion-label style="font-size: 13px; font-style: italic;">Върни се в главното меню</ion-label>
+        </ion-item>
         <ion-item>
           <ion-icon class="menu-icon" name="calculator-outline"></ion-icon>
           <ion-label (click)="processNavigation('calculator/fluid')">
@@ -126,12 +130,12 @@
           </ion-label>
         </ion-item>
 
-        <ion-item>
+        <!-- <ion-item>
           <ion-icon class="menu-icon" name="calculator-outline"></ion-icon>
           <ion-label (click)="processNavigation('calculator/seizure-infusion')">
             Инфузия при гърчове
           </ion-label>
-        </ion-item>
+        </ion-item> -->
 
       </ion-list>
 
