@@ -50,4 +50,10 @@ export class PrimaryMenu implements OnInit {
     this.$ui.isMainMenuVisible    = false;
     this.$ui.isCalculatorVisible  = true;
   }
+
+  // Show the main menu and hide the calculator submenu
+  returnToMainMenu(): void {
+    this.$ui.isMainMenuVisible = true;
+    this.$ui.isCalculatorVisible = false;
+  }
 }

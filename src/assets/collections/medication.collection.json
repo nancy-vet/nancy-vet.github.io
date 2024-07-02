@@ -136,7 +136,7 @@
     "titleEn": "Ondansetron Accord 2 mg/ml",
     "activeSubstance": "ондансетрон",
     "drugConcentration": 2,
-    "drugConcentrationDecorator": "mg_kg",
+    "drugConcentrationDecorator": "mg_ml",
     "application": {
       "any": {
         "activeSubstanceDose": [

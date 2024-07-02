@@ -24,9 +24,6 @@
         <div style="padding: 5px; width: 160px;">
           Доза на ЖВ:
         </div>
-        <div style="font-size: 12px;">
-          = (тегло ЖВ) * (доза на активната сусбтанция)
-        </div>
       </div>
 
 
@@ -46,9 +43,6 @@
       <div>
         <div style="padding: 5px; width: 160px;">
           Нужно кол-во:
-        </div>
-        <div style="font-size: 12px;">
-          = (доза ЖВ) / (конц-я на медикамента)
         </div>
       </div>
 
@@ -71,6 +65,26 @@
       </div>
     </div>
 
+    <div
+    class="ml8 mt16" style="border-top: solid #dedede 2px;">
+
+    <div style="padding: 5px; margin-top: 6px; font-size: 12px;">
+      Пресмята се по формула:
+    </div>
+
+    <div style="padding: 5px; font-size: 12px; font-weight: 600;">
+      (тегло ЖВ) * (доза на активната сусбтанция) / (конц-я на медикамента),
+    </div>
+    <div style="padding: 5px; font-size: 12px;">
+      т. е. (тегло ЖВ) * (доза на активната сусбтанция) = {{this.inputPatientModel!.patientWeightNumber}} * {{ this.$uiProperty.activeSubstanceDose }} = {{ $uiProperty.patientDose }} {{ this.$uiProperty.patientDoseDecorator }} = доза на ЖВ
+    </div>
+    <div style="padding: 5px; font-size: 12px;">
+      концентрацията на медикамента е {{ this.object!.drugConcentration }}.
+    </div>
+    <div style="padding: 5px; font-size: 12px;">
+      (доза ЖВ) / (конц-я на медикамента) = {{ $uiProperty.patientDose }} / {{ this.object!.drugConcentration }} = {{ $uiProperty.drugDose }} {{ this.$uiProperty.drugDoseDecorator }}
+    </div>
+  </div>
 
   </div>
 

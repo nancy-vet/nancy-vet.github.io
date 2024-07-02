@@ -27,6 +27,7 @@ export class DrugCard2 implements OnInit {
     patientDose         : '0', // даденото кол-во АС, от което се нуждае даденото ЖВ (мг/ г)
     applicationMethod   : '',
 
+    medicationConcentration : '0',
     medicationConcentrationDecorator   : 'ml',
     activeSubstanceDecorator       : '',
     convertedActiveSubstanceDecorator: '',
@@ -46,7 +47,7 @@ export class DrugCard2 implements OnInit {
     this.$uiProperty.applicationMethod                  = drugProperties.applicationMethod;
     this.$uiProperty.patientDoseDecorator               = drugProperties.patientDoseDecorator;
     this.$uiProperty.drugDoseDecorator                  = drugProperties.drugDoseDecorator;
-    this.$uiProperty.medicationConcentrationDecorator   = drugProperties.drugConcentrationDecorator
+    this.$uiProperty.medicationConcentrationDecorator   = drugProperties.drugConcentrationDecorator;
     this.$uiProperty.activeSubstanceDose                = drugProperties.activeSubstanceDose;
 
     console.log(`this.$uiProperty.patientDose: ${this.$uiProperty.patientDose}`)
@@ -56,6 +57,9 @@ export class DrugCard2 implements OnInit {
     console.log(`this.$formProperty.patientType From drug-card2: ${animalType}`);
     const applicationObject       = this.object!.application[animalType];
 
+    // To ensure that patientWeightNumber will be visible in drug-card2.component.html
+    const patientWeight              = this.inputPatientModel!.patientWeightNumber;
+    const drugConcentration              = this.object!.drugConcentration;
 
     let applicationType: string;
 
