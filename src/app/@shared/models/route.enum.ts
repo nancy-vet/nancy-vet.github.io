@@ -3,6 +3,7 @@ export enum AppNavigationRouteEnum {
   CALCULATOR    = "calculator",
   LIBRARY       = "library",
   INFO          = "info",
+  HEMATOLOGY    = "hematology",
   EXAMINATION   = "examination",
   METHODS       = "methods",
   AUSCULTATION  = "auscultation",
