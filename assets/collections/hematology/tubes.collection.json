@@ -1,0 +1,58 @@
+[
+  {
+    "title"             : "ЕДТА епруветки",
+    "capColor"          : "purple",
+    "additive"          : "Етилендиаминтетраацетат, К2 ЕДТА (впръскана по стените на вакутейнера) или К3 ЕДТА (течна форма).",
+    "additiveFunction"  : "EDTA се свързва с калция, за да предотврати коагулацията.",
+    "yield"             : "цяла кръв",
+    "uses"              : "ПКК."
+  },
+  {
+    "title"             : "Серум епруветки без 'clot activator'",
+    "capColor"          : "red",
+    "additive"          : "none",
+    "additiveFunction"  : "",
+    "yield"             : "",
+    "uses"              : ""
+  },
+  {
+    "title"             : "Серум епруветки с 'clot activator'",
+    "capColor"          : "red",
+    "additive"          : "clot activator",
+    "additiveFunction"  : "силиконови частици впръскани по стените на вакутейнера които, ускоряват процеса на кръвосъсирване",
+    "yield"             : "",
+    "uses"              : ""
+  },
+  {
+    "title"             : "Епруветки с натриев цитрат",
+    "capColor"          : "blue",
+    "additive"          : "3,2% натриев цитрат",
+    "additiveFunction"  : "",
+    "yield"             : "",
+    "uses"              : "за определяне показателите на кръвосъсирването."
+  },
+  {
+    "title"             : "Хепарин епруветки",
+    "capColor"          : "",
+    "additive"          : "",
+    "additiveFunction"  : "",
+    "yield"             : "",
+    "uses"              : ""
+  },
+  {
+    "title"             : "Епруветки за глюкоза",
+    "capColor"          : "",
+    "additive"          : "",
+    "additiveFunction"  : "",
+    "yield"             : "",
+    "uses"              : ""
+  },
+  {
+    "title"             : "Епруветки за СУЕ",
+    "capColor"          : "",
+    "additive"          : "",
+    "additiveFunction"  : "",
+    "yield"             : "",
+    "uses"              : ""
+  }
+]
