@@ -9,8 +9,8 @@ import { BloodCollectionService     } from 'nv@services/blood-collection.service
 })
 export class BloodCollectionPage implements OnInit {
 
-  private $BloodCollectionService = inject(BloodCollectionService);
-  private dialogService           = inject(DialogService);
+  private $BloodCollectionService: BloodCollectionService = inject(BloodCollectionService);
+  private dialogService: DialogService                    = inject(DialogService);
 
   public $data: any;
 
@@ -20,19 +20,19 @@ export class BloodCollectionPage implements OnInit {
     const serviceId      = pathCollection[pathCollection.length - 1];
     const service        = this.getServiceBasedOnPath(serviceId);
 
-    this.$data = this.$BloodCollectionService.get(service);
+    this.$data = this.$BloodCollectionService.get('tubes');
   }
 
   /**
    * @author Mihail Petrov
    * @param element
    */
-  public async onSelectCard(element: any) {
+  // public async onSelectCard(element: any) {
 
-    (await this.dialogService.open(DetailModal, {
-      selectedObject: element
-    }))
-  }
+  //   (await this.dialogService.open(DetailModal, {
+  //     selectedObject: element
+  //   }))
+  // }
 
   /**
    * @author Mihail Petrov

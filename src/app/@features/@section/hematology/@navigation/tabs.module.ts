@@ -19,7 +19,7 @@ const routes: Routes = [
     component : TabNavigation,
     children  : [
       {
-        path          : 'blood_collection',
+        path          : 'blood-collection',
         loadChildren  : () => import('../blood-collection/tubes/tubes.module').then(m => m.FeatureModule)
       },
       {
