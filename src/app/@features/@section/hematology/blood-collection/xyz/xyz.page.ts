@@ -1,17 +1,16 @@
 import { Component, OnInit, inject  } from '@angular/core';
-import { DialogService } from 'nv@services/dialog.service';
-import { BloodCollectionService } from 'nv@services/blood-collection.service';
-import { DetailModal } from './@modal/detail/detail.component';
+import { DetailModal                } from './@modal/detail/detail.component';
+import { DialogService              } from 'nv@services/dialog.service';
+import { BloodCollectionService     } from 'nv@services/blood-collection.service';
 
 @Component({
   selector    : 'page-blood-collection',
-  templateUrl : './blood-collection.page.html',
-  styleUrl    : './blood-collection.page.scss'
+  templateUrl : './xyz.page.html',
 })
-export class BloodCollectionPage implements OnInit {
+export class XyzPage implements OnInit {
 
-  private $BloodCollectionService: BloodCollectionService   = inject(BloodCollectionService);
-  private dialogService: DialogService  = inject(DialogService);
+  private $BloodCollectionService = inject(BloodCollectionService);
+  private dialogService           = inject(DialogService);
 
   public $data: any;
 

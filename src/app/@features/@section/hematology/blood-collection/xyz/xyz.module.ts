@@ -16,13 +16,12 @@ import { SplitPipe                } from 'nv@pipes/split.pipe';
 import { NvLinkButtonComponent    } from 'nv@components/@forms/nv-link-button/nv-link-button.component';
 
 //import { BloodCollectionPage      } from './blood-collection.page';
-import { DetailModal              } from '../blood-collection/@modal/detail/detail.component';
-import { GalleryModal             } from '../blood-collection/@modal/gallery/gallery.component';
-import { BloodCollectionPage      } from './blood-collection.page';
+import { XyzPage      } from './xyz.page';
+
 
 const routes: Routes = [{
     path      : '',
-    component : BloodCollectionPage,
+    component : XyzPage,
   }
 ];
 
@@ -31,9 +30,7 @@ const routes: Routes = [{
     CUSTOM_ELEMENTS_SCHEMA
   ],
     declarations                    : [
-      BloodCollectionPage           ,
-      DetailModal                   ,
-      GalleryModal
+      XyzPage                       ,
     ],
     imports                         : [
       RouterModule.forChild(routes) ,

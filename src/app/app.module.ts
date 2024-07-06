@@ -36,10 +36,10 @@ const routes: Routes = [
     path          : AppNavigationRouteEnum.INFO,
     loadChildren  : () => import('./@features/@section/info/@navigation/tabs.module').then(m => m.TabsPageModule)
   },
-  {
-    path          : AppNavigationRouteEnum.HEMATOLOGY,
-    loadChildren  : () => import( './@features/@section/hematology/term/@navigation/tabs.module').then(m => m.TabsPageModule)
-  },
+  // {
+  //   path          : AppNavigationRouteEnum.HEMATOLOGY,
+  //   loadChildren  : () => import( './@features/@section/hematology/@navigation/tabs.module').then(m => m.TabsPageModule)
+  // },
   {
     path          : AppNavigationRouteEnum.EXAMINATION,
     loadChildren  : () => import('./@features/@section/probes/@navigation/tabs.module').then(m => m.TabsPageModule)
