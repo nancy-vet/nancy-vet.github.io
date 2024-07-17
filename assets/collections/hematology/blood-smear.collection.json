@@ -1,0 +1,672 @@
+
+[
+  {
+    "title"     : "Erythrocyte",
+    "type"      : "erythrocyte",
+    "subtype"   : "",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/Canine-RBC.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/Canine-RBC.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/RBC.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Description Dog",
+        "content"     : [
+          "The canine erythrocyte in health is a relatively large, uniform, biconcave disc. This is reflected in the Wright’s stained blood film as a cell with an area of central pallor.", "Small numbers of polychromatophilic erythrocytes are observed in blood smears from healthy dogs (<1.5% reticulocytes). Occasional nucleated red blood cells and Howell-Jolly bodies may also be seen in blood smears from healthy, non-anemic dogs.", "The canine erythrocyte lifespan varies from 110-120 days."
+        ]
+      },
+      {
+        "sectionTitle": "Description Cat",
+        "content"     : [
+          "Feline erythrocytes are smaller and more variable in size and shape than those of dogs. They have little to no central pallor as normally seen in routine blood films.", "Polychromatophilic cells are very few in health (<1%). The hemoglobin of cats is more susceptible to oxidant injury than in other species. This is because feline hemoglobin contain eight oxidizable sulfhydryl groups. For this reason, low numbers (<10%) single, small Heinz bodies may be seen on erythrocytes in healthy cats. These so-called “endogenous” Heinz bodies may be seen in increased numbers (up to 50%) in cats on semi-moist food which contains propylene glycol that causes oxidant injury. Although these cats are not usually anemic, red blood cell lifespan is reduced. Healthy cats also can have a few Howell-Jolly bodies in erythrocytes in peripheral blood.", "The lifepan of feline erythrocytes is 65-76 days. The propensity for rouleaux formation in feline erythrocytes is greater than that of canine erythrocytes, but less than that of horses."
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Nucleated RBC",
+    "type"      : "erythrocyte",
+    "subtype"   : "nucleated",
+    "mechanism" : "immature cells (rubricytes and metarubricytes) with nuclear material",
+    "diseases"  : ["Regenerative anemias", "Spinal tumors, myelodysplasia, myelophtisis"],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/nucleated-RBC/nrbc-1.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/nucleated-RBC/nrbc-1.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/nucleated-RBC/nrbc-2.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/nucleated-RBC/nrbc-3.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/nucleated-RBC/nrbc-4.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/nucleated-RBC/nrbc-5.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/nucleated-RBC/nrbc-6.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/nucleated-RBC/nrbc-7.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "They are usually not seen in the blood of healthy mammals;", "Dogs can have up to 1 nRBC/100 WBC", "In fact, hematologic analyzers frequently count nRBC as lymphocytes resulting in inaccurate automated differential leukocyte counts and a measured “WBC” count. When nRBC are present in blood, they are included in the measured “WBC” count and the WBC count must be corrected for the number of nRBC. "
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          "most often noted in dogs and cats in the context of strongly regenerative anemia. When nRBCs are increased in blood, it is called a normoblastosis, erythroblastosis or metarubricytosis. even though nRBCs can be seen in the blood of some animals with a regenerative anemia, alone they do not indicate regeneration alone."
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Acanthocytes",
+    "type"      : "erythrocyte",
+    "subtype"   : "shape",
+    "mechanism" : "due to changes in plasma lipids or due to fragmentation injury",
+    "diseases"  : ["Cancer", "DIC", "Iron deficiency anemia", "Hepatic alterations"],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/acanthocytes-1.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/acanthocytes-1.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/acanthocytes-2.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/acanthocytes-3.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "Acanthocytes (or spur cells) are spherical cells with blunt-tipped or club-shaped spicules of different lengths projecting from their surface at irregular intervals.", "Acanthocytes are less resistant to osmotic lysis and more rigid than normal red blood cells. Due to their rigidity, they probably have a shorter life span than normal, resulting in a mild hemolytic (extravascular) process, which may or may not manifest as an anemia", "Acanthocytes are thought to occur through two main mechanisms: due to changes in plasma lipids mainly in liver disease (For instance, dogs fed a cholesterol-rich diet developed acanthocytes along with an anemia with increased osmotic fragility) and Fragmentation injury."
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          "Cancer - In one study, 54% of 123 dogs with acanthocytes had cancer.", "Disseminated intravascular coagulation: Acanthocytes can be seen in low numbers in this disorder, likely as a consequence of fragmentation injury, although schistocytes and keratocytes are more typical.", "Iron deficiency anemia: Acanthocytes are commonly observed in the blood of dogs with iron deficiency anemia. Iron-deficient red blood cells are thought to be mechanically fragile, which results in acanthocyte, schistocyte, and keratocyte formation.", "Hepatic alterations"
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Eccentrocytes",
+    "type"      : "erythrocyte",
+    "subtype"   : "shape",
+    "mechanism" : "",
+    "diseases"  : ["Intoxication with oxidising substances: onions, paracetamol, NSAIDs, etc.", "Ketoacidotic diabetes"],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/eccentrocyte-1.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/eccentrocyte-1.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/eccentrocyte-2.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/eccentrocyte-3.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "Eccentrocytes form under conditions of excess oxidant stress to the erythrocytes, which induces cross-linking of membrane proteins. Often (but not always), they are seen in association with Heinz bodies, which provide evidence of an oxidant effect on hemoglobin."
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          "Oxidant-induced hemolytic anemia: Oxidants occur in plants (onion poisoning in dogs and cats), copper poisoning (sheep), chemicals (zinc pennies in dogs, naphthalene moth balls in dogs, skunk spray in dogs) and drugs (vitamin K1 in dogs). Exposure to these oxidants can result in a hemolytic anemia, which can frequently have an intravascular component.", "Endogenous oxidants: Many sick dogs can have eccentrocytes, indicating oxidant injury to red blood cells. This may or may not result in anemia (depending on the extent of oxidant injury).", "Note that when the thin membrane of the eccentrocyte is removed or ruptures, a small cell which lacks central pallor is formed. These spherocytic cells are termed “pyknocytes” and can be mistaken for spherocytes under light microscopy. "
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Echinocytes",
+    "type"      : "erythrocyte",
+    "subtype"   : "shape",
+    "mechanism" : "alterations in RBC membrane phospholipids",
+    "diseases"  : ["Renal disease", "Snake venom", "Artefact", "Pyruvate kinase deficiency"],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/echinocytes-1.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/echinocytes-1.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "Echinocytes are regular spiculated RBCs.", "Spicules are usually of uniform size which differentiates echinocytes from acanthocytes (which have irregularly sized spicules, irregularly spaced around the cell membrane)."
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          "Artifact: Echinocytes usually are artifactive change, resulting from aging of the blood and/or exposure to excessive concentrations of EDTA.", "Drugs", "Electrolyte depletion: When seen in fresh, well-handled blood, echinocytes usually indicate whole body electrolyte depletion. Reduction in intracellular erythrocyte potassium (K+) causes red blood cell dehydration and echinocyte formation.", "Renal disease: Dogs with renal disease, particularly glomerulonephritis, can have many echinocytes. The mechanism of formation is unknown.", "Inherited red blood cell disorders: Dogs with pyruvate kinase deficiency can have spheroechinocytes. This could be secondary to the decreased ability of affected RBC to produce ATP.", "Snake envenomation: Snake envenomation (rattlesnake, coral snake, vipers) can cause echinocyte formation. Echinocytes can form within 24 hours of the snakebite."
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Elliptocytes",
+    "type"      : "erythrocyte",
+    "subtype"   : "shape",
+    "mechanism" : "Alteration in RBV development in the bone marrow",
+    "diseases"  : ["Hepatic lipidosis and portosystemic shunt", "Spinal neoplasms", "Hereditary diseases", "Chemotherapy"],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/elliptocytes-1.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/elliptocytes-1.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/elliptocytes-2.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "Elliptocytes are elongated red blood cells. In some cases, smear-making technique and/or plasma viscosity may be contributing factors in their in vitro formation. "
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          "Liver disease: Many cats with liver disease (particularly lipidosis) have acanthocytes and elliptocytes. Some elliptocytes have scalloped or speculated margins and are called oak leaf or holly leaf cells.", "Myelofibrosis: Elliptocytes (type 1 or ovalocytes) in dogs should raise suspicion of underlying myelofibrosis. Such elliptocytes are usually seen with non-regenerative forms of immune-mediated anemia (NRIMA) or (presumptive) precursor-directed immune-mediated anemia (PIMA), as well as dogs with pure red cell aplasia (the most severe form of NRIMA). Myelofibrosis can also occur with primary hematopoietic neoplasia and cancers that metastasize to the bone marrow (lymphoma, histolytic sarcoma).", "Inherited/congenital red blood cell abnormality: A defect in the red blood cell membrane or the cytoskeletal protein, spectrin, can result in elliptocytosis.", "Chemotherapy: Elliptocytes have been observed in cats given doxorubicin."
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Keratocytes",
+    "type"      : "erythrocyte",
+    "subtype"   : "shape",
+    "mechanism" : "Alterations of the plasma membrane",
+    "diseases"  : ["Liver disease", "Liver disease"],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/keratocytes-1.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/keratocytes-1.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "Keratocytes are erythrocytes with a blister-like vesicle, which may rupture, leaving a “bite-shaped” defect in the cell outline or one or two horn-like projections on the same side of the cell.", "Low numbers of keratocytes may be seen in various situations and may not have any clear clinical significance"
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          "Fragmentation injury: Keratocytes will usually accompany schistocytes and acanthocytes in this setting, Associated conditions include causes of microangiopathic hemolysis (disseminated intravascular coagulation, vasculitis, hemangiosarcoma) and mechanical fragility, e.g. iron deficiency anemia.", "Oxidant injury: Here keratocytes may accompany eccentrocytes, pyknocytes, and possible Heinz bodies, depending on the oxidant.", "Liver disease: In cats, keratocytes can be seen in increased numbers in liver disease, e.g. hepatic lipidosis."
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Poikilocytes",
+    "type"      : "erythrocyte",
+    "subtype"   : "shape",
+    "mechanism" : "",
+    "diseases"  : ["Liver disease", "doxorubicin"],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/RBC.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/RBC.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/RBC.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "This generic term is used when the red blood cell shape changes are so varied, that using specific terms does not provide additional diagnostic meaning."
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          "Liver disease in cats: Moderate to marked poikilocytosis in a non-anemic or anemic cat is a good non-invasive marker for underlying liver disease (most frequently, but not limited to, lipidosis).", "Drugs: Certain drugs, e.g. doxorubicin, can induce poikilocytosis."
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Schistocytes",
+    "type"      : "erythrocyte",
+    "subtype"   : "shape",
+    "mechanism" : "RBC fragmentation",
+    "diseases"  : ["Microangiopathic hemolytic anaemia: DIC, haemangiosarcoma, dirofilariosis"],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/schistocytes-1.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/schistocytes-1.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "Schistocytes, or red blood cell fragments, are generally taken to reflect mechanical injury to erythrocytes."
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          "Usually seen in relatively low numbers, they are associated with conditions in which the normally smooth endothelial lining is roughened or irregular, the vascular lumen is crossed by strands of fibrin, or blood flow is turbulent. Disseminated intravascular coagulation, glomerular disease, vasculitis, portosystemic shunts and vascular neoplasms (e.g. hemangiosarcoma) are among the many conditions in which red blood cell fragmentation may be seen in varying degrees.", "Schistocytes are seen in up to 60-75% of dogs, but are rarely seen in cats and other species, with disseminated intravascular coagulation (in cats, schistocytes are most commonly observed as part of the poikilocytosis in liver disease).", "Schistocytes also are commonly seen as a feature of  iron deficiency anemia, but in this instance the fragmentation likely results from inherent mechanical fragility of the cells produced under these conditions than from changes in the vasculature."
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Spherocytes",
+    "type"      : "erythrocyte",
+    "subtype"   : "shape",
+    "mechanism" : "Plasma membrane loss",
+    "diseases"  : ["Immune-mediated hemolytic anemia", "Sname venom", "Hereditary diseases"],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/spherocytes-1.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/spherocytes-2.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/spherocytes-3.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "Spherocytes are erythrocytes which have assumed the form of a sphere rather than the normal discoid shape. As a result, they appear on routine blood films as cells that are smaller and more dense than normal red blood cells of the species, and have a reduced area of central pallor. Because cats, horses and cattle normally have red cells with little central pallor, recognition of spherocytes is more difficult in these species than in dogs, whose normal red blood cells have distinct pale centers. Note that even though spherocytes appear smaller than normal red blood cells on a blood smear (because you are assessing diameter of cells on a smear, not volume), in most cases, they have normal volume and do not change the mean cell volume (MCV)."
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          "Immune-mediated hemolytic anemia: Some studies show that up to 66% of dogs with IMHA have spherocytosis, however in our experience, this number is higher (approaching 90% or more) in dogs with classic regenerative IMHA. Spherocytes are not as frequently seen in non-regenerative forms of immune-mediated anemia or the precursor-directed immune-mediated anemias.", "Other acquired diseases: These usually have low numbers of spherocytes and include fragmentation anemias, oxidative injury to red blood cells (although the cells are actually pyknocytes), coral snake envenomation, pyruvate kinase deficiency in Basenjis (spheroechinocytes) and disorders associated with abnormal macrophage function (hemophagocytic syndrome, histolytic sarcoma), and bee stings.", "Transfused or stored red blood cells: Stored red blood cells in blood bags will lose surface area", "“Normal” finding: A few spherocytes are frequently seen at or near the feathered edge of blood smears in many dogs (normal or ill) and should not be over-interpreted."
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Stomatocytes",
+    "type"      : "erythrocyte",
+    "subtype"   : "shape",
+    "mechanism" : "Alterations in osmotic pressure of RBCs",
+    "diseases"  : ["Preparation artefacts", "Hereditary diseases"],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/stomatocytes-1.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/stomatocytes-1.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/stomatocytes-2.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "Stomatocytes are erythrocytes with an elongated (mouth-like) area of central pallor."
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          "Hereditary stomatocytosis: This occurs in some Alaskan Malamute dogs in association with chondrodysplasia, manifesting as dwarfism. Hereditary stomatocytosis has also been reported in Drentsche Patrijshond (in conjunction with hypertrophic gastritis) and Standard (Bonfanti et al., 2005) and Miniature Schnauzers."
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Target cells",
+    "type"      : "erythrocyte",
+    "subtype"   : "shape",
+    "mechanism" : "Alterations of the plasma membrane",
+    "diseases"  : ["Low number physiological", "Regenerative anaemia", "Iron deficiency", "Liver disease"],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/RBC.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/RBC.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/RBC.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "Target cells (codocytes or leptocytes) have a “lump” of hemoglobinized cytoplasm within the area of normal central pallor, causing them to resemble a “bullseye” target."
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          "Young erythrocytes, as a normal feature, have excess membrane relative to mature cells; therefore, polychromatophilic target cells are often seen in the context of a regenerative anemia. Hypochromic cells, in iron deficiency anemias, also can assume a target appearance because the cells have larger diameters with decreased cell thickness. In these situations, the presence of target cells in a blood smear does not provide any additional diagnostic information.", "Increased numbers of normochromic target cells can be a useful diagnostic indicator of pathologic conditions resulting in a balanced increase in cholesterol and phospholipid in the redblood  cell membrane. The most common disorder associated with normocytic normochromic target cells is liver disease. Hypothyroidism is another condition where this can occur and could be related to high systemic cholesterol concentrations that are seen in this disorder in dogs."
+        ]
+      }
+    ]
+  },
+
+
+  {
+    "title"     : "Macrocytes",
+    "type"      : "erythrocyte",
+    "subtype"   : "size",
+    "mechanism" : "Defects in nuclear maturation",
+    "diseases"  : ["Regeneration", "FeLV infection", ""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/RBC.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/RBC.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/RBC.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "These are larger red blood cells than normal. Cells can appear smaller but be of normal volume (e.g. spherocytes) whereas other cells actually appear bigger because they are thinner and spread more in a blood smear (hypochromic red blood cells). Note that low numbers of larger or smaller red blood cells may not increase or decrease the mean cell volume (MCV) above or below reference  limits. "
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          "Regeneration: Macrocytes can be (but are not always) younger RBC than normal.", ""
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+
+  {
+    "title"     : "Macrocytes",
+    "type"      : "erythrocyte",
+    "subtype"   : "color",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Macrocytes",
+    "type"      : "erythrocyte",
+    "subtype"   : "color",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Macrocytes",
+    "type"      : "erythrocyte",
+    "subtype"   : "color",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Macrocytes",
+    "type"      : "erythrocyte",
+    "subtype"   : "color",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Macrocytes",
+    "type"      : "erythrocyte",
+    "subtype"   : "color",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+
+  {
+    "title"     : "Macrocytes",
+    "type"      : "erythrocyte",
+    "subtype"   : "pattern",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Macrocytes",
+    "type"      : "erythrocyte",
+    "subtype"   : "pattern",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+
+
+  {
+    "title"     : "Macrocytes",
+    "type"      : "erythrocyte",
+    "subtype"   : "inclusions",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Macrocytes",
+    "type"      : "erythrocyte",
+    "subtype"   : "inclusions",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Macrocytes",
+    "type"      : "erythrocyte",
+    "subtype"   : "inclusions",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Macrocytes",
+    "type"      : "erythrocyte",
+    "subtype"   : "inclusions",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Macrocytes",
+    "type"      : "erythrocyte",
+    "subtype"   : "inclusions",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  }
+]
