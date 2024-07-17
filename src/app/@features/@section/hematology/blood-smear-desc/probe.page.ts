@@ -36,13 +36,13 @@ export class ProbePage implements OnInit {
    * @param pathId
    * @returns
    */
-  private getServiceBasedOnPath(pathId: string) {
+  // private getServiceBasedOnPath(pathId: string) {
 
-    if(pathId == 'tab1') return 'copro';
-    if(pathId == 'tab2') return 'ear';
-    if(pathId == 'tab3') return 'skin';
-    if(pathId == 'tab4') return 'trichogram';
-    if(pathId == 'tab5') return 'urine';
-    return '';
-  }
+  //   if(pathId == 'tab1') return 'copro';
+  //   if(pathId == 'tab2') return 'ear';
+  //   if(pathId == 'tab3') return 'skin';
+  //   if(pathId == 'tab4') return 'trichogram';
+  //   if(pathId == 'tab5') return 'urine';
+  //   return '';
+  // }
 }
