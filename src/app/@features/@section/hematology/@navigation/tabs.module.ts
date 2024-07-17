@@ -23,6 +23,14 @@ const routes: Routes = [
         loadChildren  : () => import('../blood-collection/tubes/tubes.module').then(m => m.FeatureModule)
       },
       {
+        path          : 'blood-smear-method',
+        loadChildren  : () => import('../blood-smear-method/main.module').then(m => m.FeatureModule)
+      },
+      {
+        path          : 'blood-smear-desc',
+        loadChildren  : () => import('../blood-smear-desc/probe.module').then(m => m.FeatureModule)
+      },
+      {
         path          : 'term',
         loadChildren  : () => import('../term/term/term.module').then(m => m.TermPageModule)
       },

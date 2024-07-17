@@ -12,10 +12,6 @@ export class MainPage implements OnInit {
   public $data: any;
 
   public ngOnInit(): void {
-
-    const pathCollection = window.location.pathname.split('/');
-    const serviceId      = pathCollection[pathCollection.length - 1];
-    this.$data           = this.$dataService.get(serviceId);
-
+    this.$data = this.$dataService.get('blood-smear-method');
   }
 }
