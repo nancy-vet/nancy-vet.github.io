@@ -90,11 +90,11 @@
     "subtype"   : "shape",
     "mechanism" : "",
     "diseases"  : ["Intoxication with oxidising substances: onions, paracetamol, NSAIDs, etc.", "Ketoacidotic diabetes"],
-    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/eccentrocyte-1.png",
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/eccentrocytes-1.png",
     "gallery"   : [
-      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/eccentrocyte-1.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/eccentrocyte-2.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/eccentrocyte-3.png"
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/eccentrocytes-1.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/eccentrocytes-2.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/eccentrocytes-3.png"
     ],
     "section"   : [
       {
@@ -296,10 +296,10 @@
     "subtype"   : "shape",
     "mechanism" : "Alterations of the plasma membrane",
     "diseases"  : ["Low number physiological", "Regenerative anaemia", "Iron deficiency", "Liver disease"],
-    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/RBC.png",
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/target-cells-1.png",
     "gallery"   : [
-      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/RBC.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/RBC.png"
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/target-cells-1.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/target-cells-2.png"
     ],
     "section"   : [
       {
@@ -323,7 +323,7 @@
     "type"      : "erythrocyte",
     "subtype"   : "size",
     "mechanism" : "Defects in nuclear maturation",
-    "diseases"  : ["Regeneration", "FeLV infection", ""],
+    "diseases"  : ["Regeneration", "FeLV infection", "Folic acid deficiency", "Common in Poodles"],
     "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/RBC.png",
     "gallery"   : [
       "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/RBC.png",
@@ -333,13 +333,33 @@
       {
         "sectionTitle": "Описание",
         "content"     : [
-          "These are larger red blood cells than normal. Cells can appear smaller but be of normal volume (e.g. spherocytes) whereas other cells actually appear bigger because they are thinner and spread more in a blood smear (hypochromic red blood cells). Note that low numbers of larger or smaller red blood cells may not increase or decrease the mean cell volume (MCV) above or below reference  limits. "
+          "These are larger red blood cells than normal. Cells can appear smaller but be of normal volume (e.g. spherocytes) whereas other cells actually appear bigger because they are thinner and spread more in a blood smear (hypochromic red blood cells). Note that low numbers of larger or smaller red blood cells may not increase or decrease the mean cell volume (MCV) above or below reference  limits."
         ]
       },
       {
         "sectionTitle": "Свързани заболявания:",
         "content"     : [
-          "Regeneration: Macrocytes can be (but are not always) younger RBC than normal.", ""
+          "Regeneration: Macrocytes can be (but are not always) younger RBC than normal. Cats that have recovered from an anemia may be macrocytic due to persistence of this punctate reticulocytes (post-regenerative macrocytosis).", "Abnormal DNA synthesis: Since RBC becomes successively smaller with each cell division during erythropoiesis, larger RBC are formed if DNA synthesis is retarded or abnormal. This occurs with: Feline leukemia virus (FeLV) infection, Myelodysplasia, Congenital dyserythropoiesis, Mineral/nutrient deficiencies, Drugs.", "Red blood cell swelling: This can occur due to membrane defects (e.g. hereditary stomatocytosis), hyperosmolality (e.g. diabetes mellitus) or a storage-associated artifact. Since this affects all RBC, macrocytes are usually not identified readily on the blood smears, although the MCV may be above the upper reference limit for that species."
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Microcytes",
+    "type"      : "erythrocyte",
+    "subtype"   : "size",
+    "mechanism" : "",
+    "diseases"  : [],
+    "frontImage": "",
+    "gallery"   : [
+      "",
+      ""
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "Smaller RBC. Difficult to identify true microcytes and RBC are not usually reported as microcytes in animals with MCV below the lower reference limit for that species. This term is rarely or not used at Cornell University, since it is of uncertain relevance and could encompass more diagnostic shapes, such as spherocytes, schistocytes. Identification of the latter specific shapes is more informative."
         ]
       }
     ]
@@ -349,9 +369,8 @@
 
 
 
-
   {
-    "title"     : "Macrocytes",
+    "title"     : "Hypochromasia",
     "type"      : "erythrocyte",
     "subtype"   : "color",
     "mechanism" : "",
@@ -377,7 +396,7 @@
     ]
   },
   {
-    "title"     : "Macrocytes",
+    "title"     : "Polychromasia",
     "type"      : "erythrocyte",
     "subtype"   : "color",
     "mechanism" : "",
@@ -403,59 +422,7 @@
     ]
   },
   {
-    "title"     : "Macrocytes",
-    "type"      : "erythrocyte",
-    "subtype"   : "color",
-    "mechanism" : "",
-    "diseases"  : [""],
-    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
-    "gallery"   : [
-      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png"
-    ],
-    "section"   : [
-      {
-        "sectionTitle": "Описание",
-        "content"     : [
-          ""
-        ]
-      },
-      {
-        "sectionTitle": "Свързани заболявания:",
-        "content"     : [
-          ""
-        ]
-      }
-    ]
-  },
-  {
-    "title"     : "Macrocytes",
-    "type"      : "erythrocyte",
-    "subtype"   : "color",
-    "mechanism" : "",
-    "diseases"  : [""],
-    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
-    "gallery"   : [
-      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png"
-    ],
-    "section"   : [
-      {
-        "sectionTitle": "Описание",
-        "content"     : [
-          ""
-        ]
-      },
-      {
-        "sectionTitle": "Свързани заболявания:",
-        "content"     : [
-          ""
-        ]
-      }
-    ]
-  },
-  {
-    "title"     : "Macrocytes",
+    "title"     : "Ghost red blood cells",
     "type"      : "erythrocyte",
     "subtype"   : "color",
     "mechanism" : "",
@@ -483,8 +450,13 @@
 
 
 
+
+
+
+
+
   {
-    "title"     : "Macrocytes",
+    "title"     : "Agglutination",
     "type"      : "erythrocyte",
     "subtype"   : "pattern",
     "mechanism" : "",
@@ -510,7 +482,7 @@
     ]
   },
   {
-    "title"     : "Macrocytes",
+    "title"     : "Rouleaux formation",
     "type"      : "erythrocyte",
     "subtype"   : "pattern",
     "mechanism" : "",
@@ -538,9 +510,8 @@
 
 
 
-
   {
-    "title"     : "Macrocytes",
+    "title"     : "Basophilic stippling",
     "type"      : "erythrocyte",
     "subtype"   : "inclusions",
     "mechanism" : "",
@@ -566,7 +537,7 @@
     ]
   },
   {
-    "title"     : "Macrocytes",
+    "title"     : "Heinz bodies",
     "type"      : "erythrocyte",
     "subtype"   : "inclusions",
     "mechanism" : "",
@@ -592,7 +563,7 @@
     ]
   },
   {
-    "title"     : "Macrocytes",
+    "title"     : "Howell-Jolly bodies",
     "type"      : "erythrocyte",
     "subtype"   : "inclusions",
     "mechanism" : "",
@@ -618,7 +589,7 @@
     ]
   },
   {
-    "title"     : "Macrocytes",
+    "title"     : "Siderocytes",
     "type"      : "erythrocyte",
     "subtype"   : "inclusions",
     "mechanism" : "",
@@ -644,7 +615,7 @@
     ]
   },
   {
-    "title"     : "Macrocytes",
+    "title"     : "Hemobartonella spp.",
     "type"      : "erythrocyte",
     "subtype"   : "inclusions",
     "mechanism" : "",
