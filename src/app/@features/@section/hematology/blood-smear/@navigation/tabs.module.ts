@@ -10,7 +10,6 @@ import { PrimaryMenu            } from 'nv@features/@menu/primary-menu/primary-m
 
 @Component({
   selector    : 'app-tabs',
-  styles      : `ion-tab-bar { overflow: scroll; }`,
   templateUrl : 'tabs.page.html'
 })
 export class TabsPage { }
@@ -18,14 +17,16 @@ export class TabsPage { }
 
 const routes: Routes = [
   {
-    path      : '', component : TabsPage, children  : [
+    path      : '',
+    component : TabsPage,
+    children  : [
       {
-        path          : 'tubes',
-        loadChildren  : () => import('../tubes/tubes.module').then(m => m.FeatureModule)
+        path          : 'blood-smear',
+        loadChildren  : () => import('../main.module').then(m => m.FeatureModule)
       },
       {
         path          : '',
-        redirectTo    : 'tubes',
+        redirectTo    : 'blood-smear',
         pathMatch     : 'full'
       }
     ]
