@@ -753,14 +753,14 @@
     "subtype"   : "infectious",
     "mechanism" : "",
     "diseases"  : [""],
-    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/canine-distemper-1.png",
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/infectious/canine-distemper-1.png",
     "gallery"   : [
-      "assets/pdfs/@haematology/blood-smear/alterations/canine-distemper-1.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/canine-distemper-2.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/canine-distemper-3.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/canine-distemper-4.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/canine-distemper-5.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/canine-distemper.png"
+      "assets/pdfs/@haematology/blood-smear/alterations/infectious/canine-distemper-1.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/infectious/canine-distemper-2.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/infectious/canine-distemper-3.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/infectious/canine-distemper-4.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/infectious/canine-distemper-5.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/infectious/canine-distemper.png"
     ],
     "section"   : [
       {
@@ -809,6 +809,211 @@
         "sectionTitle": "Описание",
         "content"     : [
           "Water artifact when severe, results in a moth-eaten appearance to the cell. It is a refractile artifact that results from the presence of water in the fixative; it usually occurs when using poorly-maintained quick stains."
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
+  {
+    "title"     : "Neutrophils",
+    "type"      : "leukocyte",
+    "subtype"   : "granulocytes",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/neutrophils-1.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/neutrophils-1.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/neutrophils-2.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          "Neutrophils are part of the innate immune system and are the first line of (and are essential for) defense against bacterial pathogens. Neutrophils have a short half-life – they only persist for 10-15 hours once they have been released into peripheral blood.", "In some animals, immature neutrophils may be seen in peripheral blood and their presence is called a left shift.", "The most common type of immature neutrophil seen in blood is the band neutrophil, which is one stage less mature than a segmented neutrophil.", "However, immature neutrophils can also be released prematurely in bone marrow disorders, such as leukemia or severe bone marrow injury (immature neutrophils are usually not toxic in this setting either)."
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Eosinophils",
+    "type"      : "leukocyte",
+    "subtype"   : "granulocytes",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/eosinophils.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/eosinophils.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/eosinophils-canine-1.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/eosinophils-canine-2.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/eosinophils-canine-3.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/eosinophils-feline.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Basophils",
+    "type"      : "leukocyte",
+    "subtype"   : "granulocytes",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/basophils-feline.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/basophils-feline.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/basophils.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "Not all lymphocytes in blood smears are round. Some are distorted into other shapes by the mechanical forces applied to them during smearing and some are molded by contact with red cells. Normal lymphocytes need to be differentiated from nucleated red blood cells, reactive lymphocytes and neoplastic cells.", "Types of lymphocytes:", "Reactive” lymphocytes are associated with an immune response.", "Granular lymphocytes: These are also found in low number in healthy animals. Granular lymphocytes are distinguished by the presence of small red granules collected into one area of the cytoplasm, usually within an indentation of the nucleus. Granular lymphocytes are either cytotoxic T cells or natural killer cells. Increased numbers of granular lymphocytes can be seen in reactive conditions (e.g. Ehrlichia canis infection in dogs, chronic renal disease in dogs) or as part of a primary leukemia (leukemia of granular lymphocytes)."
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Lymphocytes",
+    "type"      : "leukocyte",
+    "subtype"   : "mononuclear cells",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/lymphocytes-reactive.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/lymphocytes.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/lymphocytes-reactive.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/lymphocytes-reactive-1.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Lymphocytes versus nucleated red blood cells",
+        "content"     : [
+          "Very late stage nRBCs, such as the metarubricyte, are distinguished from lymphocytes by their polychromatophilic cytoplasm and pyknotic nuclei. Earlier stages, such as the basophilic rubricyte, though more of a problem, have a deeper blue cytoplasm and a more coarsely condensed chromatin pattern compared to the lymphocyte."
+        ]
+      },
+      {
+        "sectionTitle": "Reactive lymphocytes versus blasts",
+        "content"     : [
+          "It is important to distinguish large reactive from neoplastic hematopoietic cells (“blasts”). The latter are not seen in normal animals but only in animals with hematopoietic neoplasia (acute leukemia, lymphoma with a leukemic phase or rarely in myelodysplastic syndrome). The presence of neoplastic cells indicates a leukemia, whereas reactive lymphocytes indicate antigenic stimulation (very different meanings)."
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Monocytes",
+    "type"      : "leukocyte",
+    "subtype"   : "mononuclear cells",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/monocytes-canine-1.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/monocytes-canine-1.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/monocytes-canine-2.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/monocytes-canine-3.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/monocytes-canine-4.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+  {
+    "title"     : "Histiocytes",
+    "type"      : "leukocyte",
+    "subtype"   : "pathology",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/histiocyte-1.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/histiocyte-1.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "Histiocytes is an umbrella term comprising monocyte-derived macrophages and dendritic cells. All of these cells are derived from a common myeloid progenitor in the bone marrow and are antigen-presenting cells. These cells are not normally in blood, but cells resembling macrophages (eccentric round nuclei, abundant vacuolated cytoplasm, phagocytic activity) can be seen in blood in both reactive and neoplastic conditions.", "Reactive conditions include inflammation, immune-mediated hemolytic anemia, and infectious agents (e.g. systemic mycoses like histoplasmosis and protozoal infections, such as cyatauxzoonosis). In some of the latter cases, the causative organism may be observed within the cell (and potentially neutrophils as well, since neutrophils can also be phagocytic).", "In cases of hemolytic anemia, macrophages may be erythrophagocytic and/or contain hemosiderin in the cytoplasm, obtained from iron within the porphyrin ring of phagocytized hemoglobin. "
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Mast cells",
+    "type"      : "leukocyte",
+    "subtype"   : "pathology",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/mast-cell-1.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/mast-cell.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/mast-cell-1.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/mast-cell-2.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/mast-cell-3.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/mast-cells-canine-mast-cell-leukemia.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/mast-cells-feline.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/mast-cells-feline-1.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "Similar to histiocytes, mast cells are not usually seen in blood of non-diseased animals. Mast cells (mastocythemia) can be seen in the blood of dogs in both reactive (particularly severe inflammation), allergic and neoplastic conditions, including lymphoma and mast cell tumors", "Buffy coat smears to evaluate for the presence of circulating mast cells are frequently requested in dogs with documented mast cell tumors."
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          ""
         ]
       }
     ]
