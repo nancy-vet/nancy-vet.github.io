@@ -515,24 +515,23 @@
     "title"     : "Basophilic stippling",
     "type"      : "erythrocyte",
     "subtype"   : "inclusions",
-    "mechanism" : "",
-    "diseases"  : [""],
-    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/RBC.png",
+    "mechanism" : "aggregation of rRNA in the erythrocytes",
+    "diseases"  : ["Regenerative anemia", "Lead poisoning"],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/basophilic-stippling.png",
     "gallery"   : [
-      "assets/pdfs/@haematology/blood-smear/alterations/RBC.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/RBC.png"
+      "assets/pdfs/@haematology/blood-smear/alterations/basophilic-stippling.png"
     ],
     "section"   : [
       {
         "sectionTitle": "Описание",
         "content"     : [
-          ""
+          "Basophilic stippling represents the spontaneous aggregation of ribosomal RNA in the cytoplasm of erythrocytes. These aggregates stain, and hence are visible, with routine hematology stains."
         ]
       },
       {
         "sectionTitle": "Свързани заболявания:",
         "content"     : [
-          ""
+          "Regenerative anemia", "Lead poisoning: Basophilic stippling can also occur in the absence of anemia in animals with lead poisoning. Increased numbers of nRBC (erythroblastosis) usually accompanies the stippling in this condition (as does polychromasia)."
         ]
       }
     ]
@@ -541,24 +540,26 @@
     "title"     : "Heinz bodies",
     "type"      : "erythrocyte",
     "subtype"   : "inclusions",
-    "mechanism" : "",
-    "diseases"  : [""],
-    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/RBC.png",
+    "mechanism" : "Oxidised Hb adhered to the membrane",
+    "diseases"  : ["Up to 5% in cats", "Diabetes mellitus, hyperthyroidism, lymphoma", "Oxidising agents: e. g. onions, paracetamol, vitamin K"],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/heinz-bodies-feline.png",
     "gallery"   : [
-      "assets/pdfs/@haematology/blood-smear/alterations/RBC.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/RBC.png"
+      "assets/pdfs/@haematology/blood-smear/alterations/heinz-bodies-feline.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/heinz-bodies-feline-2.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/heinz-bodies-canine.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/heinz-bodies-el-microscope.png"
     ],
     "section"   : [
       {
         "sectionTitle": "Описание",
         "content"     : [
-          ""
+          "Oxidation of exposed sulfhydryl groups on hemoglobin causes formation of disulfide bonds and distortion of the tertiary structure of the hemoglobin molecule. The result is precipitation of hemoglobin, which may then coalesce to form intracellular inclusions called Heinz bodies. Small, non-pathologic “endogenous” Heinz bodies can be found in blood of many healthy cats, but their presence is abnormal in other species.", "Heinz bodies may be seen in Wright’s stained smears, especially if they are large and distort the red cell membrane. In contrast, small “endogenous” Heinz bodies, such as those that can be seen in cats, are harder to visualize. Heinz bodies can be easily observed with supravital stains, such as new methylene blue."
         ]
       },
       {
         "sectionTitle": "Свързани заболявания:",
         "content"     : [
-          ""
+          "Diagnosis of an oxidant-induced hemolytic anemia is based on finding a regenerative anemia with characteristic red blood cell morphologic abnormalities of Heinz bodies and eccentrocytes. Causes of oxidant-induced hemolytic anemia are:", "Toxins: onions, skunk musk (dogs), naphthalene (dogs).", "Drugs: Acetaminophen, vitamin K1, phenothiazine drenches, benzocaine, propofol. These act as oxidants."
         ]
       }
     ]
@@ -567,24 +568,27 @@
     "title"     : "Howell-Jolly bodies",
     "type"      : "erythrocyte",
     "subtype"   : "inclusions",
-    "mechanism" : "",
-    "diseases"  : [""],
-    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/RBC.png",
+    "mechanism" : "remnants of nuclear material",
+    "diseases"  : ["Low number (physiological)", "Regenerative anaemia", "Splenectomy", "Chemotherapy"],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/howell-jolly-bodies-from-a-splenectomized-dog.png",
     "gallery"   : [
-      "assets/pdfs/@haematology/blood-smear/alterations/RBC.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/RBC.png"
+      "assets/pdfs/@haematology/blood-smear/alterations/howell-jolly-bodies-from-a-splenectomized-dog.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/howell-jolly-bodies.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/howell-jolly-bodies-canine.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/howell-jolly-bodies-canine-2.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/howell-jolly-bodies-feline.png"
     ],
     "section"   : [
       {
         "sectionTitle": "Описание",
         "content"     : [
-          ""
+          "small fragments of non-functional nucleus which were not extruded as the erythrocyte left the bone marrow. Usually, but not always, the host erythrocyte contains only a single Howell-Jolly body, which appears as a blue, perfectly round inclusion. Occasionally, uneven staining of an Howell-Jolly body can result in a ring-like appearance which may mimic a parasite.", "In dogs, Howell-Jolly bodies are not routinely observed in peripheral blood because they are removed from red blood cells by the pitting function of the sinusoidal spleen."
         ]
       },
       {
         "sectionTitle": "Свързани заболявания:",
         "content"     : [
-          ""
+          "Regenerative anemia", "In normal cats.", "Compromised or absent splenic function: Corticosteroids, splenectomy.", "Erythroid dysplasia: In  non-anemic miniature and toy poodles with hereditary macrocytosis, increased numbers of Howell-Jolly bodies (some abnormal and fragmented) may be observed. Similarly, abnormal and increased Howell-Jolly bodies may be seen in myelodysplastic syndrome (primary myelodysplasia)."
         ]
       }
     ]
@@ -593,12 +597,69 @@
     "title"     : "Siderocytes",
     "type"      : "erythrocyte",
     "subtype"   : "inclusions",
+    "mechanism" : "anucleate erythrocytes with iron-containing inclusions",
+    "diseases"  : ["Hemolytic anemia", "Portosystemic shunt", "Myeloid leukemia"],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/siderocytes-1.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/siderocytes-1.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/siderocytes-2.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "Siderocytes are anucleate erythrocytes with iron-containing (siderotic) cytoplasmic inclusions.", "A nucleated erythoid cell with the same inclusions (usually within mitochondria) is termed a sideroblast.", "Siderocytes should be distinguished from basophilic stippling (aggregates of RNA) because they mean different things. Generally, siderocytes have small focal accumulation of light blue to grey material, whereas basophilic stippling is more chunky and diffusely distributed throughout the cytoplasm. Siderocytes will also stain blue with Prussian blue reaction (detects ferric iron), if the iron is in sufficient amounts to readily visualize (small amounts do not stain well with Prussian blue)."
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          "Hemolytic anemia: Increased iron turnover can result in siderocyte formation, e.g. immune mediated hemolytic anemia. Siderocytes are seen most frequently in dogs with hemolytic anemia.", "Abnormal heme synthesis. Iron may accumulate in RBC if hemoglobin production is inhibited. This can occur with drugs (e.g. chloramphenicol), lead poisoning", "Siderocytes have also been seen in some dogs with portosystemic shunts (may be due to abnormal iron metabolism with iron accumulation occurring in RBC). Siderocytes can be a feature of dyserythropoiesis due to myelodysplastic syndrome and acute myeloid leukemia in cats (but generally are not seen in dogs with these disorders). Acquired dyserythropoietic syndromes with siderocytes have been described in dogs (Canfield et al 1987, Weiss 2005)."
+        ]
+      }
+    ]
+  },
+
+
+
+
+  {
+    "title"     : "Haemobartonella spp.",
+    "type"      : "erythrocyte",
+    "subtype"   : "infectious",
     "mechanism" : "",
     "diseases"  : [""],
-    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/RBC.png",
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/mycoplasma-canine-1.png",
     "gallery"   : [
-      "assets/pdfs/@haematology/blood-smear/alterations/RBC.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/RBC.png"
+      "assets/pdfs/@haematology/blood-smear/alterations/mycoplasma-canine-1.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/mycoplasma-feline-1.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/mycoplasma-feline-2.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/mycoplasma-haemominutum.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "DOGS:", "Mycoplasma haemocanis (formerly Haemobartonella canis) rarely causes anemia in dogs with normal spleens and normal immune systems. Clinical anemia can develop when a carrier dog is splenectomized or when a splenectomized dog is transfused with blood from a carrier donor.", "CATS:", "The hemolytic anemia caused by M. haemofelis is called Feline Infectious Anemia (FIA) and is usually regenerative in nature (unless underlying disease suppresses the regenerative response, e.g. Feline Leukemia Virus infection).", "In Feline Infectious Anemia, the parasitemia is episodic, with decreasing hematocrits at times of parasitemia. Because of the cyclic parasitemia, organisms may be numerous, scarce or not found in a given blood sample.", "Note that the organism falls off erythrocytes in aged blood samples (> 24 hours) and can be mistaken for stain precipitate as they are found between and not on the erythrocytes, as expected.", "Fleas infected with M. haemofelis can transmit parasites and produce disease in a susceptible cat, whereas the experimental transmission of M. haemominutum by fleas was not successful. Although treatment with doxycycline or enrofloxacin may control acute infections in the cat, none of the antibiotics tested to date consistently clear the parasites permanently from the animal, resulting in a chronic carrier state."
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Haemobartonella spp.",
+    "type"      : "erythrocyte",
+    "subtype"   : "infectious",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/mycoplasma-canine-1.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/mycoplasma-canine-1.png"
     ],
     "section"   : [
       {
@@ -615,16 +676,21 @@
       }
     ]
   },
+
+
+
+
+
+
   {
-    "title"     : "Hemobartonella spp.",
-    "type"      : "erythrocyte",
-    "subtype"   : "inclusions",
+    "title"     : "Rouleaux formation",
+    "type"      : "artifact",
+    "subtype"   : "artifact",
     "mechanism" : "",
     "diseases"  : [""],
-    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/RBC.png",
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/rouleaux-feline.png",
     "gallery"   : [
-      "assets/pdfs/@haematology/blood-smear/alterations/RBC.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/RBC.png"
+      "assets/pdfs/@haematology/blood-smear/alterations/rouleaux-feline.png"
     ],
     "section"   : [
       {
@@ -632,13 +698,65 @@
         "content"     : [
           ""
         ]
-      },
+      }
+    ]
+  },
+  {
+    "title"     : "Stain precipitate",
+    "type"      : "artifact",
+    "subtype"   : "artifact",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/stain-precipitate.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/stain-precipitate.png"
+    ],
+    "section"   : [
       {
-        "sectionTitle": "Свързани заболявания:",
+        "sectionTitle": "Описание",
         "content"     : [
-          ""
+          "Stain precipitate usually results from the use of aged staining solutions and/or inadequate rinsing of slides following application of stain.", "Shown at right is a smear in which large obvious aggregates of stain precipitate are overlying erythrocytes. Notice how the precipitate is in a different plane of focus than are the cells."
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Water artifact",
+    "type"      : "artifact",
+    "subtype"   : "artifact",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/water-artifact.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/water-artifact.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "Water artifact when severe, results in a moth-eaten appearance to the cell. It is a refractile artifact that results from the presence of water in the fixative; it usually occurs when using poorly-maintained quick stains."
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Water artifact",
+    "type"      : "artifact",
+    "subtype"   : "artifact",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/water-artifact.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/water-artifact.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "Water artifact when severe, results in a moth-eaten appearance to the cell. It is a refractile artifact that results from the presence of water in the fixative; it usually occurs when using poorly-maintained quick stains."
         ]
       }
     ]
   }
+
 ]
