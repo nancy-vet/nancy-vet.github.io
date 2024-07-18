@@ -652,14 +652,16 @@
     ]
   },
   {
-    "title"     : "Haemobartonella spp.",
-    "type"      : "erythrocyte",
+    "title"     : "Anaplasma phagocytophilum",
+    "type"      : "leukocyte",
     "subtype"   : "infectious",
     "mechanism" : "",
     "diseases"  : [""],
-    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/mycoplasma-canine-1.png",
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/infectious/anaplasma-1.png",
     "gallery"   : [
-      "assets/pdfs/@haematology/blood-smear/alterations/mycoplasma-canine-1.png"
+      "assets/pdfs/@haematology/blood-smear/alterations/infectious/anaplasma-1.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/infectious/anaplasma-2.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/infectious/anaplasma-3.png"
     ],
     "section"   : [
       {
@@ -671,36 +673,108 @@
       {
         "sectionTitle": "Свързани заболявания:",
         "content"     : [
-          ""
+          "Two main species of Anaplasma are thought to infect dogs – Anaplasma phagocytophilum (neutrophils and eosinophils) and Anaplasma platys (platelets).", "Transmission from the tick to an accidental host, like dogs, is thought to take 36-48 hours (so remove ticks as soon as you see them on yourself or your pets, particularly small brown “deer” ticks, which are Ixodes species). Tetracyclines are the treatment of choice for all Anaplasma infections."
         ]
       }
     ]
   },
-
-
-
-
-
-
   {
-    "title"     : "Rouleaux formation",
-    "type"      : "artifact",
-    "subtype"   : "artifact",
+    "title"     : "Anaplasma platys",
+    "type"      : "platelet",
+    "subtype"   : "infectious",
     "mechanism" : "",
     "diseases"  : [""],
-    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/rouleaux-feline.png",
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/infectious/anaplasma-platys.png",
     "gallery"   : [
-      "assets/pdfs/@haematology/blood-smear/alterations/rouleaux-feline.png"
+      "assets/pdfs/@haematology/blood-smear/alterations/infectious/anaplasma-platys.png"
     ],
     "section"   : [
       {
         "sectionTitle": "Описание",
+        "content"     : [
+          "Two main species of Anaplasma are thought to infect dogs – Anaplasma phagocytophilum (aka Ehrlichia equi) and Anaplasma platys. The former infects granulocytes (neutrophils and eosinophils) whereas the latter infects platelets.", "Transmission from the tick to an accidental host, like dogs, is thought to take 36-48 hours (so remove ticks as soon as you see them on yourself or your pets, particularly small brown “deer” ticks, which are Ixodes species). Tetracyclines are the treatment of choice for all Anaplasma infections."
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
         "content"     : [
           ""
         ]
       }
     ]
   },
+  {
+    "title"     : "Babesia spp.",
+    "type"      : "erythrocyte",
+    "subtype"   : "infectious",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/infectious/babesia-canis.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/infectious/babesia-canis.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/infectious/babesia-canis-1.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/infectious/babesia-canis-2.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/infectious/babesia-felis.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "Dogs can be infected with various Babesia organisms. Most of the parasites belong to Babesia sensu stricto genus, which includes large organisms, such as B. canis, B. rossi and B. vogeli and the smaller organisms, B. gibsoni.", "Mild disease is mainly an extravascular hemolytic anemia but severely affected dogs have signs of intravascular hemolysis (as the parasite lyses the red blood cell to complete its lifecycle) and may develop disseminated intravascular coagulation (DIC).", "B. canis appear usually as single or multiple (pairs or tetrads, in so-called Maltese cross formations) large organisms in the red blood cells in smears.", "Low-grade parasitemia is more easily detected by examination of a buffy coat smear prepared from blood collected from small peripheral vessels, such as in the ear, than a blood smear made from a central vein (e.g. jugular vein). Babesia organisms are removed from peripheral red blood cells in the spleen, resulting in asymptomatic carriers.", "In comparison to Babesia canis, Babesia gibsoni is much smaller and forms rings with a dark nucleus on one side in the red blood cell. They can be readily missed on cursory blood smear examination.", "Babesia felis is a rare parasite that can produce a regenerative anemia, lethargy and anorexia in cats. The parasite is very small and quite difficult to visualize. Affected cats can be icteric and hyperglobulinemic."
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Erlichia spp.",
+    "type"      : "erythrocyte",
+    "subtype"   : "infectious",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/infectious/ehrlichia-1.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/infectious/ehrlichia-1.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/infectious/ehrlichia-2.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/infectious/ehrlichia-3.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/infectious/ehrlichia-4.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "Ehrlichia species are intracellular bacteria.", "All dogs with a lymphocytosis, particularly of granular lymphocytes, in blood should be tested for Ehrlichia canis, as should dogs with pancytopenia and ineffective hematopoiesis or bone marrow aplasia. "
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Canine Distemper",
+    "type"      : "",
+    "subtype"   : "infectious",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/canine-distemper-1.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/canine-distemper-1.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/canine-distemper-2.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/canine-distemper-3.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/canine-distemper-4.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/canine-distemper-5.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/canine-distemper.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "Large aggregates of viral nucleocapsid particles can form in erythrocytes, leukocytes, and epithelial cells in many tissues during the acute phase of infection with Canine distemper virus.", "Their presence in blood is transient; they are very rarely encountered but are pathognomonic when identified."
+        ]
+      }
+    ]
+  },
+
+
+
+
   {
     "title"     : "Stain precipitate",
     "type"      : "artifact",
@@ -716,25 +790,6 @@
         "sectionTitle": "Описание",
         "content"     : [
           "Stain precipitate usually results from the use of aged staining solutions and/or inadequate rinsing of slides following application of stain.", "Shown at right is a smear in which large obvious aggregates of stain precipitate are overlying erythrocytes. Notice how the precipitate is in a different plane of focus than are the cells."
-        ]
-      }
-    ]
-  },
-  {
-    "title"     : "Water artifact",
-    "type"      : "artifact",
-    "subtype"   : "artifact",
-    "mechanism" : "",
-    "diseases"  : [""],
-    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/water-artifact.png",
-    "gallery"   : [
-      "assets/pdfs/@haematology/blood-smear/alterations/water-artifact.png"
-    ],
-    "section"   : [
-      {
-        "sectionTitle": "Описание",
-        "content"     : [
-          "Water artifact when severe, results in a moth-eaten appearance to the cell. It is a refractile artifact that results from the presence of water in the fixative; it usually occurs when using poorly-maintained quick stains."
         ]
       }
     ]
