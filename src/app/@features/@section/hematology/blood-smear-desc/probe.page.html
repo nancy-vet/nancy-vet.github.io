@@ -15,7 +15,7 @@
 
   @for(element of $data; track element) {
 
-    <ion-grid>
+    <ion-grid style="border-bottom: dotted 2px rgb(143 81 153);">
       <ion-row>
         <ion-col size="12">
 
@@ -51,9 +51,9 @@
             <div><strong>Заболявания:</strong> {{element.diseases}}</div> -->
             <div>
               <img src="{{element.frontImage}}" style="
-              width: 100%;
-              height: 200px;
-              object-fit: cover;"/>
+                width: 100%;
+                height: 200px;
+                object-fit: cover;"/>
             </div>
           </div>
 

@@ -191,12 +191,11 @@
     "title"     : "Poikilocytes",
     "type"      : "erythrocyte",
     "subtype"   : "shape",
-    "mechanism" : "",
+    "mechanism" : "the red blood cell shape changes are so varied, that using specific terms does not provide additional diagnostic meaning",
     "diseases"  : ["Liver disease", "doxorubicin"],
-    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/RBC.png",
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/keratocytes-1.png",
     "gallery"   : [
-      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/RBC.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/RBC.png"
+      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/keratocytes-1.png"
     ],
     "section"   : [
       {
@@ -373,24 +372,25 @@
     "title"     : "Hypochromasia",
     "type"      : "erythrocyte",
     "subtype"   : "color",
-    "mechanism" : "",
-    "diseases"  : [""],
-    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+    "mechanism" : "Decrease in Hb content",
+    "diseases"  : ["Iron deficiency"],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/hypochromasia-1.png",
     "gallery"   : [
-      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png"
+      "assets/pdfs/@haematology/blood-smear/alterations/hypochromasia-1.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/hypochromasia-2.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/torocytes.png"
     ],
     "section"   : [
       {
         "sectionTitle": "Описание",
         "content"     : [
-          ""
+          "Hypochromasia indicates that the red blood cells have less hemoglobin than normal. In developing iron deficiency anemia, the appearance of hypochromasia in smears precedes a subnormal MCHC. True hypochromasia in common domestic animal species occurs only in the context of advanced iron deficiency anemia.", "Hypochromic red blood cells must be distinguished from torocytes, an artifactual red blood cell change that mimics hypochromasia. Torocytes have no diagnostic relevance, other than that they could be mis-identified as hypochromic red blood cells, leading to an erroneous diagnosis of iron deficiency."
         ]
       },
       {
         "sectionTitle": "Свързани заболявания:",
         "content"     : [
-          ""
+          "Hypochromasia is caused by two main mechanisms: Defective hemoglobin production and Inhibition of hemoglobin production", "► Defective hemoglobin production:", "● Inherited defect: Inherited defects in hemoglobin production are because of genetic mutations that result in abnormal production of the glob in (amino acid) chains. This occurs in humans and are called thalassemias, but have not been described in animals.", "● Iron deficiency. The iron deficiency is attributed to chronic gastrointestinal hemorrhage. In the dog, hemorrhage from colonic vascular ectasia and bleeding ulcers. Hypochromasia in advanced iron deficiency is accompanied by erythrocyte shape abnormalities suggesting fragmentation (schistocytes, keratocytes, acanthocytes) in the dog.", "● Copper deficiency:  Copper is required for utilization of iron.", "● Other deficiencies: Pyridoxal or vitamin B6 is an essential cofactor for the enzyme ALAD, which catalyzes the first step of the heme synthesis pathway. Deficiencies of vitamin B6 can result in microcytic anemia but the anemia is not typically hypochromic.", "► Inhibition of hemoglobin production:", "The most common cause of heme synthesis inhibition is lead poisoning. Since iron is not being used for heme synthesis, it accumulates in the developing red blood cells, forming siderocytes. In chronic lead poisoning, a “relative” iron deficiency can result (relative because the iron is in the body, it just cannot be used), resulting in a microcytic hypochromic anemia. However, classic lead poisoning usually results in a normocytic normochromic anemia."
         ]
       }
     ]
@@ -399,24 +399,25 @@
     "title"     : "Polychromasia",
     "type"      : "erythrocyte",
     "subtype"   : "color",
-    "mechanism" : "",
-    "diseases"  : [""],
-    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+    "mechanism" : "RBCs with nuclear remnants",
+    "diseases"  : ["Regenerative anaemia", "Low number (physiological)"],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/polychromasia-polychromatophil.png",
     "gallery"   : [
-      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png"
+      "assets/pdfs/@haematology/blood-smear/alterations/polychromasia-polychromatophil.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/polychromasia-reticulocytes-aggregate-vs-punctate.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/polychromasia-versus-reticulocytes.png"
     ],
     "section"   : [
       {
         "sectionTitle": "Описание",
         "content"     : [
-          ""
+          "Polychromasia is a feature of immature anucleate erythrocytes (which are also aggregate reticulocytes) in the blood. The immature RBC are blue because they contain moderate to large amounts of RNA (ribosomes, polyribosomes) which offsets the red of hemoglobin, imparting a purple color to the cells. In many species, once the cell reaches the reticulocyte stage, it remains in the bone marrow for about 2 days, then is released to complete its maturation by losing its RNA and some of its surface membrane while it circulates. This is usually accomplished in the spleen. Consequently, low numbers of polychromatophils are seen in healthy dogs (< 1.5% reticulocytes)."
         ]
       },
       {
-        "sectionTitle": "Свързани заболявания:",
+        "sectionTitle": "Разлика между ретикулоцити и полихроматофили:",
         "content"     : [
-          ""
+          "There are two types of immature a nucleate RBC, which have a different appearance on Wrigth’s stain or quick stains (Diff-Quik) and new methylene blue-stained smears.", "Reticulocytes are immature anucleate erythrocytes containing RNA that stain blue. When they contain moderate or large amounts of RNA, they are called aggregate reticulocytes and stain purple, but if they only contain a little RNA, they are called punctate reticulocytes, they will not stain purple and will be red.", "Polychromatophils are reticulocytes that do contain sufficient RNA to stain blue-purple with Wright’s stain."
         ]
       }
     ]
@@ -425,24 +426,24 @@
     "title"     : "Ghost red blood cells",
     "type"      : "erythrocyte",
     "subtype"   : "color",
-    "mechanism" : "",
-    "diseases"  : [""],
-    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+    "mechanism" : "Intravascular cell lysis",
+    "diseases"  : ["Haemolytic anaemias: immune-mediated, caused by oxidising agent, etc."],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/ghost-cells-feline.png",
     "gallery"   : [
-      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png"
+      "assets/pdfs/@haematology/blood-smear/alterations/ghost-cells-feline.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/ghost-cells.png"
     ],
     "section"   : [
       {
         "sectionTitle": "Описание",
         "content"     : [
-          ""
+          "Red blood cell ghosts represent cells that have ruptured in the circulation, losing their hemoglobin. Ghost red blood cells represent red blood cell lysis (hemolysis). Low numbers of ghost red blood cells can be seen in any smear."
         ]
       },
       {
         "sectionTitle": "Свързани заболявания:",
         "content"     : [
-          ""
+          "► Artifact: Lipemic samples (e.g. animals not fasted before sample collection or animals with hyperlipidemic states) are more prone to RBC lysis. If samples are collected or handled incorrectly (e.g. frozen), red blood cells can lyse in the tube, resulting in many ghost cells.", "► Intravascular hemolysis: Because hemoglobin can cause injury to renal tubules, hemoglobinemia and hemoglobinuria have major pathologic consequences, including acute renal failure. Causes of intravascular hemolysis include:", "● Oxidants: Zinc pennies in dogs, onions in dogs and cats (onion-based baby food), naphthalene moth balls (dogs), skunk musk (dogs). Eccentrocytes and Heinz bodies support the presence of oxidant injury to RBC in this setting. ", "● Parasites: Babesia species.", "● Bacteria: Clostridial toxins, Leptospira.", "● Venoms: Snake venoms, bee stings (mellitin).", "● Metabolic conditions: hypophosphatemia (dogs, cats)", "● Drugs: DMSO, vitamin K (dogs), propofol (dogs)."
         ]
       }
     ]
@@ -460,23 +461,23 @@
     "type"      : "erythrocyte",
     "subtype"   : "pattern",
     "mechanism" : "",
-    "diseases"  : [""],
-    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+    "diseases"  : ["Agglutination", "EDTA pseudo-agglutination"],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/agglutination-canine.png",
     "gallery"   : [
-      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png"
+      "assets/pdfs/@haematology/blood-smear/alterations/agglutination-canine.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/rouleaux-vs-agglutionation.png"
     ],
     "section"   : [
       {
         "sectionTitle": "Описание",
         "content"     : [
-          ""
+          "Agglutination refers to the phenomenon where red blood cells stick together in three-dimensional clumps."
         ]
       },
       {
         "sectionTitle": "Свързани заболявания:",
         "content"     : [
-          ""
+          "Agglutination is usually a pathologic finding and supportive of a diagnosis of immune-mediated hemolytic anemia.", "Non-pathologic cause is: EDTA pseudo-agglutination (EDTA can unmask hidden epitopes in RBC. Animals that have naturally occurring antibodies to these epitopes can bind to the RBC causing agglutination.)."
         ]
       }
     ]
@@ -487,22 +488,22 @@
     "subtype"   : "pattern",
     "mechanism" : "",
     "diseases"  : [""],
-    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/rouleaux-feline.png",
     "gallery"   : [
-      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png"
+      "assets/pdfs/@haematology/blood-smear/alterations/rouleaux-feline.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/rouleaux-vs-agglutionation.png"
     ],
     "section"   : [
       {
         "sectionTitle": "Описание",
         "content"     : [
-          ""
+          "Rouleaux formation is a term describing groups of red blood cells that form stacks, such as stacks of coins. This is a normal finding to a lesser extent cats, but is not normally seen in dogs. Note that a low albumin will promote rouleaux formation (but not cause it)."
         ]
       },
       {
         "sectionTitle": "Свързани заболявания:",
         "content"     : [
-          ""
+          "Increases in two types of globulins results in rouleaux formation:", "Fibrinogen: This is a β-2 globulin and an acute phase reactant, i.e. values increase with inflammation. High fibrinogen is also a feature of renal disease in the horse and cat.", "Immunoglobulins: They increase because of inflammation or antigenic stimulation or neoplasms."
         ]
       }
     ]
@@ -516,10 +517,10 @@
     "subtype"   : "inclusions",
     "mechanism" : "",
     "diseases"  : [""],
-    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/RBC.png",
     "gallery"   : [
-      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png"
+      "assets/pdfs/@haematology/blood-smear/alterations/RBC.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/RBC.png"
     ],
     "section"   : [
       {
@@ -542,10 +543,10 @@
     "subtype"   : "inclusions",
     "mechanism" : "",
     "diseases"  : [""],
-    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/RBC.png",
     "gallery"   : [
-      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png"
+      "assets/pdfs/@haematology/blood-smear/alterations/RBC.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/RBC.png"
     ],
     "section"   : [
       {
@@ -568,10 +569,10 @@
     "subtype"   : "inclusions",
     "mechanism" : "",
     "diseases"  : [""],
-    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/RBC.png",
     "gallery"   : [
-      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png"
+      "assets/pdfs/@haematology/blood-smear/alterations/RBC.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/RBC.png"
     ],
     "section"   : [
       {
@@ -594,10 +595,10 @@
     "subtype"   : "inclusions",
     "mechanism" : "",
     "diseases"  : [""],
-    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/RBC.png",
     "gallery"   : [
-      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png"
+      "assets/pdfs/@haematology/blood-smear/alterations/RBC.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/RBC.png"
     ],
     "section"   : [
       {
@@ -620,10 +621,10 @@
     "subtype"   : "inclusions",
     "mechanism" : "",
     "diseases"  : [""],
-    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/RBC.png",
     "gallery"   : [
-      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/color/RBC.png"
+      "assets/pdfs/@haematology/blood-smear/alterations/RBC.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/RBC.png"
     ],
     "section"   : [
       {
