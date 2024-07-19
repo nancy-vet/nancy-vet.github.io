@@ -323,10 +323,9 @@
     "subtype"   : "size",
     "mechanism" : "Defects in nuclear maturation",
     "diseases"  : ["Regeneration", "FeLV infection", "Folic acid deficiency", "Common in Poodles"],
-    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/RBC.png",
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/macrocytes.png",
     "gallery"   : [
-      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/RBC.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/poikilocytes/RBC.png"
+      "assets/pdfs/@haematology/blood-smear/alterations/macrocytes.png"
     ],
     "section"   : [
       {
@@ -349,10 +348,9 @@
     "subtype"   : "size",
     "mechanism" : "",
     "diseases"  : [],
-    "frontImage": "",
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/microcytes.png",
     "gallery"   : [
-      "",
-      ""
+      "assets/pdfs/@haematology/blood-smear/alterations/microcytes.png"
     ],
     "section"   : [
       {
@@ -889,15 +887,15 @@
     ],
     "section"   : [
       {
-        "sectionTitle": "Описание",
+        "sectionTitle": "DOG",
         "content"     : [
-          "Not all lymphocytes in blood smears are round. Some are distorted into other shapes by the mechanical forces applied to them during smearing and some are molded by contact with red cells. Normal lymphocytes need to be differentiated from nucleated red blood cells, reactive lymphocytes and neoplastic cells.", "Types of lymphocytes:", "Reactive” lymphocytes are associated with an immune response.", "Granular lymphocytes: These are also found in low number in healthy animals. Granular lymphocytes are distinguished by the presence of small red granules collected into one area of the cytoplasm, usually within an indentation of the nucleus. Granular lymphocytes are either cytotoxic T cells or natural killer cells. Increased numbers of granular lymphocytes can be seen in reactive conditions (e.g. Ehrlichia canis infection in dogs, chronic renal disease in dogs) or as part of a primary leukemia (leukemia of granular lymphocytes)."
+          "Canine basophils are difficult to recognize since many do not have readily apparent granules. This is because the granules are a pale lavender versus purple. The major identifying features of canine basophils are the long and folded nucleus, described as “ribbon-like”, and the unusual gray to lavender hue of the cytoplasm. Some basophils contain a few obvious light purple granules (granules are more easy to see in cells that are ruptured). Basophils are rare in blood of healthy dogs."
         ]
       },
       {
-        "sectionTitle": "Свързани заболявания:",
+        "sectionTitle": "CAT",
         "content"     : [
-          ""
+          "Feline basophils are packed with small, slightly oval granules that are pale lavender rather than deep purple. The nucleus in many appears to have vacuoles, which are actually granules lying on top of the chromatin. Basophils are rare in blood of healthy cats."
         ]
       }
     ]
@@ -912,13 +910,20 @@
     "gallery"   : [
       "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/lymphocytes.png",
       "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/lymphocytes-reactive.png",
-      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/lymphocytes-reactive-1.png"
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/lymphocytes-reactive-1.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/lymphocytes-plasmacytoid.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/lymphocytes-plasmacytoid-1.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/lymphocytes-plasmacytoid-2.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/lymphocytes-plasmacytoid-3.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/lymphocytes-plasmacytoid-4.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/bigbluecells.png"
+
     ],
     "section"   : [
       {
         "sectionTitle": "Lymphocytes versus nucleated red blood cells",
         "content"     : [
-          "Very late stage nRBCs, such as the metarubricyte, are distinguished from lymphocytes by their polychromatophilic cytoplasm and pyknotic nuclei. Earlier stages, such as the basophilic rubricyte, though more of a problem, have a deeper blue cytoplasm and a more coarsely condensed chromatin pattern compared to the lymphocyte."
+          "Very late stage nRBCs, such as the metarubricyte, are distinguished from lymphocytes by their polychromatophilic cytoplasm and pyknotic nuclei. Earlier stages, such as the basophilic rubricyte, though more of a problem, have a deeper blue cytoplasm and a more coarsely condensed chromatin pattern compared to the lymphocyte.", "Not all lymphocytes in blood smears are round. Some are distorted into other shapes by the mechanical forces applied to them during smearing and some are molded by contact with red cells. Normal lymphocytes need to be differentiated from nucleated red blood cells, reactive lymphocytes and neoplastic cells.", "Types of lymphocytes:", "Reactive” lymphocytes are associated with an immune response.", "Granular lymphocytes: These are also found in low number in healthy animals. Granular lymphocytes are distinguished by the presence of small red granules collected into one area of the cytoplasm, usually within an indentation of the nucleus. Granular lymphocytes are either cytotoxic T cells or natural killer cells. Increased numbers of granular lymphocytes can be seen in reactive conditions (e.g. Ehrlichia canis infection in dogs, chronic renal disease in dogs) or as part of a primary leukemia (leukemia of granular lymphocytes)."
         ]
       },
       {
@@ -957,7 +962,31 @@
       }
     ]
   },
-
+  {
+    "title"     : "Monocytes",
+    "type"      : "leukocyte",
+    "subtype"   : "",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/monocytes.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/monocytes.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
 
 
 
@@ -1014,6 +1043,156 @@
         "sectionTitle": "Свързани заболявания:",
         "content"     : [
           ""
+        ]
+      }
+    ]
+  },
+
+
+
+
+  {
+    "title"     : "Left shift",
+    "type"      : "leukocyte",
+    "subtype"   : "",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/left-shift.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/left-shift.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "A left shift indicates the presence of immature neutrophils in blood and usually, but not always, indicates an inflammatory leukogram (see related links for the historical origin of this term). Immature neutrophils are usually band neutrophils, but earlier forms can be seen.", "► Degenerative left shift: (НОВИ>СТАРИ) When the absolute numbers of band or immature neutrophils are greater than the absolute numbers of mature or segmented neutrophils, the term a degenerative left shift is used.", "► Regenerative left shift: (СТАРИ>НОВИ) This is a term used by some clinical pathologists to convey the concept that they believe there is a myeloid hyperplasia, i.e. the bone marrow has had time to and is responding to an inflammatory stimulus. It is usually used in the context of a neutrophilia with a left shift, but when mature neutrophils outnumber immature neutrophils."
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          "● The most common cause of a left shift is inflammation, because inflammatory cytokines stimulate both neutrophil production and release of mature and immature forms from the bone marrow.", "● Toxic change usually (but does not always) accompanies a left shift (toxic change may not be seen if there is a mild left shift or if there is only release of immature cells from marrow without accelerated maturation)."
+        ]
+      },
+      {
+        "sectionTitle": "Neutrophil maturation",
+        "content"     : [
+          "Neutrophil maturation progresses from the progranulocyte stage through myelocyte, metamyelocyte, band and mature neutrophil stages, with each successive division resulting in slightly smaller cell with more nuclear constriction and less cytoplasmic RNA (blue color in cytoplasm). Segmented or mature neutrophils have clear constrictions or segments (A). Bands (the most “mature” immature stage).", "1 - myelocyte – Миелоцити - round eccentric nucleus.", "2 - metamyelocyte - Метамиелоцити - kidney bean shaped nucleus.", "3 - band - Пръчкоядрени horse-shoe shaped nucleus.", "4 - mature – Сегментоядрени."
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Right shift",
+    "type"      : "leukocyte",
+    "subtype"   : "",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/shifts.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/shifts.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "The term right shift describes increased numbers of hypersegmented neutrophils, with five or more nuclear lobes. Right shifts occur most often in animals (especially dogs) on glucocorticoid therapy or with hyperadrenocorticism, since glucocorticoids inhibit the emigration of neutrophils from blood vessels and prolong their circulation."
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Toxic change",
+    "type"      : "leukocyte",
+    "subtype"   : "",
+    "mechanism" : "conditions that intensely stimulate neutrophil production and shorten the maturation time",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/toxic-change-canine-1.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/toxic-change-canine-1.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/toxic-change-canine-2.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "Toxic change in neutrophils do not reflect a “toxic effect” of bacteria on neutrophils but are morphologic abnormalities acquired during maturation under conditions that intensely stimulate neutrophil production and shorten the maturation time in the bone marrow.", "Because toxic change usually indicates an inflammatory leukogram, it frequently accompanies a left shift, i.e. presence of immature neutrophils.", "Reasons other than inflammation for the toxic change are marrow dysplasia and storage artifact.", "Note that a “false” left shift and toxic change (specifically, the emergence of Döhle bodies or so-called “Döhle-like bodies”) can occur in stored blood."
+        ]
+      },
+      {
+        "sectionTitle": "Features:",
+        "content"     : [
+          "In a blood smear there are five main features of toxic change:", "► Cytoplasmic basophilia: A streaky diffuse irregular blue appearanceto the cytoplasm. It is due to the presence of polyribosomes and rough endoplasmic reticulum.", "► Döhle bodies: These are pale round to linear blue aggregates in the cytoplasm, caused by whorls of rough endoplasmic reticulum. Healthy cats can have low numbers of small Döhle bodies", "► Cytoplasmic vacuolation: These are indistinct vacuoles in the cytoplasm, giving it a frothy appearance and is due to degranulation of lysosomes. Note that clear punctate vacuoles are usually not attributed to toxic change, but are frequently another storage-related artifact (these vacuoles can occur within 4 hours of blood collection).", "► Nuclear immaturity: The nuclear chromatin is lighter (finer) and less coarsely clumped than normal.", "► Toxic granulation: These are distinct red granules in the cytoplasm due to the primary granules taking up stain."
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+  {
+    "title"     : "Platelet",
+    "type"      : "platelet",
+    "subtype"   : "",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/platelets-canine.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/platelets-canine.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/platelets-feline.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/platelets-canine-2.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/platelets-canine-thrombocytopenia.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/platelets-feline-thrombocytopenia.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/platelets-canine-thrombocytosis.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/platelets-feline-thrombocytosis.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/platelets-feline-activated.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "Свързани заболявания:",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"     : "Platelet clumps",
+    "type"      : "platelet",
+    "subtype"   : "",
+    "mechanism" : "",
+    "diseases"  : [""],
+    "frontImage": "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/platelet-clump.png",
+    "gallery"   : [
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/platelet-clump.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/platelet-clump-feline.png",
+      "assets/pdfs/@haematology/blood-smear/alterations/leukocytes/platelet-clump-feline-2.png"
+    ],
+    "section"   : [
+      {
+        "sectionTitle": "Описание",
+        "content"     : [
+          "Platelet aggregation (clumping) will affect platelet counts. This often results in a falsely decreased count as clumps of platelets will not be counted.", "Clumping will also increase the mean platelet volume (MPV; a clump will be “seen” by the analyzer as a single large platelet).", "Platelets that have not been activated are round to oval discs with dispersed granules. Activation to the point of degranulation can cause platelets to appear as spiculated or amorphous bits of cytoplasm that are difficult to recognize as platelets. Platelets in clumps can be granular or granular. Clumps of degranulated platelets must be distinguished from small flecks of fibrin."
+        ]
+      },
+      {
+        "sectionTitle": "Platelet clumps versus fibrin",
+        "content"     : [
+          "Conditions which cause platelet activation and aggregation in a sample (or a patient) may also promote fibrin formation by activation of coagulation. Shown in the image to the right is a tuft of fibrin strands with intermixed platelets. Samples like this may cause mechanical problems (clogging) in automated cell counting devices."
         ]
       }
     ]
