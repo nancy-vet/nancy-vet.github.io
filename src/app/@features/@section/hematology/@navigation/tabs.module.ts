@@ -35,6 +35,10 @@ const routes: Routes = [
         loadChildren  : () => import('../term/term/term.module').then(m => m.TermPageModule)
       },
       {
+        path          : 'blood-composition',
+        loadChildren  : () => import('../trivia/main/main.module').then(m => m.FeatureModule)
+      },
+      {
         path: '',
         redirectTo    : 'tab1',
         pathMatch     : 'full'
