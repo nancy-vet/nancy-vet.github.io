@@ -39,6 +39,10 @@ const routes: Routes = [
         loadChildren  : () => import('../trivia/main/main.module').then(m => m.FeatureModule)
       },
       {
+        path          : 'reticulocyte-count',
+        loadChildren  : () => import('../reticulocyte-count/reticulocyte-count.module').then(m => m.ReticulocyteCountModule)
+      },
+      {
         path: '',
         redirectTo    : 'tab1',
         pathMatch     : 'full'

@@ -1,0 +1,123 @@
+[
+  {
+    "title": "Anemia of Chronic Kidney Disease",
+    "section"   : [
+      {
+        "sectionTitle": "Etiology",
+        "content"     : [
+          "assets/pdfs/@haematology/anemia/CKD/ethiology.png",
+          "assets/pdfs/@haematology/anemia/CKD/approach.png",
+          "assets/pdfs/@haematology/anemia/CKD/treatment.png"
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          "Primary cause of anemia in CKD is inadequate production of erythropoietin (EPO) by the kidneys.", "Anemia is normocytic, normochromic, nonregenerative, and proportional to stage of CKD; underlying cause of anemia is multifactorial."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Regenerative Anemia",
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          "Decreased circulating red blood cell (RBC) mass (indicated by low packed cell volume [PCV] or hematocrit [HCT], hemoglobin, and total RBC count) accompanied by appropriate, compensatory increase in RBC production by the bone marrow."
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          "Caused by blood loss or hemolysis.", "• Hemolysis—caused by intrinsic RBC defects (e.g., congenital RBC membrane defects or enzyme deficiencies) or extrinsic factors (e.g., RBC parasites, oxidative injury, hemolysins, osmotic changes, immune-mediated RBC destruction, hemophagocytic neoplasia, heat stroke, and severe hypophosphatemia)."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "",
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title": "",
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title": "",
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title": "",
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title": "",
+    "section"   : [
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      },
+      {
+        "sectionTitle": "",
+        "content"     : [
+          ""
+        ]
+      }
+    ]
+  }
+]
