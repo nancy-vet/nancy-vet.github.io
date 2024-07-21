@@ -13,79 +13,151 @@ export class ReticulocyteCount {
   private $router: ActivatedRoute       = inject(ActivatedRoute);
 
   public $ui = {
-    isLiqidDoseProcessable  : true,
-    concentrationResultIm   : 0,
-    concentrationResultIv   : 0,
-    animalDose              : 0,
-    animalDoseIm            : 0,
-    mlNeeded                : 0,
-    mlNeededIm              : 0
-
-
+    correctedReticulocytePercentage : 0,
+    reticulocytePercent             : 0,
+    absoluteReticulocyteCount       : 0,
+    typeOfAnemia                    : '',
+    degreeOfRegeneration            : '',
+    reticulocyteProductionIndex     : 0
   };
+
+  reticulocyteLifespan: number | undefined;
 
 
   public $formProperty: any = {
-    patientWeight             : 0,
-    dosage                    : 0,
-    injectionRoute            : 'IV',
-    ceftriaxoneConcentration  : '1',
-
+    animalType                : "dog",
+    erythrocyteCounter        : 0,
+    reticulocyteCounter       : 0,
     reticulocyteCount         : 0,
-    reticulocytePercent       : 0,
+    absoluteErythrocyteCount  : 0,
     patientHct                : 0,
     normalRangeHct            : 0
   }
 
-
-  public processSelectInjectionRoute($injectionRoute: any): void {
-    this.$formProperty.injectionRoute = $injectionRoute;
+  public selectAnimalType($event: any) {
+    this.$formProperty.animalType = ($event.detail.checked) ? 'cat' : 'dog';
+    console.log(`animalType: ${this.$formProperty.animalType}`)
   }
 
-  public processСelectCeftriaxoneConcentration($ceftriaxoneConcentration: any): void {
-    this.$formProperty.ceftriaxoneConcentration = $ceftriaxoneConcentration;
+  public incrementReticulocyteCounter() {
+    this.$formProperty.erythrocyteCounter++;
+    this.$formProperty.reticulocyteCounter++;
+    console.log(`reticulocyteCounter: ${this.$formProperty.reticulocyteCounter}`)
+    // this.$formProperty.reticulocyteCounter = 22;
   }
 
-  public processCalculationCeftriaxoneConcentration() {
+  public incrementErythrocyteCounter() {
+    this.$formProperty.erythrocyteCounter++;
+    console.log(`erythrocyteCounter: ${this.$formProperty.erythrocyteCounter}`)
+  }
 
-    // Дозировка на цефтриаксон ИВ
-    this.$ui.concentrationResultIv = parseFloat(this.$formProperty.ceftriaxoneConcentration) / 5 * 1000
+  public processCalculationRPI(): void {
+    this.$ui.reticulocytePercent = ( this.$formProperty.reticulocyteCounter / this.$formProperty.erythrocyteCounter ) * 100;
+    // this.$ui.reticulocytePercent = 22;
 
-    this.$ui.animalDose = parseFloat(this.$formProperty.dosage) * parseFloat(this.$formProperty.patientWeight)
+    this.$ui.correctedReticulocytePercentage = Math.round(( this.$ui.reticulocytePercent * ( this.$formProperty.patientHct / this.$formProperty.normalRangeHct ) )*100)/100
 
-    this.$ui.mlNeeded = (this.$ui.animalDose / (this.$ui.concentrationResultIv))
+    this.$ui.absoluteReticulocyteCount = Math.round((this.$ui.reticulocytePercent / 100) * ( this.$formProperty.absoluteErythrocyteCount * 1000 )*100 ) /100;
 
-    // Дозировка на цефтриаксон ИМ
-    this.$ui.concentrationResultIm = parseFloat(this.$formProperty.ceftriaxoneConcentration) / 4 * 1000
+    if(this.$formProperty.animalType == 'cat') {
 
-    this.$ui.animalDoseIm = parseFloat(this.$formProperty.dosage) * parseFloat(this.$formProperty.patientWeight)
+      if(this.$ui.correctedReticulocytePercentage > 0.4) {
+        this.$ui.typeOfAnemia = 'Regenerative';
+      } else {
+        this.$ui.typeOfAnemia = 'Non-regenerative';
+      }
 
-    this.$ui.mlNeededIm = (this.$ui.animalDoseIm / (this.$ui.concentrationResultIm))
+      if(this.$ui.absoluteReticulocyteCount < 60 ) {
+        this.$ui.degreeOfRegeneration = 'no regeneration';
+      } else if(this.$ui.absoluteReticulocyteCount >= 60 && this.$ui.absoluteReticulocyteCount <= 100 ) {
+          this.$ui.degreeOfRegeneration = 'mild';
+      } else if(this.$ui.absoluteReticulocyteCount > 101 && this.$ui.absoluteReticulocyteCount <= 200 ) {
+          this.$ui.degreeOfRegeneration = 'moderate';
+      } else if(this.$ui.absoluteReticulocyteCount >= 200 ) {
+          this.$ui.degreeOfRegeneration = 'marked';
+      }
+    }
+    else if(this.$formProperty.animalType == 'dog') {
+      if(this.$ui.correctedReticulocytePercentage > 1) {
+        this.$ui.typeOfAnemia = 'Regenerative';
+      } else {
+        this.$ui.typeOfAnemia = 'Non-regenerative';
+      }
+
+      if(this.$ui.absoluteReticulocyteCount < 80 ) {
+        this.$ui.degreeOfRegeneration = 'no regeneration';
+      } else if(this.$ui.absoluteReticulocyteCount >= 80 && this.$ui.absoluteReticulocyteCount <= 150 ) {
+          this.$ui.degreeOfRegeneration = 'mild';
+      } else if(this.$ui.absoluteReticulocyteCount > 151 && this.$ui.absoluteReticulocyteCount <= 300 ) {
+            this.$ui.degreeOfRegeneration = 'moderate';
+      } else if(this.$ui.absoluteReticulocyteCount >= 300 ) {
+            this.$ui.degreeOfRegeneration = 'marked';
+      }
+
+          // After calculating RPI, call this to ensure lifespan is considered
+    this.updateLifespanAndCalculate();
+    }
 
   }
 
-  public selectInjectionRoute($event: any) {
-    this.$formProperty.injectionRoute = ($event.detail.checked) ? 'IM' : 'IV';
+  constructor() {
+    // Initialization if needed
   }
 
-  // ЦЕФТРИАКСОН ПРАХ - КОНЦЕНТРАЦИЯ
-  public selectCeftriaxoneConcentration($event: any) {
-    this.$formProperty.ceftriaxoneConcentration = ($event.detail.checked) ? '2' : '1';
+  // Function to calculate Reticulocyte Lifespan
+  getReticulocyteLifespan(hematocrit: number): number | undefined {
+    const data = [
+      { hematocrit: 45, lifespan: 1.0 },
+      { hematocrit: 35, lifespan: 1.5 },
+      { hematocrit: 25, lifespan: 2.0 },
+      { hematocrit: 15, lifespan: 2.5 }
+    ];
+
+    for (let i = 0; i < data.length - 1; i++) {
+      if (hematocrit >= data[i + 1].hematocrit && hematocrit <= data[i].hematocrit) {
+        const x1 = data[i + 1].hematocrit;
+        const y1 = data[i + 1].lifespan;
+        const x2 = data[i].hematocrit;
+        const y2 = data[i].lifespan;
+
+        return y1 + ((hematocrit - x1) / (x2 - x1)) * (y2 - y1);
+      }
+    }
+
+    console.log(`hematocrit: ${hematocrit}`)
+
+    // Return undefined if out of range
+    return undefined;
   }
 
-  public clearAllValues() {
+  public updateLifespanAndCalculate(): void {
+    this.reticulocyteLifespan = this.getReticulocyteLifespan(this.$formProperty.patientHct);
+    console.log(`Assigned reticulocyteLifespan: ${this.reticulocyteLifespan}`);
+    this.calculateLifespan();  // Ensure this is called after assigning
+  }
 
-    this.$formProperty = {
-      patientWeight           : 0,
-      dosage                  : 0,
-      injectionRoute          : 'IV',
-      ceftriaxoneConcentration: '1'
+  public calculateLifespan(): void {
+    if (this.reticulocyteLifespan !== undefined && this.$ui.reticulocytePercent !== undefined) {
+      this.$ui.reticulocyteProductionIndex = Math.round((this.$ui.reticulocytePercent / this.reticulocyteLifespan)*100)/100;
+      console.log(`Reticulocyte Percent: ${this.$ui.reticulocytePercent}`);
+      console.log(`Reticulocyte Lifespan: ${this.reticulocyteLifespan}`);
+    } else {
+      // Handle the case where reticulocyteLifespan or reticulocytePercent is undefined
+      console.error('Reticulocyte lifespan or percent is undefined.');
     }
   }
 
 
+  public clearAllValues() {
 
-  public processCalculationRPI() {
-
+    this.$formProperty = {
+      erythrocyteCounter        : 0,
+      reticulocyteCounter       : 0,
+      reticulocyteCount         : 0,
+      patientHct                : 0,
+      normalRangeHct            : 0
+    }
   }
+
+
 }

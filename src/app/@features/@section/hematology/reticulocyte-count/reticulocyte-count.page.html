@@ -33,7 +33,7 @@
       1. Взимане на кръв - в епруветка с ЕДТА.
     </ion-row>
     <ion-row>
-      2. Оцветяване - 100 микролитра се взимат от кръвта с ЕДТА и се сипват в епруветка за биохимия. 100 микролитра се взимат от Brilliant cresyl blue solution и се слагат в епруветката за биохимия. Разбърква се добре и внимателно. Оставя се да престои 15-20 минути.
+      2. Оцветяване - 100 микролитра се взимат от кръвта с ЕДТА и се сипват в епруветка за биохимия. 100 микролитра се взимат от Brilliant cresyl blue solution и се слагат в епруветката за биохимия. Разбърква се добре и внимателно. Оставя се да престои 15-30 минути.
     </ion-row>
     <ion-row>
       3. Броене на ретикулоцити - Броят се тези еритроцити, които имат най-малко две сини точки вътре в тях. Изброяват се поне 1000 еритроцита и след това се изчислява колко ретикулоцита има в тези  1000 еритроцита. Средно на едно поле има 200-300 еритроцита. Диференциране на ретикулоцитите от други червени клетки с включения - Pappenheimer bodies, Hemoglobin H, Heinz bodies.
@@ -59,13 +59,55 @@
     </ion-row>
 
     <ion-row>
+      <ion-col size="5">
+        Животно
+      </ion-col>
+
+      <ion-col size="7"  style="display: flex;">
+        <div style="margin-top: 5px; margin-right: 25px;">куче</div>
+        <ion-toggle
+          [checked]="false"
+          (ionChange)="selectAnimalType($event)">
+        </ion-toggle>
+        <div style="margin-top: 5px; margin-left: 25px;">котка</div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="8">
+        Брой еритроцити:
+      </ion-col>
       <ion-col size="4">
+        <ion-button
+          (click)="incrementErythrocyteCounter()"
+          size="default"
+          expand="block"> {{ this.$formProperty.erythrocyteCounter }}
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="8">
+        Брой ретикулоцити:
+      </ion-col>
+      <ion-col size="4">
+        <ion-button
+          (click)="incrementReticulocyteCounter()"
+          size="default"
+          expand="block"> {{ this.$formProperty.reticulocyteCounter }}
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+
+    <ion-row>
+      <ion-col size="9">
         <div class="mt20 ml8">
           Брой ретикулоцити на 100 броя еритроцити:
         </div>
       </ion-col>
 
-      <ion-col size="8"  style="display: flex;">
+      <ion-col size="3" style="display: flex;">
         <ion-input
           [counter]="true"
           [(ngModel)]="$formProperty.reticulocyteCount"
@@ -78,16 +120,16 @@
     </ion-row>
 
     <ion-row>
-      <ion-col size="4">
+      <ion-col size="9">
         <div class="mt20 ml8">
-          Ретикулоцити (%) =
+          Брой еритроцити на пациента (10^12/L) =
         </div>
       </ion-col>
 
-      <ion-col size="8"  style="display: flex;">
+      <ion-col size="3" style="display: flex;">
         <ion-input
           [counter]="true"
-          [(ngModel)]="$formProperty.reticulocytePercent"
+          [(ngModel)]="$formProperty.absoluteErythrocyteCount"
           type="number"
           aria-label="Custom input"
           class="custom"
@@ -97,13 +139,13 @@
     </ion-row>
 
     <ion-row>
-      <ion-col size="4">
+      <ion-col size="9">
         <div class="mt20 ml8">
-          хематокрита на пациента =
+          хематокрита на пациента (%) =
         </div>
       </ion-col>
 
-      <ion-col size="8"  style="display: flex;">
+      <ion-col size="3" style="display: flex;">
         <ion-input
           [counter]="true"
           [(ngModel)]="$formProperty.patientHct"
@@ -116,13 +158,13 @@
     </ion-row>
 
     <ion-row>
-      <ion-col size="4">
+      <ion-col size="9">
         <div class="mt20 ml8">
-          нормална стойност на хематокрита =
+          нормална стойност на хематокрита (%) =
         </div>
       </ion-col>
 
-      <ion-col size="8"  style="display: flex;">
+      <ion-col size="3" style="display: flex;">
         <ion-input
           [counter]="true"
           [(ngModel)]="$formProperty.normalRangeHct"
@@ -137,7 +179,7 @@
     <ion-row>
       <ion-col size="12">
         <ion-button
-          (click)="processCalculationRPI()"
+          (click)="processCalculationRPI(); calculateLifespan()"
           size="default"
           expand="block">Изчисли
         </ion-button>
@@ -146,139 +188,31 @@
   </ion-grid>
 
 
-
-
-  <!-- ФОРМУЛА -->
   <ion-grid>
-    <ion-row>
-      <ion-col size="4">
-        <div class="mt20 ml8">
-          тегло
-        </div>
-      </ion-col>
+    <div class="ml8 mt8">
+      Абсолютен брой ретикулоцити: <strong>{{this.$ui.absoluteReticulocyteCount}}</strong> x 10^9/L.
+    </div>
 
-      <ion-col size="8"  style="display: flex;">
-        <ion-input
-          [counter]="true"
-          [(ngModel)]="$formProperty.patientWeight"
-          type="number"
-          aria-label="Custom input"
-          class="custom"
-          placeholder="кг">
-        </ion-input>
-        <div style="width: 63px; margin-left: 10px; margin-top: 26px;">кг</div>
-      </ion-col>
-    </ion-row>
+    <div class="ml8 mt8">
+      Според абсолютния брой ретикулоцити, анемията се определя като: <strong>{{ this.$ui.degreeOfRegeneration }}</strong>.
+    </div>
 
+    <div class="ml8 mt8">
+      correctedReticulocytePercentage: <strong>{{this.$ui.correctedReticulocytePercentage}}</strong>
+    </div>
 
-    <ion-row>
-      <ion-col size="4">
-        <div class="mt20 ml8">
-          доза
-        </div>
-      </ion-col>
+    <div class="ml8 mt8">
+      Type Of Anemia: <strong>{{ this.$ui.typeOfAnemia }}</strong>
+    </div>
 
-      <ion-col size="8"  style="display: flex;">
-        <ion-input
-          [counter]="true"
-          [(ngModel)]="$formProperty.dosage"
-          type="number"
-          aria-label="Custom input"
-          class="custom"
-          placeholder="15-50 мг/кг">
-        </ion-input>
-        <div style="width: 63px; margin-left: 10px; margin-top: 26px;">мг/кг</div>
-      </ion-col>
-    </ion-row>
-
-    <ion-row>
-      <ion-col size="4">
-        <div class="ml8">
-          Начин на приложение:
-        </div>
-      </ion-col>
-
-      <ion-col size="8"  class="flex">
-        <div class="mr16">IV</div>
-        <ion-toggle
-          [(ngModel)]="$formProperty.InjectionRoute"
-          [checked]="false"
-          (ionChange)="selectInjectionRoute($event)">
-        </ion-toggle>
-        <div class="ml16">IM</div>
-      </ion-col>
-    </ion-row>
-
-    <ion-row>
-      <ion-col size="4">
-        <div class="ml8">
-          Аз имам:
-        </div>
-      </ion-col>
-
-      <ion-col size="8"  class="flex">
-        <div class="mr16">1 г</div>
-        <ion-toggle
-          [(ngModel)]="$formProperty.CeftriaxoneConcentration"
-          [checked]="false"
-          (ionChange)="selectCeftriaxoneConcentration($event)">
-        </ion-toggle>
-        <div class="ml16">2 г</div>
-        <div class="ml8 italic">Цефтриаксон прах за инж. р-р</div>
-      </ion-col>
-    </ion-row>
-
-
-    <ion-row>
-      <ion-col size="12">
-        <ion-button
-          (click)="processCalculationCeftriaxoneConcentration()"
-          size="default"
-          expand="block">Изчисли
-        </ion-button>
-      </ion-col>
-    </ion-row>
+    <div class="ml8 mt8">
+      Reticulocyte Lifespan: {{ this.reticulocyteLifespan }}
+    </div>
+    <div class="ml8 mt8 mb20">
+      Reticulocyte production index: {{ this.$ui.reticulocyteProductionIndex }} (Values greater than 1.0 indicate increased production in response to anemia.)
+    </div>
   </ion-grid>
 
 
-  @if($formProperty.injectionRoute === 'IV') {
-    <div class="mt20 ml8 mr8" style="padding: 5px;">
-      Добавям <strong>5 мл</strong> физиологичен р-р в Цефтриаксон прах.
-    </div>
-    <div class="ml8">
-      Концентрацията на този разтвор става: <strong>{{$ui.concentrationResultIv}}</strong> мг/мл.
-    </div>
-    <div class="ml8">
-      Доза на ЖВ: <strong>{{$ui.animalDose}}</strong> мг
-    </div>
-    <div class="ml8">
-      Взимам от р-ра с цефтриаксона: <strong>{{$ui.mlNeeded}}</strong> мл.
-    </div>
-    <div class="ml8">
-      И ги слагам в 100 мл банка физ. р-р, като трябва да се изтече цялата банка за малко над 30 мин.
-    </div>
-    <div class="ml8">
-      Или го слагам ИВ бавно през абоката, като внимавам ЖВ да не повърне!
-    </div>
-  }
-
-
-@if($formProperty.injectionRoute === 'IM') {
-  <div class="mt20 ml8 mr8" style="padding: 5px;">
-    Добавям <strong>4 мл</strong> лидокаин инж. 1%-ов р-р в Цефтриаксон прах.
-  </div>
-  <div class="ml8">
-    Концентрацията на този разтвор става: <strong>{{$ui.concentrationResultIm}}</strong> мг/мл.
-  </div>
-  <div class="ml8">
-    Доза на ЖВ: <strong>{{$ui.animalDoseIm}}</strong> мг
-  </div>
-  <div class="ml8">
-    Взимам от р-ра с цефтриаксона: <strong>{{$ui.mlNeededIm}}</strong> мл.
-  </div>
-  <div class="ml8">
-    И го слагам ИМ. ВНИМАНИЕ! Болезнено!
-  </div>
-}
 
 </ion-content>
