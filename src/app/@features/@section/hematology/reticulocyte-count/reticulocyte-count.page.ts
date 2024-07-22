@@ -13,7 +13,9 @@ export class ReticulocyteCount {
   private $router: ActivatedRoute       = inject(ActivatedRoute);
 
   public $ui = {
+    normalRangeHct                  : 0,
     correctedReticulocytePercentage : 0,
+    reticulocyteIndex               : 0,
     reticulocytePercent             : 0,
     absoluteReticulocyteCount       : 0,
     typeOfAnemia                    : '',
@@ -30,8 +32,7 @@ export class ReticulocyteCount {
     reticulocyteCounter       : 0,
     reticulocyteCount         : 0,
     absoluteErythrocyteCount  : 0,
-    patientHct                : 0,
-    normalRangeHct            : 0
+    patientHct                : 0
   }
 
   public selectAnimalType($event: any) {
@@ -43,7 +44,6 @@ export class ReticulocyteCount {
     this.$formProperty.erythrocyteCounter++;
     this.$formProperty.reticulocyteCounter++;
     console.log(`reticulocyteCounter: ${this.$formProperty.reticulocyteCounter}`)
-    // this.$formProperty.reticulocyteCounter = 22;
   }
 
   public incrementErythrocyteCounter() {
@@ -53,9 +53,16 @@ export class ReticulocyteCount {
 
   public processCalculationRPI(): void {
     this.$ui.reticulocytePercent = ( this.$formProperty.reticulocyteCounter / this.$formProperty.erythrocyteCounter ) * 100;
-    // this.$ui.reticulocytePercent = 22;
 
-    this.$ui.correctedReticulocytePercentage = Math.round(( this.$ui.reticulocytePercent * ( this.$formProperty.patientHct / this.$formProperty.normalRangeHct ) )*100)/100
+    if(this.$formProperty.animalType == 'cat') {
+      this.$ui.normalRangeHct = 35;
+    } else if(this.$formProperty.animalType == 'dog') {
+      this.$ui.normalRangeHct = 45;
+    }
+
+    this.$ui.correctedReticulocytePercentage = Math.round(( this.$ui.reticulocytePercent * ( this.$formProperty.patientHct / this.$ui.normalRangeHct ) )*100)/100
+
+    this.$ui.reticulocyteIndex = Math.round(( this.$ui.reticulocytePercent * ( this.$formProperty.patientHct / this.$ui.normalRangeHct ) * 0.5 )*100)/100
 
     this.$ui.absoluteReticulocyteCount = Math.round((this.$ui.reticulocytePercent / 100) * ( this.$formProperty.absoluteErythrocyteCount * 1000 )*100 ) /100;
 
@@ -67,9 +74,11 @@ export class ReticulocyteCount {
         this.$ui.typeOfAnemia = 'Non-regenerative';
       }
 
-      if(this.$ui.absoluteReticulocyteCount < 60 ) {
+      if(this.$ui.absoluteReticulocyteCount < 61 ) {
         this.$ui.degreeOfRegeneration = 'no regeneration';
-      } else if(this.$ui.absoluteReticulocyteCount >= 60 && this.$ui.absoluteReticulocyteCount <= 100 ) {
+      } else if(this.$ui.absoluteReticulocyteCount >= 61 && this.$ui.absoluteReticulocyteCount <= 85 ) {
+          this.$ui.degreeOfRegeneration = 'equivocal';
+      } else if(this.$ui.absoluteReticulocyteCount >= 86 && this.$ui.absoluteReticulocyteCount <= 100 ) {
           this.$ui.degreeOfRegeneration = 'mild';
       } else if(this.$ui.absoluteReticulocyteCount > 101 && this.$ui.absoluteReticulocyteCount <= 200 ) {
           this.$ui.degreeOfRegeneration = 'moderate';
@@ -84,11 +93,13 @@ export class ReticulocyteCount {
         this.$ui.typeOfAnemia = 'Non-regenerative';
       }
 
-      if(this.$ui.absoluteReticulocyteCount < 80 ) {
+      if(this.$ui.absoluteReticulocyteCount < 92 ) {
         this.$ui.degreeOfRegeneration = 'no regeneration';
-      } else if(this.$ui.absoluteReticulocyteCount >= 80 && this.$ui.absoluteReticulocyteCount <= 150 ) {
+      } else if(this.$ui.absoluteReticulocyteCount >= 93 && this.$ui.absoluteReticulocyteCount <= 153 ) {
+        this.$ui.degreeOfRegeneration = 'equivocal';
+      } else if(this.$ui.absoluteReticulocyteCount >= 154 && this.$ui.absoluteReticulocyteCount <= 200 ) {
           this.$ui.degreeOfRegeneration = 'mild';
-      } else if(this.$ui.absoluteReticulocyteCount > 151 && this.$ui.absoluteReticulocyteCount <= 300 ) {
+      } else if(this.$ui.absoluteReticulocyteCount > 201 && this.$ui.absoluteReticulocyteCount <= 300 ) {
             this.$ui.degreeOfRegeneration = 'moderate';
       } else if(this.$ui.absoluteReticulocyteCount >= 300 ) {
             this.$ui.degreeOfRegeneration = 'marked';
