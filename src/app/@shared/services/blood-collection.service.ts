@@ -1,5 +1,6 @@
 import { Injectable }           from "@angular/core";
 import tubesJsonDataSource      from "nv@json/hematology/tubes.collection.json";
+import anemiaJsonDataSource      from "nv@json/hematology/anemia.collection.json";
 
 @Injectable({
   providedIn: "root"
@@ -8,7 +9,8 @@ export class BloodCollectionService {
 
   public get(groupId: string) {
 
-    if(groupId == 'tubes'       ) return tubesJsonDataSource;
+    if(groupId == 'tubes'         ) return tubesJsonDataSource;
+    if(groupId == 'anemia-types'  ) return anemiaJsonDataSource;
 
     return [];
   }

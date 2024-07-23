@@ -43,6 +43,14 @@ const routes: Routes = [
         loadChildren  : () => import('../reticulocyte-count/reticulocyte-count.module').then(m => m.ReticulocyteCountModule)
       },
       {
+        path          : 'anemia-types',
+        loadChildren  : () => import('../anemia-types/tubes/tubes.module').then(m => m.FeatureModule)
+      },
+      {
+        path          : 'anemia-diagnosis',
+        loadChildren  : () => import('../anemia-diagnosis/main/main.module').then(m => m.FeatureModule)
+      },
+      {
         path: '',
         redirectTo    : 'tab1',
         pathMatch     : 'full'
