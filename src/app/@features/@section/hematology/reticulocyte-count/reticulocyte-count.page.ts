@@ -111,10 +111,6 @@ export class ReticulocyteCount {
 
   }
 
-  constructor() {
-    // Initialization if needed
-  }
-
   // Function to calculate Reticulocyte Lifespan
   getReticulocyteLifespan(hematocrit: number): number | undefined {
     const data = [
