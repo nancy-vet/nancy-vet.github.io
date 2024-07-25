@@ -36,12 +36,12 @@
     ]
   },
   {
-    "title": "",
+    "title": "Nonregenerative Anemia",
     "section"   : [
       {
-        "sectionTitle": "",
+        "sectionTitle": "Etiology",
         "content"     : [
-          ""
+          "Low red blood cell (RBC) mass due to low erythroid production, without evidence of polychromasia or reticulocytosis in peripheral blood.", "Caused by altered erythropoiesis or bone marrow injury.", "Anemia of inflammatory disease.", "Chronic kidney disease.", "Chronic liver disease.", "Hypothyroidism, hypoadrenocorticism - thyroid hormones and cortisol stimulate erythropoiesis.", "Immune-hemolytic anemia.", "Nutritional or Mineral Deficiency - iron, copper, cobalamin..", "Lead toxicity.", "Infectious - FeLV/ FIV infection, babesiosis, ehrlichiosis, parvovirus.", "Infiltrative processes — myelodysplasia, myeloproliferative and lymphoproliferative diseases, histiocytic sarcoma, metastatic neoplasia, myelofibrosis, osteosclerosis."
         ]
       },
       {
@@ -53,12 +53,12 @@
     ]
   },
   {
-    "title": "",
+    "title": "Iron-deficiency anemia",
     "section"   : [
       {
-        "sectionTitle": "",
+        "sectionTitle": "Etiology",
         "content"     : [
-          ""
+          "Caused by chronic external blood loss or iron-limited erythropoiesis."
         ]
       },
       {
@@ -70,52 +70,46 @@
     ]
   },
   {
-    "title": "",
+    "title": "Heinz-body anemia",
     "section"   : [
       {
-        "sectionTitle": "",
+        "sectionTitle": "Etiology",
         "content"     : [
-          ""
-        ]
-      },
-      {
-        "sectionTitle": "",
-        "content"     : [
-          ""
+          "Heinz bodies occur in red blood cells (RBCs) following damage from chemical or dietary oxidants, can cause hemolytic anemia."
         ]
       }
     ]
   },
   {
-    "title": "",
+    "title": "Immune-mediated anemia",
     "section"   : [
       {
-        "sectionTitle": "",
+        "sectionTitle": "Etiology",
         "content"     : [
-          ""
-        ]
-      },
-      {
-        "sectionTitle": "",
-        "content"     : [
-          ""
+          "Accelerated removal or hemolysis of red blood cells (RBCs) due to a type II hypersensitivity reaction."
         ]
       }
     ]
   },
   {
-    "title": "",
+    "title": "Anemia, Nuclear Maturation Defects (Anemia, Megaloblastic)",
     "section"   : [
       {
-        "sectionTitle": "",
+        "sectionTitle": "Etiology",
         "content"     : [
-          ""
+          "Nonregenerative anemia characterized byimpaired DNA synthesis in red blood cell(RBC) precursors (nuclear : cytoplasmic asynchrony)."
         ]
-      },
+      }
+    ]
+  },
+  {
+    "title": "Hemolytic anemia",
+    "section"   : [
       {
-        "sectionTitle": "",
+        "sectionTitle": "Etiology",
         "content"     : [
-          ""
+          "assets/pdfs/@haematology/anemia/CKD/hemolytic-infectious.png",
+          "assets/pdfs/@haematology/anemia/CKD/hemolytic-infectious-chart.png"
         ]
       }
     ]

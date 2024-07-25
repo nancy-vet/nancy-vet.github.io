@@ -4,7 +4,7 @@
     <ion-buttons slot="start">
       <ion-menu-button size="default"  color="dark"></ion-menu-button>
     </ion-buttons>
-    <ion-title>Състав на кръвта</ion-title>
+    <ion-title>Анемия - диагноза</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -14,11 +14,6 @@
   [fullscreen]="true">
 
   <ion-grid>
-    <ion-row style="border-bottom: solid #dedede 1px; padding-bottom: 8px; margin-top: 20px;">
-      <div style="font-size: 18px; font-weight: bold;">
-        🟥 Алгоритъм
-      </div>
-    </ion-row>
     <ion-row>
       Анемия - когато RBC, Hct и Hg на ПКК са понижени.
     </ion-row>
@@ -59,15 +54,18 @@
     </ion-row>
     <ion-row>
       <div class="bold">Регенеративна анемия - Алгоритъм</div>
-      <img src="../../../../../../assets/pdfs/@haematology/anemia/anemia-chart-regenerative-1.png">
-      <img src="../../../../../../assets/pdfs/@haematology/anemia/anemia-chart-regenerative-2.png">
-      <img src="../../../../../../assets/pdfs/@haematology/anemia/anemia-info-regenerative-mobile.png">
+      <!-- <nv-link-button
+      (onClick)="openDocument(pdfs/@haematology/anemia/anemia-chart-regenerative-1.png)">Регенеративна анемия - Алгоритъм
+    </nv-link-button> -->
+      <img class="mb14" src="../../../../../../assets/pdfs/@haematology/anemia/anemia-chart-regenerative-1.png">
+      <img class="mb14" src="../../../../../../assets/pdfs/@haematology/anemia/anemia-chart-regenerative-2.png">
+      <img class="mb14" src="../../../../../../assets/pdfs/@haematology/anemia/anemia-info-regenerative-mobile.png">
     </ion-row>
     <ion-row>
       <div class="bold">Нерегенеративна анемия - Алгоритъм</div>
-      <img src="../../../../../../assets/pdfs/@haematology/anemia/anemia-chart-non-regenerative-1.png">
-      <img src="../../../../../../assets/pdfs/@haematology/anemia/anemia-chart-non-regenerative-2.png">
-      <img src="../../../../../../assets/pdfs/@haematology/anemia/anemia-info-non-regenerative-mobile.png">
+      <img class="mb14" src="../../../../../../assets/pdfs/@haematology/anemia/anemia-chart-non-regenerative-1.png">
+      <img class="mb14" src="../../../../../../assets/pdfs/@haematology/anemia/anemia-chart-non-regenerative-2.png">
+      <img class="mb14" src="../../../../../../assets/pdfs/@haematology/anemia/anemia-info-non-regenerative-mobile.png">
     </ion-row>
   </ion-grid>
 

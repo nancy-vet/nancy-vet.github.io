@@ -14,4 +14,8 @@ export class MainPage implements OnInit {
   public ngOnInit(): void {
     this.$data = this.$dataService.get('blood-composition');
   }
+
+  public openDocument(url: string) {
+    window.open(`assets/${url}`, '_blank')?.focus();
+  }
 }

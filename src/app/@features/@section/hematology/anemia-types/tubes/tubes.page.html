@@ -4,7 +4,7 @@
     <ion-buttons slot="start">
       <ion-menu-button size="default"  color="dark"></ion-menu-button>
     </ion-buttons>
-    <ion-title>Видове епруветки</ion-title>
+    <ion-title>Видове анемии</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -19,15 +19,11 @@
       <ion-row>
         <ion-col>
           <div>
-            <img src="{{element.frontImage}}" style="height: 150px;"/>
-          </div>
-        </ion-col>
-        <ion-col size="8">
-
-          <!-- <div (click)="onSelectCard(element)"> -->
-          <div>
             <div class="mb8 bold h2">{{element.title}}</div>
-            <div class=""><strong>Origin</strong>: {{element.additive}}</div>
+            @for(section of element.section; track section) {
+              <div class="">{{section.sectionTitle}}: {{section.content}}</div>
+            }
+
           </div>
         </ion-col>
       </ion-row>
