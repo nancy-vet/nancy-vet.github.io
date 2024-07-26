@@ -1,36 +1,29 @@
 [
   {
-    "title": "Anemia of Chronic Kidney Disease",
-    "section"   : [
-      {
-        "sectionTitle": "Etiology",
-        "content"     : [
-          "assets/pdfs/@haematology/anemia/CKD/ethiology.png",
-          "assets/pdfs/@haematology/anemia/CKD/approach.png",
-          "assets/pdfs/@haematology/anemia/CKD/treatment.png"
-        ]
-      },
-      {
-        "sectionTitle": "",
-        "content"     : [
-          "Primary cause of anemia in CKD is inadequate production of erythropoietin (EPO) by the kidneys.", "Anemia is normocytic, normochromic, nonregenerative, and proportional to stage of CKD; underlying cause of anemia is multifactorial."
-        ]
-      }
-    ]
-  },
-  {
     "title": "Regenerative Anemia",
     "section"   : [
       {
-        "sectionTitle": "",
+        "sectionTitle": "Etiology",
         "content"     : [
           "Decreased circulating red blood cell (RBC) mass (indicated by low packed cell volume [PCV] or hematocrit [HCT], hemoglobin, and total RBC count) accompanied by appropriate, compensatory increase in RBC production by the bone marrow."
         ]
       },
       {
-        "sectionTitle": "",
+        "sectionTitle": "Etiology",
         "content"     : [
           "Caused by blood loss or hemolysis.", "• Hemolysis—caused by intrinsic RBC defects (e.g., congenital RBC membrane defects or enzyme deficiencies) or extrinsic factors (e.g., RBC parasites, oxidative injury, hemolysins, osmotic changes, immune-mediated RBC destruction, hemophagocytic neoplasia, heat stroke, and severe hypophosphatemia)."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Hemolytic anemia",
+    "section"   : [
+      {
+        "sectionTitle": "Etiology",
+        "content"     : [
+          "assets/pdfs/@haematology/anemia/CKD/hemolytic-infectious.png",
+          "assets/pdfs/@haematology/anemia/CKD/hemolytic-infectious-chart.png"
         ]
       }
     ]
@@ -45,9 +38,28 @@
         ]
       },
       {
-        "sectionTitle": "",
+        "sectionTitle": "Etiology",
         "content"     : [
           ""
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Anemia of Chronic Kidney Disease",
+    "section"   : [
+      {
+        "sectionTitle": "Etiology",
+        "content"     : [
+          "assets/pdfs/@haematology/anemia/CKD/ethiology.png",
+          "assets/pdfs/@haematology/anemia/CKD/approach.png",
+          "assets/pdfs/@haematology/anemia/CKD/treatment.png"
+        ]
+      },
+      {
+        "sectionTitle": "Etiology",
+        "content"     : [
+          "Primary cause of anemia in CKD is inadequate production of erythropoietin (EPO) by the kidneys.", "Anemia is normocytic, normochromic, nonregenerative, and proportional to stage of CKD; underlying cause of anemia is multifactorial."
         ]
       }
     ]
@@ -62,8 +74,9 @@
         ]
       },
       {
-        "sectionTitle": "",
+        "sectionTitle": "Algorithm",
         "content"     : [
+          "assets/pdfs/@haematology/anemia/iron-deficiency-anemia.png",
           ""
         ]
       }
@@ -98,18 +111,6 @@
         "sectionTitle": "Etiology",
         "content"     : [
           "Nonregenerative anemia characterized byimpaired DNA synthesis in red blood cell(RBC) precursors (nuclear : cytoplasmic asynchrony)."
-        ]
-      }
-    ]
-  },
-  {
-    "title": "Hemolytic anemia",
-    "section"   : [
-      {
-        "sectionTitle": "Etiology",
-        "content"     : [
-          "assets/pdfs/@haematology/anemia/CKD/hemolytic-infectious.png",
-          "assets/pdfs/@haematology/anemia/CKD/hemolytic-infectious-chart.png"
         ]
       }
     ]

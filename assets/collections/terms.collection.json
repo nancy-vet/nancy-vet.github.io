@@ -35,6 +35,10 @@
       "Неефективна гранулопоеза: Циклична хемопоеза.",
       "Неефективна гранулопоеза: Имунно-предизвикана неутропения.",
       "Дефицит на кобаламин."
+    ],
+    "charts": [
+      "/assets/pdfs/@haematology/haemogram/neutrophilia.png",
+      "/assets/pdfs/@haematology/haemogram/neutropenia.png"
     ]
   },
   {
@@ -58,6 +62,10 @@
       "Намалена продукция: Имунопресивна лекарствена терапия.",
       "Намалена продукция: Унищожаване на лимфоидна тъкан, напр. мултицентрична лимфома.",
       "Наследствена имунна недостатъчност."
+    ],
+    "charts": [
+      "/assets/pdfs/@haematology/haemogram/lumphocytosis.png",
+      "/assets/pdfs/@haematology/haemogram/lymphopenia.png"
     ]
   },
   {
@@ -86,6 +94,9 @@
       "Лимфопролиферативни заболявания.",
       "Хипоадренокортицизъм.",
       "Имунно-предизвикано заболяване."
+      ],
+      "charts": [
+        "/assets/pdfs/@haematology/haemogram/monocytosis.png"
       ]
   },
   {
@@ -115,6 +126,9 @@
       "Кортикостероиди: Екзогенни.",
       "Остра инфекция/възпаление.",
       "Аплазия/хипоплазия на костния мозък."
+    ],
+    "charts": [
+      "/assets/pdfs/@haematology/haemogram/eosinophilia.png"
     ]
   },
   {
