@@ -50,6 +50,25 @@ const routes: Routes = [
         path          : 'anemia-diagnosis',
         loadChildren  : () => import('../anemia-diagnosis/main/main.module').then(m => m.FeatureModule)
       },
+
+      {
+        path          : 'blood-transfusion-groups',
+        loadChildren  : () => import('../blood-transfusion-groups/main/main.module').then(m => m.FeatureModule)
+      },
+      {
+        path          : 'blood-transfusion-method',
+        loadChildren  : () => import('../blood-transfusion-method/main/main.module').then(m => m.FeatureModule)
+      },
+      {
+        path          : 'blood-transfusion-needles',
+        loadChildren  : () => import('../blood-transfusion-needles/main/main.module').then(m => m.FeatureModule)
+      },
+      {
+        path          : 'blood-transfusion-problems',
+        loadChildren  : () => import('../blood-transfusion-problems/main/main.module').then(m => m.FeatureModule)
+      },
+
+
       {
         path: '',
         redirectTo    : 'tab1',

@@ -187,8 +187,8 @@
     }
 
 
-    @if($ui.isHematologyVisible)
-    {
+    @if($ui.isHematologyVisible) {
+
       <ion-list [inset]="true">
         <ion-item (click)="returnToMainMenu()">
           <ion-icon class="menu-icon" name="arrow-back-outline"></ion-icon>
@@ -226,10 +226,28 @@
           <ion-icon class="menu-icon" name="water-outline"></ion-icon>
           <ion-label>Броене на ретикулоцити</ion-label>
         </ion-item>
-        <ion-item (click)="processNavigation('')">
+
+        <ion-item (click)="processNavigation('hematology/blood-transfusion-groups')">
           <ion-icon class="menu-icon" name="water-outline"></ion-icon>
-          <ion-label>Кръвопреливане</ion-label>
+          <ion-label>Кръвни групи</ion-label>
         </ion-item>
+
+        <ion-item (click)="processNavigation('hematology/blood-transfusion-method')">
+          <ion-icon class="menu-icon" name="water-outline"></ion-icon>
+          <ion-label>Кръвопреливане - начин</ion-label>
+        </ion-item>
+
+        <ion-item (click)="processNavigation('hematology/blood-transfusion-problems')">
+          <ion-icon class="menu-icon" name="water-outline"></ion-icon>
+          <ion-label>Кръвопреливане - усложнения</ion-label>
+        </ion-item>
+
+        <ion-item (click)="processNavigation('hematology/blood-transfusion-needles')">
+          <ion-icon class="menu-icon" name="water-outline"></ion-icon>
+          <ion-label>Кръвопреливане - игли</ion-label>
+        </ion-item>
+
+
         <ion-item (click)="processNavigation('')">
           <ion-icon class="menu-icon" name="water-outline"></ion-icon>
           <ion-label>Хемостаза</ion-label>
