@@ -4,7 +4,7 @@
     <ion-buttons slot="start">
       <ion-menu-button size="default"  color="dark"></ion-menu-button>
     </ion-buttons>
-    <ion-title>Видове епруветки</ion-title>
+    <ion-title>Видове игли и абокати</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -17,20 +17,19 @@
 
     <ion-grid>
       <ion-row>
-        <ion-col>
+        <ion-col size="6">
           <div>
-            <img src="{{element.image}}" style="height: 150px;"/>
+            <img src="{{element.image}}" style="transform: scaleX(-1);"/>
           </div>
         </ion-col>
-        <ion-col size="8">
+        <ion-col size="6">
 
           <!-- <div (click)="onSelectCard(element)"> -->
           <div>
-            <div class="mb8 bold h2">{{element.title}}</div>
-            <div class=""><strong>Добавка</strong>: {{element.additive}}</div>
-            <div class=""><strong>Механизъм</strong>: {{element.additiveFunction}}</div>
-            <div class=""><strong>Приложение</strong>: {{element.additive}}</div>
-            <div class=""><strong>Отделя</strong> се: {{element.yield}}</div>
+            <div class="">Тип: {{element.type}}</div>
+            <div class="">Вид: <strong>{{element.gauge}} G</strong></div>
+            <div class="">Диаметър: {{element.diameterMm}} мм</div>
+            <div class="">Цвят: <strong>{{element.color}}</strong></div>
           </div>
         </ion-col>
       </ion-row>
