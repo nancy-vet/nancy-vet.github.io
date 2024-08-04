@@ -20,7 +20,8 @@ export class MainPage implements OnInit {
     const serviceId      = pathCollection[pathCollection.length - 1];
     const service        = this.getServiceBasedOnPath(serviceId);
 
-    this.$data = this.$BloodCollectionService.get('tubes');
+    this.$data = this.$BloodCollectionService.get('needle');
+    console.log(this.$data)
   }
 
   /**
