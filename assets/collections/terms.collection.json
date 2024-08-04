@@ -607,6 +607,10 @@
       "След трансфузия (излишен антикоагулант).",
       "Лечение с фуроземид.",
       "Грешка: замърсяване с ЕДТА."
+    ],
+    "charts": [
+      "/assets/pdfs/@haematology/haemogram/electrolyte-abnormalities/hypercalcemia.png",
+      "/assets/pdfs/@haematology/haemogram/electrolyte-abnormalities/hypocalcemia.png"
     ]
   },
   {
@@ -655,6 +659,10 @@
       "Повръщане и  диария.",
       "Синдром на Фанкони.",
       "Еклампсия."
+    ],
+    "charts": [
+      "/assets/pdfs/@haematology/haemogram/electrolyte-abnormalities/hyperphosphatemia.png",
+      "/assets/pdfs/@haematology/haemogram/electrolyte-abnormalities/hypophosphatemia.png"
     ]
   },
   {
@@ -878,6 +886,10 @@
       "Метаболитна ацидоза с висок анионен разлик (например кетоацидоза, лактична ацидоза).",
       "Хронична респираторна ацидоза.",
       "Фуроземид и тиазиди."
+    ],
+    "charts": [
+      "/assets/pdfs/@haematology/haemogram/electrolyte-abnormalities/hyperchloremia.png",
+      "/assets/pdfs/@haematology/haemogram/electrolyte-abnormalities/hypochloremia.png"
     ]
   },
   {
@@ -893,6 +905,10 @@
       "Хипопротеинемия.",
       "Остра или хронична диария.",
       "Захарен диабет, особено с кетоацидоза."
+    ],
+    "charts": [
+      "/assets/pdfs/@haematology/haemogram/electrolyte-abnormalities/hypomagnesemia.png",
+      "/assets/pdfs/@haematology/haemogram/electrolyte-abnormalities/hypomagnesemia_management.png"
     ]
   },
   {
@@ -932,6 +948,12 @@
         "Лекарствена терапия: Фуроземид.",
         "Лекарствена терапия: Тиазиди.",
         "Синдром на Фанкони."
+    ],
+    "charts": [
+      "/assets/pdfs/@haematology/haemogram/electrolyte-abnormalities/hyperkalemia.png",
+      "/assets/pdfs/@haematology/haemogram/electrolyte-abnormalities/hypokalemia-before-after.png",
+      "/assets/pdfs/@haematology/haemogram/electrolyte-abnormalities/hyperkalemia-management.png",
+      "/assets/pdfs/@haematology/haemogram/electrolyte-abnormalities/hypokalemia.png"
     ]
   },
   {
@@ -964,6 +986,12 @@
         "Синдром на неадекватна секреция на антидиуретичен хормон (SIADH, Syndrome of inappropriate antidiuretic hormone secretion).",
         "Психогенна полидипсия.",
         "Липемия."
+    ],
+    "charts": [
+      "/assets/pdfs/@haematology/haemogram/electrolyte-abnormalities/hypernatremia.png",
+      "/assets/pdfs/@haematology/haemogram/electrolyte-abnormalities/hypernatremia-management.png",
+      "/assets/pdfs/@haematology/haemogram/electrolyte-abnormalities/hyponatremia.png",
+      "/assets/pdfs/@haematology/haemogram/electrolyte-abnormalities/hyponatremia-management.png"
     ]
   },
   {
