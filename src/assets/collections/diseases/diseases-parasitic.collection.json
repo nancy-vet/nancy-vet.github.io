@@ -1,0 +1,170 @@
+[
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Хиперадренокортицизъм.pdf" }
+    ],
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Хиперадренокортицизъм.pdf" }
+    ],
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Хиперадренокортицизъм.pdf" }
+    ],
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/Хиперадренокортицизъм.pdf" }
+    ],
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  }
+]

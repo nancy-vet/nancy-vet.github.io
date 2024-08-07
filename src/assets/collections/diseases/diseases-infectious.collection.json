@@ -1,0 +1,235 @@
+[
+  {
+    "title"       : "Анаеробни инфекции",
+    "titleEn"     : "Anaerobic Infections",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            "Caused by bacteria that require low oxygen tension, are usually normal flora, and elaborate toxins and enzymes leading to extension of the infection into adjacent healthy tissue.", "Most common genera—Bacteroides, Fusobacterium, Actinomyces, Propionibacterium, Peptostreptococcus (enteric Streptococcus), Porphyromonas, and Clostridium.", "Predisposing factors—bite wounds, dental disease, open fractures, abdominal surgery, foreign bodies"
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          "Foul odor", "Gas in the tissue or associated exudates", "Black discoloration of tissue", "Pyothorax"
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          "CBC—neutrophilic leukocytosis and monocytosis", "Microbiological culture—Collect appropriate samples, such as pus (1–2 ml in stoppered syringe) and tissue (minimum 1 g sample)."
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          "Surgical removal of devitalized tissue, cleaning of wound, and drainage of pus with the provision for continuous drainage combined with systemic antimicrobial therapy usually gives the best chance of a positive outcome.", "Drugs of choice: Amoxicillin with clavulanate, Clindamycin, Cefoxitin, Trimethoprim-sulfa combinations, Metronidazole."
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма линк", "link": "pdfs/@diseases/Хиперадренокортицизъм.pdf" }
+    ],
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма линк", "link": "pdfs/@diseases/Хиперадренокортицизъм.pdf" }
+    ],
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма линк", "link": "pdfs/@diseases/Хиперадренокортицизъм.pdf" }
+    ],
+    "section"     : [
+      {
+        "title"  : "Етиология",
+        "content"       : [
+            ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "title"       : "Гана",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "both",
+    "bodySystem"  : ["G", "R"],
+    "links": [
+      { "title": "няма линк", "link": "pdfs/@diseases/gana.pdf" }
+    ],
+    "section" : [
+      {
+        "title"  : "Дефиниция",
+        "content"       : [
+          "Ганата е остро вирусно заболяване по кучетата и дивите месоядни, характеризиращо се с треска, конюнктивит, ринит, трахеобронхит, пневмония, гастроентерит, кожна екзантема, нервни признаци и нарушения в костната и пикочо-половата системи. ОСОБЕНО гноен конюнктивит!"
+        ]
+      },
+      {
+        "title"  : "Етиология",
+        "content"       : [
+          "Canine distemper virus (CDV). Вирусът е чувствителен на разредена белина (1:20) с вода."
+        ]
+      },
+      {
+        "title"  : "Епидемиология",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Клиника",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диагностика",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Лечение",
+        "content"       : [
+          ""
+        ]
+      },
+      {
+        "title"  : "Диференциална диагноза",
+        "content"       : [
+          ""
+        ]
+      }
+    ]
+  }
+]
