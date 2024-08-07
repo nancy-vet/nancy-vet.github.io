@@ -50,6 +50,36 @@
 
 .flex { display :  flex; }
 
+.pill-orange {
+
+  display       : inline-block;
+  padding       : 2px 4px;
+  margin-top    : 4px;
+
+  border        : solid #f78104 1px;
+
+  font-size     : 12px;
+  font-weight   : bold;
+  background    : #f78104;
+  color         : #000;
+  border-radius : 2px;
+}
+
+.pill-purple {
+
+  display       : inline-block;
+  padding       : 2px 4px;
+  margin-top    : 4px;
+
+  border        : solid #dca3b7 1px;
+
+  font-size     : 12px;
+  font-weight   : bold;
+  background    : #dca3b7;
+  color         : #000;
+  border-radius : 2px;
+}
+
 .pill-green {
 
   display       : inline-block;
@@ -62,6 +92,21 @@
   font-weight   : bold;
   background    : #eafff3;
   color         : #60dba3;
+  border-radius : 2px;
+}
+
+.pill-blue {
+
+  display       : inline-block;
+  padding       : 2px 4px;
+  margin-top    : 4px;
+
+  border        : solid #2196f3 1px;
+
+  font-size     : 12px;
+  font-weight   : bold;
+  background    : #2196f3;
+  color         : #fff;
   border-radius : 2px;
 }
 

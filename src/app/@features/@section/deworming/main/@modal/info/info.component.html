@@ -1,0 +1,88 @@
+<nv-info-modal [inputTitle]="selectedObject.symptom" class="ion-page">
+
+  <div class="h1">
+    {{selectedObject?.title}}
+  </div>
+
+  @for(element of selectedObject.activeSubstance; track element) {
+
+    <div class="pill-green mr6">
+      {{ element }}
+    </div>
+  }
+
+  <div class="mt16">
+    <!-- <span>{{selectedObject?.species}}</span> -->
+    <span class="pill-blue mr6">{{selectedObject?.form}}</span>
+    <span class="pill-orange mr6">{{selectedObject?.typeDeworming}}</span>
+    <span class="pill-purple mr6">{{selectedObject?.killingActivity}}</span>
+  </div>
+
+  @if(selectedObject?.contraindications) {
+    <div class="fb600 mt16">Внимание</div>
+    <div class="bc-fail" style="padding: 5px;">{{selectedObject?.contraindications }}</div>
+  }
+
+  @if(selectedObject?.precautions) {
+    <div class="fb600 mt16">Имаите предвид</div>
+    <div class="bc-orange" style="padding: 5px;">{{selectedObject?.precautions }}</div>
+  }
+
+  @if(selectedObject?.pregnancy) {
+    <div class="fb600 mt16">При бременност</div>
+    <div>{{selectedObject?.pregnancy }}</div>
+  }
+
+  <div class="fb600 mt16">Употреба</div>
+  <div>{{selectedObject?.howToGive }}</div>
+
+
+  <nv-link-button
+    [inputTitle]="'Линкове'"
+    (onClick)="onOpenPdfDocument(selectedObject.link)">
+  </nv-link-button>
+
+
+
+  <!-- @for( groupElement of selectedObject.causes; track groupElement) {
+
+    <div>
+      <div class="h2 m-gap1">
+        {{groupElement.group}}
+      </div>
+
+      @if(groupElement.children) {
+
+        <div>
+
+          @for(childElement of groupElement.children; track childElement) {
+
+            <div>
+              <div class="mt5">
+                {{childElement.title}}
+              </div>
+
+              @if(childElement.children) {
+
+                <ul style="margin-left: -21px;">
+                  @for(childElement2 of childElement.children; track childElement2) {
+                    <li>{{childElement2.title}}</li>
+                  }
+                </ul>
+              }
+            </div>
+          }
+
+        </div>
+      }
+    </div>
+  } -->
+
+  @for( element of selectedObject.links; track element) {
+    <nv-link-button
+      [inputTitle]="element.title"
+      (onClick)="onOpenPdfDocument(element.link)">
+    </nv-link-button>
+  }
+
+</nv-info-modal>

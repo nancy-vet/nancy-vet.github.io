@@ -38,10 +38,6 @@ export class PrimaryMenu implements OnInit {
   public processNavigation(segment: string) {
 
     this.mainMeny.close("first-menu").then(() => {
-
-      //console.log("@@@");
-      //console.log(`/${segment}`);
-
       this.router.navigate([`/${segment}`]);
     });
   }
@@ -58,10 +54,10 @@ export class PrimaryMenu implements OnInit {
     this.$ui.isHematologyVisible  = true;
   }
 
-  // Show the main menu and hide the calculator submenu
-  returnToMainMenu(): void {
-    this.$ui.isMainMenuVisible = true;
-    this.$ui.isCalculatorVisible = false;
+  public returnToMainMenu(): void {
+
+    this.$ui.isMainMenuVisible    = true;
+    this.$ui.isCalculatorVisible  = false;
     this.$ui.isHematologyVisible  = false;
   }
 
