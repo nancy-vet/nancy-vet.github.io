@@ -56,4 +56,21 @@ export class DrugCardDeworming implements OnInit {
     return ``;
   }
 
+
+  public getClassName() {
+
+    if(this.object?.typeDeworming === 'external') return 'pill-blue';
+    if(this.object?.typeDeworming === 'internal') return 'pill-green';
+    if(this.object?.typeDeworming === 'both'    ) return 'pill-orange';
+    return '';
+  }
+
+  public getTitle() {
+
+    if(this.object?.typeDeworming === 'external') return 'външен';
+    if(this.object?.typeDeworming === 'internal') return 'вътрешен';
+    if(this.object?.typeDeworming === 'both'    ) return 'смесен';
+    return '';
+  }
+
 }
