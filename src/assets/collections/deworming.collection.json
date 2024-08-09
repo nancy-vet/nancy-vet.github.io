@@ -11,7 +11,7 @@
     "precautions"       : "You can give it to collies.",
     "pregnancy"         : "No data.",
     "howToGive"         : "Tablets can be administered with or without food.",
-    "dosage"            : "assets/pdfs/@deworming/.png",
+    "dosage"            : "",
     "link"              : "https://ec.europa.eu/health/documents/community-register/2017/20170118136821/anx_136821_en.pdf",
     "image"             : "assets/pdfs/@deworming/simparica.png"
   },
@@ -27,7 +27,7 @@
     "precautions"       : "Caution with dogs with pre-existing epilepsy. You can give it to collies.",
     "pregnancy"         : "Can be used in breeding, pregnant and lactating dogs.",
     "howToGive"         : "Tablets can be administered with or without food.",
-    "dosage"            : "assets/pdfs/@deworming/.png",
+    "dosage"            : "",
     "link"              : "https://ec.europa.eu/health/documents/community-register/2018/20180319140371/anx_140371_en.pdf",
     "image"             : "assets/pdfs/@deworming/bravecto.png"
   },
@@ -43,7 +43,7 @@
     "precautions"       : "",
     "pregnancy"         : "No data.",
     "howToGive"         : "Tablets can be administered with or without food.",
-    "dosage"            : "assets/pdfs/@deworming/.png",
+    "dosage"            : "",
     "link"              : "https://ec.europa.eu/health/documents/community-register/2017/20170425137290/anx_137290_bg.pdf",
     "image"             : "assets/pdfs/@deworming/credelio.png"
   },
@@ -59,7 +59,7 @@
     "precautions"       : "",
     "pregnancy"         : "Can be used in breeding, pregnant and lactating dogs.",
     "howToGive"         : "Tablets can be administered with or without food.",
-    "dosage"            : "assets/pdfs/@deworming/.png",
+    "dosage"            : "",
     "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2018/08/ADVANTIX_SPOT_ON_0022-2530.pdf",
     "image"             : "assets/pdfs/@deworming/advantix.png"
   },
@@ -75,7 +75,7 @@
     "precautions"       : "",
     "pregnancy"         : "",
     "howToGive"         : "",
-    "dosage"            : "assets/pdfs/@deworming/.png",
+    "dosage"            : "",
     "link"              : "",
     "image"             : "assets/pdfs/@deworming/simparica.png"
   },
@@ -91,7 +91,7 @@
     "precautions"       : "Do not shower pets 2 days before and after application.",
     "pregnancy"         : "Can be used in pregnant and lactating pets.",
     "howToGive"         : "On the skin.",
-    "dosage"            : "assets/pdfs/@deworming/.png",
+    "dosage"            : "",
     "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2018/08/FIPREX_S.pdf",
     "image"             : "assets/pdfs/@deworming/fiprex-dog.png"
   },
@@ -107,7 +107,7 @@
     "precautions"       : "Do not shower pets 2 days before and after application.",
     "pregnancy"         : "",
     "howToGive"         : "On the skin.",
-    "dosage"            : "assets/pdfs/@deworming/.png",
+    "dosage"            : "",
     "link"              : "https://www.sigmaprovadia.com/product/frontline-combo-spot-on-dog-m-%d1%84%d1%80%d0%be%d0%bd%d1%82%d0%bb%d0%b0%d0%b9%d0%bd-%d0%ba%d0%be%d0%bc%d0%b1%d0%be-%d1%81%d0%bf%d0%be%d1%82-%d0%be%d0%bd-%d0%b7%d0%b0-%d0%ba%d1%83%d1%87%d0%b5%d1%82/",
     "image"             : "assets/pdfs/@deworming/frontline-combo-dog.png"
   },
@@ -123,7 +123,7 @@
     "precautions"       : "",
     "pregnancy"         : "",
     "howToGive"         : "",
-    "dosage"            : "assets/pdfs/@deworming/.png",
+    "dosage"            : "",
     "link"              : "",
     "image"             : "assets/pdfs/@deworming/kiltix-dog.png"
   },
@@ -139,7 +139,7 @@
     "precautions"       : "",
     "pregnancy"         : "Do not give to lactating animals.",
     "howToGive"         : "",
-    "dosage"            : "assets/pdfs/@deworming/.png",
+    "dosage"            : "",
     "link"              : "https://www.sigmaprovadia.com/product/%d0%bf%d1%80%d0%be%d1%82%d0%b8%d0%b2%d0%be%d0%bf%d0%b0%d1%80%d0%b0%d0%b7%d0%b8%d1%82%d0%bd%d0%b0-%d0%ba%d0%b0%d0%b8%d1%88%d0%ba%d0%b0-bolfo-70%d1%81%d0%bc/",
     "image"             : "assets/pdfs/@deworming/bolfo.png"
   },
@@ -155,7 +155,7 @@
     "precautions"       : "",
     "pregnancy"         : "No data.",
     "howToGive"         : "",
-    "dosage"            : "assets/pdfs/@deworming/.png",
+    "dosage"            : "",
     "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2018/08/FORESTO_S.pdf",
     "image"             : "assets/pdfs/@deworming/foresto-dogs-and-cats.png"
   },
@@ -171,7 +171,7 @@
     "precautions"       : "",
     "pregnancy"         : "",
     "howToGive"         : "",
-    "dosage"            : "assets/pdfs/@deworming/.png",
+    "dosage"            : "",
     "link"              : "",
     "image"             : "assets/pdfs/@deworming/veto-pure-dog.png"
   },
@@ -187,7 +187,7 @@
     "precautions"       : "",
     "pregnancy"         : "",
     "howToGive"         : "",
-    "dosage"            : "assets/pdfs/@deworming/.png",
+    "dosage"            : "",
     "link"              : "",
     "image"             : "assets/pdfs/@deworming/ectolucil.png"
   },
@@ -203,7 +203,7 @@
     "precautions"       : "",
     "pregnancy"         : "",
     "howToGive"         : "Кучета и котки: Необходим е разтвор 1:400 до 1:200 за къпане, потапяне или напръскване на животните.",
-    "dosage"            : "assets/pdfs/@deworming/.png",
+    "dosage"            : "",
     "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2018/08/Neostomosan.pdf",
     "image"             : "assets/pdfs/@deworming/neostomozan.png"
   },
@@ -219,7 +219,7 @@
     "precautions"       : "You can give it to collies. Do not give with cyclosporine, ketoconazole, spinosad, verapamil.",
     "pregnancy"         : "No data.",
     "howToGive"         : "Tablets can be administered with or without food.",
-    "dosage"            : "assets/pdfs/@deworming/.png",
+    "dosage"            : "",
     "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2021/09/simparica-trio-epar-product-information_bg.pdf",
     "image"             : "assets/pdfs/@deworming/simparica-trio-dogs.png"
   },
@@ -235,7 +235,7 @@
     "precautions"       : "Do not give it with digoxin, doxorubicine or other macrocyclic lactones.",
     "pregnancy"         : "No data.",
     "howToGive"         : "Tablets can be administered with or without food.",
-    "dosage"            : "assets/pdfs/@deworming/.png",
+    "dosage"            : "",
     "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2021/01/NexGard-Spectra.pdf",
     "image"             : "assets/pdfs/@deworming/nexgard_spectra.png"
   },
@@ -251,7 +251,7 @@
     "precautions"       : "",
     "pregnancy"         : "No data.",
     "howToGive"         : "With or after food.",
-    "dosage"            : "assets/pdfs/@deworming/.png",
+    "dosage"            : "",
     "link"              : "https://ec.europa.eu/health/documents/community-register/2021/20210414151112/anx_151112_en.pdf",
     "image"             : "assets/pdfs/@deworming/simparica.png"
   },
@@ -267,7 +267,7 @@
     "precautions"       : "",
     "pregnancy"         : "No data.",
     "howToGive"         : "",
-    "dosage"            : "assets/pdfs/@deworming/.png",
+    "dosage"            : "",
     "link"              : "",
     "image"             : "assets/pdfs/@deworming/advocate-dogs-and-cats.png"
   },
@@ -283,7 +283,7 @@
     "precautions"       : "",
     "pregnancy"         : "No data.",
     "howToGive"         : "",
-    "dosage"            : "assets/pdfs/@deworming/.png",
+    "dosage"            : "",
     "link"              : "",
     "image"             : "assets/pdfs/@deworming/moxiclear-dog.png"
   },
@@ -469,7 +469,7 @@
     "precautions"       : "Do not shower pets 2 days before and after application.",
     "pregnancy"         : "Can be used in pregnant and lactating cats.",
     "howToGive"         : "On the skin.",
-    "dosage"            : "assets/pdfs/@deworming/.png",
+    "dosage"            : "",
     "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2018/08/FIPREX_S.pdf",
     "image"             : "assets/pdfs/@deworming/fiprex-cat.png"
   },
@@ -485,7 +485,7 @@
     "precautions"       : "Do not shower pets 2 days before and after application.",
     "pregnancy"         : "",
     "howToGive"         : "On the skin.",
-    "dosage"            : "assets/pdfs/@deworming/.png",
+    "dosage"            : "",
     "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2018/08/FRONTLINE_COMBO_SPOT_ON_Cat.pdf",
     "image"             : "assets/pdfs/@deworming/frontline-combo-cat.png"
   },
@@ -501,7 +501,7 @@
     "precautions"       : "",
     "pregnancy"         : "",
     "howToGive"         : "",
-    "dosage"            : "assets/pdfs/@deworming/.png",
+    "dosage"            : "",
     "link"              : "https://www.sigmaprovadia.com/product/advantage-%d0%b0%d0%b4%d0%b2%d0%b5%d0%bd%d1%82%d0%b8%d0%b4%d0%b6/",
     "image"             : "assets/pdfs/@deworming/advantage-cat-new.png"
   },
@@ -517,7 +517,7 @@
     "precautions"       : "",
     "pregnancy"         : "Can be used in breeding, pregnant and lactating queens.",
     "howToGive"         : "",
-    "dosage"            : "assets/pdfs/@deworming/.png",
+    "dosage"            : "",
     "link"              : "https://www.ema.europa.eu/en/documents/product-information/nexgard-combo-epar-product-information_en.pdf",
     "image"             : "assets/pdfs/@deworming/nexgard-combo-cats.png"
   },
@@ -533,7 +533,7 @@
     "precautions"       : "",
     "pregnancy"         : "Do not give to lactating or pregnant animals.",
     "howToGive"         : "With or without food.",
-    "dosage"            : "assets/pdfs/@deworming/.png",
+    "dosage"            : "",
     "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2018/08/prazimec-c_000241.pdf",
     "image"             : "assets/pdfs/@deworming/prazimec-c.png"
   },
@@ -545,7 +545,7 @@
     "typeDeworming"     : "internal",
     "killingActivity"   : "1 month",
     "indications"       : ["intestinal worms including nematodes"],
-    "contraindications" : "Do not give with piperazin. Do not give to kittens under 6 weeks of age.",
+    "contraindications" : "Do not give with piperazin. Do not give to kittens under 6 weeks of age and under 1 kg.",
     "precautions"       : "",
     "pregnancy"         : "Do not give to pregnant animals. You can give it to lactating animals.",
     "howToGive"         : "With or without food.",
@@ -603,18 +603,18 @@
   },
   {
     "title"             : "Biheldon",
-    "species"           : "cat",
-    "form"              : "",
-    "activeSubstance"   : [""],
-    "typeDeworming"     : "internal",
-    "killingActivity"   : "",
-    "indications"       : [""],
-    "contraindications" : "",
-    "precautions"       : "",
-    "pregnancy"         : "",
-    "howToGive"         : "",
-    "dosage"            : "assets/pdfs/@deworming/.png",
-    "link"              : "",
+    "species"           : "both",
+    "form"              : "tabl",
+    "activeSubstance"   : ["praziquantel", "pyrantel"],
+    "typeDeworming"     : "both",
+    "killingActivity"   : "3 months",
+    "indications"       : ["fleas", "ticks", "intestinal worms including nematodes"],
+    "contraindications" : "Do not give to puppies less than 4 weeks of age and kittens less than 6 weeks of age.",
+    "precautions"       : "Do not give it with piperazin, levamisol.",
+    "pregnancy"         : "You can use in animals for lactation and pregnancy.",
+    "howToGive"         : "Do not give with food.",
+    "dosage"            : "1 tabl/10 kg",
+    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2018/08/Biheldon_tabl.pdf",
     "image"             : "assets/pdfs/@deworming/simparica.png"
   }
 ]

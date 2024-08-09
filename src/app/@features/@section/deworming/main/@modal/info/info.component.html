@@ -18,13 +18,30 @@
     <span class="pill-purple mr6">{{selectedObject?.killingActivity}}</span>
   </div>
 
+  <img src="{{selectedObject?.image }}" style="max-width: 70%; margin-left: 15%;">
+
+  <div class="fb600 mt16">Дозировка</div>
+  <img src="{{selectedObject?.dosage }}" >
+  <div>{{selectedObject?.dosage }}</div>
+
+  <div class="fb600 mt16">Употреба</div>
+  <div>{{selectedObject?.howToGive }}</div>
+
+  <div class="fb600 mt16">Показания</div>
+  @for(element of selectedObject.indications; track element) {
+
+    <div class="pill-green mr6">
+      {{ element }}
+    </div>
+  }
+
   @if(selectedObject?.contraindications) {
-    <div class="fb600 mt16">Внимание</div>
+    <div class="fb600 mt16">Противопоказания</div>
     <div class="bc-fail" style="padding: 5px;">{{selectedObject?.contraindications }}</div>
   }
 
   @if(selectedObject?.precautions) {
-    <div class="fb600 mt16">Имаите предвид</div>
+    <div class="fb600 mt16">Имайте предвид</div>
     <div class="bc-orange" style="padding: 5px;">{{selectedObject?.precautions }}</div>
   }
 
@@ -32,10 +49,6 @@
     <div class="fb600 mt16">При бременност</div>
     <div>{{selectedObject?.pregnancy }}</div>
   }
-
-  <div class="fb600 mt16">Употреба</div>
-  <div>{{selectedObject?.howToGive }}</div>
-
 
   <nv-link-button
     [inputTitle]="'Линкове'"
