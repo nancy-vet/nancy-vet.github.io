@@ -85,7 +85,7 @@ export class DataService {
 
     if($preset == 'term') return [
       { category: 'blood'           , title: 'ППК'              , imgPath: `/assets/icon/blood.png`             },
-      { category: 'coagulant'       , title: 'куаголанти'       , imgPath: `/assets/icon/coagulant.png`         },
+      { category: 'coagulant'       , title: 'коагуланти'       , imgPath: `/assets/icon/coagulant.png`         },
       { category: 'urogenital'      , title: 'бъбреци'          , imgPath: `/assets/icon/urogenital.png`        },
       { category: 'liver'           , title: 'черен дроб'       , imgPath: `/assets/icon/liver.png`             },
       { category: 'others'          , title: 'други'            , imgPath: `/assets/icon/others.png`            }

@@ -61,7 +61,7 @@
   font-size     : 12px;
   font-weight   : bold;
   background    : #f78104;
-  color         : #000;
+  color         : #ffffff;
   border-radius : 2px;
 }
 
@@ -76,7 +76,7 @@
   font-size     : 12px;
   font-weight   : bold;
   background    : #dca3b7;
-  color         : #000;
+  color         : #ffffff;
   border-radius : 2px;
 }
 
@@ -106,6 +106,21 @@
   font-size     : 12px;
   font-weight   : bold;
   background    : #2196f3;
+  color         : #fff;
+  border-radius : 2px;
+}
+
+.pill-red {
+
+  display       : inline-block;
+  padding       : 2px 4px;
+  margin-top    : 4px;
+
+  border        : solid #f32146 1px;
+
+  font-size     : 12px;
+  font-weight   : bold;
+  background    : #f32146;
   color         : #fff;
   border-radius : 2px;
 }

@@ -43,6 +43,7 @@ export class InfoModal implements OnChanges {
    * @param url
    */
   public onOpenPdfDocument(url: string) {
-    window.open(`assets/${url}`, '_blank')?.focus();
+    window.open(`${url}`, '_blank')?.focus();
+    console.log(`link: ${url}`)
   }
 }

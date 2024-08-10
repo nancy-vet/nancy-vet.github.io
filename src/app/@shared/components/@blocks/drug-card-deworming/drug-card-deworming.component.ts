@@ -60,7 +60,7 @@ export class DrugCardDeworming implements OnInit {
   public getClassName() {
 
     if(this.object?.typeDeworming === 'external') return 'pill-blue';
-    if(this.object?.typeDeworming === 'internal') return 'pill-green';
+    if(this.object?.typeDeworming === 'internal') return 'pill-red';
     if(this.object?.typeDeworming === 'both'    ) return 'pill-orange';
     return '';
   }

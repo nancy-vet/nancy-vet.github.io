@@ -15,7 +15,7 @@
     <!-- <span>{{selectedObject?.species}}</span> -->
     <span class="pill-blue mr6">{{selectedObject?.form}}</span>
     <span class="pill-orange mr6">{{selectedObject?.typeDeworming}}</span>
-    <span class="pill-purple mr6">{{selectedObject?.killingActivity}}</span>
+    <span class="pill-red mr6">{{selectedObject?.killingActivity}}</span>
   </div>
 
   <img src="{{selectedObject?.image }}" style="max-width: 70%; margin-left: 15%;">
@@ -30,19 +30,19 @@
   <div class="fb600 mt16">Показания</div>
   @for(element of selectedObject.indications; track element) {
 
-    <div class="pill-green mr6">
+    <div class="pill-orange mr6">
       {{ element }}
     </div>
   }
 
   @if(selectedObject?.contraindications) {
     <div class="fb600 mt16">Противопоказания</div>
-    <div class="bc-fail" style="padding: 5px;">{{selectedObject?.contraindications }}</div>
+    <div class="" style="padding: 5px;">{{selectedObject?.contraindications }}</div>
   }
 
   @if(selectedObject?.precautions) {
     <div class="fb600 mt16">Имайте предвид</div>
-    <div class="bc-orange" style="padding: 5px;">{{selectedObject?.precautions }}</div>
+    <div class="" style="padding: 5px;">{{selectedObject?.precautions }}</div>
   }
 
   @if(selectedObject?.pregnancy) {
@@ -51,7 +51,7 @@
   }
 
   <nv-link-button
-    [inputTitle]="'Линкове'"
+    [inputTitle]="'Листовка'"
     (onClick)="onOpenPdfDocument(selectedObject.link)">
   </nv-link-button>
 
@@ -91,11 +91,11 @@
     </div>
   } -->
 
-  @for( element of selectedObject.links; track element) {
+  <!-- @for( element of selectedObject.links; track element) {
     <nv-link-button
       [inputTitle]="element.title"
       (onClick)="onOpenPdfDocument(element.link)">
     </nv-link-button>
-  }
+  } -->
 
 </nv-info-modal>
