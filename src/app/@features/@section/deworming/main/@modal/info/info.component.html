@@ -50,6 +50,11 @@
     <div>{{selectedObject?.pregnancy }}</div>
   }
 
+  @if(selectedObject?.pregnancy) {
+    <div class="fb600 mt16">Начин на действие</div>
+    <div>{{selectedObject?.effect }}</div>
+  }
+
   <nv-link-button
     [inputTitle]="'Листовка'"
     (onClick)="onOpenPdfDocument(selectedObject.link)">
