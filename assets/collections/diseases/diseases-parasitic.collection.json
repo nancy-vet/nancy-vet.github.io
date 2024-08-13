@@ -1,170 +1,557 @@
 [
   {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "",
-    "animals"     : "dogs",
+    "title"       : "Бабезиоза",
+    "titleEn"     : "Babesiosis",
+    "type"        : "parasitic",
+    "animals"     : "both",
     "bodySystem"  : [""],
     "links": [
-      { "title": "описание", "link": "pdfs/@diseases/Хиперадренокортицизъм.pdf" }
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "section"     : [
-      {
-        "title"  : "Етиология",
-        "content"       : [
-            ""
-        ]
-      },
-      {
-        "title"  : "Клиника",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диагностика",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Лечение",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диференциална диагноза",
-        "content"       : [
-          ""
-        ]
-      }
-    ]
+    "etiology"      : ["A protozoal disease (genus Babesia) of dogs and cats in which merozoites (piroplasms) infect RBCs", "Infection (by tick transmission, transplacental, or by blood transfusion) is followed by 2-week incubation period during which piroplasms infect and multiply in RBCs, resulting in RBC damage mainly from immune-mediated processes but also direct RBC lysis."],
+    "signs"         : ["летаргия", "анорексия", "треска", "спленомегалия", "анемия", "бледи лигавици", "иктерус", "хемоглобинемия", "хемоглобинурия"],
+    "diagnostics"   : ["При отрицателен CaniV-4 тест и спленомегалия при ехографско изследване - бабезиоза."],
+    "treatment"     : ["Имидокарб"],
+    "differential"  : ["Други кърлежовопреносими заболявания", "Имунно-медиирана хемолитична анемия", "Заболявания на черния дроб", "Кавален синдром", "Торзио на далака"]
+  },
+  {
+    "title"       : "Гиардиаза",
+    "titleEn"     : "Giardiasis",
+    "type"        : "parasitic",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Enteric protozoan infection that can cause small-bowel diarrhea in dogs and cats, but usually asymptomatic.", "Zoonosis - G. lamblia cysts that infect humans."],
+    "signs"         : ["диария", "кръв във фекалиите", "слуз във фекалиите"],
+    "diagnostics"   : [""],
+    "treatment"     : ["Метронидазол (котки) - 5-7 дни два пъти дневно.", "Фенбендазол/ Панакюр (кучета) - 3 дни два пъти през 14 дни."],
+    "differential"  : ["Всичко, което може да доведе до диария."]
   },
   {
     "title"       : "",
     "titleEn"     : "",
-    "type"        : "",
+    "type"        : "parasitic",
     "animals"     : "dogs",
     "bodySystem"  : [""],
     "links": [
-      { "title": "описание", "link": "pdfs/@diseases/Хиперадренокортицизъм.pdf" }
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "section"     : [
-      {
-        "title"  : "Етиология",
-        "content"       : [
-            ""
-        ]
-      },
-      {
-        "title"  : "Клиника",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диагностика",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Лечение",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диференциална диагноза",
-        "content"       : [
-          ""
-        ]
-      }
-    ]
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
   },
   {
     "title"       : "",
     "titleEn"     : "",
-    "type"        : "",
+    "type"        : "parasitic",
     "animals"     : "dogs",
     "bodySystem"  : [""],
     "links": [
-      { "title": "описание", "link": "pdfs/@diseases/Хиперадренокортицизъм.pdf" }
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "section"     : [
-      {
-        "title"  : "Етиология",
-        "content"       : [
-            ""
-        ]
-      },
-      {
-        "title"  : "Клиника",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диагностика",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Лечение",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диференциална диагноза",
-        "content"       : [
-          ""
-        ]
-      }
-    ]
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
   },
   {
     "title"       : "",
     "titleEn"     : "",
-    "type"        : "",
+    "type"        : "parasitic",
     "animals"     : "dogs",
     "bodySystem"  : [""],
     "links": [
-      { "title": "описание", "link": "pdfs/@diseases/Хиперадренокортицизъм.pdf" }
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "section"     : [
-      {
-        "title"  : "Етиология",
-        "content"       : [
-            ""
-        ]
-      },
-      {
-        "title"  : "Клиника",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диагностика",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Лечение",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диференциална диагноза",
-        "content"       : [
-          ""
-        ]
-      }
-    ]
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "parasitic",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
   }
-]
+ ]
