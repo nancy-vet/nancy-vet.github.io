@@ -10,7 +10,7 @@ export class DogBreedsService {
           name      : "Австралийско келпи",
           nameEn    : "Australian kelpie",
           code      : "293",
-          image_link: "0",
+          image_link: "assets/pdfs/@breeds/dog/australian_kelpie.png",
           general   : {
               country          : "Австралия",
               life_length_min  : 10,
@@ -66,8 +66,8 @@ export class DogBreedsService {
           id        : 'белгийска овчарка грюнендал',
           name      : "Белгийска овчарка - Грюнендал",
           nameEn    : "Belgian Shepherd Dog",
-          code      : "15001",
-          image_link: "https://api-ninjas.com/images/dogs/belgian_sheepdog.jpg",
+          code      : "15_001",
+          image_link: "assets/pdfs/@breeds/dog/belgian_sheepdog.png",
           general   : {
               country          : "Белгия",
               life_length_min  : 12,
@@ -123,8 +123,8 @@ export class DogBreedsService {
           id        : 'белгийска овчарка лакеноа',
           name      : "Белгийска овчарка - Лакеноа",
           nameEn    : "Belgian Shepherd Dog",
-          code      : "15002",
-          image_link: "https://api-ninjas.com/images/dogs/belgian_laekenois.jpg",
+          code      : "15_002",
+          image_link: "assets/pdfs/@breeds/dog/belgian_laekenois.png",
           general   : {
               country          : "Белгия",
               life_length_min  : 12,
@@ -180,8 +180,8 @@ export class DogBreedsService {
           id        : 'белгийска овчарка малиноа',
           name      : "Белгийска овчарка - Малиноа",
           nameEn    : "Belgian Shepherd Dog",
-          code      : "15003",
-          image_link: "https://api-ninjas.com/images/dogs/belgian_malinois.jpg",
+          code      : "15_003",
+          image_link: "assets/pdfs/@breeds/dog/belgian_malinois.png",
           general   : {
               country          : "Белгия",
               life_length_min  : 12,
@@ -237,8 +237,8 @@ export class DogBreedsService {
           id        : 'белгийска овчарка тервюрен',
           name      : "Белгийска овчарка - Тервюрен",
           nameEn    : "Belgian Shepherd Dog",
-          code      : "15004",
-          image_link: "https://api-ninjas.com/images/dogs/belgian_tervuren.jpg",
+          code      : "15_004",
+          image_link: "assets/pdfs/@breeds/dog/belgian_tervuren.png",
           general   : {
               country          : "Белгия",
               life_length_min  : 12,
@@ -295,7 +295,7 @@ export class DogBreedsService {
           name      : "Шиперке",
           nameEn    : "Schipperke",
           code      : "83",
-          image_link: "https://api-ninjas.com/images/dogs/schipperke.jpg",
+          image_link: "assets/pdfs/@breeds/dog/schipperke.png",
           general   : {
               country           : "Белгия",
               life_length_min   : 12,
@@ -352,7 +352,7 @@ export class DogBreedsService {
           name      : "Хърватска овчарка",
           nameEn    : "Croatian Shepherd Dog",
           code      : "277",
-          image_link: "https://api-ninjas.com/images/dogs/croatian_sheepdog.jpg",
+          image_link: "assets/pdfs/@breeds/dog/croatian_sheepdog.png",
           general   : {
               country           : "Хърватска",
               life_length_min   : 13,
@@ -409,7 +409,7 @@ export class DogBreedsService {
           name      : "Босерон",
           nameEn    : "Beauceron",
           code      : "44",
-          image_link: "https://api-ninjas.com/images/dogs/beauceron.jpg",
+          image_link: "assets/pdfs/@breeds/dog/beauceron.png",
           general   : {
               country           : "Франция",
               life_length_min   : 10,
@@ -523,7 +523,7 @@ export class DogBreedsService {
           name      : "Пиренейска овчарка",
           nameEn    : "Pyrenean Sheepdog",
           code      : "141",
-          image_link: "https://api-ninjas.com/images/dogs/pyrenean_shepherd.jpg",
+          image_link: "assets/pdfs/@breeds/dog/pyrenean_shepherd.png",
           general   : {
               country           : "Франция",
               life_length_min   : 17,
@@ -580,7 +580,7 @@ export class DogBreedsService {
           name      : "Пикардийска овчарка",
           nameEn    : "Berger Picard",
           code      : "176",
-          image_link: "https://api-ninjas.com/images/dogs/berger_picard.jpg",
+          image_link: "assets/pdfs/@breeds/dog/berger_picard.png",
           general   : {
               country           : "Франция",
               life_length_min   : 12,
@@ -694,7 +694,7 @@ export class DogBreedsService {
           name      : "Брадато коли",
           nameEn    : "Bearded Collie",
           code      : "271",
-          image_link: "https://api-ninjas.com/images/dogs/bearded_collie.jpg",
+          image_link: "assets/pdfs/@breeds/dog/bearded_collie.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 12,
@@ -751,7 +751,7 @@ export class DogBreedsService {
           name      : "Бордър коли",
           nameEn    : "Border Collie",
           code      : "297",
-          image_link: "https://api-ninjas.com/images/dogs/border_collie.jpg",
+          image_link: "assets/pdfs/@breeds/dog/border_collie.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 12,
@@ -808,7 +808,7 @@ export class DogBreedsService {
           name      : "Дългокосместо коли",
           nameEn    : "Rough Collie",
           code      : "156",
-          image_link: "https://api-ninjas.com/images/dogs/collie.jpg",
+          image_link: "assets/pdfs/@breeds/dog/collie_longhaired.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 14,
@@ -865,7 +865,7 @@ export class DogBreedsService {
           name      : "Късокосместо коли",
           nameEn    : "Smooth Collie",
           code      : "296",
-          image_link: "https://api-ninjas.com/images/dogs/collie.jpg",
+          image_link: "assets/pdfs/@breeds/dog/collie_shorthaired.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 14,
@@ -922,7 +922,7 @@ export class DogBreedsService {
           name      : "Староанглийска овчарка",
           nameEn    : "Old English Sheepdog",
           code      : "16",
-          image_link: "https://api-ninjas.com/images/dogs/old_english_sheepdog.jpg",
+          image_link: "assets/pdfs/@breeds/dog/old_english_sheepdog.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 10,
@@ -979,7 +979,7 @@ export class DogBreedsService {
           name      : "Шетландска овчарка",
           nameEn    : "Shetland Sheepdog",
           code      : "88",
-          image_link: "https://api-ninjas.com/images/dogs/shetland_sheepdog.jpg",
+          image_link: "assets/pdfs/@breeds/dog/shetland_sheepdog.png",
           general   : {
               country           : "0",
               life_length_min   : 12,
@@ -1036,7 +1036,7 @@ export class DogBreedsService {
           name      : "Комондор",
           nameEn    : "Komondor",
           code      : "53",
-          image_link: "https://api-ninjas.com/images/dogs/komondor.jpg",
+          image_link: "assets/pdfs/@breeds/dog/komondor.png",
           general   : {
               country           : "Унгария",
               life_length_min   : 10,
@@ -1093,7 +1093,7 @@ export class DogBreedsService {
           name      : "Кувас",
           nameEn    : "Kuvasz",
           code      : "54",
-          image_link: "https://api-ninjas.com/images/dogs/kuvasz.jpg",
+          image_link: "assets/pdfs/@breeds/dog/kuvasz.png",
           general   : {
               country           : "Унгария",
               life_length_min   : 10,
@@ -1150,7 +1150,7 @@ export class DogBreedsService {
           name      : "Муди",
           nameEn    : "Mudi",
           code      : "238",
-          image_link: "https://api-ninjas.com/images/dogs/mudi.jpg",
+          image_link: "assets/pdfs/@breeds/dog/mudi.png",
           general   : {
               country           : "Унгария",
               life_length_min   : 12,
@@ -1207,7 +1207,7 @@ export class DogBreedsService {
           name      : "Пули",
           nameEn    : "Puli",
           code      : "55",
-          image_link: "https://api-ninjas.com/images/dogs/puli.jpg",
+          image_link: "assets/pdfs/@breeds/dog/puli.png",
           general   : {
               country           : "Унгария",
               life_length_min   : 10,
@@ -1264,7 +1264,7 @@ export class DogBreedsService {
           name      : "Пуми",
           nameEn    : "Pumi",
           code      : "56",
-          image_link: "https://api-ninjas.com/images/dogs/pumi.jpg",
+          image_link: "assets/pdfs/@breeds/dog/pumi.png",
           general   : {
               country           : "Унгария",
               life_length_min   : 12,
@@ -1321,7 +1321,7 @@ export class DogBreedsService {
           name      : "Бергамско пастирско куче",
           nameEn    : "Bergamasco Sheepdog",
           code      : "194",
-          image_link: "https://api-ninjas.com/images/dogs/bergamasco_sheepdog.jpg",
+          image_link: "assets/pdfs/@breeds/dog/bergamasco_sheepdog.png",
           general   : {
               country           : "Италия",
               life_length_min   : 13,
@@ -1378,7 +1378,7 @@ export class DogBreedsService {
           name      : "Полска низинна овчарка",
           nameEn    : "Polish Lowland Sheepdog",
           code      : "201",
-          image_link: "https://api-ninjas.com/images/dogs/polish_lowland_sheepdog.jpg",
+          image_link: "assets/pdfs/@breeds/dog/polish_lowland_sheepdog.png",
           general   : {
               country           : "Полша",
               life_length_min   : 12,
@@ -1435,7 +1435,7 @@ export class DogBreedsService {
           name      : "Планинско куче от Айрес",
           nameEn    : "Portuguese Sheepdog",
           code      : "93",
-          image_link: "https://api-ninjas.com/images/dogs/portuguese_sheepdog.jpg",
+          image_link: "assets/pdfs/@breeds/dog/portuguese_sheepdog.png",
           general   : {
               country           : "Португалия",
               life_length_min   : 12,
@@ -1492,7 +1492,7 @@ export class DogBreedsService {
           name      : "Миорит",
           nameEn    : "Romanian Mioritic Shepherd Dog",
           code      : "349",
-          image_link: "https://api-ninjas.com/images/dogs/romanian_mioritic_shepherd_dog.jpg",
+          image_link: "assets/pdfs/@breeds/dog/romanian_mioritic_shepherd_dog.png",
           general   : {
               country           : "Румъния",
               life_length_min   : 12,
@@ -1549,7 +1549,7 @@ export class DogBreedsService {
           name      : "Чехословашки вълчак",
           nameEn    : "Czechoslovakian Vlcak",
           code      : "332",
-          image_link: "https://api-ninjas.com/images/dogs/czechoslovakian_vlcak.jpg",
+          image_link: "assets/pdfs/@breeds/dog/czechoslovakian_vlcak.png",
           general   : {
               country           : "Чехословакия",
               life_length_min   : 10,
@@ -1606,7 +1606,7 @@ export class DogBreedsService {
           name      : "Словашки чувач",
           nameEn    : "Slovensky Cuvac",
           code      : "142",
-          image_link: "https://api-ninjas.com/images/dogs/slovensky_cuvac.jpg",
+          image_link: "assets/pdfs/@breeds/dog/slovensky_cuvac.png",
           general   : {
               country           : "Словакия",
               life_length_min   : 11,
@@ -1663,7 +1663,7 @@ export class DogBreedsService {
           name      : "Шапендоа",
           nameEn    : "Schapendoes",
           code      : "313",
-          image_link: "https://api-ninjas.com/images/dogs/schapendoes.jpg",
+          image_link: "assets/pdfs/@breeds/dog/schapendoes.png",
           general   : {
               country           : "Холандия",
               life_length_min   : 12,
@@ -1720,7 +1720,7 @@ export class DogBreedsService {
           name      : "Холандска овчарка",
           nameEn    : "Dutch Shepherd",
           code      : "223",
-          image_link: "https://api-ninjas.com/images/dogs/dutch_shepherd.jpg",
+          image_link: "assets/pdfs/@breeds/dog/dutch_shepherd.png",
           general   : {
               country           : "Холандия",
               life_length_min   : 11,
@@ -1775,9 +1775,9 @@ export class DogBreedsService {
       {
           id        : 'австралийска овчарка',
           name      : "Австралийска овчарка",
-          nameEn    : "Australian Shepherd",
+          nameEn    : "Australian Shepherd СТИГНАХ ДО ТУК",
           code      : "342",
-          image_link: "https://api-ninjas.com/images/dogs/australian_shepherd.jpg",
+          image_link: "assets/pdfs/@breeds/dog/australian_shepherd.png",
           general   : {
               country           : "САЩ",
               life_length_min   : 12,
@@ -1834,7 +1834,7 @@ export class DogBreedsService {
           name      : "Фландърско бувие",
           nameEn    : "Bouvier des Flandres",
           code      : "191",
-          image_link: "https://api-ninjas.com/images/dogs/bouvier_des_flandres.jpg",
+          image_link: "assets/pdfs/@breeds/dog/bouvier_des_flandres.png",
           general   : {
               country           : "Белгия",
               life_length_min   : 10,
@@ -1891,7 +1891,7 @@ export class DogBreedsService {
           name      : "Уелско корги кардиган",
           nameEn    : "Cardigan Welsh Corgi",
           code      : "38",
-          image_link: "https://api-ninjas.com/images/dogs/cardigan_welsh_corgi.jpg",
+          image_link: "assets/pdfs/@breeds/dog/cardigan_welsh_corgi.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 12,
@@ -1948,7 +1948,7 @@ export class DogBreedsService {
           name      : "Уелско корги пембрук",
           nameEn    : "Pembroke Welsh Corgi",
           code      : "39",
-          image_link: "https://api-ninjas.com/images/dogs/pembroke_welsh_corgi.jpg",
+          image_link: "assets/pdfs/@breeds/dog/pembroke_welsh_corgi.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 12,
@@ -2005,7 +2005,7 @@ export class DogBreedsService {
           name      : "Датско-шведски пастир",
           nameEn    : "Danish-Swedish Farmdog",
           code      : "356",
-          image_link: "https://api-ninjas.com/images/dogs/danish-swedish_farmdog.jpg",
+          image_link: "assets/pdfs/@breeds/dog/danish.png.jpg",
           general   : {
               country           : "Дания",
               life_length_min   : 11,
@@ -2062,7 +2062,7 @@ export class DogBreedsService {
           name      : "Афенпинчер",
           nameEn    : "Affenpinscher",
           code      : "186",
-          image_link: "https://api-ninjas.com/images/dogs/affenpinscher.jpg",
+          image_link: "assets/pdfs/@breeds/dog/affenpinscher.png",
           general   : {
               country           : "Германия",
               life_length_min   : 12,
@@ -2119,7 +2119,7 @@ export class DogBreedsService {
           name      : "Доберман",
           nameEn    : "Dobermann",
           code      : "143",
-          image_link: "https://api-ninjas.com/images/dogs/doberman_pinscher.jpg",
+          image_link: "assets/pdfs/@breeds/dog/doberman_pinscher.png",
           general   : {
               country           : "Германия",
               life_length_min   : 10,
@@ -2176,7 +2176,7 @@ export class DogBreedsService {
           name      : "Немски пинчер",
           nameEn    : "German Pinscher",
           code      : "184",
-          image_link: "https://api-ninjas.com/images/dogs/german_pinscher.jpg",
+          image_link: "assets/pdfs/@breeds/dog/german_pinscher.png",
           general   : {
               country           : "Германия",
               life_length_min   : 12,
@@ -2233,7 +2233,7 @@ export class DogBreedsService {
           name      : "Мини пинчер",
           nameEn    : "Miniature Pinscher",
           code      : "185",
-          image_link: "https://api-ninjas.com/images/dogs/miniature_pinscher.jpg",
+          image_link: "assets/pdfs/@breeds/dog/miniature_pinscher.png",
           general   : {
               country           : "Германия",
               life_length_min   : 12,
@@ -2290,7 +2290,7 @@ export class DogBreedsService {
           name      : "Ризеншнауцер",
           nameEn    : "Giant Schnauzer",
           code      : "181",
-          image_link: "https://api-ninjas.com/images/dogs/giant_schnauzer.jpg",
+          image_link: "assets/pdfs/@breeds/dog/giant_schnauzer.png",
           general   : {
               country           : "Германия",
               life_length_min   : 12,
@@ -2347,7 +2347,7 @@ export class DogBreedsService {
           name      : "Миниатюрен шнауцер",
           nameEn    : "Miniature Schnauzer",
           code      : "183",
-          image_link: "https://api-ninjas.com/images/dogs/miniature_schnauzer.jpg",
+          image_link: "assets/pdfs/@breeds/dog/miniature_schnauzer.png",
           general   : {
               country           : "Германия",
               life_length_min   : 12,
@@ -2404,7 +2404,7 @@ export class DogBreedsService {
           name      : "Шнауцер",
           nameEn    : "Standard Schnauzer",
           code      : "182",
-          image_link: "https://api-ninjas.com/images/dogs/standard_schnauzer.jpg",
+          image_link: "assets/pdfs/@breeds/dog/standard_schnauzer.png",
           general   : {
               country           : "Германия",
               life_length_min   : 13,
@@ -2461,7 +2461,7 @@ export class DogBreedsService {
           name      : "Черен руски териер",
           nameEn    : "Russian Black Terrier",
           code      : "327",
-          image_link: "https://api-ninjas.com/images/dogs/black_russian_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/black_russian_terrier.png",
           general   : {
               country           : "2151",
               life_length_min   : 10,
@@ -2518,7 +2518,7 @@ export class DogBreedsService {
           name      : "Дого Аржентино",
           nameEn    : "Dogo Argentino",
           code      : "292",
-          image_link: "https://api-ninjas.com/images/dogs/dogo_argentino.jpg",
+          image_link: "assets/pdfs/@breeds/dog/dogo_argentino.png",
           general   : {
               country           : "Аржентина",
               life_length_min   : 9,
@@ -2575,7 +2575,7 @@ export class DogBreedsService {
           name      : "Шар пей",
           nameEn    : "Chinese Shar-Pei",
           code      : "309",
-          image_link: "https://api-ninjas.com/images/dogs/chinese_shar-pei.jpg",
+          image_link: "assets/pdfs/@breeds/dog/chinese_shar.png.jpg",
           general   : {
               country           : "Китай",
               life_length_min   : 8,
@@ -2632,7 +2632,7 @@ export class DogBreedsService {
           name      : "Мастиф Брохолмер",
           nameEn    : "Broholmer",
           code      : "315",
-          image_link: "https://api-ninjas.com/images/dogs/broholmer.jpg",
+          image_link: "assets/pdfs/@breeds/dog/broholmer.png",
           general   : {
               country           : "Дания",
               life_length_min   : 8,
@@ -2689,7 +2689,7 @@ export class DogBreedsService {
           name      : "Дог от Бордо",
           nameEn    : "Dogue de Bordeaux",
           code      : "116",
-          image_link: "https://api-ninjas.com/images/dogs/dogue_de_bordeaux.jpg",
+          image_link: "assets/pdfs/@breeds/dog/dogue_de_bordeaux.png",
           general   : {
               country           : "Франция",
               life_length_min   : 5,
@@ -2746,7 +2746,7 @@ export class DogBreedsService {
           name      : "Боксер",
           nameEn    : "Boxer",
           code      : "144",
-          image_link: "https://api-ninjas.com/images/dogs/boxer.jpg",
+          image_link: "assets/pdfs/@breeds/dog/boxer.png",
           general   : {
               country           : "Германия",
               life_length_min   : 10,
@@ -2803,7 +2803,7 @@ export class DogBreedsService {
           name      : "Немски дог",
           nameEn    : "Great Dane",
           code      : "235",
-          image_link: "https://api-ninjas.com/images/dogs/great_dane.jpg",
+          image_link: "assets/pdfs/@breeds/dog/great_dane.png",
           general   : {
               country           : "Гремания",
               life_length_min   : 7,
@@ -2860,7 +2860,7 @@ export class DogBreedsService {
           name      : "Ротвайлер",
           nameEn    : "Rottweiler",
           code      : "147",
-          image_link: "https://api-ninjas.com/images/dogs/rottweiler.jpg",
+          image_link: "assets/pdfs/@breeds/dog/rottweiler.png",
           general   : {
               country           : "Германия",
               life_length_min   : 9,
@@ -2917,7 +2917,7 @@ export class DogBreedsService {
           name      : "Английски булдог",
           nameEn    : "Bulldog",
           code      : "149",
-          image_link: "https://api-ninjas.com/images/dogs/bulldog.jpg",
+          image_link: "assets/pdfs/@breeds/dog/bulldog.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 8,
@@ -2974,7 +2974,7 @@ export class DogBreedsService {
           name      : "Булмастиф",
           nameEn    : "Bullmastiff",
           code      : "157",
-          image_link: "https://api-ninjas.com/images/dogs/bullmastiff.jpg",
+          image_link: "assets/pdfs/@breeds/dog/bullmastiff.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 7,
@@ -3031,7 +3031,7 @@ export class DogBreedsService {
               name      : "Английски мастиф",
               nameEn    : "Mastiff",
               code      : "264",
-              image_link: "https://api-ninjas.com/images/dogs/mastiff.jpg",
+              image_link: "assets/pdfs/@breeds/dog/mastiff.png",
               general   : {
                   country           : "Великобритания",
                   life_length_min   : 6,
@@ -3088,7 +3088,7 @@ export class DogBreedsService {
           name      : "Кане Корсо Италиано",
           nameEn    : "Italian Cane Corso",
           code      : "343",
-          image_link: "https://api-ninjas.com/images/dogs/cane_corso.jpg",
+          image_link: "assets/pdfs/@breeds/dog/cane_corso.png",
           general   : {
               country           : "Италия",
               life_length_min   : 9,
@@ -3145,7 +3145,7 @@ export class DogBreedsService {
           name      : "Неаполитански мастиф",
           nameEn    : "Neapolitan Mastiff",
           code      : "197",
-          image_link: "https://api-ninjas.com/images/dogs/neapolitan_mastiff.jpg",
+          image_link: "assets/pdfs/@breeds/dog/neapolitan_mastiff.png",
           general   : {
               country           : "Италия",
               life_length_min   : 7,
@@ -3202,7 +3202,7 @@ export class DogBreedsService {
           name      : "Тоса",
           nameEn    : "Tosa",
           code      : "260",
-          image_link: "https://api-ninjas.com/images/dogs/tosa.jpg",
+          image_link: "assets/pdfs/@breeds/dog/tosa.png",
           general   : {
               country           : "Япония",
               life_length_min   : 10,
@@ -3259,7 +3259,7 @@ export class DogBreedsService {
           name      : "Перо де преса канарио",
           nameEn    : "Presa Canario",
           code      : "346",
-          image_link: "https://api-ninjas.com/images/dogs/perro_de_presa_canario.jpg",
+          image_link: "assets/pdfs/@breeds/dog/perro_de_presa_canario.png",
           general   : {
               country           : "Испания",
               life_length_min   : 9,
@@ -3316,7 +3316,7 @@ export class DogBreedsService {
           name      : "Торняк",
           nameEn    : "Tornjak",
           code      : "355",
-          image_link: "https://api-ninjas.com/images/dogs/tornjak.jpg",
+          image_link: "assets/pdfs/@breeds/dog/tornjak.png",
           general   : {
               country           : "Босна и Херцеговина",
               life_length_min   : 12,
@@ -3373,7 +3373,7 @@ export class DogBreedsService {
           name      : "Нюфаундленд",
           nameEn    : "Newfoundland",
           code      : "50",
-          image_link: "https://api-ninjas.com/images/dogs/newfoundland.jpg",
+          image_link: "assets/pdfs/@breeds/dog/newfoundland.png",
           general   : {
               country           : "Канада",
               life_length_min   : 9,
@@ -3430,7 +3430,7 @@ export class DogBreedsService {
           name      : "Пиренейско планинско куче",
           nameEn    : "Pyrenean Mountain Dog",
           code      : "137",
-          image_link: "https://api-ninjas.com/images/dogs/great_pyrenees.jpg",
+          image_link: "assets/pdfs/@breeds/dog/great_pyrenees.png",
           general   : {
               country           : "Франция",
               life_length_min   : 10,
@@ -3487,7 +3487,7 @@ export class DogBreedsService {
           name      : "Ховаварт",
           nameEn    : "Hovawart",
           code      : "190",
-          image_link: "https://api-ninjas.com/images/dogs/hovawart.jpg",
+          image_link: "assets/pdfs/@breeds/dog/hovawart.png",
           general   : {
               country           : "Германия",
               life_length_min   : 10,
@@ -3544,7 +3544,7 @@ export class DogBreedsService {
           name      : "Леонбергер",
           nameEn    : "Leonberger",
           code      : "145",
-          image_link: "https://api-ninjas.com/images/dogs/leonberger.jpg",
+          image_link: "assets/pdfs/@breeds/dog/leonberger.png",
           general   : {
               country           : "Германия",
               life_length_min   : 7,
@@ -3601,7 +3601,7 @@ export class DogBreedsService {
           name      : "Ещрелско планинско куче",
           nameEn    : "Estrela Mountain Dog",
           code      : "173",
-          image_link: "https://api-ninjas.com/images/dogs/estrela_mountain_dog.jpg",
+          image_link: "assets/pdfs/@breeds/dog/estrela_mountain_dog.png",
           general   : {
               country           : "Португалия",
               life_length_min   : 10,
@@ -3658,7 +3658,7 @@ export class DogBreedsService {
           name      : "Рафейро де Алентехо",
           nameEn    : "Rafeiro do Alentejo",
           code      : "96",
-          image_link: "https://api-ninjas.com/images/dogs/rafeiro_do_alentejo.jpg",
+          image_link: "assets/pdfs/@breeds/dog/rafeiro_do_alentejo.png",
           general   : {
               country           : "Португалия",
               life_length_min   : 12,
@@ -3715,7 +3715,7 @@ export class DogBreedsService {
           name      : "Кавказка овчарка",
           nameEn    : "Caucasian Shepherd Dog",
           code      : "328",
-          image_link: "https://api-ninjas.com/images/dogs/caucasian_shepherd_dog.jpg",
+          image_link: "assets/pdfs/@breeds/dog/caucasian_shepherd_dog.png",
           general   : {
               country           : "Русия",
               life_length_min   : 10,
@@ -3772,7 +3772,7 @@ export class DogBreedsService {
           name      : "Средноазиатска овчарка",
           nameEn    : "Central Asia Shepherd Dog",
           code      : "335",
-          image_link: "https://api-ninjas.com/images/dogs/central_asian_shepherd_dog.jpg",
+          image_link: "assets/pdfs/@breeds/dog/central_asian_shepherd_dog.png",
           general   : {
               country           : "Русия",
               life_length_min   : 12,
@@ -3829,7 +3829,7 @@ export class DogBreedsService {
           name      : "Пиренейски мастиф",
           nameEn    : "Pyrenean Mastiff",
           code      : "92",
-          image_link: "https://api-ninjas.com/images/dogs/pyrenean_mastiff.jpg",
+          image_link: "assets/pdfs/@breeds/dog/pyrenean_mastiff.png",
           general   : {
               country           : "Испания",
               life_length_min   : 10,
@@ -3886,7 +3886,7 @@ export class DogBreedsService {
           name      : "Испански мастиф",
           nameEn    : "Spanish Mastiff",
           code      : "91",
-          image_link: "https://api-ninjas.com/images/dogs/spanish_mastiff.jpg",
+          image_link: "assets/pdfs/@breeds/dog/spanish_mastiff.png",
           general   : {
               country           : "Испания",
               life_length_min   : 10,
@@ -3943,7 +3943,7 @@ export class DogBreedsService {
           name      : "Санбернар",
           nameEn    : "Saint Bernard",
           code      : "61",
-          image_link: "https://api-ninjas.com/images/dogs/saint_bernard.jpg",
+          image_link: "assets/pdfs/@breeds/dog/saint_bernard.png",
           general   : {
               country           : "Швейцария",
               life_length_min   : 8,
@@ -4000,7 +4000,7 @@ export class DogBreedsService {
           name      : "Тибетски дог",
           nameEn    : "Tibetan Mastiff",
           code      : "230",
-          image_link: "https://api-ninjas.com/images/dogs/tibetan_mastiff.jpg",
+          image_link: "assets/pdfs/@breeds/dog/tibetan_mastiff.png",
           general   : {
               country           : "Тибет",
               life_length_min   : 10,
@@ -4057,7 +4057,7 @@ export class DogBreedsService {
           name      : "Апенцелер зененхунд",
           nameEn    : "Appenzell Cattle Dog",
           code      : "46",
-          image_link: "https://api-ninjas.com/images/dogs/appenzeller_sennenhund.jpg",
+          image_link: "assets/pdfs/@breeds/dog/appenzeller_sennenhund.png",
           general   : {
               country           : "Швейцария",
               life_length_min   : 12,
@@ -4114,7 +4114,7 @@ export class DogBreedsService {
           name      : "Бернски зененхунд",
           nameEn    : "Bernese Mountain Dog",
           code      : "45",
-          image_link: "https://api-ninjas.com/images/dogs/bernese_mountain_dog.jpg",
+          image_link: "assets/pdfs/@breeds/dog/bernese_mountain_dog.png",
           general   : {
               country           : "Швейцария",
               life_length_min   : 7,
@@ -4171,7 +4171,7 @@ export class DogBreedsService {
           name      : "Ентлебухер зененхунд",
           nameEn    : "Entlebuch Cattle Dog",
           code      : "47",
-          image_link: "https://api-ninjas.com/images/dogs/entlebucher_mountain_dog.jpg",
+          image_link: "assets/pdfs/@breeds/dog/entlebucher_mountain_dog.png",
           general   : {
               country           : "Швейцария",
               life_length_min   : 11,
@@ -4228,7 +4228,7 @@ export class DogBreedsService {
           name      : "Голямо швейцарско планинско куче",
           nameEn    : "Greater Swiss Mountain Dog",
           code      : "58",
-          image_link: "https://api-ninjas.com/images/dogs/greater_swiss_mountain_dog.jpg",
+          image_link: "assets/pdfs/@breeds/dog/greater_swiss_mountain_dog.png",
           general   : {
               country           : "Швейцария",
               life_length_min   : 8,
@@ -4285,7 +4285,7 @@ export class DogBreedsService {
           name      : "Ягдтериер",
           nameEn    : "Jagdterrier",
           code      : "103",
-          image_link: "https://api-ninjas.com/images/dogs/jagdterrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/jagdterrier.png",
           general   : {
               country           : "Германия",
               life_length_min   : 10,
@@ -4342,7 +4342,7 @@ export class DogBreedsService {
           name      : "Еърдейл териер",
           nameEn    : "Airedale Terrier",
           code      : "7",
-          image_link: "https://api-ninjas.com/images/dogs/airedale_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/airedale_terrier.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 11,
@@ -4399,7 +4399,7 @@ export class DogBreedsService {
           name      : "Бедлингтон териер",
           nameEn    : "Bedlington Terrier",
           code      : "9",
-          image_link: "https://api-ninjas.com/images/dogs/bedlington_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/bedlington_terrier.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 11,
@@ -4456,7 +4456,7 @@ export class DogBreedsService {
           name      : "Бордър териер",
           nameEn    : "Border Terrier",
           code      : "10",
-          image_link: "https://api-ninjas.com/images/dogs/border_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/border_terrier.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 12,
@@ -4513,7 +4513,7 @@ export class DogBreedsService {
           name      : "Гладкокосмест фокстериер",
           nameEn    : "Smooth Fox Terrier",
           code      : "12",
-          image_link: "https://api-ninjas.com/images/dogs/smooth_fox_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/smooth_fox_terrier.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 12,
@@ -4570,7 +4570,7 @@ export class DogBreedsService {
           name      : "Твърдокосмест фокстериер",
           nameEn    : "Wire Fox Terrier",
           code      : "169",
-          image_link: "https://api-ninjas.com/images/dogs/wire_fox_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/wire_fox_terrier.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 12,
@@ -4627,7 +4627,7 @@ export class DogBreedsService {
           name      : "Лейкланд териер",
           nameEn    : "Lakeland Terrier",
           code      : "70",
-          image_link: "https://api-ninjas.com/images/dogs/lakeland_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/lakeland_terrier.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 12,
@@ -4684,7 +4684,7 @@ export class DogBreedsService {
           name      : "Манчестър териер",
           nameEn    : "Manchester Terrier",
           code      : "71",
-          image_link: "https://api-ninjas.com/images/dogs/manchester_terrier_(standard).jpg",
+          image_link: "assets/pdfs/@breeds/dog/manchester_terrier_.png).jpg",
           general   : {
               country           : "Великобритания",
               life_length_min   : 15,
@@ -4741,7 +4741,7 @@ export class DogBreedsService {
           name      : "Парсън ръсел териер",
           nameEn    : "Parson Russell Terrier",
           code      : "339",
-          image_link: "https://api-ninjas.com/images/dogs/parson_russell_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/parson_russell_terrier.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 13,
@@ -4798,7 +4798,7 @@ export class DogBreedsService {
           name      : "Уелски териер",
           nameEn    : "Welsh Terrier",
           code      : "78",
-          image_link: "https://api-ninjas.com/images/dogs/welsh_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/welsh_terrier.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 12,
@@ -4855,7 +4855,7 @@ export class DogBreedsService {
           name      : "Глен оф Имаал Териер",
           nameEn    : "Irish Glen of Imaal Terrier",
           code      : "302",
-          image_link: "https://api-ninjas.com/images/dogs/glen_of_imaal_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/glen_of_imaal_terrier.png",
           general   : {
               country           : "Ирландия",
               life_length_min   : 10,
@@ -4912,7 +4912,7 @@ export class DogBreedsService {
           name      : "Ирландски мекокосмест пшеничен териер",
           nameEn    : "Soft Coated Wheaten Terrier",
           code      : "40",
-          image_link: "https://api-ninjas.com/images/dogs/soft_coated_wheaten_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/soft_coated_wheaten_terrier.png",
           general   : {
               country           : "Ирландия",
               life_length_min   : 12,
@@ -4969,7 +4969,7 @@ export class DogBreedsService {
           name      : "Ирландски териер",
           nameEn    : "Irish Terrier",
           code      : "139",
-          image_link: "https://api-ninjas.com/images/dogs/irish_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/irish_terrier.png",
           general   : {
               country           : "Ирландия",
               life_length_min   : 13,
@@ -5026,7 +5026,7 @@ export class DogBreedsService {
           name      : "Кери син териер",
           nameEn    : "Kerry Blue Terrier",
           code      : "3",
-          image_link: "https://api-ninjas.com/images/dogs/kerry_blue_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/kerry_blue_terrier.png",
           general   : {
               country           : "Ирландия",
               life_length_min   : 12,
@@ -5083,7 +5083,7 @@ export class DogBreedsService {
           name      : "Австралийски териер",
           nameEn    : "Australian Terrier",
           code      : "8",
-          image_link: "https://api-ninjas.com/images/dogs/australian_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/australian_terrier.png",
           general   : {
               country           : "Австралия",
               life_length_min   : 11,
@@ -5140,7 +5140,7 @@ export class DogBreedsService {
           name      : "Чешки териер",
           nameEn    : "Cesky Terrier",
           code      : "246",
-          image_link: "https://api-ninjas.com/images/dogs/cesky_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/cesky_terrier.png",
           general   : {
               country           : "Чешка република",
               life_length_min   : 12,
@@ -5197,7 +5197,7 @@ export class DogBreedsService {
           name      : "Кеърнтериер",
           nameEn    : "Cairn Terrier",
           code      : "4",
-          image_link: "https://api-ninjas.com/images/dogs/cairn_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/cairn_terrier.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 13,
@@ -5254,7 +5254,7 @@ export class DogBreedsService {
           name      : "Данди динмонт териер",
           nameEn    : "Dandie Dinmont Terrier",
           code      : "168",
-          image_link: "https://api-ninjas.com/images/dogs/dandie_dinmont_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/dandie_dinmont_terrier.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 12,
@@ -5368,7 +5368,7 @@ export class DogBreedsService {
           name      : "Норфолкски териер",
           nameEn    : "Norfolk Terrier",
           code      : "272",
-          image_link: "https://api-ninjas.com/images/dogs/norfolk_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/norfolk_terrier.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 12,
@@ -5425,7 +5425,7 @@ export class DogBreedsService {
           name      : "Норички териер",
           nameEn    : "Norwich Terrier",
           code      : "72",
-          image_link: "https://api-ninjas.com/images/dogs/norwich_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/norwich_terrier.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 12,
@@ -5482,7 +5482,7 @@ export class DogBreedsService {
           name      : "Шотландски териер",
           nameEn    : "Scottish Terrier",
           code      : "73",
-          image_link: "https://api-ninjas.com/images/dogs/scottish_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/scottish_terrier.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 12,
@@ -5539,7 +5539,7 @@ export class DogBreedsService {
           name      : "Силихам териер",
           nameEn    : "Sealyham Terrier",
           code      : "74",
-          image_link: "https://api-ninjas.com/images/dogs/sealyham_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/sealyham_terrier.png",
           general   : {
               country           : "0",
               life_length_min   : 12,
@@ -5596,7 +5596,7 @@ export class DogBreedsService {
           name      : "Скай териер",
           nameEn    : "Skye Terrier",
           code      : "75",
-          image_link: "https://api-ninjas.com/images/dogs/skye_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/skye_terrier.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 12,
@@ -5653,7 +5653,7 @@ export class DogBreedsService {
           name      : "Западнохайландски бял териер",
           nameEn    : "West Highland White Terrier",
           code      : "85",
-          image_link: "https://api-ninjas.com/images/dogs/west_highland_white_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/west_highland_white_terrier.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 13,
@@ -5710,7 +5710,7 @@ export class DogBreedsService {
           name      : "Японски териер",
           nameEn    : "Japanese Terrier",
           code      : "259",
-          image_link: "https://api-ninjas.com/images/dogs/japanese_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/japanese_terrier.png",
           general   : {
               country          : "Япония",
               life_length_min  : 12,
@@ -5767,7 +5767,7 @@ export class DogBreedsService {
           name      : "Бултериер",
           nameEn    : "Bull Terrier",
           code      : "11",
-          image_link: "https://api-ninjas.com/images/dogs/bull_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/bull_terrier.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 12,
@@ -5824,7 +5824,7 @@ export class DogBreedsService {
           name      : "Миниатюрен бултериер",
           nameEn    : "Miniature Bull Terrier",
           code      : "359",
-          image_link: "https://api-ninjas.com/images/dogs/miniature_bull_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/miniature_bull_terrier.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 11,
@@ -5881,7 +5881,7 @@ export class DogBreedsService {
           name      : "Стафордширски бултериер",
           nameEn    : "Staffordshire Bull Terrier",
           code      : "76",
-          image_link: "https://api-ninjas.com/images/dogs/staffordshire_bull_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/staffordshire_bull_terrier.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 12,
@@ -5938,7 +5938,7 @@ export class DogBreedsService {
           name      : "Американски стафордширски териер",
           nameEn    : "American Staffordshire Terrier",
           code      : "286",
-          image_link: "https://api-ninjas.com/images/dogs/american_staffordshire_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/american_staffordshire_terrier.png",
           general   : {
               country           : "САЩ",
               life_length_min   : 12,
@@ -5995,7 +5995,7 @@ export class DogBreedsService {
           name      : "Австралийски копринен териер",
           nameEn    : "Australian Silky Terrier",
           code      : "236",
-          image_link: "https://api-ninjas.com/images/dogs/silky_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/silky_terrier.png",
           general   : {
               country           : "Австралия",
               life_length_min   : 13,
@@ -6052,7 +6052,7 @@ export class DogBreedsService {
           name      : "Йоркширски териер",
           nameEn    : "Yorkshire Terrier",
           code      : "86",
-          image_link: "https://api-ninjas.com/images/dogs/yorkshire_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/yorkshire_terrier.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 11,
@@ -6109,7 +6109,7 @@ export class DogBreedsService {
           name      : "Дакел",
           nameEn    : "Dachshund",
           code      : "148",
-          image_link: "https://api-ninjas.com/images/dogs/dachshund.jpg",
+          image_link: "assets/pdfs/@breeds/dog/dachshund.png",
           general   : {
               country           : "Германия",
               life_length_min   : 12,
@@ -6169,7 +6169,7 @@ export class DogBreedsService {
           name      : "Самоед",
           nameEn    : "Samoyed",
           code      : "212",
-          image_link: "https://api-ninjas.com/images/dogs/samoyed.jpg",
+          image_link: "assets/pdfs/@breeds/dog/samoyed.png",
           general   : {
               country           : "Русия",
               life_length_min   : 12,
@@ -6226,7 +6226,7 @@ export class DogBreedsService {
           name      : "Аляски маламут",
           nameEn    : "Alaskan Malamute",
           code      : "243",
-          image_link: "https://api-ninjas.com/images/dogs/alaskan_malamute.jpg",
+          image_link: "assets/pdfs/@breeds/dog/alaskan_malamute.png",
           general   : {
               country           : "САЩ",
               life_length_min   : 10,
@@ -6283,7 +6283,7 @@ export class DogBreedsService {
           name      : "Сибирско хъски",
           nameEn    : "Siberian Husky",
           code      : "270",
-          image_link: "https://api-ninjas.com/images/dogs/siberian_husky.jpg",
+          image_link: "assets/pdfs/@breeds/dog/siberian_husky.png",
           general   : {
               country           : "САЩ",
               life_length_min   : 12,
@@ -6340,7 +6340,7 @@ export class DogBreedsService {
           name      : "Финландски шпиц",
           nameEn    : "Finnish Spitz",
           code      : "49",
-          image_link: "https://api-ninjas.com/images/dogs/finnish_spitz.jpg",
+          image_link: "assets/pdfs/@breeds/dog/finnish_spitz.png",
           general   : {
               country           : "Финландия",
               life_length_min   : 13,
@@ -6397,7 +6397,7 @@ export class DogBreedsService {
           name      : "Норвежки черен елкхунд",
           nameEn    : "Norwegian Elkhound Black",
           code      : "268",
-          image_link: "https://api-ninjas.com/images/dogs/norwegian_elkhound.jpg",
+          image_link: "assets/pdfs/@breeds/dog/norwegian_elkhound.png",
           general   : {
               country           : "Норвегия",
               life_length_min   : 12,
@@ -6454,7 +6454,7 @@ export class DogBreedsService {
           name      : "Норвежки сив елкхунд",
           nameEn    : "Norwegian Elkhound Grey",
           code      : "242",
-          image_link: "https://api-ninjas.com/images/dogs/norwegian_elkhound.jpg",
+          image_link: "assets/pdfs/@breeds/dog/norwegian_elkhound.png",
           general   : {
               country           : "Норвегия",
               life_length_min   : 12,
@@ -6511,7 +6511,7 @@ export class DogBreedsService {
           name      : "Норвежки лундехунд",
           nameEn    : "Norwegian Lundehund",
           code      : "265",
-          image_link: "https://api-ninjas.com/images/dogs/norwegian_lundehund.jpg",
+          image_link: "assets/pdfs/@breeds/dog/norwegian_lundehund.png",
           general   : {
               country           : "Норвегия",
               life_length_min   : 12,
@@ -6568,7 +6568,7 @@ export class DogBreedsService {
           name      : "Норботенспетс",
           nameEn    : "Norrbottenspets",
           code      : "276",
-          image_link: "https://api-ninjas.com/images/dogs/norrbottenspets.jpg",
+          image_link: "assets/pdfs/@breeds/dog/norrbottenspets.png",
           general   : {
               country           : "Швеция",
               life_length_min   : 14,
@@ -6625,7 +6625,7 @@ export class DogBreedsService {
           name      : "Финландски лапхунд",
           nameEn    : "Finnish Lapphund",
           code      : "135",
-          image_link: "https://api-ninjas.com/images/dogs/finnish_lapphund.jpg",
+          image_link: "assets/pdfs/@breeds/dog/finnish_lapphund.png",
           general   : {
               country           : "Финландия",
               life_length_min   : 12,
@@ -6682,7 +6682,7 @@ export class DogBreedsService {
           name      : "Лапландско пастирско куче",
           nameEn    : "Lapponian Herder",
           code      : "284",
-          image_link: "https://api-ninjas.com/images/dogs/lapponian_herder.jpg",
+          image_link: "assets/pdfs/@breeds/dog/lapponian_herder.png",
           general   : {
               country           : "Финландия",
               life_length_min   : 10,
@@ -6739,7 +6739,7 @@ export class DogBreedsService {
           name      : "Исландска овчарка",
           nameEn    : "Icelandic Sheepdog",
           code      : "289",
-          image_link: "https://api-ninjas.com/images/dogs/icelandic_sheepdog.jpg",
+          image_link: "assets/pdfs/@breeds/dog/icelandic_sheepdog.png",
           general   : {
               country           : "0",
               life_length_min   : 12,
@@ -6796,7 +6796,7 @@ export class DogBreedsService {
           name      : "Норвежки бухунд",
           nameEn    : "Norwegian Buhund",
           code      : "237",
-          image_link: "https://api-ninjas.com/images/dogs/norwegian_buhund.jpg",
+          image_link: "assets/pdfs/@breeds/dog/norwegian_buhund.png",
           general   : {
               country           : "Норвегия",
               life_length_min   : 12,
@@ -6853,7 +6853,7 @@ export class DogBreedsService {
           name      : "Шведски лапхунд",
           nameEn    : "Swedish Lapphund",
           code      : "135",
-          image_link: "https://api-ninjas.com/images/dogs/swedish_lapphund.jpg",
+          image_link: "assets/pdfs/@breeds/dog/swedish_lapphund.png",
           general   : {
               country           : "Швеция",
               life_length_min   : 12,
@@ -6910,7 +6910,7 @@ export class DogBreedsService {
           name      : "Вълчи шпиц - немски шпиц",
           nameEn    : "Keeshond, German Spitz",
           code      : "970001",
-          image_link: "https://api-ninjas.com/images/dogs/keeshond.jpg",
+          image_link: "assets/pdfs/@breeds/dog/keeshond.png",
           general   : {
               country           : "Германия",
               life_length_min   : 12,
@@ -6967,7 +6967,7 @@ export class DogBreedsService {
           name      : "Немски шпиц",
           nameEn    : "German Spitz",
           code      : "970003",
-          image_link: "https://api-ninjas.com/images/dogs/german_spitz.jpg",
+          image_link: "assets/pdfs/@breeds/dog/german_spitz.png",
           general   : {
               country           : "Германия",
               life_length_min   : 13,
@@ -7024,7 +7024,7 @@ export class DogBreedsService {
           name      : "Померан - немски шпиц",
           nameEn    : "Pomeranian",
           code      : "970004",
-          image_link: "https://api-ninjas.com/images/dogs/pomeranian.jpg",
+          image_link: "assets/pdfs/@breeds/dog/pomeranian.png",
           general   : {
               country           : "Германия",
               life_length_min   : 12,
@@ -7081,7 +7081,7 @@ export class DogBreedsService {
           name      : "Волпино италиано",
           nameEn    : "Volpino Italiano",
           code      : "970005",
-          image_link: "https://api-ninjas.com/images/dogs/volpino_italiano.jpg",
+          image_link: "assets/pdfs/@breeds/dog/volpino_italiano.png",
           general   : {
               country          : "Италия",
               life_length_min  : 10,
@@ -7138,7 +7138,7 @@ export class DogBreedsService {
           name      : "Чау-чау",
           nameEn    : "Chow Chow",
           code      : "205",
-          image_link: "https://api-ninjas.com/images/dogs/chow_chow.jpg",
+          image_link: "assets/pdfs/@breeds/dog/chow_chow.png",
           general   : {
               country           : "Китай",
               life_length_min   : 8,
@@ -7195,7 +7195,7 @@ export class DogBreedsService {
           name      : "Евразиер",
           nameEn    : "Eurasier",
           code      : "291",
-          image_link: "https://api-ninjas.com/images/dogs/eurasier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/eurasier.png",
           general   : {
               country           : "Германия",
               life_length_min   : 12,
@@ -7252,7 +7252,7 @@ export class DogBreedsService {
           name      : "Акита ину",
           nameEn    : "Akita",
           code      : "255",
-          image_link: "https://api-ninjas.com/images/dogs/akita.jpg",
+          image_link: "assets/pdfs/@breeds/dog/akita.png",
           general   : {
               country           : "Япония",
               life_length_min   : 10,
@@ -7309,7 +7309,7 @@ export class DogBreedsService {
           name      : "Айну",
           nameEn    : "Hokkaido",
           code      : "261",
-          image_link: "https://api-ninjas.com/images/dogs/hokkaido.jpg",
+          image_link: "assets/pdfs/@breeds/dog/hokkaido.png",
           general   : {
               country           : "Япония",
               life_length_min   : 12,
@@ -7366,7 +7366,7 @@ export class DogBreedsService {
           name      : "Японски шпиц",
           nameEn    : "Japanese Spitz",
           code      : "262",
-          image_link: "https://api-ninjas.com/images/dogs/japanese_spitz.jpg",
+          image_link: "assets/pdfs/@breeds/dog/japanese_spitz.png",
           general   : {
               country           : "Япония",
               life_length_min   : 12,
@@ -7423,7 +7423,7 @@ export class DogBreedsService {
           name      : "Кай Кен",
           nameEn    : "Kai",
           code      : "317",
-          image_link: "https://api-ninjas.com/images/dogs/kai_ken.jpg",
+          image_link: "assets/pdfs/@breeds/dog/kai_ken.png",
           general   : {
               country           : "Япония",
               life_length_min   : 12,
@@ -7480,7 +7480,7 @@ export class DogBreedsService {
           name      : "Кюшу",
           nameEn    : "Kishu",
           code      : "318",
-          image_link: "https://api-ninjas.com/images/dogs/kishu_ken.jpg",
+          image_link: "assets/pdfs/@breeds/dog/kishu_ken.png",
           general   : {
               country           : "0",
               life_length_min   : 12,
@@ -7537,7 +7537,7 @@ export class DogBreedsService {
           name      : "шиба",
           nameEn    : "Shiba",
           code      : "257",
-          image_link: "https://api-ninjas.com/images/dogs/shiba_inu.jpg",
+          image_link: "assets/pdfs/@breeds/dog/shiba_inu.png",
           general   : {
               country           : "Япония",
               life_length_min   : 13,
@@ -7594,7 +7594,7 @@ export class DogBreedsService {
           name      : "Шикоку",
           nameEn    : "Shikoku",
           code      : "319",
-          image_link: "https://api-ninjas.com/images/dogs/shikoku.jpg",
+          image_link: "assets/pdfs/@breeds/dog/shikoku.png",
           general   : {
               country           : "Япония",
               life_length_min   : 10,
@@ -7651,7 +7651,7 @@ export class DogBreedsService {
           name      : "Корейско джиндо",
           nameEn    : "Jindo",
           code      : "334",
-          image_link: "https://api-ninjas.com/images/dogs/jindo.jpg",
+          image_link: "assets/pdfs/@breeds/dog/jindo.png",
           general   : {
               country           : "Корея",
               life_length_min   : 14,
@@ -7708,7 +7708,7 @@ export class DogBreedsService {
           name      : "Басенджи",
           nameEn    : "Basenji",
           code      : "43",
-          image_link: "https://api-ninjas.com/images/dogs/basenji.jpg",
+          image_link: "assets/pdfs/@breeds/dog/basenji.png",
           general   : {
               country           : "Централна Африка",
               life_length_min   : 13,
@@ -7765,7 +7765,7 @@ export class DogBreedsService {
           name      : "Ханаанско куче",
           nameEn    : "Canaan Dog",
           code      : "273",
-          image_link: "https://api-ninjas.com/images/dogs/canaan_dog.jpg",
+          image_link: "assets/pdfs/@breeds/dog/canaan_dog.png",
           general   : {
               country           : "Израел",
               life_length_min   : 12,
@@ -7822,7 +7822,7 @@ export class DogBreedsService {
           name      : "Фараоново куче",
           nameEn    : "Pharaoh Hound",
           code      : "248",
-          image_link: "https://api-ninjas.com/images/dogs/pharaoh_hound.jpg",
+          image_link: "assets/pdfs/@breeds/dog/pharaoh_hound.png",
           general   : {
               country           : "Малта",
               life_length_min   : 12,
@@ -7879,7 +7879,7 @@ export class DogBreedsService {
           name      : "Мексиканско голо куче",
           nameEn    : "Xoloitzcuintli",
           code      : "234",
-          image_link: "https://api-ninjas.com/images/dogs/xoloitzcuintli.jpg",
+          image_link: "assets/pdfs/@breeds/dog/xoloitzcuintli.png",
           general   : {
               country           : "Мексико",
               life_length_min   : 13,
@@ -7936,7 +7936,7 @@ export class DogBreedsService {
           name      : "Перуанско безкосместо куче",
           nameEn    : "Peruvian Nairless Dog",
           code      : "310",
-          image_link: "https://api-ninjas.com/images/dogs/peruvian_inca_orchid.jpg",
+          image_link: "assets/pdfs/@breeds/dog/peruvian_inca_orchid.png",
           general   : {
               country           : "Перу",
               life_length_min   : 12,
@@ -7993,7 +7993,7 @@ export class DogBreedsService {
           name      : "Сицилианска хрътка",
           nameEn    : "Cirneco dell’Etna",
           code      : "199",
-          image_link: "https://api-ninjas.com/images/dogs/cirneco_dell’etna.jpg",
+          image_link: "assets/pdfs/@breeds/dog/cirneco_dell’etna.png",
           general   : {
               country           : "Италия",
               life_length_min   : 12,
@@ -8050,7 +8050,7 @@ export class DogBreedsService {
           name      : "Португалско поденго",
           nameEn    : "Portuguese Podengo",
           code      : "94",
-          image_link: "https://api-ninjas.com/images/dogs/portuguese_podengo.jpg",
+          image_link: "assets/pdfs/@breeds/dog/portuguese_podengo.png",
           general   : {
               country           : "Португалия",
               life_length_min   : 10,
@@ -8107,7 +8107,7 @@ export class DogBreedsService {
           name      : "Хрътка от Ибиса",
           nameEn    : "Ibizan Hound",
           code      : "89",
-          image_link: "https://api-ninjas.com/images/dogs/ibizan_hound.jpg",
+          image_link: "assets/pdfs/@breeds/dog/ibizan_hound.png",
           general   : {
               country           : "Испания",
               life_length_min   : 11,
@@ -8164,7 +8164,7 @@ export class DogBreedsService {
           name      : "0",
           nameEn    : "Taiwan Dog",
           code      : "348",
-          image_link: "https://api-ninjas.com/images/dogs/taiwan_dog.jpg",
+          image_link: "assets/pdfs/@breeds/dog/taiwan_dog.png",
           general   : {
               country           : "0",
               life_length_min   : 9,
@@ -8221,7 +8221,7 @@ export class DogBreedsService {
           name      : "Тайландски риджбек",
           nameEn    : "Thai Ridgeback",
           code      : "338",
-          image_link: "https://api-ninjas.com/images/dogs/thai_ridgeback.jpg",
+          image_link: "assets/pdfs/@breeds/dog/thai_ridgeback.png",
           general   : {
               country           : "Тайланд",
               life_length_min   : 12,
@@ -8278,7 +8278,7 @@ export class DogBreedsService {
           name      : "Блъдхаунд",
           nameEn    : "Bloodhound",
           code      : "84",
-          image_link: "https://api-ninjas.com/images/dogs/bloodhound.jpg",
+          image_link: "assets/pdfs/@breeds/dog/bloodhound.png",
           general   : {
               country           : "Белгия",
               life_length_min   : 10,
@@ -8335,7 +8335,7 @@ export class DogBreedsService {
           name      : "Английски фоксхаунд",
           nameEn    : "English Foxhound",
           code      : "159",
-          image_link: "https://api-ninjas.com/images/dogs/english_foxhound.jpg",
+          image_link: "assets/pdfs/@breeds/dog/english_foxhound.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 10,
@@ -8392,7 +8392,7 @@ export class DogBreedsService {
           name      : "Отерхунд",
           nameEn    : "Otterhound",
           code      : "294",
-          image_link: "https://api-ninjas.com/images/dogs/otterhound.jpg",
+          image_link: "assets/pdfs/@breeds/dog/otterhound.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 10,
@@ -8449,7 +8449,7 @@ export class DogBreedsService {
           name      : "Американски фоксхаунд",
           nameEn    : "American Foxhound",
           code      : "303",
-          image_link: "https://api-ninjas.com/images/dogs/american_foxhound.jpg",
+          image_link: "assets/pdfs/@breeds/dog/american_foxhound.png",
           general   : {
               country           : "САЩ",
               life_length_min   : 11,
@@ -8506,7 +8506,7 @@ export class DogBreedsService {
           name      : "Черно-кафяв кунхаунд",
           nameEn    : "Black and Tan Coonhound",
           code      : "300",
-          image_link: "https://api-ninjas.com/images/dogs/black_and_tan_coonhound.jpg",
+          image_link: "assets/pdfs/@breeds/dog/black_and_tan_coonhound.png",
           general   : {
               country           : "САЩ",
               life_length_min   : 10,
@@ -8563,7 +8563,7 @@ export class DogBreedsService {
           name      : "0",
           nameEn    : "Porcelaine",
           code      : "30",
-          image_link: "https://api-ninjas.com/images/dogs/porcelaine.jpg",
+          image_link: "assets/pdfs/@breeds/dog/porcelaine.png",
           general   : {
               country           : "Франция",
               life_length_min   : 12,
@@ -8620,7 +8620,7 @@ export class DogBreedsService {
           name      : "0",
           nameEn    : "Harrier",
           code      : "295",
-          image_link: "https://api-ninjas.com/images/dogs/harrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/harrier.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 12,
@@ -8677,7 +8677,7 @@ export class DogBreedsService {
           name      : "Унгарска хрътка",
           nameEn    : "Transylvanian Hound",
           code      : "241",
-          image_link: "https://api-ninjas.com/images/dogs/transylvanian_hound.jpg",
+          image_link: "assets/pdfs/@breeds/dog/transylvanian_hound.png",
           general   : {
               country           : "Унгария",
               life_length_min   : 10,
@@ -8734,7 +8734,7 @@ export class DogBreedsService {
           name      : "Словашки копов",
           nameEn    : "Slovensky Kopov",
           code      : "244",
-          image_link: "https://api-ninjas.com/images/dogs/slovensky_kopov.jpg",
+          image_link: "assets/pdfs/@breeds/dog/slovensky_kopov.png",
           general   : {
               country           : "Словакия",
               life_length_min   : 12,
@@ -8791,7 +8791,7 @@ export class DogBreedsService {
           name      : "Хамилтоново гонче",
           nameEn    : "Hamiltonstovare",
           code      : "132",
-          image_link: "https://api-ninjas.com/images/dogs/hamiltonstovare.jpg",
+          image_link: "assets/pdfs/@breeds/dog/hamiltonstovare.png",
           general   : {
               country           : "Швеция",
               life_length_min   : 14,
@@ -8848,7 +8848,7 @@ export class DogBreedsService {
           name      : "Бретански басет",
           nameEn    : "Basset Fauve de Bretagne",
           code      : "36",
-          image_link: "https://api-ninjas.com/images/dogs/basset_fauve_de_bretagne.jpg",
+          image_link: "assets/pdfs/@breeds/dog/basset_fauve_de_bretagne.png",
           general   : {
               country           : "Франция",
               life_length_min   : 12,
@@ -8905,7 +8905,7 @@ export class DogBreedsService {
           name      : "Голям вендейски басетгрифон",
           nameEn    : "Grand Basset Griffon Vendéen",
           code      : "33",
-          image_link: "https://api-ninjas.com/images/dogs/grand_basset_griffon_vendéen.jpg",
+          image_link: "assets/pdfs/@breeds/dog/grand_basset_griffon_vendéen.png",
           general   : {
               country           : "Франция",
               life_length_min   : 13,
@@ -8962,7 +8962,7 @@ export class DogBreedsService {
           name      : "Малък вендейски басетгрифон",
           nameEn    : "Petit Basset Griffon Vendéen",
           code      : "67",
-          image_link: "https://api-ninjas.com/images/dogs/petit_basset_griffon_vendéen.jpg",
+          image_link: "assets/pdfs/@breeds/dog/petit_basset_griffon_vendéen.png",
           general   : {
               country           : "Франция",
               life_length_min   : 14,
@@ -9019,7 +9019,7 @@ export class DogBreedsService {
           name      : "Басет",
           nameEn    : "Basset Hound",
           code      : "163",
-          image_link: "https://api-ninjas.com/images/dogs/basset_hound.jpg",
+          image_link: "assets/pdfs/@breeds/dog/basset_hound.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 12,
@@ -9076,7 +9076,7 @@ export class DogBreedsService {
           name      : "Бигъл",
           nameEn    : "Beagle",
           code      : "161",
-          image_link: "https://api-ninjas.com/images/dogs/beagle.jpg",
+          image_link: "assets/pdfs/@breeds/dog/beagle.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 10,
@@ -9133,7 +9133,7 @@ export class DogBreedsService {
           name      : "Древер",
           nameEn    : "Drever",
           code      : "130",
-          image_link: "https://api-ninjas.com/images/dogs/drever.jpg",
+          image_link: "assets/pdfs/@breeds/dog/drever.png",
           general   : {
               country           : "Швеция",
               life_length_min   : 15,
@@ -9190,7 +9190,7 @@ export class DogBreedsService {
           name      : "Баварска планинска хрътка",
           nameEn    : "Bavarian Mountain Scent Hound",
           code      : "217",
-          image_link: "https://api-ninjas.com/images/dogs/bavarian_mountain_scent_hound.jpg",
+          image_link: "assets/pdfs/@breeds/dog/bavarian_mountain_scent_hound.png",
           general   : {
               country           : "Германия",
               life_length_min   : 12,
@@ -9247,7 +9247,7 @@ export class DogBreedsService {
           name      : "Хановерски кръвоследник",
           nameEn    : "Hanoverian Scent Hound",
           code      : "213",
-          image_link: "https://api-ninjas.com/images/dogs/hanoverian_scenthound.jpg",
+          image_link: "assets/pdfs/@breeds/dog/hanoverian_scenthound.png",
           general   : {
               country           : "Германия",
               life_length_min   : 10,
@@ -9304,7 +9304,7 @@ export class DogBreedsService {
           name      : "Далматинец",
           nameEn    : "Dalmatian",
           code      : "153",
-          image_link: "https://api-ninjas.com/images/dogs/dalmatian.jpg",
+          image_link: "assets/pdfs/@breeds/dog/dalmatian.png",
           general   : {
               country           : "Хърватска",
               life_length_min   : 11,
@@ -9361,7 +9361,7 @@ export class DogBreedsService {
           name      : "Родезийски риджбек",
           nameEn    : "Rhodesian Ridgeback",
           code      : "146",
-          image_link: "https://api-ninjas.com/images/dogs/rhodesian_ridgeback.jpg",
+          image_link: "assets/pdfs/@breeds/dog/rhodesian_ridgeback.png",
           general   : {
               country           : "Южна Африка",
               life_length_min   : 10,
@@ -9418,7 +9418,7 @@ export class DogBreedsService {
           name      : "0",
           nameEn    : "Braque du Bourbonnais",
           code      : "179",
-          image_link: "https://api-ninjas.com/images/dogs/braque_du_bourbonnais.jpg",
+          image_link: "assets/pdfs/@breeds/dog/braque_du_bourbonnais.png",
           general   : {
               country           : "Франция",
               life_length_min   : 10,
@@ -9475,7 +9475,7 @@ export class DogBreedsService {
           name      : "0",
           nameEn    : "Braque Francais Pyrenean",
           code      : "133",
-          image_link: "https://api-ninjas.com/images/dogs/braque_francais_pyrenean.jpg",
+          image_link: "assets/pdfs/@breeds/dog/braque_francais_pyrenean.png",
           general   : {
               country           : "0",
               life_length_min   : 12,
@@ -9532,7 +9532,7 @@ export class DogBreedsService {
           name      : "Курцхаар",
           nameEn    : "German Shorthaired Pointer",
           code      : "119",
-          image_link: "https://api-ninjas.com/images/dogs/german_shorthaired_pointer.jpg",
+          image_link: "assets/pdfs/@breeds/dog/german_shorthaired_pointer.png",
           general   : {
               country           : "Германия",
               life_length_min   : 10,
@@ -9589,7 +9589,7 @@ export class DogBreedsService {
           name      : "Дратхаар",
           nameEn    : "German Wirehaired Pointer",
           code      : "98",
-          image_link: "https://api-ninjas.com/images/dogs/german_wirehaired_pointer.jpg",
+          image_link: "assets/pdfs/@breeds/dog/german_wirehaired_pointer.png",
           general   : {
               country           : "Германия",
               life_length_min   : 14,
@@ -9646,7 +9646,7 @@ export class DogBreedsService {
           name      : "Пуделпойнтер",
           nameEn    : "Pudelpointer",
           code      : "216",
-          image_link: "https://api-ninjas.com/images/dogs/pudelpointer.jpg",
+          image_link: "assets/pdfs/@breeds/dog/pudelpointer.png",
           general   : {
               country           : "Германия",
               life_length_min   : 14,
@@ -9703,7 +9703,7 @@ export class DogBreedsService {
           name      : "Ваймаранер",
           nameEn    : "Weimaraner",
           code      : "99",
-          image_link: "https://api-ninjas.com/images/dogs/weimaraner.jpg",
+          image_link: "assets/pdfs/@breeds/dog/weimaraner.png",
           general   : {
               country           : "Германия",
               life_length_min   : 10,
@@ -9760,7 +9760,7 @@ export class DogBreedsService {
           name      : "Унгарска визла",
           nameEn    : "Vizsla",
           code      : "57",
-          image_link: "https://api-ninjas.com/images/dogs/vizsla.jpg",
+          image_link: "assets/pdfs/@breeds/dog/vizsla.png",
           general   : {
               country           : "Унгария",
               life_length_min   : 12,
@@ -9817,7 +9817,7 @@ export class DogBreedsService {
           name      : "Твърдокосместа визла",
           nameEn    : "Wirehaired Vizsla",
           code      : "239",
-          image_link: "https://api-ninjas.com/images/dogs/wirehaired_vizsla.jpg",
+          image_link: "assets/pdfs/@breeds/dog/wirehaired_vizsla.png",
           general   : {
               country           : "Унгария",
               life_length_min   : 12,
@@ -9874,7 +9874,7 @@ export class DogBreedsService {
           name      : "Италиански брак",
           nameEn    : "Bracco Italiano",
           code      : "202",
-          image_link: "https://api-ninjas.com/images/dogs/bracco_italiano.jpg",
+          image_link: "assets/pdfs/@breeds/dog/bracco_italiano.png",
           general   : {
               country           : "Италия",
               life_length_min   : 10,
@@ -9931,7 +9931,7 @@ export class DogBreedsService {
           name      : "Португалски пойнтер",
           nameEn    : "Portuguese Pointer",
           code      : "187",
-          image_link: "https://api-ninjas.com/images/dogs/portuguese_pointer.jpg",
+          image_link: "assets/pdfs/@breeds/dog/portuguese_pointer.png",
           general   : {
               country           : "Португалия",
               life_length_min   : 14,
@@ -9988,7 +9988,7 @@ export class DogBreedsService {
           name      : "Словашки грубокосмест пойнтер",
           nameEn    : "Slovakian Wirehaired Pointer",
           code      : "320",
-          image_link: "https://api-ninjas.com/images/dogs/slovakian_wirehaired_pointer.jpg",
+          image_link: "assets/pdfs/@breeds/dog/slovakian_wirehaired_pointer.png",
           general   : {
               country           : "Словакия",
               life_length_min   : 12,
@@ -10045,7 +10045,7 @@ export class DogBreedsService {
           name      : "Епаньол бретон",
           nameEn    : "Brittany",
           code      : "95",
-          image_link: "https://api-ninjas.com/images/dogs/brittany.jpg",
+          image_link: "assets/pdfs/@breeds/dog/brittany.png",
           general   : {
               country           : "Франция",
               life_length_min   : 12,
@@ -10102,7 +10102,7 @@ export class DogBreedsService {
       //     name      : "0",
       //     nameEn    : "French Spaniel",
       //     code      : "175",
-      //     image_link: "https://api-ninjas.com/images/dogs/french_spaniel.jpg",
+      //     image_link: "assets/pdfs/@breeds/dog/french_spaniel.png",
       //     general   : {
       //         country           : "Франция",
       //         life_length_min   : 10,
@@ -10159,7 +10159,7 @@ export class DogBreedsService {
           name      : "Немски дългокосмест пойнтер",
           nameEn    : "German Longhaired Pointer",
           code      : "117",
-          image_link: "https://api-ninjas.com/images/dogs/german_longhaired_pointer.jpg",
+          image_link: "assets/pdfs/@breeds/dog/german_longhaired_pointer.png",
           general   : {
               country           : "Германия",
               life_length_min   : 12,
@@ -10216,7 +10216,7 @@ export class DogBreedsService {
           name      : "Малък мюнстерлендер",
           nameEn    : "Small Munsterlander",
           code      : "102",
-          image_link: "https://api-ninjas.com/images/dogs/small_munsterlander.jpg",
+          image_link: "assets/pdfs/@breeds/dog/small_munsterlander.png",
           general   : {
               country           : "Германия",
               life_length_min   : 1214,
@@ -10273,7 +10273,7 @@ export class DogBreedsService {
           name      : "Холандски птичар",
           nameEn    : "Drentsche Patrijshond",
           code      : "224",
-          image_link: "https://api-ninjas.com/images/dogs/drentsche_patrijshond.jpg",
+          image_link: "assets/pdfs/@breeds/dog/drentsche_patrijshond.png",
           general   : {
               country           : "Холандия",
               life_length_min   : 11,
@@ -10330,7 +10330,7 @@ export class DogBreedsService {
           name      : "Стабихоун",
           nameEn    : "Stabyhoun",
           code      : "222",
-          image_link: "https://api-ninjas.com/images/dogs/stabyhoun.jpg",
+          image_link: "assets/pdfs/@breeds/dog/stabyhoun.png",
           general   : {
               country           : "Холандия",
               life_length_min   : 13,
@@ -10387,7 +10387,7 @@ export class DogBreedsService {
           name      : "Грифон на Корталс",
           nameEn    : "Wirehaired Pointing Griffon Korthals",
           code      : "107",
-          image_link: "https://api-ninjas.com/images/dogs/wirehaired_pointing_griffon.jpg",
+          image_link: "assets/pdfs/@breeds/dog/wirehaired_pointing_griffon.png",
           general   : {
               country           : "Франция",
               life_length_min   : 12,
@@ -10444,7 +10444,7 @@ export class DogBreedsService {
           name      : "Спиноне италиано",
           nameEn    : "Spinone Italiano",
           code      : "165",
-          image_link: "https://api-ninjas.com/images/dogs/spinone_italiano.jpg",
+          image_link: "assets/pdfs/@breeds/dog/spinone_italiano.png",
           general   : {
               country           : "Италия",
               life_length_min   : 10,
@@ -10501,7 +10501,7 @@ export class DogBreedsService {
           name      : "Английски сетер",
           nameEn    : "English Setter",
           code      : "2",
-          image_link: "https://api-ninjas.com/images/dogs/english_setter.jpg",
+          image_link: "assets/pdfs/@breeds/dog/english_setter.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 12,
@@ -10558,7 +10558,7 @@ export class DogBreedsService {
           name      : "Шотландски сетер",
           nameEn    : "Gordon Setter",
           code      : "6",
-          image_link: "https://api-ninjas.com/images/dogs/gordon_setter.jpg",
+          image_link: "assets/pdfs/@breeds/dog/gordon_setter.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 12,
@@ -10615,7 +10615,7 @@ export class DogBreedsService {
           name      : "Ирландски червено-бял сетер",
           nameEn    : "Irish Red and White Setter",
           code      : "330",
-          image_link: "https://api-ninjas.com/images/dogs/irish_red_and_white_setter.jpg",
+          image_link: "assets/pdfs/@breeds/dog/irish_red_and_white_setter.png",
           general   : {
               country           : "Ирландия",
               life_length_min   : 11,
@@ -10672,7 +10672,7 @@ export class DogBreedsService {
           name      : "Ирландски сетер",
           nameEn    : "Irish Red Setter",
           code      : "120",
-          image_link: "https://api-ninjas.com/images/dogs/irish_setter.jpg",
+          image_link: "assets/pdfs/@breeds/dog/irish_setter.png",
           general   : {
               country           : "Ирландия",
               life_length_min   : 12,
@@ -10729,7 +10729,7 @@ export class DogBreedsService {
           name      : "Новошотландски ретривър",
           nameEn    : "Nova Scotia Duck Tolling Retriever",
           code      : "312",
-          image_link: "https://api-ninjas.com/images/dogs/nova_scotia_duck_tolling_retriever.jpg",
+          image_link: "assets/pdfs/@breeds/dog/nova_scotia_duck_tolling_retriever.png",
           general   : {
               country           : "Канада",
               life_length_min   : 12,
@@ -10786,7 +10786,7 @@ export class DogBreedsService {
           name      : "Къдравокосмест ретривър",
           nameEn    : "Curly-Coated Retriever",
           code      : "110",
-          image_link: "https://api-ninjas.com/images/dogs/curly-coated_retriever.jpg",
+          image_link: "assets/pdfs/@breeds/dog/curly.png.jpg",
           general   : {
               country           : "Великобритания",
               life_length_min   : 10,
@@ -10843,7 +10843,7 @@ export class DogBreedsService {
           name      : "Гладкокосмест ретривър",
           nameEn    : "Flat Coated Retriever",
           code      : "121",
-          image_link: "https://api-ninjas.com/images/dogs/flat-coated_retriever.jpg",
+          image_link: "assets/pdfs/@breeds/dog/flat.png.jpg",
           general   : {
               country           : "Великобритания",
               life_length_min   : 8,
@@ -10900,7 +10900,7 @@ export class DogBreedsService {
           name      : "Голдън ретрийвър",
           nameEn    : "Golden Retriever",
           code      : "111",
-          image_link: "https://api-ninjas.com/images/dogs/golden_retriever.jpg",
+          image_link: "assets/pdfs/@breeds/dog/golden_retriever.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 10,
@@ -10957,7 +10957,7 @@ export class DogBreedsService {
           name      : "Лабрадор ретривър",
           nameEn    : "Labrador Retriever",
           code      : "122",
-          image_link: "https://api-ninjas.com/images/dogs/labrador_retriever.jpg",
+          image_link: "assets/pdfs/@breeds/dog/labrador_retriever.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 10,
@@ -11014,7 +11014,7 @@ export class DogBreedsService {
           name      : "Чесапийк бей ретривър",
           nameEn    : "Chesapeake Bay Retriever",
           code      : "263",
-          image_link: "https://api-ninjas.com/images/dogs/chesapeake_bay_retriever.jpg",
+          image_link: "assets/pdfs/@breeds/dog/chesapeake_bay_retriever.png",
           general   : {
               country           : "САЩ",
               life_length_min   : 10,
@@ -11071,7 +11071,7 @@ export class DogBreedsService {
           name      : "Немски шпаньол",
           nameEn    : "German Spaniel",
           code      : "104",
-          image_link: "https://api-ninjas.com/images/dogs/deutscher_wachtelhund.jpg",
+          image_link: "assets/pdfs/@breeds/dog/deutscher_wachtelhund.png",
           general   : {
               country           : "Германия",
               life_length_min   : 12,
@@ -11128,7 +11128,7 @@ export class DogBreedsService {
           name      : "Кламбър шпаньол",
           nameEn    : "Clumber Spaniel",
           code      : "109",
-          image_link: "https://api-ninjas.com/images/dogs/clumber_spaniel.jpg",
+          image_link: "assets/pdfs/@breeds/dog/clumber_spaniel.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 10,
@@ -11185,7 +11185,7 @@ export class DogBreedsService {
           name      : "Английски кокер шпаньол",
           nameEn    : "English Cocker Spaniel",
           code      : "5",
-          image_link: "https://api-ninjas.com/images/dogs/english_cocker_spaniel.jpg",
+          image_link: "assets/pdfs/@breeds/dog/english_cocker_spaniel.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 12,
@@ -11242,7 +11242,7 @@ export class DogBreedsService {
           name      : "Английски спрингер шпаньол",
           nameEn    : "English Springer Spaniel",
           code      : "125",
-          image_link: "https://api-ninjas.com/images/dogs/english_springer_spaniel.jpg",
+          image_link: "assets/pdfs/@breeds/dog/english_springer_spaniel.png",
           general   : {
               country           : "0",
               life_length_min   : 12,
@@ -11299,7 +11299,7 @@ export class DogBreedsService {
           name      : "Фийлд спаньол",
           nameEn    : "Field Spaniel",
           code      : "123",
-          image_link: "https://api-ninjas.com/images/dogs/field_spaniel.jpg",
+          image_link: "assets/pdfs/@breeds/dog/field_spaniel.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 12,
@@ -11356,7 +11356,7 @@ export class DogBreedsService {
           name      : "Съсекс шпаньол",
           nameEn    : "Sussex Spaniel",
           code      : "127",
-          image_link: "https://api-ninjas.com/images/dogs/sussex_spaniel.jpg",
+          image_link: "assets/pdfs/@breeds/dog/sussex_spaniel.png",
           general   : {
               country           : "0",
               life_length_min   : 13,
@@ -11413,7 +11413,7 @@ export class DogBreedsService {
           name      : "Уелски спрингер шпаньол",
           nameEn    : "Welsh Springer Spaniel",
           code      : "126",
-          image_link: "https://api-ninjas.com/images/dogs/welsh_springer_spaniel.jpg",
+          image_link: "assets/pdfs/@breeds/dog/welsh_springer_spaniel.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 12,
@@ -11470,7 +11470,7 @@ export class DogBreedsService {
           name      : "Койкер",
           nameEn    : "Nederlandse Kooikerhondje",
           code      : "314",
-          image_link: "https://api-ninjas.com/images/dogs/nederlandse_kooikerhondje.jpg",
+          image_link: "assets/pdfs/@breeds/dog/nederlandse_kooikerhondje.png",
           general   : {
               country           : "Холандия",
               life_length_min   : 12,
@@ -11527,7 +11527,7 @@ export class DogBreedsService {
           name      : "Американски кокер шпаньол",
           nameEn    : "Cocker Spaniel",
           code      : "167",
-          image_link: "https://api-ninjas.com/images/dogs/cocker_spaniel.jpg",
+          image_link: "assets/pdfs/@breeds/dog/cocker_spaniel.png",
           general   : {
               country           : "САЩ",
               life_length_min   : 10,
@@ -11584,7 +11584,7 @@ export class DogBreedsService {
           name      : "Барбет",
           nameEn    : "Barbet",
           code      : "105",
-          image_link: "https://api-ninjas.com/images/dogs/barbet.jpg",
+          image_link: "assets/pdfs/@breeds/dog/barbet.png",
           general   : {
               country           : "Франция",
               life_length_min   : 12,
@@ -11641,7 +11641,7 @@ export class DogBreedsService {
           name      : "Ирландски воден шпаньол",
           nameEn    : "Irish Water Spaniel",
           code      : "124",
-          image_link: "https://api-ninjas.com/images/dogs/irish_water_spaniel.jpg",
+          image_link: "assets/pdfs/@breeds/dog/irish_water_spaniel.png",
           general   : {
               country           : "Ирландия",
               life_length_min   : 12,
@@ -11698,7 +11698,7 @@ export class DogBreedsService {
           name      : "Лагото романьоло",
           nameEn    : "Lagotto Romagnolo",
           code      : "298",
-          image_link: "https://api-ninjas.com/images/dogs/lagotto_romagnolo.jpg",
+          image_link: "assets/pdfs/@breeds/dog/lagotto_romagnolo.png",
           general   : {
               country           : "Италия",
               life_length_min   : 15,
@@ -11755,7 +11755,7 @@ export class DogBreedsService {
           name      : "Португалско водно куче",
           nameEn    : "Portuguese Water Dog",
           code      : "37",
-          image_link: "https://api-ninjas.com/images/dogs/portuguese_water_dog.jpg",
+          image_link: "assets/pdfs/@breeds/dog/portuguese_water_dog.png",
           general   : {
               country           : "0",
               life_length_min   : 11,
@@ -11812,7 +11812,7 @@ export class DogBreedsService {
           name      : "Испанско водно куче",
           nameEn    : "Spanish Water Dog",
           code      : "336",
-          image_link: "https://api-ninjas.com/images/dogs/spanish_water_dog.jpg",
+          image_link: "assets/pdfs/@breeds/dog/spanish_water_dog.png",
           general   : {
               country           : "Испания",
               life_length_min   : 12,
@@ -11869,7 +11869,7 @@ export class DogBreedsService {
           name      : "Фризийско водно куче",
           nameEn    : "Frisian water dog",
           code      : "221",
-          image_link: "https://api-ninjas.com/images/dogs/wetterhoun.jpg",
+          image_link: "assets/pdfs/@breeds/dog/wetterhoun.png",
           general   : {
               country          : "Холандия",
               life_length_min  : 13,
@@ -11926,7 +11926,7 @@ export class DogBreedsService {
           name      : "Американски воден шпаньол",
           nameEn    : "American Water Spaniel",
           code      : "301",
-          image_link: "https://api-ninjas.com/images/dogs/american_water_spaniel.jpg",
+          image_link: "assets/pdfs/@breeds/dog/american_water_spaniel.png",
           general   : {
               country           : "САЩ",
               life_length_min   : 10,
@@ -11983,7 +11983,7 @@ export class DogBreedsService {
           name      : "Френска болонка",
           nameEn    : "Bichon Frise",
           code      : "215",
-          image_link: "https://api-ninjas.com/images/dogs/bichon_frise.jpg",
+          image_link: "assets/pdfs/@breeds/dog/bichon_frise.png",
           general   : {
               country           : "Франция",
               life_length_min   : 14,
@@ -12040,7 +12040,7 @@ export class DogBreedsService {
           name      : "Малтийска болонка",
           nameEn    : "Maltese",
           code      : "65",
-          image_link: "https://api-ninjas.com/images/dogs/maltese.jpg",
+          image_link: "assets/pdfs/@breeds/dog/maltese.png",
           general   : {
               country           : "Средиземноморските страни",
               life_length_min   : 12,
@@ -12097,7 +12097,7 @@ export class DogBreedsService {
           name      : "Хаванска болонка",
           nameEn    : "Havanese",
           code      : "250",
-          image_link: "https://api-ninjas.com/images/dogs/havanese.jpg",
+          image_link: "assets/pdfs/@breeds/dog/havanese.png",
           general   : {
               country           : "Куба",
               life_length_min   : 14,
@@ -12154,7 +12154,7 @@ export class DogBreedsService {
           name      : "Болонка",
           nameEn    : "Bolognese",
           code      : "196",
-          image_link: "https://api-ninjas.com/images/dogs/bolognese.jpg",
+          image_link: "assets/pdfs/@breeds/dog/bolognese.png",
           general   : {
               country           : "Италия",
               life_length_min   : 12,
@@ -12210,7 +12210,7 @@ export class DogBreedsService {
           name      : "Котон де Тулеар",
           nameEn    : "Coton de Tulear",
           code      : "283",
-          image_link: "https://api-ninjas.com/images/dogs/coton_de_tulear.jpg",
+          image_link: "assets/pdfs/@breeds/dog/coton_de_tulear.png",
           general   : {
               country           : "Мадагаскар",
               life_length_min   : 15,
@@ -12267,7 +12267,7 @@ export class DogBreedsService {
           name      : "Лъвско куче",
           nameEn    : "Little Lion Dog",
           code      : "233",
-          image_link: "https://api-ninjas.com/images/dogs/löwchen.jpg",
+          image_link: "assets/pdfs/@breeds/dog/löwchen.png",
           general   : {
               country           : "Франция",
               life_length_min   : 13,
@@ -12324,7 +12324,7 @@ export class DogBreedsService {
           name      : "Пудел - стандартен",
           nameEn    : "Poodle (Standard)",
           code      : "1720001",
-          image_link: "https://api-ninjas.com/images/dogs/poodle_(standard).jpg",
+          image_link: "assets/pdfs/@breeds/dog/poodle_.png).jpg",
           general   : {
               country           : "Франция",
               life_length_min   : 10,
@@ -12381,7 +12381,7 @@ export class DogBreedsService {
           name      : "Пудел - миниатюрен",
           nameEn    : "Poodle (Miniature)",
           code      : "1720002",
-          image_link: "https://api-ninjas.com/images/dogs/poodle_(miniature).jpg",
+          image_link: "assets/pdfs/@breeds/dog/poodle_.png).jpg",
           general   : {
               country           : "Франция",
               life_length_min   : 10,
@@ -12438,7 +12438,7 @@ export class DogBreedsService {
           name      : "Пудел - играчка",
           nameEn    : "Poodle (Toy)",
           code      : "1720003",
-          image_link: "https://api-ninjas.com/images/dogs/poodle_(toy).jpg",
+          image_link: "assets/pdfs/@breeds/dog/poodle_.png).jpg",
           general   : {
               country           : "Франция",
               life_length_min   : 10,
@@ -12495,7 +12495,7 @@ export class DogBreedsService {
           name      : "Брюкселски грифон",
           nameEn    : "Brussels Griffon",
           code      : "80",
-          image_link: "https://api-ninjas.com/images/dogs/brussels_griffon.jpg",
+          image_link: "assets/pdfs/@breeds/dog/brussels_griffon.png",
           general   : {
               country           : "Белгия",
               life_length_min   : 12,
@@ -12552,7 +12552,7 @@ export class DogBreedsService {
           name      : "Китайско голо качулато куче",
           nameEn    : "Chinese Crested",
           code      : "288",
-          image_link: "https://api-ninjas.com/images/dogs/chinese_crested.jpg",
+          image_link: "assets/pdfs/@breeds/dog/chinese_crested.png",
           general   : {
               country           : "Китай",
               life_length_min   : 13,
@@ -12609,7 +12609,7 @@ export class DogBreedsService {
           name      : "Лхаса апсо",
           nameEn    : "Lhasa Apso",
           code      : "227",
-          image_link: "https://api-ninjas.com/images/dogs/lhasa_apso.jpg",
+          image_link: "assets/pdfs/@breeds/dog/lhasa_apso.png",
           general   : {
               country           : "Тибет",
               life_length_min   : 12,
@@ -12666,7 +12666,7 @@ export class DogBreedsService {
           name      : "Ши цу",
           nameEn    : "Shih Tzu",
           code      : "208",
-          image_link: "https://api-ninjas.com/images/dogs/shih_tzu.jpg",
+          image_link: "assets/pdfs/@breeds/dog/shih_tzu.png",
           general   : {
               country           : "Тибет",
               life_length_min   : 10,
@@ -12723,7 +12723,7 @@ export class DogBreedsService {
           name      : "Тибетски шпаньол",
           nameEn    : "Tibetan Spaniel",
           code      : "231",
-          image_link: "https://api-ninjas.com/images/dogs/tibetan_spaniel.jpg",
+          image_link: "assets/pdfs/@breeds/dog/tibetan_spaniel.png",
           general   : {
               country           : "Тибет",
               life_length_min   : 12,
@@ -12780,7 +12780,7 @@ export class DogBreedsService {
           name      : "Тибетски териер",
           nameEn    : "Tibetan Terrier",
           code      : "209",
-          image_link: "https://api-ninjas.com/images/dogs/tibetan_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/tibetan_terrier.png",
           general   : {
               country           : "Тибет",
               life_length_min   : 15,
@@ -12837,7 +12837,7 @@ export class DogBreedsService {
           name      : "Чихуахуа",
           nameEn    : "Chihuahua",
           code      : "218",
-          image_link: "https://api-ninjas.com/images/dogs/chihuahua.jpg",
+          image_link: "assets/pdfs/@breeds/dog/chihuahua.png",
           general   : {
               country           : "Мексико",
               life_length_min   : 14,
@@ -12894,7 +12894,7 @@ export class DogBreedsService {
           name      : "Кавалер Кинг Чарлз шпаньол",
           nameEn    : "Cavalier King Charles Spaniel",
           code      : "136",
-          image_link: "https://api-ninjas.com/images/dogs/cavalier_king_charles_spaniel.jpg",
+          image_link: "assets/pdfs/@breeds/dog/cavalier_king_charles_spaniel.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 12,
@@ -12951,7 +12951,7 @@ export class DogBreedsService {
           name      : "Пекинез",
           nameEn    : "Pekingese",
           code      : "207",
-          image_link: "https://api-ninjas.com/images/dogs/pekingese.jpg",
+          image_link: "assets/pdfs/@breeds/dog/pekingese.png",
           general   : {
               country           : "Китай",
               life_length_min   : 12,
@@ -13008,7 +13008,7 @@ export class DogBreedsService {
           name      : "Японски хин",
           nameEn    : "Japanese Chin",
           code      : "206",
-          image_link: "https://api-ninjas.com/images/dogs/japanese_chin.jpg",
+          image_link: "assets/pdfs/@breeds/dog/japanese_chin.png",
           general   : {
               country           : "Япония",
               life_length_min   : 10,
@@ -13065,7 +13065,7 @@ export class DogBreedsService {
           name      : "Папийон",
           nameEn    : "Papillon",
           code      : "770001",
-          image_link: "https://api-ninjas.com/images/dogs/papillon.jpg",
+          image_link: "assets/pdfs/@breeds/dog/papillon.png",
           general   : {
               country           : "Белгия",
               life_length_min   : 14,
@@ -13122,7 +13122,7 @@ export class DogBreedsService {
           name      : "Руски той териер",
           nameEn    : "Russian Toy",
           code      : "352",
-          image_link: "https://api-ninjas.com/images/dogs/russian_toy.jpg",
+          image_link: "assets/pdfs/@breeds/dog/russian_toy.png",
           general   : {
               country           : "Русия",
               life_length_min   : 12,
@@ -13179,7 +13179,7 @@ export class DogBreedsService {
           name      : "Кромфорлендер",
           nameEn    : "Kromfohrlander",
           code      : "192",
-          image_link: "https://api-ninjas.com/images/dogs/kromfohrlander.jpg",
+          image_link: "assets/pdfs/@breeds/dog/kromfohrlander.png",
           general   : {
               country           : "Германия",
               life_length_min   : 13,
@@ -13236,7 +13236,7 @@ export class DogBreedsService {
           name      : "Мопс",
           nameEn    : "Pug",
           code      : "253",
-          image_link: "https://api-ninjas.com/images/dogs/pug.jpg",
+          image_link: "assets/pdfs/@breeds/dog/pug.png",
           general   : {
               country           : "Китай",
               life_length_min   : 13,
@@ -13293,7 +13293,7 @@ export class DogBreedsService {
           name      : "Френски булдог",
           nameEn    : "French Bulldog",
           code      : "101",
-          image_link: "https://api-ninjas.com/images/dogs/french_bulldog.jpg",
+          image_link: "assets/pdfs/@breeds/dog/french_bulldog.png",
           general   : {
               country           : "Франция",
               life_length_min   : 10,
@@ -13350,7 +13350,7 @@ export class DogBreedsService {
           name      : "Бостън териер",
           nameEn    : "Boston Terrier",
           code      : "140",
-          image_link: "https://api-ninjas.com/images/dogs/boston_terrier.jpg",
+          image_link: "assets/pdfs/@breeds/dog/boston_terrier.png",
           general   : {
               country           : "САЩ",
               life_length_min   : 11,
@@ -13406,7 +13406,7 @@ export class DogBreedsService {
           name      : "Афганска хрътка",
           nameEn    : "Afghan Hound",
           code      : "228",
-          image_link: "https://api-ninjas.com/images/dogs/afghan_hound.jpg",
+          image_link: "assets/pdfs/@breeds/dog/afghan_hound.png",
           general   : {
               country           : "Афганистан",
               life_length_min   : 12,
@@ -13463,7 +13463,7 @@ export class DogBreedsService {
           name      : "Салуки",
           nameEn    : "Saluki",
           code      : "269",
-          image_link: "https://api-ninjas.com/images/dogs/saluki.jpg",
+          image_link: "assets/pdfs/@breeds/dog/saluki.png",
           general   : {
               country           : "Среден Изток",
               life_length_min   : 10,
@@ -13520,7 +13520,7 @@ export class DogBreedsService {
           name      : "Борзая",
           nameEn    : "Borzoi",
           code      : "193",
-          image_link: "https://api-ninjas.com/images/dogs/borzoi.jpg",
+          image_link: "assets/pdfs/@breeds/dog/borzoi.png",
           general   : {
               country           : "Русия",
               life_length_min   : 9,
@@ -13577,7 +13577,7 @@ export class DogBreedsService {
           name      : "Шотландска еленова хрътка",
           nameEn    : "Deerhound",
           code      : "164",
-          image_link: "https://api-ninjas.com/images/dogs/scottish_deerhound.jpg",
+          image_link: "assets/pdfs/@breeds/dog/scottish_deerhound.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 8,
@@ -13634,7 +13634,7 @@ export class DogBreedsService {
           name      : "Ирландски вълкодав",
           nameEn    : "Irish Wolfhound",
           code      : "160",
-          image_link: "https://api-ninjas.com/images/dogs/irish_wolfhound.jpg",
+          image_link: "assets/pdfs/@breeds/dog/irish_wolfhound.png",
           general   : {
               country           : "Ирландия",
               life_length_min   : 6,
@@ -13691,7 +13691,7 @@ export class DogBreedsService {
           name      : "Грейхаунд",
           nameEn    : "Greyhound",
           code      : "158",
-          image_link: "https://api-ninjas.com/images/dogs/greyhound.jpg",
+          image_link: "assets/pdfs/@breeds/dog/greyhound.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 10,
@@ -13748,7 +13748,7 @@ export class DogBreedsService {
           name      : "Уипет",
           nameEn    : "Whippet",
           code      : "162",
-          image_link: "https://api-ninjas.com/images/dogs/whippet.jpg",
+          image_link: "assets/pdfs/@breeds/dog/whippet.png",
           general   : {
               country           : "Великобритания",
               life_length_min   : 12,
@@ -13805,7 +13805,7 @@ export class DogBreedsService {
           name      : "Италиански грейхаунд",
           nameEn    : "Italian Greyhound",
           code      : "200",
-          image_link: "https://api-ninjas.com/images/dogs/italian_greyhound.jpg",
+          image_link: "assets/pdfs/@breeds/dog/italian_greyhound.png",
           general   : {
               country           : "Италия",
               life_length_min   : 14,
@@ -13862,7 +13862,7 @@ export class DogBreedsService {
           name      : "Азавак",
           nameEn    : "Azawakh",
           code      : "307",
-          image_link: "https://api-ninjas.com/images/dogs/azawakh.jpg",
+          image_link: "assets/pdfs/@breeds/dog/azawakh.png",
           general   : {
               country           : "Мали",
               life_length_min   : 12,
@@ -13919,7 +13919,7 @@ export class DogBreedsService {
           name      : "Слоуги",
           nameEn    : "Sloughi",
           code      : "188",
-          image_link: "https://api-ninjas.com/images/dogs/sloughi.jpg",
+          image_link: "assets/pdfs/@breeds/dog/sloughi.png",
           general   : {
               country           : "Мароко",
               life_length_min   : 10,
