@@ -1,235 +1,594 @@
 [
   {
-    "title"       : "Анаеробни инфекции",
-    "titleEn"     : "Anaerobic Infections",
-    "type"        : "infectious",
-    "animals"     : "dogs",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "section"     : [
-      {
-        "title"  : "Етиология",
-        "content"       : [
-            "Caused by bacteria that require low oxygen tension, are usually normal flora, and elaborate toxins and enzymes leading to extension of the infection into adjacent healthy tissue.", "Most common genera—Bacteroides, Fusobacterium, Actinomyces, Propionibacterium, Peptostreptococcus (enteric Streptococcus), Porphyromonas, and Clostridium.", "Predisposing factors—bite wounds, dental disease, open fractures, abdominal surgery, foreign bodies"
-        ]
-      },
-      {
-        "title"  : "Клиника",
-        "content"       : [
-          "Foul odor", "Gas in the tissue or associated exudates", "Black discoloration of tissue", "Pyothorax"
-        ]
-      },
-      {
-        "title"  : "Диагностика",
-        "content"       : [
-          "CBC—neutrophilic leukocytosis and monocytosis", "Microbiological culture—Collect appropriate samples, such as pus (1–2 ml in stoppered syringe) and tissue (minimum 1 g sample)."
-        ]
-      },
-      {
-        "title"  : "Лечение",
-        "content"       : [
-          "Surgical removal of devitalized tissue, cleaning of wound, and drainage of pus with the provision for continuous drainage combined with systemic antimicrobial therapy usually gives the best chance of a positive outcome.", "Drugs of choice: Amoxicillin with clavulanate, Clindamycin, Cefoxitin, Trimethoprim-sulfa combinations, Metronidazole."
-        ]
-      },
-      {
-        "title"  : "Диференциална диагноза",
-        "content"       : [
-          ""
-        ]
-      }
-    ]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "infectious",
-    "animals"     : "dogs",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма линк", "link": "pdfs/@diseases/Хиперадренокортицизъм.pdf" }
-    ],
-    "section"     : [
-      {
-        "title"  : "Етиология",
-        "content"       : [
-            ""
-        ]
-      },
-      {
-        "title"  : "Клиника",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диагностика",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Лечение",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диференциална диагноза",
-        "content"       : [
-          ""
-        ]
-      }
-    ]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "infectious",
-    "animals"     : "dogs",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма линк", "link": "pdfs/@diseases/Хиперадренокортицизъм.pdf" }
-    ],
-    "section"     : [
-      {
-        "title"  : "Етиология",
-        "content"       : [
-            ""
-        ]
-      },
-      {
-        "title"  : "Клиника",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диагностика",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Лечение",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диференциална диагноза",
-        "content"       : [
-          ""
-        ]
-      }
-    ]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "infectious",
-    "animals"     : "dogs",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма линк", "link": "pdfs/@diseases/Хиперадренокортицизъм.pdf" }
-    ],
-    "section"     : [
-      {
-        "title"  : "Етиология",
-        "content"       : [
-            ""
-        ]
-      },
-      {
-        "title"  : "Клиника",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диагностика",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Лечение",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диференциална диагноза",
-        "content"       : [
-          ""
-        ]
-      }
-    ]
-  },
-
-
-
-
-
-
-
-
-
-
-
-  {
-    "title"       : "Гана",
-    "titleEn"     : "",
+    "title"       : "Бабезиоза",
+    "titleEn"     : "Babesiosis",
     "type"        : "infectious",
     "animals"     : "both",
-    "bodySystem"  : ["G", "R"],
+    "bodySystem"  : [""],
     "links": [
-      { "title": "няма линк", "link": "pdfs/@diseases/gana.pdf" }
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "section" : [
-      {
-        "title"  : "Дефиниция",
-        "content"       : [
-          "Ганата е остро вирусно заболяване по кучетата и дивите месоядни, характеризиращо се с треска, конюнктивит, ринит, трахеобронхит, пневмония, гастроентерит, кожна екзантема, нервни признаци и нарушения в костната и пикочо-половата системи. ОСОБЕНО гноен конюнктивит!"
-        ]
-      },
-      {
-        "title"  : "Етиология",
-        "content"       : [
-          "Canine distemper virus (CDV). Вирусът е чувствителен на разредена белина (1:20) с вода."
-        ]
-      },
-      {
-        "title"  : "Епидемиология",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Клиника",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диагностика",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Лечение",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диференциална диагноза",
-        "content"       : [
-          ""
-        ]
-      }
-    ]
+    "etiology"      : ["Протозойно заболяване (Babesia spp.) при кучета и котки, при което мерозоити (пироплазми) заразяват еритроцитите.", "Инфекцията (чрез ухапване от кърлежи, трансплацентарно или чрез кръвопреливане) е последвана от 2-седмичен инкубационен период, през който пироплазмите заразяват и се размножават в еритроцитите, което води до увреждане на последните главно от имуномедиирани процеси, но също така и от техния директен лизис."],
+    "signs"         : ["летаргия", "анорексия", "треска", "спленомегалия", "анемия", "бледи лигавици", "иктерус", "хемоглобинемия", "хемоглобинурия"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["При отрицателен CaniV-4 тест и спленомегалия при ехографско изследване - бабезиоза."],
+    "treatment"     : ["Имидокарб"],
+    "differential"  : ["Други кърлежовопреносими заболявания", "Имунно-медиирана хемолитична анемия", "Заболявания на черния дроб", "Кавален синдром", "Торзио на далака"]
+  },
+  {
+    "title"       : "Криптоспоридиоза",
+    "titleEn"     : "Cryptosporidiosis",
+    "type"        : "infectious",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Протозои, причиняващи диария при кучета и котки, като човек също може да се зарази.", "Най-често протича асимптоматично."],
+    "signs"         : ["диария"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["Намиране на ооцисти при флотация със загат или флотация с цинков сулфат (specific gravity, 1.18).", "Ооцистите са много малки и затова често е трудно да се видят."],
+    "treatment"     : ["Тилозин мин. 7 дни."],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Гиардиаза",
+    "titleEn"     : "Giardiasis",
+    "type"        : "infectious",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Паразитира в тънките черва.", "Гиардиите се установяват в 2 форми: трофозоит- в тънките черва на гостоприемника, и циста, образуваща се във външната среда.", "Гиардиите са едни от най-често срещаните чревни паразити при хората, кучетата и котките. Гиардиозата е най-често диагностицираното пренасяно с ВОДА заболяване при човека.", "Зооноза - G. lamblia може да зарази хората."],
+    "signs"         : ["диария", "кръв във фекалиите", "слуз във фекалиите"],
+    "specificSigns" : ["При младите ЖВ може да се наблюдава ентерална симптоматика, а при възрастните най-често протича безсимптомно."],
+    "diagnostics"   : ["Тест или копро проба чрез флотационни методи (за златен стандарт в миналото се е считал флотационния метод с цинков сулфат).", "Капка изпражнения, смесена с капка йоден разтвор на Лугол убива трофозоитите и ги оцветява в кафяво, така че може да бъдат изследвана.", "Различаване на трофозоити на Giardia от Trichomonas fetus (единственият друг организъм, с който може да се обърка при котки) — T. fetus има по-фини и плавни движения, няма вдлъбнат вентрален диск, единично ядро и вълнообразна мембрана."],
+    "treatment"     : ["КЧ – фенбендазол (Панакюр) – 50 мг/кг 3 последователни дни, после 14 дни почивка, след което отново 3 дни 50 мг/кг.", "КТ – метронидазол (Ерадия/ Флажил) – 25 мг/кг ПО 7 дни през 12 Часа (по-безопасно е 24 ч)."],
+    "differential"  : ["Всичко, което може да доведе до диария."]
+  },
+  {
+    "title"       : "Аспергилоза",
+    "titleEn"     : "Aspergillosis",
+    "type"        : "infectious",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Опортюнистична гъбична инфекция, която причинява локализирано (носна кухина и фронтални синуси) или генеразлизирано заболяване при кучета и котки.", "Aspergillus spp. образуват спори."],
+    "signs"         : ["носни изтечения", "епистаксис", "кихане", "летаргия", "безапетитие"],
+    "specificSigns" : ["Хронични едностранни или двустранни кърваво-гнойни (понякога в началото са серозни или гнойни) носни изтечения, неповлияващи се от антибиотици – най-честият признак."],
+    "diagnostics"   : ["ПКК - неутрилифия, моноцитоза.", "Посявка."],
+    "treatment"     : ["Клотримазол"],
+    "differential"  : ["Чуждо тяло", "Носни паразити", "Бактериален ринит/ синузит", "Назална криптококоза (котки)"]
+  },
+  {
+    "title"       : "Кандидиаза",
+    "titleEn"     : "Candidiasis",
+    "type"        : "infectious",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Опортюнистични дрожди (част от нормалната флора на устата, носа, ушите и стомашно-чревния тракт и гениталните пътища), които причиняват заболяване чрез колонизиране на увредени тъкани на кучета и котки."],
+    "signs"         : ["цистит", "кератит", "лезии в устната кухина", "слюноотделяне", "кожни лезии", "отит", "тръскане на главата"],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : ["Нистатин", "Клотримазол", "Итраконазол", "Флуконазол"],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Криптококоза",
+    "titleEn"     : "Cryptococcosis",
+    "type"        : "infectious",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Системна или локализирана гъбична инфекция, причиняваща грануломи, обикновено в носа, синусите и очите на котките и мозъка, носните проходи и синусите на кучетата.", "Инфекцията възниква след вдишване на дрождите и тяхното локализиране в носните проходи."],
+    "signs"         : ["носни изтечения",  "кихане", "летаргия", "безапетитие", "неврологични признаци", "лимфаденопатия", "очни признаци"],
+    "specificSigns" : ["Твърда маса на гърба на носа (котки), която може да се разязви"],
+    "diagnostics"   : ["Цитологично изследване на аспирати от грануломи, материал от назален секрет, лимфни възли или цереброспинална течност, оцветени с Diff-Quick или по Right."],
+    "treatment"     : ["Итраконазол", "Итраконазол", "Тербинафин"],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Дерматофитоза",
+    "titleEn"     : "Dermatophytosis",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Кожна гъбична инфекция, засягаща вроговените области на космите, ноктите и понякога повърхностните слоеве на кожата.", "Най-често изолираните организми са Microsporum canis, Trichophyton mentagrophytes и Microsporum gypseum.", "Не виреят в живите тъкани или при наличие на тежко възпаление.", "Зооноза."],
+    "signs"         : ["алопеция ареата", "алопеция", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : ["лампа на Wood", "микроскопско изследване на косми"],
+    "treatment"     : ["Итраконазол", "Кетоконазол", "Гризеофулвин"],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Анаеробни инфекции",
+    "titleEn"     : "Anaerobic infections",
+    "type"        : "infectious",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Причинява се от бактерии, които живеят при отсъствие на кислород, обикновено са нормална флора и отделят токсини и ензими, водещи до разрастване на инфекцията в съседна здрава тъкан.", "Най-честите причинители - Bacteroides, Fusobacterium, Actinomyces, Propionibacterium, Peptostreptococcus (enteric Streptococcus), Porphyromonas, Clostridium.", "Предразполагащи фактори - ухапни рани, отворени фрактури, коремна операция."],
+    "signs"         : ["неприятна миризма", "секрет от раната", "газ в тъканите", "перитонит", "черно оцветяване на тъканите"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["Микробиологична култура – Взимат се проби от гной (1–2 ml в спринцовка със запушалка) и тъкан (минимум 1 g проба)."],
+    "treatment"     : ["Изрязване на мъртвите тъкани.", "Почистване на раната.", "Поставяне на дренаж.", "АБ: Амоксицилин с клав. к-на, Клиндамицин, Метронидазол."],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Бруцелоза",
+    "titleEn"     : "Brucellosis",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "Описание", "link": "pdfs/@diseases/brucellosis.pdf" }
+    ],
+    "etiology"      : ["Бруцелозата е опасна зооантропоноза, която се проявява клинично с интермитираща треска, аборти и специфични локални процеси в различни органи, или протича латентно."],
+    "signs"         : ["аборт", "епидидимит", "орхит", "дерматит на скротума", "летаргия", "понижено либидо", "лимфаденопатия", "увеит"],
+    "specificSigns" : [""],
+    "diagnostics"   : ["Винаги трябва да се подозира бруцелоза, когато женско куче абортира или има репродуктивни неуспехи или мъжките имат заболяване на половите органи."],
+    "treatment"     : ["Доксициклин", "Гентамицин", "Енрофлоксацин"],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
   }
-]
+ ]
