@@ -18,6 +18,7 @@ import { NvInfoModal              } from 'nv@components/@layouts/nv-info-modal/n
 import { SplitPipe                } from 'nv@pipes/split.pipe';
 import { NvLinkButtonComponent    } from 'nv@components/@forms/nv-link-button/nv-link-button.component';
 import { DiseasesPage             } from './diseases.page';
+import { DrugCardDiseases         } from 'nv@components/@blocks/drug-card-diseases/drug-card-diseases.component';
 
 const routes: Routes = [{
     path      : '',
@@ -41,6 +42,7 @@ const routes: Routes = [{
       PrimaryMenu                   ,
       NvRadioComponent              ,
       DrugCard                      ,
+      DrugCardDiseases              ,
       NvSearchToolbarComponent      ,
       CategoryPickerComponent       ,
       NvInfoModal                   ,

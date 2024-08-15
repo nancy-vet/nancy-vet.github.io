@@ -13,12 +13,12 @@
 
   @for(element of $collection; track element) {
 
-    <dc-card
+    <dc-card-diseases
       [inputTitle]    = "element?.title"
       [inputSubTitle] = "element?.type"
       [object]        = "element"
       (onSelectCard)  = "onSelectCard($event)">
-    </dc-card>
+    </dc-card-diseases>
   }
 
 

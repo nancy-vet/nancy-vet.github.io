@@ -14,8 +14,8 @@ import { NvRadioComponent         } from 'nv@components/@forms/nv-radio/nv-radio
 import { NvSearchToolbarComponent } from 'nv@components/@layouts/nv-search-toolbar/nv-search-toolbar.component';
 import { CategoryPickerComponent  } from 'nv@components/@blocks/category-picker/category-picker.component';
 import { NvInfoModal              } from 'nv@components/@layouts/nv-info-modal/nv-info-modal.component';
-import { NvLinkButtonComponent } from 'nv@components/@forms/nv-link-button/nv-link-button.component';
-import { DrugCardDeworming } from 'nv@components/@blocks/drug-card-deworming/drug-card-deworming.component';
+import { NvLinkButtonComponent    } from 'nv@components/@forms/nv-link-button/nv-link-button.component';
+import { DrugCardDeworming        } from 'nv@components/@blocks/drug-card-deworming/drug-card-deworming.component';
 
 const routes: Routes              = [{
     path                          : '',
