@@ -16,6 +16,38 @@
     "differential"  : ["Други кърлежовопреносими заболявания", "Имунно-медиирана хемолитична анемия", "Заболявания на черния дроб", "Кавален синдром", "Торзио на далака"]
   },
   {
+    "title"       : "Балантидиаза",
+    "titleEn"     : "Balantidiasis",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Болест на Шагас",
+    "titleEn"     : "Chagas Disease (American Trypanosomiasis)",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
     "title"       : "Криптоспоридиоза",
     "titleEn"     : "Cryptosporidiosis",
     "type"        : "infectious",
@@ -46,6 +78,86 @@
     "diagnostics"   : ["Тест или копро проба чрез флотационни методи (за златен стандарт в миналото се е считал флотационния метод с цинков сулфат).", "Капка изпражнения, смесена с капка йоден разтвор на Лугол убива трофозоитите и ги оцветява в кафяво, така че може да бъдат изследвана.", "Различаване на трофозоити на Giardia от Trichomonas fetus (единственият друг организъм, с който може да се обърка при котки) — T. fetus има по-фини и плавни движения, няма вдлъбнат вентрален диск, единично ядро и вълнообразна мембрана."],
     "treatment"     : ["КЧ – фенбендазол (Панакюр) – 50 мг/кг 3 последователни дни, после 14 дни почивка, след което отново 3 дни 50 мг/кг.", "КТ – метронидазол (Ерадия/ Флажил) – 25 мг/кг ПО 7 дни през 12 Часа (по-безопасно е 24 ч)."],
     "differential"  : ["Всичко, което може да доведе до диария."]
+  },
+  {
+    "title"       : "Хепатозооноза",
+    "titleEn"     : "Hepatozoonosis",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Неоспороза",
+    "titleEn"     : "Neosporosis",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Саркоцистоза",
+    "titleEn"     : "Sarcocystis",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Микроспоридиоза",
+    "titleEn"     : "Microsporidiosis",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Трихомониаза",
+    "titleEn"     : "Trichomoniasis",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
   },
   {
     "title"       : "Аспергилоза",
@@ -112,6 +224,70 @@
     "differential"  : [""]
   },
   {
+    "title"       : "Питиоза",
+    "titleEn"     : "Pythiosis",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Трихомониаза",
+    "titleEn"     : "Trichomoniasis",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Споротрихоза",
+    "titleEn"     : "Sporotrichosis",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Трихоспороноза",
+    "titleEn"     : "Trichosporonosis",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
     "title"       : "Анаеробни инфекции",
     "titleEn"     : "Anaerobic infections",
     "type"        : "infectious",
@@ -144,8 +320,88 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Кампилобактериоза",
+    "titleEn"     : "Campylobacteriosis",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Клостридийна ентеротоксикоза",
+    "titleEn"     : "Clostridial Enterotoxicosis",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Колибацилоза",
+    "titleEn"     : "Colibacillosis",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Инфекция с Хеликобактер",
+    "titleEn"     : "Helicobacter Infection",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Микоплазмоза",
+    "titleEn"     : "Mycoplasmosis",
+    "type"        : "infectious",
+    "animals"     : "dogs",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Нокардиоза",
+    "titleEn"     : "Nocardiosis",
     "type"        : "infectious",
     "animals"     : "dogs",
     "bodySystem"  : [""],
@@ -161,87 +417,7 @@
   },
   {
     "title"       : "",
-    "titleEn"     : "",
-    "type"        : "infectious",
-    "animals"     : "dogs",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "infectious",
-    "animals"     : "dogs",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "infectious",
-    "animals"     : "dogs",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "infectious",
-    "animals"     : "dogs",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "infectious",
-    "animals"     : "dogs",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
+    "titleEn"     : "Plague (Yersinia pestis)",
     "type"        : "infectious",
     "animals"     : "dogs",
     "bodySystem"  : [""],
