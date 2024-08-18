@@ -115,7 +115,7 @@
     "title"       : "Саркоцистоза",
     "titleEn"     : "Sarcocystis",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "both",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -131,7 +131,7 @@
     "title"       : "Микроспоридиоза",
     "titleEn"     : "Microsporidiosis",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "both",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -211,7 +211,7 @@
     "title"       : "Дерматофитоза",
     "titleEn"     : "Dermatophytosis",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "both",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -227,23 +227,7 @@
     "title"       : "Питиоза",
     "titleEn"     : "Pythiosis",
     "type"        : "infectious",
-    "animals"     : "dogs",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "Трихомониаза",
-    "titleEn"     : "Trichomoniasis",
-    "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "both",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -259,7 +243,7 @@
     "title"       : "Споротрихоза",
     "titleEn"     : "Sporotrichosis",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "both",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -307,7 +291,7 @@
     "title"       : "Бруцелоза",
     "titleEn"     : "Brucellosis",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "both",
     "bodySystem"  : [""],
     "links": [
       { "title": "Описание", "link": "pdfs/@diseases/brucellosis.pdf" }
@@ -323,7 +307,7 @@
     "title"       : "Кампилобактериоза",
     "titleEn"     : "Campylobacteriosis",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "both",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -339,7 +323,7 @@
     "title"       : "Клостридийна ентеротоксикоза",
     "titleEn"     : "Clostridial Enterotoxicosis",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "both",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -355,7 +339,7 @@
     "title"       : "Колибацилоза",
     "titleEn"     : "Colibacillosis",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "both",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -371,7 +355,23 @@
     "title"       : "Инфекция с Хеликобактер",
     "titleEn"     : "Helicobacter Infection",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Микобактериални инфекции",
+    "titleEn"     : "Mycobacterial Infections",
+    "type"        : "infectious",
+    "animals"     : "both",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -387,7 +387,7 @@
     "title"       : "Микоплазмоза",
     "titleEn"     : "Mycoplasmosis",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "both",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -403,7 +403,7 @@
     "title"       : "Нокардиоза",
     "titleEn"     : "Nocardiosis",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "both",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -416,8 +416,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "Plague (Yersinia pestis)",
+    "title"       : "Петниста треска на Скалистите планини",
+    "titleEn"     : "Rocky Mountain Spotted Fever",
     "type"        : "infectious",
     "animals"     : "dogs",
     "bodySystem"  : [""],
@@ -432,8 +432,120 @@
     "differential"  : [""]
   },
   {
+    "title"       : "Салмонелоза",
+    "titleEn"     : "Salmonellosis",
+    "type"        : "infectious",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Стафилококова/ Бактериална пиодермия",
+    "titleEn"     : "Staphylococcal/Bacterial Pyoderma",
+    "type"        : "infectious",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Стрептококова инфекция",
+    "titleEn"     : "Streptococcal Infections",
+    "type"        : "infectious",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Тетанус",
+    "titleEn"     : "Tetanus",
+    "type"        : "infectious",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Болест на Тайзер",
+    "titleEn"     : "Tyzzer‘s Disease",
+    "type"        : "infectious",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Дерматофилоза",
+    "titleEn"     : "Dermatophilosis",
+    "type"        : "infectious",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
     "title"       : "",
-    "titleEn"     : "",
+    "titleEn"     : "L-Form Bacterial Infections",
+    "type"        : "infectious",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Астровирусна инфекция",
+    "titleEn"     : "Astrovirus Infection",
     "type"        : "infectious",
     "animals"     : "dogs",
     "bodySystem"  : [""],
@@ -448,8 +560,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Гана",
+    "titleEn"     : "Canine Distemper",
     "type"        : "infectious",
     "animals"     : "dogs",
     "bodySystem"  : [""],
@@ -464,8 +576,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Кучешка херпесвирусна инфекция",
+    "titleEn"     : "Canine Herpesvirus Infection",
     "type"        : "infectious",
     "animals"     : "dogs",
     "bodySystem"  : [""],
@@ -480,8 +592,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Кучешка инфлуенцавирусна инфекция",
+    "titleEn"     : "Canine Influenzavirus Infection",
     "type"        : "infectious",
     "animals"     : "dogs",
     "bodySystem"  : [""],
@@ -496,8 +608,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Canine Parvovirus Infection",
+    "titleEn"     : "Кучешка парвовироза",
     "type"        : "infectious",
     "animals"     : "dogs",
     "bodySystem"  : [""],
@@ -512,8 +624,72 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Болест на Ауески",
+    "titleEn"     : "Pseudorabies Virus Infection",
+    "type"        : "infectious",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Бяс",
+    "titleEn"     : "Rabies",
+    "type"        : "infectious",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Реовирусна инфекция",
+    "titleEn"     : "Reovirus Infection",
+    "type"        : "infectious",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Анаплазмоза",
+    "titleEn"     : "Anaplasmosis",
+    "type"        : "infectious",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Ерлихиоза",
+    "titleEn"     : "Ehrlichiosis",
     "type"        : "infectious",
     "animals"     : "dogs",
     "bodySystem"  : [""],
@@ -528,10 +704,10 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Хемотропна микоплазмоза",
+    "titleEn"     : "Hemotropic Mycoplasmosis",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "both",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -544,10 +720,10 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Лептоспироза",
+    "titleEn"     : "Leptospirosis",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "both",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -560,10 +736,10 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Лаймска болест",
+    "titleEn"     : "Lyme Borreliosis",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "both",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -576,10 +752,10 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Ку-треска",
+    "titleEn"     : "Q Fever",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "both",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -592,10 +768,10 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Панлевкопения",
+    "titleEn"     : "Feline Panleukopenia (Feline Distemper)",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "cats",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -608,10 +784,10 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Калицивироза",
+    "titleEn"     : "Feline Calicivirus Infection",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "cats",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -624,10 +800,10 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Котешка херпесвироза",
+    "titleEn"     : "Feline Herpesvirus Infection",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "cats",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -640,10 +816,10 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Котешки инфекциозен перитонит",
+    "titleEn"     : "Feline Infectious Peritonitis",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "cats",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -656,10 +832,10 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Котешка левкемия",
+    "titleEn"     : "Feline Leukemia Virus Infection",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "cats",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -672,10 +848,10 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Котешки имунодефицитен синдром",
+    "titleEn"     : "Feline Immunodeficiency Virus",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "cats",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -688,10 +864,10 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Feline Foamy Virus Infection",
+    "titleEn"     : "Feline Foamy Virus Infection",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "cats",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -704,10 +880,10 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Астровирусна инфекция",
+    "titleEn"     : "Astrovirus Infection",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "cats",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -720,10 +896,10 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Поквирусна инфекция",
+    "titleEn"     : "Poxvirus Infection",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "cats",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -736,10 +912,10 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Hemobartonellosis",
+    "titleEn"     : "Хемобартонелоза",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "cats",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -752,10 +928,58 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Бартонелоза",
+    "titleEn"     : "Bartonellosis",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Бордетелоза",
+    "titleEn"     : "Bordetellosis",
+    "type"        : "infectious",
+    "animals"     : "cats",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Ботулизъм",
+    "titleEn"     : "Botulism",
+    "type"        : "infectious",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Протокекоза",
+    "titleEn"     : "Protothecosis",
+    "type"        : "infectious",
+    "animals"     : "both",
     "bodySystem"  : [""],
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
