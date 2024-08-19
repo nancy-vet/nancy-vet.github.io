@@ -1,7 +1,7 @@
 [
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Алергичен дерматит при ухапване от бълхи",
+    "titleEn"     : "Flea Allergy Dermatitis (FAD)",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -16,8 +16,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Атопичен дерматит",
+    "titleEn"     : "Atopic Dermatitis",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -32,8 +32,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Хранителна алергия",
+    "titleEn"     : "Food Allergies",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -48,8 +48,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Контактен дерматит",
+    "titleEn"     : "Contact Dermatitis",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -64,8 +64,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Свръхчувствителност към ухапване от насекоми",
+    "titleEn"     : "Insect Bite Hypersensitivity",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -80,8 +80,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Милиарен дерматит",
+    "titleEn"     : "Miliary Dermatitis",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -96,8 +96,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Алопеция Х",
+    "titleEn"     : "Alopecia X (dogs)",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -112,8 +112,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Психогенна алопеция",
+    "titleEn"     : "Stress-induced hair loss",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -128,8 +128,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Сезонна алопеция на хълбока",
+    "titleEn"     : "Seasonal Flank Alopecia (dogs)",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -144,8 +144,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Себорея",
+    "titleEn"     : "Seborrhea (Primary or Secondary)",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -160,8 +160,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Ихтиоза",
+    "titleEn"     : "Ichthyosis",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -176,8 +176,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Дерматоза, повлияваща се от цинк",
+    "titleEn"     : "Zinc-Responsive Dermatosis",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -192,8 +192,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Пемфигус фолиацеус",
+    "titleEn"     : "Pemphigus Foliaceus",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -208,8 +208,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Хранителни дефицити",
+    "titleEn"     : "Nutritional Deficiencies (e.g., Fatty Acids)",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -224,8 +224,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Екфолиативен дерматит",
+    "titleEn"     : "Exfoliative Dermatitis",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -240,8 +240,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Влажен дерматит",
+    "titleEn"     : "Acute Moist Dermatitis (Hot Spots)",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -256,8 +256,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Еритема мултиформе",
+    "titleEn"     : "Erythema Multiforme",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -272,8 +272,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Васкулит",
+    "titleEn"     : "Vasculitis",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -288,8 +288,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Дерматоза, причинена от лекарства",
+    "titleEn"     : "Drug-induced dermatosis",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -304,8 +304,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Бактериален дерматит (Пиодермия)",
+    "titleEn"     : "Bacterial Infections (Pyoderma)",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -320,8 +320,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Хистиоцитома",
+    "titleEn"     : "Histiocytoma",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -336,8 +336,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Липома",
+    "titleEn"     : "Lipoma",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -352,8 +352,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Тумор на мастните клетки",
+    "titleEn"     : "Mast Cell Tumor",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -368,8 +368,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Кожна лимфома",
+    "titleEn"     : "Cutaneous Lymphoma",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -384,8 +384,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Себорейна аденома",
+    "titleEn"     : "Sebaceous Adenoma",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -400,8 +400,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Гранулом с чуждо тяло",
+    "titleEn"     : "Foreign Body Granulomas",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -416,8 +416,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Фурункулоза",
+    "titleEn"     : "Furunculosis",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -432,8 +432,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Дълбока пиодермия",
+    "titleEn"     : "Deep Pyoderma",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -448,8 +448,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Васкулит",
+    "titleEn"     : "Vasculitis",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -464,8 +464,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Лупус еритематозус",
+    "titleEn"     : "Lupus Erythematosus",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -480,8 +480,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Кожна лайшманиоза",
+    "titleEn"     : "Cutaneous Leishmaniasis (in endemic areas)",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -496,8 +496,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Изгаряне",
+    "titleEn"     : "Burns (Thermal or Chemical)",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -512,8 +512,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Витилиго",
+    "titleEn"     : "Vitiligo",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -528,8 +528,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Следвъзпалителна хиперпигментация",
+    "titleEn"     : "Post-inflammatory Hyperpigmentation",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -544,8 +544,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Лентиго",
+    "titleEn"     : "Lentigo (cats)",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -560,8 +560,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Меланома",
+    "titleEn"     : "Melanoma (benign and malignant)",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -576,8 +576,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Акантозис нигриканс",
+    "titleEn"     : "Acanthosis Nigricans",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -592,8 +592,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Петна тип 'кафе с мляко'",
+    "titleEn"     : "Café-au-lait Spots",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -608,8 +608,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Депигментация на носа (нос на Дъдли)",
+    "titleEn"     : "Nasal Depigmentation (Dudley Nose)",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -624,8 +624,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Пемфигус Вулгарис",
+    "titleEn"     : "Pemphigus Vulgaris",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -640,8 +640,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Булозен пемфигоид",
+    "titleEn"     : "Bullous Pemphigoid",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -656,8 +656,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Импетиго",
+    "titleEn"     : "Impetigo ('Puppy Pyoderma')",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -672,8 +672,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Субкорнеален пустулозен дерматит",
+    "titleEn"     : "Subcorneal Pustular Dermatosis",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -688,8 +688,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Херпесвирусен дерматит",
+    "titleEn"     : "Herpesvirus Dermatitis (cats)",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -704,8 +704,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Булозна епидермолиза",
+    "titleEn"     : "Epidermolysis Bullosa",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -720,8 +720,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Калус",
+    "titleEn"     : "Callus Formation",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -736,8 +736,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Хиперкератоза на носа и/ или лапите",
+    "titleEn"     : "Hyperkeratosis of the Nasal Planum and/ or Footpads",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -752,8 +752,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Папиломатоза (брадавици)",
+    "titleEn"     : "Papillomatosis (Viral Warts)",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -768,8 +768,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Хиперплазия на мастните жлези",
+    "titleEn"     : "Sebaceous Hyperplasia",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -784,8 +784,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Кучешко акне",
+    "titleEn"     : "Canine Acne",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -800,1016 +800,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "skin",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Кожен рог",
+    "titleEn"     : "Cutaneous Horns",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
