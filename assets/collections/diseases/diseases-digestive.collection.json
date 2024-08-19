@@ -1232,8 +1232,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Перитонит",
+    "titleEn"     : "Peritonitis",
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1248,8 +1248,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Асцит",
+    "titleEn"     : "Ascites",
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1264,8 +1264,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Хепатит",
+    "titleEn"     : "Hepatitis",
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1280,8 +1280,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Чернодробна липидоза",
+    "titleEn"     : "Hepatic Lipidosis (Feline Hepatic Lipidosis)",
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1296,8 +1296,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Чернодробна цироза",
+    "titleEn"     : "Cirrhosis",
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1312,8 +1312,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Чернодробен тумор",
+    "titleEn"     : "Hepatic Neoplasia",
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1328,8 +1328,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Чернодробна енцефалопатия",
+    "titleEn"     : "Hepatic Encephalopathy",
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1344,8 +1344,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Портосистемен шънт",
+    "titleEn"     : "Portosystemic Shunt",
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1360,8 +1360,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Хепатопатия, свързана с мед",
+    "titleEn"     : "Copper-Associated Hepatopathy",
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1376,8 +1376,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Абсцес на черния дроб",
+    "titleEn"     : "Hepatic Abscesses",
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1392,8 +1392,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Холецистит",
+    "titleEn"     : "Cholecystitis (Inflammation of the Gallbladder)",
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1408,8 +1408,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Холангит/ Холангиохепатит",
+    "titleEn"     : "Cholangitis/Cholangiohepatitis",
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1424,8 +1424,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Мукоцеле на жлъчния мехур",
+    "titleEn"     : "Gallbladder Mucocele",
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1440,8 +1440,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Обструкция на жлъчните пътища",
+    "titleEn"     : "Biliary Obstruction",
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1456,8 +1456,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Камъни в жлъчния мехур",
+    "titleEn"     : "Gallstones (Cholelithiasis)",
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1472,8 +1472,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Тумори на жлъчния мехур и жлъчните пътища",
+    "titleEn"     : "Neoplasms of the Gallbladder and Biliary Tract",
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1488,8 +1488,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Панкреатит",
+    "titleEn"     : "Pancreatitis",
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1504,8 +1504,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Екзокринна панкреасна недостатъчност",
+    "titleEn"     : "Exocrine Pancreatic Insufficiency (EPI)",
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1520,8 +1520,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Тумор на панкреаса",
+    "titleEn"     : "Pancreatic Neoplasia",
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1536,8 +1536,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Абсцес на панкреаса",
+    "titleEn"     : "Pancreatic Abscess",
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1552,8 +1552,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Илеус",
+    "titleEn"     : "Ileus",
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1568,8 +1568,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Интестинална лимфангиектазия",
+    "titleEn"     : "Intestinal Lymphangiectasia",
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1584,232 +1584,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "digestive",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "digestive",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "digestive",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "digestive",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "digestive",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "digestive",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "digestive",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "digestive",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "digestive",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "digestive",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "digestive",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "digestive",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "digestive",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "digestive",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Дисбиоза",
+    "titleEn"     : "Dysbiosis",
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
