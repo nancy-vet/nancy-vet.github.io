@@ -1,7 +1,7 @@
 [
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Хронично бъбречно заболяване",
+    "titleEn"     : "Chronic Kidney Disease (CKD)",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -16,8 +16,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Остро бъбречно заболяване",
+    "titleEn"     : "Acute Kidney Disease (AKD)",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -32,8 +32,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Гломерулонефрит",
+    "titleEn"     : "Glomerulonephritis",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -48,8 +48,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Бъбречна поликистоза",
+    "titleEn"     : "Polycystic Kidney Disease (PKD)",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -64,8 +64,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Пиелонефрит",
+    "titleEn"     : "Pyelonephritis",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -80,8 +80,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Бъбречна дисплазия",
+    "titleEn"     : "Renal Dysplasia",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -96,8 +96,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Амилоидоза",
+    "titleEn"     : "Amyloidosis",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -112,8 +112,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Хидронефроза",
+    "titleEn"     : "Hydronephrosis",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -128,8 +128,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Нефролитиаза",
+    "titleEn"     : "Nephrolithiasis",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -144,8 +144,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Бъбречна тубулна ацидоза",
+    "titleEn"     : "Renal Tubular Acidosis",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -160,8 +160,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Тумор на бъбрека",
+    "titleEn"     : "Renal Neoplasia (e.g., Renal Carcinoma, Lymphoma)",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -176,8 +176,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Ектопичен уретер",
+    "titleEn"     : "Ectopic Ureters",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -192,8 +192,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Обструкция на уретера",
+    "titleEn"     : "Ureteral Obstruction (e.g., Stones, Tumors)",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -208,8 +208,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Уретрит",
+    "titleEn"     : "Ureteritis",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -224,8 +224,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Уретероцеле",
+    "titleEn"     : "Ureterocele",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -240,8 +240,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Травма на уретера",
+    "titleEn"     : "Ureteral Trauma",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -256,8 +256,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Цистит",
+    "titleEn"     : "Cystitis",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -272,8 +272,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Уролитиаза",
+    "titleEn"     : "Urolithiasis (Bladder Stones)",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -288,8 +288,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Тумор на пикочния мехур",
+    "titleEn"     : "Bladder Neoplasia (e.g., Transitional Cell Carcinoma)",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -304,8 +304,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Атония на пикочния мехур",
+    "titleEn"     : "Bladder Atony",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -320,8 +320,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Уринарната инконтиненция",
+    "titleEn"     : "Urinary Incontinence",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -336,8 +336,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Полипоиден цистит",
+    "titleEn"     : "Polypoid Cystitis",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -352,8 +352,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Руптура на пикочния мехур",
+    "titleEn"     : "Bladder Rupture",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -368,8 +368,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Болест на долните пикочни пътища при котки",
+    "titleEn"     : "Feline Lower Urinary Tract Disease (FLUTD)",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -384,8 +384,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Кристалурия",
+    "titleEn"     : "Crystalluria",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -400,8 +400,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Уретрит",
+    "titleEn"     : "Urethritis",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -416,8 +416,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Обструкция на уретрата",
+    "titleEn"     : "Urethral Obstruction",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -432,8 +432,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Камък в уретрата",
+    "titleEn"     : "Urethral Stones",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -448,8 +448,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Стеснение на уретрата",
+    "titleEn"     : "Urethral Stricture",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -464,8 +464,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Пролапс на уретрата",
+    "titleEn"     : "Urethral Prolapse",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -480,8 +480,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Тумор на уретрата",
+    "titleEn"     : "Urethral Tumors",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -496,8 +496,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Нараняване на уретрата",
+    "titleEn"     : "Trauma-Induced Urethral Injury",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -512,8 +512,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Крипторхизъм",
+    "titleEn"     : "Cryptorchidism",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -528,8 +528,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Орхит",
+    "titleEn"     : "Orchitis",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -544,8 +544,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Тумор на тестисите",
+    "titleEn"     : "Testicular Tumors",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -560,8 +560,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Доброкачествена хиперплазия на простатата",
+    "titleEn"     : "Benign Prostatic Hyperplasia (BPH)",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -576,8 +576,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Простатит",
+    "titleEn"     : "Prostatitis",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -592,8 +592,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Абсцес на простатата",
+    "titleEn"     : "Prostatic Abscess",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -608,8 +608,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Тумор на простатата",
+    "titleEn"     : "Prostatic Neoplasia (e.g., Adenocarcinoma)",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -624,8 +624,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Киста на простатата",
+    "titleEn"     : "Prostatic Cysts",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -640,8 +640,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Баланопостит",
+    "titleEn"     : "Balanoposthitis",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -656,8 +656,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Фимоза",
+    "titleEn"     : "Phimosis",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -672,8 +672,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Парафимоза",
+    "titleEn"     : "Paraphimosis",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -688,8 +688,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Тумор на пениса",
+    "titleEn"     : "Penile Neoplasia (e.g., Transmissible Venereal Tumor - TVT)",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -704,8 +704,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Приапизъм",
+    "titleEn"     : "Priapism",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -720,8 +720,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Травма на пениса",
+    "titleEn"     : "Penile Trauma",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -736,8 +736,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Киста на яйчника",
+    "titleEn"     : "Ovarian Cysts",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -752,8 +752,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Тумор на яйчника",
+    "titleEn"     : "Ovarian Tumors",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -768,8 +768,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Оофорит",
+    "titleEn"     : "Oophoritis",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -784,8 +784,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Пиометра",
+    "titleEn"     : "Pyometra",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -800,8 +800,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Ендометрит",
+    "titleEn"     : "Endometritis",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -816,8 +816,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Кистозна хиперплазия на ендометриума",
+    "titleEn"     : "Cystic Endometrial Hyperplasia",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -832,8 +832,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Тумор на матката",
+    "titleEn"     : "Uterine Tumors (e.g., Leiomyoma, Leiomyosarcoma)",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -848,8 +848,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Торзио на матката",
+    "titleEn"     : "Uterine Torsion",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -864,8 +864,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Пролапс на матката",
+    "titleEn"     : "Uterine Prolapse",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -880,8 +880,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Руптура на матката",
+    "titleEn"     : "Uterine Rupture",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -896,8 +896,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Вагинит",
+    "titleEn"     : "Vaginitis",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -912,8 +912,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Вулвит",
+    "titleEn"     : "Vulvitis",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -928,8 +928,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Хиперплазия на вулвата",
+    "titleEn"     : "Vaginal Hyperplasia",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -944,8 +944,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Тумор на вулвата",
+    "titleEn"     : "Vaginal Neoplasia (e.g., TVT, Leiomyoma)",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -960,8 +960,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Пролапс на вагината",
+    "titleEn"     : "Vaginal Prolapse",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -976,8 +976,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Вагинално течение",
+    "titleEn"     : "Vaginal Discharge",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -992,8 +992,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Вестибулит",
+    "titleEn"     : "Vestibulitis",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1008,8 +1008,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Дерматит на вулварната гънка",
+    "titleEn"     : "Vulvar Fold Dermatitis",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1024,8 +1024,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Мастит",
+    "titleEn"     : "Mastitis",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1040,8 +1040,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Тумор на млечната жлеза",
+    "titleEn"     : "Mammary Tumors (Benign and Malignant)",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1056,8 +1056,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Галактостаза",
+    "titleEn"     : "Galactostasis",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1072,8 +1072,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Галакторея",
+    "titleEn"     : "Galactorrhea",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1088,8 +1088,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Агалаксия",
+    "titleEn"     : "Agalactia",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1104,8 +1104,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Инфекция на пикочните пътища",
+    "titleEn"     : "Urinary Tract Infections (UTIs)",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1120,8 +1120,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Инфекция на половия тракт",
+    "titleEn"     : "Reproductive Tract Infections",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1136,680 +1136,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "genitourinary",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Котешки урологичен синдром",
+    "titleEn"     : "Feline Urological Syndrome (FUS)",
     "type"        : "genitourinary",
     "animals"     : "both",
     "bodySystem"  : [""],
