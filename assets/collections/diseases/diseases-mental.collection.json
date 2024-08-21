@@ -1,215 +1,7 @@
 [
   {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "mental",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "mental",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "mental",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "mental",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "mental",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "mental",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "mental",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "mental",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "mental",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "mental",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "mental",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "mental",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "mental",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Агресия, свързана със страх/отбрана",
+    "titleEn"     : "Fear/Defensive Aggression",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -224,8 +16,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Агресия, свързана с храна",
+    "titleEn"     : "Food-Related Aggression",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -240,8 +32,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Агресия, насочена към хора",
+    "titleEn"     : "Human-Directed Aggression",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -256,8 +48,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Идиопатична агресия",
+    "titleEn"     : "Idiopathic Aggression",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -272,8 +64,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Агресия към други кучета",
+    "titleEn"     : "Interdog Aggression",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -288,8 +80,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Агресия при защита на собственост",
+    "titleEn"     : "Possessive Aggression",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -304,8 +96,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Пренасочена агресия",
+    "titleEn"     : "Redirected Aggression",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -320,8 +112,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Териториална агресия",
+    "titleEn"     : "Territorial Aggression",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -336,8 +128,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Агресия във ветеринарната клиника",
+    "titleEn"     : " Veterinary Office Aggression",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -352,8 +144,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Агресия, свързана със страх/отбрана",
+    "titleEn"     : "Fear/Defensive Aggression",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -368,8 +160,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Агресия към други котки",
+    "titleEn"     : "Intercat Aggression",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -384,8 +176,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Агресия към галене",
+    "titleEn"     : "Petting-Induced Aggression",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -400,8 +192,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Агресия, свързана с игри",
+    "titleEn"     : "Play-Related Aggression",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -416,8 +208,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Пренасочена агресия",
+    "titleEn"     : "Redirected Aggression",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -432,8 +224,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Агресия, свързана със статус",
+    "titleEn"     : "Status-Related Aggression",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -448,8 +240,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Териториална агресия",
+    "titleEn"     : "Territorial Aggression",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -464,8 +256,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Агресия във ветеринарната клиника",
+    "titleEn"     : "Veterinary Office Aggression",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -480,8 +272,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Тревожни разстройства при кучета",
+    "titleEn"     : "Canine Anxiety Disorders",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -496,8 +288,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Тревожни разстройства при котки",
+    "titleEn"     : "Feline Anxiety Disorders",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -512,8 +304,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Фобия от фойерверки",
+    "titleEn"     : "Fireworks Phobia",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -528,8 +320,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Фобия от гръмотевични бури",
+    "titleEn"     : "Thunderstorm Phobia",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -544,8 +336,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Тревожност при раздяла при кучета",
+    "titleEn"     : "Canine Separation Anxiety",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -560,8 +352,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Тревожност при раздяла при котки",
+    "titleEn"     : "Feline Separation Anxiety",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -576,8 +368,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Страх от хора",
+    "titleEn"     : "Fear of People",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -592,8 +384,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Страх от места и предмети",
+    "titleEn"     : "Fear of Places and Things",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -608,8 +400,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Страх от открити пространства",
+    "titleEn"     : "Fear of the Outdoors",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -624,8 +416,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Дерматит от близане",
+    "titleEn"     : "Acral Lick Dermatitis",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -640,8 +432,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Смукане на хълбока",
+    "titleEn"     : "Flank Sucking",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -656,8 +448,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Хапане по мухи",
+    "titleEn"     : "Fly Snapping",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -672,8 +464,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Гонене на сенки и светлини",
+    "titleEn"     : "Shadow and Light Chasing",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -688,8 +480,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Гонене и въртене на опашката",
+    "titleEn"     : "Tail Chasing and Spinning",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -704,8 +496,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Психогенна алопеция/Прекомерно почистване",
+    "titleEn"     : "Psychogenic Alopecia/Overgrooming",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -720,8 +512,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Ядене на вълна и текстил",
+    "titleEn"     : "Wool Sucking and Fabric Eating",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -736,8 +528,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Когнитивна дисфункция при кучета",
+    "titleEn"     : "Canine Cognitive Dysfunction",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -752,8 +544,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Когнитивна дисфункция при котки",
+    "titleEn"     : "Feline Cognitive Dysfunction",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -768,8 +560,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Неправилно уриниране и дефекация в дома.",
+    "titleEn"     : "House Soiling",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -784,8 +576,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Маркиране",
+    "titleEn"     : "Marking",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -800,8 +592,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Дъвчене",
+    "titleEn"     : "Chewing",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -816,8 +608,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Копаене",
+    "titleEn"     : "Digging",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -832,8 +624,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Кражба на домашни предмети",
+    "titleEn"     : "Stealing Household Objects",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -848,8 +640,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Разрушителна игра и изследване",
+    "titleEn"     : "Destructive Play and Exploration",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -864,8 +656,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Дране",
+    "titleEn"     : "Scratching Behavior",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -880,8 +672,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Копрофагия",
+    "titleEn"     : "Coprophagia",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -896,8 +688,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Пика",
+    "titleEn"     : "Pica",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -912,8 +704,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Търсене на внимание при кучета",
+    "titleEn"     : "Canine Attention-Seeking",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -928,8 +720,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Търсене на внимание при котки",
+    "titleEn"     : "Feline Attention-Seeking",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -945,7 +737,7 @@
   },
   {
     "title"       : "",
-    "titleEn"     : "",
+    "titleEn"     : "Predatory Behavior",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -960,8 +752,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Хищническо поведение при кучета",
+    "titleEn"     : "Canine Predatory Behavior",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -976,8 +768,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Хищническо поведение при котки",
+    "titleEn"     : "Feline Predatory Behavior",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -992,8 +784,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Захапване/Игрово хапане и агресивна игра (при кучета)",
+    "titleEn"     : "Mouthing/Play Biting and Aggressive Play (Canine)",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1008,8 +800,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Агресия, свързана с игра (при котки)",
+    "titleEn"     : "Play-Related Aggression (Feline)",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1024,8 +816,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Скачане върху хора (при кучета)",
+    "titleEn"     : "Jumping on People (Canine)",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1040,8 +832,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Скачане върху плотове (при котки)",
+    "titleEn"     : "Jumping on Counters (Feline)",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1056,8 +848,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Прекомерно лизане ",
+    "titleEn"     : "Licking/Excessive (Canine and Feline)",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1072,8 +864,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Нощно поведение",
+    "titleEn"     : "Nocturnal Behavior (Canine and Feline)",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1088,8 +880,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Скитане",
+    "titleEn"     : "Roaming (Canine and Feline)",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1104,8 +896,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Проблеми, свързани с пътувания",
+    "titleEn"     : "Travel-Related Problems (Canine and Feline)",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1120,8 +912,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Вокализация",
+    "titleEn"     : "Vocalization (Canine and Feline)",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1136,8 +928,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Поведение на скръб",
+    "titleEn"     : "Mourning Behavior (Canine and Feline)",
     "type"        : "mental",
     "animals"     : "both",
     "bodySystem"  : [""],

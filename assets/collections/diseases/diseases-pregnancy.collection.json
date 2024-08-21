@@ -1,7 +1,7 @@
 [
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Извънматочна бременност",
+    "titleEn"     : "Ectopic Pregnancy",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -16,8 +16,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Спонтанен аборт при ранна бременност",
+    "titleEn"     : "Early Pregnancy Loss",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -32,8 +32,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Спонтанен аборт при бременност в средата на гестационния период",
+    "titleEn"     : "Pregnancy Loss in Mid-Gestation",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -48,8 +48,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Инфекции, предавани от майката на плода",
+    "titleEn"     : "Maternal-Fetal Infections",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -64,8 +64,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Mетаболитни разстройства при майката",
+    "titleEn"     : "Maternal Metabolic Disorders",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -80,8 +80,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Хипокалцемия",
+    "titleEn"     : "Hypocalcemia (Eclampsia)",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -96,8 +96,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Гестационен диабет",
+    "titleEn"     : "Gestational Diabetes (Rare in dogs and cats)",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -112,8 +112,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Отлепване на плацентата",
+    "titleEn"     : "Placental Abruption",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -128,8 +128,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Недостатъчност на плацентата",
+    "titleEn"     : "Placental Insufficiency",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -144,8 +144,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Хидропс",
+    "titleEn"     : "Hydrops of the Fetal Membranes",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -160,8 +160,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Малформации на плода",
+    "titleEn"     : "Fetal Malformations",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -176,8 +176,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Забавяне на растежа на плода",
+    "titleEn"     : "Fetal Growth Retardation",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -192,8 +192,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Вродени аномалии",
+    "titleEn"     : "Congenital Anomalies",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -208,8 +208,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Хипертония, индуцирана от бременност",
+    "titleEn"     : "Pregnancy-Induced Hypertension",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -224,8 +224,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Прееклампсия",
+    "titleEn"     : "Pre-Eclampsia",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -240,8 +240,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Антепартум хеморагия",
+    "titleEn"     : "Antepartum Hemorrhage",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -256,8 +256,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Постпартум хеморагия",
+    "titleEn"     : "Postpartum Hemorrhage",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -272,8 +272,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Атония на матката",
+    "titleEn"     : "Uterine Atony",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -288,8 +288,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Задържана плацента",
+    "titleEn"     : "Retained Placenta",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -304,8 +304,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Неправилно положение на плода",
+    "titleEn"     : "Fetal Malpresentation",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -320,8 +320,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Продължително раждане (дистоция)",
+    "titleEn"     : "Prolonged Labor (Dystocia)",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -336,8 +336,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Раждане с обструкция",
+    "titleEn"     : "Obstructed Labor",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -352,8 +352,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Асистирано раждане",
+    "titleEn"     : "Assisted Deliveries",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -368,8 +368,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Травма при раждане",
+    "titleEn"     : "Birth Trauma",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -384,8 +384,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Следродилен метрит",
+    "titleEn"     : "Postpartum Metritis",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -400,8 +400,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Следродилен мастит",
+    "titleEn"     : "Postpartum Mastitis",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -416,8 +416,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Субинволуция на плацентата",
+    "titleEn"     : "Subinvolution of Placental Sites (SIPS)",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -432,8 +432,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Еклампсия",
+    "titleEn"     : "Eclampsia",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -448,8 +448,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Следродилна хеморагия",
+    "titleEn"     : "Postpartum Hemorrhage",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -464,8 +464,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Следродилно поведенческо разстройство",
+    "titleEn"     : "Postpartum Behavioral Disorders",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -480,8 +480,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Нарушения при инволуция на матката",
+    "titleEn"     : "Uterine Involution Disorders",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -496,8 +496,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Задържана плацента",
+    "titleEn"     : "Retained Placenta",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -512,1304 +512,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "pregnancy",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Анемия, свързана с бременност",
+    "titleEn"     : "Anemia in Pregnancy",
     "type"        : "pregnancy",
     "animals"     : "both",
     "bodySystem"  : [""],
