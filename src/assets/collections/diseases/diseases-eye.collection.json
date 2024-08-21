@@ -1,7 +1,7 @@
 [
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Анофталмия и микрофталмия",
+    "titleEn"     : "Anophtalmos and microphthalmos",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -16,8 +16,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Хидрофталмия",
+    "titleEn"     : "Hydrophthalmos",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -32,8 +32,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Екзофталмия, свързана с породата",
+    "titleEn"     : "Breed-related exophthalmos",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -48,8 +48,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Буфталм",
+    "titleEn"     : "Buphthalmos",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -64,8 +64,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Фтиза на булбата",
+    "titleEn"     : "Phthisis bulbi",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -80,8 +80,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Травма на орбитата",
+    "titleEn"     : "Trauma",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -96,8 +96,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Абсцес и целулит на орбитата",
+    "titleEn"     : "Orbital abscessation and cellulitis",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -112,8 +112,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Старчески енофталм",
+    "titleEn"     : "Senile enophthalmos",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -128,8 +128,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Орбитална киста",
+    "titleEn"     : "Orbital cyctic disease",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -144,8 +144,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Тумор на орбитата",
+    "titleEn"     : "Orbital neoplasia",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -160,8 +160,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Feline restrictive orbital myofibroblastic sarcoma",
+    "titleEn"     : "Feline restrictive orbital myofibroblastic sarcoma",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -176,8 +176,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Ophthalmia neonatorum",
+    "titleEn"     : "Ophthalmia neonatorum",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -192,8 +192,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Колобома на клепача",
+    "titleEn"     : "Eyelid coloboma",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -208,8 +208,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Дермоид",
+    "titleEn"     : "Dermoid",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -224,8 +224,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Дихтиаза и ектопични мигли",
+    "titleEn"     : "Distichiasis and ectopic cilia",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -240,8 +240,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Ентропион",
+    "titleEn"     : "Entropion",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -256,8 +256,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Блефарит",
+    "titleEn"     : "Blepharitis",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -272,8 +272,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Хидроцистом",
+    "titleEn"     : "Apocrine hidrocystomas",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -288,8 +288,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Тумор на клепача",
+    "titleEn"     : "Eyelid neoplasia",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -304,8 +304,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Изпадане на третия клепач",
+    "titleEn"     : "Nictitans protrusion",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -320,8 +320,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Изпадане на жлезата на третия клепач",
+    "titleEn"     : "Prolapse of the nictitans gland (Cherry eye)",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -336,8 +336,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Обръщане на хрущяла на третия клепач",
+    "titleEn"     : "Nictitans cartilage eversion",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -352,8 +352,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Тумор на третия клепач",
+    "titleEn"     : "Neoplasia of the nictitans",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -368,8 +368,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Обръщане на третия клепач",
+    "titleEn"     : "The nictitans flap",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -384,8 +384,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Епифора",
+    "titleEn"     : "Epiphora",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -400,8 +400,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Сух кератоконюнктивит",
+    "titleEn"     : "Keratoconjuncivitis sicca",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -416,8 +416,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Дермоид",
+    "titleEn"     : "Dermoid",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -432,8 +432,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Конюнктивит",
+    "titleEn"     : "Conjunctivitis",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -448,8 +448,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Тумор на конюнктивата",
+    "titleEn"     : "Neoplasia",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -464,8 +464,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Микрокорнея и мегалокорнея",
+    "titleEn"     : "Microcornea and megalocornea",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -480,8 +480,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Левкома, свързана с перзистиращата зенична мембрана",
+    "titleEn"     : "Leukoma associated with persistent pupillary membranes",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -496,8 +496,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Lysosomal storage disease",
+    "titleEn"     : "Lysosomal storage disease",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -512,8 +512,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Дистрофия на роговицата",
+    "titleEn"     : "Corneal dystrophy",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -528,8 +528,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Херпесвирусен кератит",
+    "titleEn"     : "Herpetic keratitis",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -544,8 +544,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Еозинофилен кератит",
+    "titleEn"     : "Eosinophillic (proliferative) keratitis",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -560,8 +560,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Секвестър на роговицата",
+    "titleEn"     : "Corneal sequestrum",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -576,8 +576,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Остра булозна кератопатия",
+    "titleEn"     : "Acute bullous keratopathy",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -592,8 +592,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Дегенерация на роговицата",
+    "titleEn"     : "Corneal degeneration",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -608,8 +608,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Язва на роговицата",
+    "titleEn"     : "Corneal ulceration",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -624,8 +624,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Exposure keratitis",
+    "titleEn"     : "Exposure keratitis",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -640,8 +640,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Разкъсване на роговицата",
+    "titleEn"     : "Corneal laceration",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -656,8 +656,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Чуждо тяло в роговицата",
+    "titleEn"     : "Corneal foreign body",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -672,8 +672,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Corneal epithelial inclusion cyst",
+    "titleEn"     : "Corneal epithelial inclusion cyst",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -688,8 +688,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Вродени аномалии, свързани с пигментацията (албинизъм, хетерохромия)",
+    "titleEn"     : "Congenital disorders of pigmentation (albinism, iris heterochromia)",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -704,8 +704,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Колобома на ириса",
+    "titleEn"     : "Iris coloboma",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -720,8 +720,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Хипоплазия на ириса",
+    "titleEn"     : "Iris hypoplasia",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -736,8 +736,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Перзистираща зенична мембрана",
+    "titleEn"     : "Persistent pupillary membrane",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -752,8 +752,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Ектропион на увеята",
+    "titleEn"     : "Ectropion ulvae",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -768,8 +768,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Киста на увеята",
+    "titleEn"     : "Uveal cysts",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -784,8 +784,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Меланоза на ириса",
+    "titleEn"     : "Iridal melanosis",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -800,8 +800,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Ирис, оцветен от мед",
+    "titleEn"     : "Copper-coloured iris",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -816,8 +816,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Атрофия на ириса",
+    "titleEn"     : "Iris atrophy",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -832,8 +832,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Синехии",
+    "titleEn"     : "Synechiae",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -848,8 +848,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Lipid Aqueous",
+    "titleEn"     : "Lipid Aqueous",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -864,8 +864,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Увеит",
+    "titleEn"     : "Uveitis",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -880,8 +880,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Неоплазия на ириса",
+    "titleEn"     : "Iveal neoplasia",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -896,8 +896,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Вродени аномалии на лещата",
+    "titleEn"     : "Congenital anomalies of the lens",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -912,8 +912,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Склероза на ядрото на лещата",
+    "titleEn"     : "Nuclear sclerosis of the lens",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -928,8 +928,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Катаракта",
+    "titleEn"     : "Cataracts",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -944,8 +944,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Луксация на лещата",
+    "titleEn"     : "Lens luxation",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -960,8 +960,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Първична глаукома",
+    "titleEn"     : "Primary glaucoma",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -976,8 +976,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Вторична глаукома",
+    "titleEn"     : "Secondary glaucoma",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -992,8 +992,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Заболявания на стъкловидното тяло",
+    "titleEn"     : "Diseases of the vitreous",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1008,8 +1008,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Заболявания на очното дъно",
+    "titleEn"     : "Diseases of the fundus",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1024,8 +1024,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Нарушения на автономната нервна система",
+    "titleEn"     : "Disorders of autonomic nervous system",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1040,8 +1040,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Синдром на Horner",
+    "titleEn"     : "Horner’s Syndrome",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1056,8 +1056,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Pourfour du Petit синдром",
+    "titleEn"     : "Pourfour du Petit Syndrome",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1072,8 +1072,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Key-Gaskell синдром",
+    "titleEn"     : "Key-Gaskell Syndrome",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1088,8 +1088,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Страбизъм и нистагъм, свързани с очен албинизъм",
+    "titleEn"     : "Strabismus and nystagmus associated with ocular albinism",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1104,8 +1104,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Следоперативна слепота",
+    "titleEn"     : "Postanesthetic blindness",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -1120,696 +1120,8 @@
     "differential"  : [""]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "eye",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
+    "title"       : "Контралатерална очна невропатия",
+    "titleEn"     : "Contralateral optic neuropathy",
     "type"        : "eye",
     "animals"     : "both",
     "bodySystem"  : [""],
