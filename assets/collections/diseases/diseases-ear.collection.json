@@ -5,6 +5,7 @@
     "type"        : "ear",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -21,6 +22,7 @@
     "type"        : "ear",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -37,6 +39,7 @@
     "type"        : "ear",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -53,6 +56,7 @@
     "type"        : "ear",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -69,6 +73,7 @@
     "type"        : "ear",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -85,6 +90,7 @@
     "type"        : "ear",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],

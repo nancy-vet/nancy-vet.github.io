@@ -5,6 +5,7 @@
     "type"        : "endocrine",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -21,6 +22,7 @@
     "type"        : "endocrine",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -37,6 +39,7 @@
     "type"        : "endocrine",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -53,6 +56,7 @@
     "type"        : "endocrine",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -69,6 +73,7 @@
     "type"        : "endocrine",
     "animals"     : "dogs",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -85,6 +90,7 @@
     "type"        : "endocrine",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -101,6 +107,7 @@
     "type"        : "endocrine",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -117,6 +124,7 @@
     "type"        : "endocrine",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -133,6 +141,7 @@
     "type"        : "endocrine",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -149,6 +158,7 @@
     "type"        : "endocrine",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -165,6 +175,7 @@
     "type"        : "endocrine",
     "animals"     : "dogs",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -181,6 +192,7 @@
     "type"        : "endocrine",
     "animals"     : "cats",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -197,6 +209,7 @@
     "type"        : "endocrine",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
