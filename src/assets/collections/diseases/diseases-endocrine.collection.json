@@ -56,9 +56,26 @@
     "type"        : "endocrine",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/hypothyroidism.pdf" }
+    ],
+    "etiology"      : ["Хипотиреоидизмът при кучетата представлява ендокринно заболяване, характеризиращо се с понижени концентрации на тироидните хормони - тироксин (Т4) и трийодтиронин (Т3). Това заболяване е сред най-често срещаните ендокринни заболявания при кучетата."],
+    "signs"         : ["летаргия", "наддаване на тегло", "алопеция", "хиперпигментация", "външен отит"],
+    "specificSigns" : ["Метаболитни - летаргия, наддаване на тегло, нетолерантност към студ", "Кожни - ендокринна алопеция (вкл. и 'rat tail'), суха, начупена козина; себорея; хиперпигментация; пиодермия; външен отит.", "Репродуктивни - безплодие при женските, галакторея, гинекомастия и др.", "Хематологични - анемия, хиперлипидемия", "При вродения хипотиреоидизъм - нанизъм (изоставане в растежа), гуша (не е задължително), непропорционално тяло"],
+    "diagnostics"   : ["Изследване на свободен Т4 хормон. При някои породи този хормон е с различни референтни стойности - хрътка, уипет, салуки, басенджи, ирландски вълкодав, аляски впрегатни кучета."],
+    "treatment"     : ["Левотироксин - 20 mcg/kg, след 4-8 седмици отновот се изследва fT4.", "@/assets/pdfs/@diseases/imgs/hypothyroidism-algorithm.png", "@/assets/pdfs/@diseases/imgs/hypothyroidism-algorithm-treatment.png"],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Хипертиреоидизъм",
+    "titleEn"     : "Hypersomatotropism",
+    "type"        : "endocrine",
+    "animals"     : "both",
+    "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+      { "title": "описание", "link": "pdfs/@diseases/hyperthyroidism.pdf" }
     ],
     "etiology"      : [""],
     "signs"         : ["", "", ""],
@@ -175,16 +192,19 @@
     "type"        : "endocrine",
     "animals"     : "dogs",
     "bodySystem"  : [""],
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+      { "title": "описание", "link": "pdfs/@diseases/hyperadrenocorticism.pdf" },
+      { "title": "Протоколи за тестовете", "link": "pdfs/@diseases/additional-files/Cushing-cortisol-testing-guide-en.pdf" },
+      { "title": "АКТХ стимулационен тест БГ", "link": "pdfs/@diseases/additional-files/Cushing-ACTH-stimulation-test-bg.pdf" },
+      { "title": "Тест с ниски дози дексаметазон БГ", "link": "pdfs/@diseases/additional-files/Cushing-low-dose-dexamethasone-suppression-protocol-bg.pdf" }
     ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
+    "etiology"      : ["Представлява завишени нива на кортизол, които могат да е вследствие на повишена секреция на АКТХ от хипофизата (най-често при тумор на хипофизата) или повишена секреция на кортизол от надбъбречните жлези (най-често при тумори) или ектопични места."],
+    "signs"         : ["полифагия", "полидипсия", "полиурия", "алопеция", "калцификация на кожата", "залежаване"],
+    "specificSigns" : ["Pot belly"],
+    "diagnostics"   : ["АКТХ стимулационен тест", "Стимулационен тест с ниски нива на дексаметазон", "Стимулационен тест с високи нива на дексаметазон", "Коремна ехография", "ПКК - завишени тромбоцити заради кортизола.", "Биохим. изсл. - завишена ALP и др."],
+    "treatment"     : ["Vetoryl® - съдържа трилостан.", "Lysodren® - съдържа митотан."],
+    "differential"  : ["Хипотиреоидизъм - често съпътства синдрома на Кушинг, понякога е вследствие от Кушинг."]
   },
   {
     "title"       : "Feline Hypoadrenocorticism",
