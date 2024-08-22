@@ -5,6 +5,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -21,6 +22,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -37,6 +39,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -53,6 +56,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -69,6 +73,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -85,6 +90,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -101,6 +107,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -117,6 +124,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -133,6 +141,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -149,6 +158,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -165,6 +175,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -181,6 +192,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -197,6 +209,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -213,6 +226,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -229,6 +243,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -245,6 +260,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -261,6 +277,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -277,6 +294,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -293,6 +311,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -309,6 +328,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -325,6 +345,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -341,6 +362,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -357,6 +379,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -373,6 +396,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -389,6 +413,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -405,6 +430,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -421,6 +447,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -437,6 +464,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -453,6 +481,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -469,6 +498,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -485,6 +515,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -501,6 +532,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -517,6 +549,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -533,6 +566,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -549,6 +583,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -565,6 +600,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -581,6 +617,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -597,6 +634,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -613,6 +651,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -629,6 +668,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -645,6 +685,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -661,6 +702,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -677,6 +719,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -693,6 +736,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -709,6 +753,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -725,6 +770,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -741,6 +787,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -757,6 +804,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -773,6 +821,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -789,6 +838,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -805,6 +855,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -821,6 +872,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -837,6 +889,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -853,6 +906,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -869,6 +923,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -885,6 +940,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -901,6 +957,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -917,6 +974,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -933,6 +991,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -949,6 +1008,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -965,6 +1025,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -981,6 +1042,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -997,6 +1059,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1013,6 +1076,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1029,6 +1093,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1045,6 +1110,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1061,6 +1127,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1077,6 +1144,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1093,6 +1161,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1109,6 +1178,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1125,6 +1195,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1141,6 +1212,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1157,6 +1229,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1173,6 +1246,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1189,6 +1263,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1205,6 +1280,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1221,6 +1297,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1237,6 +1314,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1253,6 +1331,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1269,6 +1348,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1285,6 +1365,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1301,6 +1382,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1317,6 +1399,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1333,6 +1416,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1349,6 +1433,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1365,6 +1450,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1381,6 +1467,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1397,6 +1484,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1413,6 +1501,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1429,6 +1518,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1445,6 +1535,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1461,6 +1552,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1477,6 +1569,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1493,6 +1586,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1509,6 +1603,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1525,6 +1620,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1541,6 +1637,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1557,6 +1654,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1573,6 +1671,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
@@ -1589,6 +1688,7 @@
     "type"        : "digestive",
     "animals"     : "both",
     "bodySystem"  : [""],
+    "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],

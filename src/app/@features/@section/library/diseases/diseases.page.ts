@@ -22,6 +22,9 @@ export class DiseasesPage implements OnInit {
 
   public ngOnInit(): void {
     this.$collection = this.$dataService.select().get();
+    this.$collection = this.$collection.filter((el: any) => {
+        return el.isVisible == true;
+    });
   }
 
   /**

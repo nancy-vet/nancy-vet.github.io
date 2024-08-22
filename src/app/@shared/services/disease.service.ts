@@ -32,8 +32,6 @@ export class DiseasesService {
     const b: any  = []
     this.DataJson = b.concat(InfectiousDataJson, ParasiticDataJson, NeoplasmsDataJson, BloodDataJson, NervousDataJson, EyeDataJson, EarDataJson, MentalDataJson, EndocrineDataJson, CirculatoryDataJson, RespiratoryDataJson, DigestiveDataJson, SkinDataJson, MuskuloskeletalDataJson, GenitourinaryDataJson, PregnancyDataJson, CongenitalDataJson, InjuriesDataJson);
 
-    console.log("DDDDDDDDDDDDDDDD")
-    console.log(this.DataJson)
     this.$intermediateCollection = structuredClone(this.DataJson);
   }
 
