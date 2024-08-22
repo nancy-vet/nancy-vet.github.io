@@ -345,16 +345,16 @@
     "type"        : "muskuloskeletal",
     "animals"     : "both",
     "bodySystem"  : [""],
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+      { "title": "описание", "link": "pdfs/@diseases/spondylosis-deformans.pdf" }
     ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
+    "etiology"      : ["Спондилозата е дегенеративно невъзпалително заболяване на прешлените, което възниква в отговор на дегенерацията на междупрешленните дискове. Характеризира се с производството на остеофити на краищата на прешленните тела."],
+    "signs"         : ["болка", "", ""],
+    "specificSigns" : ["Често ЖВ са асимптоматични. Може да има болка вследствие на счупване на шиповете."],
+    "diagnostics"   : ["Рентген"],
+    "treatment"     : ["Обикновено няма нужда.", "Карпрофен 2.2 mg/kg PO q12h или 4.4 mg/kg PO q24h при КЧ.", "Мелоксикам 0.2 mg/kg веднъж и после 0.1 mg/kg q24h при КЧ."],
+    "differential"  : ["Дискоспондилит – лизиране на главите/опашките на прешлените."]
   },
   {
     "title"       : "Дискова херния",
@@ -583,15 +583,15 @@
     "type"        : "muskuloskeletal",
     "animals"     : "both",
     "bodySystem"  : [""],
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+      { "title": "описание", "link": "pdfs/@diseases/rickets.pdf" }
     ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
+    "etiology"      : ["от липсата на витамин D, фосфор, калций или неадекватното съотношение между тези минерали"],
+    "signs"         : ["тетания", "болка"],
+    "specificSigns" : ["Изкривяване на крайниците.", "Подуване в областта на метафизите."],
+    "diagnostics"   : ["Клиника", "Рентген"],
+    "treatment"     : ["Калций", "Витамин Д", "Фосфор", "Диета с нормално съотношение на минерали!", "Специални превръзки"],
     "differential"  : [""]
   },
   {
