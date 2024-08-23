@@ -5,15 +5,15 @@
     "type"        : "circulatory",
     "animals"     : "both",
     "bodySystem"  : [""],
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+      { "title": "описание", "link": "pdfs/@diseases/patent-ductus-arteriosus.pdf" }
     ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
+    "etiology"      : ["Ductus atreriosus свързва a. pulmonalis с aorta descendens.", "Кръвта от aorta descendens отива в a. pulmonalis.", "Повишено налягане в БД, после в пулмоналните вени и разширяване на лявото предсърдие."],
+    "signs"         : ["белодроден оток", "стържене до сърдечната основа", "постоянен сърдечен шум", "Високи широк зъбец R", "Широк и разцепен зъбец P", "синдром на Айзенменгер"],
     "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
+    "diagnostics"   : ["Рентгенография", "ЕКГ", "Доплерова Ехокардиография"],
+    "treatment"     : ["Хирургична намеса"],
     "differential"  : [""]
   },
   {

@@ -459,6 +459,55 @@
     "differential"  : [""]
   },
   {
+    "title"       : "Feline Leprosy",
+    "titleEn"     : "Feline Leprosy",
+    "type"        : "skin",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Виж в Инфекциозни болести: Микобактериални инфекции"],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },  {
+    "title"       : "Canine Leproid Granuloma",
+    "titleEn"     : "Canine Leproid Granuloma",
+    "type"        : "skin",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Виж в Инфекциозни болести: Микобактериални инфекции"],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },  {
+    "title"       : "Mycobacterial Panniculitis",
+    "titleEn"     : "Mycobacterial Panniculitis",
+    "type"        : "skin",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Виж в Инфекциозни болести: Микобактериални инфекции"],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
     "title"       : "Дълбока пиодермия",
     "titleEn"     : "Deep Pyoderma",
     "type"        : "skin",
@@ -511,15 +560,15 @@
   },
   {
     "title"       : "Кожна лайшманиоза",
-    "titleEn"     : "Cutaneous Leishmaniasis (in endemic areas)",
+    "titleEn"     : "Cutaneous Leishmaniasis",
     "type"        : "skin",
     "animals"     : "both",
     "bodySystem"  : [""],
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "etiology"      : [""],
+    "etiology"      : ["Виж в Инфекциозни болести"],
     "signs"         : ["", "", ""],
     "specificSigns" : [""],
     "diagnostics"   : [""],
