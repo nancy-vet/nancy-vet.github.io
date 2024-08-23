@@ -2077,48 +2077,6 @@
     ]
   },
   {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "",
-    "animals"     : "",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "описание", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "section"     : [
-      {
-        "title"  : "Етиология",
-        "content"       : [
-            ""
-        ]
-      },
-      {
-        "title"  : "Клиника",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диагностика",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Лечение",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диференциална диагноза",
-        "content"       : [
-          ""
-        ]
-      }
-    ]
-  },
-  {
     "title"       : "Отравяне с ацетаминофен (парацетамол)",
     "titleEn"     : "Acetaminophen Toxicosis",
     "type"        : "",
@@ -2254,48 +2212,6 @@
         "title"  : "Лечение",
         "content"       : [
           "Много КТ живеят 1-2 години без лечение."
-        ]
-      },
-      {
-        "title"  : "Диференциална диагноза",
-        "content"       : [
-          ""
-        ]
-      }
-    ]
-  },
-  {
-    "title"       : "Актиномикоза",
-    "titleEn"     : "",
-    "type"        : "",
-    "animals"     : "",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "описание няма", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "section"     : [
-      {
-        "title"  : "Етиология",
-        "content"       : [
-            ""
-        ]
-      },
-      {
-        "title"  : "Клиника",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диагностика",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Лечение",
-        "content"       : [
-          ""
         ]
       },
       {
@@ -2500,90 +2416,6 @@
   {
     "title"       : "",
     "titleEn"     : "Propofol-related infusion syndrome (PRIS)",
-    "type"        : "",
-    "animals"     : "",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "описание няма", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "section"     : [
-      {
-        "title"  : "Етиология",
-        "content"       : [
-            ""
-        ]
-      },
-      {
-        "title"  : "Клиника",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диагностика",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Лечение",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диференциална диагноза",
-        "content"       : [
-          ""
-        ]
-      }
-    ]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
-    "type"        : "",
-    "animals"     : "",
-    "bodySystem"  : [""],
-    "links": [
-      { "title": "описание няма", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "section"     : [
-      {
-        "title"  : "Етиология",
-        "content"       : [
-            ""
-        ]
-      },
-      {
-        "title"  : "Клиника",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диагностика",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Лечение",
-        "content"       : [
-          ""
-        ]
-      },
-      {
-        "title"  : "Диференциална диагноза",
-        "content"       : [
-          ""
-        ]
-      }
-    ]
-  },
-  {
-    "title"       : "",
-    "titleEn"     : "",
     "type"        : "",
     "animals"     : "",
     "bodySystem"  : [""],
