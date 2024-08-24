@@ -544,6 +544,23 @@
     "differential"  : [""]
   },
   {
+    "title"       : "Туларемия",
+    "titleEn"     : "Tularemia",
+    "type"        : "infectious",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/tularemia.pdf" }
+    ],
+    "etiology"      : ["Туларемията е зоонозно бактериално заболяване, което засяга най-често дивите зайци, котките и хората, и протичащо клинично със септицемия, а патологоанатомично – с некрози и абсцеси в ЧД и далака.", "Francisella tularensis прониква през кожата и лигавиците на дихателната или храносмилателната системи и попада в макрофагите, където се размножава."],
+    "signs"         : ["треска", "анорексия", "отпадналост", "лимфаденопатия", "спленомегалия"],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : ["Амоксицилин с гентамицин"],
+    "differential"  : ["Лимфома", "FIP", "FeLV"]
+  },
+  {
     "title"       : "Болест на Тайзер",
     "titleEn"     : "Tyzzer‘s Disease",
     "type"        : "infectious",
@@ -770,15 +787,15 @@
     "type"        : "infectious",
     "animals"     : "both",
     "bodySystem"  : [""],
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+      { "title": "описание", "link": "pdfs/@diseases/leptospirosis.pdf" }
     ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
+    "etiology"      : ["Лептоспирозата е зоонозно бактериално заболяване, което се характеризира с признаци на анемия, иктерус, хемоглобинурия и нефрит.", "Отделянето на лептоспирите в околната среда става с урината."],
+    "signs"         : ["анорексия", "повръщане", "дехидратация", "треска", "аборт", "интерстициален нефрит", "хемолиза", "анемия", "хемоглобинурия", "иктерус"],
     "specificSigns" : [""],
     "diagnostics"   : [""],
-    "treatment"     : [""],
+    "treatment"     : ["Доксициклин", "Лечение на развилата се бъбречна недостатъчност."],
     "differential"  : [""]
   },
   {
@@ -799,20 +816,37 @@
     "differential"  : [""]
   },
   {
+    "title"       : "Листериоза",
+    "titleEn"     : "Listeriosis",
+    "type"        : "infectious",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "описание", "link": "pdfs/@diseases/listeriosis.pdf" }
+    ],
+    "etiology"      : ["Листериозата е зоонозно бактериално заболяване, характеризиращо се с неврологични признаци, аборти, септицемия."],
+    "signs"         : ["неврологични признаци", "аборт", "септицемия"],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
     "title"       : "Ку-треска",
     "titleEn"     : "Q Fever",
     "type"        : "infectious",
     "animals"     : "both",
     "bodySystem"  : [""],
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+      { "title": "описание", "link": "pdfs/@diseases/q-fever.pdf" }
     ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
+    "etiology"      : ["Ку-треската е зоонозно рикетсиално заболяване, протичащо при котките с аборти, а при кучетата – с неврологични признаци"],
+    "signs"         : ["треска", "отпадналост", " анорексия", "атаксия", "гърчове", "спленомегалия", "аборт"],
     "specificSigns" : [""],
     "diagnostics"   : [""],
-    "treatment"     : [""],
+    "treatment"     : ["Доксициклин с енрофлоксацин."],
     "differential"  : [""]
   },
   {
