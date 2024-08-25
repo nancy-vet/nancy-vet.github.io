@@ -34,20 +34,122 @@
     "differential"  : [""]
   },
   {
-    "title"       : "Ороназална фистула (цепнато небце)",
-    "titleEn"     : "Oronasal fistula (Cleft Palate)",
-    "type"        : "endocrine",
+    "title"       : "Хигрома (Лимфоекстравазат?)",
+    "titleEn"     : "Hygroma",
+    "type"        : "injuries",
     "animals"     : "both",
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "etiology"      : ["Ороназалната фистула е патологична комуникация между устната и носната кухини, заради която течности и храна лесно преминават в носната кухина.", "Заболяването може да бъде вродено или придобито."],
-    "signs"         : ["анорексия", "повръщане", "излизане на храна/ течности от носа", "носни изтечения", "отворена уста"],
+    "etiology"      : ["Хигромата е подуване, изпълнено с течност и заобиколено от фиброзна капсула.Хигромата се появява под кожа, която има директен контакт с прилежащи кости, напр. олекранон и скакателна става. Тя се образува, когато кучето продължително време лежи върху твърда повърхност и така притиска кожата между твъртата повърхност и костта."],
+    "signs"         : ["подутина", "капсула", ""],
+    "specificSigns" : ["При палпация се напипва капсулата, а самата подутина е еластична."],
+    "diagnostics"   : ["Пункция"],
+    "treatment"     : ["При малките хигроми течността може да се изтегли със спринцовка.", "Амоксицилин с клавуланова киселина", "Клиндамицин", "При хронични случаи - латексов дрен Penrose."],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Серома",
+    "titleEn"     : "Seroma",
+    "type"        : "injuries",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Серомата представлява подутина в мястото след операция, която е мека и движеща се при палпация.", "Серомата представлява джоб, изпълнен с тумороподобна маса или натрупване на течност в тъканите след операция. Течността е бистра и се състои от клетки и плазма от увреден кръвоносен съд по време на операцията."],
+    "signs"         : ["подутина в мястото след операция"],
     "specificSigns" : [""],
     "diagnostics"   : [""],
-    "treatment"     : ["Оперативно."],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Синдром на инфузия на пропофол",
+    "titleEn"     : "Propofol-related infusion syndrome (PRIS)",
+    "type"        : "injuries",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "isVisible"   : true,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Това е рядък, но сериозен страничен ефект от продължителна инфузия на пропофол.", "Синдромът се проявява като метаболитна ацидоза, хиперкалиемия, хиперлипидемия и рабдомиолиза и може да доведе до бъбречна и сърдечна недостатъчност и в крайна сметка смърт.", "Началото на синдрома обикновено настъпва в рамките на четири дни след първоначалното лечение с пропофол."],
+    "signs"         : ["тахипнея", "диспнея", "отпадналост", "брадикардия", "хипотензия", "сърдечен арест", "мускулна болка", "сърдечни аритмии", "олигурия", "анурия", "липемичен серум", "иктерус", "хипотермия", "кома"],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : ["Прекъсване на инфузията с пропофол."],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "injuries",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "injuries",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "injuries",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "",
+    "titleEn"     : "",
+    "type"        : "injuries",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
     "differential"  : [""]
   }
 ]
