@@ -27,4 +27,12 @@ export class DrugInfoModal {
   public onOpenPdfDocument(url: string) {
     window.open(`assets/${url}`, '_blank')?.focus();
   }
+
+  public renderVideo(tag: string) {
+    return tag.replace("$", "");
+  }
+
+  public renderImage(tag: string) {
+    return tag.replace("@", "");
+  }
 }
