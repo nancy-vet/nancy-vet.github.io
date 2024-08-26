@@ -561,7 +561,7 @@
     "differential"  : [""]
   },
   {
-    "title"       : "Херпесвирусен кератит - в Инфекциозни",
+    "title"       : "Херпесвирусен кератит",
     "titleEn"     : "Herpetic keratitis",
     "type"        : "eye",
     "animals"     : "both",
@@ -570,7 +570,7 @@
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/Herpetic-keratitis.pdf" }
     ],
-    "etiology"      : [""],
+    "etiology"      : ["Виж в Инфекциозни болести"],
     "signs"         : ["", "", ""],
     "specificSigns" : [""],
     "diagnostics"   : [""],

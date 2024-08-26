@@ -595,8 +595,76 @@
     "differential"  : [""]
   },
   {
-    "title"       : "Пневмония",
-    "titleEn"     : "Pneumonia",
+    "title"       : "Пневмония, аспирационна",
+    "titleEn"     : "Pneumonia, Aspiration",
+    "type"        : "respiratory",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Пневмония, бактериална",
+    "titleEn"     : "Pneumonia, Bacterial",
+    "type"        : "respiratory",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Пневмония, еозинофилна",
+    "titleEn"     : "Pneumonia, Eosinophilic",
+    "type"        : "respiratory",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Пневмония, гъбична",
+    "titleEn"     : "Pneumonia, Fungal",
+    "type"        : "respiratory",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Пневмония, интерстициална",
+    "titleEn"     : "Pneumonia, Interstitial",
     "type"        : "respiratory",
     "animals"     : "both",
     "bodySystem"  : [""],
@@ -784,23 +852,6 @@
   {
     "title"       : "Котешки инфекциозен перитонит със засягане на белия дроб",
     "titleEn"     : "Feline Infectious Peritonitis (FIP) with Pulmonary Involvement",
-    "type"        : "respiratory",
-    "animals"     : "both",
-    "bodySystem"  : [""],
-    "isVisible"   : false,
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "Бронхопневмония",
-    "titleEn"     : "Bronchointerstitial Pneumonia (often viral)",
     "type"        : "respiratory",
     "animals"     : "both",
     "bodySystem"  : [""],
