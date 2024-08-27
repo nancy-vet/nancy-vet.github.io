@@ -15,5 +15,9 @@ export class VaccinationPlanPage {
     return targetDate;
 }
 
+public onOpenPdfDocument(url: string) {
+  window.open(`${url}`, '_blank')?.focus();
+  console.log(`link: ${url}`)
+}
 
 }

@@ -305,7 +305,23 @@
     "link"              : "",
     "image"             : "assets/pdfs/@deworming/moxiclear-dog.png"
   },
-
+  {
+    "title"             : "Stronghold",
+    "species"           : "both",
+    "form"              : "spot-on",
+    "activeSubstance"   : ["selamectin"],
+    "effect"            : "",
+    "typeDeworming"     : "both",
+    "killingActivity"   : "1 month",
+    "indications"       : ["fleas", "ticks", "Dirofilaria"],
+    "contraindications" : "Do not give to animals less than 6 weeks of age.",
+    "precautions"       : "",
+    "pregnancy"         : "You can use in animals for breeding, lactation and pregnancy.",
+    "howToGive"         : "",
+    "dosage"            : "",
+    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2021/09/stronghold-epar-product-information_bg.pdf",
+    "image"             : "assets/pdfs/@deworming/stronghold.png"
+  },
   {
     "title"             : "Milpro",
     "species"           : "dog",

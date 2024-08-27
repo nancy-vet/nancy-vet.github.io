@@ -76,4 +76,9 @@ export class MainComponent implements OnInit {
                                         .filterByTitle(filterValue)
                                         .get();
   }
+
+  public onOpenPdfDocument(url: string) {
+    window.open(`${url}`, '_blank')?.focus();
+    console.log(`link: ${url}`)
+  }
 }
