@@ -17,4 +17,6 @@ export class TermDetailModal {
   public onConfirm() {
     this.modalController.dismiss();
   }
+
+
 }

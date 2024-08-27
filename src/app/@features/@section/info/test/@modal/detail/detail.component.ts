@@ -17,4 +17,9 @@ export class DetailModal {
   public onConfirm() {
     this.modalController.dismiss();
   }
+
+  public onOpenPdfDocument(url: string) {
+    window.open(`${url}`, '_blank')?.focus();
+    console.log(`link: ${url}`)
+  }
 }

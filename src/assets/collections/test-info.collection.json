@@ -2,6 +2,7 @@
   {
     "type"          : "dog",
     "title"         : "CHW Ag",
+    "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/chw-ag.pdf",
     "section"       : [
       {
         "title"   : "Какво изследва:",
@@ -30,6 +31,7 @@
   {
     "type"          : "dog",
     "title"         : "CaniV-4",
+    "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/caniv-4.pdf",
     "section"       : [
       {
         "title"   : "Какво изследва:",
@@ -67,6 +69,7 @@
   {
     "type"          : "dog",
     "title"         : "CaniV-4 (Leish)",
+    "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/caniv-4-leish.pdf",
     "section"       : [
       {
         "title"   : "Какво изследва:",
@@ -104,6 +107,7 @@
   {
     "type"          : "dog",
     "title"         : "CPV/ CCV/ Giardia",
+    "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/cpv-ccv-giardia-ag.pdf",
     "section"       : [
       {
         "title"   : "Какво изследва:",
@@ -144,6 +148,7 @@
   {
     "type"          : "dog",
     "title"         : "CPV ag",
+    "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/cpv-ag.pdf",
     "section"       : [
       {
         "title"   : "Какво изследва:",
@@ -182,6 +187,7 @@
   {
     "type"          : "both",
     "title"         : "Giardia Ag",
+    "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/giardia-ag.pdf",
     "section"       : [
       {
         "title"   : "Какво изследва:",
@@ -221,6 +227,7 @@
   {
     "type"          : "cat",
     "title"         : "FeliD-3",
+    "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/felid-3.pdf",
     "section"       : [
       {
         "title"   : "Какво изследва:",
@@ -261,6 +268,7 @@
   {
     "type"          : "cat",
     "title"         : "FPV Ag",
+    "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/fpv-ag.pdf",
     "section"       : [
       {
         "title"   : "Какво изследва:",
@@ -299,6 +307,7 @@
   {
     "type"          : "cat",
     "title"         : "FCoV Ab",
+    "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/fcov-ag-ab.pdf",
     "section"       : [
       {
         "title"   : "Какво изследва:",
@@ -336,6 +345,7 @@
   {
     "type"          : "cat",
     "title"         : "FIV Ab/ FeLV Ag",
+    "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/fiv-ab-felv-ag.pdf",
     "section"       : [
       {
         "title"   : "Какво изследва:",
@@ -376,6 +386,7 @@
   {
     "type"          : "dog",
     "title"         : "CIRD-3 Ag",
+    "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/cird-3.pdf",
     "section"       : [
       {
         "title"   : "Какво изследва:",
@@ -411,6 +422,7 @@
   {
     "type"          : "dog",
     "title"         : "CDV Ag",
+    "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/cdv-ag.pdf",
     "section"       : [
       {
         "title"   : "Какво изследва:",
@@ -448,6 +460,7 @@
   {
     "type"          : "cat",
     "title"         : "Toxoplasma Ab",
+    "leafletLink"   : "assets/pdfs/@test/leaflet-pdfs/toxoplasma-ab.pdf",
     "section"       : [
       {
         "title"   : "Какво изследва:",
