@@ -16,9 +16,10 @@ export class DiseasesPage implements OnInit {
   private $dataService: DiseasesService = inject(DiseasesService);
   private dialogService: DialogService  = inject(DialogService);
 
-  public $collection: any           = [];
-  private $selectedCategories: any  = [];
-  private activeFilter: string      = 'title';
+  public $collection: any             = [];
+  private $selectedCategories: any    = [];
+  private activeFilter: string        = 'title';
+  private animalType: any             = [];
 
   public ngOnInit(): void {
     this.$collection = this.$dataService.select().get();
@@ -55,7 +56,8 @@ export class DiseasesPage implements OnInit {
     (await this.dialogService.open(SelectCategoryModal)).whenConfirmed((collection: any) => {
 
       this.$selectedCategories = collection.selectedCategory;
-      this.activeFilter        = collection.searchCriteria
+      this.activeFilter        = collection.searchCriteria;
+      this.animalType          = collection.selectedAnimalType;
       this.processGetItemCollection();
     });
   }
@@ -68,6 +70,7 @@ export class DiseasesPage implements OnInit {
     this.$collection = this.$dataService
                         .select()
                         .filterByCategory(this.$selectedCategories)
+                        .filterByAnimalType(this.animalType)
                         .get();
   }
 
@@ -80,6 +83,7 @@ export class DiseasesPage implements OnInit {
     this.$collection = this.$dataService
                         .select()
                         .filterByCategory(this.$selectedCategories)
+                        .filterByAnimalType(this.animalType)
                         .filterByPrimary(this.activeFilter, filterValue)
                         .get();
   }

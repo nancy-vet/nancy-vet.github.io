@@ -74,6 +74,28 @@ export class DiseasesService {
     return this;
   }
 
+    /**
+   * @author Mihail Petrov
+   * @param title
+   * @returns
+   */
+  public filterByAnimalType(categoryElement: any) {
+
+    if(categoryElement.length == 0) {
+      return this;
+    }
+
+    const categoryCollection = categoryElement.map((element: any) => {
+      return element.category;
+    });
+
+    this.$intermediateCollection = this.DataJson.filter((element: any) => {
+      return categoryCollection.some((o: any) => (element.animals)?.toLowerCase()?.includes(o?.toLowerCase()));
+    });
+
+    return this;
+  }
+
   /**
    * @author Mihail Petrov
    * @param title

@@ -14,6 +14,7 @@ export class SelectCategoryModal {
 
   private $selectedCategories: any  = [];
   private _searchCriteria: string   = 'title';
+  private selectedAnimalType: any = 'dogs';
 
   /**
    * @author Mihail Petrov
@@ -28,17 +29,17 @@ export class SelectCategoryModal {
   public onConfirm() {
 
     this.modalController.dismiss({
-      selectedCategory  : this.$selectedCategories,
-      searchCriteria    : this._searchCriteria
+      selectedCategory    : this.$selectedCategories,
+      selectedAnimalType  : this.selectedAnimalType
     }, 'confirm');
   }
 
   /**
    * @author Mihail Petrov
-   * @param $event
+   * @param $categoryCollection
    */
-  public processOnSelect($event: any) {
-    this._searchCriteria = $event.value;
+  public processOnAnimalTypeSelect($animalType: any) {
+    this.selectedAnimalType = $animalType;
   }
 
   /**

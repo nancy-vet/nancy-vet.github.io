@@ -115,7 +115,7 @@ export class DataService {
       ];
     }
 
-    if($preset == 'deworming') return [
+    if($preset == 'animals') return [
       { category: 'dogs'              , title: 'кучета'         , imgPath: `/assets/icon/picker/dog.png`         },
       { category: 'cats'              , title: 'котки'          , imgPath: `/assets/icon/picker/cat.png`         },
       { category: 'both'              , title: 'кучета и котки' , imgPath: `/assets/icon/picker/animals.png`     }

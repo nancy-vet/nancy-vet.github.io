@@ -2,6 +2,18 @@
   {
     "title"       : "",
     "titleEn"     : "",
-    "type"        : "neoplasms"
+    "type"        : "neoplasms",
+    "animals"     : "both",
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
   }
 ]
