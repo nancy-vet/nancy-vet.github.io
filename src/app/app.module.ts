@@ -71,6 +71,10 @@ const routes: Routes = [
   {
     path          : AppNavigationRouteEnum.DEWORMING,
     loadChildren  : () => import( './@features/@section/deworming/main/main.module').then(m => m.TabsPageModule)
+  },
+  {
+    path          : AppNavigationRouteEnum.ECG,
+    loadChildren  : () => import( './@features/@section/ecg/probe.module').then(m => m.FeatureModule)
   }
 ];
 

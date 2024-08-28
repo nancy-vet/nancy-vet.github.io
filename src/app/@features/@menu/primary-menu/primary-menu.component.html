@@ -59,9 +59,21 @@
           </ion-label>
         </ion-item>
         <ion-item>
+          <ion-icon class="menu-icon" name="wifi-outline"></ion-icon>
+          <ion-label (click)="processNavigation('ecg')">
+            ЕКГ
+          </ion-label>
+        </ion-item>
+        <ion-item>
           <ion-icon class="menu-icon" name="eyedrop-outline"></ion-icon>
           <ion-label (click)="processNavigation('vaccinations')">
             Ваксинации
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-icon class="menu-icon" name="paw-outline"></ion-icon>
+          <ion-label (click)="processNavigation('deworming')">
+            Обезпаразитяване
           </ion-label>
         </ion-item>
         <ion-item>
@@ -74,13 +86,6 @@
           <ion-icon class="menu-icon" name="paw-outline"></ion-icon>
           <ion-label (click)="processNavigation('newborns')">
             Новородени
-          </ion-label>
-        </ion-item>
-
-        <ion-item>
-          <ion-icon class="menu-icon" name="paw-outline"></ion-icon>
-          <ion-label (click)="processNavigation('deworming')">
-            Обезпаразитяване
           </ion-label>
         </ion-item>
 
