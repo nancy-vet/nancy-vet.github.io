@@ -17,7 +17,7 @@ import { DataService  } from 'nv@services/data.service';
 export class CategoryPickerComponent implements OnInit {
 
   @Input()
-  public inputPreset: any = 'diseases';
+  public inputPreset: any;
 
   @Output()
   public onSelect = new EventEmitter();

@@ -14,6 +14,7 @@
   <div class="h4">Категория:</div>
   <category-picker
     #categoryPicker
+    [inputPreset]="'deworming'"
     (onSelect)="processOnCategorySelect($event)">
   </category-picker>
 </ion-content>

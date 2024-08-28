@@ -16,6 +16,7 @@
   <div style="font-weight: bold; font-size: 14px;">Категория:</div>
   <category-picker
     #categoryPicker
+    [inputPreset]="'diseases'"
     (onSelect)="processOnCategorySelect($event)">
   </category-picker>
 

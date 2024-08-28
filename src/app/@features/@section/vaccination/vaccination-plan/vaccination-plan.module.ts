@@ -9,6 +9,7 @@ import { VaccinationPlanPage      } from './vaccination-plan.page';
 import { CategoryPickerComponent  } from 'nv@components/@blocks/category-picker/category-picker.component';
 import { NvSearchToolbarComponent } from 'nv@components/@layouts/nv-search-toolbar/nv-search-toolbar.component';
 import { NvInfoModal              } from 'nv@components/@layouts/nv-info-modal/nv-info-modal.component';
+import { NvLinkButtonComponent    } from 'nv@components/@forms/nv-link-button/nv-link-button.component';
 
 const routes: Routes = [{
     path      : '',
@@ -26,7 +27,8 @@ const routes: Routes = [{
     FormsModule                   ,
     CategoryPickerComponent       ,
     NvSearchToolbarComponent      ,
-    NvInfoModal
+    NvInfoModal                   ,
+    NvLinkButtonComponent
   ],
 })
 export class VaccinationPlanPageModule {}

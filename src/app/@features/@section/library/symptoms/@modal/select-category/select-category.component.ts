@@ -1,5 +1,5 @@
-import { Component, inject  } from "@angular/core";
-import { ModalController    } from "@ionic/angular";
+import { Component, ViewChild, inject   } from "@angular/core";
+import { ModalController                } from "@ionic/angular";
 
 @Component({
   selector    : 'modal--select-category',
@@ -9,6 +9,7 @@ import { ModalController    } from "@ionic/angular";
 export class SelectCategoryModal {
 
   private modalController: ModalController  = inject(ModalController);
+  @ViewChild("categoryPicker") selectCategoryComponent: any;
   private $selectedCategories: any  = [];
 
   /**
@@ -24,10 +25,9 @@ export class SelectCategoryModal {
   public onConfirm() {
 
     this.modalController.dismiss({
-      selectedCategory: this.$selectedCategories
+      selectedCategory  : this.$selectedCategories
     }, 'confirm');
   }
-
 
   /**
    * @author Mihail Petrov

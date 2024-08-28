@@ -9,9 +9,7 @@ import { ModalController                } from "@ionic/angular";
 export class SelectCategoryModal {
 
   private modalController: ModalController  = inject(ModalController);
-
   @ViewChild("categoryPicker") selectCategoryComponent: any;
-
   private $selectedCategories: any  = [];
 
   /**
