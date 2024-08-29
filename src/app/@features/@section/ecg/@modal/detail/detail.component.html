@@ -5,18 +5,19 @@
   <div class="h1">
     {{selectedObject.title}}
   </div>
+  <div class="fs13">
+    ({{selectedObject.titleEn}})
+  </div>
 
   <div class="mt5 flex bcn-lightblue italic fb600 gallery" (click)="onGalleryOpen()">
     <ion-icon class="mr8" name="camera-outline"></ion-icon>
     <div>Галерия</div>
   </div>
 
-  @for(element of selectedObject.section; track element) {
-    <div class="h3 mt16">{{element.sectionTitle}}</div>
+  @for(element of selectedObject.type; track element) {
 
-    @for(sectionElement of element.content; track sectionElement) {
-      <div class="mt5">{{sectionElement}}</div>
-    }
+      <div class="fs13">{{element}}</div>
+
   }
 
 </nv-info-modal>

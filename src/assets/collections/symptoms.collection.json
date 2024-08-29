@@ -1,9 +1,10 @@
 [
   {
-    "symptom" : "Запушване на уретрата",
-    "type"    :"urogenital",
-    "meaning" : "",
-    "causes"  : [
+    "symptom"   : "Запушване на уретрата",
+    "symptomEn" : "",
+    "type"      : "urogenital",
+    "meaning"   : "",
+    "causes"    : [
       {
         "group": "", "children": [
           {"title": ""}
@@ -15,10 +16,11 @@
     ]
   },
   {
-    "symptom" : "Диария, остра",
-    "type"    :"gastrointestinal",
-    "meaning" : "диария под 7-14 дни",
-    "causes"  : [
+    "symptom"   : "Диария, остра",
+    "symptomEn" : "",
+    "type"      : "gastrointestinal",
+    "meaning"   : "диария под 7-14 дни",
+    "causes"    : [
       {
         "group": "Диета", "children": [
           {"title": "Хранителна непоносимост/ алергия"},
@@ -61,10 +63,11 @@
     ]
   },
   {
-    "symptom" : "Диария, хронична",
-    "type"    :"gastrointestinal",
-    "meaning" : "диария над 7-14 дни",
-    "causes"  : [
+    "symptom"   : "Диария, хронична",
+    "symptomEn" : "",
+    "type"      : "gastrointestinal",
+    "meaning"   : "диария над 7-14 дни",
+    "causes"    : [
       {
         "group" : "Тънки черва", "children": [
           {"title": "Хранителна непоносимост или алергия"},
@@ -108,10 +111,11 @@
     ]
   },
   {
-    "symptom" : "Епилептичен статус",
-    "type"    :"nervous",
-    "meaning" : "характеризира се с последователни епилептични пристъпи, без възстановяване на съзнанието между тях",
-    "causes"  : [
+    "symptom"   : "Епилептичен статус",
+    "symptomEn" : "",
+    "type"      : "nervous",
+    "meaning"   : "характеризира се с последователни епилептични пристъпи, без възстановяване на съзнанието между тях",
+    "causes"    : [
       {
         "group": "ИНТРАКРАНИАЛНИ", "children": [
           { "title" : "Неоплазия" },
@@ -147,10 +151,11 @@
     ]
   },
   {
-    "symptom" : "Дизурия, Странгурия, Полакиурия",
-    "type"    :"urogenital",
-    "meaning" : "Дизурия—затруднено или болезнено уриниране. Полакиурия—често уриниране на малки количества. Странгурия—напрежение при уриниране.",
-    "causes"  : [
+    "symptom"   : "Дизурия, Странгурия, Полакиурия",
+    "symptomEn" : "",
+    "type"      : "urogenital",
+    "meaning"   : "Дизурия—затруднено или болезнено уриниране. Полакиурия—често уриниране на малки количества. Странгурия—напрежение при уриниране.",
+    "causes"    : [
       {
         "group": "Възпалителни заболявания", "children": [
           { "title" : "Идиопатичен цистит при котки, уретрит (идиопатично заболяване на долния уринарен тракт при котки) - Причина №1" },
@@ -192,10 +197,11 @@
     ]
   },
   {
-    "symptom" : "Алопеция",
-    "type"    :"skin",
-    "meaning" : "",
-    "causes"  : [
+    "symptom"   : "Алопеция",
+    "symptomEn" : "",
+    "type"      : "skin",
+    "meaning"   : "",
+    "causes"    : [
       {
         "group": "", "children": [
           {"title": ""}
@@ -207,10 +213,11 @@
     ]
   },
   {
-    "symptom" : "Дисфагия",
-    "type"    :"gastrointestinal",
-    "meaning" : "затруднено преглъщане",
-    "causes"  : [
+    "symptom"   : "Дисфагия",
+    "symptomEn" : "",
+    "type"      : "gastrointestinal",
+    "meaning"   : "затруднено преглъщане",
+    "causes"    : [
       {
         "group": "Орална болка", "children": [
           { "title" : "Счупени кости или зъби"  },
@@ -244,10 +251,11 @@
     ]
   },
   {
-    "symptom" : "Халитоза",
-    "type"    :"gastrointestinal",
-    "meaning" : "лош дъх от устната кухина",
-    "causes"  : [
+    "symptom"   : "Халитоза",
+    "symptomEn" : "",
+    "type"      : "gastrointestinal",
+    "meaning"   : "лош дъх от устната кухина",
+    "causes"    : [
       {
         "group": "Бактериални причини", "children": [
           { "title" : "Задържана храна"        },
@@ -266,10 +274,11 @@
     ]
   },
   {
-    "symptom" : "Слюноотделяне",
-    "type"    :"gastrointestinal",
-    "meaning" : "",
-    "causes"  : [
+    "symptom"   : "Слюноотделяне",
+    "symptomEn" : "",
+    "type"      : "gastrointestinal",
+    "meaning"   : "",
+    "causes"    : [
       {
         "group": "Птиализъм (увеличено кол-во слюнка)", "children": [
           { "title" : "Гадене"           },
@@ -287,10 +296,11 @@
     ]
   },
   {
-    "symptom" : "Регургитация",
-    "type"    :"gastrointestinal",
-    "meaning" : "връщане на стомашно съдържимо обратно в хранопровода, още се нар. гастро-езофагеален рефлукс (ГЕР)",
-    "causes"  : [
+    "symptom"   : "Регургитация",
+    "symptomEn" : "",
+    "type"      : "gastrointestinal",
+    "meaning"   : "връщане на стомашно съдържимо обратно в хранопровода, още се нар. гастро-езофагеален рефлукс (ГЕР)",
+    "causes"    : [
       {
         "group": "Дисфагия"
       },
@@ -308,10 +318,11 @@
   },
 
   {
-    "symptom" : "Повръщане",
-    "type"    :"gastrointestinal",
-    "meaning" : "",
-    "causes"  : [
+    "symptom"   : "Повръщане",
+    "symptomEn" : "",
+    "type"      : "gastrointestinal",
+    "meaning"   : "",
+    "causes"    : [
       {
         "group": "Морска болест (остра)"
       },
@@ -378,10 +389,11 @@
   },
 
   {
-    "symptom" : "Хематемеза",
-    "type"    :"gastrointestinal",
-    "meaning" : "повръщане на кръв",
-    "causes"  : [
+    "symptom"   : "Хематемеза",
+    "symptomEn" : "",
+    "type"      : "gastrointestinal",
+    "meaning"   : "повръщане на кръв",
+    "causes"    : [
       {
         "group": "Коагулопатия (рядко)", "children": [
           { "title" : "Дисеминирано вътресъдово съсирване (ДИК, Дисеминираната интраваскуларна коагулация)"  },
@@ -410,10 +422,11 @@
   },
 
   {
-    "symptom" : "Хематохезия",
-    "type"    :"gastrointestinal",
-    "meaning" : "изхождане на прясна кръв през ануса, обикновено в или с изпражнения",
-    "causes"  : [
+    "symptom"   : "Хематохезия",
+    "symptomEn" : "",
+    "type"      : "gastrointestinal",
+    "meaning"   : "изхождане на прясна кръв през ануса, обикновено в или с изпражнения",
+    "causes"    : [
       {
         "group": "Куче", "children": [
           { "title" : "Болести на ануса и ректума", "children":[
@@ -442,10 +455,11 @@
     ]
   },
   {
-    "symptom" : "Мелена",
-    "type"    :"gastrointestinal",
-    "meaning" : "кръв в изпражненията",
-    "causes"  : [
+    "symptom"   : "Мелена",
+    "symptomEn" : "",
+    "type"      : "gastrointestinal",
+    "meaning"   : "кръв в изпражненията",
+    "causes"    : [
       {
         "group": "Куче", "children": [
           { "title" : "Анкилостомоза"             },
@@ -465,10 +479,11 @@
     ]
   },
   {
-    "symptom" : "Тенезъм и/или дисхезия",
-    "type"    :"gastrointestinal",
-    "meaning" : "тенезъм - Мъчителен, болезнен, неефективен позив за уриниране или дефекация. Дисхезия - затруднено или болезнено изхождане.",
-    "causes"  : [
+    "symptom"   : "Тенезъм и/или дисхезия",
+    "symptomEn" : "",
+    "type"      : "gastrointestinal",
+    "meaning"   : "тенезъм - Мъчителен, болезнен, неефективен позив за уриниране или дефекация. Дисхезия - затруднено или болезнено изхождане.",
+    "causes"    : [
       {
         "group": "Куче", "children": [
           { "title" : "Възпаление на аналните жлези"         },
@@ -487,10 +502,11 @@
   },
 
   {
-    "symptom" : "Запек",
-    "type"    :"gastrointestinal",
-    "meaning" : "",
-    "causes"  : [
+    "symptom"   : "Запек",
+    "symptomEn" : "",
+    "type"      : "gastrointestinal",
+    "meaning"   : "",
+    "causes"    : [
       {
         "group": "Ятрогенни причини - лекарства" },
       {
@@ -534,20 +550,22 @@
     ]
   },
   {
-    "symptom" : "Фекална инконтиненция",
-    "type"    :"gastrointestinal",
-    "meaning" : "незадържане на фекалии",
-    "causes"  : [
+    "symptom"   : "Фекална инконтиненция",
+    "symptomEn" : "",
+    "type"      : "gastrointestinal",
+    "meaning"   : "незадържане на фекалии",
+    "causes"    : [
       { "group": "Невромускулно заболяване"       },
       { "group": "Частична ректална обструкция"  },
       { "group": "Тежък проктит" }
     ]
   },
   {
-    "symptom" : "Загуба на тегло",
-    "type"    :"gastrointestinal",
-    "meaning" : "",
-    "causes"  : [
+    "symptom"   : "Загуба на тегло",
+    "symptomEn" : "",
+    "type"      : "gastrointestinal",
+    "meaning"   : "",
+    "causes"    : [
       {
         "group": "Храна", "children": [
           { "title" : "НедостатъчнО количество"    },
@@ -587,10 +605,11 @@
     ]
   },
   {
-    "symptom" : "Анорексия/Хипорексия",
-    "type"    :"gastrointestinal",
-    "meaning" : "анорексия - отказ от храна, хипорексия - намален прием на храна",
-    "causes"  : [
+    "symptom"   : "Анорексия/Хипорексия",
+    "symptomEn" : "",
+    "type"      : "gastrointestinal",
+    "meaning"   : "анорексия - отказ от храна, хипорексия - намален прием на храна",
+    "causes"    : [
       {
         "group": "Възпалително заболяване", "children": [
           { "title" : "Бактериални инфекции"   },
@@ -615,20 +634,22 @@
     ]
   },
   {
-    "symptom" : "Асцит",
-    "type"    :"gastrointestinal",
-    "meaning" : "наличие на течност в коремната кухина",
-    "causes"  : [
+    "symptom"   : "Асцит",
+    "symptomEn" : "",
+    "type"      : "gastrointestinal",
+    "meaning"   : "наличие на течност в коремната кухина",
+    "causes"    : [
       { "title" : "Хипоалбуминемия"         },
       { "title" : "Портална хипертония"     },
       { "title" : "Перитонеално възпаление" }
     ]
   },
   {
-    "symptom" : "Остър корем",
-    "type"    :"gastrointestinal",
-    "meaning" : "синдром, който се манифестира със силни болки в корема, гадене, повръщане, нарушенчревен пасаж, влошаващо се общо състояние и перитонеално дразнене, обективизиращо се с дефанс",
-    "causes"  : [
+    "symptom"   : "Остър корем",
+    "symptomEn" : "",
+    "type"      : "gastrointestinal",
+    "meaning"   : "синдром, който се манифестира със силни болки в корема, гадене, повръщане, нарушенчревен пасаж, влошаващо се общо състояние и перитонеално дразнене, обективизиращо се с дефанс",
+    "causes"    : [
       {
         "group": "Септично възпаление", "children": [
           { "title" : "" },
@@ -669,10 +690,11 @@
     ]
   },
   {
-    "symptom" : "Коремна болка",
-    "type"    :"gastrointestinal",
-    "meaning" : "",
-    "causes"  : [
+    "symptom"   : "Коремна болка",
+    "symptomEn" : "",
+    "type"      : "gastrointestinal",
+    "meaning"   : "",
+    "causes"    : [
       {
         "group": "Лоша техника на палпация (“Псевдоболка”)"
       },
@@ -731,10 +753,11 @@
   },
 
   {
-    "symptom": "Уголемяване/разширяван на корема -",
-    "type": "gastrointestinal",
-    "meaning": "",
-    "causes": [
+    "symptom"   : "Уголемяване/разширяван на корема -",
+    "symptomEn" : "",
+    "type"      : "gastrointestinal",
+    "meaning"   : "",
+    "causes"    : [
       {
         "group": "Тъкан", "children": [
           { "title": "Бременност (честа и важна)" },
@@ -784,10 +807,11 @@
     ]
   },
   {
-    "symptom": "Жълтеница",
-    "type": "gastrointestinal",
-    "meaning": "",
-    "causes": [
+    "symptom"   : "Жълтеница",
+    "symptomEn" : "",
+    "type"      : "gastrointestinal",
+    "meaning"   : "",
+    "causes"    : [
       {
         "group": "Прехепатална жълтеница"
       },
@@ -845,10 +869,11 @@
     ]
   },
   {
-    "symptom": "Синкоп",
-    "type": "cardiovascular",
-    "meaning": "",
-    "causes": [
+    "symptom"   : "Синкоп",
+    "symptomEn" : "",
+    "type"      : "cardiovascular",
+    "meaning"   : "",
+    "causes"    : [
       {
         "group": "Кардиоваскуларни причини", "children": [
           { "title": "Брадиаритмии (втора или трета степен AV блок, синусов арест, синдром на болния синус, предсърдно застой)" },
@@ -892,10 +917,11 @@
     ]
   },
   {
-    "symptom" : "Аномален артериален пулс",
-    "type"    :"cardiovascular",
-    "meaning" : "",
-    "causes"  : [
+    "symptom"   : "Аномален артериален пулс",
+    "symptomEn" : "",
+    "type"      : "cardiovascular",
+    "meaning"   : "",
+    "causes"    : [
       {
           "group": "Слаби пулсове", "children": [
             { "title" : "Дилатирана кардиомиопатия" },
@@ -923,10 +949,11 @@
     ]
   },
   {
-    "symptom": "Сърдечен шум",
-    "type": "cardiovascular",
-    "meaning": "",
-    "causes": [
+    "symptom"   : "Сърдечен шум",
+    "symptomEn" : "",
+    "type"      : "cardiovascular",
+    "meaning"   : "",
+    "causes"    : [
       {
         "group": "Вродени сърдечни дефекти", "children": [
           { "title": "Стеноза" },
@@ -953,10 +980,11 @@
     ]
   },
   {
-    "symptom": "Сърцебиене",
-    "type": "cardiovascular",
-    "meaning": "",
-    "causes": [
+    "symptom"   : "Сърцебиене",
+    "symptomEn" : "",
+    "type"      : "cardiovascular",
+    "meaning"   : "",
+    "causes"    : [
       {
         "group": "Аритмии", "children": [
           { "title": "Предсърдна фибрилация" },
@@ -983,10 +1011,11 @@
 
 
   {
-    "symptom"  : "Хиповолемия",
-    "type"     :"cardiovascular",
-    "значение" : "намаление на обема на кръвта, циркулираща в тялото",
-    "причини"  : [
+    "symptom"   : "Хиповолемия",
+    "symptomEn" : "",
+    "type"      : "cardiovascular",
+    "значение"  : "намаление на обема на кръвта, циркулираща в тялото",
+    "причини"   : [
       {"group": "Дехидратация"                           },
       {"group": "Кръвоизлив"                             },
       {"group": "Шок"                                    },
@@ -1001,10 +1030,11 @@
     ]
   },
   {
-    "symptom"  : "Лимфоекстравазат",
-    "type"     : "cardiovascular",
-    "значение" : "означава изтичане на лимфна течност от лимфните съдове и събирането и между меките тъкани, което води до образуване на дифузен оток с еластична тестява консистенция, който (за разлика от този при хематоми) много бавно се втвърдява и за разлика от този при абсцес или флегмон не е темпериран и рядко е болезнен, а при пункция от него изтича най-често бистра лимфна течност.",
-    "причини"  : [
+    "symptom"   : "Лимфоекстравазат",
+    "symptomEn" : "",
+    "type"      : "cardiovascular",
+    "значение"  : "означава изтичане на лимфна течност от лимфните съдове и събирането и между меките тъкани, което води до образуване на дифузен оток с еластична тестява консистенция, който (за разлика от този при хематоми) много бавно се втвърдява и за разлика от този при абсцес или флегмон не е темпериран и рядко е болезнен, а при пункция от него изтича най-често бистра лимфна течност.",
+    "причини"   : [
       {"group": "Травма"    },
       {"group": "Операция"  }
     ]
@@ -1013,10 +1043,11 @@
 
 
   {
-    "symptom": "Кашлица",
-    "type": "respiratory",
-    "meaning": "",
-    "causes": [
+    "symptom"   : "Кашлица",
+    "symptomEn" : "",
+    "type"      : "respiratory",
+    "meaning"   : "",
+    "causes"    : [
       {
         "group": "Респираторни заболявания", "children": [
           { "title": "Инфекциозни заболявания" },
@@ -1039,10 +1070,11 @@
     ]
   },
   {
-    "symptom" : "Носни изтечения",
-    "type"    :"respiratory",
-    "значение" : "",
-    "причини"  : [
+    "symptom"   : "Носни изтечения",
+    "symptomEn" : "",
+    "type"      : "respiratory",
+    "значение"  : "",
+    "причини"   : [
       {
         "group": "Серозни изтечения", "children": [
           { "title" : "Нормално" },
@@ -1106,10 +1138,11 @@
     ]
   },
   {
-    "symptom" : "Диспнея",
-    "type"    :"respiratory",
-    "значение" : "неправилно и затруднено дишане",
-    "причини"  : [
+    "symptom"   : "Диспнея",
+    "symptomEn" : "",
+    "type"      : "respiratory",
+    "значение"  : "неправилно и затруднено дишане",
+    "причини"   : [
       {"group" : "Бледи лигавици", "children": [
           {"title" : "Анемия - Анемичните животни може да не изглеждат цианотични дори при значителна хипоксемия, защото са необходими 5 g/dL дезатуриран хемоглобин за видима цианоза."},
           {"title" : "Намален сърдечен дебит/повишен симпатиков тонус"}
@@ -1152,10 +1185,11 @@
     ]
   },
   {
-    "symptom" : "Аномалии, открити при риноскопия",
-    "type"    :"respiratory",
-    "значение" : "",
-    "причини"  : [
+    "symptom"   : "Аномалии, открити при риноскопия",
+    "symptomEn" : "",
+    "type"      : "respiratory",
+    "значение"  : "",
+    "причини"   : [
       {
           "group": "Възпаление (Оток на мукозата, Хиперемия, Увеличено количество мукус, Ексудат)", "children": [
             { "title" : "Неспецифична находка; разгледайте всички диференциални диагнози за мукопуролентно назално отделяне (инфекциозно, възпалително, неопластично)" }
@@ -1203,10 +1237,11 @@
 
 
   {
-    "symptom": "Кихане",
-    "type": "respiratory",
-    "meaning": "",
-    "causes": [
+    "symptom"   : "Кихане",
+    "symptomEn" : "",
+    "type"      : "respiratory",
+    "meaning"   : "",
+    "causes"    : [
       { "group": "Чуждо тяло в носната кухина" },
       { "group": "Инфекция на горните дихателни пътища при котки" },
       { "group": "Кърлеж в назалната кухина" },
@@ -1214,10 +1249,11 @@
     ]
   },
   {
-    "symptom": "Обратно кихане",
-    "type": "respiratory",
-    "meaning": "",
-    "causes": [
+    "symptom"   : "Обратно кихане",
+    "symptomEn" : "",
+    "type"      : "respiratory",
+    "meaning"   : "",
+    "causes"    : [
       { "group": "Чуждо тяло в носа" },
       { "group": "Възпаление на назофаринкса" },
       { "group": "Възпаление на епиглотиса" },
@@ -1226,10 +1262,11 @@
     ]
   },
   {
-    "symptom": "Стертор",
-    "type": "respiratory",
-    "meaning": "Груби, чуваеми шумове на храпене или хъркане, свързани с дишането",
-    "causes": [
+    "symptom"   : "Стертор",
+    "symptomEn" : "",
+    "type"      : "respiratory",
+    "meaning"   : "Груби, чуваеми шумове на храпене или хъркане, свързани с дишането",
+    "causes"    : [
       {
         "group": "",
         "children": [
@@ -1240,20 +1277,22 @@
     ]
   },
   {
-    "symptom": "Деформация на лицето",
-    "type": "respiratory",
-    "meaning": "",
-    "causes": [
+    "symptom"   : "Деформация на лицето",
+    "symptomEn" : "",
+    "type"      : "respiratory",
+    "meaning"   : "",
+    "causes"    : [
       { "group": "Абсцес на корените на моларите" },
       { "group": "Неоплазии" },
       { "group": "Криптококоза (при котки)" }
     ]
   },
   {
-    "symptom": "Хематурия",
-    "type": "urogenital",
-    "meaning": "Кръв в урината, микро- и макрохематурия",
-    "causes": [
+    "symptom"   : "Хематурия",
+    "symptomEn" : "",
+    "type"      : "urogenital",
+    "meaning"   : "Кръв в урината, микро- и макрохематурия",
+    "causes"    : [
       {
         "group": "Произход от уринарния тракт",
         "children": [
@@ -1290,10 +1329,11 @@
     ]
   },
   {
-    "symptom": "Полиурия и полидипсия",
-    "type": "urogenital",
-    "meaning": "",
-    "causes": [
+    "symptom"   : "Полиурия и полидипсия",
+    "symptomEn" : "",
+    "type"      : "urogenital",
+    "meaning"   : "",
+    "causes"    : [
       {
         "group": "Кучета",
         "children": [
@@ -1378,10 +1418,11 @@
     ]
   },
   {
-    "symptom": "Пиурия",
-    "type": "urogenital",
-    "meaning": "",
-    "causes": [
+    "symptom"   : "Пиурия",
+    "symptomEn" : "",
+    "type"      : "urogenital",
+    "meaning"   : "",
+    "causes"    : [
       {
         "group": "Произход от урогениталния тракт",
         "children": [
@@ -1403,10 +1444,11 @@
     ]
   },
   {
-    "symptom": "Кристалурия",
-    "type": "urogenital",
-    "meaning": "образуване на кристали в урината",
-    "causes": [
+    "symptom"   : "Кристалурия",
+    "symptomEn" : "",
+    "type"      : "urogenital",
+    "meaning"   : "образуване на кристали в урината",
+    "causes"    : [
       {
         "group": "Струвитни кристали",
         "children": [
@@ -1449,10 +1491,11 @@
     ]
   },
   {
-    "symptom": "Имуномедииран гломерулонефрит",
-    "type": "urogenital",
-    "meaning": "",
-    "causes": [
+    "symptom"   : "Имуномедииран гломерулонефрит",
+    "symptomEn" : "",
+    "type"      : "urogenital",
+    "meaning"   : "",
+    "causes"    : [
       {
         "group": "Кучета",
         "children": [
@@ -1539,19 +1582,21 @@
   },
 
   {
-    "symptom" : "Протеинурия",
-    "type"    :"urogenital",
-    "meaning" : "",
-    "causes"  : [],
-    "links"   : [
+    "symptom"   : "Протеинурия",
+    "symptomEn" : "",
+    "type"      : "urogenital",
+    "meaning"   : "",
+    "causes"    : [],
+    "links"     : [
       { "title": "алгоритъм - SAIM", "link": "pdfs/@algorithms/urogenital/proteinuria-algorithm-saim.png" }
     ]
   },
   {
-    "symptom" : "Остра бъбречна недостатъчност",
-    "type"    :"urogenital",
-    "meaning" : "",
-    "causes"  : [
+    "symptom" :  "Остра бъбречна недостатъчност",
+    "symptomEn" : "",
+    "type"    : "urogenital",
+    "meaning" :  "",
+    "causes"  :  [
       {"group": "Нефротоксини", "children": [
         {"title": "Етиленгликол"},
         {"title": "Аминогликозиди"},
@@ -1594,10 +1639,11 @@
     ]
   },
   {
-    "symptom" : "Хронична бъбречна недостатъчност",
-    "type"    :"urogenital",
-    "meaning" : "",
-    "causes"  : [
+    "symptom"   : "Хронична бъбречна недостатъчност",
+    "symptomEn" : "",
+    "type"      : "urogenital",
+    "meaning"   : "",
+    "causes"    : [
       {"group": "Куче", "children": [
         {"title": "Хроничен интерстициален нефрит (ХИН) с неизвестна етиология (най-честата диагноза)"},
         {"title": "Хроничен пиелонефрит (може да бъде трудно да се различи хистологично от ХИН)"},
@@ -1630,10 +1676,11 @@
 
 
   {
-    "symptom" : "Заболяване на ставите",
-    "type"    :"antiinflammatory",
-    "meaning" : "",
-    "causes"  : [
+    "symptom"   : "Заболяване на ставите",
+    "symptomEn" : "",
+    "type"      : "antiinflammatory",
+    "meaning"   : "",
+    "causes"    : [
       {
           "group": "Невъзпалителни ставни заболявания", "children": [
             { "title" : "Развиващо се" },
@@ -1654,10 +1701,11 @@
     ]
   },
   {
-    "symptom" : "Треска",
-    "type"    :"antiinflammatory",
-    "meaning" : "",
-    "causes"  : [
+    "symptom"   : "Треска",
+    "symptomEn" : "",
+    "type"      : "antiinflammatory",
+    "meaning"   : "",
+    "causes"    : [
       { "group": "V ascular: емболии, кръвоизливи." },
       { "group": "I nfectious: бактериални, гъбични, вирусни или протозоални." },
       { "group": "T oxic: ендогенни (уреемия, хепатична енцефалопатия) или екзогенни." },
@@ -1675,19 +1723,21 @@
     ]
   },
   {
-    "symptom" : "Хипотермия",
-    "type"    :"antiinflammatory",
-    "meaning" : "",
-    "causes"  : [ ],
+    "symptom"   : "Хипотермия",
+    "symptomEn" : "",
+    "type"      : "antiinflammatory",
+    "meaning"   : "",
+    "causes"    : [ ],
     "links" : [
       { "title": "Алгоритъм" , "link": "pdfs/@algorithms/others/hypothermia-algorithm.pdf" }
     ]
   },
   {
-    "symptom" : "Колапс",
-    "type"    :"antiinflammatory",
-    "meaning" : "",
-    "causes"  : [ ],
+    "symptom"   : "Колапс",
+    "symptomEn" : "",
+    "type"      : "antiinflammatory",
+    "meaning"   : "",
+    "causes"    : [ ],
     "links" : [
       { "title": "Алгоритъм" , "link": "pdfs/@algorithms/others/collapse-algorithm.pdf" }
     ]

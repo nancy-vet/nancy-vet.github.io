@@ -1,5 +1,9 @@
 <nv-info-modal [inputTitle]="selectedObject.symptom" class="ion-page">
 
+  <div class="fs13">
+    <strong>Значение:</strong> {{selectedObject.meaning}}.
+  </div>
+
   @for( groupElement of selectedObject.causes; track groupElement) {
 
     <div>
