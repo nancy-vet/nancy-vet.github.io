@@ -79,9 +79,10 @@ export class DiseasesService {
    * @param title
    * @returns
    */
+  /** Филтриране на заболявания: Пета функция */
   public filterByAnimalType(categoryElement: any) {
 
-    if(categoryElement.length == 0) {
+    if (categoryElement.length === 0) {
       return this;
     }
 
@@ -90,11 +91,19 @@ export class DiseasesService {
     });
 
     this.$intermediateCollection = this.DataJson.filter((element: any) => {
-      return categoryCollection.some((o: any) => (element.animals)?.toLowerCase()?.includes(o?.toLowerCase()));
+      // Check if element.animals exists and is an array before using includes
+      return element.animals && Array.isArray(element.animals) &&
+             categoryCollection.some((o: any) =>
+               element.animals.includes(o.toLowerCase())
+             );
     });
 
     return this;
   }
+
+
+
+
 
   /**
    * @author Mihail Petrov

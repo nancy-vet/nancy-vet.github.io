@@ -398,7 +398,7 @@
     "title"       : "Болест на долните пикочни пътища при котки",
     "titleEn"     : "Feline Lower Urinary Tract Disease (FLUTD)",
     "type"        : "genitourinary",
-    "animals"     : ["dogs", "cats"],
+    "animals"     : ["cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [

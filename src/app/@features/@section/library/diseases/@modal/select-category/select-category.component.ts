@@ -14,7 +14,7 @@ export class SelectCategoryModal {
 
   private $selectedCategories: any  = [];
   private _searchCriteria: string   = 'title';
-  private selectedAnimalType: any = null;
+  private selectedAnimalType: any = '';
 
   /**
    * @author Mihail Petrov
@@ -26,6 +26,7 @@ export class SelectCategoryModal {
   /**
    * @author Mihail Petrov
    */
+  /** При Филтриране на заболяванията, трета функция (след натискане на Филтрирай). */
   public onConfirm() {
 
     this.modalController.dismiss({
@@ -38,8 +39,10 @@ export class SelectCategoryModal {
    * @author Mihail Petrov
    * @param $categoryCollection
    */
+  /** При Филтриране на заболяванията, първо тази функция се изпълнява. */
   public processOnAnimalTypeSelect($animalType: any) {
     this.selectedAnimalType = $animalType;
+    console.log(`selectedAnimalType: ${this.selectedAnimalType}`)
   }
 
   /**

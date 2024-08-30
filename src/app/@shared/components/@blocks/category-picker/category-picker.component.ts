@@ -35,9 +35,13 @@ export class CategoryPickerComponent implements OnInit {
    * @author Mihail Petrov
    * @param category
    */
+  /**Филтриране на заболявания: втора функция, която се изпълнява. */
   public selectCategory(category: any) {
 
     category.isSelected = !category.isSelected;
+
+    // Clear the selected categories array before pushing new selections
+    this.$selectedCategories = [];
 
     this.imageCollection.forEach((element: any) => {
       if(element.isSelected) this.$selectedCategories.push(element);

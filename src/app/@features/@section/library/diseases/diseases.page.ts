@@ -51,6 +51,7 @@ export class DiseasesPage implements OnInit {
    * @author Mihail Petrov
    * @param $event
    */
+  /** При Филтриране на заболяванията, четвърта функция. */
   public async onFilter($event: any) {
 
     (await this.dialogService.open(SelectCategoryModal)).whenConfirmed((collection: any) => {
