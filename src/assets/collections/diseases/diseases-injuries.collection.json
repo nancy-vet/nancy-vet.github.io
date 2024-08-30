@@ -3,7 +3,7 @@
     "title"       : "Отравяне с ацетаминофен (парацетамол)",
     "titleEn"     : "Acetaminophen Toxicosis",
     "type"        : "injuries",
-    "animals"     : "cats",
+    "animals"     : ["cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -20,7 +20,7 @@
     "title"       : "Синдром на падане отвисоко при котки",
     "titleEn"     : "High-rise syndrome in cats",
     "type"        : "injuries",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -37,7 +37,7 @@
     "title"       : "Хигрома (Лимфоекстравазат?)",
     "titleEn"     : "Hygroma",
     "type"        : "injuries",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -54,7 +54,7 @@
     "title"       : "Серома",
     "titleEn"     : "Seroma",
     "type"        : "injuries",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -71,7 +71,7 @@
     "title"       : "Синдром на инфузия на пропофол",
     "titleEn"     : "Propofol-related infusion syndrome (PRIS)",
     "type"        : "injuries",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -88,7 +88,7 @@
     "title"       : "",
     "titleEn"     : "",
     "type"        : "injuries",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -105,7 +105,7 @@
     "title"       : "",
     "titleEn"     : "",
     "type"        : "injuries",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -122,7 +122,7 @@
     "title"       : "",
     "titleEn"     : "",
     "type"        : "injuries",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -139,7 +139,7 @@
     "title"       : "",
     "titleEn"     : "",
     "type"        : "injuries",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [

@@ -3,7 +3,7 @@
     "title"       : "Бактериален менингит",
     "titleEn"     : "Bacterial Meningitis",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -20,7 +20,7 @@
     "title"       : "Вирусен менингит/ енцефалит",
     "titleEn"     : "Viral Meningitis/Encephalitis",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -37,7 +37,7 @@
     "title"       : "Протозойни и паразитни инфекции",
     "titleEn"     : "Protozoal and Parasitic Infections",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -54,7 +54,7 @@
     "title"       : "Гъбичен менингит/енцефалит",
     "titleEn"     : "Fungal Meningitis/Encephalitis",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -71,7 +71,7 @@
     "title"       : "Имунно-медииран енцефалит",
     "titleEn"     : "Immune-Mediated Encephalitis",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -88,7 +88,7 @@
     "title"       : "Миелит",
     "titleEn"     : "Myelitis",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -105,7 +105,7 @@
     "title"       : "Церебеларна абиотрофия",
     "titleEn"     : "Cerebellar Abiotrophy",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -122,7 +122,7 @@
     "title"       : "Хипоплазия на малкия мозък",
     "titleEn"     : "Cerebellar Hypoplasia",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -139,7 +139,7 @@
     "title"       : "Кучешки паркинсонизъм",
     "titleEn"     : "Canine Parkinsonism",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -156,7 +156,7 @@
     "title"       : "Хиперкинеза",
     "titleEn"     : "Hyperkinesis",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -173,7 +173,7 @@
     "title"       : "Миоклонус",
     "titleEn"     : "Myoclonus",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -190,7 +190,7 @@
     "title"       : "Дискинезия",
     "titleEn"     : "Dyskinesia",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -207,7 +207,7 @@
     "title"       : "Синдром на кучешка когнитивна дисфункция (CDS)",
     "titleEn"     : "Canine Cognitive Dysfunction Syndrome (CDS)",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -224,7 +224,7 @@
     "title"       : "Дегенеративна миелопатия",
     "titleEn"     : "Degenerative Myelopathy",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -241,7 +241,7 @@
     "title"       : "Болести на лизозомно съхранение",
     "titleEn"     : "Lysosomal Storage Diseases",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -258,7 +258,7 @@
     "title"       : "Състояния, подобни на множествена склероза",
     "titleEn"     : "Multiple Sclerosis-Like Conditions",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -275,7 +275,7 @@
     "title"       : "Остър дисеминиран енцефаломиелит",
     "titleEn"     : "Acute Disseminated Encephalomyelitis (ADEM)",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -292,7 +292,7 @@
     "title"       : "Левкоенцефалопатии",
     "titleEn"     : "Leukoencephalopathies",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -309,7 +309,7 @@
     "title"       : "Епилепсия",
     "titleEn"     : "Epilepsy",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -326,7 +326,7 @@
     "title"       : "Нарколепсия и катаплексия",
     "titleEn"     : "Narcolepsy-Cataplexy",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -343,7 +343,7 @@
     "title"       : "Синкоп",
     "titleEn"     : "Syncope",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -360,7 +360,7 @@
     "title"       : "REM поведенческо разстройство на съня",
     "titleEn"     : "REM Sleep Behavior Disorder",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -377,7 +377,7 @@
     "title"       : "Синдром на котешка хиперестезия",
     "titleEn"     : "Feline Hyperesthesia Syndrome",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -394,7 +394,7 @@
     "title"       : "Мигреноподобни синдроми",
     "titleEn"     : "Migraine-Like Syndromes",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -411,7 +411,7 @@
     "title"       : "Тригеминална невропатия",
     "titleEn"     : "Trigeminal Neuropathy",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -428,7 +428,7 @@
     "title"       : "Парализа на лицевия нерв",
     "titleEn"     : "Facial Nerve Paralysis",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -445,7 +445,7 @@
     "title"       : "Авулзия на брахиалния плексус",
     "titleEn"     : "Brachial Plexus Avulsion",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -462,7 +462,7 @@
     "title"       : "Нарушения на седалищния нерв",
     "titleEn"     : "Sciatic Nerve Disorders",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -479,7 +479,7 @@
     "title"       : "Синдром на Cauda Equina",
     "titleEn"     : "Cauda Equina Syndrome",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -496,7 +496,7 @@
     "title"       : "Лумбосакрална стеноза",
     "titleEn"     : "Lumbosacral Stenosis",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -513,7 +513,7 @@
     "title"       : "Диабетна невропатия",
     "titleEn"     : "Diabetic Neuropathy",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -530,7 +530,7 @@
     "title"       : "Синдром, подобен на Гилен-Баре",
     "titleEn"     : "Guillain-Barré-like Syndrome",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -547,7 +547,7 @@
     "title"       : "Идиопатичен остър полирадикулоневрит (ИОПН)",
     "titleEn"     : "Idiopathic Polyradiculoneuritis",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -564,7 +564,7 @@
     "title"       : "Имуномедиирани хронични полиневропатии",
     "titleEn"     : "Immune-mediated chronic polyneuropathies",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -581,7 +581,7 @@
     "title"       : "Наследствени полиневропатии",
     "titleEn"     : "Inherited Polyneuropathies",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -598,7 +598,7 @@
     "title"       : "Други периферни невропатии",
     "titleEn"     : "Other Peripheral Neuropathies",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -615,7 +615,7 @@
     "title"       : "Миастения гравис",
     "titleEn"     : "Myasthenia Gravis",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -632,7 +632,7 @@
     "title"       : "Болест на централното ядро",
     "titleEn"     : "Centronuclear myopathy (CNM)",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -649,7 +649,7 @@
     "title"       : "Мускулна дистрофия при голдън ретривър",
     "titleEn"     : "Golden retriever muscular dystrophy (GRMD)",
     "type"        : "nervous",
-    "animals"     : "dogs",
+    "animals"     : ["dogs"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -666,7 +666,7 @@
     "title"       : "Възпалителни миопатии",
     "titleEn"     : "Inflammatory Myopathies",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -683,7 +683,7 @@
     "title"       : "Вторични миопатии на ендокринни заболявания",
     "titleEn"     : "Myopathies secondary to Endocrine Disorders",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -700,7 +700,7 @@
     "title"       : "Синдроми, подобни на кучешка церебрална парализа",
     "titleEn"     : "Canine Cerebral Palsy-Like Syndromes",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -717,7 +717,7 @@
     "title"       : "Хемиплегия",
     "titleEn"     : "Hemiplegia",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -734,7 +734,7 @@
     "title"       : "Параплегия",
     "titleEn"     : "Paraplegia",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -751,7 +751,7 @@
     "title"       : "Тетраплегия",
     "titleEn"     : "Tetraplegia",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -768,7 +768,7 @@
     "title"       : "Дизавтономия",
     "titleEn"     : "Dysautonomia (Key-Gaskell Syndrome)",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -785,7 +785,7 @@
     "title"       : "Синдром на Horner",
     "titleEn"     : "Horner’s Syndrome",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -802,7 +802,7 @@
     "title"       : "Вегетативна дисфункция, свързана с кучешки феохромоцитом",
     "titleEn"     : "Canine Pheochromocytoma-associated Autonomic Dysfunction",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -819,7 +819,7 @@
     "title"       : "Хидроцефалия",
     "titleEn"     : "Hydrocephalus",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -836,7 +836,7 @@
     "title"       : "Токсична енцефалопатия",
     "titleEn"     : "Toxic Encephalopathy",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -853,7 +853,7 @@
     "title"       : "Травма на главата",
     "titleEn"     : "Head Trauma",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -870,7 +870,7 @@
     "title"       : "Метастатични неоплазми в главния или гръбначния мозък",
     "titleEn"     : "Metastatic Neoplasms to the Brain or Spinal Cord",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -887,7 +887,7 @@
     "title"       : "Паранеопластични синдроми, засягащи ЦНС",
     "titleEn"     : "Paraneoplastic Syndromes Affecting the CNS",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -904,7 +904,7 @@
     "title"       : "Идиопатичен церебелит",
     "titleEn"     : "Idiopathic Cerebellitis",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -921,7 +921,7 @@
     "title"       : "Централно вестибуларно заболяване",
     "titleEn"     : "Central Vestibular Disease",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -938,7 +938,7 @@
     "title"       : "Синдром на Wobbler",
     "titleEn"     : "Wobbler Syndrome",
     "type"        : "nervous",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [

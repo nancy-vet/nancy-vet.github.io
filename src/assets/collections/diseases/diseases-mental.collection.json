@@ -3,7 +3,7 @@
     "title"       : "Агресия, свързана със страх/отбрана",
     "titleEn"     : "Fear/Defensive Aggression",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -20,7 +20,7 @@
     "title"       : "Агресия, свързана с храна",
     "titleEn"     : "Food-Related Aggression",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -37,7 +37,7 @@
     "title"       : "Агресия, насочена към хора",
     "titleEn"     : "Human-Directed Aggression",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -54,7 +54,7 @@
     "title"       : "Идиопатична агресия",
     "titleEn"     : "Idiopathic Aggression",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -71,7 +71,7 @@
     "title"       : "Агресия към други кучета",
     "titleEn"     : "Interdog Aggression",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -88,7 +88,7 @@
     "title"       : "Агресия при защита на собственост",
     "titleEn"     : "Possessive Aggression",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -105,7 +105,7 @@
     "title"       : "Пренасочена агресия",
     "titleEn"     : "Redirected Aggression",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -122,7 +122,7 @@
     "title"       : "Териториална агресия",
     "titleEn"     : "Territorial Aggression",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -139,7 +139,7 @@
     "title"       : "Агресия във ветеринарната клиника",
     "titleEn"     : " Veterinary Office Aggression",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -156,7 +156,7 @@
     "title"       : "Агресия, свързана със страх/отбрана",
     "titleEn"     : "Fear/Defensive Aggression",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -173,7 +173,7 @@
     "title"       : "Агресия към други котки",
     "titleEn"     : "Intercat Aggression",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -190,7 +190,7 @@
     "title"       : "Агресия към галене",
     "titleEn"     : "Petting-Induced Aggression",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -207,7 +207,7 @@
     "title"       : "Агресия, свързана с игри",
     "titleEn"     : "Play-Related Aggression",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -224,7 +224,7 @@
     "title"       : "Пренасочена агресия",
     "titleEn"     : "Redirected Aggression",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -241,7 +241,7 @@
     "title"       : "Агресия, свързана със статус",
     "titleEn"     : "Status-Related Aggression",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -258,7 +258,7 @@
     "title"       : "Териториална агресия",
     "titleEn"     : "Territorial Aggression",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -275,7 +275,7 @@
     "title"       : "Агресия във ветеринарната клиника",
     "titleEn"     : "Veterinary Office Aggression",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -292,7 +292,7 @@
     "title"       : "Тревожни разстройства при кучета",
     "titleEn"     : "Canine Anxiety Disorders",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -309,7 +309,7 @@
     "title"       : "Тревожни разстройства при котки",
     "titleEn"     : "Feline Anxiety Disorders",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -326,7 +326,7 @@
     "title"       : "Фобия от фойерверки",
     "titleEn"     : "Fireworks Phobia",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -343,7 +343,7 @@
     "title"       : "Фобия от гръмотевични бури",
     "titleEn"     : "Thunderstorm Phobia",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -360,7 +360,7 @@
     "title"       : "Тревожност при раздяла при кучета",
     "titleEn"     : "Canine Separation Anxiety",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -377,7 +377,7 @@
     "title"       : "Тревожност при раздяла при котки",
     "titleEn"     : "Feline Separation Anxiety",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -394,7 +394,7 @@
     "title"       : "Страх от хора",
     "titleEn"     : "Fear of People",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -411,7 +411,7 @@
     "title"       : "Страх от места и предмети",
     "titleEn"     : "Fear of Places and Things",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -428,7 +428,7 @@
     "title"       : "Страх от открити пространства",
     "titleEn"     : "Fear of the Outdoors",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -445,7 +445,7 @@
     "title"       : "Дерматит от близане",
     "titleEn"     : "Acral Lick Dermatitis",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -462,7 +462,7 @@
     "title"       : "Смукане на хълбока",
     "titleEn"     : "Flank Sucking",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -479,7 +479,7 @@
     "title"       : "Хапане по мухи",
     "titleEn"     : "Fly Snapping",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -496,7 +496,7 @@
     "title"       : "Гонене на сенки и светлини",
     "titleEn"     : "Shadow and Light Chasing",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -513,7 +513,7 @@
     "title"       : "Гонене и въртене на опашката",
     "titleEn"     : "Tail Chasing and Spinning",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -530,7 +530,7 @@
     "title"       : "Психогенна алопеция/Прекомерно почистване",
     "titleEn"     : "Psychogenic Alopecia/Overgrooming",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -547,7 +547,7 @@
     "title"       : "Ядене на вълна и текстил",
     "titleEn"     : "Wool Sucking and Fabric Eating",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -564,7 +564,7 @@
     "title"       : "Когнитивна дисфункция при кучета",
     "titleEn"     : "Canine Cognitive Dysfunction",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -581,7 +581,7 @@
     "title"       : "Когнитивна дисфункция при котки",
     "titleEn"     : "Feline Cognitive Dysfunction",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -598,7 +598,7 @@
     "title"       : "Неправилно уриниране и дефекация в дома.",
     "titleEn"     : "House Soiling",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -615,7 +615,7 @@
     "title"       : "Маркиране",
     "titleEn"     : "Marking",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -632,7 +632,7 @@
     "title"       : "Дъвчене",
     "titleEn"     : "Chewing",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -649,7 +649,7 @@
     "title"       : "Копаене",
     "titleEn"     : "Digging",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -666,7 +666,7 @@
     "title"       : "Кражба на домашни предмети",
     "titleEn"     : "Stealing Household Objects",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -683,7 +683,7 @@
     "title"       : "Разрушителна игра и изследване",
     "titleEn"     : "Destructive Play and Exploration",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -700,7 +700,7 @@
     "title"       : "Дране",
     "titleEn"     : "Scratching Behavior",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -717,7 +717,7 @@
     "title"       : "Копрофагия",
     "titleEn"     : "Coprophagia",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -734,7 +734,7 @@
     "title"       : "Пика",
     "titleEn"     : "Pica",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -751,7 +751,7 @@
     "title"       : "Търсене на внимание при кучета",
     "titleEn"     : "Canine Attention-Seeking",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -768,7 +768,7 @@
     "title"       : "Търсене на внимание при котки",
     "titleEn"     : "Feline Attention-Seeking",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -785,7 +785,7 @@
     "title"       : "",
     "titleEn"     : "Predatory Behavior",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -802,7 +802,7 @@
     "title"       : "Хищническо поведение при кучета",
     "titleEn"     : "Canine Predatory Behavior",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -819,7 +819,7 @@
     "title"       : "Хищническо поведение при котки",
     "titleEn"     : "Feline Predatory Behavior",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -836,7 +836,7 @@
     "title"       : "Захапване/Игрово хапане и агресивна игра (при кучета)",
     "titleEn"     : "Mouthing/Play Biting and Aggressive Play (Canine)",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -853,7 +853,7 @@
     "title"       : "Агресия, свързана с игра (при котки)",
     "titleEn"     : "Play-Related Aggression (Feline)",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -870,7 +870,7 @@
     "title"       : "Скачане върху хора (при кучета)",
     "titleEn"     : "Jumping on People (Canine)",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -887,7 +887,7 @@
     "title"       : "Скачане върху плотове (при котки)",
     "titleEn"     : "Jumping on Counters (Feline)",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -904,7 +904,7 @@
     "title"       : "Прекомерно лизане ",
     "titleEn"     : "Licking/Excessive (Canine and Feline)",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -921,7 +921,7 @@
     "title"       : "Нощно поведение",
     "titleEn"     : "Nocturnal Behavior (Canine and Feline)",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -938,7 +938,7 @@
     "title"       : "Скитане",
     "titleEn"     : "Roaming (Canine and Feline)",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -955,7 +955,7 @@
     "title"       : "Проблеми, свързани с пътувания",
     "titleEn"     : "Travel-Related Problems (Canine and Feline)",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -972,7 +972,7 @@
     "title"       : "Вокализация",
     "titleEn"     : "Vocalization (Canine and Feline)",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -989,7 +989,7 @@
     "title"       : "Поведение на скръб",
     "titleEn"     : "Mourning Behavior (Canine and Feline)",
     "type"        : "mental",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [

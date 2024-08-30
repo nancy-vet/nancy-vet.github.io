@@ -3,7 +3,7 @@
     "title"       : "Дирофилариоза",
     "titleEn"     : "Heartworm (Dirofilariasis)",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -20,7 +20,7 @@
     "title"       : "Анкилостомоза",
     "titleEn"     : "Hookworms (Ancylostoma)",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -37,7 +37,7 @@
     "title"       : "Токсокароза/ Токсаскаридоза",
     "titleEn"     : "Roundworms (Ascariasis)",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -54,7 +54,7 @@
     "title"       : "Трихуроза",
     "titleEn"     : "Whipworms (Trichuriasis)",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -73,7 +73,7 @@
     "title"       : "Canine Lungworm (Crenosoma)",
     "titleEn"     : "Canine Lungworm (Crenosoma)",
     "type"        : "parasitic",
-    "animals"     : "dogs",
+    "animals"     : ["dogs"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -90,7 +90,7 @@
     "title"       : "Canine Lungworm (Filaroides)",
     "titleEn"     : "Canine Lungworm (Filaroides)",
     "type"        : "parasitic",
-    "animals"     : "dogs",
+    "animals"     : ["dogs"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -107,7 +107,7 @@
     "title"       : "Canine Tracheal Worm (Oslerus)",
     "titleEn"     : "Canine Tracheal Worm (Oslerus)",
     "type"        : "parasitic",
-    "animals"     : "dogs",
+    "animals"     : ["dogs"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -124,7 +124,7 @@
     "title"       : "Kidney Worm (Dioctophyma)",
     "titleEn"     : "Kidney Worm (Dioctophyma)",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -141,7 +141,7 @@
     "title"       : "Назална капилариоза",
     "titleEn"     : "Nasal Capillariasis (Eucoleus)",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -158,7 +158,7 @@
     "title"       : "Респираторна капилариоза",
     "titleEn"     : "Respiratory Capillariasis (Eucoleus)",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -175,7 +175,7 @@
     "title"       : "Стронгилоидоза",
     "titleEn"     : "Strongyloides",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -192,7 +192,7 @@
     "title"       : "Уринарна капилариоза",
     "titleEn"     : "Urinary Capillariasis",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -209,7 +209,7 @@
     "title"       : "Feline Lungworm (Aelurostrongylus)",
     "titleEn"     : "Feline Lungworm (Aelurostrongylus)",
     "type"        : "parasitic",
-    "animals"     : "cats",
+    "animals"     : ["cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -226,7 +226,7 @@
     "title"       : "Цестодоза",
     "titleEn"     : "Tapeworms (Cestodiasis)",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -243,7 +243,7 @@
     "title"       : "Паразитоза с чернодробен метил (Paragonimus)",
     "titleEn"     : "Liver Fluke Infection",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -260,7 +260,7 @@
     "title"       : "Кокцидиоза (Изоспороза)",
     "titleEn"     : "Coccidiosis",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -277,7 +277,7 @@
     "title"       : "Токсоплазмоза",
     "titleEn"     : "Toxoplasmosis",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -294,7 +294,7 @@
     "title"       : "Саркоцистоза",
     "titleEn"     : "Sarcocystosis",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -311,7 +311,7 @@
     "title"       : "Бълхи",
     "titleEn"     : "Fleas",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -328,7 +328,7 @@
     "title"       : "Кърлежи",
     "titleEn"     : "Ticks",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -345,7 +345,7 @@
     "title"       : "Отодектоза (Ушна краста)",
     "titleEn"     : "Otodectosis (Ear Mites)",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -362,7 +362,7 @@
     "title"       : "Otobius megnini",
     "titleEn"     : "Otobius megnini",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -379,7 +379,7 @@
     "title"       : "Хейлетиелоза",
     "titleEn"     : "Cheyletiellosis",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -396,7 +396,7 @@
     "title"       : "Тромбикулоза",
     "titleEn"     : "Trombiculiasis (Harvest mites)",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -413,7 +413,7 @@
     "title"       : "Саркоптоза",
     "titleEn"     : "Sarcoptic Mange",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -430,7 +430,7 @@
     "title"       : "Нотоедроза",
     "titleEn"     : "Notoedric mange (Feline scabies)",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -447,7 +447,7 @@
     "title"       : "Демодекоза",
     "titleEn"     : "Demodectic Mange (Demodicosis)",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -464,7 +464,7 @@
     "title"       : "Nasal Mites (Pneumonyssoides)",
     "titleEn"     : "Nasal Mites (Pneumonyssoides)",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -481,7 +481,7 @@
     "title"       : "Парализа, причинена от ухапване на кърлеж",
     "titleEn"     : "Tick Bite Paralysis",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -498,7 +498,7 @@
     "title"       : "Cuterebriasis",
     "titleEn"     : "Cuterebriasis",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -515,7 +515,7 @@
     "title"       : "Кокцидиомикоза",
     "titleEn"     : "Coccidioidomycosis",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -532,7 +532,7 @@
     "title"       : "Паразитоза с Physaloptera",
     "titleEn"     : "Physaloptera Infection (stomach worm)",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -549,7 +549,7 @@
     "title"       : "Spirocerca lupi",
     "titleEn"     : "Spirocerca lupi",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -566,7 +566,7 @@
     "title"       : "Паразитоза с Ollulanus",
     "titleEn"     : "Ollulanus Infection (stomach worm)",
     "type"        : "parasitic",
-    "animals"     : "cats",
+    "animals"     : ["cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -583,7 +583,7 @@
     "title"       : "Трихинелоза",
     "titleEn"     : "Trichinosis (Trichinella spiralis)",
     "type"        : "parasitic",
-    "animals"     : "dogs",
+    "animals"     : ["dogs"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [

@@ -3,7 +3,7 @@
     "title"       : "Гингивит и периодонтит",
     "titleEn"     : "Gingivitis and Periodontitis",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -20,7 +20,7 @@
     "title"       : "Котешки лимфоцитно-плазмоцитен гингивит/фарингит",
     "titleEn"     : "Feline Lymphocytic-Plasmacytic Gingivitis/Pharyngitis",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -37,7 +37,7 @@
     "title"       : "Стоматит",
     "titleEn"     : "Stomatitis (including Feline Chronic Gingivostomatitis)",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -54,7 +54,7 @@
     "title"       : "Мукоцеле на слюнчена жлеза (сиалоцеле)",
     "titleEn"     : "Sialocele (Salivary Mucocele)",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -71,7 +71,7 @@
     "title"       : "Сиалоаденит",
     "titleEn"     : "Sialoadenitis (Inflammation of Salivary Glands)",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -88,7 +88,7 @@
     "title"       : "Сиалоаденоза",
     "titleEn"     : "Sialadenosis",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -105,7 +105,7 @@
     "title"       : "Некроза на слюнчената жлеза",
     "titleEn"     : "Salivary Gland Necrosis",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -122,7 +122,7 @@
     "title"       : "Сиалолитиаза",
     "titleEn"     : "Sialolithiasis (Salivary Stones)",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -139,7 +139,7 @@
     "title"       : "Задържан млечен зъб",
     "titleEn"     : "Persistent (Retained) Deciduous Teeth",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -156,7 +156,7 @@
     "title"       : "Краниомандибуларна остеопатия",
     "titleEn"     : "Craniomandibular Osteopathy",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -173,7 +173,7 @@
     "title"       : "Хипокалцификация на емайла",
     "titleEn"     : "Enamel Hypocalcification",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -190,7 +190,7 @@
     "title"       : "Нарушения при никненето на зъбите",
     "titleEn"     : "Eruption Disruption/Abnormalities",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -207,7 +207,7 @@
     "title"       : "Агенезия на зъби (анодонтия)",
     "titleEn"     : "Anodontia",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -224,7 +224,7 @@
     "title"       : "Хиподонтия",
     "titleEn"     : "Abnormal Number of Teeth (Decreased)",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -241,7 +241,7 @@
     "title"       : "Свръхбройни зъби (Хипердонтия)",
     "titleEn"     : "Abnormal Number of Teeth (Increased)",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -258,7 +258,7 @@
     "title"       : "Нарушение в развитието на зъбите",
     "titleEn"     : "Abnormal Tooth Formation/Structure",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -275,7 +275,7 @@
     "title"       : "Зъбна киста",
     "titleEn"     : "Dentigerous Cyst",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -292,7 +292,7 @@
     "title"       : "Дефекти на небцето",
     "titleEn"     : "Palatal Defects",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -309,7 +309,7 @@
     "title"       : "Неправилна захапка",
     "titleEn"     : "Malocclusions: Skeletal and Dental",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -326,7 +326,7 @@
     "title"       : "Периодонтално заболяване",
     "titleEn"     : "Periodontal Disease",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -343,7 +343,7 @@
     "title"       : "Хиперплазия на гингивата",
     "titleEn"     : "Gingival Hyperplasia",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -360,7 +360,7 @@
     "title"       : "Ороназална фистула",
     "titleEn"     : "Oronasal Fistula",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -377,7 +377,7 @@
     "title"       : "Обезцветяване на зъбите",
     "titleEn"     : "Discolored Teeth",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -394,7 +394,7 @@
     "title"       : "Кариес на зъба",
     "titleEn"     : "Dental Caries (Cavities)",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -411,7 +411,7 @@
     "title"       : "Абразия на зъба",
     "titleEn"     : "Attrition/Abrasion/ Wear of Teeth",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -428,7 +428,7 @@
     "title"       : "Пулпит",
     "titleEn"     : "Pulpitis",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -445,7 +445,7 @@
     "title"       : "Одонтогенен тумор",
     "titleEn"     : "Odontogenic Tumors",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -462,7 +462,7 @@
     "title"       : "Одонтома",
     "titleEn"     : "Odontoma",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -479,7 +479,7 @@
     "title"       : "Папиломатоза",
     "titleEn"     : "Papillomatosis (Oral)",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -496,7 +496,7 @@
     "title"       : "Меланоцитен тумор",
     "titleEn"     : "Melanocytic Tumors (Oral)",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -513,7 +513,7 @@
     "title"       : "Фибросаркома",
     "titleEn"     : "Fibrosarcoma (Oral)",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -530,7 +530,7 @@
     "title"       : "Плоскоклетъчен карцином",
     "titleEn"     : "Squamous Cell Carcinoma (Oral)",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -547,7 +547,7 @@
     "title"       : "Други злокачествени тумори (орални)",
     "titleEn"     : "Other Malignant Tumors (Oral)",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -564,7 +564,7 @@
     "title"       : "Доброкачествени образувания и лезии (орални)",
     "titleEn"     : "Benign Masses and Lesions (Oral)",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -581,7 +581,7 @@
     "title"       : "Нарушения на венците и беззъбата алвеоларна криста, причинени от травма",
     "titleEn"     : "Gingival and edentulous alveolar ridge lesions associated with trauma",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -598,7 +598,7 @@
     "title"       : "Фрактура на горната и/или долната челюст",
     "titleEn"     : "Maxillary and/or Mandibular Fractures",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -615,7 +615,7 @@
     "title"       : "Заболяване на темпоромандибуларната става",
     "titleEn"     : "Temporomandibular Joint Disorders",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -632,7 +632,7 @@
     "title"       : "Резорбция на зъба",
     "titleEn"     : "Tooth Resorption",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -649,7 +649,7 @@
     "title"       : "Котешки хроничен гингивостоматит",
     "titleEn"     : "Feline Chronic Gingivostomatitis",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -666,7 +666,7 @@
     "title"       : "Хроничен остеит/ алвеолит",
     "titleEn"     : "Chronic Osteitis/Alveolitis",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -683,7 +683,7 @@
     "title"       : "Орални манифестации на котешко инфекциозно заболяване",
     "titleEn"     : "Oral Manifestations of Feline Infectious Diseases",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -700,7 +700,7 @@
     "title"       : "Дъвкателен миозит при кучета",
     "titleEn"     : "Canine Masticatory Muscle Myositis (CMMM)",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -717,7 +717,7 @@
     "title"       : "Невралгия на троичния нерв",
     "titleEn"     : "Trigeminal Neuropathy (Mandibular Neuropraxia)",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -734,7 +734,7 @@
     "title"       : "Атрофичен миозит",
     "titleEn"     : "Atrophic Myositis",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -751,7 +751,7 @@
     "title"       : "Травматичен гранулом",
     "titleEn"     : "Traumatic Granuloma",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -768,7 +768,7 @@
     "title"       : "Крикофарингеална ахалазия",
     "titleEn"     : "Cricopharyngeal Achalasia/ Dysfunction",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -785,7 +785,7 @@
     "title"       : "Фарингеална дисфагия",
     "titleEn"     : "Pharyngeal dysphagia",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -802,7 +802,7 @@
     "title"       : "Езофагит",
     "titleEn"     : "Esophagitis",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -819,7 +819,7 @@
     "title"       : "Мегаезофагус",
     "titleEn"     : "Esophageal weakness/ Megaesophagus",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -836,7 +836,7 @@
     "title"       : "Стриктура на хранопровода",
     "titleEn"     : "Esophageal Stricture",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -853,7 +853,7 @@
     "title"       : "Обструкция на хранопровода",
     "titleEn"     : "Esophageal obstruction",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -870,7 +870,7 @@
     "title"       : "Трахеоезофагеална фистула",
     "titleEn"     : "Airway-esophageal fistula",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -887,7 +887,7 @@
     "title"       : "Чуждо тяло в хранопровода",
     "titleEn"     : "Esophageal Foreign Bodies",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -904,7 +904,7 @@
     "title"       : "Гастрит",
     "titleEn"     : "Gastritis",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -921,7 +921,7 @@
     "title"       : "Язва на стомаха",
     "titleEn"     : "Gastric ulceration",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -938,7 +938,7 @@
     "title"       : "Превъртане на стомаха",
     "titleEn"     : "Gastric dilation-volvulus",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -955,7 +955,7 @@
     "title"       : "Неоплазии на стомаха",
     "titleEn"     : "Neoplastic conditions of the stomach",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -972,7 +972,7 @@
     "title"       : "Гастропареза (Забавено изпразване на стомаха)/ Обструкция на стомаха",
     "titleEn"     : "Gastric stasis/ Gastric outlet obstruction",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -989,7 +989,7 @@
     "title"       : "Стеноза на пилора",
     "titleEn"     : "Pyloric stenosis",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1006,7 +1006,7 @@
     "title"       : "Спазъм на пилора",
     "titleEn"     : "Pylorospasm",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1023,7 +1023,7 @@
     "title"       : "Диспепсия",
     "titleEn"     : "Dyspepsia",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1040,7 +1040,7 @@
     "title"       : "Лимфоцитен-плазматичен ентерит",
     "titleEn"     : "Lymphocytic-Plasmacytic Enteritis",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1057,7 +1057,7 @@
     "title"       : "Еозинофилен ентерит",
     "titleEn"     : "Eosinophilic Enteritis",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1074,7 +1074,7 @@
     "title"       : "Грануломатозен ентерит",
     "titleEn"     : "Granulomatous Enteritis",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1091,7 +1091,7 @@
     "title"       : "Колит",
     "titleEn"     : "Colitis",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1108,7 +1108,7 @@
     "title"       : "Обструкция на червата",
     "titleEn"     : "Intestinal Obstruction",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1125,7 +1125,7 @@
     "title"       : "Тумор на червата",
     "titleEn"     : "Neoplastic Conditions of the Intestines",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1142,7 +1142,7 @@
     "title"       : "Стомашно-чревна перфорация",
     "titleEn"     : "Gastrointestinal Perforation",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1159,7 +1159,7 @@
     "title"       : "Синдром на малабсорбция",
     "titleEn"     : "Malabsorption Syndromes",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1176,7 +1176,7 @@
     "title"       : "Хиатална херния",
     "titleEn"     : "Hiatal hernia",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1193,7 +1193,7 @@
     "title"       : "Ингвинална херния",
     "titleEn"     : "Inguinal hernia",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1210,7 +1210,7 @@
     "title"       : "Феморална херния",
     "titleEn"     : "Femoral hernia",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1227,7 +1227,7 @@
     "title"       : "Пъпна херния",
     "titleEn"     : "Umbilical hernia",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1244,7 +1244,7 @@
     "title"       : "Вентрална херния",
     "titleEn"     : "Ventral hernia",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1261,7 +1261,7 @@
     "title"       : "Диафрагмална херния",
     "titleEn"     : "Diaphragmatic hernia",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1278,7 +1278,7 @@
     "title"       : "Други абдоминални хернии",
     "titleEn"     : "Other abdominal hernias",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1295,7 +1295,7 @@
     "title"       : "Абдоминална херния, неуточнена",
     "titleEn"     : "Abdominal hernia, unspecified",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1312,7 +1312,7 @@
     "title"       : "Перитонит",
     "titleEn"     : "Peritonitis",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1329,7 +1329,7 @@
     "title"       : "Асцит",
     "titleEn"     : "Ascites",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1346,7 +1346,7 @@
     "title"       : "Хепатит",
     "titleEn"     : "Hepatitis",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1363,7 +1363,7 @@
     "title"       : "Чернодробна липидоза",
     "titleEn"     : "Hepatic Lipidosis (Feline Hepatic Lipidosis)",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -1380,7 +1380,7 @@
     "title"       : "Чернодробна цироза",
     "titleEn"     : "Cirrhosis",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1397,7 +1397,7 @@
     "title"       : "Чернодробен тумор",
     "titleEn"     : "Hepatic Neoplasia",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1414,7 +1414,7 @@
     "title"       : "Чернодробна енцефалопатия",
     "titleEn"     : "Hepatic Encephalopathy",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1431,7 +1431,7 @@
     "title"       : "Портосистемен шънт",
     "titleEn"     : "Portosystemic Shunt",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -1448,7 +1448,7 @@
     "title"       : "Хепатопатия, свързана с мед",
     "titleEn"     : "Copper-Associated Hepatopathy",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1465,7 +1465,7 @@
     "title"       : "Абсцес на черния дроб",
     "titleEn"     : "Hepatic Abscesses",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1482,7 +1482,7 @@
     "title"       : "Холецистит",
     "titleEn"     : "Cholecystitis (Inflammation of the Gallbladder)",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1499,7 +1499,7 @@
     "title"       : "Холангит/ Холангиохепатит",
     "titleEn"     : "Cholangitis/Cholangiohepatitis",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1516,7 +1516,7 @@
     "title"       : "Мукоцеле на жлъчния мехур",
     "titleEn"     : "Gallbladder Mucocele",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1533,7 +1533,7 @@
     "title"       : "Обструкция на жлъчните пътища",
     "titleEn"     : "Biliary Obstruction",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1550,7 +1550,7 @@
     "title"       : "Камъни в жлъчния мехур",
     "titleEn"     : "Gallstones (Cholelithiasis)",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1567,7 +1567,7 @@
     "title"       : "Тумори на жлъчния мехур и жлъчните пътища",
     "titleEn"     : "Neoplasms of the Gallbladder and Biliary Tract",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1584,7 +1584,7 @@
     "title"       : "Панкреатит",
     "titleEn"     : "Pancreatitis",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -1601,7 +1601,7 @@
     "title"       : "Екзокринна панкреасна недостатъчност",
     "titleEn"     : "Exocrine Pancreatic Insufficiency (EPI)",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -1618,7 +1618,7 @@
     "title"       : "Тумор на панкреаса",
     "titleEn"     : "Pancreatic Neoplasia",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1635,7 +1635,7 @@
     "title"       : "Абсцес на панкреаса",
     "titleEn"     : "Pancreatic Abscess",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1652,7 +1652,7 @@
     "title"       : "Илеус",
     "titleEn"     : "Ileus",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1669,7 +1669,7 @@
     "title"       : "Интестинална лимфангиектазия",
     "titleEn"     : "Intestinal Lymphangiectasia",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1686,7 +1686,7 @@
     "title"       : "Дисбиоза",
     "titleEn"     : "Dysbiosis",
     "type"        : "digestive",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [

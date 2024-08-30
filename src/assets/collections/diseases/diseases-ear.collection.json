@@ -3,7 +3,7 @@
     "title"       : "Възпаление на външното ухо",
     "titleEn"     : "Otitis Externa",
     "type"        : "ear",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -20,7 +20,7 @@
     "title"       : "Заболявания на ушната мида",
     "titleEn"     : "Diseases of the Ear Pinna",
     "type"        : "ear",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -37,7 +37,7 @@
     "title"       : "Отохематом",
     "titleEn"     : "Otohematoma",
     "type"        : "ear",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -54,7 +54,7 @@
     "title"       : "Възпаление на средното ухо",
     "titleEn"     : "Otitis Media",
     "type"        : "ear",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -71,7 +71,7 @@
     "title"       : "Маласезиен отит",
     "titleEn"     : "Malassezia Otitis",
     "type"        : "ear",
-    "animals"     : "dogs",
+    "animals"     : ["dogs"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -88,7 +88,7 @@
     "title"       : "Отодектоза (Ушна краста)",
     "titleEn"     : "Otodectosis (Ear Mites)",
     "type"        : "parasitic",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -105,7 +105,7 @@
     "title"       : "Заболяване на вестибуларния апарат",
     "titleEn"     : "Vestibular Apparatus",
     "type"        : "ear",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -122,7 +122,7 @@
     "title"       : "Заболяване на мембранозния лабиринт",
     "titleEn"     : "Cochlear Disorders",
     "type"        : "ear",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [

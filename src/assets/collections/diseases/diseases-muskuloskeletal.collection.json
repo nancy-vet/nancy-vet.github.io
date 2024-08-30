@@ -3,7 +3,7 @@
     "title"       : "Септичен артрит",
     "titleEn"     : "Septic Arthritis",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -20,7 +20,7 @@
     "title"       : "Имунно-медииран полиартрит",
     "titleEn"     : "Immune-Mediated Polyarthritis",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -37,7 +37,7 @@
     "title"       : "Реактивен артрит",
     "titleEn"     : "Reactive Arthritis",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -54,7 +54,7 @@
     "title"       : "Дегенеративно заболяване на ставите (Остеоартроза/ остеоартрит)",
     "titleEn"     : "Degenerative Joint Disease (DJD)",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -71,7 +71,7 @@
     "title"       : "Дисплазия на ставата",
     "titleEn"     : "Joint Dysplasia",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -88,7 +88,7 @@
     "title"       : "Дисплазия на тазобедрената става",
     "titleEn"     : "Canine Hip Dysplasia (CHD)",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -105,7 +105,7 @@
     "title"       : "Дисплазия на лакътната става",
     "titleEn"     : "Elbow Dysplasia",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -122,7 +122,7 @@
     "title"       : "Луксация на пателата",
     "titleEn"     : "Patellar Luxation",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -139,7 +139,7 @@
     "title"       : "Луксация на ставата",
     "titleEn"     : "Joint Luxations",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -156,7 +156,7 @@
     "title"       : "Разкъсване на менискуса",
     "titleEn"     : "Meniscal Tears",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -173,7 +173,7 @@
     "title"       : "Остеохондрозис дисеканс",
     "titleEn"     : "Osteochondritis Dissecans (OCD)",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -190,7 +190,7 @@
     "title"       : "Асептична некроза на главата на бедрената кост",
     "titleEn"     : "Aseptic Necrosis of the Femoral Head (Legg-Calvé-Perthes Disease)",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -207,7 +207,7 @@
     "title"       : "Хипертрофична остеодистрофия",
     "titleEn"     : "Hypertrophic Osteodystrophy (HOD)",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -224,7 +224,7 @@
     "title"       : "Калциеви отлагания в синовиалната торбичка",
     "titleEn"     : "Calcium Pyrophosphate Deposition Disease (CPPD)",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -241,7 +241,7 @@
     "title"       : "Подагра",
     "titleEn"     : "Gout",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -258,7 +258,7 @@
     "title"       : "Системен лупус еритематозус",
     "titleEn"     : "Systemic Lupus Erythematosus (SLE)",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -275,7 +275,7 @@
     "title"       : "склеродермия",
     "titleEn"     : "Scleroderma",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -292,7 +292,7 @@
     "title"       : "Дерматомиозит",
     "titleEn"     : "Dermatomyositis",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -309,7 +309,7 @@
     "title"       : "Полимиозит",
     "titleEn"     : "Polymyositis",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -326,7 +326,7 @@
     "title"       : "Сколиоза и кифоза",
     "titleEn"     : "Scoliosis and Kyphosis",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -343,7 +343,7 @@
     "title"       : "Спондилоза",
     "titleEn"     : "Spondylosis Deformans",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -360,7 +360,7 @@
     "title"       : "Дискова херния",
     "titleEn"     : "Intervertebral Disk Disease (IVDD)",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -377,7 +377,7 @@
     "title"       : "Синдром на Wobbler",
     "titleEn"     : "Wobbler Syndrome (Cervical Spondylomyelopathy)",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -394,7 +394,7 @@
     "title"       : "Лумбосакрална стеноза",
     "titleEn"     : "Lumbosacral Stenosis",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -411,7 +411,7 @@
     "title"       : "Синдром „Cauda Equina“",
     "titleEn"     : "Cauda Equina Syndrome",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -428,7 +428,7 @@
     "title"       : "Травма на гръбначния мозък",
     "titleEn"     : "Spinal Cord Injuries",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -445,7 +445,7 @@
     "title"       : "Миозит",
     "titleEn"     : "Myositis",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -462,7 +462,7 @@
     "title"       : "Мускулна атрофия и хипертрофия",
     "titleEn"     : "Muscle Atrophy and Hypertrophy",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -479,7 +479,7 @@
     "title"       : "Мускулна контрактура",
     "titleEn"     : "Muscle Contracture",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -496,7 +496,7 @@
     "title"       : "Тендинопатия",
     "titleEn"     : "Tendinopathies",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -513,7 +513,7 @@
     "title"       : "Заболяване на кръстовидна ставна връзка на коляното.",
     "titleEn"     : "Cranial Cruciate Ligament Disease (CCLD)",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -530,7 +530,7 @@
     "title"       : "Луксация на колянното капаче",
     "titleEn"     : "Medial Patellar Luxation (MPL)",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -547,7 +547,7 @@
     "title"       : "Остеопороза и остеопения",
     "titleEn"     : "Osteoporosis and Osteopenia",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -564,7 +564,7 @@
     "title"       : "Остеомалация",
     "titleEn"     : "Osteomalacia",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -581,7 +581,7 @@
     "title"       : "Рахит",
     "titleEn"     : "Rickets",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -598,7 +598,7 @@
     "title"       : "Остеомиелит",
     "titleEn"     : "Osteomyelitis",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -615,7 +615,7 @@
     "title"       : "Фиброзен остеит, свързан с хиперпаратиреоидизъм",
     "titleEn"     : "Hyperparathyroidism-Related Bone Disease",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -632,7 +632,7 @@
     "title"       : "Костни промени, вследствие на хипервитаминоза А",
     "titleEn"     : "Hypervitaminosis A-Induced Bone Changes",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -649,7 +649,7 @@
     "title"       : "Фрактура",
     "titleEn"     : "Fractures",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -666,7 +666,7 @@
     "title"       : "Тумор на костта",
     "titleEn"     : "Bone Neoplasia",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -683,7 +683,7 @@
     "title"       : "Хипертрофична остеопатия",
     "titleEn"     : "Hypertrophic Osteopathy",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -700,7 +700,7 @@
     "title"       : "Хипертрофична остеодистрофия",
     "titleEn"     : "Hypertrophic Osteodystrophy (HOD)",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -717,7 +717,7 @@
     "title"       : "Паностеит",
     "titleEn"     : "Panosteitis",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -734,7 +734,7 @@
     "title"       : "Остеохондроза",
     "titleEn"     : "Osteochondrosis",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -751,7 +751,7 @@
     "title"       : "Остеохондроматоза",
     "titleEn"     : "Osteochondromatosis",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -768,7 +768,7 @@
     "title"       : "Синовиална хондроматоза",
     "titleEn"     : "Synovial Chondromatosis",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -785,7 +785,7 @@
     "title"       : "Хондродисплазия",
     "titleEn"     : "Chondrodysplasia",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -802,7 +802,7 @@
     "title"       : "Задържано хрущялно ядро",
     "titleEn"     : "Retained Cartilaginous Core",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -819,7 +819,7 @@
     "title"       : "Преждевременно калцифицирали епифизи",
     "titleEn"     : "Premature Growth Plate Closure",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -836,7 +836,7 @@
     "title"       : "Костна киста",
     "titleEn"     : "Bone Cysts",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -853,7 +853,7 @@
     "title"       : "Асептична идиопатична остеонекроза",
     "titleEn"     : "Avascular Necrosis of Bone (Legg-Calvé-Perthes Disease)",
     "type"        : "muskuloskeletal",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [

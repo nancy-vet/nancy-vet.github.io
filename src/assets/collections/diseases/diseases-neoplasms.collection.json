@@ -3,7 +3,7 @@
     "title"       : "",
     "titleEn"     : "",
     "type"        : "neoplasms",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [

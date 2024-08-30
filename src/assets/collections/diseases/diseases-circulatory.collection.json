@@ -3,7 +3,7 @@
     "title"       : "Отворен дуктус артериозус",
     "titleEn"     : "Patent Ductus Arteriosus (PDA)",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -20,7 +20,7 @@
     "title"       : "Персистиращи извивки на аортната дъга",
     "titleEn"     : "Persistent right aortic arch",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -37,7 +37,7 @@
     "title"       : "Междупредсърден септален дефект",
     "titleEn"     : "Atrial Septal Defect (ASD)",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -54,7 +54,7 @@
     "title"       : "Междукамерен септален дефект",
     "titleEn"     : "Ventricular Septal Defect (VSD)",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -71,7 +71,7 @@
     "title"       : "Пулмонална стеноза",
     "titleEn"     : "Pulmonic Stenosis",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -88,7 +88,7 @@
     "title"       : "Аортна стеноза",
     "titleEn"     : "Aortic stenosis",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -105,7 +105,7 @@
     "title"       : "Митрална дисплазия",
     "titleEn"     : "Mitral dysplasia",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -122,7 +122,7 @@
     "title"       : "Трикуспидална дисплазия",
     "titleEn"     : "Tricuspid dysplasia",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -139,7 +139,7 @@
     "title"       : "Тетралогия на Fallot",
     "titleEn"     : "Tetralogy of Fallot",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -156,7 +156,7 @@
     "title"       : "Трипредсърдно сърце",
     "titleEn"     : "Cor Triatriatum",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -173,7 +173,7 @@
     "title"       : "Ендокардна фиброеластоза",
     "titleEn"     : "Endocardial Fibroelastosis",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -190,7 +190,7 @@
     "title"       : "Заболяване на митралната клапа",
     "titleEn"     : "Mitral valve disease",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -207,7 +207,7 @@
     "title"       : "Бактериален ендокардит",
     "titleEn"     : "Bacterial Endocarditis",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -224,7 +224,7 @@
     "title"       : "Кардиомиопатия, свързана с дефицит на таурин",
     "titleEn"     : "Taurine Deficiency Associated Dilated Cardiomyopathy",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -241,7 +241,7 @@
     "title"       : "Кардиомиопатия, предизвикана от доксорубицин",
     "titleEn"     : "Doxorubicin-induced Cardiomyopathy",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -258,7 +258,7 @@
     "title"       : "Кардиомиопатия, предизвикана от хипертиреоидизъм",
     "titleEn"     : "Hyperthyroidism-induced Cardiomyopathy",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -275,7 +275,7 @@
     "title"       : "Кардиомиопатия, предизвикана от захарен диабет",
     "titleEn"     : "Diabetic cardiomyopathy",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -292,7 +292,7 @@
     "title"       : "Дилатативна кардиомиопатия",
     "titleEn"     : "Dilated Cardiomyopathy (DCM)",
     "type"        : "circulatory",
-    "animals"     : "dogs",
+    "animals"     : ["dogs"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -309,7 +309,7 @@
     "title"       : "Хипертрофична кардиомиопатия",
     "titleEn"     : "Hypertrophic Cardiomyopathy (HCM)",
     "type"        : "circulatory",
-    "animals"     : "cats",
+    "animals"     : ["cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -326,7 +326,7 @@
     "title"       : "Сърдечно заболяване, породено от мускулна дистрофия тип Дюшен",
     "titleEn"     : "Duchenne Cardiomyopathy",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -343,7 +343,7 @@
     "title"       : "Дясно-ляв сърдечен шънт",
     "titleEn"     : "Right-to-left-shunting",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -360,7 +360,7 @@
     "title"       : "Рестриктивна кардиомиопатия",
     "titleEn"     : "Restrictive Cardiomyopathy",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -377,7 +377,7 @@
     "title"       : "Tрикуспидална (клапна) инсуфициенция",
     "titleEn"     : "Tricuspid Valve Disease",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -394,7 +394,7 @@
     "title"       : "Ендокардит",
     "titleEn"     : "Endocarditis",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -411,7 +411,7 @@
     "title"       : "Хипертензия",
     "titleEn"     : "Hypertension (Systemic Hypertension)",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -428,7 +428,7 @@
     "title"       : "Хипотензия",
     "titleEn"     : "Hypotension",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -445,7 +445,7 @@
     "title"       : "Тромбоза и тромбоемболизъм",
     "titleEn"     : "Thrombosis and Thromboembolism",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -462,7 +462,7 @@
     "title"       : "Аортен тромбоемболизъм",
     "titleEn"     : "Aortic Thromboembolism",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -479,7 +479,7 @@
     "title"       : "Артериосклероза",
     "titleEn"     : "Arteriosclerosis",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -496,7 +496,7 @@
     "title"       : "Атеросклероза",
     "titleEn"     : "Atherosclerosis",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -513,7 +513,7 @@
     "title"       : "Васкулит",
     "titleEn"     : "Vasculitis",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -530,7 +530,7 @@
     "title"       : "Лимфангиектазия",
     "titleEn"     : "Lymphangiectasia",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -547,7 +547,7 @@
     "title"       : "Хемангиосаркома",
     "titleEn"     : "Hemangiosarcoma",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -564,7 +564,7 @@
     "title"       : "Предсърдно мъждене и трептене",
     "titleEn"     : "Atrial fibrillation and flutter",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -581,7 +581,7 @@
     "title"       : "Спиране на сърцето",
     "titleEn"     : "Cardiac arrest",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -598,7 +598,7 @@
     "title"       : "Камерна тахикардия",
     "titleEn"     : "Ventricular Tachycardia",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -615,7 +615,7 @@
     "title"       : "Надкамерна тахикардия",
     "titleEn"     : "Supraventricular Tachycardia",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -632,7 +632,7 @@
     "title"       : "Синусова брадикардия",
     "titleEn"     : "Sinus Bradycardia",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -649,7 +649,7 @@
     "title"       : "Атриовентрикуларен блок",
     "titleEn"     : "Atrioventricular Block (1st, 2nd, and 3rd degree)",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -666,7 +666,7 @@
     "title"       : "Синдром на болния синусов възел",
     "titleEn"     : "Sick Sinus Syndrome",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -683,7 +683,7 @@
     "title"       : "Застойна сърдечна недостатъчност",
     "titleEn"     : "Congestive Heart Failure (CHF)",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -700,7 +700,7 @@
     "title"       : "Лявостранна сърдечна недостатъчност",
     "titleEn"     : "Left-sided Heart Failure",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -717,7 +717,7 @@
     "title"       : "Дясностранна сърдечна недостатъчност",
     "titleEn"     : "Right-sided Heart Failure",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -734,7 +734,7 @@
     "title"       : "Кардиогенен шок",
     "titleEn"     : "Cardiogenic Shock",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -751,7 +751,7 @@
     "title"       : "Перикарден излив",
     "titleEn"     : "Pericardial Effusion",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -768,7 +768,7 @@
     "title"       : "Перикардит",
     "titleEn"     : "Pericarditis",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -785,7 +785,7 @@
     "title"       : "Тумор на перикарда",
     "titleEn"     : "Pericardial Tumors (e.g., mesothelioma)",
     "type"        : "circulatory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [

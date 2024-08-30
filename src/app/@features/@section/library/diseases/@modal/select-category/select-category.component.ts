@@ -14,7 +14,7 @@ export class SelectCategoryModal {
 
   private $selectedCategories: any  = [];
   private _searchCriteria: string   = 'title';
-  private selectedAnimalType: any = 'dogs';
+  private selectedAnimalType: any = null;
 
   /**
    * @author Mihail Petrov
