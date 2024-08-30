@@ -3,7 +3,7 @@
     "title"       : "Ринит",
     "titleEn"     : "Rhinitis",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -20,7 +20,7 @@
     "title"       : "Полип на носа",
     "titleEn"     : "Nasal Polyps",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -37,7 +37,7 @@
     "title"       : "Тумор на носа",
     "titleEn"     : "Nasal Tumors",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -54,7 +54,7 @@
     "title"       : "Назофарингеален полип",
     "titleEn"     : "Nasopharyngeal Polyps",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -71,7 +71,7 @@
     "title"       : "Синузит",
     "titleEn"     : "Sinusitis",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -88,7 +88,7 @@
     "title"       : "Чуждо тяло в носа",
     "titleEn"     : "Nasal Foreign Bodies",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -105,7 +105,7 @@
     "title"       : "Паразити в носа",
     "titleEn"     : "Nasal Mites (Pneumonyssoides caninum)",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -122,7 +122,7 @@
     "title"       : "Вродени аномалии",
     "titleEn"     : "Congenital Anomalies",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -139,7 +139,7 @@
     "title"       : "Хиперкератоза на носа",
     "titleEn"     : "Nasal Hyperkeratosis",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -156,7 +156,7 @@
     "title"       : "Идиопатичен нлимфоплазматичен ринит",
     "titleEn"     : "Idiopathic Lymphoplasmacytic Rhinitis",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -173,7 +173,7 @@
     "title"       : "Фарингит",
     "titleEn"     : "Pharyngitis",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -190,7 +190,7 @@
     "title"       : "Ларингит",
     "titleEn"     : "Laryngitis",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -207,7 +207,7 @@
     "title"       : "Парализа на ларинкса",
     "titleEn"     : "Laryngeal Paralysis",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -224,7 +224,7 @@
     "title"       : "Стеноза на ларинкса",
     "titleEn"     : "Laryngeal Stenosis",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -241,7 +241,7 @@
     "title"       : "Колапс на ларинкса",
     "titleEn"     : "Laryngeal Collapse",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -258,7 +258,7 @@
     "title"       : "Оток на ларинкса",
     "titleEn"     : "Laryngeal Edema",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -275,7 +275,7 @@
     "title"       : "Тумор на ларинкса",
     "titleEn"     : "Laryngeal Tumors",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -292,7 +292,7 @@
     "title"       : "Брахицефален синдром (БЦС)",
     "titleEn"     : "Brachycephalic Airway Syndrome (BAS)",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -309,7 +309,7 @@
     "title"       : "Чуждо тяло в ларинкса",
     "titleEn"     : "Laryngeal Foreign Bodies",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -326,7 +326,7 @@
     "title"       : "Гранулом на ларинкса",
     "titleEn"     : "Laryngeal Granulomas",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -343,7 +343,7 @@
     "title"       : "Трахеит",
     "titleEn"     : "Tracheitis",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -360,7 +360,7 @@
     "title"       : "Колапс на трахеята",
     "titleEn"     : "Tracheal Collapse",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -377,7 +377,7 @@
     "title"       : "Хипоплазия на трахеята",
     "titleEn"     : "Tracheal Hypoplasia",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -394,7 +394,7 @@
     "title"       : "Тумор на трахеята",
     "titleEn"     : "Tracheal Neoplasia",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -411,7 +411,7 @@
     "title"       : "Чуждо тяло в трахеята",
     "titleEn"     : "Tracheal Foreign Bodies",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -428,7 +428,7 @@
     "title"       : "Кучешки инфекциозен трахеобронхит (Кучешка кашлица)",
     "titleEn"     : "Canine Infectious Tracheobronchitis (Kennel Cough)",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -445,7 +445,7 @@
     "title"       : "Котешки инфекциозен трахеобронхит",
     "titleEn"     : "Feline Infectious Tracheobronchitis (part of Feline Upper Respiratory Tract Disease complex)",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -462,7 +462,7 @@
     "title"       : "Бронхит",
     "titleEn"     : "Bronchitis",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -479,7 +479,7 @@
     "title"       : "Хроничен бронхит",
     "titleEn"     : "Chronic Bronchitis (more common in dogs)",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -496,7 +496,7 @@
     "title"       : "Котешка астма",
     "titleEn"     : "Feline Asthma",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -513,7 +513,7 @@
     "title"       : "Бронхиектазия",
     "titleEn"     : "Bronchiectasis",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -530,7 +530,7 @@
     "title"       : "Бронхопневмония",
     "titleEn"     : "Bronchopneumonia",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -547,7 +547,7 @@
     "title"       : "Тумор на бронхите",
     "titleEn"     : "Bronchial Neoplasia",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -564,7 +564,7 @@
     "title"       : "Чуждо тяло в бронхите",
     "titleEn"     : "Bronchial Foreign Bodies",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -581,7 +581,7 @@
     "title"       : "Еозинофилна бронхопневмопатия (белодробни инфилтрати с еозинофили)",
     "titleEn"     : "Eosinophilic Bronchopneumopathy (Pulmonary Infiltrates with Eosinophils)",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -598,7 +598,7 @@
     "title"       : "Пневмония, аспирационна",
     "titleEn"     : "Pneumonia, Aspiration",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -615,7 +615,7 @@
     "title"       : "Пневмония, бактериална",
     "titleEn"     : "Pneumonia, Bacterial",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -632,7 +632,7 @@
     "title"       : "Пневмония, еозинофилна",
     "titleEn"     : "Pneumonia, Eosinophilic",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -649,7 +649,7 @@
     "title"       : "Пневмония, гъбична",
     "titleEn"     : "Pneumonia, Fungal",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -666,7 +666,7 @@
     "title"       : "Пневмония, интерстициална",
     "titleEn"     : "Pneumonia, Interstitial",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -683,7 +683,7 @@
     "title"       : "Белодробен оток",
     "titleEn"     : "Pulmonary Edema",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -700,7 +700,7 @@
     "title"       : "Белодробна неоплазия",
     "titleEn"     : "Pulmonary Neoplasia",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -717,7 +717,7 @@
     "title"       : "Белодробна фиброза",
     "titleEn"     : "Pulmonary Fibrosis",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -734,7 +734,7 @@
     "title"       : "Белодробна хипертония",
     "titleEn"     : "Pulmonary Hypertension",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -751,7 +751,7 @@
     "title"       : "Торзио на лоб на белия дроб",
     "titleEn"     : "Lung Lobe Torsion",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -768,7 +768,7 @@
     "title"       : "Белодробна хеморагия",
     "titleEn"     : "Pulmonary Hemorrhage",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -785,7 +785,7 @@
     "title"       : "Белодробна контузия",
     "titleEn"     : "Pulmonary Contusions (from trauma)",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -802,7 +802,7 @@
     "title"       : "Белодробен тромбоемболизъм",
     "titleEn"     : "Pulmonary Thromboembolism",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -819,7 +819,7 @@
     "title"       : "Абсцес на белия дроб",
     "titleEn"     : "Lung Abscess",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -836,7 +836,7 @@
     "title"       : "Емфизем",
     "titleEn"     : "Emphysema",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -853,7 +853,7 @@
     "title"       : "Котешки инфекциозен перитонит със засягане на белия дроб",
     "titleEn"     : "Feline Infectious Peritonitis (FIP) with Pulmonary Involvement",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -870,7 +870,7 @@
     "title"       : "Плеврален излив",
     "titleEn"     : "Pleural Effusion",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -887,7 +887,7 @@
     "title"       : "Пневмоторакс",
     "titleEn"     : "Pneumothorax (Air in the Pleural Cavity)",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -904,7 +904,7 @@
     "title"       : "Плеврит",
     "titleEn"     : "Pleuritis (Pleural Inflammation)",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -921,7 +921,7 @@
     "title"       : "Мезотелиома",
     "titleEn"     : "Mesothelioma",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -938,7 +938,7 @@
     "title"       : "Диафрагмална херния",
     "titleEn"     : "Diaphragmatic Hernia (with pleural involvement)",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -955,7 +955,7 @@
     "title"       : "Плеврална фиброза",
     "titleEn"     : "Pleural Fibrosis",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -972,7 +972,7 @@
     "title"       : "Заболяване на горните дихателни пътища при котки",
     "titleEn"     : "Feline Upper Respiratory Tract Disease (FURTD)",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -989,7 +989,7 @@
     "title"       : "Комплекс на респираторно инфекциозно заболяване при кучета",
     "titleEn"     : "Canine Infectious Respiratory Disease Complex (CIRDC)",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1006,7 +1006,7 @@
     "title"       : "Системна гъбична инфекция",
     "titleEn"     : "Systemic Fungal Infections (with respiratory involvement)",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1023,7 +1023,7 @@
     "title"       : "Вдишване на дим",
     "titleEn"     : "Smoke Inhalation Injury",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1040,7 +1040,7 @@
     "title"       : "Анафилактична реакция със засягане на дихателните пътища",
     "titleEn"     : "Anaphylactic Reactions (with respiratory involvement)",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1057,7 +1057,7 @@
     "title"       : "Алергична реакция",
     "titleEn"     : "Allergic Reactions (e.g., to insect stings, drugs)",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1074,7 +1074,7 @@
     "title"       : "Първична цилиарна дискинезия",
     "titleEn"     : "Primary Ciliary Dyskinesia (Immotile Cilia Syndrome)",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1091,7 +1091,7 @@
     "title"       : "Хипоплазия на белия дроб",
     "titleEn"     : "Pulmonary Hypoplasia",
     "type"        : "respiratory",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [

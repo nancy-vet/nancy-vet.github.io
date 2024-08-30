@@ -3,7 +3,7 @@
     "title"       : "Бабезиоза",
     "titleEn"     : "Babesiosis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -20,7 +20,7 @@
     "title"       : "Балантидиаза",
     "titleEn"     : "Balantidiasis",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : ["dogs"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -37,7 +37,7 @@
     "title"       : "Болест на Шагас",
     "titleEn"     : "Chagas Disease (American Trypanosomiasis)",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : ["dogs"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -54,7 +54,7 @@
     "title"       : "Криптоспоридиоза",
     "titleEn"     : "Cryptosporidiosis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -71,7 +71,7 @@
     "title"       : "Гиардиаза",
     "titleEn"     : "Giardiasis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -88,7 +88,7 @@
     "title"       : "Хепатозооноза",
     "titleEn"     : "Hepatozoonosis",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : ["dogs"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -105,7 +105,7 @@
     "title"       : "Неоспороза",
     "titleEn"     : "Neosporosis",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : ["dogs"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -122,7 +122,7 @@
     "title"       : "Саркоцистоза",
     "titleEn"     : "Sarcocystis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -139,7 +139,7 @@
     "title"       : "Микроспоридиоза",
     "titleEn"     : "Microsporidiosis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -156,7 +156,7 @@
     "title"       : "Трихомониаза",
     "titleEn"     : "Trichomoniasis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -173,7 +173,7 @@
     "title"       : "Лайшманиоза",
     "titleEn"     : "Leishmaniasis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -190,7 +190,7 @@
     "title"       : "Аспергилоза",
     "titleEn"     : "Aspergillosis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -207,7 +207,7 @@
     "title"       : "Кандидиаза",
     "titleEn"     : "Candidiasis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -224,7 +224,7 @@
     "title"       : "Криптококоза",
     "titleEn"     : "Cryptococcosis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -241,7 +241,7 @@
     "title"       : "Дерматофитоза",
     "titleEn"     : "Dermatophytosis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -258,7 +258,7 @@
     "title"       : "Питиоза",
     "titleEn"     : "Pythiosis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -275,7 +275,7 @@
     "title"       : "Споротрихоза",
     "titleEn"     : "Sporotrichosis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -292,7 +292,7 @@
     "title"       : "Трихоспороноза",
     "titleEn"     : "Trichosporonosis",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : ["dogs"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -309,7 +309,7 @@
     "title"       : "Анаеробни инфекции",
     "titleEn"     : "Anaerobic infections",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -326,7 +326,7 @@
     "title"       : "Бруцелоза",
     "titleEn"     : "Brucellosis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -343,7 +343,7 @@
     "title"       : "Кампилобактериоза",
     "titleEn"     : "Campylobacteriosis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -360,7 +360,7 @@
     "title"       : "Клостридийна ентеротоксикоза",
     "titleEn"     : "Clostridial Enterotoxicosis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -377,7 +377,7 @@
     "title"       : "Колибацилоза",
     "titleEn"     : "Colibacillosis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -394,7 +394,7 @@
     "title"       : "Инфекция с Хеликобактер",
     "titleEn"     : "Helicobacter Infection",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -411,7 +411,7 @@
     "title"       : "Микобактериални инфекции",
     "titleEn"     : "Mycobacterial Infections",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -428,7 +428,7 @@
     "title"       : "Микоплазмоза",
     "titleEn"     : "Mycoplasmosis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -445,7 +445,7 @@
     "title"       : "Нокардиоза",
     "titleEn"     : "Nocardiosis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -462,7 +462,7 @@
     "title"       : "Петниста треска на Скалистите планини",
     "titleEn"     : "Rocky Mountain Spotted Fever",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : ["dogs"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -479,7 +479,7 @@
     "title"       : "Салмонелоза",
     "titleEn"     : "Salmonellosis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -496,7 +496,7 @@
     "title"       : "Стафилококова/ Бактериална пиодермия",
     "titleEn"     : "Staphylococcal/Bacterial Pyoderma",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -513,7 +513,7 @@
     "title"       : "Стрептококова инфекция",
     "titleEn"     : "Streptococcal Infections",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -530,7 +530,7 @@
     "title"       : "Тетанус",
     "titleEn"     : "Tetanus",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -547,7 +547,7 @@
     "title"       : "Туларемия",
     "titleEn"     : "Tularemia",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -564,7 +564,7 @@
     "title"       : "Болест на Тайзер",
     "titleEn"     : "Tyzzer‘s Disease",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -581,7 +581,7 @@
     "title"       : "Дерматофилоза",
     "titleEn"     : "Dermatophilosis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -598,7 +598,7 @@
     "title"       : "L-Form Bacterial Infections",
     "titleEn"     : "L-Form Bacterial Infections",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -615,7 +615,7 @@
     "title"       : "Астровирусна инфекция",
     "titleEn"     : "Astrovirus Infection",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : ["dogs"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -632,7 +632,7 @@
     "title"       : "Гана",
     "titleEn"     : "Canine Distemper",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : ["dogs"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -649,7 +649,7 @@
     "title"       : "Кучешка херпесвирусна инфекция",
     "titleEn"     : "Canine Herpesvirus Infection",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : ["dogs"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -666,7 +666,7 @@
     "title"       : "Кучешка инфлуенцавирусна инфекция",
     "titleEn"     : "Canine Influenzavirus Infection",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : ["dogs"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -683,7 +683,7 @@
     "title"       : "Парвовироза",
     "titleEn"     : "Canine Parvovirus Infection",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : ["dogs"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -700,7 +700,7 @@
     "title"       : "Болест на Ауески",
     "titleEn"     : "Pseudorabies Virus Infection",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -717,7 +717,7 @@
     "title"       : "Бяс",
     "titleEn"     : "Rabies",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -734,7 +734,7 @@
     "title"       : "Реовирусна инфекция",
     "titleEn"     : "Reovirus Infection",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -751,7 +751,7 @@
     "title"       : "Анаплазмоза",
     "titleEn"     : "Anaplasmosis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -768,7 +768,7 @@
     "title"       : "Ерлихиоза",
     "titleEn"     : "Ehrlichiosis",
     "type"        : "infectious",
-    "animals"     : "dogs",
+    "animals"     : ["dogs"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -785,7 +785,7 @@
     "title"       : "Лептоспироза",
     "titleEn"     : "Leptospirosis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -802,7 +802,7 @@
     "title"       : "Лаймска болест",
     "titleEn"     : "Lyme Borreliosis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -819,7 +819,7 @@
     "title"       : "Листериоза",
     "titleEn"     : "Listeriosis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -836,7 +836,7 @@
     "title"       : "Ку-треска",
     "titleEn"     : "Q Fever",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -853,7 +853,7 @@
     "title"       : "Панлевкопения",
     "titleEn"     : "Feline Panleukopenia (Feline Distemper)",
     "type"        : "infectious",
-    "animals"     : "cats",
+    "animals"     : ["cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -870,7 +870,7 @@
     "title"       : "Калицивироза",
     "titleEn"     : "Feline Calicivirus Infection",
     "type"        : "infectious",
-    "animals"     : "cats",
+    "animals"     : ["cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -887,7 +887,7 @@
     "title"       : "Котешка херпесвироза",
     "titleEn"     : "Feline Herpesvirus Infection",
     "type"        : "infectious",
-    "animals"     : "cats",
+    "animals"     : ["cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -904,7 +904,7 @@
     "title"       : "Котешки инфекциозен перитонит",
     "titleEn"     : "Feline Infectious Peritonitis",
     "type"        : "infectious",
-    "animals"     : "cats",
+    "animals"     : ["cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -921,7 +921,7 @@
     "title"       : "Котешка левкемия",
     "titleEn"     : "Feline Leukemia Virus Infection",
     "type"        : "infectious",
-    "animals"     : "cats",
+    "animals"     : ["cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -938,7 +938,7 @@
     "title"       : "Котешки имунодефицитен синдром",
     "titleEn"     : "Feline Immunodeficiency Virus",
     "type"        : "infectious",
-    "animals"     : "cats",
+    "animals"     : ["cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -955,7 +955,7 @@
     "title"       : "Feline Foamy Virus Infection",
     "titleEn"     : "Feline Foamy Virus Infection",
     "type"        : "infectious",
-    "animals"     : "cats",
+    "animals"     : ["cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -972,7 +972,7 @@
     "title"       : "Астровирусна инфекция",
     "titleEn"     : "Astrovirus Infection",
     "type"        : "infectious",
-    "animals"     : "cats",
+    "animals"     : ["cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -989,7 +989,7 @@
     "title"       : "Поквирусна инфекция",
     "titleEn"     : "Poxvirus Infection",
     "type"        : "infectious",
-    "animals"     : "cats",
+    "animals"     : ["cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1006,7 +1006,7 @@
     "title"       : "Котешка хламидиоза",
     "titleEn"     : "Chlamydiosis",
     "type"        : "infectious",
-    "animals"     : "cats",
+    "animals"     : ["cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -1023,7 +1023,7 @@
     "title"       : "Hemobartonellosis",
     "titleEn"     : "Хемобартонелоза",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -1040,7 +1040,7 @@
     "title"       : "Бартонелоза",
     "titleEn"     : "Bartonellosis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1057,7 +1057,7 @@
     "title"       : "Бордетелоза",
     "titleEn"     : "Bordetellosis",
     "type"        : "infectious",
-    "animals"     : "cats",
+    "animals"     : ["cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -1074,7 +1074,7 @@
     "title"       : "Ботулизъм",
     "titleEn"     : "Botulism",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1091,7 +1091,7 @@
     "title"       : "Протокекоза",
     "titleEn"     : "Protothecosis",
     "type"        : "infectious",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [

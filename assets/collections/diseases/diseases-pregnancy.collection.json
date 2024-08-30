@@ -3,7 +3,7 @@
     "title"       : "Извънматочна бременност",
     "titleEn"     : "Ectopic Pregnancy",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -20,7 +20,7 @@
     "title"       : "Спонтанен аборт при ранна бременност",
     "titleEn"     : "Early Pregnancy Loss",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -37,7 +37,7 @@
     "title"       : "Спонтанен аборт при бременност в средата на гестационния период",
     "titleEn"     : "Pregnancy Loss in Mid-Gestation",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -54,7 +54,7 @@
     "title"       : "Инфекции, предавани от майката на плода",
     "titleEn"     : "Maternal-Fetal Infections",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -71,7 +71,7 @@
     "title"       : "Mетаболитни разстройства при майката",
     "titleEn"     : "Maternal Metabolic Disorders",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -88,7 +88,7 @@
     "title"       : "Хипокалцемия",
     "titleEn"     : "Hypocalcemia (Eclampsia)",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -105,7 +105,7 @@
     "title"       : "Гестационен диабет",
     "titleEn"     : "Gestational Diabetes (Rare in dogs and cats)",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -122,7 +122,7 @@
     "title"       : "Отлепване на плацентата",
     "titleEn"     : "Placental Abruption",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -139,7 +139,7 @@
     "title"       : "Недостатъчност на плацентата",
     "titleEn"     : "Placental Insufficiency",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -156,7 +156,7 @@
     "title"       : "Хидропс",
     "titleEn"     : "Hydrops of the Fetal Membranes",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -173,7 +173,7 @@
     "title"       : "Малформации на плода",
     "titleEn"     : "Fetal Malformations",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -190,7 +190,7 @@
     "title"       : "Забавяне на растежа на плода",
     "titleEn"     : "Fetal Growth Retardation",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -207,7 +207,7 @@
     "title"       : "Вродени аномалии",
     "titleEn"     : "Congenital Anomalies",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -224,7 +224,7 @@
     "title"       : "Хипертония, индуцирана от бременност",
     "titleEn"     : "Pregnancy-Induced Hypertension",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -241,7 +241,7 @@
     "title"       : "Прееклампсия",
     "titleEn"     : "Pre-Eclampsia",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -258,7 +258,7 @@
     "title"       : "Антепартум хеморагия",
     "titleEn"     : "Antepartum Hemorrhage",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -275,7 +275,7 @@
     "title"       : "Постпартум хеморагия",
     "titleEn"     : "Postpartum Hemorrhage",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -292,7 +292,7 @@
     "title"       : "Атония на матката",
     "titleEn"     : "Uterine Atony",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -309,7 +309,7 @@
     "title"       : "Задържана плацента",
     "titleEn"     : "Retained Placenta",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -326,7 +326,7 @@
     "title"       : "Неправилно положение на плода",
     "titleEn"     : "Fetal Malpresentation",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -343,7 +343,7 @@
     "title"       : "Продължително раждане (дистоция)",
     "titleEn"     : "Prolonged Labor (Dystocia)",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -360,7 +360,7 @@
     "title"       : "Раждане с обструкция",
     "titleEn"     : "Obstructed Labor",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -377,7 +377,7 @@
     "title"       : "Асистирано раждане",
     "titleEn"     : "Assisted Deliveries",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -394,7 +394,7 @@
     "title"       : "Травма при раждане",
     "titleEn"     : "Birth Trauma",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -411,7 +411,7 @@
     "title"       : "Следродилен метрит",
     "titleEn"     : "Postpartum Metritis",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -428,7 +428,7 @@
     "title"       : "Следродилен мастит",
     "titleEn"     : "Postpartum Mastitis",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -445,7 +445,7 @@
     "title"       : "Субинволуция на плацентата",
     "titleEn"     : "Subinvolution of Placental Sites (SIPS)",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -462,7 +462,7 @@
     "title"       : "Еклампсия",
     "titleEn"     : "Eclampsia",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -479,7 +479,7 @@
     "title"       : "Следродилна хеморагия",
     "titleEn"     : "Postpartum Hemorrhage",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -496,7 +496,7 @@
     "title"       : "Следродилно поведенческо разстройство",
     "titleEn"     : "Postpartum Behavioral Disorders",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -513,7 +513,7 @@
     "title"       : "Нарушения при инволуция на матката",
     "titleEn"     : "Uterine Involution Disorders",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -530,7 +530,7 @@
     "title"       : "Задържана плацента",
     "titleEn"     : "Retained Placenta",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -547,7 +547,7 @@
     "title"       : "Анемия, свързана с бременност",
     "titleEn"     : "Anemia in Pregnancy",
     "type"        : "pregnancy",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [

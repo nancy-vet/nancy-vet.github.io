@@ -3,7 +3,7 @@
     "title"       : "Алергичен дерматит при ухапване от бълхи",
     "titleEn"     : "Flea Allergy Dermatitis (FAD)",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -20,7 +20,7 @@
     "title"       : "Атопичен дерматит",
     "titleEn"     : "Atopic Dermatitis",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -37,7 +37,7 @@
     "title"       : "Хранителна алергия",
     "titleEn"     : "Food Allergies",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -54,7 +54,7 @@
     "title"       : "Контактен дерматит",
     "titleEn"     : "Contact Dermatitis",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -71,7 +71,7 @@
     "title"       : "Маласезиен дерматит",
     "titleEn"     : "Malassezia Dermatitis",
     "type"        : "skin",
-    "animals"     : "dogs",
+    "animals"     : ["dogs"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -88,7 +88,7 @@
     "title"       : "Свръхчувствителност към ухапване от насекоми",
     "titleEn"     : "Insect Bite Hypersensitivity",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -105,7 +105,7 @@
     "title"       : "Милиарен дерматит",
     "titleEn"     : "Miliary Dermatitis",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -122,7 +122,7 @@
     "title"       : "Алопеция Х",
     "titleEn"     : "Alopecia X (dogs)",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -139,7 +139,7 @@
     "title"       : "Психогенна алопеция",
     "titleEn"     : "Stress-induced hair loss",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -156,7 +156,7 @@
     "title"       : "Сезонна алопеция на хълбока",
     "titleEn"     : "Seasonal Flank Alopecia (dogs)",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -173,7 +173,7 @@
     "title"       : "Себорея",
     "titleEn"     : "Seborrhea (Primary or Secondary)",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -190,7 +190,7 @@
     "title"       : "Ихтиоза",
     "titleEn"     : "Ichthyosis",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -207,7 +207,7 @@
     "title"       : "Дерматоза, повлияваща се от цинк",
     "titleEn"     : "Zinc-Responsive Dermatosis",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -224,7 +224,7 @@
     "title"       : "Пемфигус фолиацеус",
     "titleEn"     : "Pemphigus Foliaceus",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -241,7 +241,7 @@
     "title"       : "Хранителни дефицити",
     "titleEn"     : "Nutritional Deficiencies (e.g., Fatty Acids)",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -258,7 +258,7 @@
     "title"       : "Екфолиативен дерматит",
     "titleEn"     : "Exfoliative Dermatitis",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -275,7 +275,7 @@
     "title"       : "Влажен дерматит",
     "titleEn"     : "Acute Moist Dermatitis (Hot Spots)",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -292,7 +292,7 @@
     "title"       : "Еритема мултиформе",
     "titleEn"     : "Erythema Multiforme",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -309,7 +309,7 @@
     "title"       : "Васкулит",
     "titleEn"     : "Vasculitis",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -326,7 +326,7 @@
     "title"       : "Дерматоза, причинена от лекарства",
     "titleEn"     : "Drug-induced dermatosis",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -343,7 +343,7 @@
     "title"       : "Бактериален дерматит (Пиодермия)",
     "titleEn"     : "Bacterial Infections (Pyoderma)",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -360,7 +360,7 @@
     "title"       : "Хистиоцитома",
     "titleEn"     : "Histiocytoma",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -377,7 +377,7 @@
     "title"       : "Липома",
     "titleEn"     : "Lipoma",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -394,7 +394,7 @@
     "title"       : "Тумор на мастните клетки",
     "titleEn"     : "Mast Cell Tumor",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -411,7 +411,7 @@
     "title"       : "Кожна лимфома",
     "titleEn"     : "Cutaneous Lymphoma",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -428,7 +428,7 @@
     "title"       : "Себорейна аденома",
     "titleEn"     : "Sebaceous Adenoma",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -445,7 +445,7 @@
     "title"       : "Гранулом с чуждо тяло",
     "titleEn"     : "Foreign Body Granulomas",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -462,7 +462,7 @@
     "title"       : "Фурункулоза",
     "titleEn"     : "Furunculosis",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -479,7 +479,7 @@
     "title"       : "Feline Leprosy",
     "titleEn"     : "Feline Leprosy",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -495,7 +495,7 @@
     "title"       : "Canine Leproid Granuloma",
     "titleEn"     : "Canine Leproid Granuloma",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -511,7 +511,7 @@
     "title"       : "Mycobacterial Panniculitis",
     "titleEn"     : "Mycobacterial Panniculitis",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -528,7 +528,7 @@
     "title"       : "Дълбока пиодермия",
     "titleEn"     : "Deep Pyoderma",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -545,7 +545,7 @@
     "title"       : "Васкулит",
     "titleEn"     : "Vasculitis",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -562,7 +562,7 @@
     "title"       : "Лупус еритематозус",
     "titleEn"     : "Lupus Erythematosus",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -579,7 +579,7 @@
     "title"       : "Кожна лайшманиоза",
     "titleEn"     : "Cutaneous Leishmaniasis",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -596,7 +596,7 @@
     "title"       : "Изгаряне",
     "titleEn"     : "Burns (Thermal or Chemical)",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -613,7 +613,7 @@
     "title"       : "Витилиго",
     "titleEn"     : "Vitiligo",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -630,7 +630,7 @@
     "title"       : "Следвъзпалителна хиперпигментация",
     "titleEn"     : "Post-inflammatory Hyperpigmentation",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -647,7 +647,7 @@
     "title"       : "Лентиго",
     "titleEn"     : "Lentigo (cats)",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -664,7 +664,7 @@
     "title"       : "Меланома",
     "titleEn"     : "Melanoma (benign and malignant)",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -681,7 +681,7 @@
     "title"       : "Акантозис нигриканс",
     "titleEn"     : "Acanthosis Nigricans",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -698,7 +698,7 @@
     "title"       : "Петна тип 'кафе с мляко'",
     "titleEn"     : "Café-au-lait Spots",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -715,7 +715,7 @@
     "title"       : "Депигментация на носа (нос на Дъдли)",
     "titleEn"     : "Nasal Depigmentation (Dudley Nose)",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -732,7 +732,7 @@
     "title"       : "Пемфигус Вулгарис",
     "titleEn"     : "Pemphigus Vulgaris",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -749,7 +749,7 @@
     "title"       : "Булозен пемфигоид",
     "titleEn"     : "Bullous Pemphigoid",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -766,7 +766,7 @@
     "title"       : "Импетиго",
     "titleEn"     : "Impetigo ('Puppy Pyoderma')",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -783,7 +783,7 @@
     "title"       : "Субкорнеален пустулозен дерматит",
     "titleEn"     : "Subcorneal Pustular Dermatosis",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -800,7 +800,7 @@
     "title"       : "Херпесвирусен дерматит",
     "titleEn"     : "Herpesvirus Dermatitis (cats)",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -817,7 +817,7 @@
     "title"       : "Булозна епидермолиза",
     "titleEn"     : "Epidermolysis Bullosa",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -834,7 +834,7 @@
     "title"       : "Калус",
     "titleEn"     : "Callus Formation",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -851,7 +851,7 @@
     "title"       : "Хиперкератоза на носа и/ или лапите",
     "titleEn"     : "Hyperkeratosis of the Nasal Planum and/ or Footpads",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -868,7 +868,7 @@
     "title"       : "Папиломатоза (брадавици)",
     "titleEn"     : "Papillomatosis (Viral Warts)",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -885,7 +885,7 @@
     "title"       : "Хиперплазия на мастните жлези",
     "titleEn"     : "Sebaceous Hyperplasia",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -902,7 +902,7 @@
     "title"       : "Кучешко акне",
     "titleEn"     : "Canine Acne",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -919,7 +919,7 @@
     "title"       : "Feline акне",
     "titleEn"     : "Canine Acne",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -936,7 +936,7 @@
     "title"       : "Кожен рог",
     "titleEn"     : "Cutaneous Horns",
     "type"        : "skin",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [

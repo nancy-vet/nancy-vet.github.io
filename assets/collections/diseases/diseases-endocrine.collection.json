@@ -3,7 +3,7 @@
     "title"       : "Безвкусен диабет",
     "titleEn"     : "Diabetes insipidus",
     "type"        : "endocrine",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -20,7 +20,7 @@
     "title"       : "Хипосоматотропизъм (хипофизно джудже)",
     "titleEn"     : "Hyposomatotropism",
     "type"        : "endocrine",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -37,7 +37,7 @@
     "title"       : "Хиперсоматотропизъм (Акромегалия)",
     "titleEn"     : "Hypersomatotropism (Acromegalia)",
     "type"        : "endocrine",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -54,7 +54,7 @@
     "title"       : "Хипотиреоидизъм",
     "titleEn"     : "Hypothyroidism",
     "type"        : "endocrine",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -71,7 +71,7 @@
     "title"       : "Хипертиреоидизъм",
     "titleEn"     : "Hypersomatotropism",
     "type"        : "endocrine",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -88,7 +88,7 @@
     "title"       : "Тумори на щитовидната жлеза и хипертиреоидизъм при кучета",
     "titleEn"     : "Canine Thyroid Tumors and Hyperthyroidism",
     "type"        : "endocrine",
-    "animals"     : "dogs",
+    "animals"     : ["dogs"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -105,7 +105,7 @@
     "title"       : "Хиперкалцемия и първичен хиперпаратиреоидизъм",
     "titleEn"     : "Hypercalcemia and Primary Hyperparathyroidism",
     "type"        : "endocrine",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -122,7 +122,7 @@
     "title"       : "Хипокалцемия и първичен хипопаратиреоидизъм",
     "titleEn"     : "Hypocalcemia and Primary Hypoparathyroidism",
     "type"        : "endocrine",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -139,7 +139,7 @@
     "title"       : "Вторичен хиперпаратиреоидизъм, предизвикан от бъбречна недостатъчност",
     "titleEn"     : "Renal Secondary Hyperparathyroidism",
     "type"        : "endocrine",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -156,7 +156,7 @@
     "title"       : "Захарен диабет",
     "titleEn"     : "Diabetes mellitus",
     "type"        : "endocrine",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -173,7 +173,7 @@
     "title"       : "Диабетна кетоацидоза",
     "titleEn"     : "Diabetic ketoacidosis",
     "type"        : "endocrine",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -190,7 +190,7 @@
     "title"       : "Инсулинома (Тумор на бета-клетките)",
     "titleEn"     : "Insulinoma",
     "type"        : "endocrine",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -207,7 +207,7 @@
     "title"       : "Хиперадренокортицизъм при кучета",
     "titleEn"     : "Canine Hyperadrenocorticism",
     "type"        : "endocrine",
-    "animals"     : "dogs",
+    "animals"     : ["dogs"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -227,7 +227,7 @@
     "title"       : "Feline Hypoadrenocorticism",
     "titleEn"     : "Хипоадренокортицизъм при котки",
     "type"        : "endocrine",
-    "animals"     : "cats",
+    "animals"     : ["cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -244,7 +244,7 @@
     "title"       : "Фреохромоцитом",
     "titleEn"     : "Pheochromocytoma",
     "type"        : "endocrine",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -261,7 +261,7 @@
     "title"       : "Синдром на захранването",
     "titleEn"     : "Refeeding syndrome",
     "type"        : "endocrine",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [

@@ -3,7 +3,7 @@
     "title"       : "Анофталмия и микрофталмия",
     "titleEn"     : "Anophtalmos and microphthalmos",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -20,7 +20,7 @@
     "title"       : "Хидрофталмия",
     "titleEn"     : "Hydrophthalmos",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -37,7 +37,7 @@
     "title"       : "Екзофталмия, свързана с породата",
     "titleEn"     : "Breed-related exophthalmos",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -54,7 +54,7 @@
     "title"       : "Буфталм",
     "titleEn"     : "Buphthalmos",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -71,7 +71,7 @@
     "title"       : "Фтиза на булбата",
     "titleEn"     : "Phthisis bulbi",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -88,7 +88,7 @@
     "title"       : "Травма на орбитата",
     "titleEn"     : "Trauma",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -105,7 +105,7 @@
     "title"       : "Абсцес и целулит на орбитата",
     "titleEn"     : "Orbital abscessation and cellulitis",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -122,7 +122,7 @@
     "title"       : "Старчески енофталм",
     "titleEn"     : "Senile enophthalmos",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -139,7 +139,7 @@
     "title"       : "Орбитална киста",
     "titleEn"     : "Orbital cyctic disease",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -156,7 +156,7 @@
     "title"       : "Тумор на орбитата",
     "titleEn"     : "Orbital neoplasia",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -173,7 +173,7 @@
     "title"       : "Feline restrictive orbital myofibroblastic sarcoma",
     "titleEn"     : "Feline restrictive orbital myofibroblastic sarcoma",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -190,7 +190,7 @@
     "title"       : "Ophthalmia neonatorum",
     "titleEn"     : "Ophthalmia neonatorum",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -207,7 +207,7 @@
     "title"       : "Колобома на клепача",
     "titleEn"     : "Eyelid coloboma",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -224,7 +224,7 @@
     "title"       : "Дермоид",
     "titleEn"     : "Dermoid",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -241,7 +241,7 @@
     "title"       : "Дихтиаза и ектопични мигли",
     "titleEn"     : "Distichiasis and ectopic cilia",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -258,7 +258,7 @@
     "title"       : "Ентропион",
     "titleEn"     : "Entropion",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -275,7 +275,7 @@
     "title"       : "Блефарит",
     "titleEn"     : "Blepharitis",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -292,7 +292,7 @@
     "title"       : "Хидроцистом",
     "titleEn"     : "Apocrine hidrocystomas",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -309,7 +309,7 @@
     "title"       : "Тумор на клепача",
     "titleEn"     : "Eyelid neoplasia",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -326,7 +326,7 @@
     "title"       : "Изпадане на третия клепач",
     "titleEn"     : "Nictitans protrusion",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -343,7 +343,7 @@
     "title"       : "Изпадане на жлезата на третия клепач",
     "titleEn"     : "Prolapse of the nictitans gland (Cherry eye)",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -360,7 +360,7 @@
     "title"       : "Обръщане на хрущяла на третия клепач",
     "titleEn"     : "Nictitans cartilage eversion",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -377,7 +377,7 @@
     "title"       : "Тумор на третия клепач",
     "titleEn"     : "Neoplasia of the nictitans",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -394,7 +394,7 @@
     "title"       : "Обръщане на третия клепач",
     "titleEn"     : "The nictitans flap",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -411,7 +411,7 @@
     "title"       : "Епифора",
     "titleEn"     : "Epiphora",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -428,7 +428,7 @@
     "title"       : "Сух кератоконюнктивит",
     "titleEn"     : "Keratoconjuncivitis sicca",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -445,7 +445,7 @@
     "title"       : "Дермоид",
     "titleEn"     : "Dermoid",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -462,7 +462,7 @@
     "title"       : "Конюнктивит",
     "titleEn"     : "Conjunctivitis",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -479,7 +479,7 @@
     "title"       : "Тумор на конюнктивата",
     "titleEn"     : "Neoplasia",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -496,7 +496,7 @@
     "title"       : "Микрокорнея и мегалокорнея",
     "titleEn"     : "Microcornea and megalocornea",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -513,7 +513,7 @@
     "title"       : "Левкома, свързана с перзистиращата зенична мембрана",
     "titleEn"     : "Leukoma associated with persistent pupillary membranes",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -530,7 +530,7 @@
     "title"       : "Lysosomal storage disease",
     "titleEn"     : "Lysosomal storage disease",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -547,7 +547,7 @@
     "title"       : "Дистрофия на роговицата",
     "titleEn"     : "Corneal dystrophy",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -564,7 +564,7 @@
     "title"       : "Херпесвирусен кератит",
     "titleEn"     : "Herpetic keratitis",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
@@ -581,7 +581,7 @@
     "title"       : "Еозинофилен кератит",
     "titleEn"     : "Eosinophillic (proliferative) keratitis",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -598,7 +598,7 @@
     "title"       : "Секвестър на роговицата",
     "titleEn"     : "Corneal sequestrum",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -615,7 +615,7 @@
     "title"       : "Остра булозна кератопатия",
     "titleEn"     : "Acute bullous keratopathy",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -632,7 +632,7 @@
     "title"       : "Дегенерация на роговицата",
     "titleEn"     : "Corneal degeneration",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -649,7 +649,7 @@
     "title"       : "Язва на роговицата",
     "titleEn"     : "Corneal ulceration",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -666,7 +666,7 @@
     "title"       : "Exposure keratitis",
     "titleEn"     : "Exposure keratitis",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -683,7 +683,7 @@
     "title"       : "Разкъсване на роговицата",
     "titleEn"     : "Corneal laceration",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -700,7 +700,7 @@
     "title"       : "Чуждо тяло в роговицата",
     "titleEn"     : "Corneal foreign body",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -717,7 +717,7 @@
     "title"       : "Corneal epithelial inclusion cyst",
     "titleEn"     : "Corneal epithelial inclusion cyst",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -734,7 +734,7 @@
     "title"       : "Вродени аномалии, свързани с пигментацията (албинизъм, хетерохромия)",
     "titleEn"     : "Congenital disorders of pigmentation (albinism, iris heterochromia)",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -751,7 +751,7 @@
     "title"       : "Колобома на ириса",
     "titleEn"     : "Iris coloboma",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -768,7 +768,7 @@
     "title"       : "Хипоплазия на ириса",
     "titleEn"     : "Iris hypoplasia",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -785,7 +785,7 @@
     "title"       : "Перзистираща зенична мембрана",
     "titleEn"     : "Persistent pupillary membrane",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -802,7 +802,7 @@
     "title"       : "Ектропион на увеята",
     "titleEn"     : "Ectropion ulvae",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -819,7 +819,7 @@
     "title"       : "Киста на увеята",
     "titleEn"     : "Uveal cysts",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -836,7 +836,7 @@
     "title"       : "Меланоза на ириса",
     "titleEn"     : "Iridal melanosis",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -853,7 +853,7 @@
     "title"       : "Ирис, оцветен от мед",
     "titleEn"     : "Copper-coloured iris",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -870,7 +870,7 @@
     "title"       : "Атрофия на ириса",
     "titleEn"     : "Iris atrophy",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -887,7 +887,7 @@
     "title"       : "Синехии",
     "titleEn"     : "Synechiae",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -904,7 +904,7 @@
     "title"       : "Lipid Aqueous",
     "titleEn"     : "Lipid Aqueous",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -921,7 +921,7 @@
     "title"       : "Увеит",
     "titleEn"     : "Uveitis",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -938,7 +938,7 @@
     "title"       : "Неоплазия на ириса",
     "titleEn"     : "Iveal neoplasia",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -955,7 +955,7 @@
     "title"       : "Вродени аномалии на лещата",
     "titleEn"     : "Congenital anomalies of the lens",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -972,7 +972,7 @@
     "title"       : "Склероза на ядрото на лещата",
     "titleEn"     : "Nuclear sclerosis of the lens",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -989,7 +989,7 @@
     "title"       : "Катаракта",
     "titleEn"     : "Cataracts",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1006,7 +1006,7 @@
     "title"       : "Луксация на лещата",
     "titleEn"     : "Lens luxation",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1023,7 +1023,7 @@
     "title"       : "Първична глаукома",
     "titleEn"     : "Primary glaucoma",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1040,7 +1040,7 @@
     "title"       : "Вторична глаукома",
     "titleEn"     : "Secondary glaucoma",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1057,7 +1057,7 @@
     "title"       : "Заболявания на стъкловидното тяло",
     "titleEn"     : "Diseases of the vitreous",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1074,7 +1074,7 @@
     "title"       : "Заболявания на очното дъно",
     "titleEn"     : "Diseases of the fundus",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1091,7 +1091,7 @@
     "title"       : "Нарушения на автономната нервна система",
     "titleEn"     : "Disorders of autonomic nervous system",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1108,7 +1108,7 @@
     "title"       : "Синдром на Horner",
     "titleEn"     : "Horner’s Syndrome",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1125,7 +1125,7 @@
     "title"       : "Pourfour du Petit синдром",
     "titleEn"     : "Pourfour du Petit Syndrome",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1142,7 +1142,7 @@
     "title"       : "Key-Gaskell синдром",
     "titleEn"     : "Key-Gaskell Syndrome",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1159,7 +1159,7 @@
     "title"       : "Страбизъм и нистагъм, свързани с очен албинизъм",
     "titleEn"     : "Strabismus and nystagmus associated with ocular albinism",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1176,7 +1176,7 @@
     "title"       : "Следоперативна слепота",
     "titleEn"     : "Postanesthetic blindness",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
@@ -1193,7 +1193,7 @@
     "title"       : "Контралатерална очна невропатия",
     "titleEn"     : "Contralateral optic neuropathy",
     "type"        : "eye",
-    "animals"     : "both",
+    "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
     "isVisible"   : false,
     "links": [
