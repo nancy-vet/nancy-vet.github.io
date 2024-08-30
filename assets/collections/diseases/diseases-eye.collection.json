@@ -568,7 +568,7 @@
     "bodySystem"  : [""],
     "isVisible"   : true,
     "links": [
-      { "title": "описание", "link": "pdfs/@diseases/Herpetic-keratitis.pdf" }
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
     "etiology"      : ["Виж в Инфекциозни болести"],
     "signs"         : ["", "", ""],
