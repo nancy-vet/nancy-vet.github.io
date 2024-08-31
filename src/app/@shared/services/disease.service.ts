@@ -90,20 +90,12 @@ export class DiseasesService {
       return element.category;
     });
 
-    this.$intermediateCollection = this.DataJson.filter((element: any) => {
-      // Check if element.animals exists and is an array before using includes
-      return element.animals && Array.isArray(element.animals) &&
-             categoryCollection.some((o: any) =>
-               element.animals.includes(o.toLowerCase())
-             );
+    this.$intermediateCollection = this.$intermediateCollection.filter((element: any) => {
+      return categoryCollection.some((o: any) => element.animals.includes(o));
     });
 
     return this;
   }
-
-
-
-
 
   /**
    * @author Mihail Petrov
