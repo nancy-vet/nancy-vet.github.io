@@ -1,39 +1,5 @@
 [
   {
-    "title"       : "Болест само на куче",
-    "titleEn"     : "",
-    "type"        : "infectious",
-    "animals"     : ["dogs"],
-    "bodySystem"  : [""],
-    "isVisible"   : true,
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "Болест само на котка",
-    "titleEn"     : "",
-    "type"        : "infectious",
-    "animals"     : ["cats"],
-    "bodySystem"  : [""],
-    "isVisible"   : true,
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
     "title"       : "Бабезиоза",
     "titleEn"     : "Babesiosis",
     "type"        : "infectious",

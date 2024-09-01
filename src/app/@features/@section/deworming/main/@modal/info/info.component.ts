@@ -46,4 +46,9 @@ export class InfoModal implements OnChanges {
     window.open(`${url}`, '_blank')?.focus();
     console.log(`link: ${url}`)
   }
+
+  public renderImage(tag: string) {
+    return tag.replace("@", "");
+  }
+
 }
