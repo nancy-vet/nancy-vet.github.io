@@ -137,7 +137,7 @@
   },
   {
     "title"       : "Вторичен хиперпаратиреоидизъм, предизвикан от бъбречна недостатъчност",
-    "titleEn"     : "Renal Secondary Hyperparathyroidism",
+    "titleEn"     : "Renal Secondary Hyperparathyroidism (Chronic Kidney Disease–Metabolic Bone Disease, CKD-MBD)",
     "type"        : "endocrine",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
