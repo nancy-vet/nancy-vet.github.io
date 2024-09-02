@@ -697,23 +697,6 @@
     "differential"  : [""]
   },
   {
-    "title"       : "Хипертрофична остеодистрофия",
-    "titleEn"     : "Hypertrophic Osteodystrophy (HOD)",
-    "type"        : "muskuloskeletal",
-    "animals"     : ["dogs", "cats"],
-    "bodySystem"  : [""],
-    "isVisible"   : false,
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
     "title"       : "Паностеит",
     "titleEn"     : "Panosteitis",
     "type"        : "muskuloskeletal",
