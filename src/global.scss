@@ -33,10 +33,14 @@
 .bc-success  { background : #28b02f; }
 .bc-fail     { background : #d60b52; }
 .bc-blue     { color      : #2196f3; }
-.bc-lightblue{ background : #bab7ff; }
-.bc-orange   { background : #fdc576; }
-.bc-purple   { background : #dca3b7; }
-.bc-pink     { background : #f99a9a; }
+// .bc-lightblue{ background : #bab7ff; }
+// .bc-orange   { background : #fdc576; }
+// .bc-purple   { background : #dca3b7; }
+// .bc-pink     { background : #f99a9a; }
+.bc-lightblue{ background : #6760ff85; }
+.bc-orange   { background : #ff950087; }
+.bc-purple   { background : #d5678d8c; }
+.bc-pink     { background : #ef4c4c87; }
 
 .bcn-orange    { background : #f78104; }
 .bcn-lightblue { background : #249ea0; }
@@ -90,7 +94,8 @@
 
   font-size     : 12px;
   font-weight   : bold;
-  background    : #eafff3;
+  //background    : #eafff3;
+  background    : #59f59b57;
   color         : #60dba3;
   border-radius : 2px;
 }
@@ -105,7 +110,8 @@
 
   font-size     : 12px;
   font-weight   : bold;
-  background    : #2196f3;
+  //background    : #2196f3;
+  background    : #016fc6c9;
   color         : #fff;
   border-radius : 2px;
 }
@@ -120,6 +126,7 @@
 
   font-size     : 12px;
   font-weight   : bold;
+  background    : #ff002dc2;
   background    : #f32146;
   color         : #fff;
   border-radius : 2px;
