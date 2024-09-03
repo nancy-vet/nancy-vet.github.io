@@ -68,5 +68,14 @@
     <div style="padding-left: 5px;">{{element}}</div>
   }
 
+  "gallery"       : ["/assets/pdfs/@diseases/additional-files/acne-1.png"]
+
+  @if(selectedObject.gallery) {
+    <div class="mt5 flex bcn-lightblue italic fb600 gallery" (click)="onGalleryOpen()">
+      <ion-icon class="mr8" name="camera-outline"></ion-icon>
+      <div>Галерия</div>
+    </div>
+  }
+
 
 </nv-info-modal>

@@ -1,5 +1,7 @@
 import { Component, OnInit, inject  } from "@angular/core";
 import { ModalController            } from "@ionic/angular";
+import { DialogService      } from "nv@services/dialog.service";
+import { GalleryModal       } from "../gallery/gallery.component";
 
 @Component({
   selector    : 'modal--drug-info',
@@ -9,6 +11,7 @@ import { ModalController            } from "@ionic/angular";
 export class DrugInfoModal {
 
   private modalController: ModalController  = inject(ModalController);
+  private dialogService: DialogService      = inject(DialogService);
 
   public selectedObject: any;
   public selectedObjectApplicationCollection: any[] = [];
@@ -35,4 +38,14 @@ export class DrugInfoModal {
   public renderImage(tag: string) {
     return tag.replace("@", "");
   }
+
+      /**
+   * @author Mihail Petrov
+   */
+      public async onGalleryOpen() {
+
+        (await this.dialogService.open(GalleryModal, {
+          selectedObject: this.selectedObject.gallery
+        }));
+      }
 }

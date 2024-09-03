@@ -14,10 +14,10 @@
     <div>Галерия</div>
   </div>
 
-  @for(element of selectedObject.type; track element) {
+  <div class="h3 mt16">{{selectedObject.type}}</div>
 
-      <div class="fs13">{{element}}</div>
-
+  @for(element of selectedObject.understanding; track element) {
+      <div class="mt5">{{element}}</div>
   }
 
 </nv-info-modal>

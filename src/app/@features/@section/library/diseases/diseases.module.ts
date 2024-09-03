@@ -1,5 +1,5 @@
 import { IonicModule              } from '@ionic/angular';
-import { NgModule                 } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule                 } from '@angular/core';
 import { CommonModule             } from '@angular/common';
 import { FormsModule              } from '@angular/forms';
 import { RouterModule, Routes     } from '@angular/router';
@@ -19,6 +19,7 @@ import { SplitPipe                } from 'nv@pipes/split.pipe';
 import { NvLinkButtonComponent    } from 'nv@components/@forms/nv-link-button/nv-link-button.component';
 import { DiseasesPage             } from './diseases.page';
 import { DrugCardDiseases         } from 'nv@components/@blocks/drug-card-diseases/drug-card-diseases.component';
+import { GalleryModal             } from './@modal/gallery/gallery.component';
 
 const routes: Routes = [{
     path      : '',
@@ -27,10 +28,16 @@ const routes: Routes = [{
 ];
 
 @NgModule({
+  schemas                           : [
+    CUSTOM_ELEMENTS_SCHEMA
+  ],
+
+
     declarations                    : [
-      DiseasesPage               ,
+      DiseasesPage                  ,
       DrugInfoModal                 ,
-      SelectCategoryModal
+      SelectCategoryModal           ,
+      GalleryModal
     ],
     imports                         : [
       RouterModule.forChild(routes) ,
