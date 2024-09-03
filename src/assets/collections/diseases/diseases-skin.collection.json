@@ -14,7 +14,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Атопичен дерматит",
@@ -31,7 +32,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Хранителна алергия",
@@ -48,7 +50,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Контактен дерматит",
@@ -65,7 +68,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Маласезиен дерматит",
@@ -82,7 +86,8 @@
     "specificSigns" : [""],
     "diagnostics"   : ["Откриване на прекомерно количество Malassezia на засегнатата кожа и значително подобрение след премахването на Malassezia.", "Проба с тиксо", "Повърхностно остъргване на кожата"],
     "treatment"     : ["Vetexpert Specialist Shampoo (кетоконазол, хлорхексидин)", "Кандизол (флуконазол)", "3-4 седмици след начало на терапията отново се прави микроскопско изследване.", "Кетоконазол 10 mg/kg q24h, флуконазол 10 mg/kg q24h, или итраконазол 5 mg/kg q24h за 2-4 седмици при разпространени или хронични случаи."],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Свръхчувствителност към ухапване от насекоми",
@@ -99,7 +104,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Милиарен дерматит",
@@ -116,7 +122,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Алопеция Х",
@@ -133,7 +140,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Психогенна алопеция",
@@ -150,7 +158,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Сезонна алопеция на хълбока",
@@ -167,7 +176,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Себорея",
@@ -184,7 +194,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Ихтиоза",
@@ -201,7 +212,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Дерматоза, повлияваща се от цинк",
@@ -218,7 +230,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Пемфигус фолиацеус",
@@ -235,7 +248,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Хранителни дефицити",
@@ -252,7 +266,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Екфолиативен дерматит",
@@ -269,7 +284,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Влажен дерматит",
@@ -286,7 +302,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Еритема мултиформе",
@@ -303,7 +320,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Васкулит",
@@ -320,7 +338,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Дерматоза, причинена от лекарства",
@@ -337,7 +356,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Бактериален дерматит (Пиодермия)",
@@ -354,7 +374,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Хистиоцитома",
@@ -371,7 +392,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Липома",
@@ -388,7 +410,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Тумор на мастните клетки",
@@ -405,7 +428,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Кожна лимфома",
@@ -422,7 +446,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Себорейна аденома",
@@ -439,7 +464,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Гранулом с чуждо тяло",
@@ -456,7 +482,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Фурункулоза",
@@ -473,7 +500,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Feline Leprosy",
@@ -490,8 +518,9 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
-  },  {
+    "differential"  : [""],
+      "gallery"       : [""]
+      },  {
     "title"       : "Canine Leproid Granuloma",
     "titleEn"     : "Canine Leproid Granuloma",
     "type"        : "skin",
@@ -506,8 +535,9 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
-  },  {
+    "differential"  : [""],
+      "gallery"       : [""]
+      },  {
     "title"       : "Mycobacterial Panniculitis",
     "titleEn"     : "Mycobacterial Panniculitis",
     "type"        : "skin",
@@ -522,7 +552,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Дълбока пиодермия",
@@ -539,7 +570,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Васкулит",
@@ -556,7 +588,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Лупус еритематозус",
@@ -573,7 +606,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Кожна лайшманиоза",
@@ -590,7 +624,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Изгаряне",
@@ -607,7 +642,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Витилиго",
@@ -624,7 +660,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Следвъзпалителна хиперпигментация",
@@ -641,7 +678,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Лентиго",
@@ -658,7 +696,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Меланома",
@@ -675,7 +714,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Акантозис нигриканс",
@@ -692,7 +732,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Петна тип 'кафе с мляко'",
@@ -709,7 +750,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Депигментация на носа (нос на Дъдли)",
@@ -726,7 +768,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Пемфигус Вулгарис",
@@ -743,7 +786,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Булозен пемфигоид",
@@ -760,7 +804,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Импетиго",
@@ -777,7 +822,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Субкорнеален пустулозен дерматит",
@@ -794,7 +840,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Херпесвирусен дерматит",
@@ -811,7 +858,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Булозна епидермолиза",
@@ -828,7 +876,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Калус",
@@ -845,7 +894,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Хиперкератоза на носа и/ или лапите",
@@ -862,7 +912,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Папиломатоза (брадавици)",
@@ -879,7 +930,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Хиперплазия на мастните жлези",
@@ -896,28 +948,12 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
-    "title"       : "Кучешко акне",
-    "titleEn"     : "Canine Acne",
-    "type"        : "skin",
-    "animals"     : ["dogs", "cats"],
-    "bodySystem"  : [""],
-    "isVisible"   : false,
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
-  },
-  {
-    "title"       : "Котешко акне",
-    "titleEn"     : "Feline Acne",
+    "title"       : "Акне",
+    "titleEn"     : "Acne",
     "type"        : "skin",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
@@ -925,12 +961,13 @@
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "etiology"      : ["Котешкото акне представлява възпаление на фоликулите, пролиферация и кератинизация на кожата в областта на брадичката. Може да се засегнат горната и долната устни.", "При повече от половината котки с акне е изолирана бактерия."],
+    "etiology"      : ["Акнето представлява възпаление на фоликулите, пролиферация и кератинизация на кожата в областта на брадичката. Може да се засегнат горната и долната устни.", "При повече от половината котки с акне е изолирана бактерия."],
     "signs"         : ["черни точки по брадичката", "дерматит", "фоликулит"],
     "specificSigns" : ["Рядко има сърбеж."],
     "diagnostics"   : [""],
     "treatment"     : ["Брадичката се подстригва и почиства.", "Системни антибиотици за 3 седмици.", "Локални АБ и други медикаменти - салицилова киселина, бензоилов пероксид или маз с метронидазол или клиндамицин."],
-    "differential"  : [""]
+    "differential"  : [""],
+    "gallery"       : [""]
   },
   {
     "title"       : "Кожен рог",
@@ -947,7 +984,8 @@
     "specificSigns" : [""],
     "diagnostics"   : [""],
     "treatment"     : [""],
-    "differential"  : [""]
-  }
+    "differential"  : [""],
+    "gallery"       : [""]
+   }
 ]
 
