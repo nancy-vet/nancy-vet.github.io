@@ -1,206 +1,143 @@
 [
   {
-    "symptom"   : "Запушване на уретрата",
-    "symptomEn" : "",
-    "type"      : "urogenital",
+    "symptom"   : "Изтечения от носа",
+    "symptomEn" : "Nasal discharge",
+    "type"      : "respiratory",
     "meaning"   : "",
+    "isVisible" : true,
     "causes"    : [
       {
-        "group": "", "children": [
-          {"title": ""}
-        ]
-      }
-    ],
-    "links" : [
-      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/zapushvane-na-uretrata.pdf" }
-    ]
-  },
-  {
-    "symptom"   : "Диария, остра",
-    "symptomEn" : "",
-    "type"      : "gastrointestinal",
-    "meaning"   : "диария под 7-14 дни",
-    "causes"    : [
-      {
-        "group": "Диета", "children": [
-          {"title": "Хранителна непоносимост/ алергия"},
-          {"title": "Некачествена храна"},
-          {"title": "Бърза промяна в диетата"},
-          {"title": "Бактериално хранително отравяне"},
-          {"title": "Диетична недискретност"}
+        "group": "Серозни изтечения", "children": [
+          { "title" : "Нормално" },
+          { "title" : "Вирусна инфекция" },
+          { "title" : "Ранен признак на етиология на мукопуролентни изтечения" }
         ]
       },
       {
-        "group": "Паразити", "children": [
-          {"title": "Хелминти"},
-          {"title": "Протозои", "children": [
-            {"title": "Гиардиаза"},
-            {"title": "Трихомониаза (котешка)"},
-            {"title": "Кокцидиоза"}
-          ]}
-        ]
-      },
-      {
-        "group": "Инфекциозни причини", "children": [
-          {"title": "Вирусни причини"},
-          {"title": "Бактериални причини"},
-          {"title": "Рикетсиална инфекция"}
-        ]
-      },
-      {
-        "group": "Други причини", "children": [
-          {"title": "Гастроентерит"},
-          {"title": "Развалена храна"},
-          {"title": "Различни лекарства"}
-        ]
-      }
-    ],
-    "links" : [
-      { "title": "Клиничен преглед" , "link": "pdfs/@algorithms/clinichen-pregled-algoritym.pdf" },
-      { "title": "Алгоритъм куче НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_dog.pdf" },
-      { "title": "Алгоритъм котка НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_cat.pdf" },
-      { "title": "Алгоритъм миниВет" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea-minivet.pdf" }
-    ]
-  },
-  {
-    "symptom"   : "Диария, хронична",
-    "symptomEn" : "",
-    "type"      : "gastrointestinal",
-    "meaning"   : "диария над 7-14 дни",
-    "causes"    : [
-      {
-        "group" : "Тънки черва", "children": [
-          {"title": "Хранителна непоносимост или алергия"},
-          {"title": "Възпалително чревно заболяване"},
-          {"title": "GI лимфом"},
-          {"title": "Екзокринна панкреатична недостатъчност"},
-          {"title": "Хроничен паразитизъм (Ancylostoma, Giardia)"},
-          {"title": "Хистоплазмоза"},
-          {"title": "Чревна лимфангиектазия"},
-          {"title": "Частична обструкция"},
-          {"title": "Панкреатичен карцином"},
-          {"title": "Гастрином"},
-          {"title": "Чернодробно заболяване (чернодробна недостатъчност, холестаза)"},
-          {"title": "Ендокринно заболяване (хипоадренокортицизъм, хипотиреоидизъм, хипертиреоидизъм)"},
-          {"title": "Бъбречно заболяване (уремия, нефротичен синдром)"},
-          {"title": "Хронична инвагинация"},
-          {"title": "Прекомерен бактериален растеж в тънките черва"},
-          {"title": "Питиоза"}
-        ]
-      },
-      {
-        "group" : "Дебели черва", "children": [
-          {"title": "Хранителна нетолерантност или алергия"},
-          {"title": "Паразитизъм (Trichuris, Giardia, Trichomonas, Heterobilharzia)"},
-          {"title": "Клостридиална колит"},
-          {"title": "Синдром на раздразненото черво (отговарящ на фибри)"},
-          {"title": "Хистоплазмоза"},
-          {"title": "Питиоза"},
-          {"title": "Възпалително чревно заболяване"},
-          {"title": "Неоплазия (лимфом, аденокарцином)"},
-          {"title": "FeLV/FIV (инфекции вторични на тези вируси)"}
-        ]
-      }
-    ],
-    "links" : [
-      { "title": "Клиничен преглед" , "link": "pdfs/@algorithms/clinichen-pregled-algoritym.pdf" },
-      { "title": "Алгоритъм куче НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_dog.pdf" },
-      { "title": "Алгоритъм котка НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_cat.pdf" },
-      { "title": "Алгоритъм миниВет" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea-minivet.pdf" },
-      { "title": "Хронична диария Котки" , "link": "pdfs/@algorithms/gastrointestinal/chronic-diarrhea-cats.pdf" }
-    ]
-  },
-  {
-    "symptom"   : "Епилептичен статус",
-    "symptomEn" : "",
-    "type"      : "nervous",
-    "meaning"   : "характеризира се с последователни епилептични пристъпи, без възстановяване на съзнанието между тях",
-    "causes"    : [
-      {
-        "group": "ИНТРАКРАНИАЛНИ", "children": [
-          { "title" : "Неоплазия" },
-          { "title" : "Възпалителни/Инфекциозни" },
-          { "title" : "Съдови" },
-          { "title" : "Дегенеративни/вродени/аномалии/малформации" },
-          { "title" : "Травматични" }
-        ]
-      },
-      {
-        "group": "ЕКСТРАКРАНИАЛНИ", "children": [
-          { "title" : "Метаболитни" , "children": [
-              {"title" : "Чернодробна енцефалопатия"},
-              {"title" : "Хипертиреоидизъм"},
-              {"title" : "Хипокалциемия"},
-              {"title" : "Хипогликемия"},
-              {"title" : "Тежка уремия (краен стадий на бъбречно заболяване)"}
+        "group": "Мукопуролентни изтечения с или без кръвоизлив", "children": [
+          { "title" : "Вирусна инфекция", "children" : [
+            { "title" : "Котешки херпесвирус (вирус на ринотрахеита)" },
+            { "title" : "Котешки калицивирус" },
+            { "title" : "Кучешки инфлуенца вирус" }
             ]
           },
-          { "title" : "Токсини" },
-          { "title" : "Хранителни - Дефицит на тиамин (краен стадий)" }
+          { "title" : "Бактериална инфекция (обикновено вторична)" },
+          { "title" : "Гъбична инфекция", "children": [
+            { "title" : "Аспергили" },
+            { "title" : "Криптококус" },
+            { "title" : "Пеницилиум" },
+            { "title" : "Риноспоридиум" }
+            ]
+          },
+          { "title" : "Назални паразити", "children": [
+            { "title" : "Пнеумонисоидес" },
+            { "title" : "Капилария (Еуколеус)" }
+            ]
+          },
+          { "title" : "Чуждо тяло" },
+          { "title" : "Неоплазия" },
+          { "title" : "Назофарингеален полип" },
+          { "title" : "Разширение на устното заболяване" },
+          { "title" : "Алергичен ринит" },
+          { "title" : "Котешки хроничен риносинусит" },
+          { "title" : "Кучешки хроничен/лимфоплазмоцитен ринит" }
         ]
       },
       {
-        "group": "ЕПИЛЕПСИЯ", "children": [
-          { "title" : "Функционална: Идиопатична или Генетична" },
-          { "title" : "Структурна: Следенцефалитна; Следтравматична; Следисхемична (FIE, хипоксично събитие)" }
+        "group": "Чисти кървави изтечения (епистаксис)", "children": [
+          { "title" : "Назално заболяване", "children": [
+            { "title" : "Остра травма" },
+            { "title" : "Чуждо тяло" },
+            { "title" : "Неоплазия" },
+            { "title" : "Гъбична инфекция" },
+            { "title" : "По-рядко други етиологии, както е посочено за мукопуролентните изтечения" }
+           ]
+          },
+          { "title" : "Системно заболяване", "children": [
+            { "title" : "Кървене поради коагулационни нарушения" },
+            { "title" : "Васкулит" },
+            { "title" : "Хипервискозитет синдром" },
+            { "title" : "Полицитемия" },
+            { "title" : "Системна хипертензия" }
+           ]
+          }
         ]
       }
     ],
     "links" : [
-      { "title": "алгоритъм", "link": "pdfs/@algorithms/nervous/status_epilepticus.pdf" }
+      { "title": "Алгоритъм при диагностика на хронично назални изтечения" , "link": "pdfs/@algorithms/respiratory/nasal-discharge-chronic-saim.png" }
     ]
   },
   {
-    "symptom"   : "Дизурия, Странгурия, Полакиурия",
-    "symptomEn" : "",
-    "type"      : "urogenital",
-    "meaning"   : "Дизурия—затруднено или болезнено уриниране. Полакиурия—често уриниране на малки количества. Странгурия—напрежение при уриниране.",
+    "symptom"   : "Кашлица",
+    "symptomEn" : "Cough",
+    "type"      : "respiratory",
+    "meaning"   : "",
+    "isVisible" : true,
     "causes"    : [
       {
-        "group": "Възпалителни заболявания", "children": [
-          { "title" : "Идиопатичен цистит при котки, уретрит (идиопатично заболяване на долния уринарен тракт при котки) - Причина №1" },
-          { "title" : "Инфекция на уринарния тракт" },
-          { "title" : "Ятрогенно възпаление (напр. цистит, предизвикан от циклофосфамид)" },
-          { "title" : "Полипоиден цистит" },
-          { "title" : "Пролиферативен уретрит (грануломатозен уретрит)" }
+        "group": "Респираторни заболявания", "children": [
+          { "title": "Инфекциозни заболявания" },
+          { "title": "Възпалителни заболявания" },
+          { "title": "Неоплазии" },
+          { "title": "Алергии" }
         ]
       },
       {
-        "group": "Уролитиаза - Причина №2", "children": [
-          {"title": "Камъни в пикочния мехур"},
-          {"title": "Камъни в уретрата"}
-        ]
-      },
-      {
-        "group": "Неоплазия", "children": [
-          {"title": "Преходноклетъчен карцином на пикочния мехур или уретрата"},
-          {"title": "Простатна неоплазия"},
-          {"title": "Вагинална неоплазия"}
-        ]
-      },
-      {
-        "group": "Травма", "children": [
-          {"title": "Руптура на пикочния мехур или уретрата"},
-          {"title": "Уретрална стриктура (предишна травма или операция)"}
-        ]
-      },
-      {
-        "group": "Неврогенни разстройства", "children": [
-          {"title": "Рефлексна диссинергия"}
+        "group": "Сърдечни заболявания", "children": [
+          { "title": "Сърдечна недостатъчност" }
         ]
       },
       {
         "group": "Други", "children": [
-          {"title": "Перинеална херния"}
+          { "title": "Чужди тела" },
+          { "title": "Травма" }
         ]
       }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/respiratory/.pdf" }
     ]
   },
   {
-    "symptom"   : "Алопеция",
-    "symptomEn" : "",
-    "type"      : "skin",
+    "symptom"   : "Кихане",
+    "symptomEn" : "Sneezing",
+    "type"      : "respiratory",
     "meaning"   : "",
+    "isVisible" : true,
+    "causes"    : [
+      { "group": "Чуждо тяло в носната кухина" },
+      { "group": "Инфекция на горните дихателни пътища при котки" },
+      { "group": "Кърлеж в назалната кухина" },
+      { "group": "Дразнещи аерозоли" }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/respiratory/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Обратно кихане",
+    "symptomEn" : "Reverse sneezing",
+    "type"      : "respiratory",
+    "meaning"   : "",
+    "isVisible" : true,
+    "causes"    : [
+      { "group": "Чуждо тяло в носа" },
+      { "group": "Възпаление на назофаринкса" },
+      { "group": "Възпаление на епиглотиса" },
+      { "group": "Идиопатично" },
+      { "group": "Вълнение или пиене" }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/respiratory/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Хъркане",
+    "symptomEn" : "Snoring",
+    "type"      : "respiratory",
+    "meaning"   : "",
+    "isVisible" : false,
     "causes"    : [
       {
         "group": "", "children": [
@@ -209,14 +146,241 @@
       }
     ],
     "links" : [
-      { "title": "Алопеция алгоритъм" , "link": "pdfs/@algorithms/skin/alopecia-algorithm.png" }
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/respiratory/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Хрипове",
+    "symptomEn" : "Wheezing",
+    "type"      : "respiratory",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/respiratory/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Диспнея",
+    "symptomEn" : "Dyspnea",
+    "type"      : "respiratory",
+    "meaning"   : "неправилно и затруднено дишане",
+    "isVisible" : true,
+    "causes"    : [
+      {"group" : "Бледи лигавици", "children": [
+          {"title" : "Анемия - Анемичните животни може да не изглеждат цианотични дори при значителна хипоксемия, защото са необходими 5 g/dL дезатуриран хемоглобин за видима цианоза."},
+          {"title" : "Намален сърдечен дебит/повишен симпатиков тонус"}
+        ]
+      },
+      {"group" : "Зачервени лигавици", "children": [
+          {"title" : "Полицитемия (еритроцитоза)"},
+          {"title" : "Сепсис"},
+          {"title" : "Възбуда"},
+          {"title" : "Други причини за периферна вазодилатация"}
+        ]
+      },
+      {"group" : "Цианотични лигавици", "children": [
+          {"title" : "Паренхимни болести на белите дробове"},
+          {"title" : "Обструкция на дихателните пътища"},
+          {"title" : "Болести на плевралното пространство"},
+          {"title" : "Белодробен оток"},
+          {"title" : "Конгенитален шънт на сърцето отдясно наляво"},
+          {"title" : "Хиповентилация"},
+          {"title" : "Шок"},
+          {"title" : "Излагане на студ"},
+          {"title" : "Метемоглобинемия"}
+        ]
+      },
+      {"group" : "Диференциална цианоза", "children": [
+          {"title" : "Обратен отворен дуктус Артериозус (главата и предните крайници получават нормално оксигенирана кръв, но каудалната част на тялото получава дезатурирана кръв през дукта, който възниква от aorta descendens)"}
+        ]
+      },
+      {"group" : "Иктерични лигавици", "children": [
+          {"title" : "Хемолиза"},
+          {"title" : "Хепатобилиарни заболявания"},
+          {"title" : "Билиарна обструкция"}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/respiratory/dyspnoea-classification.pdf" },
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/respiratory//dyspnoea-algorithm.pdf" },
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/respiratory/respiratory-distress-algorithm.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Тахипнея",
+    "symptomEn" : "Tachypnea",
+    "type"      : "respiratory",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/respiratory/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Тежко дишане",
+    "symptomEn" : "Panting",
+    "type"      : "respiratory",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/respiratory/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Затруднено дишане",
+    "symptomEn" : "Labored breathing",
+    "type"      : "respiratory",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/respiratory/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Дишане с отворена уста",
+    "symptomEn" : "Mouth breathing",
+    "type"      : "respiratory",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/respiratory/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Задушаване",
+    "symptomEn" : "Choking",
+    "type"      : "respiratory",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/respiratory/.pdf" }
+    ]
+  },
+
+
+
+
+
+
+  {
+    "symptom"   : "",
+    "symptomEn" : "",
+    "type"      : "",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/respiratory/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Халитоза",
+    "symptomEn" : "Halitosis",
+    "type"      : "gastrointestinal",
+    "meaning"   : "лош дъх от устната кухина",
+    "isVisible" : true,
+    "causes"    : [
+      {
+        "group": "Бактериални причини", "children": [
+          { "title" : "Задържана храна"        },
+          { "title" : "Зъбен камък или пародонтит" },
+          { "title" : "Стоматит/глосит"        },
+          { "title" : "Стоматит, глосит, фарингит, гингивит, тонзилит или сиалоаденит" },
+          { "title" : "Уремия"                 }
+        ]
+      },
+      {
+        "group": "Хранене със зловонни вещества", "children": [
+          {"title": "Фекалии"                   },
+          {"title": "Некротична или миризлива храна" }
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Слюноотделяне",
+    "symptomEn" : "Drooling",
+    "type"      : "gastrointestinal",
+    "meaning"   : "",
+    "isVisible" : true,
+    "causes"    : [
+      {
+        "group": "Птиализъм (увеличено кол-во слюнка)", "children": [
+          { "title" : "Гадене"           },
+          { "title" : "Припадък"         },
+          { "title" : "Поведение"        },
+          { "title" : "Хиперсекреция на слюнчените жлези" }
+        ]
+      },
+      {
+        "group": "Псевдоптиализъм (нормално кол-во слюнка)", "children": [
+          {"title": "Орална болка" },
+          {"title": "Дисфагия" }
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
     ]
   },
   {
     "symptom"   : "Дисфагия",
-    "symptomEn" : "",
+    "symptomEn" : "Dysphagia",
     "type"      : "gastrointestinal",
     "meaning"   : "затруднено преглъщане",
+    "isVisible" : true,
     "causes"    : [
       {
         "group": "Орална болка", "children": [
@@ -248,58 +412,98 @@
           {"title": "Заболяване на темпоромандибуларната става" }
         ]
       }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
     ]
   },
   {
-    "symptom"   : "Халитоза",
-    "symptomEn" : "",
+    "symptom"   : "Анорексия/ хипорексия",
+    "symptomEn" : "Loss of appetite",
     "type"      : "gastrointestinal",
-    "meaning"   : "лош дъх от устната кухина",
+    "meaning"   : "анорексия - отказ от храна, хипорексия - намален прием на храна",
+    "isVisible" : true,
     "causes"    : [
       {
-        "group": "Бактериални причини", "children": [
-          { "title" : "Задържана храна"        },
-          { "title" : "Зъбен камък или пародонтит" },
-          { "title" : "Стоматит/глосит"        },
-          { "title" : "Стоматит, глосит, фарингит, гингивит, тонзилит или сиалоаденит" },
-          { "title" : "Уремия"                 }
+        "group": "Възпалително заболяване", "children": [
+          { "title" : "Бактериални инфекции"   },
+          { "title" : "Вирусни инфекции"       },
+          { "title" : "Гъбични инфекции"       },
+          { "title" : "Рикетсиални инфекции"   },
+          { "title" : "Протозойни инфекции"    },
+          { "title" : "Стерилно възпаление"    },
+          { "title" : "Треска"                 }
         ]
       },
-      {
-        "group": "Хранене със зловонни вещества", "children": [
-          {"title": "Фекалии"                   },
-          {"title": "Некротична или миризлива храна" }
-        ]
-      }
+      { "group": "Дисфагия"                      },
+      { "group": "Гадене"                        },
+      { "group": "Метаболитно заболяване"        },
+      { "group": "Заболяване на централната нервна система" },
+      { "group": "Ракова кахексия"               },
+      { "group": "Аносмия (рядко)"               },
+      { "group": "Психологически причини"        }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
     ]
   },
   {
-    "symptom"   : "Слюноотделяне",
-    "symptomEn" : "",
+    "symptom"   : "Полифагия",
+    "symptomEn" : "Polyphagia",
     "type"      : "gastrointestinal",
     "meaning"   : "",
+    "isVisible" : false,
     "causes"    : [
       {
-        "group": "Птиализъм (увеличено кол-во слюнка)", "children": [
-          { "title" : "Гадене"           },
-          { "title" : "Припадък"         },
-          { "title" : "Поведение"        },
-          { "title" : "Хиперсекреция на слюнчените жлези" }
-        ]
-      },
-      {
-        "group": "Псевдоптиализъм (нормално кол-во слюнка)", "children": [
-          {"title": "Орална болка" },
-          {"title": "Дисфагия" }
+        "group": "", "children": [
+          {"title": ""}
         ]
       }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Парорексия",
+    "symptomEn" : "Parorexia",
+    "type"      : "gastrointestinal",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Пика",
+    "symptomEn" : "Pica",
+    "type"      : "gastrointestinal",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
     ]
   },
   {
     "symptom"   : "Регургитация",
-    "symptomEn" : "",
+    "symptomEn" : "Regurgitation",
     "type"      : "gastrointestinal",
     "meaning"   : "връщане на стомашно съдържимо обратно в хранопровода, още се нар. гастро-езофагеален рефлукс (ГЕР)",
+    "isVisible" : true,
     "causes"    : [
       {
         "group": "Дисфагия"
@@ -316,12 +520,12 @@
       { "title": "алгоритъм - SAIM", "link": "pdfs/@algorithms/gastrointestinal/regurgitation-algorihm-saim.png" }
     ]
   },
-
   {
     "symptom"   : "Повръщане",
-    "symptomEn" : "",
+    "symptomEn" : "Vomiting",
     "type"      : "gastrointestinal",
     "meaning"   : "",
+    "isVisible" : true,
     "causes"    : [
       {
         "group": "Морска болест (остра)"
@@ -387,12 +591,12 @@
       { "title": "алгоритъм - CB"   , "link": "pdfs/@algorithms/gastrointestinal/vomiting-algorithm-clinicians-brief.pdf" }
     ]
   },
-
   {
     "symptom"   : "Хематемеза",
-    "symptomEn" : "",
+    "symptomEn" : "Hematemesis",
     "type"      : "gastrointestinal",
-    "meaning"   : "повръщане на кръв",
+    "meaning"   : "",
+    "isVisible" : true,
     "causes"    : [
       {
         "group": "Коагулопатия (рядко)", "children": [
@@ -418,14 +622,34 @@
           {"title": "Извратен апетит (парорексия)" }
         ]
       }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
     ]
   },
-
   {
-    "symptom"   : "Хематохезия",
-    "symptomEn" : "",
+    "symptom"   : "Прекалено близане на муцуната",
+    "symptomEn" : "Excessive licking of lips",
+    "type"      : "gastrointestinal",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Кръв във фекалиите/ Хематохезия",
+    "symptomEn" : "Blood in stool/ Hematochezia",
     "type"      : "gastrointestinal",
     "meaning"   : "изхождане на прясна кръв през ануса, обикновено в или с изпражнения",
+    "isVisible" : true,
     "causes"    : [
       {
         "group": "Куче", "children": [
@@ -456,9 +680,10 @@
   },
   {
     "symptom"   : "Мелена",
-    "symptomEn" : "",
+    "symptomEn" : "Melena",
     "type"      : "gastrointestinal",
-    "meaning"   : "кръв в изпражненията",
+    "meaning"   : "Отделяне на неоформени, катраненочерни изпражнения, които най-често се дължат на кръвоизлив от храносмилателния канал.",
+    "isVisible" : true,
     "causes"    : [
       {
         "group": "Куче", "children": [
@@ -476,13 +701,34 @@
           {"title": "Коагулопатии"     }
         ]
       }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Слуз във фекалиите",
+    "symptomEn" : "Mucus in stool",
+    "type"      : "gastrointestinal",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
     ]
   },
   {
     "symptom"   : "Тенезъм и/или дисхезия",
-    "symptomEn" : "",
+    "symptomEn" : "Tenesmus and/or dyschesia",
     "type"      : "gastrointestinal",
     "meaning"   : "тенезъм - Мъчителен, болезнен, неефективен позив за уриниране или дефекация. Дисхезия - затруднено или болезнено изхождане.",
+    "isVisible" : true,
     "causes"    : [
       {
         "group": "Куче", "children": [
@@ -498,14 +744,114 @@
           {"title": "Запек"                   }
         ]
       }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
     ]
   },
-
+  {
+    "symptom"   : "Диария, остра",
+    "symptomEn" : "Diarrhea, acute",
+    "type"      : "gastrointestinal",
+    "meaning"   : "диария под 7-14 дни",
+    "isVisible" : true,
+    "causes"    : [
+      {
+        "group": "Диета", "children": [
+          {"title": "Хранителна непоносимост/ алергия"},
+          {"title": "Некачествена храна"},
+          {"title": "Бърза промяна в диетата"},
+          {"title": "Бактериално хранително отравяне"},
+          {"title": "Диетична недискретност"}
+        ]
+      },
+      {
+        "group": "Паразити", "children": [
+          {"title": "Хелминти"},
+          {"title": "Протозои", "children": [
+            {"title": "Гиардиаза"},
+            {"title": "Трихомониаза (котешка)"},
+            {"title": "Кокцидиоза"}
+          ]}
+        ]
+      },
+      {
+        "group": "Инфекциозни причини", "children": [
+          {"title": "Вирусни причини"},
+          {"title": "Бактериални причини"},
+          {"title": "Рикетсиална инфекция"}
+        ]
+      },
+      {
+        "group": "Други причини", "children": [
+          {"title": "Гастроентерит"},
+          {"title": "Развалена храна"},
+          {"title": "Различни лекарства"}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Клиничен преглед" , "link": "pdfs/@algorithms/clinichen-pregled-algoritym.pdf" },
+      { "title": "Алгоритъм куче НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_dog.pdf" },
+      { "title": "Алгоритъм котка НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_cat.pdf" },
+      { "title": "Алгоритъм миниВет" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea-minivet.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Диария, хронична",
+    "symptomEn" : "Diarrhea, chronic",
+    "type"      : "gastrointestinal",
+    "meaning"   : "диария над 7-14 дни",
+    "isVisible" : true,
+    "causes"    : [
+      {
+        "group" : "Тънки черва", "children": [
+          {"title": "Хранителна непоносимост или алергия"},
+          {"title": "Възпалително чревно заболяване"},
+          {"title": "GI лимфом"},
+          {"title": "Екзокринна панкреатична недостатъчност"},
+          {"title": "Хроничен паразитизъм (Ancylostoma, Giardia)"},
+          {"title": "Хистоплазмоза"},
+          {"title": "Чревна лимфангиектазия"},
+          {"title": "Частична обструкция"},
+          {"title": "Панкреатичен карцином"},
+          {"title": "Гастрином"},
+          {"title": "Чернодробно заболяване (чернодробна недостатъчност, холестаза)"},
+          {"title": "Ендокринно заболяване (хипоадренокортицизъм, хипотиреоидизъм, хипертиреоидизъм)"},
+          {"title": "Бъбречно заболяване (уремия, нефротичен синдром)"},
+          {"title": "Хронична инвагинация"},
+          {"title": "Прекомерен бактериален растеж в тънките черва"},
+          {"title": "Питиоза"}
+        ]
+      },
+      {
+        "group" : "Дебели черва", "children": [
+          {"title": "Хранителна нетолерантност или алергия"},
+          {"title": "Паразитизъм (Trichuris, Giardia, Trichomonas, Heterobilharzia)"},
+          {"title": "Клостридиална колит"},
+          {"title": "Синдром на раздразненото черво (отговарящ на фибри)"},
+          {"title": "Хистоплазмоза"},
+          {"title": "Питиоза"},
+          {"title": "Възпалително чревно заболяване"},
+          {"title": "Неоплазия (лимфом, аденокарцином)"},
+          {"title": "FeLV/FIV (инфекции вторични на тези вируси)"}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Клиничен преглед" , "link": "pdfs/@algorithms/clinichen-pregled-algoritym.pdf" },
+      { "title": "Алгоритъм куче НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_dog.pdf" },
+      { "title": "Алгоритъм котка НТ" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea_acute_cat.pdf" },
+      { "title": "Алгоритъм миниВет" , "link": "pdfs/@algorithms/gastrointestinal/diarrhea-minivet.pdf" },
+      { "title": "Хронична диария Котки" , "link": "pdfs/@algorithms/gastrointestinal/chronic-diarrhea-cats.pdf" }
+    ]
+  },
   {
     "symptom"   : "Запек",
-    "symptomEn" : "",
+    "symptomEn" : "Constipation",
     "type"      : "gastrointestinal",
     "meaning"   : "",
+    "isVisible" : true,
     "causes"    : [
       {
         "group": "Ятрогенни причини - лекарства" },
@@ -547,24 +893,32 @@
           {"title": "Мегаколон"           }
         ]
       }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
     ]
   },
   {
     "symptom"   : "Фекална инконтиненция",
-    "symptomEn" : "",
+    "symptomEn" : "Fecal incontinention",
     "type"      : "gastrointestinal",
     "meaning"   : "незадържане на фекалии",
+    "isVisible" : true,
     "causes"    : [
       { "group": "Невромускулно заболяване"       },
       { "group": "Частична ректална обструкция"  },
       { "group": "Тежък проктит" }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
     ]
   },
   {
     "symptom"   : "Загуба на тегло",
-    "symptomEn" : "",
+    "symptomEn" : "Loss of weight",
     "type"      : "gastrointestinal",
     "meaning"   : "",
+    "isVisible" : true,
     "causes"    : [
       {
         "group": "Храна", "children": [
@@ -602,91 +956,41 @@
       {
         "group": "Невромускулно заболяване"
       }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
     ]
   },
   {
-    "symptom"   : "Анорексия/Хипорексия",
-    "symptomEn" : "",
+    "symptom"   : "Наддаване на тегло",
+    "symptomEn" : "Weight Gain",
     "type"      : "gastrointestinal",
-    "meaning"   : "анорексия - отказ от храна, хипорексия - намален прием на храна",
+    "meaning"   : "",
+    "isVisible" : false,
     "causes"    : [
       {
-        "group": "Възпалително заболяване", "children": [
-          { "title" : "Бактериални инфекции"   },
-          { "title" : "Вирусни инфекции"       },
-          { "title" : "Гъбични инфекции"       },
-          { "title" : "Рикетсиални инфекции"   },
-          { "title" : "Протозойни инфекции"    },
-          { "title" : "Стерилно възпаление"    },
-          { "title" : "Треска"                 }
+        "group": "", "children": [
+          {"title": ""}
         ]
-      },
-      { "group": "Дисфагия"                      },
-      { "group": "Гадене"                        },
-      { "group": "Метаболитно заболяване"        },
-      { "group": "Заболяване на централната нервна система" },
-      { "group": "Ракова кахексия"               },
-      { "group": "Аносмия (рядко)"               },
-      { "group": "Психологически причини"        }
+      }
     ],
     "links" : [
-      { "title": "Алгоритъм (в процес)", "link": "pdfs/@algorithms/gastrointestinal/anorexia.pdf" }
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
     ]
   },
   {
     "symptom"   : "Асцит",
-    "symptomEn" : "",
+    "symptomEn" : "Ascites",
     "type"      : "gastrointestinal",
-    "meaning"   : "наличие на течност в коремната кухина",
+    "meaning"   : "",
+    "isVisible" : true,
     "causes"    : [
       { "title" : "Хипоалбуминемия"         },
       { "title" : "Портална хипертония"     },
       { "title" : "Перитонеално възпаление" }
-    ]
-  },
-  {
-    "symptom"   : "Остър корем",
-    "symptomEn" : "",
-    "type"      : "gastrointestinal",
-    "meaning"   : "синдром, който се манифестира със силни болки в корема, гадене, повръщане, нарушенчревен пасаж, влошаващо се общо състояние и перитонеално дразнене, обективизиращо се с дефанс",
-    "causes"    : [
-      {
-        "group": "Септично възпаление", "children": [
-          { "title" : "" },
-          { "title" : "" },
-          { "title" : "" },
-          { "title" : "" }
-        ]
-      },
-      {
-        "group": "Несептично възпаление", "children": [
-          {"title": "Панкреатит (често и важно)" },
-          {"title": "Уроабдомен (важно)" },
-          {"title": "Панстеатит (възпаление на мазнините)" }
-        ]
-      },
-      {
-        "group": "Раздуване или обструкция на орган", "children": [
-          {"title": "Стомашна дилатация или волвулус (често и важно)" },
-          {"title": "Чревна обструкция, причинена от много причини (често и важно)" },
-          {"title": "Инвагинация (важно, особено при по-млади животни)" }
-        ]
-      },
-      {
-        "group": "Исхемия", "children": [
-          {"title": "Торзио на слезка, чернодробен лоб, тестис или друг орган (рядко)" },
-          {"title": "Тромбоемболия на абдоминален орган (рядко)" }
-        ]
-      },
-      {
-        "group": "Коремно кръвотечение", "children": [
-          {"title": "Коремна неоплазия" },
-          {"title": "Коагулопатия" }
-        ]
-      },
-      {
-        "group": "Коремна неоплазия"
-      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
     ]
   },
   {
@@ -694,6 +998,7 @@
     "symptomEn" : "",
     "type"      : "gastrointestinal",
     "meaning"   : "",
+    "isVisible" : true,
     "causes"    : [
       {
         "group": "Лоша техника на палпация (“Псевдоболка”)"
@@ -751,12 +1056,12 @@
       { "title": "Алгоритъм", "link": "pdfs/@algorithms/gastrointestinal/acute-abdominal-pain-algorithm.png" }
     ]
   },
-
   {
-    "symptom"   : "Уголемяване/разширяван на корема -",
-    "symptomEn" : "",
+    "symptom"   : "Уголемяване/разширяване на корема",
+    "symptomEn" : "Abdominal dilatation",
     "type"      : "gastrointestinal",
     "meaning"   : "",
+    "isVisible" : true,
     "causes"    : [
       {
         "group": "Тъкан", "children": [
@@ -808,9 +1113,10 @@
   },
   {
     "symptom"   : "Жълтеница",
-    "symptomEn" : "",
+    "symptomEn" : "Icterus",
     "type"      : "gastrointestinal",
     "meaning"   : "",
+    "isVisible" : true,
     "causes"    : [
       {
         "group": "Прехепатална жълтеница"
@@ -869,10 +1175,113 @@
     ]
   },
   {
-    "symptom"   : "Синкоп",
+    "symptom"   : "Остър корем",
+    "symptomEn" : "Abdominal pain",
+    "type"      : "gastrointestinal",
+    "meaning"   : "синдром, който се манифестира със силни болки в корема, гадене, повръщане, нарушенчревен пасаж, влошаващо се общо състояние и перитонеално дразнене, обективизиращо се с дефанс",
+    "causes"    : [
+      {
+        "group": "Септично възпаление", "children": [
+          { "title" : "" },
+          { "title" : "" },
+          { "title" : "" },
+          { "title" : "" }
+        ]
+      },
+      {
+        "group": "Несептично възпаление", "children": [
+          {"title": "Панкреатит (често и важно)" },
+          {"title": "Уроабдомен (важно)" },
+          {"title": "Панстеатит (възпаление на мазнините)" }
+        ]
+      },
+      {
+        "group": "Раздуване или обструкция на орган", "children": [
+          {"title": "Стомашна дилатация или волвулус (често и важно)" },
+          {"title": "Чревна обструкция, причинена от много причини (често и важно)" },
+          {"title": "Инвагинация (важно, особено при по-млади животни)" }
+        ]
+      },
+      {
+        "group": "Исхемия", "children": [
+          {"title": "Торзио на слезка, чернодробен лоб, тестис или друг орган (рядко)" },
+          {"title": "Тромбоемболия на абдоминален орган (рядко)" }
+        ]
+      },
+      {
+        "group": "Коремно кръвотечение", "children": [
+          {"title": "Коремна неоплазия" },
+          {"title": "Коагулопатия" }
+        ]
+      },
+      {
+        "group": "Коремна неоплазия"
+      }
+    ]
+  },
+  {
+    "symptom"   : "Метеоризъм",
+    "symptomEn" : "Excessive gas",
+    "type"      : "gastrointestinal",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Търкане на задницата в земята",
+    "symptomEn" : "Dog scooting",
+    "type"      : "gastrointestinal",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/gastrointestinal/.pdf" }
+    ]
+  },
+
+
+
+
+
+
+  {
+    "symptom"   : "",
     "symptomEn" : "",
+    "type"      : "",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Синкоп",
+    "symptomEn" : "Syncope",
     "type"      : "cardiovascular",
     "meaning"   : "",
+    "isVisible" : true,
     "causes"    : [
       {
         "group": "Кардиоваскуларни причини", "children": [
@@ -914,13 +1323,27 @@
           { "title": "(Нарколепсия, катаплексия)" }
         ]
       }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/cardiovascular/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Колапс",
+    "symptomEn" : "",
+    "type"      : "antiinflammatory",
+    "meaning"   : "",
+    "causes"    : [ ],
+    "links" : [
+      { "title": "Алгоритъм" , "link": "pdfs/@algorithms/others/collapse-algorithm.pdf" }
     ]
   },
   {
     "symptom"   : "Аномален артериален пулс",
-    "symptomEn" : "",
+    "symptomEn" : "Anormal arterial pulse",
     "type"      : "cardiovascular",
     "meaning"   : "",
+    "isVisible" : true,
     "causes"    : [
       {
           "group": "Слаби пулсове", "children": [
@@ -946,13 +1369,17 @@
           { "title" : "Тежка аортална регургитация" }
         ]
       }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/cardiovascular/.pdf" }
     ]
   },
   {
     "symptom"   : "Сърдечен шум",
-    "symptomEn" : "",
+    "symptomEn" : "Heart murmur",
     "type"      : "cardiovascular",
     "meaning"   : "",
+    "isVisible" : true,
     "causes"    : [
       {
         "group": "Вродени сърдечни дефекти", "children": [
@@ -977,45 +1404,69 @@
           { "title": "Анормални структури" }
         ]
       }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/cardiovascular/.pdf" }
     ]
   },
   {
-    "symptom"   : "Сърцебиене",
-    "symptomEn" : "",
+    "symptom"   : "Аритмия",
+    "symptomEn" : "Arrhythmia",
     "type"      : "cardiovascular",
     "meaning"   : "",
+    "isVisible" : false,
     "causes"    : [
       {
-        "group": "Аритмии", "children": [
-          { "title": "Предсърдна фибрилация" },
-          { "title": "Тахикардия" },
-          { "title": "Вентрикуларни аритмии" }
-        ]
-      },
-      {
-        "group": "Стрес и тревожност", "children": [
-          { "title": "Емоционален стрес" },
-          { "title": "Паник атаки" },
-          { "title": "Фобии" }
-        ]
-      },
-      {
-        "group": "Други", "children": [
-          { "title": "Медикаменти" },
-          { "title": "Хормонални нарушения" },
-          { "title": "Хипертиреоидизъм" }
+        "group": "", "children": [
+          {"title": ""}
         ]
       }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/cardiovascular/.pdf" }
     ]
   },
-
-
+  {
+    "symptom"   : "Тахикардия",
+    "symptomEn" : "Tachycardia",
+    "type"      : "cardiovascular",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/cardiovascular/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Брадикардия",
+    "symptomEn" : "Bradycardia",
+    "type"      : "cardiovascular",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/cardiovascular/.pdf" }
+    ]
+  },
   {
     "symptom"   : "Хиповолемия",
-    "symptomEn" : "",
+    "symptomEn" : "Hypovolemia",
     "type"      : "cardiovascular",
-    "значение"  : "намаление на обема на кръвта, циркулираща в тялото",
-    "причини"   : [
+    "meaning"   : "намаление на обема на кръвта, циркулираща в тялото",
+    "isVisible" : true,
+    "causes"    : [
       {"group": "Дехидратация"                           },
       {"group": "Кръвоизлив"                             },
       {"group": "Шок"                                    },
@@ -1027,271 +1478,186 @@
       {"group": "Централен диабетен инсипид"             },
       {"group": "Гастроинтестинални обструкции"          },
       {"group": "Топлинен удар"                          }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/cardiovascular/.pdf" }
     ]
   },
   {
-    "symptom"   : "Лимфоекстравазат",
-    "symptomEn" : "",
+    "symptom"   : "Бледи лигавици",
+    "symptomEn" : "Pale gums",
     "type"      : "cardiovascular",
-    "значение"  : "означава изтичане на лимфна течност от лимфните съдове и събирането и между меките тъкани, което води до образуване на дифузен оток с еластична тестява консистенция, който (за разлика от този при хематоми) много бавно се втвърдява и за разлика от този при абсцес или флегмон не е темпериран и рядко е болезнен, а при пункция от него изтича най-често бистра лимфна течност.",
-    "причини"   : [
-      {"group": "Травма"    },
-      {"group": "Операция"  }
-    ]
-  },
-
-
-
-  {
-    "symptom"   : "Кашлица",
-    "symptomEn" : "",
-    "type"      : "respiratory",
     "meaning"   : "",
+    "isVisible" : false,
     "causes"    : [
       {
-        "group": "Респираторни заболявания", "children": [
-          { "title": "Инфекциозни заболявания" },
-          { "title": "Възпалителни заболявания" },
-          { "title": "Неоплазии" },
-          { "title": "Алергии" }
-        ]
-      },
-      {
-        "group": "Сърдечни заболявания", "children": [
-          { "title": "Сърдечна недостатъчност" }
-        ]
-      },
-      {
-        "group": "Други", "children": [
-          { "title": "Чужди тела" },
-          { "title": "Травма" }
-        ]
-      }
-    ]
-  },
-  {
-    "symptom"   : "Носни изтечения",
-    "symptomEn" : "",
-    "type"      : "respiratory",
-    "значение"  : "",
-    "причини"   : [
-      {
-        "group": "Серозни изтечения", "children": [
-          { "title" : "Нормално" },
-          { "title" : "Вирусна инфекция" },
-          { "title" : "Ранен признак на етиология на мукопуролентни изтечения" }
-        ]
-      },
-      {
-        "group": "Мукопуролентни изтечения с или без кръвоизлив", "children": [
-          { "title" : "Вирусна инфекция", "children" : [
-            { "title" : "Котешки херпесвирус (вирус на ринотрахеита)" },
-            { "title" : "Котешки калицивирус" },
-            { "title" : "Кучешки инфлуенца вирус" }
-            ]
-          },
-          { "title" : "Бактериална инфекция (обикновено вторична)" },
-          { "title" : "Гъбична инфекция", "children": [
-            { "title" : "Аспергили" },
-            { "title" : "Криптококус" },
-            { "title" : "Пеницилиум" },
-            { "title" : "Риноспоридиум" }
-            ]
-          },
-          { "title" : "Назални паразити", "children": [
-            { "title" : "Пнеумонисоидес" },
-            { "title" : "Капилария (Еуколеус)" }
-            ]
-          },
-          { "title" : "Чуждо тяло" },
-          { "title" : "Неоплазия" },
-          { "title" : "Назофарингеален полип" },
-          { "title" : "Разширение на устното заболяване" },
-          { "title" : "Алергичен ринит" },
-          { "title" : "Котешки хроничен риносинусит" },
-          { "title" : "Кучешки хроничен/лимфоплазмоцитен ринит" }
-        ]
-      },
-      {
-        "group": "Чисти кървави изтечения (епистаксис)", "children": [
-          { "title" : "Назално заболяване", "children": [
-            { "title" : "Остра травма" },
-            { "title" : "Чуждо тяло" },
-            { "title" : "Неоплазия" },
-            { "title" : "Гъбична инфекция" },
-            { "title" : "По-рядко други етиологии, както е посочено за мукопуролентните изтечения" }
-           ]
-          },
-          { "title" : "Системно заболяване", "children": [
-            { "title" : "Кървене поради коагулационни нарушения" },
-            { "title" : "Васкулит" },
-            { "title" : "Хипервискозитет синдром" },
-            { "title" : "Полицитемия" },
-            { "title" : "Системна хипертензия" }
-           ]
-          }
+        "group": "", "children": [
+          {"title": ""}
         ]
       }
     ],
     "links" : [
-      { "title": "Алгоритъм при диагностика на хронично назални изтечения" , "link": "pdfs/@algorithms/respiratory/nasal-discharge-chronic-saim.png" }
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/cardiovascular/.pdf" }
     ]
   },
   {
-    "symptom"   : "Диспнея",
-    "symptomEn" : "",
-    "type"      : "respiratory",
-    "значение"  : "неправилно и затруднено дишане",
-    "причини"   : [
-      {"group" : "Бледи лигавици", "children": [
-          {"title" : "Анемия - Анемичните животни може да не изглеждат цианотични дори при значителна хипоксемия, защото са необходими 5 g/dL дезатуриран хемоглобин за видима цианоза."},
-          {"title" : "Намален сърдечен дебит/повишен симпатиков тонус"}
-        ]
-      },
-      {"group" : "Зачервени лигавици", "children": [
-          {"title" : "Полицитемия (еритроцитоза)"},
-          {"title" : "Сепсис"},
-          {"title" : "Възбуда"},
-          {"title" : "Други причини за периферна вазодилатация"}
-        ]
-      },
-      {"group" : "Цианотични лигавици", "children": [
-          {"title" : "Паренхимни болести на белите дробове"},
-          {"title" : "Обструкция на дихателните пътища"},
-          {"title" : "Болести на плевралното пространство"},
-          {"title" : "Белодробен оток"},
-          {"title" : "Конгенитален шънт на сърцето отдясно наляво"},
-          {"title" : "Хиповентилация"},
-          {"title" : "Шок"},
-          {"title" : "Излагане на студ"},
-          {"title" : "Метемоглобинемия"}
-        ]
-      },
-      {"group" : "Диференциална цианоза", "children": [
-          {"title" : "Обратен отворен дуктус Артериозус (главата и предните крайници получават нормално оксигенирана кръв, но каудалната част на тялото получава дезатурирана кръв през дукта, който възниква от aorta descendens)"}
-        ]
-      },
-      {"group" : "Иктерични лигавици", "children": [
-          {"title" : "Хемолиза"},
-          {"title" : "Хепатобилиарни заболявания"},
-          {"title" : "Билиарна обструкция"}
+    "symptom"   : "Цианоза",
+    "symptomEn" : "Cyanosis",
+    "type"      : "cardiovascular",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
         ]
       }
     ],
-    "връзки" : [
-      {"заглавие" : "Класификация", "връзка" : "pdfs/@algorithms/respiratory/dyspnoea-classification.png"},
-      {"заглавие" : "Алгоритъм", "връзка" : "pdfs/@algorithms/respiratory/dyspnoea-algorithm.png"},
-      {"заглавие" : "Алгоритъм - Clinicians brief", "връзка" : "pdfs/@algorithms/respiratory/respiratory-distress-algorithm.png"}
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/cardiovascular/.pdf" }
     ]
   },
   {
-    "symptom"   : "Аномалии, открити при риноскопия",
-    "symptomEn" : "",
-    "type"      : "respiratory",
-    "значение"  : "",
-    "причини"   : [
-      {
-          "group": "Възпаление (Оток на мукозата, Хиперемия, Увеличено количество мукус, Ексудат)", "children": [
-            { "title" : "Неспецифична находка; разгледайте всички диференциални диагнози за мукопуролентно назално отделяне (инфекциозно, възпалително, неопластично)" }
-          ]
-      },
-      {
-        "group": "Маса", "children": [
-          { "title" : "Неоплазия" },
-          { "title" : "Назофарингеален полип" },
-          { "title" : "Криптококоза" },
-          { "title" : "Плоча от гъбични хифи или гъбична гранулома (aspergillosis, penicilliosis, rhinosporidiosis)" }
-        ]
-      },
-      {
-        "group": "Ерозия на носната преграда", "children": [
-          { "title" : "Умерено тежка", "children": [
-            { "title" : "Котешка херпесвироза" },
-            { "title" : "Хроничен възпалителен процес" }
-          ]
-          },
-          { "title" : "С петна", "children": [
-            { "title" : "Аспергилоза" },
-            { "title" : "Neoplasia" },
-            { "title" : "Cryptococcosis" },
-            { "title" : "Penicilliosis" }
-           ]
-          }
-        ]
-      },
-      {
-        "group": "Гъбични плаки", "children": [
-          { "title" : "Aspergillosis" },
-          { "title" : "Penicilliosis" }
-        ]
-      },
-      {
-        "group": "Паразити", "children": [
-          { "title" : "Pneumonyssoides caninum" },
-          { "title" : "Capillaria (Eucoleus) boehmi" }
-        ]
-      },
-      { "group": "Чужди тела" }
-    ]
-  },
-
-
-  {
-    "symptom"   : "Кихане",
-    "symptomEn" : "",
-    "type"      : "respiratory",
+    "symptom"   : "Студени крайници",
+    "symptomEn" : "Cold extremities",
+    "type"      : "cardiovascular",
     "meaning"   : "",
-    "causes"    : [
-      { "group": "Чуждо тяло в носната кухина" },
-      { "group": "Инфекция на горните дихателни пътища при котки" },
-      { "group": "Кърлеж в назалната кухина" },
-      { "group": "Дразнещи аерозоли" }
-    ]
-  },
-  {
-    "symptom"   : "Обратно кихане",
-    "symptomEn" : "",
-    "type"      : "respiratory",
-    "meaning"   : "",
-    "causes"    : [
-      { "group": "Чуждо тяло в носа" },
-      { "group": "Възпаление на назофаринкса" },
-      { "group": "Възпаление на епиглотиса" },
-      { "group": "Идиопатично" },
-      { "group": "Вълнение или пиене" }
-    ]
-  },
-  {
-    "symptom"   : "Стертор",
-    "symptomEn" : "",
-    "type"      : "respiratory",
-    "meaning"   : "Груби, чуваеми шумове на храпене или хъркане, свързани с дишането",
+    "isVisible" : false,
     "causes"    : [
       {
-        "group": "",
-        "children": [
-          { "title": "" },
-          { "title": "" }
+        "group": "", "children": [
+          {"title": ""}
         ]
       }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/cardiovascular/.pdf" }
     ]
   },
   {
-    "symptom"   : "Деформация на лицето",
-    "symptomEn" : "",
-    "type"      : "respiratory",
+    "symptom"   : "Оток на крайниците",
+    "symptomEn" : "Swollen limbs",
+    "type"      : "cardiovascular",
     "meaning"   : "",
+    "isVisible" : false,
     "causes"    : [
-      { "group": "Абсцес на корените на моларите" },
-      { "group": "Неоплазии" },
-      { "group": "Криптококоза (при котки)" }
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/cardiovascular/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Непоносимост към физическо натоварване",
+    "symptomEn" : "Exercise intolerance",
+    "type"      : "cardiovascular",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/cardiovascular/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Запушване на уретрата",
+    "symptomEn" : "Urine retention",
+    "type"      : "urogenital",
+    "meaning"   : "",
+    "isVisible" : true,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/zapushvane-na-uretrata.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Уринарна инконтиненция",
+    "symptomEn" : "Urine incontinence",
+    "type"      : "urogenital",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Дизурия, Странгурия, Полакиурия",
+    "symptomEn" : "Dysuria, stranguria, pollakiuria",
+    "type"      : "urogenital",
+    "meaning"   : "Дизурия—затруднено или болезнено уриниране. Полакиурия—често уриниране на малки количества. Странгурия—напрежение при уриниране.",
+    "isVisible" : true,
+    "causes"    : [
+      {
+        "group": "Възпалителни заболявания", "children": [
+          { "title" : "Идиопатичен цистит при котки, уретрит (идиопатично заболяване на долния уринарен тракт при котки) - Причина №1" },
+          { "title" : "Инфекция на уринарния тракт" },
+          { "title" : "Ятрогенно възпаление (напр. цистит, предизвикан от циклофосфамид)" },
+          { "title" : "Полипоиден цистит" },
+          { "title" : "Пролиферативен уретрит (грануломатозен уретрит)" }
+        ]
+      },
+      {
+        "group": "Уролитиаза - Причина №2", "children": [
+          {"title": "Камъни в пикочния мехур"},
+          {"title": "Камъни в уретрата"}
+        ]
+      },
+      {
+        "group": "Неоплазия", "children": [
+          {"title": "Преходноклетъчен карцином на пикочния мехур или уретрата"},
+          {"title": "Простатна неоплазия"},
+          {"title": "Вагинална неоплазия"}
+        ]
+      },
+      {
+        "group": "Травма", "children": [
+          {"title": "Руптура на пикочния мехур или уретрата"},
+          {"title": "Уретрална стриктура (предишна травма или операция)"}
+        ]
+      },
+      {
+        "group": "Неврогенни разстройства", "children": [
+          {"title": "Рефлексна диссинергия"}
+        ]
+      },
+      {
+        "group": "Други", "children": [
+          {"title": "Перинеална херния"}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/.pdf" }
     ]
   },
   {
     "symptom"   : "Хематурия",
-    "symptomEn" : "",
+    "symptomEn" : "Hematuria",
     "type"      : "urogenital",
     "meaning"   : "Кръв в урината, микро- и макрохематурия",
+    "isVisible" : true,
     "causes"    : [
       {
         "group": "Произход от уринарния тракт",
@@ -1326,13 +1692,34 @@
           { "title": "Възпалителни, неопластични и травматични увреждания на гениталния тракт" }
         ]
       }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Миризма от урината",
+    "symptomEn" : "Urine odor",
+    "type"      : "urogenital",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/.pdf" }
     ]
   },
   {
     "symptom"   : "Полиурия и полидипсия",
-    "symptomEn" : "",
+    "symptomEn" : "Polyuria and polydipsia",
     "type"      : "urogenital",
     "meaning"   : "",
+    "isVisible" : true,
     "causes"    : [
       {
         "group": "Кучета",
@@ -1418,10 +1805,28 @@
     ]
   },
   {
-    "symptom"   : "Пиурия",
-    "symptomEn" : "",
+    "symptom"   : "Олигурия/ Анурия",
+    "symptomEn" : "Oliguria/ anuria",
     "type"      : "urogenital",
     "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Пиурия",
+    "symptomEn" : "Pyuria",
+    "type"      : "urogenital",
+    "meaning"   : "",
+    "isVisible" : true,
     "causes"    : [
       {
         "group": "Произход от урогениталния тракт",
@@ -1441,13 +1846,17 @@
         ]
       },
       { "group": "Замърсяване на гениталния тракт" }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/.pdf" }
     ]
   },
   {
     "symptom"   : "Кристалурия",
-    "symptomEn" : "",
+    "symptomEn" : "Crystalluria",
     "type"      : "urogenital",
     "meaning"   : "образуване на кристали в урината",
+    "isVisible" : true,
     "causes"    : [
       {
         "group": "Струвитни кристали",
@@ -1488,13 +1897,17 @@
           { "title": "Постхепатично заболяване" }
         ]
       }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/.pdf" }
     ]
   },
   {
     "symptom"   : "Имуномедииран гломерулонефрит",
-    "symptomEn" : "",
+    "symptomEn" : "Immune-mediated glomerulonephritis",
     "type"      : "urogenital",
     "meaning"   : "",
+    "isVisible" : true,
     "causes"    : [
       {
         "group": "Кучета",
@@ -1578,96 +1991,179 @@
           }
         ]
       }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/.pdf" }
     ]
   },
-
   {
     "symptom"   : "Протеинурия",
-    "symptomEn" : "",
+    "symptomEn" : "Proteinuria",
     "type"      : "urogenital",
     "meaning"   : "",
-    "causes"    : [],
-    "links"     : [
+    "isVisible" : true,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
       { "title": "алгоритъм - SAIM", "link": "pdfs/@algorithms/urogenital/proteinuria-algorithm-saim.png" }
     ]
   },
   {
-    "symptom" :  "Остра бъбречна недостатъчност",
-    "symptomEn" : "",
-    "type"    : "urogenital",
-    "meaning" :  "",
-    "causes"  :  [
-      {"group": "Нефротоксини", "children": [
-        {"title": "Етиленгликол"},
-        {"title": "Аминогликозиди"},
-        {"title": "Амфотерицин B"},
-        {"title": "Великденска лилия (котки)"},
-        {"title": "Интоксикация с грозде или стафиди (кучета)"},
-        {"title": "Хиперкалциемия", "children": [
-          {"title": "Родентицид холекалциферол"},
-          {"title": "Калципотриен"}
-        ]
-      },
-        {"title": "Противотуморни лекарства (Цисплатин)"},
-        {"title": "Радиоконтрастни агенти, приложени интравенозно"},
-        {"title": "Тежки метали (напр. тиацетарсамид)"},
-        {"title": "Замърсена храна (меламин, цианурна киселина)"}
-        ]
-      },
-      {"group": "Бъбречна исхемия", "children": [
-        {"title": "Дехидратация"},
-        {"title": "Травма"},
-        {"title": "Анестезия"},
-        {"title": "Сепсис"},
-        {"title": "Топлинен удар"},
-        {"title": "Пигментна нефропатия (миоглобинурия)"},
-        {"title": "Шок"},
-        {"title": "Кръвоизлив"},
-        {"title": "Хирургия"},
-        {"title": "Нестероидни противовъзпалителни средства (НСПВС)"}
-        ]
-      },
-      {"group": "Нефрит", "children": [
-        {"title": "Лептоспироза - остър тубулоинтерстициален нефрит"},
-        {"title": "Борелиоза - бързо прогресиращ гломерулонефрит"}
-        ]
-      },
-      {"group": "Остра хиперфосфатемия", "children": [
-        {"title": "Синдром на разграждане на тумора (Tumor lysis syndrome)"}
-        ]
-      }
-    ]
-  },
-  {
-    "symptom"   : "Хронична бъбречна недостатъчност",
-    "symptomEn" : "",
+    "symptom"   : "Вагинални изтечения",
+    "symptomEn" : "Vaginal discharge",
     "type"      : "urogenital",
     "meaning"   : "",
+    "isVisible" : false,
     "causes"    : [
-      {"group": "Куче", "children": [
-        {"title": "Хроничен интерстициален нефрит (ХИН) с неизвестна етиология (най-честата диагноза)"},
-        {"title": "Хроничен пиелонефрит (може да бъде трудно да се различи хистологично от ХИН)"},
-        {"title": "Хроничен гломерулонефрит (може да бъде трудно да се различи хистологично от ХИН)"},
-        {"title": "Амилоидоза"},
-        {"title": "Наследствено бъбречно заболяване (няколко породи кучета могат да бъдат засегнати)"},
-        {"title": "Лечение на остра бъбречна травма"}
-        ]
-      },
-      {"group": "Котка", "children": [
-        {"title": "ХИН с неизвестна етиология (най-честата диагноза)"},
-        {"title": "Хроничен пиелонефрит (може да бъде трудно да се различи хистологично от ХИН)"},
-        {"title": "Хроничен гломерулонефрит (може да бъде трудно да се различи хистологично от ХИН)"},
-        {"title": "Амилоидоза (рядка при мешана порода котки, но фамилна при абисинци)"},
-        {"title": "Поликистозно бъбречно заболяване (фамилно при персийски котки)"},
-        {"title": "Лечение на остра бъбречна травма"},
-        {"title": "Неоплазия (бъбречен лимфом)"},
-        {"title": "Пиогрануломатозен нефрит, предизвикан от фелинен инфекциозен перитонит"}
+      {
+        "group": "", "children": [
+          {"title": ""}
         ]
       }
     ],
-    "links"   : [
-      { "title": "Характеристики на ХБН - SAIM", "link": "pdfs/@algorithms/urogenital/ckf-features-saim.png" },
-      { "title": "Етапи на ХБН - SAIM", "link": "pdfs/@algorithms/urogenital/ckf-iris-stages-saim.png" }
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Оток на вулвата",
+    "symptomEn" : "Swollen genitals",
+    "type"      : "urogenital",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Дистоция",
+    "symptomEn" : "Difficulty giving birth (dystocia)",
+    "type"      : "urogenital",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Продължително раждане",
+    "symptomEn" : "Prolonged labor",
+    "type"      : "urogenital",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Безплодие",
+    "symptomEn" : "Infertility",
+    "type"      : "urogenital",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Гнездящо поведение",
+    "symptomEn" : "Nesting behavior",
+    "type"      : "urogenital",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Лактация",
+    "symptomEn" : "Lactation",
+    "type"      : "urogenital",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Изтечения от пениса",
+    "symptomEn" : "Penile discharge",
+    "type"      : "urogenital",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Оток на скротума",
+    "symptomEn" : "Scrotal swelling",
+    "type"      : "urogenital",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/.pdf" }
     ]
   },
 
@@ -1675,36 +2171,1302 @@
 
 
 
+
   {
-    "symptom"   : "Заболяване на ставите",
+    "symptom"   : "",
     "symptomEn" : "",
-    "type"      : "antiinflammatory",
+    "type"      : "",
     "meaning"   : "",
+    "isVisible" : false,
     "causes"    : [
       {
-          "group": "Невъзпалителни ставни заболявания", "children": [
-            { "title" : "Развиващо се" },
-            { "title" : "Дегенеративно" },
-            { "title" : "Травматично" },
-            { "title" : "Неопластично" }
-          ]
-      },
-      {
-        "group": "Възпалителни ставни заболявания", "children": [
-          { "title" : "Инфекциозни" },
-          { "title" : "Невъзпалителни (имуномедиирани)", "children" : [
-            {"title" : "Неерозивни"},
-            {"title" : "Ерозивни"}
-          ] }
+        "group": "", "children": [
+          {"title": ""}
         ]
       }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Гърч",
+    "symptomEn" : "Seizure",
+    "type"      : "nervous",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/nervous/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Епилептичен статус",
+    "symptomEn" : "Status epilepticus",
+    "type"      : "nervous",
+    "meaning"   : "характеризира се с последователни епилептични пристъпи, без възстановяване на съзнанието между тях",
+    "isVisible" : true,
+    "causes"    : [
+      {
+        "group": "ИНТРАКРАНИАЛНИ", "children": [
+          { "title" : "Неоплазия" },
+          { "title" : "Възпалителни/Инфекциозни" },
+          { "title" : "Съдови" },
+          { "title" : "Дегенеративни/вродени/аномалии/малформации" },
+          { "title" : "Травматични" }
+        ]
+      },
+      {
+        "group": "ЕКСТРАКРАНИАЛНИ", "children": [
+          { "title" : "Метаболитни" , "children": [
+              {"title" : "Чернодробна енцефалопатия"},
+              {"title" : "Хипертиреоидизъм"},
+              {"title" : "Хипокалциемия"},
+              {"title" : "Хипогликемия"},
+              {"title" : "Тежка уремия (краен стадий на бъбречно заболяване)"}
+            ]
+          },
+          { "title" : "Токсини" },
+          { "title" : "Хранителни - Дефицит на тиамин (краен стадий)" }
+        ]
+      },
+      {
+        "group": "ЕПИЛЕПСИЯ", "children": [
+          { "title" : "Функционална: Идиопатична или Генетична" },
+          { "title" : "Структурна: Следенцефалитна; Следтравматична; Следисхемична (FIE, хипоксично събитие)" }
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "алгоритъм", "link": "pdfs/@algorithms/nervous/status_epilepticus.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Тремори",
+    "symptomEn" : "Tremors",
+    "type"      : "nervous",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/nervous/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Натискане на главата",
+    "symptomEn" : "Head pressing",
+    "type"      : "nervous",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/nervous/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Дезориентация",
+    "symptomEn" : "Disorientation",
+    "type"      : "nervous",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/nervous/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Атаксия",
+    "symptomEn" : "Ataxia",
+    "type"      : "nervous",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/nervous/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Въртене в кръг",
+    "symptomEn" : "Circling",
+    "type"      : "nervous",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/nervous/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Залитане",
+    "symptomEn" : "Staggering",
+    "type"      : "nervous",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/nervous/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Пареза",
+    "symptomEn" : "Paresis",
+    "type"      : "nervous",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/nervous/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Парализа",
+    "symptomEn" : "Paralysis",
+    "type"      : "nervous",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/nervous/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Слабост в крайниците",
+    "symptomEn" : "Weakness in Limbs",
+    "type"      : "nervous",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/nervous/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Мидриаза",
+    "symptomEn" : "Pupil dilation",
+    "type"      : "nervous",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/nervous/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Миоза",
+    "symptomEn" : "Miosis",
+    "type"      : "nervous",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/nervous/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Неестествена походка",
+    "symptomEn" : "Abnormal gait",
+    "type"      : "nervous",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/nervous/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Хиперактивност",
+    "symptomEn" : "Hyperactivity",
+    "type"      : "nervous",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/nervous/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Загуба на съзнание",
+    "symptomEn" : "Loss of Consciousness",
+    "type"      : "nervous",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/nervous/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Прекалено често прозяване",
+    "symptomEn" : "Yawning excessively",
+    "type"      : "nervous",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/nervous/.pdf" }
+    ]
+  },
+
+
+
+
+
+
+  {
+    "symptom"   : "",
+    "symptomEn" : "",
+    "type"      : "",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Зачервени очи",
+    "symptomEn" : "Red eyes",
+    "type"      : "eyes",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/eyes/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Изтечения от очите",
+    "symptomEn" : "Eye discharge",
+    "type"      : "eyes",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/eyes/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Замъглени очи",
+    "symptomEn" : "Cloudy eyes",
+    "type"      : "eyes",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/eyes/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Кривогледство",
+    "symptomEn" : "Squinting",
+    "type"      : "eyes",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/eyes/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Натискане на очите",
+    "symptomEn" : "Pawing at eyes",
+    "type"      : "eyes",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/eyes/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Екзофталм",
+    "symptomEn" : "Bulging eyes",
+    "type"      : "eyes",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/eyes/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Енофталм",
+    "symptomEn" : "Sunken eyes",
+    "type"      : "eyes",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/eyes/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Мидриаза",
+    "symptomEn" : "Dilated pupils",
+    "type"      : "eyes",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/eyes/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Миоза",
+    "symptomEn" : "Constricted pupils",
+    "type"      : "eyes",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/eyes/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Анизокория",
+    "symptomEn" : "Anisocoria",
+    "type"      : "eyes",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/eyes/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Загуба на зрение",
+    "symptomEn" : "Vision loss",
+    "type"      : "eyes",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/eyes/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Епифора",
+    "symptomEn" : "Epiphora",
+    "type"      : "eyes",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/eyes/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Изпадане на третия клепач",
+    "symptomEn" : "Third eyelid protrusion",
+    "type"      : "eyes",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/eyes/.pdf" }
+    ]
+  },
+
+
+
+
+
+
+  {
+    "symptom"   : "",
+    "symptomEn" : "",
+    "type"      : "",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Сърбеж по ушите",
+    "symptomEn" : "Ear scratching",
+    "type"      : "ears",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/ears/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Тръскане на главата",
+    "symptomEn" : "Head shaking",
+    "type"      : "ears",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/ears/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Секрет в ушите",
+    "symptomEn" : "Ear discharge",
+    "type"      : "ears",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/ears/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Миризма от ушите",
+    "symptomEn" : "Odor from Ears",
+    "type"      : "ears",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/ears/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Зачервяване на ушите",
+    "symptomEn" : "Redness in Ears",
+    "type"      : "ears",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/ears/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Оток на ушите",
+    "symptomEn" : "Swollen ears",
+    "type"      : "ears",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/ears/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Болка в ушите",
+    "symptomEn" : "Ear pain",
+    "type"      : "ears",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/ears/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Загуба на слух",
+    "symptomEn" : "Hearing loss",
+    "type"      : "ears",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/ears/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Накланяне на главата",
+    "symptomEn" : "Head tilt",
+    "type"      : "ears",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/ears/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Хематом на ухото",
+    "symptomEn" : "Ear hematoma",
+    "type"      : "ears",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/ears/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Люспене на ушите",
+    "symptomEn" : "Crusty ears",
+    "type"      : "ears",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/ears/.pdf" }
+    ]
+  },
+
+
+
+
+
+
+  {
+    "symptom"   : "",
+    "symptomEn" : "",
+    "type"      : "",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Сърбеж",
+    "symptomEn" : "Pruritus",
+    "type"      : "skin",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/skin/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Алопеция",
+    "symptomEn" : "Alopecia",
+    "type"      : "skin",
+    "meaning"   : "",
+    "isVisible" : true,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/skin/pdfs/@algorithms/skin/alopecia-algorithm.png" }
+    ]
+  },
+  {
+    "symptom"   : "Зачервяване на кожата",
+    "symptomEn" : "Redness of the skin (erythema)",
+    "type"      : "skin",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/skin/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Обрив",
+    "symptomEn" : "Rashes",
+    "type"      : "skin",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/skin/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Кожни були",
+    "symptomEn" : "Lumps and bumps",
+    "type"      : "skin",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/skin/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Суха кожа",
+    "symptomEn" : "Dry skin",
+    "type"      : "skin",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/skin/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Мазна кожа",
+    "symptomEn" : "Oily skin",
+    "type"      : "skin",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/skin/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Пърхот",
+    "symptomEn" : "Dandruff",
+    "type"      : "skin",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/skin/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Струпеи по кожата",
+    "symptomEn" : "Skin crusts",
+    "type"      : "skin",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/skin/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Хиперпигментация",
+    "symptomEn" : "Hyperpigmentation",
+    "type"      : "skin",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/skin/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Хиперкератоза",
+    "symptomEn" : "Thickened skin (lichenification)",
+    "type"      : "skin",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/skin/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Мехури по кожата",
+    "symptomEn" : "Blisters",
+    "type"      : "skin",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/skin/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Изтечение от кожната лезия",
+    "symptomEn" : "Discharge from skin lesions",
+    "type"      : "skin",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/skin/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Лошо състояние на козината",
+    "symptomEn" : "Poor coat condition",
+    "type"      : "skin",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/skin/.pdf" }
+    ]
+  },
+
+
+
+
+
+
+  {
+    "symptom"   : "",
+    "symptomEn" : "",
+    "type"      : "",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/urogenital/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Скованост",
+    "symptomEn" : "Stiffness",
+    "type"      : "muskuloskeletal",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/muskuloskeletal/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Подути стави",
+    "symptomEn" : "Swollen joints",
+    "type"      : "muskuloskeletal",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/muskuloskeletal/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Мускулна атрофия",
+    "symptomEn" : "Muscle atrophy",
+    "type"      : "muskuloskeletal",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/muskuloskeletal/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Болка при движение",
+    "symptomEn" : "Pain on movement",
+    "type"      : "muskuloskeletal",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/muskuloskeletal/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Трудно ставане",
+    "symptomEn" : "Difficulty rising",
+    "type"      : "muskuloskeletal",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/muskuloskeletal/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Отказ от скачане и изкачване",
+    "symptomEn" : "Reluctance to jump or climb",
+    "type"      : "muskuloskeletal",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/muskuloskeletal/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Деформация на кости",
+    "symptomEn" : "Bone deformities",
+    "type"      : "muskuloskeletal",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/muskuloskeletal/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Куцота",
+    "symptomEn" : "Lameness",
+    "type"      : "muskuloskeletal",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/muskuloskeletal/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Намалена активност",
+    "symptomEn" : "Decreased activity",
+    "type"      : "muskuloskeletal",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/muskuloskeletal/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Мускулни тремори",
+    "symptomEn" : "Muscle tremors",
+    "type"      : "muskuloskeletal",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/muskuloskeletal/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Кифоза",
+    "symptomEn" : "Back arching (kyphosis)",
+    "type"      : "others",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/others/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Поза за политва",
+    "symptomEn" : "Prayer position",
+    "type"      : "others",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/others/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Отпадналост",
+    "symptomEn" : "Lethargy",
+    "type"      : "others",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/others/.pdf" }
     ]
   },
   {
     "symptom"   : "Треска",
-    "symptomEn" : "",
-    "type"      : "antiinflammatory",
+    "symptomEn" : "Fever",
+    "type"      : "others",
     "meaning"   : "",
+    "isVisible" : true,
     "causes"    : [
       { "group": "V ascular: емболии, кръвоизливи." },
       { "group": "I nfectious: бактериални, гъбични, вирусни или протозоални." },
@@ -1733,16 +3495,162 @@
     ]
   },
   {
-    "symptom"   : "Колапс",
-    "symptomEn" : "",
-    "type"      : "antiinflammatory",
+    "symptom"   : "Треперене",
+    "symptomEn" : "Shivering or trembling",
+    "type"      : "others",
     "meaning"   : "",
-    "causes"    : [ ],
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
     "links" : [
-      { "title": "Алгоритъм" , "link": "pdfs/@algorithms/others/collapse-algorithm.pdf" }
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/others/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Депресия",
+    "symptomEn" : "Depression",
+    "type"      : "others",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/others/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Тревожност",
+    "symptomEn" : "Anxiety",
+    "type"      : "others",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/others/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Дехидратация",
+    "symptomEn" : "Dehydration",
+    "type"      : "others",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/others/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Прекомерно падане на козина",
+    "symptomEn" : "Excessive shedding",
+    "type"      : "others",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/others/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Внезапна смърт",
+    "symptomEn" : "Sudden death",
+    "type"      : "others",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/others/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Лимфаденопатия",
+    "symptomEn" : "Swollen lymph nodes",
+    "type"      : "others",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/others/.pdf" }
+    ]
+  },
+  {
+    "symptom"   : "Кървене",
+    "symptomEn" : "Bleeding",
+    "type"      : "others",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/others/.pdf" }
+    ]
+  },
+
+
+
+
+
+
+  {
+    "symptom"   : "",
+    "symptomEn" : "",
+    "type"      : "others",
+    "meaning"   : "",
+    "isVisible" : false,
+    "causes"    : [
+      {
+        "group": "", "children": [
+          {"title": ""}
+        ]
+      }
+    ],
+    "links" : [
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/others/.pdf" }
     ]
   }
-
-
-
 ]
