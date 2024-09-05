@@ -21,6 +21,9 @@ export class SymptomTab implements OnInit {
 
   public ngOnInit(): void {
     this.$collection = this.$dataService.$symptoms().getAll();
+    this.$collection = this.$collection.filter((el: any) => {
+      return el.isVisible == true;
+    });
   }
 
   /**

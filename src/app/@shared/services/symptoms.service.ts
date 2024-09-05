@@ -71,6 +71,7 @@ export class SymptomsService {
    * @returns
    */
   public get() {
-    return this.$intermediateCollection;
+    //return this.$intermediateCollection;
+    return this.$intermediateCollection.filter((e: any) => e.isVisible == true);
   }
 }
