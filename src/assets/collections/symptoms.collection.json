@@ -209,8 +209,8 @@
       }
     ],
     "links" : [
-      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/respiratory/dyspnoea-classification.pdf" },
-      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/respiratory//dyspnoea-algorithm.pdf" },
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/respiratory/dyspnoea-classification.png" },
+      { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/respiratory//dyspnoea-algorithm.png" },
       { "title": "Aлгоритъм" , "link": "pdfs/@algorithms/respiratory/respiratory-distress-algorithm.pdf" }
     ]
   },
