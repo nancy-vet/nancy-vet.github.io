@@ -75,6 +75,10 @@ const routes: Routes = [
   {
     path          : AppNavigationRouteEnum.ECG,
     loadChildren  : () => import( './@features/@section/ecg/probe.module').then(m => m.FeatureModule)
+  },
+  {
+    path          : AppNavigationRouteEnum.BREEDS,
+    loadChildren  : () => import( './@features/@section/breeds/main/main.module').then(m => m.FeatureModule)
   }
 ];
 
