@@ -3,20 +3,22 @@
   class="ion-page">
 
   <div class="h1">
-    {{selectedObject.title}}
+    {{selectedObject.name}}
   </div>
+  <div class="fs13">
+    ({{selectedObject.nameEn}})
+  </div>
+
+  <div>{{selectedObject.group}}</div>
+  <div>Големина: {{selectedObject.size}}</div>
+  <div>Височина: {{selectedObject.size.height}} см</div>
+  <div>Тегло: {{selectedObject.size.weight}} кг</div>
+  <div>Продължителност на живота: {{selectedObject.general.life_length_min}} - {{selectedObject.general.life_length_max}} год.</div>
+
 
   <div class="mt5 flex bcn-lightblue italic fb600 gallery" (click)="onGalleryOpen()">
     <ion-icon class="mr8" name="camera-outline"></ion-icon>
     <div>Галерия</div>
   </div>
-
-  @for(element of selectedObject.section; track element) {
-    <div class="h3 mt16">{{element.sectionTitle}}</div>
-
-    @for(sectionElement of element.content; track sectionElement) {
-      <div class="mt5">{{sectionElement}}</div>
-    }
-  }
 
 </nv-info-modal>
