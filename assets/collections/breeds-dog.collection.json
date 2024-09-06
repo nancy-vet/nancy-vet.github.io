@@ -1,0 +1,2728 @@
+[
+    {
+        "id"        : "австралийско келпи",
+        "name"      : "Австралийско келпи",
+        "nameEn"    : "Australian kelpie",
+        "code"      : "293",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/australian_kelpie.png",
+        "general"   : {
+            "country"          : "Австралия",
+            "life_length_min"  : 10,
+            "life_length_max"  : 13,
+            "coat_length_word" : "medium",
+            "walk_time"        : 3,
+            "owner_experience" : 3
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"    : 43,
+            "height_female_max"    : 48,
+            "height_male_min"      : 46,
+            "height_male_max"      : 51
+        },
+        "weight"    : {
+            "weight_female_min"    : 4,
+            "weight_female_max"    : 9,
+            "weight_male_min"      : 4,
+            "weight_male_max"      : 9
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 3,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 1,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 3,
+            "protectiveness"          : 4,
+            "adaptability"            : 3
+        },
+        "character": {
+            "trainability"            : 4,
+            "energy"                  : 5,
+            "barking"                 : 1,
+            "mental_stimulation_needs": 4
+        }
+        }
+    },
+    {
+        "id"        : "белгийска овчарка грюнендал",
+        "name"      : "Белгийска овчарка - Грюнендал",
+        "nameEn"    : "Belgian Shepherd Dog",
+        "code"      : "15_001",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/belgian_sheepdog.png",
+        "general"   : {
+            "country"          : "Белгия",
+            "life_length_min"  : 12,
+            "life_length_max"  : 14,
+            "coat_length_word" : "medium",
+            "walk_time"        : 3,
+            "owner_experience" : 3
+        },
+        "size"      : {
+        "size"        : "medium",
+        "height"      : {
+            "height_female_min"   : 58,
+            "height_female_max"   : 60,
+            "height_male_min"     : 58,
+            "height_male_max"     : 60
+        },
+        "weight"      : {
+            "weight_female_min"   : 20,
+            "weight_female_max"   : 25,
+            "weight_male_min"     : 25,
+            "weight_male_max"     : 30
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 3,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 2,
+            "drooling"                : 1,
+            "coat_length"             : 2
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 3,
+            "protectiveness"          : 4,
+            "adaptability"            : 3
+        },
+        "character": {
+            "trainability"            : 5,
+            "energy"                  : 4,
+            "barking"                 : 3,
+            "mental_stimulation_needs": 4
+        }
+        }
+    },
+    {
+        "id"        : "белгийска овчарка лакеноа",
+        "name"      : "Белгийска овчарка - Лакеноа",
+        "nameEn"    : "Belgian Shepherd Dog",
+        "code"      : "15_002",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/belgian_laekenois.png",
+        "general"   : {
+            "country"          : "Белгия",
+            "life_length_min"  : 12,
+            "life_length_max"  : 14,
+            "coat_length_word" : "medium",
+            "walk_time"        : 3,
+            "owner_experience" : 3
+        },
+        "size"      : {
+        "size"        : "medium",
+        "height"      : {
+            "height_female_min"   : 58,
+            "height_female_max"   : 58,
+            "height_male_min"     : 62,
+            "height_male_max"     : 62
+        },
+        "weight"      : {
+            "weight_female_min"   : 20,
+            "weight_female_max"   : 25,
+            "weight_male_min"     : 25,
+            "weight_male_max"     : 30
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 3,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 2,
+            "drooling"                : 1,
+            "coat_length"             : 2
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 3,
+            "protectiveness"          : 4,
+            "adaptability"            : 3
+        },
+        "character": {
+            "trainability"            : 5,
+            "energy"                  : 4,
+            "barking"                 : 3,
+            "mental_stimulation_needs": 4
+        }
+        }
+    },
+    {
+        "id"        : "белгийска овчарка малиноа",
+        "name"      : "Белгийска овчарка - Малиноа",
+        "nameEn"    : "Belgian Shepherd Dog",
+        "code"      : "15_003",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/belgian_malinois.png",
+        "general"   : {
+            "country"          : "Белгия",
+            "life_length_min"  : 12,
+            "life_length_max"  : 14,
+            "coat_length_word" : "short",
+            "walk_time"        : 3,
+            "owner_experience" : 3
+        },
+        "size"      : {
+        "size"        : "medium",
+        "height"      : {
+            "height_female_min"   : 58,
+            "height_female_max"   : 60,
+            "height_male_min"     : 58,
+            "height_male_max"     : 60
+        },
+        "weight"      : {
+            "weight_female_min"   : 20,
+            "weight_female_max"   : 25,
+            "weight_male_min"     : 25,
+            "weight_male_max"     : 30
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 3,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 2,
+            "drooling"                : 1,
+            "coat_length"             : 2
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 3,
+            "protectiveness"          : 4,
+            "adaptability"            : 3
+        },
+        "character": {
+            "trainability"            : 5,
+            "energy"                  : 4,
+            "barking"                 : 3,
+            "mental_stimulation_needs": 4
+        }
+        }
+    },
+    {
+        "id"        : "белгийска овчарка тервюрен",
+        "name"      : "Белгийска овчарка - Тервюрен",
+        "nameEn"    : "Belgian Shepherd Dog",
+        "code"      : "15_004",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/belgian_tervuren.png",
+        "general"   : {
+            "country"          : "Белгия",
+            "life_length_min"  : 12,
+            "life_length_max"  : 14,
+            "coat_length_word" : "medium",
+            "walk_time"        : 3,
+            "owner_experience" : 3
+        },
+        "size"      : {
+        "size"        : "medium",
+        "height"      : {
+            "height_female_min"   : 58,
+            "height_female_max"   : 60,
+            "height_male_min"     : 58,
+            "height_male_max"     : 60
+        },
+        "weight"      : {
+            "weight_female_min"   : 20,
+            "weight_female_max"   : 25,
+            "weight_male_min"     : 25,
+            "weight_male_max"     : 30
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 3,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 2,
+            "drooling"                : 1,
+            "coat_length"             : 2
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 3,
+            "protectiveness"          : 4,
+            "adaptability"            : 3
+        },
+        "character": {
+            "trainability"            : 5,
+            "energy"                  : 4,
+            "barking"                 : 3,
+            "mental_stimulation_needs": 4
+        }
+        }
+    },
+    {
+        "id"        : "шиперке",
+        "name"      : "Шиперке",
+        "nameEn"    : "Schipperke",
+        "code"      : "83",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/schipperke.png",
+        "general"   : {
+            "country"           : "Белгия",
+            "life_length_min"   : 12,
+            "life_length_max"   : 14,
+            "coat_length_word"  : "short",
+            "walk_time"         : 2,
+            "owner_experience"  : 1
+        },
+        "size"      : {
+        "size"      : "small",
+        "height"    : {
+            "height_female_min"   : 28,
+            "height_female_max"   : 33,
+            "height_male_min"     : 28,
+            "height_male_max"     : 33
+        },
+        "weight"    : {
+            "weight_female_min"   : 4,
+            "weight_female_max"   : 7,
+            "weight_male_min"     : 4,
+            "weight_male_max"     : 7
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 5,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 2,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 4,
+            "protectiveness"          : 5,
+            "adaptability"            : 4
+        },
+        "character": {
+            "trainability"            : 4,
+            "energy"                  : 3,
+            "barking"                 : 4,
+            "mental_stimulation_needs": 3
+        }
+        }
+    },
+    {
+        "id"        : "хърватска овчарка",
+        "name"      : "Хърватска овчарка",
+        "nameEn"    : "Croatian Shepherd Dog",
+        "code"      : "277",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/croatian_sheepdog.png",
+        "general"   : {
+            "country"           : "Хърватска",
+            "life_length_min"   : 13,
+            "life_length_max"   : 14,
+            "coat_length_word"  : "medium",
+            "walk_time"         : 2,
+            "owner_experience"  : 1
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 40,
+            "height_female_max"   : 50,
+            "height_male_min"     : 40,
+            "height_male_max"     : 50
+        },
+        "weight"    : {
+            "weight_female_min"   : 13,
+            "weight_female_max"   : 20,
+            "weight_male_min"     : 13,
+            "weight_male_max"     : 20
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 3,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 2,
+            "grooming"                : 1,
+            "drooling"                : 3,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 2,
+            "playfulness"             : 3,
+            "protectiveness"          : 5,
+            "adaptability"            : 2
+        },
+        "character": {
+            "trainability"            : 3,
+            "energy"                  : 3,
+            "barking"                 : 3,
+            "mental_stimulation_needs": 3
+        }
+        }
+    },
+    {
+        "id"        : "босерон",
+        "name"      : "Босерон",
+        "nameEn"    : "Beauceron",
+        "code"      : "44",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/beauceron.png",
+        "general"   : {
+            "country"           : "Франция",
+            "life_length_min"   : 10,
+            "life_length_max"   : 12,
+            "coat_length_word"  : "short",
+            "walk_time"         : 3,
+            "owner_experience"  : 3
+        },
+        "size"      : {
+        "size"      : "large",
+        "height"    : {
+            "height_female_min"   : 61,
+            "height_female_max"   : 68,
+            "height_male_min"     : 65,
+            "height_male_max"     : 70
+        },
+        "weight"    : {
+            "weight_female_min"   : 31,
+            "weight_female_max"   : 50,
+            "weight_male_min"     : 31,
+            "weight_male_max"     : 50
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 3,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 4,
+            "grooming"                : 3,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 2,
+            "playfulness"             : 3,
+            "protectiveness"          : 4,
+            "adaptability"            : 3
+        },
+        "character": {
+            "trainability"            : 3,
+            "energy"                  : 5,
+            "barking"                 : 3,
+            "mental_stimulation_needs": 3
+        }
+        }
+    },
+    {
+        "id"        : "Бриар",
+        "name"      : "Бриар",
+        "nameEn"    : "Briard",
+        "code"      : "113",
+        "group"     : "",
+        "image_link": "0",
+        "general"   : {
+            "country"          : "Франция",
+            "life_length_min"  : 12,
+            "life_length_max"  : 12,
+            "coat_length_word" : "long",
+            "walk_time"        : 3,
+            "owner_experience" : 3
+        },
+        "size"      : {
+        "size"        : "medium",
+        "height"      : {
+            "height_female_min"   : 56,
+            "height_female_max"   : 64,
+            "height_male_min"     : 62,
+            "height_male_max"     : 68
+        },
+        "weight"      : {
+            "weight_female_min"   : 11,
+            "weight_female_max"   : 20,
+            "weight_male_min"     : 11,
+            "weight_male_max"     : 20
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 3,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 1,
+            "grooming"                : 4,
+            "drooling"                : 2,
+            "coat_length"             : 3
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 3,
+            "protectiveness"          : 4,
+            "adaptability"            : 3
+        },
+        "character": {
+            "trainability"            : 5,
+            "energy"                  : 4,
+            "barking"                 : 3,
+            "mental_stimulation_needs": 4
+        }
+        }
+    },
+    {
+        "id"        : "пиренейска овчарка",
+        "name"      : "Пиренейска овчарка",
+        "nameEn"    : "Pyrenean Sheepdog",
+        "code"      : "141",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/pyrenean_shepherd.png",
+        "general"   : {
+            "country"           : "Франция",
+            "life_length_min"   : 17,
+            "life_length_max"   : 19,
+            "coat_length_word"  : "long",
+            "walk_time"         : 2,
+            "owner_experience"  : 3
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 38,
+            "height_female_max"   : 52,
+            "height_male_min"     : 40,
+            "height_male_max"     : 54
+        },
+        "weight"    : {
+            "weight_female_min"   : 8,
+            "weight_female_max"   : 15,
+            "weight_male_min"     : 8,
+            "weight_male_max"     : 15
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 4,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 2,
+            "drooling"                : 2,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 5,
+            "protectiveness"          : 5,
+            "adaptability"            : 3
+        },
+        "character": {
+            "trainability"            : 5,
+            "energy"                  : 5,
+            "barking"                 : 4,
+            "mental_stimulation_needs": 3
+        }
+        }
+    },
+    {
+        "id"        : "пикардийска овчарка",
+        "name"      : "Пикардийска овчарка",
+        "nameEn"    : "Berger Picard",
+        "code"      : "176",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/berger_picard.png",
+        "general"   : {
+            "country"           : "Франция",
+            "life_length_min"   : 12,
+            "life_length_max"   : 13,
+            "coat_length_word"  : "medium",
+            "walk_time"         : 1,
+            "owner_experience"  : 1
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 60,
+            "height_female_max"   : 65,
+            "height_male_min"     : 60,
+            "height_male_max"     : 65
+        },
+        "weight"    : {
+            "weight_female_min"   : 22,
+            "weight_female_max"   : 32,
+            "weight_male_min"     : 22,
+            "weight_male_max"     : 32
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 4,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 1,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 3,
+            "protectiveness"          : 4,
+            "adaptability"            : 2
+        },
+        "character": {
+            "trainability"            : 4,
+            "energy"                  : 4,
+            "barking"                 : 2,
+            "mental_stimulation_needs": 2
+        }
+        }
+    },
+    {
+        "id"        : "немска овчарка",
+        "name"      : "Немска овчарка",
+        "nameEn"    : "German Shepherd Dog",
+        "code"      : "166",
+        "group"     : "",
+        "image_link": "0",
+        "general"   : {
+            "country"          : "Германия",
+            "life_length_min"  : 13,
+            "life_length_max"  : 9,
+            "coat_length_word" : "medium",
+            "walk_time"        : 3,
+            "owner_experience" : 3
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"    : 55,
+            "height_female_max"    : 60,
+            "height_male_min"      : 60,
+            "height_male_max"      : 65
+        },
+        "weight"    : {
+            "weight_female_min"    : 22,
+            "weight_female_max"    : 32,
+            "weight_male_min"      : 30,
+            "weight_male_max"      : 40
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 5,
+            "good_with_children"       : 5,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 4,
+            "grooming"                : 2,
+            "drooling"                : 2,
+            "coat_length"             : 2
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 4,
+            "protectiveness"          : 5,
+            "adaptability"            : 5
+        },
+        "character": {
+            "trainability"            : 5,
+            "energy"                  : 5,
+            "barking"                 : 3,
+            "mental_stimulation_needs": 5
+        }
+        }
+    },
+    {
+        "id"        : "брадато коли",
+        "name"      : "Брадато коли",
+        "nameEn"    : "Bearded Collie",
+        "code"      : "271",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/bearded_collie.png",
+        "general"   : {
+            "country"           : "Великобритания",
+            "life_length_min"   : 12,
+            "life_length_max"   : 14,
+            "coat_length_word"  : "long",
+            "walk_time"         : 3,
+            "owner_experience"  : 2
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 51,
+            "height_female_max"   : 53,
+            "height_male_min"     : 53,
+            "height_male_max"     : 56
+        },
+        "weight"    : {
+            "weight_female_min"   : 20,
+            "weight_female_max"   : 25,
+            "weight_male_min"     : 20,
+            "weight_male_max"     : 25
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 5,
+            "good_with_children"       : 5,
+            "good_with_other_dogs"     : 5
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 4,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 4,
+            "playfulness"             : 4,
+            "protectiveness"          : 3,
+            "adaptability"            : 2
+        },
+        "character": {
+            "trainability"            : 3,
+            "energy"                  : 4,
+            "barking"                 : 5,
+            "mental_stimulation_needs": 2
+        }
+        }
+    },
+    {
+        "id"        : "бордър коли",
+        "name"      : "Бордър коли",
+        "nameEn"    : "Border Collie",
+        "code"      : "297",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/border_collie.png",
+        "general"   : {
+            "country"           : "Великобритания",
+            "life_length_min"   : 12,
+            "life_length_max"   : 15,
+            "coat_length_word"  : "medium",
+            "walk_time"         : 3,
+            "owner_experience"  : 3
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 45,
+            "height_female_max"   : 53,
+            "height_male_min"     : 48,
+            "height_male_max"     : 55
+        },
+        "weight"    : {
+            "weight_female_min"   : 12,
+            "weight_female_max"   : 19,
+            "weight_male_min"     : 13,
+            "weight_male_max"     : 20
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 3,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 3,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 4,
+            "playfulness"             : 5,
+            "protectiveness"          : 3,
+            "adaptability"            : 4
+        },
+        "character": {
+            "trainability"            : 5,
+            "energy"                  : 5,
+            "barking"                 : 4,
+            "mental_stimulation_needs": 5
+        }
+        }
+    },
+    {
+        "id"        : "дългокосместо коли",
+        "name"      : "Дългокосместо коли",
+        "nameEn"    : "Rough Collie",
+        "code"      : "156",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/collie_longhaired.png",
+        "general"   : {
+            "country"           : "Великобритания",
+            "life_length_min"   : 14,
+            "life_length_max"   : 16,
+            "coat_length_word"  : "long",
+            "walk_time"         : 2,
+            "owner_experience"  : 3
+        },
+        "size"      : {
+        "size"      : "large",
+        "height"    : {
+            "height_female_min"   : 51,
+            "height_female_max"   : 56,
+            "height_male_min"     : 56,
+            "height_male_max"     : 61
+        },
+        "weight"    : {
+            "weight_female_min"   : 20,
+            "weight_female_max"   : 30,
+            "weight_male_min"     : 25,
+            "weight_male_max"     : 35
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 4,
+            "good_with_children"       : 5,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 3,
+            "drooling"                : 2,
+            "coat_length"             : 3
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 4,
+            "protectiveness"          : 3,
+            "adaptability"            : 4
+        },
+        "character": {
+            "trainability"            : 4,
+            "energy"                  : 3,
+            "barking"                 : 5,
+            "mental_stimulation_needs": 3
+        }
+        }
+    },
+    {
+        "id"        : "късокосместо коли",
+        "name"      : "Късокосместо коли",
+        "nameEn"    : "Smooth Collie",
+        "code"      : "296",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/collie_shorthaired.png",
+        "general"   : {
+            "country"           : "Великобритания",
+            "life_length_min"   : 14,
+            "life_length_max"   : 16,
+            "coat_length_word"  : "short",
+            "walk_time"         : 2,
+            "owner_experience"  : 3
+        },
+        "size"      : {
+        "size"      : "large",
+        "height"    : {
+            "height_female_min"   : 51,
+            "height_female_max"   : 56,
+            "height_male_min"     : 56,
+            "height_male_max"     : 61
+        },
+        "weight"    : {
+            "weight_female_min"   : 20,
+            "weight_female_max"   : 30,
+            "weight_male_min"     : 25,
+            "weight_male_max"     : 35
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 4,
+            "good_with_children"       : 5,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 3,
+            "drooling"                : 2,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 4,
+            "protectiveness"          : 3,
+            "adaptability"            : 4
+        },
+        "character": {
+            "trainability"            : 4,
+            "energy"                  : 3,
+            "barking"                 : 5,
+            "mental_stimulation_needs": 3
+        }
+        }
+    },
+    {
+        "id"        : "староанглийска овчарка",
+        "name"      : "Староанглийска овчарка",
+        "nameEn"    : "Old English Sheepdog",
+        "code"      : "16",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/old_english_sheepdog.png",
+        "general"   : {
+            "country"           : "Великобритания",
+            "life_length_min"   : 10,
+            "life_length_max"   : 12,
+            "coat_length_word"  : "long",
+            "walk_time"         : 2,
+            "owner_experience"  : 3
+        },
+        "size"      : {
+        "size"      : "large",
+        "height"    : {
+            "height_female_min"   : 53,
+            "height_female_max"   : 61,
+            "height_male_min"     : 55,
+            "height_male_max"     : 61
+        },
+        "weight"    : {
+            "weight_female_min"   : 27,
+            "weight_female_max"   : 45,
+            "weight_male_min"     : 27,
+            "weight_male_max"     : 45
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 5,
+            "good_with_children"       : 5,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 4,
+            "drooling"                : 3,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 4,
+            "protectiveness"          : 4,
+            "adaptability"            : 4
+        },
+        "character": {
+            "trainability"            : 4,
+            "energy"                  : 3,
+            "barking"                 : 3,
+            "mental_stimulation_needs": 4
+        }
+        }
+    },
+    {
+        "id"        : "шетландска овчарка",
+        "name"      : "Шетландска овчарка",
+        "nameEn"    : "Shetland Sheepdog",
+        "code"      : "88",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/shetland_sheepdog.png",
+        "general"   : {
+            "country"           : "0",
+            "life_length_min"   : 12,
+            "life_length_max"   : 13,
+            "coat_length_word"  : "long",
+            "walk_time"         : 2,
+            "owner_experience"  : 2
+        },
+        "size"      : {
+        "size"      : "small",
+        "height"    : {
+            "height_female_min"   : 33,
+            "height_female_max"   : 40,
+            "height_male_min"     : 33,
+            "height_male_max"     : 40
+        },
+        "weight"    : {
+            "weight_female_min"   : 5.5,
+            "weight_female_max"   : 11,
+            "weight_male_min"     : 5.5,
+            "weight_male_max"     : 11
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 5,
+            "good_with_children"       : 5,
+            "good_with_other_dogs"     : 5
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 3,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 2,
+            "playfulness"             : 5,
+            "protectiveness"          : 5,
+            "adaptability"            : 5
+        },
+        "character": {
+            "trainability"            : 5,
+            "energy"                  : 4,
+            "barking"                 : 5,
+            "mental_stimulation_needs": 4
+        }
+        }
+    },
+    {
+        "id"        : "комондор",
+        "name"      : "Комондор",
+        "nameEn"    : "Komondor",
+        "code"      : "53",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/komondor.png",
+        "general"   : {
+            "country"           : "Унгария",
+            "life_length_min"   : 10,
+            "life_length_max"   : 12,
+            "coat_length_word"  : "long",
+            "walk_time"         : 1,
+            "owner_experience"  : 3
+        },
+        "size"      : {
+        "size"      : "large",
+        "height"    : {
+            "height_female_min"   : 65,
+            "height_female_max"   : 70,
+            "height_male_min"     : 70,
+            "height_male_max"     : 75
+        },
+        "weight"    : {
+            "weight_female_min"   : 40,
+            "weight_female_max"   : 50,
+            "weight_male_min"     : 50,
+            "weight_male_max"     : 60
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 5,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 2
+        },
+        "physical" : {
+            "shedding"                : 1,
+            "grooming"                : 4,
+            "drooling"                : 2,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 3,
+            "protectiveness"          : 5,
+            "adaptability"            : 3
+        },
+        "character": {
+            "trainability"            : 4,
+            "energy"                  : 3,
+            "barking"                 : 3,
+            "mental_stimulation_needs": 3
+        }
+        }
+    },
+    {
+        "id"        : "кувас",
+        "name"      : "Кувас",
+        "nameEn"    : "Kuvasz",
+        "code"      : "54",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/kuvasz.png",
+        "general"   : {
+            "country"           : "Унгария",
+            "life_length_min"   : 10,
+            "life_length_max"   : 12,
+            "coat_length_word"  : "medium",
+            "walk_time"         : 1,
+            "owner_experience"  : 2
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 66,
+            "height_female_max"   : 70,
+            "height_male_min"     : 71,
+            "height_male_max"     : 76
+        },
+        "weight"    : {
+            "weight_female_min"   : 37,
+            "weight_female_max"   : 50,
+            "weight_male_min"     : 48,
+            "weight_male_max"     : 62
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 5,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 2,
+            "drooling"                : 2,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 3,
+            "protectiveness"          : 5,
+            "adaptability"            : 4
+        },
+        "character": {
+            "trainability"            : 5,
+            "energy"                  : 3,
+            "barking"                 : 3,
+            "mental_stimulation_needs": 3
+        }
+        }
+    },
+    {
+        "id"        : "Пудел - играчка",
+        "name"      : "Пудел - играчка",
+        "nameEn"    : "Poodle (Toy)",
+        "code"      : "1720003",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/poodle_.png).jpg",
+        "general"   : {
+            "country"           : "Франция",
+            "life_length_min"   : 10,
+            "life_length_max"   : 18,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 8,
+            "height_female_max"   : 10,
+            "height_male_min"     : 8,
+            "height_male_max"     : 10
+        },
+        "weight"    : {
+            "weight_female_min"   : 4,
+            "weight_female_max"   : 6,
+            "weight_male_min"     : 4,
+            "weight_male_max"     : 6
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 5,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 1,
+            "grooming"                : 4,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 5,
+            "playfulness"             : 5,
+            "protectiveness"          : 3,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 5,
+            "energy"                  : 4,
+            "barking"                 : 4,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },
+    {
+        "id"        : "брюкселски грифон",
+        "name"      : "Брюкселски грифон",
+        "nameEn"    : "Brussels Griffon",
+        "code"      : "80",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/brussels_griffon.png",
+        "general"   : {
+            "country"           : "Белгия",
+            "life_length_min"   : 12,
+            "life_length_max"   : 15,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 7,
+            "height_female_max"   : 10,
+            "height_male_min"     : 7,
+            "height_male_max"     : 10
+        },
+        "weight"    : {
+            "weight_female_min"   : 8,
+            "weight_female_max"   : 10,
+            "weight_male_min"     : 8,
+            "weight_male_max"     : 10
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 3,
+            "drooling"                : 1,
+            "coat_length"             : 2
+        },
+        "social"   : {
+            "openness_to_strangers"   : 4,
+            "playfulness"             : 4,
+            "protectiveness"          : 3,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 4,
+            "energy"                  : 3,
+            "barking"                 : 4,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },
+    {
+        "id"        : "китайско голо качулато куче",
+        "name"      : "Китайско голо качулато куче",
+        "nameEn"    : "Chinese Crested",
+        "code"      : "288",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/chinese_crested.png",
+        "general"   : {
+            "country"           : "Китай",
+            "life_length_min"   : 13,
+            "life_length_max"   : 18,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 11,
+            "height_female_max"   : 13,
+            "height_male_min"     : 11,
+            "height_male_max"     : 13
+        },
+        "weight"    : {
+            "weight_female_min"   : 8,
+            "weight_female_max"   : 12,
+            "weight_male_min"     : 8,
+            "weight_male_max"     : 12
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 1,
+            "grooming"                : 2,
+            "drooling"                : 1,
+            "coat_length"             : 2
+        },
+        "social"   : {
+            "openness_to_strangers"   : 4,
+            "playfulness"             : 3,
+            "protectiveness"          : 3,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 4,
+            "energy"                  : 3,
+            "barking"                 : 3,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },
+    {
+        "id"        : "лхаса апсо",
+        "name"      : "Лхаса апсо",
+        "nameEn"    : "Lhasa Apso",
+        "code"      : "227",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/lhasa_apso.png",
+        "general"   : {
+            "country"           : "Тибет",
+            "life_length_min"   : 12,
+            "life_length_max"   : 15,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 10,
+            "height_female_max"   : 11,
+            "height_male_min"     : 10,
+            "height_male_max"     : 11
+        },
+        "weight"    : {
+            "weight_female_min"   : 12,
+            "weight_female_max"   : 18,
+            "weight_male_min"     : 12,
+            "weight_male_max"     : 18
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 1,
+            "grooming"                : 3,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 3,
+            "protectiveness"          : 5,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 3,
+            "energy"                  : 3,
+            "barking"                 : 3,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },
+    {
+        "id"        : "ши цу",
+        "name"      : "Ши цу",
+        "nameEn"    : "Shih Tzu",
+        "code"      : "208",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/shih_tzu.png",
+        "general"   : {
+            "country"           : "Тибет",
+            "life_length_min"   : 10,
+            "life_length_max"   : 18,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 9,
+            "height_female_max"   : 10.5,
+            "height_male_min"     : 9,
+            "height_male_max"     : 10.5
+        },
+        "weight"    : {
+            "weight_female_min"   : 9,
+            "weight_female_max"   : 16,
+            "weight_male_min"     : 9,
+            "weight_male_max"     : 16
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 5,
+            "good_with_other_dogs"     : 5
+        },
+        "physical" : {
+            "shedding"                : 1,
+            "grooming"                : 4,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 3,
+            "protectiveness"          : 3,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 4,
+            "energy"                  : 3,
+            "barking"                 : 3,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },
+    {
+        "id"        : "тибетски шпаньол",
+        "name"      : "Тибетски шпаньол",
+        "nameEn"    : "Tibetan Spaniel",
+        "code"      : "231",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/tibetan_spaniel.png",
+        "general"   : {
+            "country"           : "Тибет",
+            "life_length_min"   : 12,
+            "life_length_max"   : 15,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 10,
+            "height_female_max"   : 10,
+            "height_male_min"     : 10,
+            "height_male_max"     : 10
+        },
+        "weight"    : {
+            "weight_female_min"   : 9,
+            "weight_female_max"   : 15,
+            "weight_male_min"     : 9,
+            "weight_male_max"     : 15
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 5,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 2,
+            "drooling"                : 2,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 4,
+            "playfulness"             : 4,
+            "protectiveness"          : 4,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 3,
+            "energy"                  : 3,
+            "barking"                 : 3,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },
+    {
+        "id"        : "тибетски териер",
+        "name"      : "Тибетски териер",
+        "nameEn"    : "Tibetan Terrier",
+        "code"      : "209",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/tibetan_terrier.png",
+        "general"   : {
+            "country"           : "Тибет",
+            "life_length_min"   : 15,
+            "life_length_max"   : 16,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 14,
+            "height_female_max"   : 17,
+            "height_male_min"     : 14,
+            "height_male_max"     : 17
+        },
+        "weight"    : {
+            "weight_female_min"   : 18,
+            "weight_female_max"   : 31,
+            "weight_male_min"     : 18,
+            "weight_male_max"     : 31
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 3,
+            "drooling"                : 2,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 3,
+            "protectiveness"          : 4,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 3,
+            "energy"                  : 4,
+            "barking"                 : 3,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },
+    {
+        "id"        : "чихуахуа",
+        "name"      : "Чихуахуа",
+        "nameEn"    : "Chihuahua",
+        "code"      : "218",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/chihuahua.png",
+        "general"   : {
+            "country"           : "Мексико",
+            "life_length_min"   : 14,
+            "life_length_max"   : 16,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 5,
+            "height_female_max"   : 8,
+            "height_male_min"     : 5,
+            "height_male_max"     : 8
+        },
+        "weight"    : {
+            "weight_female_min"   : 4,
+            "weight_female_max"   : 6,
+            "weight_male_min"     : 4,
+            "weight_male_max"     : 6
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 1,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 2,
+            "grooming"                : 1,
+            "drooling"                : 1,
+            "coat_length"             : 2
+        },
+        "social"   : {
+            "openness_to_strangers"   : 2,
+            "playfulness"             : 4,
+            "protectiveness"          : 4,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 3,
+            "energy"                  : 4,
+            "barking"                 : 5,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },
+    {
+        "id"        : "кавалер кинг чарлз шпаньол",
+        "name"      : "Кавалер Кинг Чарлз шпаньол",
+        "nameEn"    : "Cavalier King Charles Spaniel",
+        "code"      : "136",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/cavalier_king_charles_spaniel.png",
+        "general"   : {
+            "country"           : "Великобритания",
+            "life_length_min"   : 12,
+            "life_length_max"   : 15,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 12,
+            "height_female_max"   : 13,
+            "height_male_min"     : 12,
+            "height_male_max"     : 13
+        },
+        "weight"    : {
+            "weight_female_min"   : 13,
+            "weight_female_max"   : 18,
+            "weight_male_min"     : 13,
+            "weight_male_max"     : 18
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 5,
+            "good_with_other_dogs"     : 5
+        },
+        "physical" : {
+            "shedding"                : 2,
+            "grooming"                : 2,
+            "drooling"                : 2,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 4,
+            "playfulness"             : 3,
+            "protectiveness"          : 3,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 4,
+            "energy"                  : 3,
+            "barking"                 : 3,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },
+    {
+        "id"        : "пекинез",
+        "name"      : "Пекинез",
+        "nameEn"    : "Pekingese",
+        "code"      : "207",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/pekingese.png",
+        "general"   : {
+            "country"           : "Китай",
+            "life_length_min"   : 12,
+            "life_length_max"   : 14,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 6,
+            "height_female_max"   : 9,
+            "height_male_min"     : 6,
+            "height_male_max"     : 9
+        },
+        "weight"    : {
+            "weight_female_min"   : 7,
+            "weight_female_max"   : 14,
+            "weight_male_min"     : 7,
+            "weight_male_max"     : 14
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 3,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 4,
+            "protectiveness"          : 4,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 3,
+            "energy"                  : 3,
+            "barking"                 : 1,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },
+    {
+        "id"        : "японски хин",
+        "name"      : "Японски хин",
+        "nameEn"    : "Japanese Chin",
+        "code"      : "206",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/japanese_chin.png",
+        "general"   : {
+            "country"           : "Япония",
+            "life_length_min"   : 10,
+            "life_length_max"   : 12,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 8,
+            "height_female_max"   : 11,
+            "height_male_min"     : 8,
+            "height_male_max"     : 11
+        },
+        "weight"    : {
+            "weight_female_min"   : 7,
+            "weight_female_max"   : 11,
+            "weight_male_min"     : 7,
+            "weight_male_max"     : 11
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 5
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 2,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 3,
+            "protectiveness"          : 3,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 3,
+            "energy"                  : 3,
+            "barking"                 : 2,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },
+    {
+        "id"        : "папийон",
+        "name"      : "Папийон",
+        "nameEn"    : "Papillon",
+        "code"      : "770001",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/papillon.png",
+        "general"   : {
+            "country"           : "Белгия",
+            "life_length_min"   : 14,
+            "life_length_max"   : 16,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 8,
+            "height_female_max"   : 11,
+            "height_male_min"     : 8,
+            "height_male_max"     : 11
+        },
+        "weight"    : {
+            "weight_female_min"   : 5,
+            "weight_female_max"   : 10,
+            "weight_male_min"     : 5,
+            "weight_male_max"     : 10
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 5,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 2,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 5,
+            "playfulness"             : 5,
+            "protectiveness"          : 4,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 5,
+            "energy"                  : 4,
+            "barking"                 : 5,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },
+    {
+        "id"        : "руски той териер",
+        "name"      : "Руски той териер",
+        "nameEn"    : "Russian Toy",
+        "code"      : "352",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/russian_toy.png",
+        "general"   : {
+            "country"           : "Русия",
+            "life_length_min"   : 12,
+            "life_length_max"   : 14,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 8,
+            "height_female_max"   : 11,
+            "height_male_min"     : 8,
+            "height_male_max"     : 11
+        },
+        "weight"    : {
+            "weight_female_min"   : 3.3,
+            "weight_female_max"   : 6.6,
+            "weight_male_min"     : 3.3,
+            "weight_male_max"     : 6.6
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 2,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 4,
+            "protectiveness"          : 4,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 4,
+            "energy"                  : 3,
+            "barking"                 : 4,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },
+    {
+        "id"        : "кромфорлендер",
+        "name"      : "Кромфорлендер",
+        "nameEn"    : "Kromfohrlander",
+        "code"      : "192",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/kromfohrlander.png",
+        "general"   : {
+            "country"           : "Германия",
+            "life_length_min"   : 13,
+            "life_length_max"   : 15,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 15,
+            "height_female_max"   : 18,
+            "height_male_min"     : 15,
+            "height_male_max"     : 18
+        },
+        "weight"    : {
+            "weight_female_min"   : 20,
+            "weight_female_max"   : 35,
+            "weight_male_min"     : 20,
+            "weight_male_max"     : 35
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 4,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 2,
+            "grooming"                : 1,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 4,
+            "playfulness"             : 4,
+            "protectiveness"          : 3,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 4,
+            "energy"                  : 4,
+            "barking"                 : 3,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },
+    {
+        "id"        : "мопс",
+        "name"      : "Мопс",
+        "nameEn"    : "Pug",
+        "code"      : "253",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/pug.png",
+        "general"   : {
+            "country"           : "Китай",
+            "life_length_min"   : 13,
+            "life_length_max"   : 15,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 10,
+            "height_female_max"   : 13,
+            "height_male_min"     : 10,
+            "height_male_max"     : 13
+        },
+        "weight"    : {
+            "weight_female_min"   : 14,
+            "weight_female_max"   : 18,
+            "weight_male_min"     : 14,
+            "weight_male_max"     : 18
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 5,
+            "good_with_other_dogs"     : 4
+        },
+        "physical" : {
+            "shedding"                : 4,
+            "grooming"                : 2,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 5,
+            "playfulness"             : 5,
+            "protectiveness"          : 3,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 4,
+            "energy"                  : 3,
+            "barking"                 : 1,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },
+    {
+        "id"        : "френски булдог",
+        "name"      : "Френски булдог",
+        "nameEn"    : "French Bulldog",
+        "code"      : "101",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/french_bulldog.png",
+        "general"   : {
+            "country"           : "Франция",
+            "life_length_min"   : 10,
+            "life_length_max"   : 12,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 11,
+            "height_female_max"   : 13,
+            "height_male_min"     : 11,
+            "height_male_max"     : 13
+        },
+        "weight"    : {
+            "weight_female_min"   : 18,
+            "weight_female_max"   : 26,
+            "weight_male_min"     : 20,
+            "weight_male_max"     : 28
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 5,
+            "good_with_other_dogs"     : 4
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 1,
+            "drooling"                : 3,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 5,
+            "playfulness"             : 5,
+            "protectiveness"          : 3,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 4,
+            "energy"                  : 3,
+            "barking"                 : 1,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },
+    {
+        "id"        : "бостън териер",
+        "name"      : "Бостън териер",
+        "nameEn"    : "Boston Terrier",
+        "code"      : "140",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/boston_terrier.png",
+        "general"   : {
+            "country"           : "САЩ",
+            "life_length_min"   : 11,
+            "life_length_max"   : 13,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 15,
+            "height_female_max"   : 17,
+            "height_male_min"     : 15,
+            "height_male_max"     : 17
+        },
+        "weight"    : {
+            "weight_female_min"   : 12,
+            "weight_female_max"   : 25,
+            "weight_male_min"     : 12,
+            "weight_male_max"     : 25
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 5,
+            "good_with_other_dogs"     : 4
+        },
+        "physical" : {
+            "shedding"                : 2,
+            "grooming"                : 2,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 5,
+            "playfulness"             : 5,
+            "protectiveness"          : 3,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 4,
+            "energy"                  : 4,
+            "barking"                 : 2,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },{
+        "id"        : "афганска хрътка",
+        "name"      : "Афганска хрътка",
+        "nameEn"    : "Afghan Hound",
+        "code"      : "228",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/afghan_hound.png",
+        "general"   : {
+            "country"           : "Афганистан",
+            "life_length_min"   : 12,
+            "life_length_max"   : 18,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 25,
+            "height_female_max"   : 27,
+            "height_male_min"     : 25,
+            "height_male_max"     : 27
+        },
+        "weight"    : {
+            "weight_female_min"   : 50,
+            "weight_female_max"   : 60,
+            "weight_male_min"     : 50,
+            "weight_male_max"     : 60
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 1,
+            "grooming"                : 4,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 3,
+            "protectiveness"          : 3,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 1,
+            "energy"                  : 4,
+            "barking"                 : 3,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },
+    {
+        "id"        : "салуки",
+        "name"      : "Салуки",
+        "nameEn"    : "Saluki",
+        "code"      : "269",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/saluki.png",
+        "general"   : {
+            "country"           : "Среден Изток",
+            "life_length_min"   : 10,
+            "life_length_max"   : 17,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 23,
+            "height_female_max"   : 28,
+            "height_male_min"     : 23,
+            "height_male_max"     : 28
+        },
+        "weight"    : {
+            "weight_female_min"   : 40,
+            "weight_female_max"   : 65,
+            "weight_male_min"     : 40,
+            "weight_male_max"     : 65
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 2,
+            "grooming"                : 1,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 3,
+            "protectiveness"          : 1,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 3,
+            "energy"                  : 4,
+            "barking"                 : 3,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },
+    {
+        "id"        : "борзая",
+        "name"      : "Борзая",
+        "nameEn"    : "Borzoi",
+        "code"      : "193",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/borzoi.png",
+        "general"   : {
+            "country"           : "Русия",
+            "life_length_min"   : 9,
+            "life_length_max"   : 14,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 27,
+            "height_female_max"   : 31,
+            "height_male_min"     : 30,
+            "height_male_max"     : 33
+        },
+        "weight"    : {
+            "weight_female_min"   : 60,
+            "weight_female_max"   : 85,
+            "weight_male_min"     : 75,
+            "weight_male_max"     : 105
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 2,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 3,
+            "protectiveness"          : 3,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 2,
+            "energy"                  : 4,
+            "barking"                 : 2,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },
+    {
+        "id"        : "шотландска еленова хрътка",
+        "name"      : "Шотландска еленова хрътка",
+        "nameEn"    : "Deerhound",
+        "code"      : "164",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/scottish_deerhound.png",
+        "general"   : {
+            "country"           : "Великобритания",
+            "life_length_min"   : 8,
+            "life_length_max"   : 11,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 30,
+            "height_female_max"   : 32,
+            "height_male_min"     : 30,
+            "height_male_max"     : 32
+        },
+        "weight"    : {
+            "weight_female_min"   : 75,
+            "weight_female_max"   : 95,
+            "weight_male_min"     : 85,
+            "weight_male_max"     : 110
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 5
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 1,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 3,
+            "protectiveness"          : 3,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 3,
+            "energy"                  : 3,
+            "barking"                 : 1,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },
+    {
+        "id"        : "ирландски вълкодав",
+        "name"      : "Ирландски вълкодав",
+        "nameEn"    : "Irish Wolfhound",
+        "code"      : "160",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/irish_wolfhound.png",
+        "general"   : {
+            "country"           : "Ирландия",
+            "life_length_min"   : 6,
+            "life_length_max"   : 8,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 32,
+            "height_female_max"   : 34,
+            "height_male_min"     : 32,
+            "height_male_max"     : 34
+        },
+        "weight"    : {
+            "weight_female_min"   : 105,
+            "weight_female_max"   : 105,
+            "weight_male_min"     : 120,
+            "weight_male_max"     : 120
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 4
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 2,
+            "drooling"                : 2,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 3,
+            "protectiveness"          : 5,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 3,
+            "energy"                  : 3,
+            "barking"                 : 1,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },
+    {
+        "id"        : "грейхаунд",
+        "name"      : "Грейхаунд",
+        "nameEn"    : "Greyhound",
+        "code"      : "158",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/greyhound.png",
+        "general"   : {
+            "country"           : "Великобритания",
+            "life_length_min"   : 10,
+            "life_length_max"   : 13,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 28,
+            "height_female_max"   : 30,
+            "height_male_min"     : 28,
+            "height_male_max"     : 30
+        },
+        "weight"    : {
+            "weight_female_min"   : 60,
+            "weight_female_max"   : 65,
+            "weight_male_min"     : 65,
+            "weight_male_max"     : 70
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 4
+        },
+        "physical" : {
+            "shedding"                : 2,
+            "grooming"                : 1,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 3,
+            "protectiveness"          : 3,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 3,
+            "energy"                  : 4,
+            "barking"                 : 3,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },
+    {
+        "id"        : "уипет",
+        "name"      : "Уипет",
+        "nameEn"    : "Whippet",
+        "code"      : "162",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/whippet.png",
+        "general"   : {
+            "country"           : "Великобритания",
+            "life_length_min"   : 12,
+            "life_length_max"   : 15,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 19,
+            "height_female_max"   : 22,
+            "height_male_min"     : 19,
+            "height_male_max"     : 22
+        },
+        "weight"    : {
+            "weight_female_min"   : 25,
+            "weight_female_max"   : 40,
+            "weight_male_min"     : 25,
+            "weight_male_max"     : 40
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 5,
+            "good_with_other_dogs"     : 5
+        },
+        "physical" : {
+            "shedding"                : 2,
+            "grooming"                : 1,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 3,
+            "playfulness"             : 4,
+            "protectiveness"          : 3,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 3,
+            "energy"                  : 4,
+            "barking"                 : 1,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },
+    {
+        "id"        : "италиански грейхаунд",
+        "name"      : "Италиански грейхаунд",
+        "nameEn"    : "Italian Greyhound",
+        "code"      : "200",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/italian_greyhound.png",
+        "general"   : {
+            "country"           : "Италия",
+            "life_length_min"   : 14,
+            "life_length_max"   : 15,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 13,
+            "height_female_max"   : 15,
+            "height_male_min"     : 13,
+            "height_male_max"     : 15
+        },
+        "weight"    : {
+            "weight_female_min"   : 7,
+            "weight_female_max"   : 14,
+            "weight_male_min"     : 7,
+            "weight_male_max"     : 14
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 5
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 1,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 5,
+            "playfulness"             : 4,
+            "protectiveness"          : 3,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 4,
+            "energy"                  : 3,
+            "barking"                 : 3,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },
+    {
+        "id"        : "азавак",
+        "name"      : "Азавак",
+        "nameEn"    : "Azawakh",
+        "code"      : "307",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/azawakh.png",
+        "general"   : {
+            "country"           : "Мали",
+            "life_length_min"   : 12,
+            "life_length_max"   : 15,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 25,
+            "height_female_max"   : 29,
+            "height_male_min"     : 25,
+            "height_male_max"     : 29
+        },
+        "weight"    : {
+            "weight_female_min"   : 33,
+            "weight_female_max"   : 44,
+            "weight_male_min"     : 44,
+            "weight_male_max"     : 55
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 2,
+            "grooming"                : 2,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 1,
+            "playfulness"             : 3,
+            "protectiveness"          : 3,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 2,
+            "energy"                  : 3,
+            "barking"                 : 1,
+            "mental_stimulation_needs": 0
+        }
+        }
+    },
+    {
+        "id"        : "слоуги",
+        "name"      : "Слоуги",
+        "nameEn"    : "Sloughi",
+        "code"      : "188",
+        "group"     : "",
+        "image_link": "assets/pdfs/@breeds/dog/sloughi.png",
+        "general"   : {
+            "country"           : "Мароко",
+            "life_length_min"   : 10,
+            "life_length_max"   : 15,
+            "coat_length_word"  : 0,
+            "walk_time"         : 0,
+            "owner_experience"  : 0
+        },
+        "size"      : {
+        "size"      : "medium",
+        "height"    : {
+            "height_female_min"   : 26,
+            "height_female_max"   : 29,
+            "height_male_min"     : 26,
+            "height_male_max"     : 29
+        },
+        "weight"    : {
+            "weight_female_min"   : 35,
+            "weight_female_max"   : 50,
+            "weight_male_min"     : 35,
+            "weight_male_max"     : 50
+        }
+        },
+        "history"       : "Добави историята тук.",
+        "health"        : "Добави имената на наследствените заболявания тук.",
+        "score": {
+        "family"   : {
+            "affectionate_with_family" : 0,
+            "good_with_children"       : 3,
+            "good_with_other_dogs"     : 3
+        },
+        "physical" : {
+            "shedding"                : 3,
+            "grooming"                : 1,
+            "drooling"                : 1,
+            "coat_length"             : 1
+        },
+        "social"   : {
+            "openness_to_strangers"   : 2,
+            "playfulness"             : 3,
+            "protectiveness"          : 2,
+            "adaptability"            : 0
+        },
+        "character": {
+            "trainability"            : 3,
+            "energy"                  : 4,
+            "barking"                 : 2,
+            "mental_stimulation_needs": 0
+        }
+        }
+    }
+
+]
