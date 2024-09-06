@@ -18,19 +18,19 @@
     <ion-grid>
       <div (click)="onSelectCard(element)">
         <ion-row>
-          <ion-col size="6">
+          <ion-col size="7">
             <div>
               <img [src]="findImageBreed(element.code)" alt="Breed Image"/>
             </div>
           </ion-col>
-          <ion-col size="6">
+          <ion-col size="5">
 
               <div>
-                <div class="">Порода: {{element.name}}</div>
-                <div class="">({{element.nameEn}})</div>
-                <div class="">Група: <strong>{{element.group}}</strong></div>
-                <div class="">Височина: {{element.size.height.height_male_max}} см</div>
-                <div class="">Тегло: <strong>{{element.size.weight.weight_male_max}} кг</strong></div>
+                <div class="bold">{{element.name}}</div>
+                <div class="fs13">({{element.nameEn}})</div>
+                <div class="fs13">Група: {{element.group}}</div>
+                <div class="fs13">Височина: {{element.size.height.height_male_max}} см</div>
+                <div class="fs13">Тегло: {{element.size.weight.weight_male_max}} кг</div>
               </div>
           </ion-col>
         </ion-row>
