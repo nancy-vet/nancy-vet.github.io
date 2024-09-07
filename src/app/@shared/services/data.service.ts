@@ -123,6 +123,18 @@ export class DataService {
       { category: 'cats'              , title: 'котки'          , imgPath: `/assets/icon/picker/cat.png`         }
     ];
 
+    if($preset == 'breed') return [
+      { category: 'Sheepdogs and Cattledogs'              , title: 'Овчарски и пастирски кучета', imgPath: ``},
+      { category: 'Pinscher and Schnauzer'                , title: 'Пинчери и шнауцери', imgPath: ``},
+      { category: 'Terriers'                              , title: 'Териери', imgPath: ``},
+      { category: 'Dachshunds'                            , title: 'Дакели', imgPath: ``},
+      { category: 'Spitz and primitive types'             , title: 'Шпицове и примитивен тип', imgPath: ``},
+      { category: 'Scent hounds and related breeds'       , title: 'Гончета и подобни', imgPath: ``},
+      { category: 'Pointing Dogs'                         , title: 'Пойнтери', imgPath: ``},
+      { category: 'Retrievers, Flushing Dogs, Water Dogs' , title: 'Апортиращи, претърсващи и работещи във вода кучета', imgPath: ``},
+      { category: 'Companion and Toy Dogs'                , title: 'Кучета компаньони и "той" кучета', imgPath: ``},
+      { category: 'Sighthounds'                           , title: 'Хрътки', imgPath: ``}
+    ];
 
       return [
         { category: 'respiratory'       , title: 'дихателна'            , imgPath: `/assets/icon/respiratory.png`       },
