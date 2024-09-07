@@ -23,7 +23,7 @@ export class MainPage implements OnInit {
   public $data: any;
 
   public ngOnInit(): void {
-    this.$data = this.$probeService.get('breeds');
+    this.$data = this.$probeService.get('cats');
   }
 
   /**

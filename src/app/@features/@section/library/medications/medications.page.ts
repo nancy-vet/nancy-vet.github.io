@@ -75,7 +75,8 @@ export class MedicationsPage implements OnInit {
 
     this.$collection = this.$dataService.$medicine()
                       .filterByCategory(this.$selectedCategories)
-                      .filterByPrimary(this.activeFilter, filterValue)
+                      .filterByTitle(filterValue)
+                      // .filterByPrimary(this.activeFilter, filterValue)
                       .get();
   }
 }

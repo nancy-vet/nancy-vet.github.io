@@ -18,14 +18,20 @@ export class TabsPage { }
 
 const routes: Routes = [
   {
-    path      : '', component : TabsPage, children  : [
+    path      : '',
+    component : TabsPage,
+    children  : [
       {
-        path          : 'tubes',
-        loadChildren  : () => import('../tubes/tubes.module').then(m => m.FeatureModule)
+        path          : 'tab1',
+        loadChildren  : () => import('../dog/main.module').then(m => m.FeatureModule)
+      },
+      {
+        path          : 'tab2',
+        loadChildren  : () => import('../cat/main.module').then(m => m.FeatureModule)
       },
       {
         path          : '',
-        redirectTo    : 'tubes',
+        redirectTo    : 'tab1',
         pathMatch     : 'full'
       }
     ]

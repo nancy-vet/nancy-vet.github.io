@@ -4,7 +4,7 @@
     <ion-buttons slot="start">
       <ion-menu-button size="default"  color="dark"></ion-menu-button>
     </ion-buttons>
-    <ion-title>Породи</ion-title>
+    <ion-title>Породи котки</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -26,11 +26,11 @@
           <ion-col size="5">
 
               <div>
-                <div class="bold">{{element.name}}</div>
-                <div class="fs13">({{element.nameEn}})</div>
-                <div class="fs13">Група: {{element.group}}</div>
-                <div class="fs13">Височина: {{element.size.height.height_male_max}} см</div>
-                <div class="fs13">Тегло: {{element.size.weight.weight_male_max}} кг</div>
+                <div class="bold">{{element?.name}}</div>
+                <div class="fs13">({{element?.nameEn}})</div>
+                <div class="fs13">Група: {{element?.group}}</div>
+                <div class="fs13">Височина: {{element?.size?.height?.height_male_max}} см</div>
+                <div class="fs13">Тегло: {{element?.size?.weight?.weight_male_max}} кг</div>
               </div>
           </ion-col>
         </ion-row>

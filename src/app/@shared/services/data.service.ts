@@ -51,10 +51,13 @@ export class DataService {
    */
   public filterByTitle(title: any) {
 
+
     if(!title) return this;
 
     this.$intermediateCollection = this.$intermediateCollection.filter((element: any) => {
-      return (element.title).toLowerCase().includes(title.toLowerCase());
+      return (element.title).toLowerCase().includes(title.toLowerCase()) ||
+             (element.titleEn).toLowerCase().includes(title.toLowerCase());
+
     });
 
     return this;
