@@ -4,7 +4,7 @@
         "name"      : "Австралийско келпи",
         "nameEn"    : "Australian kelpie",
         "code"      : "293",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/australian_kelpie.png",
         "general"   : {
             "country"          : "Австралия",
@@ -62,7 +62,7 @@
         "name"      : "Белгийска овчарка - Грюнендал",
         "nameEn"    : "Belgian Shepherd Dog",
         "code"      : "15_001",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/belgian_sheepdog.png",
         "general"   : {
             "country"          : "Белгия",
@@ -120,7 +120,7 @@
         "name"      : "Белгийска овчарка - Лакеноа",
         "nameEn"    : "Belgian Shepherd Dog",
         "code"      : "15_002",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/belgian_laekenois.png",
         "general"   : {
             "country"          : "Белгия",
@@ -178,7 +178,7 @@
         "name"      : "Белгийска овчарка - Малиноа",
         "nameEn"    : "Belgian Shepherd Dog",
         "code"      : "15_003",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/belgian_malinois.png",
         "general"   : {
             "country"          : "Белгия",
@@ -236,7 +236,7 @@
         "name"      : "Белгийска овчарка - Тервюрен",
         "nameEn"    : "Belgian Shepherd Dog",
         "code"      : "15_004",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/belgian_tervuren.png",
         "general"   : {
             "country"          : "Белгия",
@@ -294,7 +294,7 @@
         "name"      : "Шиперке",
         "nameEn"    : "Schipperke",
         "code"      : "83",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/schipperke.png",
         "general"   : {
             "country"           : "Белгия",
@@ -352,7 +352,7 @@
         "name"      : "Хърватска овчарка",
         "nameEn"    : "Croatian Shepherd Dog",
         "code"      : "277",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/croatian_sheepdog.png",
         "general"   : {
             "country"           : "Хърватска",
@@ -410,7 +410,7 @@
         "name"      : "Босерон",
         "nameEn"    : "Beauceron",
         "code"      : "44",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/beauceron.png",
         "general"   : {
             "country"           : "Франция",
@@ -468,7 +468,7 @@
         "name"      : "Бриар",
         "nameEn"    : "Briard",
         "code"      : "113",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "0",
         "general"   : {
             "country"          : "Франция",
@@ -526,7 +526,7 @@
         "name"      : "Пиренейска овчарка",
         "nameEn"    : "Pyrenean Sheepdog",
         "code"      : "141",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/pyrenean_shepherd.png",
         "general"   : {
             "country"           : "Франция",
@@ -584,7 +584,7 @@
         "name"      : "Пикардийска овчарка",
         "nameEn"    : "Berger Picard",
         "code"      : "176",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/berger_picard.png",
         "general"   : {
             "country"           : "Франция",
@@ -642,7 +642,7 @@
         "name"      : "Немска овчарка",
         "nameEn"    : "German Shepherd Dog",
         "code"      : "166",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "0",
         "general"   : {
             "country"          : "Германия",
@@ -700,7 +700,7 @@
         "name"      : "Брадато коли",
         "nameEn"    : "Bearded Collie",
         "code"      : "271",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/bearded_collie.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -758,7 +758,7 @@
         "name"      : "Бордър коли",
         "nameEn"    : "Border Collie",
         "code"      : "297",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/border_collie.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -816,7 +816,7 @@
         "name"      : "Дългокосместо коли",
         "nameEn"    : "Rough Collie",
         "code"      : "156",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/collie_longhaired.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -874,7 +874,7 @@
         "name"      : "Късокосместо коли",
         "nameEn"    : "Smooth Collie",
         "code"      : "296",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/collie_shorthaired.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -932,7 +932,7 @@
         "name"      : "Староанглийска овчарка",
         "nameEn"    : "Old English Sheepdog",
         "code"      : "16",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/old_english_sheepdog.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -990,7 +990,7 @@
         "name"      : "Шетландска овчарка",
         "nameEn"    : "Shetland Sheepdog",
         "code"      : "88",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/shetland_sheepdog.png",
         "general"   : {
             "country"           : "0",
@@ -1048,7 +1048,7 @@
         "name"      : "Комондор",
         "nameEn"    : "Komondor",
         "code"      : "53",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/komondor.png",
         "general"   : {
             "country"           : "Унгария",
@@ -1106,7 +1106,7 @@
         "name"      : "Кувас",
         "nameEn"    : "Kuvasz",
         "code"      : "54",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/kuvasz.png",
         "general"   : {
             "country"           : "Унгария",
@@ -1164,7 +1164,7 @@
         "name"      : "Муди",
         "nameEn"    : "Mudi",
         "code"      : "238",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/mudi.png",
         "general"   : {
             "country"           : "Унгария",
@@ -1222,7 +1222,7 @@
         "name"      : "Пули",
         "nameEn"    : "Puli",
         "code"      : "55",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/puli.png",
         "general"   : {
             "country"           : "Унгария",
@@ -1280,7 +1280,7 @@
         "name"      : "Пуми",
         "nameEn"    : "Pumi",
         "code"      : "56",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/pumi.png",
         "general"   : {
             "country"           : "Унгария",
@@ -1338,7 +1338,7 @@
         "name"      : "Бергамско пастирско куче",
         "nameEn"    : "Bergamasco Sheepdog",
         "code"      : "194",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/bergamasco_sheepdog.png",
         "general"   : {
             "country"           : "Италия",
@@ -1396,7 +1396,7 @@
         "name"      : "Полска низинна овчарка",
         "nameEn"    : "Polish Lowland Sheepdog",
         "code"      : "201",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/polish_lowland_sheepdog.png",
         "general"   : {
             "country"           : "Полша",
@@ -1454,7 +1454,7 @@
         "name"      : "Планинско куче от Айрес",
         "nameEn"    : "Portuguese Sheepdog",
         "code"      : "93",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/portuguese_sheepdog.png",
         "general"   : {
             "country"           : "Португалия",
@@ -1512,7 +1512,7 @@
         "name"      : "Миорит",
         "nameEn"    : "Romanian Mioritic Shepherd Dog",
         "code"      : "349",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/romanian_mioritic_shepherd_dog.png",
         "general"   : {
             "country"           : "Румъния",
@@ -1570,7 +1570,7 @@
         "name"      : "Чехословашки вълчак",
         "nameEn"    : "Czechoslovakian Vlcak",
         "code"      : "332",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/czechoslovakian_vlcak.png",
         "general"   : {
             "country"           : "Чехословакия",
@@ -1628,7 +1628,7 @@
         "name"      : "Словашки чувач",
         "nameEn"    : "Slovensky Cuvac",
         "code"      : "142",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/slovensky_cuvac.png",
         "general"   : {
             "country"           : "Словакия",
@@ -1686,7 +1686,7 @@
         "name"      : "Шапендоа",
         "nameEn"    : "Schapendoes",
         "code"      : "313",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/schapendoes.png",
         "general"   : {
             "country"           : "Холандия",
@@ -1744,7 +1744,7 @@
         "name"      : "Холандска овчарка",
         "nameEn"    : "Dutch Shepherd",
         "code"      : "223",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/dutch_shepherd.png",
         "general"   : {
             "country"           : "Холандия",
@@ -1802,7 +1802,7 @@
         "name"      : "Австралийска овчарка",
         "nameEn"    : "Australian Shepherd СТИГНАХ ДО ТУК",
         "code"      : "342",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/australian_shepherd.png",
         "general"   : {
             "country"           : "САЩ",
@@ -1860,7 +1860,7 @@
         "name"      : "Фландърско бувие",
         "nameEn"    : "Bouvier des Flandres",
         "code"      : "191",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/bouvier_des_flandres.png",
         "general"   : {
             "country"           : "Белгия",
@@ -1918,7 +1918,7 @@
         "name"      : "Уелско корги кардиган",
         "nameEn"    : "Cardigan Welsh Corgi",
         "code"      : "38",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/cardigan_welsh_corgi.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -1976,7 +1976,7 @@
         "name"      : "Уелско корги пембрук",
         "nameEn"    : "Pembroke Welsh Corgi",
         "code"      : "39",
-        "group"     : "",
+        "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/pembroke_welsh_corgi.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -2034,7 +2034,7 @@
         "name"      : "Датско-шведски пастир",
         "nameEn"    : "Danish-Swedish Farmdog",
         "code"      : "356",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/danish.png.jpg",
         "general"   : {
             "country"           : "Дания",
@@ -2092,7 +2092,7 @@
         "name"      : "Афенпинчер",
         "nameEn"    : "Affenpinscher",
         "code"      : "186",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/affenpinscher.png",
         "general"   : {
             "country"           : "Германия",
@@ -2150,7 +2150,7 @@
         "name"      : "Доберман",
         "nameEn"    : "Dobermann",
         "code"      : "143",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/doberman_pinscher.png",
         "general"   : {
             "country"           : "Германия",
@@ -2208,7 +2208,7 @@
         "name"      : "Немски пинчер",
         "nameEn"    : "German Pinscher",
         "code"      : "184",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/german_pinscher.png",
         "general"   : {
             "country"           : "Германия",
@@ -2266,7 +2266,7 @@
         "name"      : "Мини пинчер",
         "nameEn"    : "Miniature Pinscher",
         "code"      : "185",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/miniature_pinscher.png",
         "general"   : {
             "country"           : "Германия",
@@ -2324,7 +2324,7 @@
         "name"      : "Ризеншнауцер",
         "nameEn"    : "Giant Schnauzer",
         "code"      : "181",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/giant_schnauzer.png",
         "general"   : {
             "country"           : "Германия",
@@ -2382,7 +2382,7 @@
         "name"      : "Миниатюрен шнауцер",
         "nameEn"    : "Miniature Schnauzer",
         "code"      : "183",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/miniature_schnauzer.png",
         "general"   : {
             "country"           : "Германия",
@@ -2440,7 +2440,7 @@
         "name"      : "Шнауцер",
         "nameEn"    : "Standard Schnauzer",
         "code"      : "182",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/standard_schnauzer.png",
         "general"   : {
             "country"           : "Германия",
@@ -2498,7 +2498,7 @@
         "name"      : "Черен руски териер",
         "nameEn"    : "Russian Black Terrier",
         "code"      : "327",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/black_russian_terrier.png",
         "general"   : {
             "country"           : "2151",
@@ -2556,7 +2556,7 @@
         "name"      : "Дого Аржентино",
         "nameEn"    : "Dogo Argentino",
         "code"      : "292",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/dogo_argentino.png",
         "general"   : {
             "country"           : "Аржентина",
@@ -2614,7 +2614,7 @@
         "name"      : "Шар пей",
         "nameEn"    : "Chinese Shar-Pei",
         "code"      : "309",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/chinese_shar.png.jpg",
         "general"   : {
             "country"           : "Китай",
@@ -2672,7 +2672,7 @@
         "name"      : "Мастиф Брохолмер",
         "nameEn"    : "Broholmer",
         "code"      : "315",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/broholmer.png",
         "general"   : {
             "country"           : "Дания",
@@ -2730,7 +2730,7 @@
         "name"      : "Дог от Бордо",
         "nameEn"    : "Dogue de Bordeaux",
         "code"      : "116",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/dogue_de_bordeaux.png",
         "general"   : {
             "country"           : "Франция",
@@ -2788,7 +2788,7 @@
         "name"      : "Боксер",
         "nameEn"    : "Boxer",
         "code"      : "144",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/boxer.png",
         "general"   : {
             "country"           : "Германия",
@@ -2846,7 +2846,7 @@
         "name"      : "Немски дог",
         "nameEn"    : "Great Dane",
         "code"      : "235",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/great_dane.png",
         "general"   : {
             "country"           : "Гремания",
@@ -2904,7 +2904,7 @@
         "name"      : "Ротвайлер",
         "nameEn"    : "Rottweiler",
         "code"      : "147",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/rottweiler.png",
         "general"   : {
             "country"           : "Германия",
@@ -2962,7 +2962,7 @@
         "name"      : "Английски булдог",
         "nameEn"    : "Bulldog",
         "code"      : "149",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/bulldog.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -3020,7 +3020,7 @@
         "name"      : "Булмастиф",
         "nameEn"    : "Bullmastiff",
         "code"      : "157",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/bullmastiff.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -3078,7 +3078,7 @@
             "name"      : "Английски мастиф",
             "nameEn"    : "Mastiff",
             "code"      : "264",
-            "group"     : "",
+            "group"     : "Pinscher and Schnauzer",
             "image_link": "assets/pdfs/@breeds/dog/mastiff.png",
             "general"   : {
                 "country"           : "Великобритания",
@@ -3136,7 +3136,7 @@
         "name"      : "Кане Корсо Италиано",
         "nameEn"    : "Italian Cane Corso",
         "code"      : "343",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/cane_corso.png",
         "general"   : {
             "country"           : "Италия",
@@ -3194,7 +3194,7 @@
         "name"      : "Неаполитански мастиф",
         "nameEn"    : "Neapolitan Mastiff",
         "code"      : "197",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/neapolitan_mastiff.png",
         "general"   : {
             "country"           : "Италия",
@@ -3252,7 +3252,7 @@
         "name"      : "Тоса",
         "nameEn"    : "Tosa",
         "code"      : "260",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/tosa.png",
         "general"   : {
             "country"           : "Япония",
@@ -3310,7 +3310,7 @@
         "name"      : "Перо де преса канарио",
         "nameEn"    : "Presa Canario",
         "code"      : "346",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/perro_de_presa_canario.png",
         "general"   : {
             "country"           : "Испания",
@@ -3368,7 +3368,7 @@
         "name"      : "Торняк",
         "nameEn"    : "Tornjak",
         "code"      : "355",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/tornjak.png",
         "general"   : {
             "country"           : "Босна и Херцеговина",
@@ -3426,7 +3426,7 @@
         "name"      : "Нюфаундленд",
         "nameEn"    : "Newfoundland",
         "code"      : "50",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/newfoundland.png",
         "general"   : {
             "country"           : "Канада",
@@ -3484,7 +3484,7 @@
         "name"      : "Пиренейско планинско куче",
         "nameEn"    : "Pyrenean Mountain Dog",
         "code"      : "137",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/great_pyrenees.png",
         "general"   : {
             "country"           : "Франция",
@@ -3542,7 +3542,7 @@
         "name"      : "Ховаварт",
         "nameEn"    : "Hovawart",
         "code"      : "190",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/hovawart.png",
         "general"   : {
             "country"           : "Германия",
@@ -3600,7 +3600,7 @@
         "name"      : "Леонбергер",
         "nameEn"    : "Leonberger",
         "code"      : "145",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/leonberger.png",
         "general"   : {
             "country"           : "Германия",
@@ -3658,7 +3658,7 @@
         "name"      : "Ещрелско планинско куче",
         "nameEn"    : "Estrela Mountain Dog",
         "code"      : "173",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/estrela_mountain_dog.png",
         "general"   : {
             "country"           : "Португалия",
@@ -3716,7 +3716,7 @@
         "name"      : "Рафейро де Алентехо",
         "nameEn"    : "Rafeiro do Alentejo",
         "code"      : "96",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/rafeiro_do_alentejo.png",
         "general"   : {
             "country"           : "Португалия",
@@ -3774,7 +3774,7 @@
         "name"      : "Кавказка овчарка",
         "nameEn"    : "Caucasian Shepherd Dog",
         "code"      : "328",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/caucasian_shepherd_dog.png",
         "general"   : {
             "country"           : "Русия",
@@ -3832,7 +3832,7 @@
         "name"      : "Средноазиатска овчарка",
         "nameEn"    : "Central Asia Shepherd Dog",
         "code"      : "335",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/central_asian_shepherd_dog.png",
         "general"   : {
             "country"           : "Русия",
@@ -3890,7 +3890,7 @@
         "name"      : "Пиренейски мастиф",
         "nameEn"    : "Pyrenean Mastiff",
         "code"      : "92",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/pyrenean_mastiff.png",
         "general"   : {
             "country"           : "Испания",
@@ -3948,7 +3948,7 @@
         "name"      : "Испански мастиф",
         "nameEn"    : "Spanish Mastiff",
         "code"      : "91",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/spanish_mastiff.png",
         "general"   : {
             "country"           : "Испания",
@@ -4006,7 +4006,7 @@
         "name"      : "Санбернар",
         "nameEn"    : "Saint Bernard",
         "code"      : "61",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/saint_bernard.png",
         "general"   : {
             "country"           : "Швейцария",
@@ -4064,7 +4064,7 @@
         "name"      : "Тибетски дог",
         "nameEn"    : "Tibetan Mastiff",
         "code"      : "230",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/tibetan_mastiff.png",
         "general"   : {
             "country"           : "Тибет",
@@ -4122,7 +4122,7 @@
         "name"      : "Апенцелер зененхунд",
         "nameEn"    : "Appenzell Cattle Dog",
         "code"      : "46",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/appenzeller_sennenhund.png",
         "general"   : {
             "country"           : "Швейцария",
@@ -4180,7 +4180,7 @@
         "name"      : "Бернски зененхунд",
         "nameEn"    : "Bernese Mountain Dog",
         "code"      : "45",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/bernese_mountain_dog.png",
         "general"   : {
             "country"           : "Швейцария",
@@ -4238,7 +4238,7 @@
         "name"      : "Ентлебухер зененхунд",
         "nameEn"    : "Entlebuch Cattle Dog",
         "code"      : "47",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/entlebucher_mountain_dog.png",
         "general"   : {
             "country"           : "Швейцария",
@@ -4296,7 +4296,7 @@
         "name"      : "Голямо швейцарско планинско куче",
         "nameEn"    : "Greater Swiss Mountain Dog",
         "code"      : "58",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/greater_swiss_mountain_dog.png",
         "general"   : {
             "country"           : "Швейцария",
@@ -4354,7 +4354,7 @@
         "name"      : "Ягдтериер",
         "nameEn"    : "Jagdterrier",
         "code"      : "103",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/jagdterrier.png",
         "general"   : {
             "country"           : "Германия",
@@ -4412,7 +4412,7 @@
         "name"      : "Еърдейл териер",
         "nameEn"    : "Airedale Terrier",
         "code"      : "7",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/airedale_terrier.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -4470,7 +4470,7 @@
         "name"      : "Бедлингтон териер",
         "nameEn"    : "Bedlington Terrier",
         "code"      : "9",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/bedlington_terrier.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -4528,7 +4528,7 @@
         "name"      : "Бордър териер",
         "nameEn"    : "Border Terrier",
         "code"      : "10",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/border_terrier.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -4586,7 +4586,7 @@
         "name"      : "Гладкокосмест фокстериер",
         "nameEn"    : "Smooth Fox Terrier",
         "code"      : "12",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/smooth_fox_terrier.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -4644,7 +4644,7 @@
         "name"      : "Твърдокосмест фокстериер",
         "nameEn"    : "Wire Fox Terrier",
         "code"      : "169",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/wire_fox_terrier.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -4702,7 +4702,7 @@
         "name"      : "Лейкланд териер",
         "nameEn"    : "Lakeland Terrier",
         "code"      : "70",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/lakeland_terrier.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -4760,7 +4760,7 @@
         "name"      : "Манчестър териер",
         "nameEn"    : "Manchester Terrier",
         "code"      : "71",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/manchester_terrier_.png).jpg",
         "general"   : {
             "country"           : "Великобритания",
@@ -4818,7 +4818,7 @@
         "name"      : "Парсън ръсел териер",
         "nameEn"    : "Parson Russell Terrier",
         "code"      : "339",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/parson_russell_terrier.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -4876,7 +4876,7 @@
         "name"      : "Уелски териер",
         "nameEn"    : "Welsh Terrier",
         "code"      : "78",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/welsh_terrier.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -4934,7 +4934,7 @@
         "name"      : "Глен оф Имаал Териер",
         "nameEn"    : "Irish Glen of Imaal Terrier",
         "code"      : "302",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/glen_of_imaal_terrier.png",
         "general"   : {
             "country"           : "Ирландия",
@@ -4990,9 +4990,9 @@
     {
         "id"        : "ирландски мекокосмест пшеничен териер",
         "name"      : "Ирландски мекокосмест пшеничен териер",
-        "nameEn"    : "Soft Coated Wheaten Terrier",
+        "nameEn"    : "Irish soft Coated Wheaten Terrier",
         "code"      : "40",
-        "group"     : "",
+        "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/soft_coated_wheaten_terrier.png",
         "general"   : {
             "country"           : "Ирландия",
@@ -5050,7 +5050,7 @@
         "name"      : "Ирландски териер",
         "nameEn"    : "Irish Terrier",
         "code"      : "139",
-        "group"     : "",
+        "group"     : "Terriers",
         "image_link": "assets/pdfs/@breeds/dog/irish_terrier.png",
         "general"   : {
             "country"           : "Ирландия",
@@ -5108,7 +5108,7 @@
         "name"      : "Кери син териер",
         "nameEn"    : "Kerry Blue Terrier",
         "code"      : "3",
-        "group"     : "",
+        "group"     : "Terriers",
         "image_link": "assets/pdfs/@breeds/dog/kerry_blue_terrier.png",
         "general"   : {
             "country"           : "Ирландия",
@@ -5166,7 +5166,7 @@
         "name"      : "Австралийски териер",
         "nameEn"    : "Australian Terrier",
         "code"      : "8",
-        "group"     : "",
+        "group"     : "Terriers",
         "image_link": "assets/pdfs/@breeds/dog/australian_terrier.png",
         "general"   : {
             "country"           : "Австралия",
@@ -5224,7 +5224,7 @@
         "name"      : "Чешки териер",
         "nameEn"    : "Cesky Terrier",
         "code"      : "246",
-        "group"     : "",
+        "group"     : "Terriers",
         "image_link": "assets/pdfs/@breeds/dog/cesky_terrier.png",
         "general"   : {
             "country"           : "Чешка република",
@@ -5282,7 +5282,7 @@
         "name"      : "Кеърнтериер",
         "nameEn"    : "Cairn Terrier",
         "code"      : "4",
-        "group"     : "",
+        "group"     : "Terriers",
         "image_link": "assets/pdfs/@breeds/dog/cairn_terrier.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -5340,7 +5340,7 @@
         "name"      : "Данди динмонт териер",
         "nameEn"    : "Dandie Dinmont Terrier",
         "code"      : "168",
-        "group"     : "",
+        "group"     : "Terriers",
         "image_link": "assets/pdfs/@breeds/dog/dandie_dinmont_terrier.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -5398,7 +5398,7 @@
         "name"      : "Джак Ръсел териер",
         "nameEn"    : "Jack Russell Terrier",
         "code"      : "345",
-        "group"     : "",
+        "group"     : "Terriers",
         "image_link": "0",
         "general"   : {
             "country"           : "Великобритания",
@@ -5456,7 +5456,7 @@
         "name"      : "Норфолкски териер",
         "nameEn"    : "Norfolk Terrier",
         "code"      : "272",
-        "group"     : "",
+        "group"     : "Terriers",
         "image_link": "assets/pdfs/@breeds/dog/norfolk_terrier.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -5514,7 +5514,7 @@
         "name"      : "Норички териер",
         "nameEn"    : "Norwich Terrier",
         "code"      : "72",
-        "group"     : "",
+        "group"     : "Terriers",
         "image_link": "assets/pdfs/@breeds/dog/norwich_terrier.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -5572,7 +5572,7 @@
         "name"      : "Шотландски териер",
         "nameEn"    : "Scottish Terrier",
         "code"      : "73",
-        "group"     : "",
+        "group"     : "Terriers",
         "image_link": "assets/pdfs/@breeds/dog/scottish_terrier.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -5630,7 +5630,7 @@
         "name"      : "Силихам териер",
         "nameEn"    : "Sealyham Terrier",
         "code"      : "74",
-        "group"     : "",
+        "group"     : "Terriers",
         "image_link": "assets/pdfs/@breeds/dog/sealyham_terrier.png",
         "general"   : {
             "country"           : "0",
@@ -5688,7 +5688,7 @@
         "name"      : "Скай териер",
         "nameEn"    : "Skye Terrier",
         "code"      : "75",
-        "group"     : "",
+        "group"     : "Terriers",
         "image_link": "assets/pdfs/@breeds/dog/skye_terrier.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -5746,7 +5746,7 @@
         "name"      : "Западнохайландски бял териер",
         "nameEn"    : "West Highland White Terrier",
         "code"      : "85",
-        "group"     : "",
+        "group"     : "Terriers",
         "image_link": "assets/pdfs/@breeds/dog/west_highland_white_terrier.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -5804,7 +5804,7 @@
         "name"      : "Японски териер",
         "nameEn"    : "Japanese Terrier",
         "code"      : "259",
-        "group"     : "",
+        "group"     : "Terriers",
         "image_link": "assets/pdfs/@breeds/dog/japanese_terrier.png",
         "general"   : {
             "country"          : "Япония",
@@ -5862,7 +5862,7 @@
         "name"      : "Бултериер",
         "nameEn"    : "Bull Terrier",
         "code"      : "11",
-        "group"     : "",
+        "group"     : "Terriers",
         "image_link": "assets/pdfs/@breeds/dog/bull_terrier.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -5920,7 +5920,7 @@
         "name"      : "Миниатюрен бултериер",
         "nameEn"    : "Miniature Bull Terrier",
         "code"      : "359",
-        "group"     : "",
+        "group"     : "Terriers",
         "image_link": "assets/pdfs/@breeds/dog/miniature_bull_terrier.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -5978,7 +5978,7 @@
         "name"      : "Стафордширски бултериер",
         "nameEn"    : "Staffordshire Bull Terrier",
         "code"      : "76",
-        "group"     : "",
+        "group"     : "Terriers",
         "image_link": "assets/pdfs/@breeds/dog/staffordshire_bull_terrier.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -6036,7 +6036,7 @@
         "name"      : "Американски стафордширски териер",
         "nameEn"    : "American Staffordshire Terrier",
         "code"      : "286",
-        "group"     : "",
+        "group"     : "Terriers",
         "image_link": "assets/pdfs/@breeds/dog/american_staffordshire_terrier.png",
         "general"   : {
             "country"           : "САЩ",
@@ -6094,7 +6094,7 @@
         "name"      : "Австралийски копринен териер",
         "nameEn"    : "Australian Silky Terrier",
         "code"      : "236",
-        "group"     : "",
+        "group"     : "Terriers",
         "image_link": "assets/pdfs/@breeds/dog/silky_terrier.png",
         "general"   : {
             "country"           : "Австралия",
@@ -6152,7 +6152,7 @@
         "name"      : "Йоркширски териер",
         "nameEn"    : "Yorkshire Terrier",
         "code"      : "86",
-        "group"     : "",
+        "group"     : "Terriers",
         "image_link": "assets/pdfs/@breeds/dog/yorkshire_terrier.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -6210,7 +6210,7 @@
         "name"      : "Дакел",
         "nameEn"    : "Dachshund",
         "code"      : "148",
-        "group"     : "",
+        "group"     : "Dachshunds",
         "image_link": "assets/pdfs/@breeds/dog/dachshund.png",
         "general"   : {
             "country"           : "Германия",
@@ -6271,7 +6271,7 @@
         "name"      : "Самоед",
         "nameEn"    : "Samoyed",
         "code"      : "212",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/samoyed.png",
         "general"   : {
             "country"           : "Русия",
@@ -6329,7 +6329,7 @@
         "name"      : "Аляски маламут",
         "nameEn"    : "Alaskan Malamute",
         "code"      : "243",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/alaskan_malamute.png",
         "general"   : {
             "country"           : "САЩ",
@@ -6387,7 +6387,7 @@
         "name"      : "Сибирско хъски",
         "nameEn"    : "Siberian Husky",
         "code"      : "270",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/siberian_husky.png",
         "general"   : {
             "country"           : "САЩ",
@@ -6445,7 +6445,7 @@
         "name"      : "Финландски шпиц",
         "nameEn"    : "Finnish Spitz",
         "code"      : "49",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/finnish_spitz.png",
         "general"   : {
             "country"           : "Финландия",
@@ -6503,7 +6503,7 @@
         "name"      : "Норвежки черен елкхунд",
         "nameEn"    : "Norwegian Elkhound Black",
         "code"      : "268",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/norwegian_elkhound.png",
         "general"   : {
             "country"           : "Норвегия",
@@ -6561,7 +6561,7 @@
         "name"      : "Норвежки сив елкхунд",
         "nameEn"    : "Norwegian Elkhound Grey",
         "code"      : "242",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/norwegian_elkhound.png",
         "general"   : {
             "country"           : "Норвегия",
@@ -6619,7 +6619,7 @@
         "name"      : "Норвежки лундехунд",
         "nameEn"    : "Norwegian Lundehund",
         "code"      : "265",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/norwegian_lundehund.png",
         "general"   : {
             "country"           : "Норвегия",
@@ -6677,7 +6677,7 @@
         "name"      : "Норботенспетс",
         "nameEn"    : "Norrbottenspets",
         "code"      : "276",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/norrbottenspets.png",
         "general"   : {
             "country"           : "Швеция",
@@ -6735,7 +6735,7 @@
         "name"      : "Финландски лапхунд",
         "nameEn"    : "Finnish Lapphund",
         "code"      : "135",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/finnish_lapphund.png",
         "general"   : {
             "country"           : "Финландия",
@@ -6793,7 +6793,7 @@
         "name"      : "Лапландско пастирско куче",
         "nameEn"    : "Lapponian Herder",
         "code"      : "284",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/lapponian_herder.png",
         "general"   : {
             "country"           : "Финландия",
@@ -6851,7 +6851,7 @@
         "name"      : "Исландска овчарка",
         "nameEn"    : "Icelandic Sheepdog",
         "code"      : "289",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/icelandic_sheepdog.png",
         "general"   : {
             "country"           : "0",
@@ -6909,7 +6909,7 @@
         "name"      : "Норвежки бухунд",
         "nameEn"    : "Norwegian Buhund",
         "code"      : "237",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/norwegian_buhund.png",
         "general"   : {
             "country"           : "Норвегия",
@@ -6967,7 +6967,7 @@
         "name"      : "Шведски лапхунд",
         "nameEn"    : "Swedish Lapphund",
         "code"      : "135",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/swedish_lapphund.png",
         "general"   : {
             "country"           : "Швеция",
@@ -7025,7 +7025,7 @@
         "name"      : "Вълчи шпиц - немски шпиц",
         "nameEn"    : "Keeshond, German Spitz",
         "code"      : "970001",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/keeshond.png",
         "general"   : {
             "country"           : "Германия",
@@ -7083,7 +7083,7 @@
         "name"      : "Немски шпиц",
         "nameEn"    : "German Spitz",
         "code"      : "970003",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/german_spitz.png",
         "general"   : {
             "country"           : "Германия",
@@ -7141,7 +7141,7 @@
         "name"      : "Померан - немски шпиц",
         "nameEn"    : "Pomeranian",
         "code"      : "970004",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/pomeranian.png",
         "general"   : {
             "country"           : "Германия",
@@ -7199,7 +7199,7 @@
         "name"      : "Волпино италиано",
         "nameEn"    : "Volpino Italiano",
         "code"      : "970005",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/volpino_italiano.png",
         "general"   : {
             "country"          : "Италия",
@@ -7257,7 +7257,7 @@
         "name"      : "Чау-чау",
         "nameEn"    : "Chow Chow",
         "code"      : "205",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/chow_chow.png",
         "general"   : {
             "country"           : "Китай",
@@ -7315,7 +7315,7 @@
         "name"      : "Евразиер",
         "nameEn"    : "Eurasier",
         "code"      : "291",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/eurasier.png",
         "general"   : {
             "country"           : "Германия",
@@ -7373,7 +7373,7 @@
         "name"      : "Акита ину",
         "nameEn"    : "Akita",
         "code"      : "255",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/akita.png",
         "general"   : {
             "country"           : "Япония",
@@ -7431,7 +7431,7 @@
         "name"      : "Айну",
         "nameEn"    : "Hokkaido",
         "code"      : "261",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/hokkaido.png",
         "general"   : {
             "country"           : "Япония",
@@ -7489,7 +7489,7 @@
         "name"      : "Японски шпиц",
         "nameEn"    : "Japanese Spitz",
         "code"      : "262",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/japanese_spitz.png",
         "general"   : {
             "country"           : "Япония",
@@ -7547,7 +7547,7 @@
         "name"      : "Кай Кен",
         "nameEn"    : "Kai",
         "code"      : "317",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/kai_ken.png",
         "general"   : {
             "country"           : "Япония",
@@ -7605,7 +7605,7 @@
         "name"      : "Кюшу",
         "nameEn"    : "Kishu",
         "code"      : "318",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/kishu_ken.png",
         "general"   : {
             "country"           : "0",
@@ -7663,7 +7663,7 @@
         "name"      : "шиба",
         "nameEn"    : "Shiba",
         "code"      : "257",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/shiba_inu.png",
         "general"   : {
             "country"           : "Япония",
@@ -7721,7 +7721,7 @@
         "name"      : "Шикоку",
         "nameEn"    : "Shikoku",
         "code"      : "319",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/shikoku.png",
         "general"   : {
             "country"           : "Япония",
@@ -7779,7 +7779,7 @@
         "name"      : "Корейско джиндо",
         "nameEn"    : "Jindo",
         "code"      : "334",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/jindo.png",
         "general"   : {
             "country"           : "Корея",
@@ -7837,7 +7837,7 @@
         "name"      : "Басенджи",
         "nameEn"    : "Basenji",
         "code"      : "43",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/basenji.png",
         "general"   : {
             "country"           : "Централна Африка",
@@ -7895,7 +7895,7 @@
         "name"      : "Ханаанско куче",
         "nameEn"    : "Canaan Dog",
         "code"      : "273",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/canaan_dog.png",
         "general"   : {
             "country"           : "Израел",
@@ -7953,7 +7953,7 @@
         "name"      : "Фараоново куче",
         "nameEn"    : "Pharaoh Hound",
         "code"      : "248",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/pharaoh_hound.png",
         "general"   : {
             "country"           : "Малта",
@@ -8011,7 +8011,7 @@
         "name"      : "Мексиканско голо куче",
         "nameEn"    : "Xoloitzcuintli",
         "code"      : "234",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/xoloitzcuintli.png",
         "general"   : {
             "country"           : "Мексико",
@@ -8069,7 +8069,7 @@
         "name"      : "Перуанско безкосместо куче",
         "nameEn"    : "Peruvian Nairless Dog",
         "code"      : "310",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/peruvian_inca_orchid.png",
         "general"   : {
             "country"           : "Перу",
@@ -8127,7 +8127,7 @@
         "name"      : "Сицилианска хрътка",
         "nameEn"    : "Cirneco dell’Etna",
         "code"      : "199",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/cirneco_dell’etna.png",
         "general"   : {
             "country"           : "Италия",
@@ -8185,7 +8185,7 @@
         "name"      : "Португалско поденго",
         "nameEn"    : "Portuguese Podengo",
         "code"      : "94",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/portuguese_podengo.png",
         "general"   : {
             "country"           : "Португалия",
@@ -8243,7 +8243,7 @@
         "name"      : "Хрътка от Ибиса",
         "nameEn"    : "Ibizan Hound",
         "code"      : "89",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/ibizan_hound.png",
         "general"   : {
             "country"           : "Испания",
@@ -8301,7 +8301,7 @@
         "name"      : "0",
         "nameEn"    : "Taiwan Dog",
         "code"      : "348",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/taiwan_dog.png",
         "general"   : {
             "country"           : "0",
@@ -8359,7 +8359,7 @@
         "name"      : "Тайландски риджбек",
         "nameEn"    : "Thai Ridgeback",
         "code"      : "338",
-        "group"     : "",
+        "group"     : "Spitz and primitive types",
         "image_link": "assets/pdfs/@breeds/dog/thai_ridgeback.png",
         "general"   : {
             "country"           : "Тайланд",
@@ -8417,7 +8417,7 @@
         "name"      : "Блъдхаунд",
         "nameEn"    : "Bloodhound",
         "code"      : "84",
-        "group"     : "",
+        "group"     : "Scent hounds and related breeds",
         "image_link": "assets/pdfs/@breeds/dog/bloodhound.png",
         "general"   : {
             "country"           : "Белгия",
@@ -8475,7 +8475,7 @@
         "name"      : "Английски фоксхаунд",
         "nameEn"    : "English Foxhound",
         "code"      : "159",
-        "group"     : "",
+        "group"     : "Scent hounds and related breeds",
         "image_link": "assets/pdfs/@breeds/dog/english_foxhound.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -8533,7 +8533,7 @@
         "name"      : "Отерхунд",
         "nameEn"    : "Otterhound",
         "code"      : "294",
-        "group"     : "",
+        "group"     : "Scent hounds and related breeds",
         "image_link": "assets/pdfs/@breeds/dog/otterhound.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -8591,7 +8591,7 @@
         "name"      : "Американски фоксхаунд",
         "nameEn"    : "American Foxhound",
         "code"      : "303",
-        "group"     : "",
+        "group"     : "Scent hounds and related breeds",
         "image_link": "assets/pdfs/@breeds/dog/american_foxhound.png",
         "general"   : {
             "country"           : "САЩ",
@@ -8649,7 +8649,7 @@
         "name"      : "Черно-кафяв кунхаунд",
         "nameEn"    : "Black and Tan Coonhound",
         "code"      : "300",
-        "group"     : "",
+        "group"     : "Scent hounds and related breeds",
         "image_link": "assets/pdfs/@breeds/dog/black_and_tan_coonhound.png",
         "general"   : {
             "country"           : "САЩ",
@@ -8707,7 +8707,7 @@
         "name"      : "0",
         "nameEn"    : "Porcelaine",
         "code"      : "30",
-        "group"     : "",
+        "group"     : "Scent hounds and related breeds",
         "image_link": "assets/pdfs/@breeds/dog/porcelaine.png",
         "general"   : {
             "country"           : "Франция",
@@ -8765,7 +8765,7 @@
         "name"      : "0",
         "nameEn"    : "Harrier",
         "code"      : "295",
-        "group"     : "",
+        "group"     : "Scent hounds and related breeds",
         "image_link": "assets/pdfs/@breeds/dog/harrier.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -8821,9 +8821,9 @@
     {
         "id"        : "унгарска хрътка",
         "name"      : "Унгарска хрътка",
-        "nameEn"    : "Transylvanian Hound",
+        "nameEn"    : "Transylvanian Scent Hound",
         "code"      : "241",
-        "group"     : "",
+        "group"     : "Scent hounds and related breeds",
         "image_link": "assets/pdfs/@breeds/dog/transylvanian_hound.png",
         "general"   : {
             "country"           : "Унгария",
@@ -8881,7 +8881,7 @@
         "name"      : "Словашки копов",
         "nameEn"    : "Slovensky Kopov",
         "code"      : "244",
-        "group"     : "",
+        "group"     : "Scent hounds and related breeds",
         "image_link": "assets/pdfs/@breeds/dog/slovensky_kopov.png",
         "general"   : {
             "country"           : "Словакия",
@@ -8939,7 +8939,7 @@
         "name"      : "Хамилтоново гонче",
         "nameEn"    : "Hamiltonstovare",
         "code"      : "132",
-        "group"     : "",
+        "group"     : "Scent hounds and related breeds",
         "image_link": "assets/pdfs/@breeds/dog/hamiltonstovare.png",
         "general"   : {
             "country"           : "Швеция",
@@ -8997,7 +8997,7 @@
         "name"      : "Бретански басет",
         "nameEn"    : "Basset Fauve de Bretagne",
         "code"      : "36",
-        "group"     : "",
+        "group"     : "Scent hounds and related breeds",
         "image_link": "assets/pdfs/@breeds/dog/basset_fauve_de_bretagne.png",
         "general"   : {
             "country"           : "Франция",
@@ -9055,7 +9055,7 @@
         "name"      : "Голям вендейски басетгрифон",
         "nameEn"    : "Grand Basset Griffon Vendéen",
         "code"      : "33",
-        "group"     : "",
+        "group"     : "Scent hounds and related breeds",
         "image_link": "assets/pdfs/@breeds/dog/grand_basset_griffon_vendéen.png",
         "general"   : {
             "country"           : "Франция",
@@ -9113,7 +9113,7 @@
         "name"      : "Малък вендейски басетгрифон",
         "nameEn"    : "Petit Basset Griffon Vendéen",
         "code"      : "67",
-        "group"     : "",
+        "group"     : "Scent hounds and related breeds",
         "image_link": "assets/pdfs/@breeds/dog/petit_basset_griffon_vendéen.png",
         "general"   : {
             "country"           : "Франция",
@@ -9171,7 +9171,7 @@
         "name"      : "Басет",
         "nameEn"    : "Basset Hound",
         "code"      : "163",
-        "group"     : "",
+        "group"     : "Scent hounds and related breeds",
         "image_link": "assets/pdfs/@breeds/dog/basset_hound.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -9229,7 +9229,7 @@
         "name"      : "Бигъл",
         "nameEn"    : "Beagle",
         "code"      : "161",
-        "group"     : "",
+        "group"     : "Scent hounds and related breeds",
         "image_link": "assets/pdfs/@breeds/dog/beagle.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -9287,7 +9287,7 @@
         "name"      : "Древер",
         "nameEn"    : "Drever",
         "code"      : "130",
-        "group"     : "",
+        "group"     : "Scent hounds and related breeds",
         "image_link": "assets/pdfs/@breeds/dog/drever.png",
         "general"   : {
             "country"           : "Швеция",
@@ -9345,7 +9345,7 @@
         "name"      : "Баварска планинска хрътка",
         "nameEn"    : "Bavarian Mountain Scent Hound",
         "code"      : "217",
-        "group"     : "",
+        "group"     : "Scent hounds and related breeds",
         "image_link": "assets/pdfs/@breeds/dog/bavarian_mountain_scent_hound.png",
         "general"   : {
             "country"           : "Германия",
@@ -9403,7 +9403,7 @@
         "name"      : "Хановерски кръвоследник",
         "nameEn"    : "Hanoverian Scent Hound",
         "code"      : "213",
-        "group"     : "",
+        "group"     : "Scent hounds and related breeds",
         "image_link": "assets/pdfs/@breeds/dog/hanoverian_scenthound.png",
         "general"   : {
             "country"           : "Германия",
@@ -9461,7 +9461,7 @@
         "name"      : "Далматинец",
         "nameEn"    : "Dalmatian",
         "code"      : "153",
-        "group"     : "",
+        "group"     : "Scent hounds and related breeds",
         "image_link": "assets/pdfs/@breeds/dog/dalmatian.png",
         "general"   : {
             "country"           : "Хърватска",
@@ -9519,7 +9519,7 @@
         "name"      : "Родезийски риджбек",
         "nameEn"    : "Rhodesian Ridgeback",
         "code"      : "146",
-        "group"     : "",
+        "group"     : "Scent hounds and related breeds",
         "image_link": "assets/pdfs/@breeds/dog/rhodesian_ridgeback.png",
         "general"   : {
             "country"           : "Южна Африка",
@@ -9577,7 +9577,7 @@
         "name"      : "0",
         "nameEn"    : "Braque du Bourbonnais",
         "code"      : "179",
-        "group"     : "",
+        "group"     : "Pointing Dogs",
         "image_link": "assets/pdfs/@breeds/dog/braque_du_bourbonnais.png",
         "general"   : {
             "country"           : "Франция",
@@ -9635,7 +9635,7 @@
         "name"      : "0",
         "nameEn"    : "Braque Francais Pyrenean",
         "code"      : "133",
-        "group"     : "",
+        "group"     : "Pointing Dogs",
         "image_link": "assets/pdfs/@breeds/dog/braque_francais_pyrenean.png",
         "general"   : {
             "country"           : "0",
@@ -9693,7 +9693,7 @@
         "name"      : "Курцхаар",
         "nameEn"    : "German Shorthaired Pointer",
         "code"      : "119",
-        "group"     : "",
+        "group"     : "Pointing Dogs",
         "image_link": "assets/pdfs/@breeds/dog/german_shorthaired_pointer.png",
         "general"   : {
             "country"           : "Германия",
@@ -9751,7 +9751,7 @@
         "name"      : "Дратхаар",
         "nameEn"    : "German Wirehaired Pointer",
         "code"      : "98",
-        "group"     : "",
+        "group"     : "Pointing Dogs",
         "image_link": "assets/pdfs/@breeds/dog/german_wirehaired_pointer.png",
         "general"   : {
             "country"           : "Германия",
@@ -9809,7 +9809,7 @@
         "name"      : "Пуделпойнтер",
         "nameEn"    : "Pudelpointer",
         "code"      : "216",
-        "group"     : "",
+        "group"     : "Pointing Dogs",
         "image_link": "assets/pdfs/@breeds/dog/pudelpointer.png",
         "general"   : {
             "country"           : "Германия",
@@ -9867,7 +9867,7 @@
         "name"      : "Ваймаранер",
         "nameEn"    : "Weimaraner",
         "code"      : "99",
-        "group"     : "",
+        "group"     : "Pointing Dogs",
         "image_link": "assets/pdfs/@breeds/dog/weimaraner.png",
         "general"   : {
             "country"           : "Германия",
@@ -9925,7 +9925,7 @@
         "name"      : "Унгарска визла",
         "nameEn"    : "Vizsla",
         "code"      : "57",
-        "group"     : "",
+        "group"     : "Pointing Dogs",
         "image_link": "assets/pdfs/@breeds/dog/vizsla.png",
         "general"   : {
             "country"           : "Унгария",
@@ -9983,7 +9983,7 @@
         "name"      : "Твърдокосместа визла",
         "nameEn"    : "Wirehaired Vizsla",
         "code"      : "239",
-        "group"     : "",
+        "group"     : "Pointing Dogs",
         "image_link": "assets/pdfs/@breeds/dog/wirehaired_vizsla.png",
         "general"   : {
             "country"           : "Унгария",
@@ -10041,7 +10041,7 @@
         "name"      : "Италиански брак",
         "nameEn"    : "Bracco Italiano",
         "code"      : "202",
-        "group"     : "",
+        "group"     : "Pointing Dogs",
         "image_link": "assets/pdfs/@breeds/dog/bracco_italiano.png",
         "general"   : {
             "country"           : "Италия",
@@ -10099,7 +10099,7 @@
         "name"      : "Португалски пойнтер",
         "nameEn"    : "Portuguese Pointer",
         "code"      : "187",
-        "group"     : "",
+        "group"     : "Pointing Dogs",
         "image_link": "assets/pdfs/@breeds/dog/portuguese_pointer.png",
         "general"   : {
             "country"           : "Португалия",
@@ -10157,7 +10157,7 @@
         "name"      : "Словашки грубокосмест пойнтер",
         "nameEn"    : "Slovakian Wirehaired Pointer",
         "code"      : "320",
-        "group"     : "",
+        "group"     : "Pointing Dogs",
         "image_link": "assets/pdfs/@breeds/dog/slovakian_wirehaired_pointer.png",
         "general"   : {
             "country"           : "Словакия",
@@ -10215,7 +10215,7 @@
         "name"      : "Епаньол бретон",
         "nameEn"    : "Brittany",
         "code"      : "95",
-        "group"     : "",
+        "group"     : "Pointing Dogs",
         "image_link": "assets/pdfs/@breeds/dog/brittany.png",
         "general"   : {
             "country"           : "Франция",
@@ -10273,7 +10273,7 @@
         "name"      : "Немски дългокосмест пойнтер",
         "nameEn"    : "German Longhaired Pointer",
         "code"      : "117",
-        "group"     : "",
+        "group"     : "Pointing Dogs",
         "image_link": "assets/pdfs/@breeds/dog/german_longhaired_pointer.png",
         "general"   : {
             "country"           : "Германия",
@@ -10331,7 +10331,7 @@
         "name"      : "Малък мюнстерлендер",
         "nameEn"    : "Small Munsterlander",
         "code"      : "102",
-        "group"     : "",
+        "group"     : "Pointing Dogs",
         "image_link": "assets/pdfs/@breeds/dog/small_munsterlander.png",
         "general"   : {
             "country"           : "Германия",
@@ -10389,7 +10389,7 @@
         "name"      : "Холандски птичар",
         "nameEn"    : "Drentsche Patrijshond",
         "code"      : "224",
-        "group"     : "",
+        "group"     : "Pointing Dogs",
         "image_link": "assets/pdfs/@breeds/dog/drentsche_patrijshond.png",
         "general"   : {
             "country"           : "Холандия",
@@ -10447,7 +10447,7 @@
         "name"      : "Стабихоун",
         "nameEn"    : "Stabyhoun",
         "code"      : "222",
-        "group"     : "",
+        "group"     : "Pointing Dogs",
         "image_link": "assets/pdfs/@breeds/dog/stabyhoun.png",
         "general"   : {
             "country"           : "Холандия",
@@ -10505,7 +10505,7 @@
         "name"      : "Грифон на Корталс",
         "nameEn"    : "Wirehaired Pointing Griffon Korthals",
         "code"      : "107",
-        "group"     : "",
+        "group"     : "Pointing Dogs",
         "image_link": "assets/pdfs/@breeds/dog/wirehaired_pointing_griffon.png",
         "general"   : {
             "country"           : "Франция",
@@ -10563,7 +10563,7 @@
         "name"      : "Спиноне италиано",
         "nameEn"    : "Spinone Italiano",
         "code"      : "165",
-        "group"     : "",
+        "group"     : "Spinone Italiano",
         "image_link": "assets/pdfs/@breeds/dog/spinone_italiano.png",
         "general"   : {
             "country"           : "Италия",
@@ -10621,7 +10621,7 @@
         "name"      : "Английски сетер",
         "nameEn"    : "English Setter",
         "code"      : "2",
-        "group"     : "",
+        "group"     : "Pointing Dogs",
         "image_link": "assets/pdfs/@breeds/dog/english_setter.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -10679,7 +10679,7 @@
         "name"      : "Шотландски сетер",
         "nameEn"    : "Gordon Setter",
         "code"      : "6",
-        "group"     : "",
+        "group"     : "Pointing Dogs",
         "image_link": "assets/pdfs/@breeds/dog/gordon_setter.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -10737,7 +10737,7 @@
         "name"      : "Ирландски червено-бял сетер",
         "nameEn"    : "Irish Red and White Setter",
         "code"      : "330",
-        "group"     : "",
+        "group"     : "Pointing Dogs",
         "image_link": "assets/pdfs/@breeds/dog/irish_red_and_white_setter.png",
         "general"   : {
             "country"           : "Ирландия",
@@ -10795,7 +10795,7 @@
         "name"      : "Ирландски сетер",
         "nameEn"    : "Irish Red Setter",
         "code"      : "120",
-        "group"     : "",
+        "group"     : "Pointing Dogs",
         "image_link": "assets/pdfs/@breeds/dog/irish_setter.png",
         "general"   : {
             "country"           : "Ирландия",
@@ -10853,7 +10853,7 @@
         "name"      : "Новошотландски ретривър",
         "nameEn"    : "Nova Scotia Duck Tolling Retriever",
         "code"      : "312",
-        "group"     : "",
+        "group"     : "Retrievers, Flushing Dogs, Water Dog",
         "image_link": "assets/pdfs/@breeds/dog/nova_scotia_duck_tolling_retriever.png",
         "general"   : {
             "country"           : "Канада",
@@ -10911,7 +10911,7 @@
         "name"      : "Къдравокосмест ретривър",
         "nameEn"    : "Curly-Coated Retriever",
         "code"      : "110",
-        "group"     : "",
+        "group"     : "Retrievers, Flushing Dogs, Water Dog",
         "image_link": "assets/pdfs/@breeds/dog/curly.png.jpg",
         "general"   : {
             "country"           : "Великобритания",
@@ -10969,7 +10969,7 @@
         "name"      : "Гладкокосмест ретривър",
         "nameEn"    : "Flat Coated Retriever",
         "code"      : "121",
-        "group"     : "",
+        "group"     : "Retrievers, Flushing Dogs, Water Dog",
         "image_link": "assets/pdfs/@breeds/dog/flat.png.jpg",
         "general"   : {
             "country"           : "Великобритания",
@@ -11027,7 +11027,7 @@
         "name"      : "Голдън ретрийвър",
         "nameEn"    : "Golden Retriever",
         "code"      : "111",
-        "group"     : "",
+        "group"     : "Retrievers, Flushing Dogs, Water Dog",
         "image_link": "assets/pdfs/@breeds/dog/golden_retriever.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -11085,7 +11085,7 @@
         "name"      : "Лабрадор ретривър",
         "nameEn"    : "Labrador Retriever",
         "code"      : "122",
-        "group"     : "",
+        "group"     : "Retrievers, Flushing Dogs, Water Dog",
         "image_link": "assets/pdfs/@breeds/dog/labrador_retriever.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -11143,7 +11143,7 @@
         "name"      : "Чесапийк бей ретривър",
         "nameEn"    : "Chesapeake Bay Retriever",
         "code"      : "263",
-        "group"     : "",
+        "group"     : "Retrievers, Flushing Dogs, Water Dog",
         "image_link": "assets/pdfs/@breeds/dog/chesapeake_bay_retriever.png",
         "general"   : {
             "country"           : "САЩ",
@@ -11201,7 +11201,7 @@
         "name"      : "Немски шпаньол",
         "nameEn"    : "German Spaniel",
         "code"      : "104",
-        "group"     : "",
+        "group"     : "Retrievers, Flushing Dogs, Water Dog",
         "image_link": "assets/pdfs/@breeds/dog/deutscher_wachtelhund.png",
         "general"   : {
             "country"           : "Германия",
@@ -11259,7 +11259,7 @@
         "name"      : "Кламбър шпаньол",
         "nameEn"    : "Clumber Spaniel",
         "code"      : "109",
-        "group"     : "",
+        "group"     : "Retrievers, Flushing Dogs, Water Dog",
         "image_link": "assets/pdfs/@breeds/dog/clumber_spaniel.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -11317,7 +11317,7 @@
         "name"      : "Английски кокер шпаньол",
         "nameEn"    : "English Cocker Spaniel",
         "code"      : "5",
-        "group"     : "",
+        "group"     : "Retrievers, Flushing Dogs, Water Dog",
         "image_link": "assets/pdfs/@breeds/dog/english_cocker_spaniel.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -11375,7 +11375,7 @@
         "name"      : "Английски спрингер шпаньол",
         "nameEn"    : "English Springer Spaniel",
         "code"      : "125",
-        "group"     : "",
+        "group"     : "Retrievers, Flushing Dogs, Water Dog",
         "image_link": "assets/pdfs/@breeds/dog/english_springer_spaniel.png",
         "general"   : {
             "country"           : "0",
@@ -11433,7 +11433,7 @@
         "name"      : "Фийлд спаньол",
         "nameEn"    : "Field Spaniel",
         "code"      : "123",
-        "group"     : "",
+        "group"     : "Retrievers, Flushing Dogs, Water Dog",
         "image_link": "assets/pdfs/@breeds/dog/field_spaniel.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -11491,7 +11491,7 @@
         "name"      : "Съсекс шпаньол",
         "nameEn"    : "Sussex Spaniel",
         "code"      : "127",
-        "group"     : "",
+        "group"     : "Retrievers, Flushing Dogs, Water Dog",
         "image_link": "assets/pdfs/@breeds/dog/sussex_spaniel.png",
         "general"   : {
             "country"           : "0",
@@ -11549,7 +11549,7 @@
         "name"      : "Уелски спрингер шпаньол",
         "nameEn"    : "Welsh Springer Spaniel",
         "code"      : "126",
-        "group"     : "",
+        "group"     : "Retrievers, Flushing Dogs, Water Dog",
         "image_link": "assets/pdfs/@breeds/dog/welsh_springer_spaniel.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -11607,7 +11607,7 @@
         "name"      : "Койкер",
         "nameEn"    : "Nederlandse Kooikerhondje",
         "code"      : "314",
-        "group"     : "",
+        "group"     : "Retrievers, Flushing Dogs, Water Dog",
         "image_link": "assets/pdfs/@breeds/dog/nederlandse_kooikerhondje.png",
         "general"   : {
             "country"           : "Холандия",
@@ -11665,7 +11665,7 @@
         "name"      : "Американски кокер шпаньол",
         "nameEn"    : "Cocker Spaniel",
         "code"      : "167",
-        "group"     : "",
+        "group"     : "Retrievers, Flushing Dogs, Water Dog",
         "image_link": "assets/pdfs/@breeds/dog/cocker_spaniel.png",
         "general"   : {
             "country"           : "САЩ",
@@ -11723,7 +11723,7 @@
         "name"      : "Барбет",
         "nameEn"    : "Barbet",
         "code"      : "105",
-        "group"     : "",
+        "group"     : "Retrievers, Flushing Dogs, Water Dog",
         "image_link": "assets/pdfs/@breeds/dog/barbet.png",
         "general"   : {
             "country"           : "Франция",
@@ -11781,7 +11781,7 @@
         "name"      : "Ирландски воден шпаньол",
         "nameEn"    : "Irish Water Spaniel",
         "code"      : "124",
-        "group"     : "",
+        "group"     : "Retrievers, Flushing Dogs, Water Dog",
         "image_link": "assets/pdfs/@breeds/dog/irish_water_spaniel.png",
         "general"   : {
             "country"           : "Ирландия",
@@ -11839,7 +11839,7 @@
         "name"      : "Лагото романьоло",
         "nameEn"    : "Lagotto Romagnolo",
         "code"      : "298",
-        "group"     : "",
+        "group"     : "Retrievers, Flushing Dogs, Water Dog",
         "image_link": "assets/pdfs/@breeds/dog/lagotto_romagnolo.png",
         "general"   : {
             "country"           : "Италия",
@@ -11897,7 +11897,7 @@
         "name"      : "Португалско водно куче",
         "nameEn"    : "Portuguese Water Dog",
         "code"      : "37",
-        "group"     : "",
+        "group"     : "Retrievers, Flushing Dogs, Water Dog",
         "image_link": "assets/pdfs/@breeds/dog/portuguese_water_dog.png",
         "general"   : {
             "country"           : "0",
@@ -11955,7 +11955,7 @@
         "name"      : "Испанско водно куче",
         "nameEn"    : "Spanish Water Dog",
         "code"      : "336",
-        "group"     : "",
+        "group"     : "Retrievers, Flushing Dogs, Water Dog",
         "image_link": "assets/pdfs/@breeds/dog/spanish_water_dog.png",
         "general"   : {
             "country"           : "Испания",
@@ -12013,7 +12013,7 @@
         "name"      : "Фризийско водно куче",
         "nameEn"    : "Frisian water dog",
         "code"      : "221",
-        "group"     : "",
+        "group"     : "Retrievers, Flushing Dogs, Water Dog",
         "image_link": "assets/pdfs/@breeds/dog/wetterhoun.png",
         "general"   : {
             "country"          : "Холандия",
@@ -12071,7 +12071,7 @@
         "name"      : "Американски воден шпаньол",
         "nameEn"    : "American Water Spaniel",
         "code"      : "301",
-        "group"     : "",
+        "group"     : "Retrievers, Flushing Dogs, Water Dog",
         "image_link": "assets/pdfs/@breeds/dog/american_water_spaniel.png",
         "general"   : {
             "country"           : "САЩ",
@@ -12129,7 +12129,7 @@
         "name"      : "Френска болонка",
         "nameEn"    : "Bichon Frise",
         "code"      : "215",
-        "group"     : "",
+        "group"     : "Companion and Toy Dogs",
         "image_link": "assets/pdfs/@breeds/dog/bichon_frise.png",
         "general"   : {
             "country"           : "Франция",
@@ -12187,7 +12187,7 @@
         "name"      : "Малтийска болонка",
         "nameEn"    : "Maltese",
         "code"      : "65",
-        "group"     : "",
+        "group"     : "Companion and Toy Dogs",
         "image_link": "assets/pdfs/@breeds/dog/maltese.png",
         "general"   : {
             "country"           : "Средиземноморските страни",
@@ -12245,7 +12245,7 @@
         "name"      : "Хаванска болонка",
         "nameEn"    : "Havanese",
         "code"      : "250",
-        "group"     : "",
+        "group"     : "Companion and Toy Dogs",
         "image_link": "assets/pdfs/@breeds/dog/havanese.png",
         "general"   : {
             "country"           : "Куба",
@@ -12303,7 +12303,7 @@
         "name"      : "Болонка",
         "nameEn"    : "Bolognese",
         "code"      : "196",
-        "group"     : "",
+        "group"     : "Companion and Toy Dogs",
         "image_link": "assets/pdfs/@breeds/dog/bolognese.png",
         "general"   : {
             "country"           : "Италия",
@@ -12360,7 +12360,7 @@
         "name"      : "Котон де Тулеар",
         "nameEn"    : "Coton de Tulear",
         "code"      : "283",
-        "group"     : "",
+        "group"     : "Companion and Toy Dogs",
         "image_link": "assets/pdfs/@breeds/dog/coton_de_tulear.png",
         "general"   : {
             "country"           : "Мадагаскар",
@@ -12418,7 +12418,7 @@
         "name"      : "Лъвско куче",
         "nameEn"    : "Little Lion Dog",
         "code"      : "233",
-        "group"     : "",
+        "group"     : "Companion and Toy Dogs",
         "image_link": "assets/pdfs/@breeds/dog/löwchen.png",
         "general"   : {
             "country"           : "Франция",
@@ -12476,7 +12476,7 @@
         "name"      : "Пудел - стандартен",
         "nameEn"    : "Poodle (Standard)",
         "code"      : "1720001",
-        "group"     : "",
+        "group"     : "Companion and Toy Dogs",
         "image_link": "assets/pdfs/@breeds/dog/poodle_.png).jpg",
         "general"   : {
             "country"           : "Франция",
@@ -12534,7 +12534,7 @@
         "name"      : "Пудел - миниатюрен",
         "nameEn"    : "Poodle (Miniature)",
         "code"      : "1720002",
-        "group"     : "",
+        "group"     : "Companion and Toy Dogs",
         "image_link": "assets/pdfs/@breeds/dog/poodle_.png).jpg",
         "general"   : {
             "country"           : "Франция",
@@ -12592,7 +12592,7 @@
         "name"      : "Пудел - играчка",
         "nameEn"    : "Poodle (Toy)",
         "code"      : "1720003",
-        "group"     : "",
+        "group"     : "Companion and Toy Dogs",
         "image_link": "assets/pdfs/@breeds/dog/poodle_.png).jpg",
         "general"   : {
             "country"           : "Франция",
@@ -12650,7 +12650,7 @@
         "name"      : "Брюкселски грифон",
         "nameEn"    : "Brussels Griffon",
         "code"      : "80",
-        "group"     : "",
+        "group"     : "Companion and Toy Dogs",
         "image_link": "assets/pdfs/@breeds/dog/brussels_griffon.png",
         "general"   : {
             "country"           : "Белгия",
@@ -12708,7 +12708,7 @@
         "name"      : "Китайско голо качулато куче",
         "nameEn"    : "Chinese Crested",
         "code"      : "288",
-        "group"     : "",
+        "group"     : "Companion and Toy Dogs",
         "image_link": "assets/pdfs/@breeds/dog/chinese_crested.png",
         "general"   : {
             "country"           : "Китай",
@@ -12766,7 +12766,7 @@
         "name"      : "Лхаса апсо",
         "nameEn"    : "Lhasa Apso",
         "code"      : "227",
-        "group"     : "",
+        "group"     : "Companion and Toy Dogs",
         "image_link": "assets/pdfs/@breeds/dog/lhasa_apso.png",
         "general"   : {
             "country"           : "Тибет",
@@ -12824,7 +12824,7 @@
         "name"      : "Ши цу",
         "nameEn"    : "Shih Tzu",
         "code"      : "208",
-        "group"     : "",
+        "group"     : "Companion and Toy Dogs",
         "image_link": "assets/pdfs/@breeds/dog/shih_tzu.png",
         "general"   : {
             "country"           : "Тибет",
@@ -12882,7 +12882,7 @@
         "name"      : "Тибетски шпаньол",
         "nameEn"    : "Tibetan Spaniel",
         "code"      : "231",
-        "group"     : "",
+        "group"     : "Companion and Toy Dogs",
         "image_link": "assets/pdfs/@breeds/dog/tibetan_spaniel.png",
         "general"   : {
             "country"           : "Тибет",
@@ -12940,7 +12940,7 @@
         "name"      : "Тибетски териер",
         "nameEn"    : "Tibetan Terrier",
         "code"      : "209",
-        "group"     : "",
+        "group"     : "Companion and Toy Dogs",
         "image_link": "assets/pdfs/@breeds/dog/tibetan_terrier.png",
         "general"   : {
             "country"           : "Тибет",
@@ -12998,7 +12998,7 @@
         "name"      : "Чихуахуа",
         "nameEn"    : "Chihuahua",
         "code"      : "218",
-        "group"     : "",
+        "group"     : "Companion and Toy Dogs",
         "image_link": "assets/pdfs/@breeds/dog/chihuahua.png",
         "general"   : {
             "country"           : "Мексико",
@@ -13056,7 +13056,7 @@
         "name"      : "Кавалер Кинг Чарлз шпаньол",
         "nameEn"    : "Cavalier King Charles Spaniel",
         "code"      : "136",
-        "group"     : "",
+        "group"     : "Companion and Toy Dogs",
         "image_link": "assets/pdfs/@breeds/dog/cavalier_king_charles_spaniel.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -13114,7 +13114,7 @@
         "name"      : "Пекинез",
         "nameEn"    : "Pekingese",
         "code"      : "207",
-        "group"     : "",
+        "group"     : "Companion and Toy Dogs",
         "image_link": "assets/pdfs/@breeds/dog/pekingese.png",
         "general"   : {
             "country"           : "Китай",
@@ -13172,7 +13172,7 @@
         "name"      : "Японски хин",
         "nameEn"    : "Japanese Chin",
         "code"      : "206",
-        "group"     : "",
+        "group"     : "Companion and Toy Dogs",
         "image_link": "assets/pdfs/@breeds/dog/japanese_chin.png",
         "general"   : {
             "country"           : "Япония",
@@ -13230,7 +13230,7 @@
         "name"      : "Папийон",
         "nameEn"    : "Papillon",
         "code"      : "770001",
-        "group"     : "",
+        "group"     : "Companion and Toy Dogs",
         "image_link": "assets/pdfs/@breeds/dog/papillon.png",
         "general"   : {
             "country"           : "Белгия",
@@ -13288,7 +13288,7 @@
         "name"      : "Руски той териер",
         "nameEn"    : "Russian Toy",
         "code"      : "352",
-        "group"     : "",
+        "group"     : "Companion and Toy Dogs",
         "image_link": "assets/pdfs/@breeds/dog/russian_toy.png",
         "general"   : {
             "country"           : "Русия",
@@ -13346,7 +13346,7 @@
         "name"      : "Кромфорлендер",
         "nameEn"    : "Kromfohrlander",
         "code"      : "192",
-        "group"     : "",
+        "group"     : "Companion and Toy Dogs",
         "image_link": "assets/pdfs/@breeds/dog/kromfohrlander.png",
         "general"   : {
             "country"           : "Германия",
@@ -13404,7 +13404,7 @@
         "name"      : "Мопс",
         "nameEn"    : "Pug",
         "code"      : "253",
-        "group"     : "",
+        "group"     : "Companion and Toy Dogs",
         "image_link": "assets/pdfs/@breeds/dog/pug.png",
         "general"   : {
             "country"           : "Китай",
@@ -13462,7 +13462,7 @@
         "name"      : "Френски булдог",
         "nameEn"    : "French Bulldog",
         "code"      : "101",
-        "group"     : "",
+        "group"     : "Companion and Toy Dogs",
         "image_link": "assets/pdfs/@breeds/dog/french_bulldog.png",
         "general"   : {
             "country"           : "Франция",
@@ -13520,7 +13520,7 @@
         "name"      : "Бостън териер",
         "nameEn"    : "Boston Terrier",
         "code"      : "140",
-        "group"     : "",
+        "group"     : "Companion and Toy Dogs",
         "image_link": "assets/pdfs/@breeds/dog/boston_terrier.png",
         "general"   : {
             "country"           : "САЩ",
@@ -13577,7 +13577,7 @@
         "name"      : "Афганска хрътка",
         "nameEn"    : "Afghan Hound",
         "code"      : "228",
-        "group"     : "",
+        "group"     : "Sighthounds",
         "image_link": "assets/pdfs/@breeds/dog/afghan_hound.png",
         "general"   : {
             "country"           : "Афганистан",
@@ -13635,7 +13635,7 @@
         "name"      : "Салуки",
         "nameEn"    : "Saluki",
         "code"      : "269",
-        "group"     : "",
+        "group"     : "Sighthounds",
         "image_link": "assets/pdfs/@breeds/dog/saluki.png",
         "general"   : {
             "country"           : "Среден Изток",
@@ -13693,7 +13693,7 @@
         "name"      : "Борзая",
         "nameEn"    : "Borzoi",
         "code"      : "193",
-        "group"     : "",
+        "group"     : "Sighthounds",
         "image_link": "assets/pdfs/@breeds/dog/borzoi.png",
         "general"   : {
             "country"           : "Русия",
@@ -13751,7 +13751,7 @@
         "name"      : "Шотландска еленова хрътка",
         "nameEn"    : "Deerhound",
         "code"      : "164",
-        "group"     : "",
+        "group"     : "Sighthounds",
         "image_link": "assets/pdfs/@breeds/dog/scottish_deerhound.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -13809,7 +13809,7 @@
         "name"      : "Ирландски вълкодав",
         "nameEn"    : "Irish Wolfhound",
         "code"      : "160",
-        "group"     : "",
+        "group"     : "Sighthounds",
         "image_link": "assets/pdfs/@breeds/dog/irish_wolfhound.png",
         "general"   : {
             "country"           : "Ирландия",
@@ -13867,7 +13867,7 @@
         "name"      : "Грейхаунд",
         "nameEn"    : "Greyhound",
         "code"      : "158",
-        "group"     : "",
+        "group"     : "Sighthounds",
         "image_link": "assets/pdfs/@breeds/dog/greyhound.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -13925,7 +13925,7 @@
         "name"      : "Уипет",
         "nameEn"    : "Whippet",
         "code"      : "162",
-        "group"     : "",
+        "group"     : "Sighthounds",
         "image_link": "assets/pdfs/@breeds/dog/whippet.png",
         "general"   : {
             "country"           : "Великобритания",
@@ -13983,7 +13983,7 @@
         "name"      : "Италиански грейхаунд",
         "nameEn"    : "Italian Greyhound",
         "code"      : "200",
-        "group"     : "",
+        "group"     : "Sighthounds",
         "image_link": "assets/pdfs/@breeds/dog/italian_greyhound.png",
         "general"   : {
             "country"           : "Италия",
@@ -14041,7 +14041,7 @@
         "name"      : "Азавак",
         "nameEn"    : "Azawakh",
         "code"      : "307",
-        "group"     : "",
+        "group"     : "Sighthounds",
         "image_link": "assets/pdfs/@breeds/dog/azawakh.png",
         "general"   : {
             "country"           : "Мали",
@@ -14099,7 +14099,7 @@
         "name"      : "Слоуги",
         "nameEn"    : "Sloughi",
         "code"      : "188",
-        "group"     : "",
+        "group"     : "Sighthounds",
         "image_link": "assets/pdfs/@breeds/dog/sloughi.png",
         "general"   : {
             "country"           : "Мароко",
