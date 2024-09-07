@@ -6,6 +6,8 @@ import { RouterModule, Routes     } from '@angular/router';
 
 import { PrimaryMenu              } from 'nv@features/@menu/primary-menu/primary-menu.component';
 
+import { SelectCategoryModal      } from './@modal/select-category/select-category.component';
+
 import { NvRadioComponent         } from 'nv@components/@forms/nv-radio/nv-radio.component';
 import { DrugCard                 } from 'nv@components/@blocks/drug-card/drug-card.component';
 import { NvSearchToolbarComponent } from 'nv@components/@layouts/nv-search-toolbar/nv-search-toolbar.component';
@@ -33,6 +35,7 @@ const routes: Routes = [{
     declarations                    : [
       MainPage                      ,
       DetailModal                   ,
+      SelectCategoryModal           ,
       GalleryModal
     ],
     imports                         : [

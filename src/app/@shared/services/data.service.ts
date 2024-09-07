@@ -124,16 +124,16 @@ export class DataService {
     ];
 
     if($preset == 'breed') return [
-      { category: 'Sheepdogs and Cattledogs'              , title: 'Овчарски и пастирски кучета', imgPath: ``},
-      { category: 'Pinscher and Schnauzer'                , title: 'Пинчери и шнауцери', imgPath: ``},
-      { category: 'Terriers'                              , title: 'Териери', imgPath: ``},
-      { category: 'Dachshunds'                            , title: 'Дакели', imgPath: ``},
-      { category: 'Spitz and primitive types'             , title: 'Шпицове и примитивен тип', imgPath: ``},
-      { category: 'Scent hounds and related breeds'       , title: 'Гончета и подобни', imgPath: ``},
-      { category: 'Pointing Dogs'                         , title: 'Пойнтери', imgPath: ``},
-      { category: 'Retrievers, Flushing Dogs, Water Dogs' , title: 'Апортиращи, претърсващи и работещи във вода кучета', imgPath: ``},
-      { category: 'Companion and Toy Dogs'                , title: 'Кучета компаньони и "той" кучета', imgPath: ``},
-      { category: 'Sighthounds'                           , title: 'Хрътки', imgPath: ``}
+      { category: 'Sheepdogs and Cattledogs'              , title: 'Овчарски и пастирски кучета', imgPath: `/assets/icon/breed/1.png`},
+      { category: 'Pinscher and Schnauzer'                , title: 'Пинчери и шнауцери', imgPath: `/assets/icon/breed/2.png`},
+      { category: 'Terriers'                              , title: 'Териери', imgPath: `/assets/icon/breed/3.png`},
+      { category: 'Dachshunds'                            , title: 'Дакели', imgPath: `/assets/icon/breed/4.png`},
+      { category: 'Spitz and primitive types'             , title: 'Шпицове и примитивен тип', imgPath: `/assets/icon/breed/5.png`},
+      { category: 'Scent hounds and related breeds'       , title: 'Гончета и подобни', imgPath: `/assets/icon/breed/6.png`},
+      { category: 'Pointing Dogs'                         , title: 'Пойнтери', imgPath: `/assets/icon/breed/7.png`},
+      { category: 'Retrievers, Flushing Dogs, Water Dogs' , title: 'Апортиращи, претърсващи и работещи във вода кучета', imgPath: `/assets/icon/breed/8.png`},
+      { category: 'Companion and Toy Dogs'                , title: 'Кучета компаньони и "той" кучета', imgPath: `/assets/icon/breed/9.png`},
+      { category: 'Sighthounds'                           , title: 'Хрътки', imgPath: `/assets/icon/breed/10.png`}
     ];
 
       return [

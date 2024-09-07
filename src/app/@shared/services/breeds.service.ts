@@ -9,9 +9,9 @@ export class BreedsService {
 
   private $intermediateCollection: any = [];
 
-  public $breed() {
-
-    this.$intermediateCollection = structuredClone(DogBreedsJson);
+  public $breed(animalType: string) {
+    // Initialize $intermediateCollection based on selected animal type
+    this.$intermediateCollection = animalType === 'dogs' ? structuredClone(DogBreedsJson) : structuredClone(CatBreedsJson);
     return this;
   }
 
@@ -23,22 +23,28 @@ export class BreedsService {
   }
 
 
-  /**
-   * @author Mihail Petrov
-   * @param name
-   * @returns
-   */
-  public filterByName(name: any) {
-
-
-    if(!name) return this;
+  public filterByCategory(selectedCategories: any[]) {
+    if (!selectedCategories || selectedCategories.length === 0) return this;
 
     this.$intermediateCollection = this.$intermediateCollection.filter((element: any) => {
-      return (element.name).toLowerCase().includes(name.toLowerCase());
-
+      return selectedCategories[0].category.includes(element.group);
     });
 
     return this;
+  }
+
+  public filterByName(name: string) {
+    if (!name) return this;
+
+    this.$intermediateCollection = this.$intermediateCollection.filter((element: any) => {
+      return element.name.toLowerCase().includes(name.toLowerCase()) || element.nameEn.toLowerCase().includes(name.toLowerCase());
+    });
+
+    return this;
+  }
+
+  public getFiltered() {
+    return this.$intermediateCollection;
   }
 
 }

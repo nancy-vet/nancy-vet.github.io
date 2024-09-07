@@ -3,7 +3,7 @@ import { Component, OnInit, inject  } from '@angular/core';
 import { DialogService              } from 'nv@services/dialog.service';
 import { DetailModal                } from './@modal/detail/detail.component';
 
-//import { SelectCategoryModal  } from './@modal/select-category/select-category.component';
+import { SelectCategoryModal  } from './@modal/select-category/select-category.component';
 //import { DrugInfoModal        } from './@modal/drug-info/drug-info.component';
 import { BreedsService              } from 'nv@services/breeds.service';
 
@@ -18,6 +18,8 @@ export class MainPage implements OnInit {
   private $dataService: BreedsService   = inject(BreedsService);
   private dialogService: DialogService  = inject(DialogService);
   public $data: any[] = [];               // Filtered data for display
+  private $selectedCategories: any  = [];
+  private activeFilter: string      = 'title';
   public originalData: any[] = [];        // Full data set
   public selectedAnimal: string = 'dogs'; // Default to 'dogs'
 
@@ -34,14 +36,14 @@ export class MainPage implements OnInit {
   /** Triggered when the search input changes */
   onItemSearched(searchValue: string): void {
     if (searchValue && searchValue.trim() !== '') {
-      this.$data = this.originalData.filter((element: any) => {
-        return element.name.toLowerCase().includes(searchValue.toLowerCase()) ||
-               element.nameEn.toLowerCase().includes(searchValue.toLowerCase());
-      });
+      this.$data = this.$dataService.$breed(this.selectedAnimal)
+        .filterByName(searchValue)
+        .getFiltered();
     } else {
       this.$data = [...this.originalData];
     }
   }
+
 
   /**
    * @author Mihail Petrov
@@ -62,4 +64,22 @@ export class MainPage implements OnInit {
     return imagePath;
   }
 
+  /**
+   * Triggered when the filter modal is opened
+   */
+  public async onFilter($event: any): Promise<void> {
+    (await this.dialogService.open(SelectCategoryModal)).whenConfirmed((collection: any) => {
+      this.$selectedCategories = collection.selectedCategory;
+      this.processGetItemCollection();
+    });
+  }
+
+  /**
+   * Process the selected categories and update the filtered breeds
+   */
+  private processGetItemCollection(): void {
+    this.$data = this.$dataService.$breed(this.selectedAnimal)
+      .filterByCategory(this.$selectedCategories)
+      .getFiltered();
+  }
 }
