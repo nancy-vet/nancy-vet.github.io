@@ -38,7 +38,7 @@ export class MainPage implements OnInit {
   }
 
   public findImageBreed(code: string): string {
-    const imagePath = `assets/pdfs/@breeds/dog/${code}/1.png`;
+    const imagePath = `assets/pdfs/@breeds/cat/${code}/1.png`;
     // const breed = DogBreedsJson.find((b) => b.code === code);
     // const nameBreed = breed ? breed.nameEn : 'Unknown Breed';
     // console.log(`Breed: ${nameBreed}, Generated image path: ${imagePath}`);

@@ -1800,7 +1800,7 @@
     {
         "id"        : "австралийска овчарка",
         "name"      : "Австралийска овчарка",
-        "nameEn"    : "Australian Shepherd СТИГНАХ ДО ТУК",
+        "nameEn"    : "Australian Shepherd",
         "code"      : "342",
         "group"     : "Sheepdogs and Cattledogs",
         "image_link": "assets/pdfs/@breeds/dog/australian_shepherd.png",
@@ -2786,7 +2786,7 @@
     {
         "id"        : "боксер",
         "name"      : "Боксер",
-        "nameEn"    : "Boxer",
+        "nameEn"    : "Boxer ДОТУК стигнах",
         "code"      : "144",
         "group"     : "Pinscher and Schnauzer",
         "image_link": "assets/pdfs/@breeds/dog/boxer.png",

@@ -41,7 +41,7 @@ export class DetailModal {
 
   private buildGalleryImages(code: string): Promise<string[]> {
     const images: any = [];
-    const maxImages = 5; // The maximum number of images per breed
+    const maxImages = 10; // The maximum number of images per breed
 
     const promises = [];
 
