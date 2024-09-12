@@ -519,8 +519,9 @@
     "diagnostics"   : [""],
     "treatment"     : [""],
     "differential"  : [""],
-      "gallery"       : [""]
-      },  {
+    "gallery"       : [""]
+  },
+  {
     "title"       : "Canine Leproid Granuloma",
     "titleEn"     : "Canine Leproid Granuloma",
     "type"        : "skin",
@@ -536,8 +537,9 @@
     "diagnostics"   : [""],
     "treatment"     : [""],
     "differential"  : [""],
-      "gallery"       : [""]
-      },  {
+    "gallery"       : [""]
+  },
+  {
     "title"       : "Mycobacterial Panniculitis",
     "titleEn"     : "Mycobacterial Panniculitis",
     "type"        : "skin",
