@@ -770,9 +770,35 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/zentonil.pdf" }
+      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/zentonil.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ademethionine.pdf" }
     ],
     "indications"       : ["При чернодробна цироза е установено значително понижение на адеметионина в черния дроб", "Лечение на застой на жлъчка в черния дроб (интрахепатална холестаза) при пациенти с прецирозни и цирозни състояния."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "gastrointestinal",
+    "title": "Самилин",
+    "titleEn": "Samylin",
+    "activeSubstance": "адеметионин, силибин, витамин Е, витамин Ц",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl",
+        "applicationMethod": "табл според килограмите"
+      }
+    },
+    "links": [
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ademethionine.pdf" }
+    ],
+    "indications"       : ["при ЧД недостатъчност, ЧД цироза."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -969,6 +995,33 @@
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
+  {
+    "type": "gastrointestinal",
+    "title": "Индигест инжективен",
+    "titleEn": "Indigest Injectable",
+    "activeSubstance": "menbutone",
+    "drugConcentration": 100,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          0.1
+        ],
+        "activeSubstanceDoseDecorator": "ml_kg",
+        "applicationMethod": "дълбоко IM или бавно IV"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/gastrointestinal/remirta.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/mirtazapine.pdf" }
+    ],
+    "indications"       : ["За нормализиране на стомашната, дуоденалната и билиарната функция. Продуктът се прилага в случаите, когато е необходимо стимулиране на дигестивната секреция, напр. при индигестия или токсемия при кучетата."],
+    "contraindications" : [" Да не се използва при животни с кардиални смущения, хипертермия или обструкция на жлъчния канал. Да не се използва при котки."],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+
 
   {
     "type": "respiratory",
@@ -1943,7 +1996,7 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/urogenital/incurin.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["За лечение на уринарна инконтиненция при женски кучета след кастрация."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -2126,6 +2179,32 @@
     "drugInteractions": [],
     "adverseEffects": ["безпокойство, раздразнителност, задържане на урина, тахикардия и хипертония. Анорексия, инсулт"],
     "pharmacology"      : ["Основното вещество (FPA) действа върху алфа и бета рецепторите, засягайки мускулите, разположени в долната част на отделителния тракт. Под влияние на лекарството мускулите придобиват тонус, свиването на сфинктера се подобрява. Напикаване при бурна радост или по време на сън, най-често е признак за слабост на сфинктера на пикочния мехур на кучето.", "Женските страдат от този проблем по-често от мъжките, а кутретата в повечето случаи се отървават от него докато израснат или малко след това. Но ако слабостта в сфинктера е следствие на вродени аномалии, от някакви възрастови промени в организма на кучето или се е появила след операция за стерилизация, то Пропалин може да помогне."]
+  },
+  {
+    "type": "urogenital",
+    "title": "Канифедрин 20 мг табл",
+    "titleEn": "Caniphedrin 20 mg tabl",
+    "activeSubstance": "ефедринов хидрохлорид",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl_10_kg",
+        "applicationMethod": ""
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/plumbs-pdf/caniphedrin.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ephedrine.pdf" }
+    ],
+    "indications"       : ["Лечение на уринарна инконтиненция, предизвикана от недостатъчност на уретралния сфинктеров механизъм след овариохистеротомия на женски кучета."],
+    "contraindications": ["Лекарствена концентрация тази таблетка не е предназначена за кучета с телесно тегло под 2,5 kg (препоръчителна начална доза 2 mg/kg).", "сърдечносъдово заболяване, хипертиреоидизъм, захарен диабет, увредена бъбречна функция или глаукома. Да не се използва едновременно с халогенирани наркотични средства като халотан или метоксифлуран."],
+    "drugInteractions": [],
+    "adverseEffects": [],
+    "pharmacology"      : []
   },
   {
     "type": "urogenital",
@@ -2504,6 +2583,39 @@
     },
     "links" : [
       { "title": "листовка",  "link": "pdfs/@medication/nervous/ksilazin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/xylazine.pdf" }
+    ],
+    "indications"       : ["еметик при КТ: 0,44 мг/кг ИМ", "Препаратът действа седативно, аналгетично, анестетично и мускулно- релаксантно при говеда, коне, кучета и котки. При всички случаи на необходимост от аналгезия и релаксия – транспорт, хирургични намеси, тежки раждания, при манипулации на злонрави животни."],
+    "contraindications" : ["Да не се прилага при говеда в последния месец на бременността и при животни с хронични сърдечни или белодробни заболявания."],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "nervous",
+    "title": "Ксиламидор 20 мг/мл",
+    "titleEn": "Xylamidor 20 mg/ml",
+    "activeSubstance": "ксилазин",
+    "drugConcentration": 20,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "dpg": {
+        "activeSubstanceDose": [
+          0.12
+        ],
+        "activeSubstanceDoseDecorator": "ml_kg",
+        "applicationMethod": "IM, IV"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          0.1
+        ],
+        "activeSubstanceDoseDecorator": "ml_kg",
+        "applicationMethod": "SC"
+      }
+    },
+    "links" : [
+      { "title": "листовка",  "link": "pdfs/@medication/nervous/xylamidor.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/xylazine.pdf" }
     ],
     "indications"       : ["еметик при КТ: 0,44 мг/кг ИМ", "Препаратът действа седативно, аналгетично, анестетично и мускулно- релаксантно при говеда, коне, кучета и котки. При всички случаи на необходимост от аналгезия и релаксия – транспорт, хирургични намеси, тежки раждания, при манипулации на злонрави животни."],
@@ -3042,6 +3154,31 @@
   },
   {
     "type": "nervous",
+    "title": "Невросъпорт ВетЕксперт",
+    "titleEn": "NeuroSupport VetExpert",
+    "activeSubstance": "витамин Б1, витамин Б6, витамин Б12, рибено масло, екстракти, витамин А, селен, цинк",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "caps_10_kg",
+        "applicationMethod": "PO"
+      }
+    },
+    "links": [
+      { "title": "няма-линк", "link": "" }
+    ],
+    "indications"       : ["за подпомагане на нервната система в случаите на увреждане на невроните"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "nervous",
     "title": "Габагамма 300 мг капсули",
     "titleEn": "Gabagamma 30 mg caps",
     "activeSubstance": "габапентин",
@@ -3462,7 +3599,7 @@
       { "title": "листовка",  "link": "pdfs/@medication/eyes/aciklovir.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/acyclovir.pdf" }
     ],
-    "indications"       : ["при херпервироза"],
+    "indications"       : ["при херпесвироза"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -3986,6 +4123,28 @@
   },
   {
     "type": "skin",
+    "title": "Имаверол 10%",
+    "titleEn": "Imaverol 10%",
+    "activeSubstance": "енилконазол",
+    "drugConcentration": 10,
+    "drugConcentrationDecorator": "IU_ml",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "1 мл се разрежда в 75 мл вода, маже се веднъж на 3 дни"
+      }
+    },
+    "indications"       : ["за лечение на дерматомикози", "1 част конц. р-р се разрежда в 50 части хладка вода (100 мл Имаверол в 5 л вода).", "Лечението се състои от 4 апликации през 3 – 4 дни.", "Ако има крусти по кожата, те се отстраняват."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "skin",
     "title": "Апоквел 16 мг табл",
     "titleEn": "Apoquel 16 mg tabl",
     "activeSubstance": "оклацитиниб",
@@ -4459,6 +4618,33 @@
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : ["Високи дози и продължително лечение с пеницилинови антибиотици може да доведат до невротоксичност (напр. атаксия при КЧ)."],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antibiotics",
+    "title": "Гентамокс",
+    "titleEn": "Gentamox",
+    "activeSubstance": "амоксицилин 150 мг/мл, гентамицин 40 мг/мл",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": ""
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/unazin.pdf" },
+      { "title": "Plumbs Amoxicillin",    "link": "pdfs/@medication/plumbs-pdf/amoxicillin.pdf" },
+      { "title": "Plumbs Gentamicin", "link": "pdfs/@medication/plumbs-pdf/gentamicin.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : ["нарушена бъбречна функция", "бременни животни"],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
     "pharmacology"      : []
   },
   {
@@ -5073,6 +5259,32 @@
     "drugInteractions"  : [],
     "adverseEffects"    : ["гадене и повръщане. За облекчаване на тези ефекти, лекарството може да се дава с храна"],
     "pharmacology"      : ["За разлика от окситетрациклин или тетрациклин, доксициклин може да се използва при пациенти с бъбречна недостатъчност."]
+  },
+  {
+    "type": "antibiotics",
+    "title": "Окситетрациклин 100 мг/мл",
+    "titleEn": "Oxytetracycline 100 mg/ml",
+    "activeSubstance": "окситетрациклин",
+    "drugConcentration": 100,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0.1
+        ],
+        "activeSubstanceDoseDecorator": "ml_kg",
+        "applicationMethod": "IM за 3 дни"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/plumbs-pdf/oxytetracycline-100.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/oxytetracycline.pdf" }
+    ],
+    "indications"       : ["група: тетрациклини"],
+    "contraindications" : ["Дозата не трябва да надвишава в едно място на инжектиране повече от 1 ml при кучета и котки."],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
   },
   {
     "type": "antibiotics",
@@ -6370,25 +6582,51 @@
   },
   {
     "type": "endocrine",
+    "title": "Фортирон 600 мг табл",
+    "titleEn": "Forthyron 600 mcg tabl",
+    "activeSubstance": "левотироксин",
+    "drugConcentration": 600,
+    "drugConcentrationDecorator": "µg_tabl",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          20
+        ],
+        "activeSubstanceDoseDecorator": "μg_kg",
+        "applicationMethod": "PO"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/endocrine/forthyron.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/levothyroxine.pdf" }
+    ],
+    "indications"       : ["за лечение на хипотиреоидизъм"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "endocrine",
     "title": "Л-Тироксин 100 микрограма табл",
     "titleEn": "L-Thyroxin 100 micrograms tabl",
-    "activeSubstance": "Левотироксин",
+    "activeSubstance": "левотироксин",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "µg_tabl",
     "application": {
       "dog": {
         "activeSubstanceDose": [
-          0
+          20
         ],
-        "activeSubstanceDoseDecorator": "-",
-        "applicationMethod": "-"
+        "activeSubstanceDoseDecorator": "μg_kg",
+        "applicationMethod": "PO"
       }
     },
     "links": [
       { "title": "листовка",  "link": "pdfs/@medication/endocrine/l-tiroksin.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/levothyroxine.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["за лечение на хипотиреоидизъм"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -6422,7 +6660,122 @@
   },
 
 
-
+  {
+    "type": "antiinflammatory",
+    "title": "Депедин Вейкс",
+    "titleEn": "Depedin Veyx",
+    "activeSubstance": "преднизолон (7.5 мг), дексаметазон (2.5 мг)",
+    "drugConcentration": 5,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          0.5
+        ],
+        "activeSubstanceDoseDecorator": "ml",
+        "applicationMethod": "IM, интраартикуларно, подкожно"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          0.3
+        ],
+        "activeSubstanceDoseDecorator": "ml",
+        "applicationMethod": "IM, интраартикуларно, подкожно"
+      }
+    },
+    "links" : [
+      { "title": "листовка",            "link": "pdfs/@medication/antiinflammatory/depedin.pdf" },
+      { "title": "Plumbs Prednisolone",  "link": "pdfs/@medication/plumbs-pdf/prednisolone.pdf" },
+      { "title": "Plumbs Dexa",          "link": "pdfs/@medication/plumbs-pdf/dexamethasone.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antiinflammatory",
+    "title": "Преднивет 5 мг табл.",
+    "titleEn": "Prednivet 5 mg tabl",
+    "activeSubstance": "преднизолон",
+    "drugConcentration": 5,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          0.2,
+          4
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          0.3,
+          4
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO"
+      }
+    },
+    "links" : [
+      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/prednivet.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antiinflammatory",
+    "title": "Преднизолон Кортико 5 мг табл",
+    "titleEn": "Prednisolone Cortico",
+    "activeSubstance": "преднизолон",
+    "drugConcentration": 5,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO"
+      }
+    },
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antiinflammatory",
+    "title": "Дермипред 10 мг",
+    "titleEn": "Dermipred 10 mg",
+    "activeSubstance": "преднизолон",
+    "drugConcentration": 10,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          0.5,
+          3
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "q12h"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/depripred.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
   {
     "type": "antiinflammatory",
     "title": "Дексафорт 3 мг/мл",
@@ -6479,294 +6832,28 @@
   },
   {
     "type": "antiinflammatory",
-    "title": "Депедин Вейкс",
-    "titleEn": "Depedin Veyx",
-    "activeSubstance": "преднизолон (7.5 мг), дексаметазон (2.5 мг)",
-    "drugConcentration": 5,
-    "drugConcentrationDecorator": "same",
+    "title": "Алфадекс 2 мг/мл",
+    "titleEn": "Alfadexx 2mg/ml",
+    "activeSubstance": "дексаметазон",
+    "drugConcentration": 2,
+    "drugConcentrationDecorator": "mg_ml",
     "application": {
-      "dog": {
+      "any": {
         "activeSubstanceDose": [
-          0.5
+          0.05
         ],
-        "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "IM, интраартикуларно, подкожно"
-      },
-      "cat": {
-        "activeSubstanceDose": [
-          0.3
-        ],
-        "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "IM, интраартикуларно, подкожно"
+        "activeSubstanceDoseDecorator": "ml_kg",
+        "applicationMethod": "SC, IM, IV"
       }
     },
     "links" : [
-      { "title": "листовка",            "link": "pdfs/@medication/antiinflammatory/depedin.pdf" },
-      { "title": "Plumbs Prednisolone",  "link": "pdfs/@medication/plumbs-pdf/prednisolone.pdf" },
-      { "title": "Plumbs Dexa",          "link": "pdfs/@medication/plumbs-pdf/dexamethasone.pdf" }
+      { "title": "листовка",    "link": "pdfs/@medication/antiinflammatory/alphadexx.pdf" },
+      { "title": "Plumbs Dexa",  "link": "pdfs/@medication/plumbs-pdf/dexamethasone.pdf" }
     ],
     "indications"       : [],
-    "contraindications" : [],
+    "contraindications" : ["захарен диабет", "бъбречна недостатъчност", "сърдечна недостатъчност", "хиперадренокортицизъм", "остеопороза","вирусни и микотични инфекции", "стомашно-чревни или роговични язви"],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "antiinflammatory",
-    "title": "Ревмокам 1 мг табл",
-    "titleEn": "Rheumocam 1 mg tabl",
-    "activeSubstance": "мелоксикам",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "mg_ml",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          0.1
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO на 24 часа, първи ден - 0,2 mg/kg, после 0,1"
-      }
-    },
-    "links": [
-      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/revmocam.pdf" },
-      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
-    ],
-    "indications"       : ["Облекчаване на възпалението и намаляване на болката както при остри, така и при хронични мускулно-скелетни нарушения при кучета."],
-    "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
-    "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти. Rheumocam не трябва да се прилага едновременно с други нестероидни противовъзпалителни средства или глюкокортикостероиди. Предшестващо третиране с противовъзпалителни средства може да причини допълнителни или повишени неблагоприятни реакции и съобразно с това трябва да се спази период, свободен от прилагането на такива ветеринарномедицински продукти, най-малко 24 часа преди започване на лечението. При периода, свободен от медикаменти, трябва да се вземат предвид фармакологичните свойства на ветеринарните продукти, използвани преди това."],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "antiinflammatory",
-    "title": "Ревмокам инж 1.5 мг/мл",
-    "titleEn": "Rheumocam 1.5 mg/ml",
-    "activeSubstance": "мелоксикам",
-    "drugConcentration": 1.5,
-    "drugConcentrationDecorator": "mg_ml",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          0.1
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "SC на 24 часа, първи ден - 0,2 mg/kg, после 0,1"
-      }
-    },
-    "links": [
-      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/rheumocam-1.5.pdf" },
-      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
-    ],
-    "indications"       : ["Облекчаване на възпалението и намаляване на болката както при остри, така и при хронични мускулно-скелетни нарушения при кучета."],
-    "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
-    "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти. Rheumocam не трябва да се прилага едновременно с други нестероидни противовъзпалителни средства или глюкокортикостероиди. Предшестващо третиране с противовъзпалителни средства може да причини допълнителни или повишени неблагоприятни реакции и съобразно с това трябва да се спази период, свободен от прилагането на такива ветеринарномедицински продукти, най-малко 24 часа преди започване на лечението. При периода, свободен от медикаменти, трябва да се вземат предвид фармакологичните свойства на ветеринарните продукти, използвани преди това."],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "antiinflammatory",
-    "title": "Ревмокам инж 5 мг/мл",
-    "titleEn": "Rheumocam 5 mg/ml",
-    "activeSubstance": "мелоксикам",
-    "drugConcentration": 5,
-    "drugConcentrationDecorator": "mg_ml",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          0.1
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "SC на 24 часа, първи ден - 0,2 mg/kg, после 0,1"
-      }
-    },
-    "links": [
-      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/rheumocam-1.5.pdf" },
-      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
-    ],
-    "indications"       : ["Облекчаване на възпалението и намаляване на болката както при остри, така и при хронични мускулно-скелетни нарушения при кучета."],
-    "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
-    "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти. Rheumocam не трябва да се прилага едновременно с други нестероидни противовъзпалителни средства или глюкокортикостероиди. Предшестващо третиране с противовъзпалителни средства може да причини допълнителни или повишени неблагоприятни реакции и съобразно с това трябва да се спази период, свободен от прилагането на такива ветеринарномедицински продукти, най-малко 24 часа преди започване на лечението. При периода, свободен от медикаменти, трябва да се вземат предвид фармакологичните свойства на ветеринарните продукти, използвани преди това."],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "antiinflammatory",
-    "title": "Метилпреднизолон 6,31 мг амп.",
-    "titleEn": "Methylprednisolone",
-    "activeSubstance": "метилпреднизолон",
-    "drugConcentration": 6.31,
-    "drugConcentrationDecorator": "mg_ml",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          1,
-          2
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IM"
-      }
-    },
-    "links": [
-      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/metilprednizolon.pdf" },
-      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/methylprednisolone.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "antiinflammatory",
-    "title": "Депо-медрол 40 мг/мл инж. суспензия",
-    "titleEn": "Depo-Medrol 40 mg/ml",
-    "activeSubstance": "метилпреднизолон",
-    "drugConcentration": 40,
-    "drugConcentrationDecorator": "mg_ml",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          1,
-          2
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IM"
-      }
-    },
-    "links": [
-      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/depo-medrol.pdf" },
-      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/methylprednisolone.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "antiinflammatory",
-    "title": "Преднизолон Кортико 5 мг табл",
-    "titleEn": "Prednisolone Cortico",
-    "activeSubstance": "преднизолон",
-    "drugConcentration": 5,
-    "drugConcentrationDecorator": "mg_tabl",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO"
-      }
-    },
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "antiinflammatory",
-    "title": "Мелбек 15 мг/ 1,5 мл",
-    "titleEn": "Melbek 15 mg/ 1.5 ml",
-    "activeSubstance": "мелоксикам",
-    "drugConcentration": 10,
-    "drugConcentrationDecorator": "mg_ml",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          0.2
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO, след първия ден дозата е наполовина"
-      }
-    },
-    "links": [
-      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/melbek-15mg.pdf" },
-      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
-    ],
-    "indications"       : ["остеоартрит при кучета", "контрол на постоперативната болка, когато се прилага преди операцията"],
-    "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
-    "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти."],
-    "adverseEffects"    : ["повръщане, кашави фекалии, диария и безапетитие", "повишени ЧД ензими, сърбеж, азотемия, повишен креатинин и ББ недостатъчност.", "Повтарящото се използване на мелоксикам при котки се асоциира с ББ недостатъчност и смърт."],
-    "pharmacology"      : []
-  },
-  {
-    "type": "antiinflammatory",
-    "title": "Мелбек 7.5 табл",
-    "titleEn": "Melbek 7.5 tabl",
-    "activeSubstance": "мелоксикам",
-    "drugConcentration": 7.5,
-    "drugConcentrationDecorator": "mg_tabl",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          0.2
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO, след първия ден дозата е наполовина"
-      }
-    },
-    "links": [
-      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/melbek-7.5mg.pdf" },
-      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
-    ],
-    "indications"       : ["остеоартрит при кучета", "контрол на постоперативната болка, когато се прилага преди операцията"],
-    "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
-    "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти."],
-    "adverseEffects"    : ["повръщане, кашави фекалии, диария и безапетитие", "повишени ЧД ензими, сърбеж, азотемия, повишен креатинин и ББ недостатъчност.", "Повтарящото се използване на мелоксикам при котки се асоциира с ББ недостатъчност и смърт."],
-    "pharmacology"      : []
-  },
-  {
-    "type": "antiinflammatory",
-    "title": "Мелбек 15 мг табл.",
-    "titleEn": "Melbek 15 tabl",
-    "activeSubstance": "мелоксикам",
-    "drugConcentration": 15,
-    "drugConcentrationDecorator": "mg_tabl",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          0.2
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO, след първия ден дозата е наполовина"
-      }
-    },
-    "links": [
-      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/melbek-15mg.pdf" },
-      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
-    ],
-    "indications"       : ["остеоартрит при кучета", "контрол на постоперативната болка, когато се прилага преди операцията"],
-    "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
-    "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти."],
-    "adverseEffects"    : ["повръщане, кашави фекалии, диария и безапетитие", "повишени ЧД ензими, сърбеж, азотемия, повишен креатинин и ББ недостатъчност.", "Повтарящото се използване на мелоксикам при котки се асоциира с ББ недостатъчност и смърт."],
-    "pharmacology"      : []
-  },
-  {
-    "type": "antiinflammatory",
-    "title": "Мовалис",
-    "titleEn": "Movalis",
-    "activeSubstance": "мелоксикам",
-    "drugConcentration": 15,
-    "drugConcentrationDecorator": "mg_tabl",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          0.2
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO, след първия ден дозата е наполовина"
-      }
-    },
-    "links": [
-      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/movalis.pdf" },
-      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
-    ],
-    "indications"       : ["остеоартрит при кучета", "контрол на постоперативната болка, когато се прилага преди операцията"],
-    "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
-    "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти."],
-    "adverseEffects"    : ["повръщане, кашави фекалии, диария и безапетитие", "повишени ЧД ензими, сърбеж, азотемия, повишен креатинин и ББ недостатъчност.", "Повтарящото се използване на мелоксикам при котки се асоциира с ББ недостатъчност и смърт."],
     "pharmacology"      : []
   },
   {
@@ -6893,62 +6980,211 @@
   },
   {
     "type": "antiinflammatory",
-    "title": "Преднивет 5 мг табл.",
-    "titleEn": "Prednivet 5 mg tabl",
-    "activeSubstance": "преднизолон",
-    "drugConcentration": 5,
-    "drugConcentrationDecorator": "mg_tabl",
+    "title": "Рифен 100 мг/мл",
+    "titleEn": "Rifen 100 mg/ml",
+    "activeSubstance": "кетопрофен",
+    "drugConcentration": 100,
+    "drugConcentrationDecorator": "mg_ml",
     "application": {
-      "dog": {
+      "any": {
         "activeSubstanceDose": [
-          0.2,
-          4
+          0.5,
+          2
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO"
-      },
-      "cat": {
-        "activeSubstanceDose": [
-          0.3,
-          4
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO"
+        "applicationMethod": "SC IM IV ?"
       }
     },
     "links" : [
-      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/prednivet.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/rifen.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/ketoprofen.pdf" }
     ],
     "indications"       : [],
-    "contraindications" : [],
+    "contraindications" : ["гастро-интестинални лезии,хеморагична диатеза,нарушена чернодробна, бъбречна или сърдечна функция."],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
   {
     "type": "antiinflammatory",
-    "title": "Дермипред 10 мг",
-    "titleEn": "Dermipred 10 mg",
-    "activeSubstance": "преднизолон",
+    "title": "Ревмокам 1 мг табл",
+    "titleEn": "Rheumocam 1 mg tabl",
+    "activeSubstance": "мелоксикам",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0.1
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO на 24 часа, първи ден - 0,2 mg/kg, после 0,1"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/revmocam.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
+    ],
+    "indications"       : ["Облекчаване на възпалението и намаляване на болката както при остри, така и при хронични мускулно-скелетни нарушения при кучета."],
+    "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
+    "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти. Rheumocam не трябва да се прилага едновременно с други нестероидни противовъзпалителни средства или глюкокортикостероиди. Предшестващо третиране с противовъзпалителни средства може да причини допълнителни или повишени неблагоприятни реакции и съобразно с това трябва да се спази период, свободен от прилагането на такива ветеринарномедицински продукти, най-малко 24 часа преди започване на лечението. При периода, свободен от медикаменти, трябва да се вземат предвид фармакологичните свойства на ветеринарните продукти, използвани преди това."],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antiinflammatory",
+    "title": "Ревмокам инж 1.5 мг/мл",
+    "titleEn": "Rheumocam 1.5 mg/ml",
+    "activeSubstance": "мелоксикам",
+    "drugConcentration": 1.5,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0.1
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "SC на 24 часа, първи ден - 0,2 mg/kg, после 0,1"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/rheumocam-1.5.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
+    ],
+    "indications"       : ["Облекчаване на възпалението и намаляване на болката както при остри, така и при хронични мускулно-скелетни нарушения при кучета."],
+    "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
+    "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти. Rheumocam не трябва да се прилага едновременно с други нестероидни противовъзпалителни средства или глюкокортикостероиди. Предшестващо третиране с противовъзпалителни средства може да причини допълнителни или повишени неблагоприятни реакции и съобразно с това трябва да се спази период, свободен от прилагането на такива ветеринарномедицински продукти, най-малко 24 часа преди започване на лечението. При периода, свободен от медикаменти, трябва да се вземат предвид фармакологичните свойства на ветеринарните продукти, използвани преди това."],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antiinflammatory",
+    "title": "Ревмокам инж 5 мг/мл",
+    "titleEn": "Rheumocam 5 mg/ml",
+    "activeSubstance": "мелоксикам",
+    "drugConcentration": 5,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0.1
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "SC на 24 часа, първи ден - 0,2 mg/kg, после 0,1"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/rheumocam-1.5.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
+    ],
+    "indications"       : ["Облекчаване на възпалението и намаляване на болката както при остри, така и при хронични мускулно-скелетни нарушения при кучета."],
+    "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
+    "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти. Rheumocam не трябва да се прилага едновременно с други нестероидни противовъзпалителни средства или глюкокортикостероиди. Предшестващо третиране с противовъзпалителни средства може да причини допълнителни или повишени неблагоприятни реакции и съобразно с това трябва да се спази период, свободен от прилагането на такива ветеринарномедицински продукти, най-малко 24 часа преди започване на лечението. При периода, свободен от медикаменти, трябва да се вземат предвид фармакологичните свойства на ветеринарните продукти, използвани преди това."],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antiinflammatory",
+    "title": "Мелбек 15 мг/ 1,5 мл",
+    "titleEn": "Melbek 15 mg/ 1.5 ml",
+    "activeSubstance": "мелоксикам",
     "drugConcentration": 10,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          0.2
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO, след първия ден дозата е наполовина"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/melbek-15mg.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
+    ],
+    "indications"       : ["остеоартрит при кучета", "контрол на постоперативната болка, когато се прилага преди операцията"],
+    "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
+    "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти."],
+    "adverseEffects"    : ["повръщане, кашави фекалии, диария и безапетитие", "повишени ЧД ензими, сърбеж, азотемия, повишен креатинин и ББ недостатъчност.", "Повтарящото се използване на мелоксикам при котки се асоциира с ББ недостатъчност и смърт."],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antiinflammatory",
+    "title": "Мелбек 7.5 табл",
+    "titleEn": "Melbek 7.5 tabl",
+    "activeSubstance": "мелоксикам",
+    "drugConcentration": 7.5,
     "drugConcentrationDecorator": "mg_tabl",
     "application": {
       "dog": {
         "activeSubstanceDose": [
-          0.5,
-          3
+          0.2
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "q12h"
+        "applicationMethod": "PO, след първия ден дозата е наполовина"
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/depripred.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/melbek-7.5mg.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
     ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "indications"       : ["остеоартрит при кучета", "контрол на постоперативната болка, когато се прилага преди операцията"],
+    "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
+    "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти."],
+    "adverseEffects"    : ["повръщане, кашави фекалии, диария и безапетитие", "повишени ЧД ензими, сърбеж, азотемия, повишен креатинин и ББ недостатъчност.", "Повтарящото се използване на мелоксикам при котки се асоциира с ББ недостатъчност и смърт."],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antiinflammatory",
+    "title": "Мелбек 15 мг табл.",
+    "titleEn": "Melbek 15 tabl",
+    "activeSubstance": "мелоксикам",
+    "drugConcentration": 15,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          0.2
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO, след първия ден дозата е наполовина"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/melbek-15mg.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
+    ],
+    "indications"       : ["остеоартрит при кучета", "контрол на постоперативната болка, когато се прилага преди операцията"],
+    "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
+    "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти."],
+    "adverseEffects"    : ["повръщане, кашави фекалии, диария и безапетитие", "повишени ЧД ензими, сърбеж, азотемия, повишен креатинин и ББ недостатъчност.", "Повтарящото се използване на мелоксикам при котки се асоциира с ББ недостатъчност и смърт."],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antiinflammatory",
+    "title": "Мовалис",
+    "titleEn": "Movalis",
+    "activeSubstance": "мелоксикам",
+    "drugConcentration": 15,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          0.2
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO, след първия ден дозата е наполовина"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/movalis.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/meloxicam.pdf" }
+    ],
+    "indications"       : ["остеоартрит при кучета", "контрол на постоперативната болка, когато се прилага преди операцията"],
+    "contraindications" : ["Да не се използва при кучета на възраст под 6 седмици.", "Да не се използва при животни, страдащи от гастоинестинални смущения като възпаление и хеморагия, нарушена чернодробна, сърдечна или бъбречна функция и хеморагични нарушения.", "Да не се използва при бременни и лактиращи животни."],
+    "drugInteractions"  : ["Други нестероидни противовъзпалителни средства, диуретици, антикоагуланти, аминогликозидни антибиотици и вещества с голяма степен на свързване на протеините могат да доведат до свързване, а следователно и до токсични ефекти."],
+    "adverseEffects"    : ["повръщане, кашави фекалии, диария и безапетитие", "повишени ЧД ензими, сърбеж, азотемия, повишен креатинин и ББ недостатъчност.", "Повтарящото се използване на мелоксикам при котки се асоциира с ББ недостатъчност и смърт."],
     "pharmacology"      : []
   },
   {
@@ -7005,6 +7241,60 @@
   },
   {
     "type": "antiinflammatory",
+    "title": "Метилпреднизолон 6,31 мг амп.",
+    "titleEn": "Methylprednisolone",
+    "activeSubstance": "метилпреднизолон",
+    "drugConcentration": 6.31,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1,
+          2
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "IM"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/metilprednizolon.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/methylprednisolone.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antiinflammatory",
+    "title": "Депо-медрол 40 мг/мл инж. суспензия",
+    "titleEn": "Depo-Medrol 40 mg/ml",
+    "activeSubstance": "метилпреднизолон",
+    "drugConcentration": 40,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1,
+          2
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "IM"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/depo-medrol.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/methylprednisolone.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antiinflammatory",
     "title": "Аналгин 30%",
     "titleEn": "Analgin 30%",
     "activeSubstance": "метамизол натрий",
@@ -7029,7 +7319,7 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/analgin.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["антипиретичен и спазмолитичен ефект, не е НСПВС."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -7061,7 +7351,7 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/metamizol.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["антипиретичен и спазмолитичен ефект, не е НСПВС."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -7093,7 +7383,7 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/spasmium.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["антипиретичен и спазмолитичен ефект, не е НСПВС."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -7118,6 +7408,32 @@
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/alergovet.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antiinflammatory",
+    "title": "Калмабен 50 мг табл",
+    "titleEn": "Calmaben 50 mg tabl",
+    "activeSubstance": "дифенхидрамин",
+    "drugConcentration": 50,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1,
+          2
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/calmaben.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -7389,6 +7705,41 @@
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/atropine-sulfate.pdf" }
     ],
     "indications"       : ["Iron-deficiency anaemia: Up to 4 ml / 1 kg."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Феридил 200",
+    "titleEn": "Feridil 200",
+    "activeSubstance": "желязо",
+    "drugConcentration": 200,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          100,
+          300
+        ],
+        "activeSubstanceDoseDecorator": "mg",
+        "applicationMethod": "PO веднъж дневно 1 час преди или няколко часа след хранене"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          50,
+          100
+        ],
+        "activeSubstanceDoseDecorator": "mg",
+        "applicationMethod": "PO веднъж дневно 1 час преди или няколко часа след хранене"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/others/feridil.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/ferrous-sulfate.pdf" }
+    ],
+    "indications"       : ["За профилактика и лечение на желязонедоимъчна анемия."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -7740,6 +8091,33 @@
     },
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/others/vitamin-ad3e.pdf" },
+      { "title": "листовка КЧ КТ", "link": "pdfs/@medication/others/vitamin-ad3e-pandex.pdf" }
+    ],
+    "indications"       : ["При А-, Д- и Е-хиповитаминозни състояния;", "при гастроинтестинални и белодробни заболявания;", "при мускулна дистрофия при агнета и телета;", "при смущение в спермиогенезата при разплодници;", "за повишаване на резистентността при младите животни при инфекциозни и инвазионни болести;", "при остеомалация."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Виалитон",
+    "titleEn": "Vialiton",
+    "activeSubstance": "витамин А (50 000 I.U.), Д3 (25 000 I.U.), Е (20 mg)",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          2,
+          4
+        ],
+        "activeSubstanceDoseDecorator": "ml",
+        "applicationMethod": "SC или IM еднократно и при необх. се повтаря след 1 седмица"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/others/vialiton.pdf" },
       { "title": "листовка КЧ КТ", "link": "pdfs/@medication/others/vitamin-ad3e-pandex.pdf" }
     ],
     "indications"       : ["При А-, Д- и Е-хиповитаминозни състояния;", "при гастроинтестинални и белодробни заболявания;", "при мускулна дистрофия при агнета и телета;", "при смущение в спермиогенезата при разплодници;", "за повишаване на резистентността при младите животни при инфекциозни и инвазионни болести;", "при остеомалация."],
@@ -8115,6 +8493,32 @@
   },
   {
     "type": "others",
+    "title": "Енизил Ф",
+    "titleEn": "Enisyl F",
+    "activeSubstance": "лизин, масло от треска",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "cat": {
+        "activeSubstanceDose": [
+          1,
+          2
+        ],
+        "activeSubstanceDoseDecorator": "ml",
+        "applicationMethod": "КТ под 6 месеца - по 1 натискане на помпата, а КТ над 6 месеца - по 2 натискания на помпата. Два пъти дневно, в устата или смесена с храната"
+      }
+    },
+    "links": [
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/lysine.pdf" }
+    ],
+    "indications"       : ["Намаляване на тежестта на клиничните симптоми при заразени с FHV-1 котки.", "Намаляване на броя на рецидивите при котки с повторни инфекции.", "Намаляване на заразителността.", "Подобряване на имунната система.", "Препоръчително е лечението да продължи от 2 до 3 седмици в зависимост от тежестта на симптомите или за профилактика."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
     "title": "Гискан-5",
     "titleEn": "Giscan-5",
     "activeSubstance": "-",
@@ -8306,5 +8710,55 @@
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "gs-441524",
+    "titleEn": "gs-441524",
+    "activeSubstance": "gs-441524",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "cat": {
+        "activeSubstanceDose": [
+          3
+        ],
+        "activeSubstanceDoseDecorator": "",
+        "applicationMethod": ""
+      }
+    },
+    "links": [
+      { "title": "няма-линк", "link": "" }
+    ],
+    "indications"       : ["Wet Form (Abdominal Effusion) --- 5 mg/kg", "Wet Form (Thoracic Effusion) --- 6 mg/kg", "Dry Form (non-effusive) --- 6 mg/kg", "Ocular symptoms --- 8 mg/kg", "Neurologic symptoms --- 10 mg/kg", "Concentration: 20mg/ml or 30mg/ml", "Recommended to be taken for 12 weeks.", "https://www.catfipv.com/", "https://www.pethealthfip.com/"],
+    "contraindications": [],
+    "drugInteractions": [],
+    "adverseEffects": [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "",
+    "titleEn": "",
+    "activeSubstance": "",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          3
+        ],
+        "activeSubstanceDoseDecorator": "",
+        "applicationMethod": ""
+      }
+    },
+    "links": [
+      { "title": "няма-линк", "link": "" }
+    ],
+    "indications"       : [""],
+    "contraindications": [""],
+    "drugInteractions": [],
+    "adverseEffects": [""],
+    "pharmacology"      : [""]
   }
 ]
