@@ -538,6 +538,98 @@
   },
   {
     "type": "gastrointestinal",
+    "title": "ФермАктив прах",
+    "titleEn": "FermActiv powder",
+    "activeSubstance": "Enterococcus faecium",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1.5,
+          5
+        ],
+        "activeSubstanceDoseDecorator": "g",
+        "applicationMethod": "на ден за 1-2 седмици или повече при необходимост."
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          1.5
+        ],
+        "activeSubstanceDoseDecorator": "g",
+        "applicationMethod": "на ден за 1-2 седмици или повече при необходимост."
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/fortiflora.pdf" }
+    ],
+    "indications"       : ["пробиотик"],
+    "contraindications" : ["Не се прилага наведнъж с антибиотик, но се прилага паралелно с антибиотичното лечение."],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "gastrointestinal",
+    "title": "Ентерофилус пробиотик и пребиотик",
+    "titleEn": "Enterofilus probiotic and prebiotic",
+    "activeSubstance": "probiotic, prebiotic",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          0.5,
+          1
+        ],
+        "activeSubstanceDoseDecorator": "ml",
+        "applicationMethod": "PO 2 пъти на ден (при КЧ > 30 кг - 15 мл)"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          2,
+          5
+        ],
+        "activeSubstanceDoseDecorator": "ml",
+        "applicationMethod": "PO 2 пъти на ден"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/fortiflora.pdf" }
+    ],
+    "indications"       : ["пробиотик", "За кученца - 1 ml на 1 kg тегло 1-2 пъти на ден;", "За кучета - 1 ml на 2 kg тегло 1-2 пъти на ден.", "За кучета с тегло над 30 kg - 15 ml 1-2 пъти дневно.", "За котенца - 2 ml 2 пъти на ден.", "За котки - 5 ml 2 пъти на ден."],
+    "contraindications" : ["Не се прилага наведнъж с антибиотик, но се прилага паралелно с антибиотичното лечение."],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "gastrointestinal",
+    "title": "ФортиФлора",
+    "titleEn": "Dialactu",
+    "activeSubstance": "лактулоза, декстроза",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          3
+        ],
+        "activeSubstanceDoseDecorator": "ml_5_kg",
+        "applicationMethod": "PO или смесен с храната, веднъж на ден, сутрин за 3-12 седмици"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/dialactu.pdf" }
+    ],
+    "indications"       : ["Цел на употреба: компенсиране на лошо храносмилане, екзокринна недостатъчност на панкреаса. Използвайте при запек. Dialactu спомага за свързването на течността в червата и по този начин увеличава количеството на чревното съдържимо, спомагайки за стимулиране на чревната перисталтика.", "При хронична панкреатична недостатъчност и констипация се прилага през целия живот."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "gastrointestinal",
     "title": "Диа-Таб",
     "titleEn": "Dia-Tab",
     "activeSubstance": "пектин, декстроза, минерали",
@@ -632,6 +724,28 @@
   },
   {
     "type": "gastrointestinal",
+    "title": "Стромек",
+    "titleEn": "Stromek",
+    "activeSubstance": "лайка, женско биле, джинджифил, бактерии",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl_10_kg",
+        "applicationMethod": "PO веднъж дневно преди хранене (над 20 кг - 3 табл.)"
+      }
+    },
+    "indications"       : ["Джинджифилът и женското биле помагат срещу гаденето и стомашната хиперкиселинност. Лайката (поради своята спазмолитична активност) и бодливата круша създават бариерен слой в стомаха, помагат за противодействие симптомите на гастрит. Чрез непряко действие бактериите поддържат действието на Stromek във времето."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "gastrointestinal",
     "title": "Малцова паста",
     "titleEn": "Malt paste",
     "activeSubstance": "малц",
@@ -670,6 +784,29 @@
       }
     },
     "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "gastrointestinal",
+    "title": "Диафарм Хеърбол Ремеди",
+    "titleEn": "Diafarm Hairball Remedy ",
+    "activeSubstance": "малцова паста",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "cat": {
+        "activeSubstanceDose": [
+          2,
+          3
+        ],
+        "activeSubstanceDoseDecorator": "cm",
+        "applicationMethod": "ПО 2-3 пъти дневно между храненията"
+      }
+    },
+    "indications"       : ["Котешкият малц стимулира апетита и затова е подходящ за котки, които са били болни или поради други причини имат намален апетит."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -1295,6 +1432,32 @@
   },
   {
     "type": "cardiovascular",
+    "title": "Амодип 1.25 мг табл",
+    "titleEn": "Amodip 1.25 mg tabl",
+    "activeSubstance": "амлодипин",
+    "drugConcentration": 1.25,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "cat": {
+        "activeSubstanceDose": [
+          0.125,
+          0.25
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "ПО на ден"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/cardiovascular/amodip.pdf" }
+    ],
+    "indications"       : ["За лечение на системна хипертония при котки.", "Таблетките се прилагат PO с препоръчителна начална доза от 0.125 – 0.25 mg/kg/ден. След 14 дни прием дозата може да се удвои или повиши до 0.5 mg/kg веднъж на ден при необходимост."],
+    "contraindications" : ["Не трябва да се използва при сърдечен шок, тежка стеноза на аортата, тежка чернодробна недостатъчност или алергия към активната съставка или някой от ексципиентите."],
+    "drugInteractions"  : [],
+    "adverseEffects"    : ["Леко по степен и преходно повръщане.", "летаргия.", "В случай на хиперпластичен гингивит, причинен от доза от 0.25 mg/kg, лечението обикновено не изисква прекъсване."],
+    "pharmacology"      : []
+  },
+  {
+    "type": "cardiovascular",
     "title": "Клопидогрел 75 мг табл.",
     "titleEn": "Clopidogrel 75 mg tabl",
     "activeSubstance": "клопидогрел",
@@ -1684,6 +1847,306 @@
   },
   {
     "type": "urogenital",
+    "title": "Пронефра",
+    "titleEn": "Pronefra",
+    "activeSubstance": "Калциев карбонат, магнезиев карбонат, астрагал, хитозан, олигопептиди",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "ml_5_kg",
+        "applicationMethod": "PO два пъти дневно"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "ml_4_kg",
+        "applicationMethod": "PO два пъти дневно"
+      }
+    },
+    "indications"       : ["за КТ и КЧ с хронично бъбречно заболяване", "Разклати преди употреба"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : ["Калциевият и магнезиевият карбонат намаляват количеството на фосфора, постъпил с храната, като се свързват с него в червата.", "Хитозанът се свързва с токсините в червата.", "Полизахаридите в състава на астрагала допринасят за поддържане нормалната структура на бъбреците.", "Олигопептидите с морски произход допринасят за поддържане на нормално кръвно налягане."]
+  },
+  {
+    "type": "urogenital",
+    "title": "Ипакитин диетична храна за кучета и котки с ББ недостатъчност 60 г",
+    "titleEn": "Ipakitine diet food 60 g",
+    "activeSubstance": "лактоза, калциев карбонат, хитозан, протеини, влакнини, мазнини",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "cat": {
+        "activeSubstanceDose": [
+          200
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "1 г/5 кг два пъти дневно през устата или смесено с основната храна."
+      }
+    },
+    "indications"       : ["Първият по рода си в света продукт, завършена и оптимизирана комбинация от съставки с превъзходен вкус, които играят ролята да улавят фосфати, т.е. да редуцират фосфатемията. През периода на приложение трябва да се осигури постоянен достъп до прясна вода. Прилагането може да продължи през целия остатък от живота."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "urogenital",
+    "title": "ИркВет 50 мл",
+    "titleEn": "IrcVet",
+    "activeSubstance": "-",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0.2
+        ],
+        "activeSubstanceDoseDecorator": "ml_kg",
+        "applicationMethod": "чрез разклащане и приложение PO или върху храната"
+      }
+    },
+    "indications"       : ["за бъбречни проблеми", "предпазва ББ клетки", "свързва ентерално фосфора", "синергично действие с Ипакитин и Рубенал"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "urogenital",
+    "title": "Рокалтрол 0,25 мкг капс",
+    "titleEn": "Rocaltrol 0.25 mcg caps",
+    "activeSubstance": "калцитриол",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          0.0025,
+          0.0035
+        ],
+        "activeSubstanceDoseDecorator": "µg_kg",
+        "applicationMethod": "PO веднъж дневно"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          0.0025,
+          0.0035
+        ],
+        "activeSubstanceDoseDecorator": "µg_kg",
+        "applicationMethod": "PO веднъж дневно"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/urogenital/rocaltrol.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/calcitriol.pdf" }
+    ],
+    "indications"       : ["калцитриолът е най-активната форма на витамин D3", "подпомага усвояването на калций от храната и регулира костната минерализация.", "при бъбречна недостатъчност", "при идиопатична себорея"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : ["Серумният калций се измерва на 7-ия и на 14-ия дни, след което на всеки 6 месеца.", "Серумният креатинин се измерва на всеки 1-3 месеца."],
+    "pharmacology"      : ["1. Потвърди хроничната ББ недостатъчност (креатинин > 176,84 µmol/L).", "2. Намали хиперфосфатемията до 530.52 µmol/L.", "3. Ако Crea = 176,84-265.26 µmol/L и фосфор = 530.52 µmol/L, то започни калцитриол на 2.5–3.5 нанограма на кг на ден."]
+  },
+  {
+    "type": "urogenital",
+    "title": "Ути-Зен табл.",
+    "titleEn": "Uti-Zen tabl",
+    "activeSubstance": "червена боровинка",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl_10_kg",
+        "applicationMethod": "PO"
+      }
+    },
+    "indications"       : ["добавка при уринарни проблеми, може да се дават с храната", "0-10 кг - 1/2 табл./ден.", "10-20 кг - 1 табл./ден.", "20-40 кг - 2 табл./ден."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "urogenital",
+    "title": "УриноВет Кет",
+    "titleEn": "UrinoVet Cat",
+    "activeSubstance": "червена боровинка, магданоз, глюкозамин, маточина",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "cat": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "caps",
+        "applicationMethod": "q24h"
+      }
+    },
+    "indications"       : ["за пациенти, предразположени към заболявания на долните пикочни пътища (FLUTD), включително идиопатичен цистит и уролитиаза",
+    "такива страдащи и податливи на инфекции на пикочните пътища, като пиелонефрит, цистит, уретрит",
+    "за всички пациенти, подложени на лечение от уролитиаза, независимо от вида на камъните и след операция за отстраняване на пикочните камъни."],
+    "contraindications" : [],
+    "drugInteractions"  : ["Капсулата се реже и изстисква."],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "urogenital",
+    "title": "УриноВет Кет Дилушън",
+    "titleEn": "UrinoVet Cat Dilution",
+    "activeSubstance": "червена боровинка, магданоз, глюкозамин, метионин, валериана, коприва, витамин Ц",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "cat": {
+        "activeSubstanceDose": [
+          2
+        ],
+        "activeSubstanceDoseDecorator": "caps",
+        "applicationMethod": "q24h, т. е. по 1 капсула сутрин и вечер"
+      }
+    },
+    "indications"       : ["Съдържа подкиселяващи съставки.", "Капсулата се реже и изстисква.", "смесена с храната или да се даде директно в устата"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "urogenital",
+    "title": "Вирбак Фелуро",
+    "titleEn": "Virbac Feluro",
+    "activeSubstance": "N-ацетил-D-глюкозамин, хибискус, зелен чай",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "cat": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "ml",
+        "applicationMethod": "PO два пъти дневно"
+      }
+    },
+    "indications"       : ["Поддържа нормалното състояние на лигавицата на уринарния тракт.", "Предпазва клетките на уринарния тракт в случай на оксидативен стрес.", "Подпомага поддържането на урината стерилна в уринарния тракт.", "Допринася за намаляване на стреса в резултат на външни фактори.", "Разклатете енергично преди всяка употреба."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "urogenital",
+    "title": "УриноВет Дог",
+    "titleEn": "UrinoVet Dog",
+    "activeSubstance": "червена боровинка, магданоз, глюкозамин",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "cat": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl_10_kg",
+        "applicationMethod": "q24h, PO или смесена с храна"
+      }
+    },
+    "indications"       : ["инфекции на пикочните пътища"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "urogenital",
+    "title": "КотЕрвин",
+    "titleEn": "Kotervin",
+    "activeSubstance": "-",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          2,
+          4
+        ],
+        "activeSubstanceDoseDecorator": "ml",
+        "applicationMethod": "на ЖВ, профилактика: qd/ лечение: q12h за 5-7 дни"
+      }
+    },
+    "indications"       : ["КотЭрвин премахва солта и разтваря камъните в урината, има диуретичен и противовъзпалителен ефекти.", "Използва се при: уролитиаза, цистит, FUS."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "urogenital",
+    "title": "Уролзин паста-гел",
+    "titleEn": "Urolsyn Paste-Gel",
+    "activeSubstance": "малц, рибено масло, метионин",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "cat": {
+        "activeSubstanceDose": [
+          3
+        ],
+        "activeSubstanceDoseDecorator": "cm",
+        "applicationMethod": "два пъти дневно в продължение на 5 до 12 седмици"
+      }
+    },
+    "links": [
+      { "title": "няма-линк", "link": "" }
+    ],
+    "indications"       : ["Допълваща храна за котки, която повишава киселинността на урината (DL-Methionin и калиев цитрат). Ниско съдържание на фосфор и магнезий. За подпомагане за разтваряне на струвитни камъни.", "За подпомагане на бъбречната функция: 1-2 см паста-гел два пъти дневно за период до 6 месеца. Приложете директно в устата или смесете с храната."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "urogenital",
+    "title": "Рубенал 75 мг табл",
+    "titleEn": "Rubenal 75 mg tabl",
+    "activeSubstance": "корен на ревен",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "cat": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl",
+        "applicationMethod": "PO два пъти дневно (при КТ > 2 кг)"
+      },
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl_10_kg",
+        "applicationMethod": "PO два пъти дневно"
+      }
+    },
+    "links": [
+      { "title": "няма-линк", "link": "" }
+    ],
+    "indications"       : ["Добавка за кучета и котки с хронична бъбречна недостатъчност.", "КЧ под 3 кг – 1/2 табл. b.i.d.", "КЧ 3-6 кг – 1 табл. b.i.d", "КЧ 6-10 кг – 2 табл. b.i.d.", "Прилагането може да продължи през целия остатък от живота."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "urogenital",
     "title": "Сензиблекс инж 40 мг/мл",
     "titleEn": "Sensiblex inj",
     "activeSubstance": "денаверин хидрохлорид",
@@ -1979,184 +2442,6 @@
   },
   {
     "type": "urogenital",
-    "title": "Инкюрин 1 мг табл",
-    "titleEn": "Incurin 1 mg tabl",
-    "activeSubstance": "естриол",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "mg_tabl",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "tabl",
-        "applicationMethod": "PO"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/urogenital/incurin.pdf" }
-    ],
-    "indications"       : ["За лечение на уринарна инконтиненция при женски кучета след кастрация."],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "urogenital",
-    "title": "КотЕрвин",
-    "titleEn": "Kotervin",
-    "activeSubstance": "-",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "same",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          2,
-          4
-        ],
-        "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "на ЖВ, профилактика: qd/ лечение: q12h за 5-7 дни"
-      }
-    },
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "urogenital",
-    "title": "Рокалтрол 0,25 мкг капс",
-    "titleEn": "Rocaltrol 0.25 mcg caps",
-    "activeSubstance": "калцитриол",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "same",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          0.0025,
-          0.0035
-        ],
-        "activeSubstanceDoseDecorator": "µg_kg",
-        "applicationMethod": "PO веднъж дневно"
-      },
-      "cat": {
-        "activeSubstanceDose": [
-          0.0025,
-          0.0035
-        ],
-        "activeSubstanceDoseDecorator": "µg_kg",
-        "applicationMethod": "PO веднъж дневно"
-      }
-    },
-    "links": [
-      { "title": "листовка",  "link": "pdfs/@medication/urogenital/rocaltrol.pdf" },
-      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/calcitriol.pdf" }
-    ],
-    "indications"       : ["калцитриолът е най-активната форма на витамин D3", "подпомага усвояването на калций от храната и регулира костната минерализация.", "при бъбречна недостатъчност", "при идиопатична себорея"],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : ["Серумният калций се измерва на 7-ия и на 14-ия дни, след което на всеки 6 месеца.", "Серумният креатинин се измерва на всеки 1-3 месеца."],
-    "pharmacology"      : ["1. Потвърди хроничната ББ недостатъчност (креатинин > 176,84 µmol/L).", "2. Намали хиперфосфатемията до 530.52 µmol/L.", "3. Ако Crea = 176,84-265.26 µmol/L и фосфор = 530.52 µmol/L, то започни калцитриол на 2.5–3.5 нанограма на кг на ден."]
-  },
-  {
-    "type": "urogenital",
-    "title": "Ипакитин диетична храна за кучета и котки с ББ недостатъчност 60 г",
-    "titleEn": "Ipakitine diet food 60 g",
-    "activeSubstance": "лактоза, калциев карбонат, хитозан, протеини, влакнини, мазнини",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "same",
-    "application": {
-      "cat": {
-        "activeSubstanceDose": [
-          200
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "1 г/5 кг два пъти дневно през устата или смесено с основната храна."
-      }
-    },
-    "indications"       : ["Първият по рода си в света продукт, завършена и оптимизирана комбинация от съставки с превъзходен вкус, които играят ролята да улавят фосфати, т.е. да редуцират фосфатемията. През периода на приложение трябва да се осигури постоянен достъп до прясна вода. Прилагането може да продължи през целия остатък от живота."],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "urogenital",
-    "title": "ИркВет 50 мл",
-    "titleEn": "IrcVet",
-    "activeSubstance": "-",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "same",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          0.2
-        ],
-        "activeSubstanceDoseDecorator": "ml_kg",
-        "applicationMethod": "чрез разклащане и приложение PO или върху храната"
-      }
-    },
-    "indications"       : ["за бъбречни проблеми", "предпазва ББ клетки", "свързва ентерално фосфора", "синергично действие с Ипакитин и Рубенал"],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "urogenital",
-    "title": "Пронефра",
-    "titleEn": "Pronefra",
-    "activeSubstance": "Калциев карбонат, магнезиев карбонат, астрагал, хитозан, олигопептиди",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "same",
-    "application": {
-      "dog": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "ml_5_kg",
-        "applicationMethod": "PO два пъти дневно"
-      },
-      "cat": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "ml_4_kg",
-        "applicationMethod": "PO два пъти дневно"
-      }
-    },
-    "indications"       : ["за КТ и КЧ с хронично бъбречно заболяване", "Разклати преди употреба"],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : ["Калциевият и магнезиевият карбонат намаляват количеството на фосфора, постъпил с храната, като се свързват с него в червата.", "Хитозанът се свързва с токсините в червата.", "Полизахаридите в състава на астрагала допринасят за поддържане нормалната структура на бъбреците.", "Олигопептидите с морски произход допринасят за поддържане на нормално кръвно налягане."]
-  },
-  {
-    "type": "urogenital",
-    "title": "Ути-Зен табл.",
-    "titleEn": "Uti-Zen tabl",
-    "activeSubstance": "червена боровинка",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "same",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "tabl_10_kg",
-        "applicationMethod": "PO"
-      }
-    },
-    "indications"       : ["добавка при уринарни проблеми, може да се дават с храната", "0-10 кг - 1/2 табл./ден.", "10-20 кг - 1 табл./ден.", "20-40 кг - 2 табл./ден."],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "urogenital",
     "title": "Пропалин 40 мг/мл",
     "titleEn": "Propalin 40 mg/ml",
     "activeSubstance": "фенилпропаноламин хидрохлорид",
@@ -2197,7 +2482,7 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/plumbs-pdf/caniphedrin.pdf" },
+      { "title": "листовка", "link": "pdfs/@medication/urogenital/caniphedrin-20.pdf" },
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ephedrine.pdf" }
     ],
     "indications"       : ["Лечение на уринарна инконтиненция, предизвикана от недостатъчност на уретралния сфинктеров механизъм след овариохистеротомия на женски кучета."],
@@ -2208,67 +2493,50 @@
   },
   {
     "type": "urogenital",
-    "title": "УриноВет Кет",
-    "titleEn": "UrinoVet Cat",
-    "activeSubstance": "червена боровинка, магданоз, глюкозамин, маточина",
+    "title": "Канифедрин 50 мг табл",
+    "titleEn": "Caniphedrin 50 mg tabl",
+    "activeSubstance": "ефедринов хидрохлорид",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
-      "cat": {
+      "dog": {
         "activeSubstanceDose": [
           1
         ],
-        "activeSubstanceDoseDecorator": "caps",
-        "applicationMethod": "q24h"
+        "activeSubstanceDoseDecorator": "tabl_25_kg",
+        "applicationMethod": ""
       }
     },
-    "indications"       : ["за пациенти, предразположени към заболявания на долните пикочни пътища (FLUTD), включително идиопатичен цистит и уролитиаза",
-    "такива страдащи и податливи на инфекции на пикочните пътища, като пиелонефрит, цистит, уретрит",
-    "за всички пациенти, подложени на лечение от уролитиаза, независимо от вида на камъните и след операция за отстраняване на пикочните камъни."],
-    "contraindications" : [],
-    "drugInteractions"  : ["Капсулата се реже и изстисква."],
-    "adverseEffects"    : [],
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/urogenital/caniphedrin-50.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/ephedrine.pdf" }
+    ],
+    "indications"       : ["Лечение на уринарна инконтиненция, предизвикана от недостатъчност на уретралния сфинктеров механизъм след овариохистеротомия на женски кучета.", "Препоръчителна начална доза 2 mg/kg ефедрин."],
+    "contraindications": ["сърдечносъдово заболяване, хипертиреоидизъм, захарен диабет, увредена бъбречна функция или глаукома. Да не се използва едновременно с халогенирани наркотични средства като халотан или метоксифлуран."],
+    "drugInteractions": [],
+    "adverseEffects": [],
     "pharmacology"      : []
   },
   {
     "type": "urogenital",
-    "title": "УриноВет Кет Дилушън",
-    "titleEn": "UrinoVet Cat Dilution",
-    "activeSubstance": "червена боровинка, магданоз, глюкозамин, метионин, валериана, коприва, витамин Ц",
+    "title": "Инкюрин 1 мг табл",
+    "titleEn": "Incurin 1 mg tabl",
+    "activeSubstance": "естриол",
     "drugConcentration": 1,
-    "drugConcentrationDecorator": "same",
+    "drugConcentrationDecorator": "mg_tabl",
     "application": {
-      "cat": {
-        "activeSubstanceDose": [
-          2
-        ],
-        "activeSubstanceDoseDecorator": "caps",
-        "applicationMethod": "q24h, т. е. по 1 капсула сутрин и вечер"
-      }
-    },
-    "indications"       : ["Съдържа подкиселяващи съставки.", "Капсулата се реже и изстисква.", "смесена с храната или да се даде директно в устата"],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "urogenital",
-    "title": "УриноВет Дог",
-    "titleEn": "UrinoVet Dog",
-    "activeSubstance": "червена боровинка, магданоз, глюкозамин",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "same",
-    "application": {
-      "cat": {
+      "any": {
         "activeSubstanceDose": [
           1
         ],
-        "activeSubstanceDoseDecorator": "tabl_10_kg",
-        "applicationMethod": "q24h, PO или смесена с храна"
+        "activeSubstanceDoseDecorator": "tabl",
+        "applicationMethod": "PO"
       }
     },
-    "indications"       : ["инфекции на пикочните пътища"],
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/urogenital/incurin.pdf" }
+    ],
+    "indications"       : ["За лечение на уринарна инконтиненция при женски кучета след кастрация."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -2318,7 +2586,7 @@
       }
     },
     "links": [
-      { "title": "листовка",  "link": "pdfs/@medication/nervous/bupak.pdf" },
+      { "title": "листовка",  "link": "pdfs/@medication/nervous/bupaq.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/buprenorphine.pdf" }
     ],
     "indications"       : [],
@@ -2964,7 +3232,7 @@
           1
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "IM или бавно IV"
+        "applicationMethod": "SC (IM или бавно IV по листовка)"
       },
       "cat": {
         "activeSubstanceDose": [
@@ -3147,6 +3415,56 @@
       { "title": "схема", "link": "pdfs/@medication/nervous/nevrobeks-shema.pdf" }
     ],
     "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "nervous",
+    "title": "Б-комплекс табл",
+    "titleEn": "B-complex tabl",
+    "activeSubstance": "витамин Б1, витамин Б2, витамин Б5, витамин Б6, витамин Б12",
+    "drugConcentration": 40,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl_10_kg",
+        "applicationMethod": "за възрастни кучета (1 табл/5 кг за малки кученца)"
+      }
+    },
+    "links": [
+      { "title": "няма-линк", "link": "" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "nervous",
+    "title": "Когниван Невропторек",
+    "titleEn": "Cognivan neuroprotec",
+    "activeSubstance": "витамин Б1, витамин Б2, витамин Б3, витамин Б6, витамин Б12, триптофан, Гинко билоба, женшен",
+    "drugConcentration": 40,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl_10_kg",
+        "applicationMethod": "веднъж дневно. При КЧ < 30 кг - 2 табл/ ден. КЧ > 30 кг - 3 табл/ ден."
+      }
+    },
+    "links": [
+      { "title": "няма-линк", "link": "" }
+    ],
+    "indications"       : ["Да се прилага 3 месеца, последвани от 1 месец почивка."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -5504,8 +5822,8 @@
         "activeSubstanceDose": [
           1
         ],
-        "activeSubstanceDoseDecorator": "ml_kg",
-        "applicationMethod": "ИМ qd за 5 дни"
+        "activeSubstanceDoseDecorator": "ml_10_kg",
+        "applicationMethod": "ИМ qd за 5 дни (може и 1 мл на 20 кг)"
       }
     },
     "links": [
@@ -6658,6 +6976,137 @@
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
+  {
+    "type": "endocrine",
+    "title": "Хумулин N 100 IU/ml",
+    "titleEn": "HUmulin N 100 IU/ml",
+    "activeSubstance": "инсулин човешки",
+    "drugConcentration": 100,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/endocrine/humulin-n.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/insulin.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "endocrine",
+    "title": "Хумулин M3 100 IU/ml",
+    "titleEn": "HUmulin M3 100 IU/ml",
+    "activeSubstance": "инсулин човешки",
+    "drugConcentration": 100,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/endocrine/humulin-m3.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/insulin.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "endocrine",
+    "title": "Инсулатард 100 IU/ml",
+    "titleEn": "Insulatard 100 IU/ml",
+    "activeSubstance": "инсулин човешки",
+    "drugConcentration": 100,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/endocrine/insulatard.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/insulin.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "endocrine",
+    "title": "Лантус СолоСтар 100 IU/ml",
+    "titleEn": "Lantus SoloStar 100 IU/ml",
+    "activeSubstance": "инсулин гларжин",
+    "drugConcentration": 100,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/endocrine/lantus.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/insulin.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "endocrine",
+    "title": "Канинсулин 40 IU/ml",
+    "titleEn": "Insulatard 40 IU/ml",
+    "activeSubstance": "инсулин свински",
+    "drugConcentration": 40,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/endocrine/humulin-m3.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/insulin.pdf" }
+    ],
+    "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+
 
 
   {
@@ -7241,6 +7690,57 @@
   },
   {
     "type": "antiinflammatory",
+    "title": "Превикокс 57 мг табл",
+    "titleEn": "Previcox 57 mg tabl",
+    "activeSubstance": "фирококсиб",
+    "drugConcentration": 57,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          5
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO веднъж дневно (в листовката има таблица за дозиране)"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/previcox.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/firocoxib.pdf" }
+    ],
+    "indications"       : ["За намаляване на болката и възпалението, свързани с остеоартрити при кучета. За намаляване на следоперативната болка и възпалението, свързани с хирургична интервенция на меките тъкани, ортопедична и зъбна хирургия при кучета."],
+    "contraindications" : ["Да не се прилага при бременни и лактиращи кучки. Да не се прилага при животни на възраст, по-малка от 10 седмици или с телесна маса, по-малка от 3 кг. Да не се прилага при животни, страдащи от стомашно-чревни кръвоизливи, кръвна дискразия или хеморагични нарушения. Да не се прилага едновременно с кортикостероиди или с други нестероидни противовъзпалителни средства (НСПВС)."],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : ["Firocoxib е НСПВС, което избирателно инхибира простагландиновата синтеза, медиирана от циклооксигеназа-2 (COX-2). Циклооксигеназата е отговорна за образуването на простагландини.", "Групата на Coxib се характеризира с аналгетично, противовъзпалително и противотемпературно действие."]
+  },
+  {
+    "type": "antiinflammatory",
+    "title": "Цималгекс 30 мг табл",
+    "titleEn": "Cimalgex 30 mg tabl",
+    "activeSubstance": "цимикоксиб (cimicoxib)",
+    "drugConcentration": 30,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          2
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO веднъж дневно (в листовката има таблица за дозиране)"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/antiinflammatory/cimalgex.pdf" }
+    ],
+    "indications"       : ["За третиране на болка и възпаление, асоциирани с остеоартрит, както и за управление на периоперативна болка, поради ортопедична или мекотъканна хирургия, при кучета."],
+    "contraindications" : ["Да не се използва при кучета на възраст под 10 седмици. Да не се използва при кучета страдащи от стомашно-чревни смущения или при кучета с хеморагични проблеми. Да не се използва в комбинация с кортикостероиди или други нестероидни противовъзпалителни средства (НСПВС). Да не се използва при свръхчувствителност към цимикоксиб или към някое от помощните вещества на продукта. Да не се използва при разгонени и с предстоящо заплождане, бременни или кърмещи животни."],
+    "drugInteractions"  : [],
+    "adverseEffects"    : ["гастроинтестинални смущения"],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antiinflammatory",
     "title": "Метилпреднизолон 6,31 мг амп.",
     "titleEn": "Methylprednisolone",
     "activeSubstance": "метилпреднизолон",
@@ -7613,6 +8113,28 @@
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : ["Глюкозаминът повишава синтезата на хрущялната тъкан.", "Хондроитинът и хиалуроновата киселина правят хрущяла по-пластичен и резистентен на травми"]
+  },
+  {
+    "type": "others",
+    "title": "Вирбак Фортифлекс 525",
+    "titleEn": "Virbac Fortiflex 525",
+    "activeSubstance": "хондроитин, хитозан, епигалокатехин галате, селенометионин",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl",
+        "applicationMethod": "PO q24h за 1 месец"
+      }
+    },
+    "indications"       : ["За КЧ от 25 кг до 40 кг."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : ["Хондроитинът прави хрущяла по-пластичен и резистентен на травми.", "Хитозанът е с морски произход и упражнява протекторна функция върху хондроитин сулфата при преминаването му през храносмилателния тракт и по време на усвояването му.", "Комбинацията от Епигалокатехин галате и селенометионин подсилва ставните структури.Тази комбинация възстановява ставните сруктури."]
   },
   {
     "type": "others",
@@ -8688,31 +9210,6 @@
   },
   {
     "type": "others",
-    "title": "Диамел Петс",
-    "titleEn": "Diamel Pets",
-    "activeSubstance": "червена боровинка, малтодекстрин, Витамини C, B6 и B12, фолиева киселина, цинков сулфат, Л-карнитин, калциев D-пантотенат, аргинин, глицин, Л-цестеин, орнитин, фумарова киселина",
-    "drugConcentration": 1,
-    "drugConcentrationDecorator": "same",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          1
-        ],
-        "activeSubstanceDoseDecorator": "ml_5_kg",
-        "applicationMethod": "q12h"
-      }
-    },
-    "links": [
-      { "title": "листовка", "link": "pdfs/@medication/others/diamel-pets.pdf" }
-    ],
-    "indications"       : ["стимулира продукцията на инсулин и предпазва от усложненията на диабета."],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "others",
     "title": "gs-441524",
     "titleEn": "gs-441524",
     "activeSubstance": "gs-441524",
@@ -8731,22 +9228,297 @@
       { "title": "няма-линк", "link": "" }
     ],
     "indications"       : ["Wet Form (Abdominal Effusion) --- 5 mg/kg", "Wet Form (Thoracic Effusion) --- 6 mg/kg", "Dry Form (non-effusive) --- 6 mg/kg", "Ocular symptoms --- 8 mg/kg", "Neurologic symptoms --- 10 mg/kg", "Concentration: 20mg/ml or 30mg/ml", "Recommended to be taken for 12 weeks.", "https://www.catfipv.com/", "https://www.pethealthfip.com/"],
-    "contraindications": [],
-    "drugInteractions": [],
-    "adverseEffects": [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
     "pharmacology"      : []
   },
   {
     "type": "others",
-    "title": "",
-    "titleEn": "",
+    "title": "Калсис Петс сироп",
+    "titleEn": "Kalsis Pets syrup",
+    "activeSubstance": "Калциев хлорид, магнезиев хлорид, витамин С, аргинин",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "ml_5_kg",
+        "applicationMethod": "PO q12h"
+      }
+    },
+    "links": [
+      { "title": "няма-линк", "link": "" }
+    ],
+    "indications"       : ["Kalsis Pets е допълнителна храна за поддържане на костите по време на възстановяване.", "Облекчаването на болката започва след 15 до 20 дни лечение."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Обекс Петс сироп",
+    "titleEn": "Obex Pets syrup",
+    "activeSubstance": "акай бери, фазеоламин, Л-карнитин, зелено кафе, холин, орнитин, др.",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "ml_5_kg",
+        "applicationMethod": "PO q12h"
+      }
+    },
+    "links": [
+      { "title": "няма-линк", "link": "" }
+    ],
+    "indications"       : ["OBEX Pets намалява натрупването на мазнини в черния дроб чрез повишаване на термогенезата.", "При кастрати има доказан ефект върху редуцирането на теглото."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Фолрекс Петс сироп",
+    "titleEn": "Folrex Pets syrup",
+    "activeSubstance": "Калциев хлорид, магнезиев хлорид, витамин С, аргинин",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "ml_5_kg",
+        "applicationMethod": "PO q12h"
+      }
+    },
+    "links": [
+      { "title": "няма-линк", "link": "" }
+    ],
+    "indications"       : ["FOLREX Pets е предназначен за контрол на болката и възпалението, съвместно с ортопедичната хирургия."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : ["Фолиевата киселина в състава на Folrex Pets облекчава болката и възпалението, но без страничните ефекти, свързани с НСПВС. Хитин хидролизатът регенерира ставния хрущял и синувиалната течност, както и облекчава болезнеността и възстановява качеството на живот. Цистенът е мощен антиоксидант, който предотвратява дегенерацията на увредения хрущял."]
+  },
+  {
+    "type": "others",
+    "title": "Асбрип Петс сироп",
+    "titleEn": "Asbrip Pets syrup",
+    "activeSubstance": "евкалипт, мента, фумарова киселина, витамин C, др.",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "ml_5_kg",
+        "applicationMethod": "PO q12h"
+      }
+    },
+    "links": [
+      { "title": "няма-линк", "link": "" }
+    ],
+    "indications"       : ["Asbrip Pets е специално предназначен за поддържаща терапия при магарешка кашлица, загуба на глас, ларингити, фарингити и други респираторни заболявания."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : ["Asbrip Pets има мощно отхрачващо действие, което изчиства респираторния тракт като подпомага ефективността от конвенционалното лечение. Молекулярно активираните съставки в Asbrip повишават имунитета и редуцират оксидативния стрес."]
+  },
+  {
+    "type": "others",
+    "title": "Алцер Петс сироп",
+    "titleEn": "Alzer Pets syrup",
+    "activeSubstance": "гинко билоба, карнитин, α-липоева киселина, витамин E",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "ml_5_kg",
+        "applicationMethod": "PO q12h"
+      }
+    },
+    "links": [
+      { "title": "няма-линк", "link": "" }
+    ],
+    "indications"       : ["Синдром на когнитивната дисфункция (CDS, кучешкият еквивалент на Алцхаймер) е невродегенеративно заболяване, което се характеризира с прогресивно намаляване на паметта, заучаването, възприятието и съзнанието. Заболяването не може да се излекува, но можем да забавим прогресията му значително."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : ["Съставките му намаляват оксидативния стрес, който е директно свързан с появата и развитието на хронични заболявания, както и с процесите на стареене."]
+  },
+  {
+    "type": "others",
+    "title": "Реналоф Петс сироп",
+    "titleEn": "Renalof Pets syrup",
+    "activeSubstance": "пирей, малтодекстрин, аргинин",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "ml_5_kg",
+        "applicationMethod": "PO q12h"
+      }
+    },
+    "links": [
+      { "title": "няма-линк", "link": "" }
+    ],
+    "indications"       : ["RENALOF Pets предизвиква разтваряне на камъните в бъбреците и бързото и безболезненото им елиминиране.", "Ефективен при остри и хронични цистити."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Карминал Петс сироп",
+    "titleEn": "Carminal Pets syrup",
+    "activeSubstance": "Алое Вера, Опунциа Фикус и маслиново масло, витамини, др.",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "ml_5_kg",
+        "applicationMethod": "PO q12h"
+      }
+    },
+    "links": [
+      { "title": "няма-линк", "link": "" }
+    ],
+    "indications"       : ["При стомашни заболявания. Регенерира стомашната и интестиналната мукоза. Антиоксидант и хранителен стимулатор."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Виусид Петс сироп",
+    "titleEn": "Viusid Pets syrup",
     "activeSubstance": "",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
-      "dog": {
+      "any": {
         "activeSubstanceDose": [
-          3
+          1
+        ],
+        "activeSubstanceDoseDecorator": "ml_5_kg",
+        "applicationMethod": "PO q12h"
+      }
+    },
+    "links": [
+      { "title": "няма-линк", "link": "" }
+    ],
+    "indications"       : ["VIUSID Pets съдържа антиоксиданти, витамини, минерали и глицеризинова киселина (екстракт от сладък корен) с доказани антивирусни свойства. VIUSID Pets е специално разработена формула за повишаване на имунитета и има клинично доказана ефективност при лечението на вирусни заболявания. Особено подходящ при новородени и бременни животни."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Диамел Петс сироп",
+    "titleEn": "Diamel Pets syrup",
+    "activeSubstance": "червена боровинка, витамини C, B6, B9 и B12, Л-карнитин, др.",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "ml_5_kg",
+        "applicationMethod": "q12h"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/others/diamel-pets.pdf" }
+    ],
+    "indications"       : ["Стимулира продукцията на инсулин и предпазва от усложненията на диабет тип 1 и тип 2.", "Стимулира панкреатичната функция, регулира кръвното налягане и забавя развитието на съдови усложнения. Нормализира глюкозата, холестерола, пикочната киселина и триглицеридите – само за 8 седмици."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Ококсин Петс сироп",
+    "titleEn": "Ocoxin Pets syrup",
+    "activeSubstance": "активиран екстракт от зелен чай (мощен антиоксидант), ябълчна киселина, витамини, др.",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "ml_5_kg",
+        "applicationMethod": "PO q12h"
+      }
+    },
+    "links": [
+      { "title": "няма-линк", "link": "" }
+    ],
+    "indications"       : ["OCOXIN Pets подкрепя онкологичните терапии, като увеличава имунитета при раковите пациенти, подобрява поносимостта на онко-терапията, предпазва от загуба на тегло."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Кардиоли Петс сироп",
+    "titleEn": "Kardioli Pets syrup",
+    "activeSubstance": "",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "ml_5_kg",
+        "applicationMethod": "PO q12h"
+      }
+    },
+    "links": [
+      { "title": "няма-линк", "link": "" }
+    ],
+    "indications"       : ["За превенция и лечение на сърдечносъдови заболявания. Антиоксидант."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : ["Спира появата и нарастването на атеросклеротичните плаки.", "KARDIOLI Pets подобрява функцията на щитовидната жлеза, предпазва от хипертония и атеросклероза. Допринася за постепенното преодоляване на сърдечната недостатъчност и възстановяване качеството на живот."]
+  },
+  {
+    "type": "others",
+    "title": "Ектолуцил спрей",
+    "titleEn": "Ectolucil spray",
+    "activeSubstance": "окситетрациклин, циперметрин, рициново масло",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
         ],
         "activeSubstanceDoseDecorator": "",
         "applicationMethod": ""
@@ -8755,10 +9527,10 @@
     "links": [
       { "title": "няма-линк", "link": "" }
     ],
-    "indications"       : [""],
-    "contraindications": [""],
-    "drugInteractions": [],
-    "adverseEffects": [""],
-    "pharmacology"      : [""]
+    "indications"       : ["Bot Fly Larvae Infestation (Grubs, Cuterebriasis) при кучета и котки.", "Окситетрациклинът е широкоспектърен антибиотик. Действа на Грам-положителните и Грам-отрицателните бактерии. Циперметрин е инсектицид от групата на перитроидите. Действа инсектицидно и акарицидно върху мухи, комари, въшки, аргазиди, хиподермни ларви и други акари. Рициновото масло поощрява гранулацията и епителизацията на раните.", "Външно – чрез опръскване (от разстояние 10-15 см.) на заболелите  участъци 1 път дневно 2-3 дни подред. След 15 дни процедурата се повтаря."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
   }
 ]
