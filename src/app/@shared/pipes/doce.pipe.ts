@@ -26,6 +26,7 @@ export class DosePipe implements PipeTransform {
     if(value == 'tabl_2.5_kg'       ) return 'tabl/2.5 kg';
     if(value == 'tabl_10_kg'        ) return 'tabl/10 kg';
     if(value == 'tabl_15_kg'        ) return 'tabl/15 kg';
+    if(value == 'tabl_25_kg'        ) return 'tabl/25 kg';
     if(value == 'tabl_40_kg'        ) return 'tabl/40 kg';
     if(value == 'implant'           ) return 'имплант';
     if(value == 'gtt'               ) return 'gtt';

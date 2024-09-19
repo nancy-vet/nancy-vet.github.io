@@ -46,6 +46,7 @@
   @for(element of selectedObject.links; track element) {
 
     <nv-link-button
+      *ngIf="element.title !== 'няма-линк'"
       [inputTitle]="element.title"
       (onClick)="onOpenPdfDocument(element.link)">
     </nv-link-button>
@@ -54,7 +55,7 @@
   @if(selectedObject.indications && selectedObject.indications.length > 0) {
 
     <div class="mt16">
-      <div class="h2 c-success m-gap1">
+      <div class="h2 c-success m-gap1drug">
         Показания:
       </div>
 
@@ -67,7 +68,7 @@
   @if(selectedObject.contraindications && selectedObject.contraindications.length > 0) {
 
     <div>
-      <div class="h2 c-fail m-gap1">
+      <div class="h2 c-fail m-gap1drug">
         Противопоказания:
       </div>
 
@@ -80,7 +81,7 @@
   @if(selectedObject.drugInteractions && selectedObject.drugInteractions.length > 0) {
 
     <div>
-      <div class="h2 c-blue m-gap1">
+      <div class="h2 c-blue m-gap1drug">
         Взаимодействие с ВМП:
       </div>
 
@@ -93,7 +94,7 @@
   @if(selectedObject.adverseEffects && selectedObject.adverseEffects.length > 0) {
 
     <div>
-      <div class="h2 c-blue m-gap1">
+      <div class="h2 c-blue m-gap1drug">
         Нежелани реакции:
       </div>
 
@@ -106,7 +107,7 @@
   @if(selectedObject.pharmacology && selectedObject.pharmacology.length > 0) {
 
     <div>
-      <div class="h2 c-blue m-gap1">
+      <div class="h2 c-blue m-gap1drug">
         Фармакология:
       </div>
 
