@@ -582,8 +582,8 @@
           0.5,
           1
         ],
-        "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "PO 2 пъти на ден (при КЧ > 30 кг - 15 мл)"
+        "activeSubstanceDoseDecorator": "ml_kg",
+        "applicationMethod": "PO два пъти на ден (при КЧ > 30 кг - 15 мл)"
       },
       "cat": {
         "activeSubstanceDose": [
@@ -591,7 +591,7 @@
           5
         ],
         "activeSubstanceDoseDecorator": "ml",
-        "applicationMethod": "PO 2 пъти на ден"
+        "applicationMethod": "PO два пъти на ден"
       }
     },
     "links": [
@@ -605,7 +605,7 @@
   },
   {
     "type": "gastrointestinal",
-    "title": "ФортиФлора",
+    "title": "Диалакту",
     "titleEn": "Dialactu",
     "activeSubstance": "лактулоза, декстроза",
     "drugConcentration": 1,
@@ -1562,27 +1562,27 @@
   },
   {
     "type": "cardiovascular",
-    "title": "Иземид 4 мг",
-    "titleEn": "Isemid 4 mg",
+    "title": "Иземид 4 мг табл",
+    "titleEn": "Isemid 4 mg tabl",
     "activeSubstance": "тораземид",
     "drugConcentration": 4,
     "drugConcentrationDecorator": "mg_tabl",
     "application": {
-      "any": {
+      "dog": {
         "activeSubstanceDose": [
           0.25,
           0.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "PO"
+        "applicationMethod": "PO (таблица в листовката)"
       }
     },
     "links": [
       { "title": "листовка",  "link": "pdfs/@medication/cardiovascular/isemid.pdf" },
-      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/torsemide.pdf" }
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/torasemide.pdf" }
     ],
-    "indications"       : [],
-    "contraindications" : [],
+    "indications"       : ["За лечение на клинични признаци, свързани със застойна сърдечна недостатъчност при кучета, включително белодробен оток."],
+    "contraindications" : ["бъбречна недостатъчност", "хиповолемия, дехидратация, хипотензия", "Не се използва заедно с други диуретици."],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
@@ -2295,17 +2295,24 @@
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
     "application": {
-      "any": {
+      "dog": {
         "activeSubstanceDose": [
           10,
           33
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
         "applicationMethod": "SC в областта на врата или бедрото"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          0.5
+        ],
+        "activeSubstanceDoseDecorator": "ml",
+        "applicationMethod": "SC в областта на врата или бедрото"
       }
     },
-    "indications"       : [],
-    "contraindications" : [],
+    "indications"       : ["За предпазване и потискане на еструс при кучета и котки."],
+    "contraindications" : ["Да не се използва при животни преди първия еструс."],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
@@ -5510,7 +5517,7 @@
     "drugConcentration": 25,
     "drugConcentrationDecorator": "mg_ml",
     "application": {
-      "any": {
+      "cat": {
         "activeSubstanceDose": [
           5
         ],
@@ -5521,8 +5528,33 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/antibiotics/veraflox.pdf" }
     ],
-    "indications"       : ["група: хинолони"],
-    "contraindications" : [],
+    "indications"       : ["група: хинолони", "Pradofloxacin не повлиява хрущялното развитие при котенца на 6 седмична възраст и поголеми."],
+    "contraindications" : ["Поради липса на данни, pradofloxacin не трябва да се използва при котенца под 6-седмична възраст.", "Да не се използва при котки с нарушения в централната нервна система (ЦНС)."],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antibiotics",
+    "title": "Верафлокс 60 мг/табл",
+    "titleEn": "Veraflox 60 mg/tabl",
+    "activeSubstance": "прадофлоксацин",
+    "drugConcentration": 60,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          3
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO q24h"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/antibiotics/veraflox.pdf" }
+    ],
+    "indications"       : ["група: хинолони", "Pradofloxacin не повлиява хрущялното развитие при котенца на 6 седмична възраст и поголеми."],
+    "contraindications" : ["Да не се използва при кучета през периода на растеж, тъй като може да бъде засегнат ставния хрущял. Да не се използва при кучета с нарушения в централната нервна система (ЦНС)."],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []

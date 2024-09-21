@@ -4,7 +4,7 @@
     {{selectedObject.title}}
   </div>
   <div class="fs13">
-   ({{selectedObject.titleEn}})
+   (англ.: {{selectedObject.titleEn}}, раздел: {{getTitle()}})
   </div>
 
   @for(element of selectedObject.links; track element) {
@@ -15,12 +15,12 @@
       </nv-link-button>
   }
 
-  <div class="fb600 mt16">Етиология</div>
+  <div class="fb600 mt16 c-success">Етиология</div>
   @for(element of selectedObject.etiology; track element) {
     <div style="padding-left: 5px;">{{element}}</div>
   }
 
-  <div class="fb600 mt16">Симптоми</div>
+  <div class="fb600 mt16 c-fail">Симптоми</div>
   @for(element of selectedObject.signs; track element) {
     <div style="padding-left: 5px;">{{element}}</div>
   }
@@ -40,12 +40,12 @@
       }
   }
 
-  <div class="fb600 mt16">Диагностика</div>
+  <div class="fb600 mt16 c-blue">Диагностика</div>
   @for(element of selectedObject.diagnostics; track element) {
     <div style="padding-left: 5px;">{{element}}</div>
   }
 
-  <div class="fb600 mt16">Лечение</div>
+  <div class="fb600 mt16 c-success">Лечение</div>
   @for(element of selectedObject.treatment; track element) {
 
       @if(element.startsWith("$")) {
@@ -63,7 +63,7 @@
       }
   }
 
-  <div class="fb600 mt16">Диференциална диагноза</div>
+  <div class="fb600 mt16 c-fail">Диференциална диагноза</div>
   @for(element of selectedObject.differential; track element) {
     <div style="padding-left: 5px;">{{element}}</div>
   }
