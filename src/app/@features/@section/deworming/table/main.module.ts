@@ -4,9 +4,6 @@ import { CommonModule             } from '@angular/common';
 import { FormsModule              } from '@angular/forms';
 import { RouterModule, Routes     } from '@angular/router';
 
-import { InfoModal                } from './@modal/info/info.component';
-import { SelectCategoryModal      } from './@modal/select-category/select-category.component';
-
 import { MainComponent            } from './main.page';
 import { DosePipe                 } from 'nv@pipes/doce.pipe';
 import { DrugCard                 } from 'nv@components/@blocks/drug-card/drug-card.component';
@@ -31,11 +28,8 @@ const routes: Routes              = [{
     CUSTOM_ELEMENTS_SCHEMA
   ],
 
-
     declarations                    : [
-      MainComponent                 ,
-      InfoModal                     ,
-      SelectCategoryModal
+      MainComponent
     ],
     imports                         : [
       RouterModule.forChild(routes) ,
@@ -57,4 +51,4 @@ const routes: Routes              = [{
       NvLinkButtonComponent         ,
     ]
 })
-export class ListPageModule {}
+export class TablePageModule {}

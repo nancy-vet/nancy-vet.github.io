@@ -70,7 +70,7 @@ const routes: Routes = [
   },
   {
     path          : AppNavigationRouteEnum.DEWORMING,
-    loadChildren  : () => import( './@features/@section/deworming/main/main.module').then(m => m.TabsPageModule)
+    loadChildren  : () => import( './@features/@section/deworming/@navigation/tabs.module').then(m => m.TabsPageModule)
   },
   {
     path          : AppNavigationRouteEnum.ECG,

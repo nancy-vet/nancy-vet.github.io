@@ -22,15 +22,15 @@ const routes: Routes = [
     children  : [
       {
         path          : 'tab1',
-        loadChildren  : () => import('../medications/medications.module').then(m => m.MedicationsPageModule)
+        loadChildren  : () => import('../main/main.module').then(m => m.ListPageModule)
       },
       {
         path          : 'tab2',
-        loadChildren  : () => import('../symptoms/symptoms.module').then(m => m.SymptomPageModule)
+        loadChildren  : () => import('../table/main.module').then(m => m.TablePageModule)
       },
       {
         path          : 'tab3',
-        loadChildren  : () => import('../diseases/diseases.module').then(m => m.DiseasesPageModule)
+        loadChildren  : () => import('../principles/main.module').then(m => m.PrinciplesPageModule)
       },
       {
         path          : '',
