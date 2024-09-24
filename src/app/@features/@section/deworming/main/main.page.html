@@ -28,4 +28,36 @@
       (onSelectCard)="onSelectCard($event)">
     </dc-card-deworming>
   }
+
+<!-- Table for Deworming Pills -->
+<div style="margin: 15px;">
+  <table>
+    <thead>
+      <tr>
+        <!-- <th>Image</th> -->
+        <th>Title</th>
+        <th>Active Substance</th>
+        <!-- <th>Type of Deworming</th> -->
+        <th>Indications</th>
+        <th>Contraindications</th>
+        <th>How to Give</th>
+        <th>Precautions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let element of $collection">
+        <!-- <td style="text-align-last: center;">
+          <img src="{{element?.image }}" style="max-height: 150px;">
+        </td> -->
+        <td>{{ element.title }}</td>
+        <td>{{ element.activeSubstance.join(', ') }}</td>
+        <!-- <td>{{ element.typeDeworming }}</td> -->
+        <td>{{ element.indications.join(', ') }}</td>
+        <td>{{ element.contraindications }}</td>
+        <td>{{ element.howToGive }}</td>
+        <td>{{ element.precautions }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 </ion-content>

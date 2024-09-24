@@ -7,3 +7,22 @@
   text-align   : center;
   margin       : 8px
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px;
+  border: 1px solid #59f59b57;
+  text-align: left;
+}
+
+th {
+  background-color: #59f59b57;
+}
+
+tr:hover {
+  background-color: #59f59b57;
+}
