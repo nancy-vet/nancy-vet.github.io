@@ -20,7 +20,7 @@
 
   <img src="{{selectedObject?.image }}" style="max-width: 70%; margin-left: 15%; max-height: 200px;">
 
-  <div class="fb600 mt16">Дозировка</div>
+  <div class="fb600 mt16 c-fail">Дозировка</div>
   <!-- <img src="{{selectedObject?.dosage }}" >
   <div>{{selectedObject?.dosage }}</div> -->
 
@@ -28,13 +28,13 @@
     <img src="{{renderImage(selectedObject?.dosage)}}"/>
   }
   @else {
-    <div style="padding-left: 5px;">{{selectedObject?.dosage}}</div>
+    <div style="padding-left: 5px; max-height: 350px;">{{selectedObject?.dosage}}</div>
   }
 
-  <div class="fb600 mt16">Употреба</div>
+  <div class="fb600 mt16 c-fail">Употреба</div>
   <div>{{selectedObject?.howToGive }}</div>
 
-  <div class="fb600 mt16">Показания</div>
+  <div class="fb600 mt16 c-fail">Показания</div>
   @for(element of selectedObject.indications; track element) {
 
     <div class="pill-orange mr6">
@@ -43,22 +43,22 @@
   }
 
   @if(selectedObject?.contraindications) {
-    <div class="fb600 mt16">Противопоказания</div>
+    <div class="fb600 mt16 c-fail">Противопоказания</div>
     <div class="" style="padding: 5px;">{{selectedObject?.contraindications }}</div>
   }
 
   @if(selectedObject?.precautions) {
-    <div class="fb600 mt16">Имайте предвид</div>
+    <div class="fb600 mt16 c-fail">Имайте предвид</div>
     <div class="" style="padding: 5px;">{{selectedObject?.precautions }}</div>
   }
 
   @if(selectedObject?.pregnancy) {
-    <div class="fb600 mt16">При бременност</div>
+    <div class="fb600 mt16 c-fail">При бременност</div>
     <div>{{selectedObject?.pregnancy }}</div>
   }
 
   @if(selectedObject?.pregnancy) {
-    <div class="fb600 mt16">Начин на действие</div>
+    <div class="fb600 mt16 c-fail">Начин на действие</div>
     <div>{{selectedObject?.effect }}</div>
   }
 

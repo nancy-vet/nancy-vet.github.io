@@ -13,7 +13,7 @@
     "pregnancy"         : "No data.",
     "howToGive"         : "Tablets can be administered with or without food.",
     "dosage"            : "",
-    "link"              : "https://ec.europa.eu/health/documents/community-register/2017/20170118136821/anx_136821_en.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/simparica.pdf",
     "image"             : "assets/pdfs/@deworming/simparica.png"
   },
   {
@@ -30,7 +30,7 @@
     "pregnancy"         : "Can be used in breeding, pregnant and lactating dogs.",
     "howToGive"         : "Tablets can be administered with or without food.",
     "dosage"            : "",
-    "link"              : "https://ec.europa.eu/health/documents/community-register/2018/20180319140371/anx_140371_en.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/bravecto.pdf",
     "image"             : "assets/pdfs/@deworming/bravecto.png"
   },
   {
@@ -98,7 +98,24 @@
     "pregnancy"         : "Can be used in pregnant and lactating pets.",
     "howToGive"         : "On the skin.",
     "dosage"            : "",
-    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2018/08/FIPREX_S.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/fiprex.pdf",
+    "image"             : "assets/pdfs/@deworming/fiprex-dog.png"
+  },
+  {
+    "title"             : "Fypryst 2.5 mg/ml",
+    "species"           : "dog",
+    "form"              : "spot-on",
+    "activeSubstance"   : ["fipronil"],
+    "effect"            : "",
+    "typeDeworming"     : "external",
+    "killingActivity"   : "2 months",
+    "indications"       : ["fleas", "ticks"],
+    "contraindications" : "Do not give to puppies less than 8 weeks of age and/ or less than 2 kg. Do not give to sick pets.",
+    "precautions"       : "Do not shower pets 2 days before and after application.",
+    "pregnancy"         : "Can be used in pregnant and lactating pets.",
+    "howToGive"         : "Пръскайте в посока срещу растежа на косъма и се уверете, че цялата космена покривка на животното е навлажнена",
+    "dosage"            : "6 до 12 изпомпвания/ кг за приложение на 100 ml Спрей, 2-4 изпомпвания за 250 ml, или 1 до 2 изпомпвания за 500 ml.",
+    "link"              : "assets/pdfs/@deworming/pdfs/fiprex.pdf",
     "image"             : "assets/pdfs/@deworming/fiprex-dog.png"
   },
   {
@@ -115,7 +132,7 @@
     "pregnancy"         : "",
     "howToGive"         : "On the skin.",
     "dosage"            : "",
-    "link"              : "https://www.sigmaprovadia.com/product/frontline-combo-spot-on-dog-m-%d1%84%d1%80%d0%be%d0%bd%d1%82%d0%bb%d0%b0%d0%b9%d0%bd-%d0%ba%d0%be%d0%bc%d0%b1%d0%be-%d1%81%d0%bf%d0%be%d1%82-%d0%be%d0%bd-%d0%b7%d0%b0-%d0%ba%d1%83%d1%87%d0%b5%d1%82/",
+    "link"              : "assets/pdfs/@deworming/pdf/frontline-combo-dog.png",
     "image"             : "assets/pdfs/@deworming/frontline-combo-dog.png"
   },
   {
@@ -147,7 +164,7 @@
     "contraindications" : "Do not give to puppies less than 3 months of age and/ or with dermatitis.",
     "precautions"       : "",
     "pregnancy"         : "Do not give to lactating animals.",
-    "howToGive"         : "",
+    "howToGive"         : "Два пръста между каишката и шията на животното.",
     "dosage"            : "",
     "link"              : "https://www.sigmaprovadia.com/product/%d0%bf%d1%80%d0%be%d1%82%d0%b8%d0%b2%d0%be%d0%bf%d0%b0%d1%80%d0%b0%d0%b7%d0%b8%d1%82%d0%bd%d0%b0-%d0%ba%d0%b0%d0%b8%d1%88%d0%ba%d0%b0-bolfo-70%d1%81%d0%bc/",
     "image"             : "assets/pdfs/@deworming/bolfo.png"
@@ -160,13 +177,13 @@
     "effect"            : "",
     "typeDeworming"     : "external",
     "killingActivity"   : "8 months",
-    "indications"       : ["fleas", "ticks"],
+    "indications"       : ["fleas", "ticks","lice"],
     "contraindications" : "Do not give to puppies less than 7 weeks of age and cats less than 10 weeks of age",
     "precautions"       : "",
     "pregnancy"         : "No data.",
     "howToGive"         : "",
     "dosage"            : "",
-    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2018/08/FORESTO_S.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/foresto.pdf",
     "image"             : "assets/pdfs/@deworming/foresto-dogs-and-cats.png"
   },
   {
@@ -217,7 +234,7 @@
     "pregnancy"         : "",
     "howToGive"         : "Кучета и котки: Необходим е разтвор 1:400 до 1:200 за къпане, потапяне или напръскване на животните.",
     "dosage"            : "",
-    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2018/08/Neostomosan.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/neostomozan.pdf",
     "image"             : "assets/pdfs/@deworming/neostomozan.png"
   },
   {
@@ -228,13 +245,13 @@
     "effect"            : "",
     "typeDeworming"     : "both",
     "killingActivity"   : "1 month",
-    "indications"       : ["fleas", "ticks", "intestinal worms including nematodes", "Dirofilaria", "without tenia"],
+    "indications"       : ["fleas", "ticks", "intestinal worms including nematodes", "Dirofilaria", "do not kill tenia"],
     "contraindications" : "Do not give to puppies less than 8 weeks of age and/ or less than 1.25 kg.",
     "precautions"       : "You can give it to collies. Do not give with cyclosporine, ketoconazole, spinosad, verapamil.",
     "pregnancy"         : "No data.",
     "howToGive"         : "Tablets can be administered with or without food.",
     "dosage"            : "",
-    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2021/09/simparica-trio-epar-product-information_bg.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/simparica-trio.pdf",
     "image"             : "assets/pdfs/@deworming/simparica-trio-dogs.png"
   },
   {
@@ -251,7 +268,7 @@
     "pregnancy"         : "No data.",
     "howToGive"         : "Tablets can be administered with or without food.",
     "dosage"            : "",
-    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2021/01/NexGard-Spectra.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/nexgard_spectra.pdf",
     "image"             : "assets/pdfs/@deworming/nexgard_spectra.png"
   },
   {
@@ -262,13 +279,13 @@
     "effect"            : "",
     "typeDeworming"     : "both",
     "killingActivity"   : "1 month",
-    "indications"       : ["fleas", "ticks", "intestinal worms including nematodes", "Dirofilaria", "without tenia"],
+    "indications"       : ["fleas", "ticks", "intestinal worms including nematodes", "Dirofilaria", "do not kill tenia"],
     "contraindications" : "Do not give to puppies less than 8 weeks of age and/ or less than 1.4 kg.",
     "precautions"       : "",
     "pregnancy"         : "No data.",
     "howToGive"         : "With or after food.",
     "dosage"            : "",
-    "link"              : "https://ec.europa.eu/health/documents/community-register/2021/20210414151112/anx_151112_en.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/credelio-plus.pdf",
     "image"             : "assets/pdfs/@deworming/credelio-plus-dog.png"
   },
   {
@@ -279,8 +296,8 @@
     "effect"            : "",
     "typeDeworming"     : "both",
     "killingActivity"   : "1 month",
-    "indications"       : ["fleas", "intestinal worms WITHOUT nematodes", "Dirofilaria"],
-    "contraindications" : "Do not give to puppies less than 7 weeks of age.",
+    "indications"       : ["fleas", "intestinal worms WITHOUT nematodes", "Dirofilaria", "do not kill tenia"],
+    "contraindications" : "Do not give to puppies less than 7 weeks of age and kittens less than 9 weeks of age.",
     "precautions"       : "",
     "pregnancy"         : "No data.",
     "howToGive"         : "",
@@ -296,7 +313,7 @@
     "effect"            : "",
     "typeDeworming"     : "both",
     "killingActivity"   : "1 month",
-    "indications"       : ["fleas", "intestinal worms WITHOUT nematodes", "Dirofilaria"],
+    "indications"       : ["fleas", "intestinal worms WITHOUT nematodes", "Dirofilaria", "do not kill tenia"],
     "contraindications" : "Do not give to puppies less than 7 weeks of age and kittens less than 9 weeks of age.",
     "precautions"       : "",
     "pregnancy"         : "No data.",
@@ -310,12 +327,12 @@
     "species"           : "both",
     "form"              : "spot-on",
     "activeSubstance"   : ["selamectin"],
-    "effect"            : "",
+    "effect"            : "Paralise the parasites. Kills eggs, larvae and adult fleas.",
     "typeDeworming"     : "both",
     "killingActivity"   : "1 month",
-    "indications"       : ["fleas", "ticks", "Dirofilaria"],
+    "indications"       : ["fleas", "ticks", "lice", "Dirofilaria", "Otodectes", "Toxocara", "Ancylostoma", "do not kill tenia"],
     "contraindications" : "Do not give to animals less than 6 weeks of age.",
-    "precautions"       : "",
+    "precautions"       : "Животните могат да се къпят 2 часа след третиране с продукта без това да доведе до намаляване на ефективността.",
     "pregnancy"         : "You can use in animals for breeding, lactation and pregnancy.",
     "howToGive"         : "",
     "dosage"            : "",
@@ -330,13 +347,13 @@
     "effect"            : "",
     "typeDeworming"     : "both",
     "killingActivity"   : "1 month",
-    "indications"       : ["Dirofilaria"],
+    "indications"       : ["Dirofilaria", "Demodex?"],
     "contraindications" : "Do not give to puppies less than 1,5 months of age.",
     "precautions"       : "",
     "pregnancy"         : "",
     "howToGive"         : "With or without food.",
     "dosage"            : "",
-    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2018/08/endectovet.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/endectovet.pdf",
     "image"             : "assets/pdfs/@deworming/endectovet.png"
   },
   {
@@ -347,13 +364,13 @@
     "effect"            : "",
     "typeDeworming"     : "internal",
     "killingActivity"   : "1 month",
-    "indications"       : ["intestinal worms including nematodes", "Dirofilaria"],
+    "indications"       : ["intestinal worms including nematodes", "Cestodes", "Dirofilaria", "Thelazia"],
     "contraindications" : "Do not give to puppies less than 2 weeks of age and/ or 0,5 kg weight.",
     "precautions"       : "",
     "pregnancy"         : "You can use in dogs for breeding, lactation and pregnancy.",
     "howToGive"         : "With or after food.",
     "dosage"            : "@assets/pdfs/@deworming/milprazon-dog-tablitsa.png",
-    "link"              : "https://nancytaneva.github.io/pdfs/milpro-dog.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/milpro-dog.pdf",
     "image"             : "assets/pdfs/@deworming/milpro-dog-2.5.png"
   },
   {
@@ -364,13 +381,13 @@
     "effect"            : "",
     "typeDeworming"     : "internal",
     "killingActivity"   : "1 month",
-    "indications"       : ["intestinal worms including nematodes", "Dirofilaria"],
+    "indications"       : ["intestinal worms including nematodes", "Cestodes", "Dirofilaria", "Thelazia"],
     "contraindications" : "Do not give to puppies less than 2 weeks of age and/ or 0,5 kg weight.",
     "precautions"       : "",
     "pregnancy"         : "You can use in dogs for breeding, lactation and pregnancy.",
     "howToGive"         : "With or after food.",
     "dosage"            : "@assets/pdfs/@deworming/milprazon-dog-tablitsa.png",
-    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2020/01/Milprazon_KRKA.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/milprazon.pdf",
     "image"             : "assets/pdfs/@deworming/milprazon-dog.png"
   },
   {
@@ -387,7 +404,7 @@
     "pregnancy"         : "You can use in dogs for breeding, lactation and pregnancy.",
     "howToGive"         : "With food.",
     "dosage"            : "1 tabl/ 10 kg",
-    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2022/11/CCF_000711.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/dihelvet.pdf",
     "image"             : "assets/pdfs/@deworming/dihelvet.png"
   },
   {
@@ -404,7 +421,7 @@
     "pregnancy"         : "You can use in dogs for breeding, lactation and pregnancy.",
     "howToGive"         : "With or without food.",
     "dosage"            : "@assets/pdfs/@deworming/cestal-plus-tablitsa.png",
-    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2018/08/Cestal-Plus-listovka.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/cestal-plus.pdf",
     "image"             : "assets/pdfs/@deworming/cestal-plus.png"
   },
   {
@@ -438,7 +455,7 @@
     "pregnancy"         : "",
     "howToGive"         : "With or without food.",
     "dosage"            : "1 ml/kg",
-    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2018/08/Drontal_puppy_susp.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/drontal-puppy.pdf",
     "image"             : "assets/pdfs/@deworming/drontal-puppy.png"
   },
   {
@@ -455,7 +472,7 @@
     "pregnancy"         : "Do not give in the first 2/3 of the pregnancy. You can give it to lactating dogs.",
     "howToGive"         : "With or without food. Recommended to give after food.",
     "dosage"            : "@assets/pdfs/@deworming/drontal-plus-tablitsa.png",
-    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2021/07/Drontal_Plus_tabl_for_dogs.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/drontal-plus.pdf",
     "image"             : "assets/pdfs/@deworming/drontal-dog-flavour.png"
   },
   {
@@ -472,7 +489,7 @@
     "pregnancy"         : "Do not give in the first 2/3 of the pregnancy. You can give it to lactating dogs.",
     "howToGive"         : "With or without food. Recommended to give after food.",
     "dosage"            : "@assets/pdfs/@deworming/drontal-dog-xl-tablitsa.png",
-    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2018/08/Drontal_dog_flavour_XL_525_504_174_mg_tabl.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/drontal-dog-xl.pdf",
     "image"             : "assets/pdfs/@deworming/drontal-dog-xl.png"
   },
   {
@@ -489,7 +506,7 @@
     "pregnancy"         : "Do not give in the first 2/3 of the pregnancy. You can give it to lactating dogs.",
     "howToGive"         : "With or without food. Recommended to give after food.",
     "dosage"            : "1 tabl/ 10 kg",
-    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2021/08/PRAZITEL_PLUS_XL_0022-1879.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/prazitel-plus.pdf",
     "image"             : "assets/pdfs/@deworming/prazitel-plus.png"
   },
   {
@@ -540,7 +557,7 @@
     "pregnancy"         : "You can use in animals for lactation and pregnancy.",
     "howToGive"         : "Do not give with food.",
     "dosage"            : "1 tabl/ 10 kg",
-    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2018/08/Biheldon_tabl.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/biheldon.pdf",
     "image"             : "assets/pdfs/@deworming/biheldon-dogs-cats.png"
   },
   {
@@ -557,7 +574,7 @@
     "pregnancy"         : "Do not give to lactating or pregnant animals.",
     "howToGive"         : "With or without food.",
     "dosage"            : "1 tabl/ 10 kg",
-    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2018/08/prazimec-d_000242.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/.pdf",
     "image"             : "assets/pdfs/@deworming/prazimec-d.png"
   },
   {
@@ -568,13 +585,13 @@
     "effect"            : "",
     "typeDeworming"     : "internal",
     "killingActivity"   : "2 weeks",
-    "indications"       : ["intestinal worms including nematodes"],
+    "indications"       : ["intestinal worms including nematodes", "Isospora"],
     "contraindications" : "Do not give to puppies less than 2 weeks of age and/ or 0,4 kg weight. Do not give with ivermectin or other macrocyclic lactones, erythromycin, prednisolone, cyclosporine.",
     "precautions"       : "For puppies over 2 weeks (and not less than 0,4 kg) until 12 weeks of age.",
     "pregnancy"         : "No data.",
     "howToGive"         : "Shake before use.",
     "dosage"            : "@assets/pdfs/@deworming/procox-tablitsa.png",
-    "link"              : "https://ec.europa.eu/health/documents/community-register/2011/2011042099948/anx_99948_bg.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/procox.pdf",
     "image"             : "assets/pdfs/@deworming/procox.png"
   },
   {
@@ -585,13 +602,13 @@
     "effect"            : "",
     "typeDeworming"     : "internal",
     "killingActivity"   : "2 weeks",
-    "indications"       : ["intestinal worms including nematodes"],
+    "indications"       : ["intestinal worms including nematodes", "Giardia in dogs"],
     "contraindications" : "",
     "precautions"       : "",
     "pregnancy"         : "Do not give in the first 2/3 of the pregnancy for dogs. Do not give to pregnant or lactating cats.",
-    "howToGive"         : "With or after food.",
+    "howToGive"         : "With or after food. 1 деление е 50 мг.",
     "dosage"            : "@assets/pdfs/@deworming/panacur-pet-paste-tablitsa.png",
-    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2018/08/PANACUR_PETPASTE.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/panacur-petpaste.pdf",
     "image"             : "assets/pdfs/@deworming/panacur-pet-paste.png"
   },
   {
@@ -608,8 +625,8 @@
     "pregnancy"         : "Do not give in the first 2/3 of the pregnancy for dogs. Do not give to pregnant or lactating cats.",
     "howToGive"         : "With or after food.",
     "dosage"            : "0.5 ml/kg",
-    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2018/08/Panacur_10-susp.pdf",
-    "image"             : "assets/pdfs/@deworming/panacur-pet-paste.png"
+    "link"              : "assets/pdfs/@deworming/pdfs/panacur-10.pdf",
+    "image"             : "assets/pdfs/@deworming/panacur-10.png"
   },
   {
     "title"             : "Vitaminthe",
@@ -651,7 +668,7 @@
     "pregnancy"         : "Can be used in pregnant and lactating cats.",
     "howToGive"         : "On the skin.",
     "dosage"            : "",
-    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2018/08/FIPREX_S.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/fiprex-cat.pdf",
     "image"             : "assets/pdfs/@deworming/fiprex-cat.png"
   },
   {
@@ -685,7 +702,7 @@
     "pregnancy"         : "",
     "howToGive"         : "On the skin.",
     "dosage"            : "",
-    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2018/08/FRONTLINE_COMBO_SPOT_ON_Cat.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/frontline-combo-cat.pdf",
     "image"             : "assets/pdfs/@deworming/frontline-combo-cat.png"
   },
   {
@@ -719,7 +736,7 @@
     "pregnancy"         : "Can be used in breeding, pregnant and lactating queens.",
     "howToGive"         : "",
     "dosage"            : "",
-    "link"              : "https://www.ema.europa.eu/en/documents/product-information/nexgard-combo-epar-product-information_en.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/nexgard-combo.pdf",
     "image"             : "assets/pdfs/@deworming/nexgard-combo-cats.png"
   },
   {
@@ -730,13 +747,13 @@
     "effect"            : "",
     "typeDeworming"     : "both",
     "killingActivity"   : "1 month",
-    "indications"       : ["fleas", "ticks", "Dirofilaria", "without tenia"],
+    "indications"       : ["fleas", "ticks", "lice", "Otodectes", "Toxocara", "Ancylostoma", "Dirofilaria", "do not kill tenia"],
     "contraindications" : "Do not give to animals less than 8 weeks of age and at least 1,25 kg of weight.",
     "precautions"       : "",
     "pregnancy"         : "",
     "howToGive"         : "",
     "dosage"            : "",
-    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2021/09/stronghold-plus.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/stronghold-plus.pdf",
     "image"             : "assets/pdfs/@deworming/stronghold-plus-cats.png"
   },
   {
@@ -747,20 +764,20 @@
     "effect"            : "",
     "typeDeworming"     : "internal",
     "killingActivity"   : "1 month",
-    "indications"       : ["fleas", "ticks", "lice", "intestinal worms including nematodes"],
+    "indications"       : ["fleas", "ticks", "lice", "Otodectes", "Cheyletiella", "intestinal worms including nematodes"],
     "contraindications" : "Do not give to kittens less than 8 weeks of age.",
     "precautions"       : "",
     "pregnancy"         : "Do not give to lactating or pregnant animals.",
     "howToGive"         : "With or without food.",
-    "dosage"            : "",
-    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2018/08/prazimec-c_000241.pdf",
+    "dosage"            : "1 tabl/ 2.5 kg",
+    "link"              : "assets/pdfs/@deworming/pdfs/prazimec-c.pdf",
     "image"             : "assets/pdfs/@deworming/prazimec-c.png"
   },
   {
     "title"             : "Cestal Cat",
     "species"           : "cat",
     "form"              : "tabl",
-    "activeSubstance"   : ["fenbendazole"],
+    "activeSubstance"   : ["praziquantel", "pyrantel"],
     "effect"            : "",
     "typeDeworming"     : "internal",
     "killingActivity"   : "1 month",
@@ -770,8 +787,25 @@
     "pregnancy"         : "Do not give to pregnant animals. You can give it to lactating animals.",
     "howToGive"         : "With or without food.",
     "dosage"            : "@assets/pdfs/@deworming/cestal-cat-tablitsa.png",
-    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2018/08/Cestal-Cat-Chew-listovka.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/cestal-cat.pdf",
     "image"             : "assets/pdfs/@deworming/cestal-cat.png"
+  },
+  {
+    "title"             : "Drontal Cat",
+    "species"           : "dog",
+    "form"              : "tabl",
+    "activeSubstance"   : ["praziquantel", "pyrantel"],
+    "effect"            : "",
+    "typeDeworming"     : "internal",
+    "killingActivity"   : "3 months",
+    "indications"       : ["intestinal worms including nematodes"],
+    "contraindications" : "Do not give with piperazin. Do not give to kittens under 6 weeks of age.",
+    "precautions"       : "",
+    "pregnancy"         : "Do not give to pregnant queens.",
+    "howToGive"         : "With or without food.",
+    "dosage"            : "@assets/pdfs/@deworming/drontal-cat-tablitsa.png",
+    "link"              : "assets/pdfs/@deworming/pdfs/drontal-cat.pdf",
+    "image"             : "assets/pdfs/@deworming/drontal-cat.png"
   },
   {
     "title"             : "Milpro for cats",
@@ -787,7 +821,7 @@
     "pregnancy"         : "You can use in cats for lactation and pregnancy.",
     "howToGive"         : "With or after food.",
     "dosage"            : "@assets/pdfs/@deworming/milpro-cat-tablitsa.png",
-    "link"              : "https://www.vetsend.co.uk/prescriptions/leaflet-milpro-cat-2.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/milpro-cat.pdf",
     "image"             : "assets/pdfs/@deworming/milpro-cat.png"
   },
   {
@@ -804,24 +838,7 @@
     "pregnancy"         : "You can use in cats for lactation and pregnancy.",
     "howToGive"         : "With or after food.",
     "dosage"            : "@assets/pdfs/@deworming/milprazon-cat-tablitsa.png",
-    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2021/08/Milprazon_16_40_PIL.pdf",
+    "link"              : "assets/pdfs/@deworming/pdfs/milprazon-cat.pdf",
     "image"             : "assets/pdfs/@deworming/milprazon-cat.png"
-  },
-  {
-    "title"             : "Drontal Cat",
-    "species"           : "dog",
-    "form"              : "tabl",
-    "activeSubstance"   : ["pyrantel", "praziquantel"],
-    "effect"            : "",
-    "typeDeworming"     : "internal",
-    "killingActivity"   : "3 months",
-    "indications"       : ["intestinal worms including nematodes"],
-    "contraindications" : "Do not give with piperazin. Do not give to kittens under 6 weeks of age.",
-    "precautions"       : "",
-    "pregnancy"         : "Do not give to pregnant queens.",
-    "howToGive"         : "With or without food.",
-    "dosage"            : "@assets/pdfs/@deworming/drontal-cat-tablitsa.png",
-    "link"              : "https://www.sigmaprovadia.com/wp-content/uploads/2018/08/Drontal_Cat.pdf",
-    "image"             : "assets/pdfs/@deworming/drontal-cat.png"
   }
 ]
