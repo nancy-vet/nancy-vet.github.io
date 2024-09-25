@@ -56,4 +56,8 @@ export class MainComponent implements OnInit {
     window.open(`${url}`, '_blank')?.focus();
     console.log(`link: ${url}`)
   }
+
+  public renderImage(tag: string) {
+    return tag.replace("@", "");
+  }
 }
