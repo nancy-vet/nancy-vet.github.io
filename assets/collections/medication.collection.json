@@ -648,7 +648,7 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/diatab.pdf" }
     ],
-    "indications"       : ["при остри чревни нарушения;", "под 10 кг - по 1/2 табл q12h.", "10-20 кг - по 1 табл q12h.", "над 20 кг - по 1 табл q8h."],
+    "indications"       : ["допълваща храна за кучета при остри чревни нарушения.", "под 10 кг - по 1/2 табл q12h.", "10-20 кг - по 1 табл q12h.", "над 20 кг - по 1 табл q8h."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -724,13 +724,13 @@
   },
   {
     "type": "gastrointestinal",
-    "title": "Стромек",
-    "titleEn": "Stromek",
+    "title": "Стомек табл",
+    "titleEn": "Stomek tabl",
     "activeSubstance": "лайка, женско биле, джинджифил, бактерии",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
-      "any": {
+      "dog": {
         "activeSubstanceDose": [
           1
         ],
@@ -738,7 +738,7 @@
         "applicationMethod": "PO веднъж дневно преди хранене (над 20 кг - 3 табл.)"
       }
     },
-    "indications"       : ["Джинджифилът и женското биле помагат срещу гаденето и стомашната хиперкиселинност. Лайката (поради своята спазмолитична активност) и бодливата круша създават бариерен слой в стомаха, помагат за противодействие симптомите на гастрит. Чрез непряко действие бактериите поддържат действието на Stromek във времето."],
+    "indications"       : ["Джинджифилът и женското биле помагат срещу гаденето и стомашната хиперкиселинност. Лайката (поради своята спазмолитична активност) и бодливата круша създават бариерен слой в стомаха, помагат за противодействие симптомите на гастрит. Чрез непряко действие бактериите поддържат действието на Stomek във времето."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -1005,7 +1005,7 @@
     "type": "gastrointestinal",
     "title": "Хепатиале Форте малки породи 170 мг",
     "titleEn": "Hepatiale Forte 170 mg",
-    "activeSubstance": "-",
+    "activeSubstance": "S-аденозилметионин, силимарин, орнитин, цинк, фосфолипиди",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
@@ -1024,17 +1024,17 @@
         "applicationMethod": "на ден"
       }
     },
-    "indications"       : [],
+    "indications"       : ["За кучета и котки с цел подпомагане на чернодробната функция в случаи на чернодробна недостатъчност, заболявания на черния дроб и отравяния."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
-    "pharmacology"      : []
+    "pharmacology"      : ["S-Аденозилметионин (SAM) намалява при ЧД заболявания.", "Силимарин - антиоксидант върху хепатоцитите."]
   },
   {
     "type": "gastrointestinal",
     "title": "Хепатиале Форте Адвансд",
     "titleEn": "Hepatiale Forte Advanced",
-    "activeSubstance": "-",
+    "activeSubstance": "S-аденозилметионин, силимарин, орнитин, цинк, фосфолипиди",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
@@ -1046,11 +1046,11 @@
         "applicationMethod": "PO"
       }
     },
-    "indications"       : [],
+    "indications"       : ["За кучета и котки с цел подпомагане на чернодробната функция в случаи на чернодробна недостатъчност, заболявания на черния дроб и отравяния."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
-    "pharmacology"      : []
+    "pharmacology"      : ["S-Аденозилметионин (SAM) намалява при ЧД заболявания.", "Силимарин - антиоксидант върху хепатоцитите."]
   },
   {
     "type": "gastrointestinal",
@@ -1595,7 +1595,7 @@
     "drugConcentration": 2.5,
     "drugConcentrationDecorator": "mg_tabl",
     "application": {
-      "any": {
+      "dog": {
         "activeSubstanceDose": [
           0.25
         ],
@@ -1608,9 +1608,9 @@
       { "title": "Plumbs Benazepril", "link": "pdfs/@medication/plumbs-pdf/benazepril.pdf" },
       { "title": "Plumbs Spironolactone", "link": "pdfs/@medication/plumbs-pdf/spironolactone.pdf" }
     ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
+    "indications"       : ["За лечение на конгестивна сърдечна недостатъчност, причинена от хронично дегенеративно заболяване на клапите при кучета (в комбинация с диуретици, където е необходимо)."],
+    "contraindications" : ["Да не се използва по време на бременност или лактация, или животни, използвани за развъждане.", "Да не се използва при случаи на сърдечна недостатъчност вследствие на стеноза на аортата или пулмоналната артерия."],
+    "drugInteractions"  : ["Да не се използва съвместно с НСПВС при КЧ с ББ недостатъчност."],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -1622,7 +1622,7 @@
     "drugConcentration": 5,
     "drugConcentrationDecorator": "mg_tabl",
     "application": {
-      "any": {
+      "dog": {
         "activeSubstanceDose": [
           0.25
         ],
@@ -1635,9 +1635,9 @@
       { "title": "Plumbs Benazepril", "link": "pdfs/@medication/plumbs-pdf/benazepril.pdf" },
       { "title": "Plumbs Spironolactone", "link": "pdfs/@medication/plumbs-pdf/spironolactone.pdf" }
     ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
+    "indications"       : ["За лечение на конгестивна сърдечна недостатъчност, причинена от хронично дегенеративно заболяване на клапите при кучета (в комбинация с диуретици, където е необходимо)."],
+    "contraindications" : ["Да не се използва по време на бременност или лактация, или животни, използвани за развъждане.", "Да не се използва при случаи на сърдечна недостатъчност вследствие на стеноза на аортата или пулмоналната артерия."],
+    "drugInteractions"  : ["Да не се използва съвместно с НСПВС при КЧ с ББ недостатъчност."],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -1649,7 +1649,7 @@
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_tabl",
     "application": {
-      "any": {
+      "dog": {
         "activeSubstanceDose": [
           0.25
         ],
@@ -1662,9 +1662,9 @@
       { "title": "Plumbs Benazepril", "link": "pdfs/@medication/plumbs-pdf/benazepril.pdf" },
       { "title": "Plumbs Spironolactone", "link": "pdfs/@medication/plumbs-pdf/spironolactone.pdf" }
     ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
+    "indications"       : ["За лечение на конгестивна сърдечна недостатъчност, причинена от хронично дегенеративно заболяване на клапите при кучета (в комбинация с диуретици, където е необходимо)."],
+    "contraindications" : ["Да не се използва по време на бременност или лактация, или животни, използвани за развъждане.", "Да не се използва при случаи на сърдечна недостатъчност вследствие на стеноза на аортата или пулмоналната артерия."],
+    "drugInteractions"  : ["Да не се използва съвместно с НСПВС при КЧ с ББ недостатъчност."],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -1682,16 +1682,16 @@
           0.5
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "разделена на 2 приема за 24 ч"
+        "applicationMethod": "разделена на 2 приема за 24 ч, един час преди хранене."
       }
     },
     "links": [
       { "title": "листовка",  "link": "pdfs/@medication/cardiovascular/vetmedin.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/pimobendan.pdf" }
     ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
+    "indications"       : ["За лечение на конгестивна сърдечна недостатъчност при кучета, причинена от дилатативна кардиомиопатия или клапанна недостатъчност (митрална и/или трикуспидална клапанна регургитация).", "За лечение на дилатативна кардиомиопатия в предклиничен стадий (асимптоматична с увеличаване на разликата в диапазона между систоличното и диастоличното налягане в лявата камера) при доберман-пинчери след ехокардиографско диагностициране на сърдечното заболяване.", "За лечение на кучета с миксоматозно заболяване на митралната клапа (MMVD) в предклиничен стадий (асимптоматично със систоличен митрален шум и данни за увеличен размер на сърцето), за да се забави появата на клинични симптоми на сърдечна недостатъчност.", "Предпочитаната доза е 0,5 mg пимобендан/kg телесна маса, разделена на две дневни дози."],
+    "contraindications" : ["Не използвайте пимобендан при хипертрофични кардиомиопатии или при заболявания, при които не може да се получи подобрение на ударния обем поради функционални или анатомични причини (напр. аортна стеноза).", "Не трябва да се използва при кучета с тежко нарушение на чернодробната функция."],
+    "drugInteractions"  : ["Пимобендан може също да се използва в комбинация с диуретик, напр. фуроземид."],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -1716,9 +1716,9 @@
       { "title": "листовка",  "link": "pdfs/@medication/cardiovascular/cardisure.pdf" },
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/pimobendan.pdf" }
     ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
+    "indications"       : ["За лечение на конгестивна сърдечна недостатъчност при кучета, причинена от дилатативна кардиомиопатия или клапанна недостатъчност (митрална и/или трикуспидална клапанна регургитация).", "За лечение на дилатативна кардиомиопатия в предклиничен стадий (асимптоматична с увеличаване на разликата в диапазона между систоличното и диастоличното налягане в лявата камера) при доберман-пинчери след ехокардиографско диагностициране на сърдечното заболяване.", "За лечение на кучета с миксоматозно заболяване на митралната клапа (MMVD) в предклиничен стадий (асимптоматично със систоличен митрален шум и данни за увеличен размер на сърцето), за да се забави появата на клинични симптоми на сърдечна недостатъчност.", "Предпочитаната доза е 0,5 mg пимобендан/kg телесна маса, разделена на две дневни дози."],
+    "contraindications" : ["Не използвайте пимобендан при хипертрофични кардиомиопатии или при заболявания, при които не може да се получи подобрение на ударния обем поради функционални или анатомични причини (напр. аортна стеноза).", "Не трябва да се използва при кучета с тежко нарушение на чернодробната функция."],
+    "drugInteractions"  : ["Пимобендан може също да се използва в комбинация с диуретик, напр. фуроземид."],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -1730,7 +1730,7 @@
     "drugConcentration": 1.25,
     "drugConcentrationDecorator": "mg_tabl",
     "application": {
-      "dogs": {
+      "dog": {
         "activeSubstanceDose": [
           0.25,
           0.5
@@ -1758,7 +1758,7 @@
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_tabl",
     "application": {
-      "dogs": {
+      "dog": {
         "activeSubstanceDose": [
           0.5
         ],
@@ -1783,7 +1783,7 @@
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_tabl",
     "application": {
-      "dogs": {
+      "dog": {
         "activeSubstanceDose": [
           0.5
         ],
@@ -1890,7 +1890,7 @@
         "applicationMethod": "1 г/5 кг два пъти дневно през устата или смесено с основната храна."
       }
     },
-    "indications"       : ["Първият по рода си в света продукт, завършена и оптимизирана комбинация от съставки с превъзходен вкус, които играят ролята да улавят фосфати, т.е. да редуцират фосфатемията. През периода на приложение трябва да се осигури постоянен достъп до прясна вода. Прилагането може да продължи през целия остатък от живота."],
+    "indications"       : ["Продукт, чиито съставки улавят фосфати, т.е. да редуцират фосфатемията. През периода на приложение трябва да се осигури постоянен достъп до прясна вода. Прилагането може да продължи през целия остатък от живота."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -1898,9 +1898,60 @@
   },
   {
     "type": "urogenital",
+    "title": "ДиРеНе",
+    "titleEn": "DiReNe",
+    "activeSubstance": "хитозан, кверцетин, червена боровинка, куркума",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl_10_kg",
+        "applicationMethod": "веднъж дневно, в продължение на най-малко 4 месеца"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl_5_kg",
+        "applicationMethod": "веднъж дневно, в продължение на най-малко 4 месеца"
+      }
+    },
+    "indications"       : ["Подкрепа при лекарствени или хранителни терапии в случаи на остра бъбречна недостатъчност."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : ["Хитозанът намалява фосфора."]
+  },
+  {
+    "type": "urogenital",
+    "title": "RenalVet caps",
+    "titleEn": "РеналВет капс",
+    "activeSubstance": "калциев карбонат, хитозан, витамин D3",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "caps_10_kg",
+        "applicationMethod": "веднъж дневно PO или с храната"
+      }
+    },
+    "indications"       : ["При хронична бъбречна недостатъчност при кучета и котки."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : ["Калциевият карбонат и хитозанът се свързват с фосфора."]
+  },
+  {
+    "type": "urogenital",
     "title": "ИркВет 50 мл",
     "titleEn": "IrcVet",
-    "activeSubstance": "-",
+    "activeSubstance": "калциев карбонат, ресвератрол, цинарин, EPA, DHA, др.",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
@@ -4502,7 +4553,7 @@
     "drugConcentration": 16,
     "drugConcentrationDecorator": "mg_ml",
     "application": {
-      "dogs": {
+      "dog": {
         "activeSubstanceDose": [
           1
         ],
@@ -5528,8 +5579,8 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/antibiotics/veraflox.pdf" }
     ],
-    "indications"       : ["група: хинолони", "Pradofloxacin не повлиява хрущялното развитие при котенца на 6 седмична възраст и поголеми."],
-    "contraindications" : ["Поради липса на данни, pradofloxacin не трябва да се използва при котенца под 6-седмична възраст.", "Да не се използва при котки с нарушения в централната нервна система (ЦНС)."],
+    "indications"       : ["група: хинолони", "Използва се при Хемотропна микоплазмоза (Haemobartonella felis, Haemobartonella canis).", "Pradofloxacin не повлиява хрущялното развитие при котенца на 6-седмична възраст и по-големи."],
+    "contraindications" : ["Поради липса на данни, pradofloxacin не трябва да се използва при котенца под 6-седмична възраст.", "Да не се използва при котки с нарушения в централната нервна система (ЦНС).", "Не използвай по време на бременност."],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
@@ -5587,7 +5638,7 @@
   {
     "type": "antibiotics",
     "title": "Доксициклин 20 мг/ мл",
-    "titleEn": "doxycycline 20 mg/ml",
+    "titleEn": "Doxycycline 20 mg/ml",
     "activeSubstance": "доксициклин",
     "drugConcentration": 20,
     "drugConcentrationDecorator": "mg_ml",
@@ -5604,7 +5655,33 @@
     "links": [
       { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/doxycycline.pdf" }
     ],
-    "indications"       : ["група: тетрациклини"],
+    "indications"       : ["група: тетрациклини", "За лечение на кърлежово-преносими заболявания при кучетата и някои вирусни инфекции при котки.", "Доксициклина, въведен ИВ, причинява алергична реакция? при много кучета и котки!"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : ["гадене и повръщане. За облекчаване на тези ефекти, лекарството може да се дава с храна"],
+    "pharmacology"      : ["За разлика от окситетрациклин или тетрациклин, доксициклин може да се използва при пациенти с бъбречна недостатъчност."]
+  },
+  {
+    "type": "antibiotics",
+    "title": "Доксибактин 400 мг табл",
+    "titleEn": "Doxybactin 400 mg Tabl",
+    "activeSubstance": "доксициклин",
+    "drugConcentration": 400,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          5
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO q12h за 7-14 дни (или 28 дни), или 10 mg/kg PO q24h"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/antibiotics/doxybactin.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/doxycycline.pdf" }
+    ],
+    "indications"       : ["група: тетрациклини", "За лечение на кърлежово-преносими заболявания при кучетата и някои вирусни инфекции при котки."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : ["гадене и повръщане. За облекчаване на тези ефекти, лекарството може да се дава с храна"],
@@ -6026,7 +6103,7 @@
         "activeSubstanceDose": [
           10
         ],
-        "activeSubstanceDoseDecorator": "мг/кг",
+        "activeSubstanceDoseDecorator": "mg_kg",
         "applicationMethod": "PO q12h 7-10 дни"
       }
     },
@@ -9001,7 +9078,7 @@
     "type": "others",
     "title": "КардиоВет",
     "titleEn": "CardioVet",
-    "activeSubstance": "L-карнитин, Витамин Е, Селен, Коензим Q10, Таурин",
+    "activeSubstance": "L-карнитин, витамин Е, селен, коензим Q10, таурин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
@@ -9010,14 +9087,14 @@
           1
         ],
         "activeSubstanceDoseDecorator": "tabl",
-        "applicationMethod": "два пъти дневно (КЧ <15 кг)"
+        "applicationMethod": "два пъти дневно (КЧ <15 кг) PO или с храна"
       }
     },
-    "indications"       : [],
+    "indications"       : ["Продуктът се препоръчва за кучета от дилативна кардиомиопатия или от митрална регургитация.", "Кучета повече от 15 кг телесно тегло: две таблетки два пъти дневно. В случаи на кучета, чието телесно тегло е над 40 кг, ветеринарният лекар може да увеличи дозата."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
-    "pharmacology"      : []
+    "pharmacology"      : ["L-карнитин - 95% от общия карнитин в организма се намира в миокарда, което доказва, че една от основните му функции е да доставя енергия за непрестанната работа на сърцето. L-карнитиновата недостатъчност при кучетата е в пряка корелация с развитието на дилативната кардиомиопатия.", "Тауринът има антиаритмични свойства, регулира сърдечния ритъм в зависимост от нивата на калциевите йони и осигурява интегритета на миокардните клетки.", "Витамин Е (комбиниран със селен) е мощен антиоксидант.", "Коензим Q10 (убихинон) е жизненоважен за енергообразуването в организма и е антиоксидант."]
   },
   {
     "type": "others",
@@ -9419,7 +9496,7 @@
     "type": "others",
     "title": "Карминал Петс сироп",
     "titleEn": "Carminal Pets syrup",
-    "activeSubstance": "Алое Вера, Опунциа Фикус и маслиново масло, витамини, др.",
+    "activeSubstance": "Алое Вера, Опунция Фикус, маслиново масло, витамини, др.",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
     "application": {
