@@ -208,6 +208,7 @@ export class DrugCard2 implements OnInit {
   // Convert decorators:
   if (decorator     == "mg_ml"        ) return "mg/ml";
   if (decorator     == "mg_tabl"      ) return "mg/tabl";
+  if (decorator     == "µg_tabl"      ) return "µg/tabl";
 
   if (decorator     == "mg_caps"      ) return "mg/caps";
   if (decorator     == "µg_ml"        ) return "µg/ml";
