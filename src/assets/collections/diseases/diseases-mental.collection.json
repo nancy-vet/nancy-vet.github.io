@@ -443,15 +443,15 @@
   },
   {
     "title"       : "Дерматит от близане",
-    "titleEn"     : "Acral Lick Dermatitis",
+    "titleEn"     : "Canine Lick Granuloma (Acral Lick Dermatitis)",
     "type"        : "mental",
-    "animals"     : ["dogs", "cats"],
+    "animals"     : ["dogs"],
     "bodySystem"  : [""],
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],
-    "etiology"      : [""],
+    "etiology"      : ["Виж: Кожни заболявания"],
     "signs"         : ["", "", ""],
     "specificSigns" : [""],
     "diagnostics"   : [""],
