@@ -20,8 +20,10 @@ export class ResultModal implements OnInit {
   public ngOnInit() {
 
     this.selectedObject.v1 = (
-        parseFloat(this.selectedObject.c2) /  parseFloat(this.selectedObject.c1)
-      ) * parseFloat(this.selectedObject.v2);
+      (Math.round(
+        (  parseFloat(this.selectedObject.c2) /  parseFloat(this.selectedObject.c1)
+          ) * parseFloat(this.selectedObject.v2)
+      )*100))/100;
 
     if(this.selectedObject.patientType   == 'dog') {
 

@@ -44,7 +44,7 @@ export class PoisonPage implements OnInit {
     patientWeight : '',
     patientType   : 'dog',
 
-    c1            : null,
+    c1            : 40,
     c2            : 5,
     v2            : 100
   }
