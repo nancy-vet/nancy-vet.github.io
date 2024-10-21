@@ -157,6 +157,33 @@
     "pharmacology"      : []
   },
   {
+    "type": "nervous",
+    "title": "Аповомин 3 мг/мл",
+    "titleEn": "Apovomin 3 mg/ml",
+    "activeSubstance": "апоморфин",
+    "drugConcentration": 3,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          0.05,
+          0.1
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "SC или 0.02-0.03 мл/кг"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/nervous/apovomin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/apomorphine.pdf" }
+    ],
+    "indications"       : ["Индукция на емеза"],
+    "contraindications" : ["Да не се използва при котки.", "Да не се използва, ако разтворът е станал зелен. "],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
     "type": "gastrointestinal",
     "title": "Нолпаза 40 мг/4 мл",
     "titleEn": "Nolpaza 40 mg/4 ml",
@@ -2628,33 +2655,6 @@
   },
   {
     "type": "nervous",
-    "title": "Бупак 0.3 мг/мл",
-    "titleEn": "Bupaq 0.3 mg/ml",
-    "activeSubstance": "бупренорфин",
-    "drugConcentration": 0.3,
-    "drugConcentrationDecorator": "mg_ml",
-    "application": {
-      "any": {
-        "activeSubstanceDose": [
-          0.01,
-          0.02
-        ],
-        "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "IM, IV"
-      }
-    },
-    "links": [
-      { "title": "листовка",  "link": "pdfs/@medication/nervous/bupaq.pdf" },
-      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/buprenorphine.pdf" }
-    ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
-  },
-  {
-    "type": "nervous",
     "title": "Инсистор 10 мг/мл",
     "titleEn": "Insistor 10 mg/ml",
     "activeSubstance": "метадон",
@@ -2689,27 +2689,27 @@
   },
   {
     "type": "nervous",
-    "title": "Аповомин 3 мг/мл",
-    "titleEn": "Apovomin 3 mg/ml",
-    "activeSubstance": "апоморфин",
-    "drugConcentration": 3,
+    "title": "Бупак 0.3 мг/мл",
+    "titleEn": "Bupaq 0.3 mg/ml",
+    "activeSubstance": "бупренорфин",
+    "drugConcentration": 0.3,
     "drugConcentrationDecorator": "mg_ml",
     "application": {
       "any": {
         "activeSubstanceDose": [
-          0.05,
-          0.1
+          0.01,
+          0.02
         ],
         "activeSubstanceDoseDecorator": "mg_kg",
-        "applicationMethod": "SC или 0.02-0.03 мл/кг"
+        "applicationMethod": "IM, IV"
       }
     },
     "links": [
-      { "title": "листовка",  "link": "pdfs/@medication/nervous/apovomin.pdf" },
-      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/apomorphine.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/nervous/bupaq.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/buprenorphine.pdf" }
     ],
-    "indications"       : ["Индукция на емеза"],
-    "contraindications" : ["Да не се използва при котки.", "Да не се използва, ако разтворът е станал зелен. "],
+    "indications"       : [],
+    "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
@@ -2719,10 +2719,10 @@
     "title": "Транквилин 35 мг/мл",
     "titleEn": "Tranquiline 35 mg/ml",
     "activeSubstance": "ацепромазин",
-    "drugConcentration": 10,
+    "drugConcentration": 35,
     "drugConcentrationDecorator": "mg_ml",
     "application": {
-      "dog": {
+      "any": {
         "activeSubstanceDose": [
           1,
           3
@@ -2732,12 +2732,13 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/nervous/trankvilin.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/nervous/trankvilin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/acepromazine.pdf" }
     ],
-    "indications"       : [],
+    "indications"       : ["фенотиазинов транквилант"],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["Хипотензия"],
     "pharmacology"      : []
   },
   {
@@ -3209,7 +3210,7 @@
       }
     },
     "links": [
-      { "title": "Plumbs", "link": "pdfs/@medication/nervous/propofol.pdf" }
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/propofol.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -3276,7 +3277,35 @@
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
-  },{
+  },
+  {
+    "type": "nervous",
+    "title": "Амитриптилин 25 мг табл",
+    "titleEn": "Amitriptyline 25 mg tabl",
+    "activeSubstance": "амитриптилин",
+    "drugConcentration": 25,
+    "drugConcentrationDecorator": "mg_tabl",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1,
+          2
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO q12h"
+      }
+    },
+    "links": [
+      { "title": "Plumbs", "link": "pdfs/@medication/nervous/amitriptilin.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/amitriptyline.pdf" }
+    ],
+    "indications"       : ["трицикличен антидепресант", "За лечение на психогенен сърбеж."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
     "type": "nervous",
     "title": "Бусколизин 1%",
     "titleEn": "Buscolisin 1%",
