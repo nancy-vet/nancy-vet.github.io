@@ -157,7 +157,7 @@
     "pharmacology"      : []
   },
   {
-    "type": "nervous",
+    "type": "gastrointestinal",
     "title": "Аповомин 3 мг/мл",
     "titleEn": "Apovomin 3 mg/ml",
     "activeSubstance": "апоморфин",
@@ -3045,6 +3045,41 @@
       { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/atipamezole.pdf" }
     ],
     "indications"       : [],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "nervous",
+    "title": "Допрам-В инж",
+    "titleEn": "Dopram-V inj",
+    "activeSubstance": "доксапрам",
+    "drugConcentration": 5,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1,
+          5
+        ],
+        "activeSubstanceDoseDecorator": "gtt",
+        "applicationMethod": "intranasal"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          1,
+          2
+        ],
+        "activeSubstanceDoseDecorator": "gtt",
+        "applicationMethod": "intranasal"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/nervous/dopram.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/doxapram.pdf" }
+    ],
+    "indications"       : ["Стимулиране на дишането и постнатална реанимация.", "Продуктът се аплицира през 20 минути при необходимост. Не добавяй, докато ефектът на първата доза не е изчезнал. Преди приложение, дихателните пътища на новороденото трябва да се почистят."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
