@@ -6061,7 +6061,7 @@
     },
     "links": [
       { "title": "Plumbs Lincomycin", "link": "pdfs/@medication/plumbs-pdf/lincomycin.pdf" },
-      { "title": "Plumbs Spectinomycin", "link": "pdfs/@medication/nervous/spectinomycin.pdf" }
+      { "title": "Plumbs Spectinomycin", "link": "pdfs/@medication/plumbs-pdf/spectinomycin.pdf" }
     ],
     "indications"       : ["група: линкозамиди"],
     "contraindications" : [],
@@ -6087,9 +6087,36 @@
     },
     "links": [
       { "title": "Plumbs Lincomycin", "link": "pdfs/@medication/plumbs-pdf/lincomycin.pdf" },
-      { "title": "Plumbs Spectinomycin", "link": "pdfs/@medication/nervous/spectinomycin.pdf" }
+      { "title": "Plumbs Spectinomycin", "link": "pdfs/@medication/plumbs-pdf/spectinomycin.pdf" }
     ],
     "indications"       : ["група: линкозамиди"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antibiotics",
+    "title": "Линкоджект 100 мг/мл инж. р-р",
+    "titleEn": "Lincoject 100 mg/ml inj. solution",
+    "activeSubstance": "линкомицин",
+    "drugConcentration": 100,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          11,
+          22
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "IM или бавно IV q24h, или разделено на две q12h"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/antibiotics/lincoject.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/lincomycin.pdf" }
+    ],
+    "indications"       : ["група: линкозамиди", "Линкоджект се препоръчва при кучета и котки за лечение на: тонзилити, ларингити и други инфекции на дихателната система, абсцеси, инфектирани рани и гнойни дерматити, септицемии."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
@@ -7126,6 +7153,58 @@
   },
   {
     "type": "endocrine",
+    "title": "Felimazole 5 mg/ml перорален разтвор за котки",
+    "titleEn": "Felimazole 5 mg/ml oral solution for cats",
+    "activeSubstance": "тиамазол (още метимазол)",
+    "drugConcentration": 5,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "cat": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "ml",
+        "applicationMethod": "PO, разделена сутрин и вечер"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/endocrine/felimazole.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/methimazole.pdf" }
+    ],
+    "indications"       : ["За дългосрочно лечение на хипертиреоидизъм при котки.", "Общата дневна доза трябва да се раздели на две равни дози и да се прилага сутрин и вечер."],
+    "contraindications" : ["Да не се използва при котки, страдащи от системни заболявания, като първично чернодробно заболяване или захарен диабет, автоимунно заболяване, коагулопатии, бременни или кърмещи."],
+    "drugInteractions"  : [],
+    "adverseEffects"    : ["Повръщане, анорексия, летаргия, хепатопатия, лимфопения, анемия."],
+    "pharmacology"      : []
+  },
+  {
+    "type": "endocrine",
+    "title": "Метизол 5 mg таблетки",
+    "titleEn": "Metizol 5 mg tablets",
+    "activeSubstance": "тиамазол (още метимазол)",
+    "drugConcentration": 5,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "cat": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl",
+        "applicationMethod": "PO, разделена сутрин и вечер"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/endocrine/metizol.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/methimazole.pdf" }
+    ],
+    "indications"       : ["За дългосрочно лечение на хипертиреоидизъм при котки.", "Общата дневна доза трябва да се раздели на две равни дози и да се прилага сутрин и вечер."],
+    "contraindications" : ["Да не се използва при котки, страдащи от системни заболявания, като първично чернодробно заболяване или захарен диабет, автоимунно заболяване, коагулопатии, бременни или кърмещи."],
+    "drugInteractions"  : [],
+    "adverseEffects"    : ["Повръщане, анорексия, летаргия, хепатопатия, лимфопения, анемия."],
+    "pharmacology"      : []
+  },
+  {
+    "type": "endocrine",
     "title": "Бинокрит амп. 4000 IU",
     "titleEn": "Binocrit amp. 4000 IU",
     "activeSubstance": "епоетин алфа",
@@ -7280,7 +7359,32 @@
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
-
+  {
+    "type": "endocrine",
+    "title": "Косактен 0.25 мг/мл инжекционен разтвор за кучета",
+    "titleEn": "Cosacthen 0.25 mg/ml inj. solution for dogs",
+    "activeSubstance": "тетракосактид",
+    "drugConcentration": 0.25,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          5
+        ],
+        "activeSubstanceDoseDecorator": "µg_kg",
+        "applicationMethod": "IV IM"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/endocrine/cosacthen.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/cosyntropin.pdf" }
+    ],
+    "indications"       : ["За изследване функцията на надбъбречната жлеза при кучета (извършване на ACTH стимулационен тест).", "Вземете първата кръвна проба непосредствено преди прилагането на продукта и вземете втората кръвна проба между 60 и 90 минути след прилагане на продукта, за да се оцени отговора на кортизола."],
+    "contraindications" : ["Да не се използва при бременни животни."],
+    "drugInteractions"  : [],
+    "adverseEffects"    : ["Повръщане", "Хематом на мястото на инжектиране."],
+    "pharmacology"      : []
+  },
 
 
   {
@@ -8855,9 +8959,10 @@
       }
     },
     "links": [
-      { "title": "листовка", "link": "pdfs/@medication/others/calciev-boroglukonat.pdf" }
+      { "title": "листовка",  "link": "pdfs/@medication/others/calciev-boroglukonat.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/calcium.pdf" }
     ],
-    "indications"       : ["При възпалителни процеси с различна етиология в началната фаза /включително при оток на белия дроб/; при кръвотечения и хеморагична диатеза; при алергични състояния – уртикария, серумна болест, при акутен тотален асептичен пододерматит и др.; при хипокалцемични състояния – тетания при кравите, рахит, остеомалация, родилна пареза, при паралитична миоглобинурия при коне; при отравяния."],
+    "indications"       : ["Доза КЧ и КТ при хипокалцемия: 50-150 мг/кг -> 0,25-0,75 мл/кг бавно венозно над 20 мин.","При възпалителни процеси с различна етиология в началната фаза /включително при оток на белия дроб/; при кръвотечения и хеморагична диатеза; при алергични състояния – уртикария, серумна болест, при акутен тотален асептичен пододерматит и др.; при хипокалцемични състояния – тетания при кравите, рахит, остеомалация, родилна пареза, при паралитична миоглобинурия при коне; при отравяния."],
     "contraindications" : ["При заболявания на сърцето и бъбреците, при животни с дихателна недостатъчност, респираторна ацидоза, стомашна фибрилация, хиперкалцемия."],
     "drugInteractions"  : ["Приемането на калциеви препарати едновременно с тиазидни диуретици, витамин А, витамин Д или негови аналози може да предизвика хиперкалцемия.Калцият при парентерално приложение може да намали ефекта на неполярните миорелаксанти.Калцият усилва действието на Тубокурарина.Магнезиевите йони усилват действието на барбитуратите."],
     "adverseEffects"    : [],
@@ -9335,6 +9440,39 @@
   },
   {
     "type": "others",
+    "title": "Имунофан амп.",
+    "titleEn": "Imunofan amp.",
+    "activeSubstance": "имунофан",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          0.5,
+          1
+        ],
+        "activeSubstanceDoseDecorator": "ml",
+        "applicationMethod": "SC q24h"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          0.5
+        ],
+        "activeSubstanceDoseDecorator": "ml",
+        "applicationMethod": "SC q24h"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/others/immunofan.pdf" }
+    ],
+    "indications"       : ["Стимулира образуването на IgA антитела.", "При лечение на панлевкопения, парвовироза и др. вирусни инфекции."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
     "title": "Флексадин Адванст",
     "titleEn": "Flexadin Advanced",
     "activeSubstance": "-",
@@ -9734,6 +9872,58 @@
       { "title": "няма-линк", "link": "" }
     ],
     "indications"       : ["Bot Fly Larvae Infestation (Grubs, Cuterebriasis) при кучета и котки.", "Окситетрациклинът е широкоспектърен антибиотик. Действа на Грам-положителните и Грам-отрицателните бактерии. Циперметрин е инсектицид от групата на перитроидите. Действа инсектицидно и акарицидно върху мухи, комари, въшки, аргазиди, хиподермни ларви и други акари. Рициновото масло поощрява гранулацията и епителизацията на раните.", "Външно – чрез опръскване (от разстояние 10-15 см.) на заболелите  участъци 1 път дневно 2-3 дни подред. След 15 дни процедурата се повтаря."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Калиев хлорид Браун 14,9% концентрат за инф. р-р",
+    "titleEn": "Kalium chlorid Braun 14,9% concentrate for solution for infusion",
+    "activeSubstance": "калиев хлорид",
+    "drugConcentration": 14.9,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "",
+        "applicationMethod": "по схема"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/others/kaliev-hlorid.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/potassium.pdf" }
+    ],
+    "indications"       : ["При хипокалцемия, която се среща при парвовироза, захарен диабет и др.", "Дозира се според схема."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Натриев бикарбонат 8,4% концентрат за инфузионен разтвор",
+    "titleEn": "Sodium bicarbonate Braun 8,4% concentrate for solution for infusion",
+    "activeSubstance": "натриев хидрогенкарбонат",
+    "drugConcentration": 8.4,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "",
+        "applicationMethod": "по схема"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/others/sodium-bicarbonate.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/sodium-bicarbonate.pdf" }
+    ],
+    "indications"       : ["за повишаване рН на кръвта (алкализиране)"],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],

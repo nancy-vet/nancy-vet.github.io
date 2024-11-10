@@ -2401,14 +2401,43 @@
     ]
   },
   {
-    "symptom"   : "Мидриаза",
-    "symptomEn" : "Pupil dilation",
+    "symptom"   : "Мидриаза (разширени зеници)",
+    "symptomEn" : "Mydriasis (Pupil dilation)",
     "type"      : "nervous",
-    "meaning"   : "",
-    "isVisible" : false,
+    "meaning"   : "разширени зеници",
+    "isVisible" : true,
     "causes"    : [
       {
-        "group": "", "children": [
+        "group": "Неврологични заболявания", "children": [
+          {"title": "Травма"},
+          {"title": "Тумор в мозъка"},
+          {"title": ""}
+        ]
+      },
+      {
+        "group": "Хипертензия", "children": [
+          {"title": "Бъбречно заболяване (уремия, нефротичен синдром)"},
+          {"title": "Хипертиреоидизъм"}
+        ]
+      },
+      {
+        "group": "Очно заболяване", "children": [
+          {"title": "Травма"},
+          {"title": "Увеит"}
+        ]
+      },
+      {
+        "group": "Токсини и отравяния", "children": [
+          {"title": ""}
+        ]
+      },
+      {
+        "group": "Feline Dysautonomia (Key-Gaskell Syndrome)", "children": [
+          {"title": ""}
+        ]
+      },
+      {
+        "group": "Възстановяване след анестезия", "children": [
           {"title": ""}
         ]
       }
