@@ -47,7 +47,8 @@
           type="number"
           aria-label="Custom input"
           class="custom"
-          placeholder="мл">
+          placeholder="мл"
+          style="height: 44px;">
         </ion-input>
         <div style="width: 63px; margin-left: 10px; margin-top: 26px;">мл</div>
       </ion-col>
@@ -67,12 +68,13 @@
           [(ngModel)]="$formProperty.solutionConcentrationAvailable"
           type="number"
           aria-label="Custom input"
-          class="custom">
+          class="custom"
+          style="height: 44px;">
         </ion-input>
 
         <ion-radio-group value="custom-checked" style="margin-top: 14px;">
-          <ion-radio value="custom" aria-label="percent" style="width: 70%;margin-left: 12px;">%</ion-radio>
-          <ion-radio value="custom-checked" aria-label="mg-kg" style="width: 70%;margin-left: 12px;">мг/кг</ion-radio>
+          <ion-radio value="custom" aria-label="percent" style="width: 70%; margin-left: 12px; min-width: 115px;">%</ion-radio>
+          <ion-radio value="custom-checked" aria-label="mg-kg" style="width: 70%; margin-left: 12px; min-width: 115px;">мг/мл</ion-radio>
         </ion-radio-group>
       </ion-col>
     </ion-row>
@@ -92,12 +94,13 @@
           type="number"
           aria-label="Custom input"
           class="custom"
-          placeholder="15-50 мг/кг">
+          placeholder="15-50 мг/кг"
+          style="height: 44px;">
         </ion-input>
 
-        <ion-radio-group value="custom-checked">
-          <ion-radio value="custom" aria-label="percent">%</ion-radio>
-          <ion-radio value="custom-checked" aria-label="mg-kg">мг/кг</ion-radio>
+        <ion-radio-group value="custom-checked" style="margin-top: 14px;">
+          <ion-radio value="custom" aria-label="percent" style="width: 70%; margin-left: 12px; min-width: 115px;">%</ion-radio>
+          <ion-radio value="custom-checked" aria-label="mg-kg" style=" width: 70%; margin-left: 12px; min-width: 115px;">мг/мл</ion-radio>
         </ion-radio-group>
       </ion-col>
     </ion-row>
