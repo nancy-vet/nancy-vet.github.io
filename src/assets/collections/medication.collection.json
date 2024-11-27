@@ -2986,6 +2986,39 @@
   },
   {
     "type": "nervous",
+    "title": "Седин 1 мг/мл",
+    "titleEn": "Sedin 1 mg/ml",
+    "activeSubstance": "медетомидин",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "dpg": {
+        "activeSubstanceDose": [
+          0
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          0
+        ],
+        "activeSubstanceDoseDecorator": "-",
+        "applicationMethod": "-"
+      }
+    },
+    "links" : [
+      { "title": "листовка",  "link": "pdfs/@medication/nervous/sedin.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/medetomidine.pdf" }
+    ],
+    "indications"       : ["За премедикация преди обща анестезия", "За седиране с цел улеснение манипулация.", "При котки: В комбинация с кетамин за обща анестезия", "Личев упояване на кт: дорбен 0,04 мл/котка и бутомидор 0,1 мл/котка"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "nervous",
     "title": "Антиседан 5 мг/мл",
     "titleEn": "Antisedan 5 mg/ml",
     "activeSubstance": "атипамезол",
@@ -3014,7 +3047,7 @@
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["Атипамезолът не обръща ефекта на кетамина. Тъй като самият кетамин може да предизвика спазми, алфа-2 антагонисти не трябва да се прилагат по-малко от 30-40 минути след прилагането на кетамин."],
     "pharmacology"      : []
   },
   {
@@ -3047,7 +3080,7 @@
     "indications"       : [],
     "contraindications" : [],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["Атипамезолът не обръща ефекта на кетамина. Тъй като самият кетамин може да предизвика спазми, алфа-2 антагонисти не трябва да се прилагат по-малко от 30-40 минути след прилагането на кетамин."],
     "pharmacology"      : []
   },
   {
@@ -3283,7 +3316,7 @@
     "type": "nervous",
     "title": "Дексдомидор 0,1 мг/мл",
     "titleEn": "Dexdomidor 0.1 mg/ml",
-    "activeSubstance": "кетамин",
+    "activeSubstance": "дексмедетомидин",
     "drugConcentration": 0.1,
     "drugConcentrationDecorator": "mg_ml",
     "application": {
@@ -3305,7 +3338,7 @@
     },
     "links": [
       { "title": "листовка",  "link": "pdfs/@medication/nervous/dexdomidor.pdf" },
-      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/ketamine.pdf" }
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/dexmedetomidine.pdf" }
     ],
     "indications"       : [],
     "contraindications" : [],
@@ -3371,7 +3404,7 @@
     "indications"       : ["При спазми на червата, жлъчните и пикочните пътища, придружени с колики, при остро запушване на хранопровода; при спазми на маточната шийка през време на раждане; при начален аборт."],
     "contraindications" : [" Механични стенози на стомашно-чревния тракт, глаукома, тахикардия. Да не се използва при свръхчувствителност към активната субстанция или към някой от ексципиентите."],
     "drugInteractions"  : [],
-    "adverseEffects"    : [],
+    "adverseEffects"    : ["При ИВ приложение може да понижи кръвното налягане, затова не се препоръчва."],
     "pharmacology"      : []
   },
   {
