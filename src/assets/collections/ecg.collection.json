@@ -164,7 +164,7 @@
     "titleEn"       : "Right Bundle Branch Block",
     "type"          : "Нарушения в камерната възбудимост",
     "frontImage"    : "assets/pdfs/@ecg/right-bundle-branch-block.png",
-    "gallery"       : ["assets/pdfs/@ecg/right-bundle-branch-block.png"],
+    "gallery"       : ["assets/pdfs/@ecg/dog/right-bundle-branch-block.png", "assets/pdfs/@ecg/right-bundle-branch-block.png"],
     "definition"    : "забавяне или прекъсване на импулса в дясното бедро на снопчето на Хис. Широки и ненормални QRS-комплекси – негативни във II отвеждане (т. е. набл се малък положителен зъбец R и дълбок отрицателен зъбец S.) Изместване на СЕО (средна електрична ос) наляво.",
     "understanding" : [""],
     "diseases"      : [""]

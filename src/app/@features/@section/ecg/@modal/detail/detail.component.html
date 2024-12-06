@@ -16,8 +16,16 @@
 
   <div class="h3 mt16">{{selectedObject.type}}</div>
 
+  <div class="bold">Характеристика:</div>
+  <div>{{selectedObject.definition}}</div>
+
   @for(element of selectedObject.understanding; track element) {
       <div class="mt5">{{element}}</div>
   }
+
+  <div class="bold">Заболявания</div>
+  @for(element of selectedObject?.diseases; track element) {
+    <div class="mt5">{{element}}</div>
+}
 
 </nv-info-modal>
