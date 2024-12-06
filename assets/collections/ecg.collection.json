@@ -3,7 +3,7 @@
     "title"         : "Респираторна синусова аритмия",
     "titleEn"       : "Respiratory sinus arrhythmia",
     "type"          : "Нарушения в синусовата възбудимост",
-    "frontImage"    : "assets/pdfs/@ecg/respiratory-sinus-arrhythmia.png",
+    "frontImage"    : "assets/pdfs/@ecg/dog/respiratory-sinus-arrhythmia.png",
     "gallery"       : ["assets/pdfs/@ecg/respiratory-sinus-arrhythmia.png"],
     "definition"    : "различна продължителност на R-R интервалите, разликата между кратките и дългите интервали > 10% от средната стойност на R-R интервалите.",
     "understanding" : ["По време на вдишване -> дразни се n. sympaticus -> учестяване на сърд. дейност и свиване на R-R интервалите -> по-кратък R-R", "По време на издишване -> понижаване на интрапулмоналното налягане -> n. vagus доминира над n. sympaticus -> разширяване на R-R интервалите.", "Физиологично САМО при кучето.", "Ако КЧ е с кашлица (влажна, нощно време) -> ако R-R са еднакви, т.е. липсва физиологичната респираторна аритмия и пулсът е под 150 удара в мин -> БД оток, водещ до дразнене на n. sympaticus -> кардиогенна кашлица."],
@@ -33,7 +33,7 @@
     "title"         : "Синусова тахикардия",
     "titleEn"       : "Sinus Tachycardia",
     "type"          : "Нарушения в синусовата възбудимост",
-    "frontImage"    : "assets/pdfs/@ecg/sinus-tachycardia.png",
+    "frontImage"    : "assets/pdfs/@ecg/dog/sinus-tachycardia.png",
     "gallery"       : ["assets/pdfs/@ecg/sinus-tachycardia.png"],
     "definition"    : "синусов ритъм с висока честота (над 160 при КЧ, над 240 при КТ),скъсени и еднакви R-R интервали, скъсени T-P интервали, наслагване на T върху P = “погребана вълна P”.",
     "understanding" : [""],
@@ -43,7 +43,7 @@
     "title"         : "Синусова брадикардия",
     "titleEn"       : "Sinus Bradycardia",
     "type"          : "Нарушения в синусовата възбудимост",
-    "frontImage"    : "assets/pdfs/@ecg/sinus-bradycardia.png",
+    "frontImage"    : "assets/pdfs/@ecg/dog/sinus-bradycardia.png",
     "gallery"       : ["assets/pdfs/@ecg/sinus-bradycardia.png"],
     "definition"    : "правилен синусов ритъм с ниска честота (под 60 за КЧ, под 110 за КТ), удължени R-R интервали, удължени T-P интервали.",
     "understanding" : [""],
@@ -67,17 +67,17 @@
     "gallery"       : ["assets/pdfs/@ecg/atrial-tachycardia.png"],
     "definition"    : "Серия от атриални екстрасистоли (три и повече) с честота по-висока от сърдечния ритъм (260-380 в мин).",
     "understanding" : [""],
-    "diseases"      : [""]
+    "diseases"      : ["лечение – вагусов маньовър (натиск върху очните ябълки (n. vagus) или масаж на каротидния синус), дигоксин, бета-блокери, Ca-антагонисти"]
   },
   {
     "title"         : "Предсърдно трептене",
     "titleEn"       : "Atrial flutter",
     "type"          : "Нарушения в предсърдната възбудимост",
-    "frontImage"    : "assets/pdfs/@ecg/atrial-flutter.png",
-    "gallery"       : ["assets/pdfs/@ecg/atrial-flutter.png"],
-    "definition"    : "",
+    "frontImage"    : "assets/pdfs/@ecg/dog/atrial-flutter.png",
+    "gallery"       : ["assets/pdfs/@ecg/dog/atrial-flutter.png", "assets/pdfs/@ecg/atrial-flutter.png"],
+    "definition"    : "бързи и правилни серии от атриални деполяризации – F (flutter) вълни с висока честота (350-450 удара в мин), които не се връщат до изоелектричната линия и я назъбват като зъби на трион, QRS-комплекси – суправентрикуларен тип (тесни)",
     "understanding" : [""],
-    "diseases"      : [""]
+    "diseases"      : ["хипертрофия или дилатация на предсърдията (DCM)", "митрална стеноза (P-митрале)", "„белодробно сърце“ (P-пулмонале) и др."]
   },
   {
     "title"         : "Предсърдно мъждеене",
@@ -85,9 +85,9 @@
     "type"          : "Нарушения в предсърдната възбудимост",
     "frontImage"    : "assets/pdfs/@ecg/atrial-fibrillation.png",
     "gallery"       : ["assets/pdfs/@ecg/atrial-fibrillation.png"],
-    "definition"    : "",
+    "definition"    : "серия от хаотични атриални деполяризации с висока честота (350-700 в мин), AV-възел „портиер“, QRS – суправентрикуларен тип и с висока честота (220-280 в мин), липсват P-вълни, наличие на f-вълни (фини ондулации на изоелектричната линия) и разнообразни R-R интервали. Липсват P вълни, а има f-вълни, които представляват назъбвания върху изоелектричната линия.",
     "understanding" : [""],
-    "diseases"      : [""]
+    "diseases"      : ["хипертрофия или дилатация на предсърдията (DCM)"]
   },
   {
     "title"         : "Камерни екстрасистоли (Предварителни вентрикуларни комплекси)",
@@ -95,8 +95,8 @@
     "type"          : "Нарушения в камерната възбудимост",
     "frontImage"    : "assets/pdfs/@ecg/premature-ventricular-complex.png",
     "gallery"       : ["assets/pdfs/@ecg/premature-ventricular-complex.png"],
-    "definition"    : "",
-    "understanding" : [""],
+    "definition"    : "пулсът не се заражда в предсърдията, а в камерите (ектопично огнище). Представляват широки камерни QRS комплекси, прилежаща гигантска вълна Т и липсва P.",
+    "understanding" : ["Повече от три екстрасистоли = камерна тахикардия.", "Феномен R върху T - когато камерните екстрасистоли са една до друга и са с много висока честота; два предварителни вентрикуларни комплекса, възникващи толкова бързо, че QRS-комплекс се налага върху T."],
     "diseases"      : [""]
   },
   {
@@ -105,8 +105,8 @@
     "type"          : "Нарушения в камерната възбудимост",
     "frontImage"    : "assets/pdfs/@ecg/ventricular-tachycardia.png",
     "gallery"       : ["assets/pdfs/@ecg/ventricular-tachycardia.png"],
-    "definition"    : "",
-    "understanding" : [""],
+    "definition"    : "серия от три и повече камерни екстрасистоли, настъпващи с висока честота. Широки и неправилни QRS комплекси, свързани с гигантски T-вълни и без връзка с P-вълните",
+    "understanding" : ["захванати комплекси – нормален комплекс след пароксизмална (т.е. прекъсната) вентрикуларна тахикардия; той прекъсва серията от екстрасистоли.", "слети комплекси – между нормалния синусов комплекс и камерната екстрасистола", "слят комплекс и захванат комплекс – патогномични признаци на вентрикуларна тахикардия", "клинично значение – слабост, синкоп или припадъци тип Adams-Stokes (внезапен транзитерен епизод на синкоп, който включва понякога гърч)", "слят комплекс + 2 екстрасистоли = три екстрасистоли -> камерна тахикардия", "лечение – клас I, II, III – антиаритмични средства"],
     "diseases"      : [""]
   },
   {
@@ -115,8 +115,8 @@
     "type"          : "Нарушения в камерната възбудимост",
     "frontImage"    : "assets/pdfs/@ecg/ventricular-fibrillation.png",
     "gallery"       : ["assets/pdfs/@ecg/ventricular-fibrillation.png"],
-    "definition"    : "",
-    "understanding" : [""],
+    "definition"    : "тесни и високи синусоидни вълни, при които е невъзможно да се разграничи вълна или каквото и да е",
+    "understanding" : ["клинично значение – тежък кардиогенен шок, миокардна травма, тежка хиперкалемия (когато серумният калий е над 7,8 µmol/L; най-често се случва при отравяне с етиленгликол при КЧ и КТ) и др.", "трептенето заема междинно състояние между тахикардията и мъждеенето."],
     "diseases"      : [""]
   },
   {
@@ -125,8 +125,8 @@
     "type"          : "Нарушения в камерната възбудимост",
     "frontImage"    : "assets/pdfs/@ecg/ventricular-fibrillation-second.png",
     "gallery"       : ["assets/pdfs/@ecg/ventricular-fibrillation-second.png"],
-    "definition"    : "",
-    "understanding" : [""],
+    "definition"    : "предагонално състояние (смърт до няколко минунти), хаотични камерни деполяризации (нискоамплитудни вълни с различна мор; асистолия;",
+    "understanding" : ["лечение – незабавно – електрическа дефибрилация и антиаритмични средства от клас III."],
     "diseases"      : [""]
   },
   {
@@ -135,7 +135,7 @@
     "type"          : "Нарушения в камерната възбудимост",
     "frontImage"    : "assets/pdfs/@ecg/first-degree-atrioventricular-block.png",
     "gallery"       : ["assets/pdfs/@ecg/first-degree-atrioventricular-block.png"],
-    "definition"    : "",
+    "definition"    : "импулсите от синусовия възел се блокират и не достигат до предсърдията, с което пропадат съкращенията на предсърдия и камери. Пауза = 2 х (R-R). I степен AV блок = удължаване на PQ - провеждането на импулса е забавено (удължаване на проводното време PQ), но всеки импулс достига до камерите (т.е. просто е забавен).",
     "understanding" : [""],
     "diseases"      : [""]
   },
@@ -145,8 +145,8 @@
     "type"          : "Нарушения в камерната възбудимост",
     "frontImage"    : "assets/pdfs/@ecg/second-degree-atrioventricular-block.png",
     "gallery"       : ["assets/pdfs/@ecg/second-degree-atrioventricular-block.png"],
-    "definition"    : "",
-    "understanding" : [""],
+    "definition"    : "импулсите от синусовия възел се блокират и не достигат до предсърдията, с което пропадат съкращенията на предсърдия и камери. Пауза = 2 х (R-R). ",
+    "understanding" : ["лечение – поставяне на пейсмейкър"],
     "diseases"      : [""]
   },
   {
@@ -155,8 +155,8 @@
     "type"          : "Нарушения в камерната възбудимост",
     "frontImage"    : "assets/pdfs/@ecg/third-degree-atrioventricular-block.png",
     "gallery"       : ["assets/pdfs/@ecg/third-degree-atrioventricular-block.png"],
-    "definition"    : "",
-    "understanding" : [""],
+    "definition"    : "импулсите от синусовия възел се блокират и не достигат до предсърдията, с което пропадат съкращенията на предсърдия и камери. Пауза = 2 х (R-R). III степен AV блок - пълно и постоянно прекъсване на импулса през AV-възел. Камерите се деполяризират автономно.",
+    "understanding" : ["„избягращ ритъм на камерите, escape rhythm” – защото се заражда от различно огнище на ниво камери; добре, че е така, защото ако не се съкращаваха, то камерите нямаше да се възбудят от прекъснатия импулс"],
     "diseases"      : [""]
   },
   {
@@ -165,7 +165,7 @@
     "type"          : "Нарушения в камерната възбудимост",
     "frontImage"    : "assets/pdfs/@ecg/right-bundle-branch-block.png",
     "gallery"       : ["assets/pdfs/@ecg/right-bundle-branch-block.png"],
-    "definition"    : "",
+    "definition"    : "забавяне или прекъсване на импулса в дясното бедро на снопчето на Хис. Широки и ненормални QRS-комплекси – негативни във II отвеждане (т. е. набл се малък положителен зъбец R и дълбок отрицателен зъбец S.) Изместване на СЕО (средна електрична ос) наляво.",
     "understanding" : [""],
     "diseases"      : [""]
   },
@@ -175,7 +175,7 @@
     "type"          : "Нарушения в камерната възбудимост",
     "frontImage"    : "assets/pdfs/@ecg/left-bundle-branch-block.png",
     "gallery"       : ["assets/pdfs/@ecg/left-bundle-branch-block.png"],
-    "definition"    : "",
+    "definition"    : "забавяне или прекъсване на импулса в лявото бедро на снопчето на Хис, позитивни във второ отвеждане. Изместване на средната електрична ос надясно.",
     "understanding" : [""],
     "diseases"      : [""]
   },
@@ -183,11 +183,11 @@
     "title"         : "Бездействие на предсърдията (предсърден застой)",
     "titleEn"       : "Atrial standstill",
     "type"          : "Нарушения в камерната възбудимост",
-    "frontImage"    : "assets/pdfs/@ecg/atrial-standstill.png",
-    "gallery"       : ["assets/pdfs/@ecg/atrial-standstill.png"],
-    "definition"    : "",
+    "frontImage"    : "assets/pdfs/@ecg/dog/atrial-standstill.png",
+    "gallery"       : ["assets/pdfs/@ecg/dog/atrial-standstill.png", "assets/pdfs/@ecg/atrial-standstill.png"],
+    "definition"    : "липса на P вълни (липса на атриална деполяризация). Сформира се импулс и се провежда при запазени пътища",
     "understanding" : [""],
-    "diseases"      : [""]
+    "diseases"      : ["Хиперкалемия", "Атриална кардиомиопатия"]
   },
   {
     "title"         : "Wolff-Parkinson-White синдром",
@@ -195,7 +195,7 @@
     "type"          : "Нарушения в камерната възбудимост",
     "frontImage"    : "assets/pdfs/@ecg/wolff–parkinson–white-syndrome.png",
     "gallery"       : ["assets/pdfs/@ecg/wolff–parkinson–white-syndrome.png"],
-    "definition"    : "",
+    "definition"    : "скъсено проводно време PQ. Назъбване или смачкване на възходящото рамо на зъбеца R (делта вълна). ЧСС са над 300 в минута.",
     "understanding" : [""],
     "diseases"      : [""]
   },
@@ -203,10 +203,10 @@
     "title"         : "Болест на синусовия възел",
     "titleEn"       : "Sick sinus syndrome",
     "type"          : "Нарушения в камерната възбудимост",
-    "frontImage"    : "assets/pdfs/@ecg/sick-sinus-syndrome.png",
-    "gallery"       : ["assets/pdfs/@ecg/sick-sinus-syndrome.png"],
-    "definition"    : "",
-    "understanding" : [""],
+    "frontImage"    : "assets/pdfs/@ecg/dog/sick-sinus-syndrome.png",
+    "gallery"       : ["assets/pdfs/@ecg/dog/sick-sinus-syndrome.png"],
+    "definition"    : "на практика е автоимунно заболяване, рядко се среща, в организма се образуват антитела срещу клетките синусовия възел и го унищожават.",
+    "understanding" : ["Tрябва да пуснем ЕКГ на ритъмен режим (т.е. на по-дълъг период да записва) – първо има синусова брадикардия, AV-блок I или II степен, дълга синусова пауза с избягващи импулси (escape rhytm), серия от атриални или камерни екстрасистоли с различна честота."],
     "diseases"      : [""]
   }
 ]
