@@ -5,6 +5,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -22,6 +23,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -39,6 +41,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -56,6 +59,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -73,6 +77,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -90,6 +95,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -107,6 +113,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -124,6 +131,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -141,6 +149,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -158,6 +167,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -175,6 +185,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/leishmaniasis.pdf" }
@@ -192,6 +203,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -209,6 +221,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -226,6 +239,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -243,6 +257,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -255,11 +270,30 @@
     "differential"  : [""]
   },
   {
+    "title"       : "Хистоплазмоза",
+    "titleEn"     : "Histoplasmosis",
+    "type"        : "infectious",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : ["Причинител: Histoplasma capsulatum. Засяга храносмилателния тракт при КЧ и дихателната система при КТ."],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
     "title"       : "Питиоза",
     "titleEn"     : "Pythiosis",
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -277,6 +311,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -294,6 +329,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -311,6 +347,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -328,6 +365,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/brucellosis.pdf" }
@@ -345,6 +383,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -362,6 +401,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -379,6 +419,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/colibacillosis.pdf" }
@@ -396,6 +437,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -413,6 +455,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/mycobacterial-infections.pdf" }
@@ -430,6 +473,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -447,6 +491,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -464,6 +509,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -481,6 +527,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/salmonellosis.pdf" }
@@ -498,6 +545,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -515,6 +563,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -532,6 +581,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -549,6 +599,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/tularemia.pdf" }
@@ -566,6 +617,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -583,6 +635,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -600,6 +653,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -617,6 +671,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -634,6 +689,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/canine-distemper.pdf" }
@@ -651,6 +707,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -668,6 +725,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -685,6 +743,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/canine-parvovirus-infection.pdf" }
@@ -697,11 +756,30 @@
     "differential"  : [""]
   },
   {
+    "title"       : "Кучешка коронавирусна инфекция",
+    "titleEn"     : "Canine Coronavirus Infection",
+    "type"        : "infectious",
+    "animals"     : ["dogs"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
     "title"       : "Болест на Ауески",
     "titleEn"     : "Pseudorabies Virus Infection",
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/pseudorabies-virus-infection.pdf" }
@@ -719,6 +797,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/rabies.pdf" }
@@ -736,6 +815,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -753,6 +833,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/anaplasmosis.pdf" }
@@ -770,6 +851,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/ehrlichiosis.pdf" }
@@ -787,6 +869,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/leptospirosis.pdf" }
@@ -804,6 +887,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/lyme-borreliosis.pdf" }
@@ -821,6 +905,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/listeriosis.pdf" }
@@ -838,6 +923,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/q-fever.pdf" }
@@ -855,6 +941,7 @@
     "type"        : "infectious",
     "animals"     : ["cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/panleukopenia.pdf" }
@@ -867,11 +954,30 @@
     "differential"  : [""]
   },
   {
+    "title"       : "Котешка коронавирусна инфекция",
+    "titleEn"     : "Feline Coronavirus Infection",
+    "type"        : "infectious",
+    "animals"     : ["cats"],
+    "bodySystem"  : [""],
+    "code"        : "A",
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
     "title"       : "Калицивироза",
     "titleEn"     : "Feline Calicivirus Infection",
     "type"        : "infectious",
     "animals"     : ["cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/calicivirus.pdf" }
@@ -889,6 +995,7 @@
     "type"        : "infectious",
     "animals"     : ["cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/feline-herpesvirus-infection.pdf" }
@@ -906,6 +1013,7 @@
     "type"        : "infectious",
     "animals"     : ["cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/feline-infectious-peritonitis.pdf" }
@@ -923,6 +1031,7 @@
     "type"        : "infectious",
     "animals"     : ["cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/feline-leukemia-virus-infection.pdf" }
@@ -940,6 +1049,7 @@
     "type"        : "infectious",
     "animals"     : ["cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/feline-immunodeficiency-virus.pdf" }
@@ -957,6 +1067,7 @@
     "type"        : "infectious",
     "animals"     : ["cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -974,6 +1085,7 @@
     "type"        : "infectious",
     "animals"     : ["cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -986,11 +1098,12 @@
     "differential"  : [""]
   },
   {
-    "title"       : "Поквирусна инфекция",
+    "title"       : "Поксвирусна инфекция",
     "titleEn"     : "Poxvirus Infection",
     "type"        : "infectious",
     "animals"     : ["cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -1008,6 +1121,7 @@
     "type"        : "infectious",
     "animals"     : ["cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/chlamydiosis.pdf" }
@@ -1025,6 +1139,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -1042,6 +1157,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -1059,6 +1175,7 @@
     "type"        : "infectious",
     "animals"     : ["cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : true,
     "links": [
       { "title": "описание", "link": "pdfs/@diseases/bordetellosis.pdf" }
@@ -1076,6 +1193,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -1093,6 +1211,7 @@
     "type"        : "infectious",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "A",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
