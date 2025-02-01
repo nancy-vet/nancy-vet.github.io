@@ -5,6 +5,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -22,6 +23,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -39,6 +41,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -56,6 +59,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -75,6 +79,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -92,6 +97,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -109,6 +115,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -126,6 +133,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -143,6 +151,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -160,6 +169,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -177,6 +187,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -194,6 +205,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -211,6 +223,7 @@
     "type"        : "parasitic",
     "animals"     : ["cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -228,6 +241,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -245,6 +259,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -262,6 +277,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -279,6 +295,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -296,6 +313,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -313,6 +331,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -330,6 +349,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -347,6 +367,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -364,6 +385,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -381,6 +403,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -398,6 +421,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -415,6 +439,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -430,8 +455,9 @@
     "title"       : "Нотоедроза",
     "titleEn"     : "Notoedric mange (Feline scabies)",
     "type"        : "parasitic",
-    "animals"     : ["dogs", "cats"],
+    "animals"     : ["cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -447,8 +473,9 @@
     "title"       : "Демодекоза",
     "titleEn"     : "Demodectic Mange (Demodicosis)",
     "type"        : "parasitic",
-    "animals"     : ["dogs", "cats"],
+    "animals"     : ["dogs"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -466,6 +493,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -483,6 +511,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -500,6 +529,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -517,6 +547,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -534,6 +565,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -551,6 +583,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -568,6 +601,7 @@
     "type"        : "parasitic",
     "animals"     : ["cats"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
@@ -585,6 +619,7 @@
     "type"        : "parasitic",
     "animals"     : ["dogs"],
     "bodySystem"  : [""],
+    "code"        : "B",
     "isVisible"   : false,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }

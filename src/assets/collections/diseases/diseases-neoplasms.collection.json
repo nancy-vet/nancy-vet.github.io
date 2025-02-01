@@ -34,6 +34,40 @@
     "differential"  : [""]
   },
   {
+    "title"       : "Тумор на млечната жлеза",
+    "titleEn"     : "Mammary gland tumor",
+    "type"        : "neoplasms",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
+    "title"       : "Тумор на аналната жлеза",
+    "titleEn"     : "Anal gland tumor",
+    "type"        : "neoplasms",
+    "animals"     : ["dogs", "cats"],
+    "bodySystem"  : [""],
+    "isVisible"   : false,
+    "links": [
+      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
+    ],
+    "etiology"      : [""],
+    "signs"         : ["", "", ""],
+    "specificSigns" : [""],
+    "diagnostics"   : [""],
+    "treatment"     : [""],
+    "differential"  : [""]
+  },
+  {
     "title"       : "",
     "titleEn"     : "",
     "type"        : "neoplasms",

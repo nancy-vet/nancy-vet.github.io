@@ -4156,6 +4156,31 @@
     "pharmacology"      : []
   },
   {
+    "type": "eyes",
+    "title": "Диклоабак 1 mg/ml",
+    "titleEn": "Dicloabak 1 mg/ml",
+    "activeSubstance": "диклофенак натрий",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "идк",
+        "applicationMethod": "идк"
+      }
+    },
+    "links": [
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/diclofenak.pdf" }
+    ],
+    "indications"       : ["При КТ с язви на езика, за да се облекчи болката при хранене."],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
     "type": "ears",
     "title": "ТризАурал",
     "titleEn": "TrizAural",
@@ -5507,6 +5532,32 @@
     "titleEn": "Baytril 5%",
     "activeSubstance": "енрофлоксацин",
     "drugConcentration": 50,
+    "drugConcentrationDecorator": "mg_ml",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          5
+        ],
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "SC 5-10 дни"
+      }
+    },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/antibiotics/baytril.pdf" },
+      { "title": "Plumbs",    "link": "pdfs/@medication/plumbs-pdf/enrofloxacin.pdf" }
+    ],
+    "indications"       : ["група: хинолони", "Tози лекарствен продукт се използва при кучета и котки за лечение на бактериални инфекции на храносмилателния, респираторния и урогениталния тракт, кожата, вторични инфекции на рани и otitis externa, когато клиничният опит определя енрофлоксацин като подходящо лекарствено средство."],
+    "contraindications" : ["Да не се използва при кучета по-малки от 1 година или при изключително големи породи кучета, с по-дълъг период на растеж, по-малки от 18 месечна възраст, тъй като ставният хрущял може да се увреди по време на периода на бърз растеж.", "Да не се използва при котки, по-малки от 8 седмици.", "Да не се използва при кучета, които имат гърчове, тъй като енрофлоксацин може да доведе до стимулиране на ЦНС. ", "Да не се използва за профилактика."],
+    "drugInteractions"  : ["Да не се комбинира с тетрациклини, фениколи или макролиди.", "Да не се комбинира с теофилин", "Едновременното приложение със субстанции, съдържащи магнезий или алуминий може да бъде последвано от забавена резорбция на енрофлоксацин."],
+    "adverseEffects"    : ["Енрофлоксацин може да повлияе на развитието на ставния хрущял.", "В много редки случаи може да се наблюдават повръщане и анорексия."],
+    "pharmacology"      : []
+  },
+  {
+    "type": "antibiotics",
+    "title": "Байтрил 10% инж. р-р",
+    "titleEn": "Baytril 10%",
+    "activeSubstance": "енрофлоксацин",
+    "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
     "application": {
       "any": {
@@ -7186,7 +7237,7 @@
   },
   {
     "type": "endocrine",
-    "title": "Felimazole 5 mg/ml перорален разтвор за котки",
+    "title": "Фелимазол 5 мг/мл перорален разтвор за котки",
     "titleEn": "Felimazole 5 mg/ml oral solution for cats",
     "activeSubstance": "тиамазол (още метимазол)",
     "drugConcentration": 5,
@@ -7212,7 +7263,7 @@
   },
   {
     "type": "endocrine",
-    "title": "Метизол 5 mg таблетки",
+    "title": "Метизол 5 мг таблетки",
     "titleEn": "Metizol 5 mg tablets",
     "activeSubstance": "тиамазол (още метимазол)",
     "drugConcentration": 5,
@@ -9961,5 +10012,31 @@
     "drugInteractions"  : [],
     "adverseEffects"    : [],
     "pharmacology"      : []
+  },
+  {
+    "type": "others",
+    "title": "Търговско име",
+    "titleEn": "Lekarstvo",
+    "activeSubstance": "активно вещество",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "",
+        "applicationMethod": "начин на приложение"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/others/sodium-bicarbonate.pdf" },
+      { "title": "Plumbs", "link": "pdfs/@medication/plumbs-pdf/sodium-bicarbonate.pdf" }
+    ],
+    "indications"       : ["..."],
+    "contraindications" : ["..."],
+    "drugInteractions"  : ["..."],
+    "adverseEffects"    : ["..."],
+    "pharmacology"      : ["..."]
   }
 ]
