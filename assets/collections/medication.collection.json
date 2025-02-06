@@ -632,6 +632,38 @@
   },
   {
     "type": "gastrointestinal",
+    "title": "Про-Колин Ентерогеник",
+    "titleEn": "Pro-Kolin Enterogenic",
+    "activeSubstance": "пробиотик, пребиотик, постбиотик, витамин Б12, бентонит",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "dog": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "same",
+        "applicationMethod": "PO веднъж дневно"
+      },
+      "cat": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "same",
+        "applicationMethod": "PO веднъж дневно"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/pro-kolin-enterogenic.pdf" }
+    ],
+    "indications"       : ["Дозировка: под 5 kg - 1/2 саше веднъж дневно.", "5-15 кг - 1 саше веднъж дневно.", "15-35 кг - 2 сашета веднъж дневно.", "над 35 кг - 3 сашета веднъж дневно."],
+    "contraindications" : ["Не се прилага наведнъж с антибиотик, но се прилага паралелно с антибиотичното лечение."],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "gastrointestinal",
     "title": "Диалакту",
     "titleEn": "Dialactu",
     "activeSubstance": "лактулоза, декстроза",
@@ -1016,6 +1048,31 @@
           1
         ],
         "activeSubstanceDoseDecorator": "tabl_2.5_kg",
+        "applicationMethod": "PO за 10 дни"
+      }
+    },
+    "links": [
+      { "title": "листовка", "link": "pdfs/@medication/gastrointestinal/legaphyton.pdf" }
+    ],
+    "indications"       : ["Диетична допълваща храна за кучета и котки, поддържаща функцията на черния дроб и доставяща антиоксиданти", "препоръчително е дневната доза да се раздели на два приема – сутрин и вечер"],
+    "contraindications" : [],
+    "drugInteractions"  : [],
+    "adverseEffects"    : [],
+    "pharmacology"      : []
+  },
+  {
+    "type": "gastrointestinal",
+    "title": "Легафитон 200",
+    "titleEn": "Legaphyton 200",
+    "activeSubstance": "лактоза, силибин/фосфолипиди, соеви фибри, орнитин",
+    "drugConcentration": 1,
+    "drugConcentrationDecorator": "same",
+    "application": {
+      "any": {
+        "activeSubstanceDose": [
+          1
+        ],
+        "activeSubstanceDoseDecorator": "tabl_10_kg",
         "applicationMethod": "PO за 10 дни"
       }
     },
@@ -2389,11 +2446,14 @@
         "applicationMethod": "SC в областта на врата или бедрото"
       }
     },
+    "links": [
+      { "title": "листовка",  "link": "pdfs/@medication/urogenital/covinan.pdf" }
+    ],
     "indications"       : ["За предпазване и потискане на еструс при кучета и котки."],
     "contraindications" : ["Да не се използва при животни преди първия еструс."],
-    "drugInteractions"  : [],
+    "drugInteractions"  : ["Продуктът не трябва да бъде прилаган при кучета, предварително третирани с естрогени или с други прогестагени при лъжлива бременност."],
     "adverseEffects"    : [],
-    "pharmacology"      : []
+    "pharmacology"      : ["Proligestone потиска секрецията и води до намаляване на концентрацията на LH", "Когато се прилага в началния период на разгонване, супресията на LH концентрацията блокира фоликулния растеж и отделянето на естрадиол.", "При приложението на продукта по време на анеструс, нивата на LH концентрацията са пониски и това задържа растежа на фоликулите и действа като контрацептив."]
   },
   {
     "type": "urogenital",
@@ -8181,9 +8241,9 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/analgin.pdf" }
     ],
-    "indications"       : ["антипиретичен и спазмолитичен ефект, не е НСПВС."],
+    "indications"       : ["антипиретичен и спазмолитичен ефект."],
     "contraindications" : [],
-    "drugInteractions"  : [],
+    "drugInteractions"  : ["Не се използва с кортикостероиди и НСПВС."],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -8213,9 +8273,9 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/metamizol.pdf" }
     ],
-    "indications"       : ["антипиретичен и спазмолитичен ефект, не е НСПВС."],
+    "indications"       : ["антипиретичен и спазмолитичен ефект."],
     "contraindications" : [],
-    "drugInteractions"  : [],
+    "drugInteractions"  : ["Не се използва с кортикостероиди и НСПВС."],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -8245,9 +8305,9 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/spasmium.pdf" }
     ],
-    "indications"       : ["антипиретичен и спазмолитичен ефект, не е НСПВС."],
+    "indications"       : ["антипиретичен и спазмолитичен ефект."],
     "contraindications" : [],
-    "drugInteractions"  : [],
+    "drugInteractions"  : ["Не се използва с кортикостероиди и НСПВС."],
     "adverseEffects"    : [],
     "pharmacology"      : []
   },
@@ -8271,11 +8331,11 @@
     "links": [
       { "title": "листовка", "link": "pdfs/@medication/antiinflammatory/alergovet.pdf" }
     ],
-    "indications"       : [],
-    "contraindications" : [],
-    "drugInteractions"  : [],
-    "adverseEffects"    : [],
-    "pharmacology"      : []
+    "indications"       : ["При алергии, анафилактични и възпалителни заболявания - уртикария, алергични дерматити и дерматози, алергични конюнктивити, алергия към лекарства и храни, анафилактичен шок; бронхиална астма; при ужилване от насекоми и ухапване от змии; при транспортна болест; за анестезия на носната лигавица.", "Дозировка: 1-2 мг (т. е. 0.1-0.4 мл/кг)."],
+    "contraindications" : ["Няма."],
+    "drugInteractions"  : ["Адитивен ефект, когато се прилага с депресанти на ЦНС или с антихолинергични вещества."],
+    "adverseEffects"    : ["Хиперактивност или отпуснатост.", "Хипотония?"],
+    "pharmacology"      : ["Блокира H1 рецепторите (хистаминовите рецептои) и така премахва явленията, дължащи се на повишено съдържание на хистамин в кръвта и тъканите."]
   },
   {
     "type": "antiinflammatory",
@@ -9376,7 +9436,7 @@
         "applicationMethod": "два пъти дневно (КЧ <15 кг) PO или с храна"
       }
     },
-    "indications"       : ["Продуктът се препоръчва за кучета от дилативна кардиомиопатия или от митрална регургитация.", "Кучета повече от 15 кг телесно тегло: две таблетки два пъти дневно. В случаи на кучета, чието телесно тегло е над 40 кг, ветеринарният лекар може да увеличи дозата."],
+    "indications"       : ["Продуктът се препоръчва за кучета от дилативна кардиомиопатия или от митрална регургитация.", "Кучета >15 кг: 2 табл. два пъти дневно. В случаи на кучета >40 кг, ветеринарният лекар може да увеличи дозата."],
     "contraindications" : [],
     "drugInteractions"  : [],
     "adverseEffects"    : [],
