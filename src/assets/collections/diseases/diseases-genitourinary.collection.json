@@ -1227,22 +1227,5 @@
     "diagnostics"   : [""],
     "treatment"     : [""],
     "differential"  : [""]
-  },
-  {
-    "title"       : "Котешки урологичен синдром",
-    "titleEn"     : "Feline Urological Syndrome (FUS)",
-    "type"        : "genitourinary",
-    "animals"     : ["dogs", "cats"],
-    "bodySystem"  : [""],
-    "isVisible"   : false,
-    "links": [
-      { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
-    ],
-    "etiology"      : [""],
-    "signs"         : ["", "", ""],
-    "specificSigns" : [""],
-    "diagnostics"   : [""],
-    "treatment"     : [""],
-    "differential"  : [""]
   }
 ]

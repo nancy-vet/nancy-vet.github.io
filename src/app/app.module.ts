@@ -33,6 +33,10 @@ const routes: Routes = [
     loadChildren  : () => import('./@features/@section/library/@navigation/tabs.module').then(m => m.TabsPageModule)
   },
   {
+    path          : AppNavigationRouteEnum.PATIENTSLIBRARY,
+    loadChildren  : () => import( './@features/@section/patients-library/@navigation/tabs.module').then(m => m.TabsPageModule)
+  },
+  {
     path          : AppNavigationRouteEnum.INFO,
     loadChildren  : () => import('./@features/@section/info/@navigation/tabs.module').then(m => m.TabsPageModule)
   },
