@@ -1,27 +1,27 @@
 .medical_record {
   position: fixed;
   width: 320px;
-  border-right: solid 3px #2196f3a8;
+  border-right: solid 3px #3880ff;
 }
 
-.protocols {
+.protocols, .vaccination_and_deworming {
   margin-left: 320px;
 }
 
 .protocol-btn {
   background-color: #3880ff;
   color: white;
-  // padding: 10px;
-  // border: none;
-  // border-radius: 5px;
-  // margin: 5px 0;
-  // cursor: pointer;
-  // width: 100%;
-  // text-align: left;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px 0;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
 }
 
 .protocol-details {
-  background: #f8f8f8;
+  // background: #f8f8f8;
   padding: 10px;
   border-left: 4px solid #3880ff;
   margin-top: 5px;

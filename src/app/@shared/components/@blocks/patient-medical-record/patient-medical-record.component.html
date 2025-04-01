@@ -5,9 +5,9 @@
         <img [src]="imagePath" alt="image">
       </div>
     </ion-col>
-    <ion-col size="10">
-      <div [ngClass]="inputSubTitle ? 'mt7' : 'mt14' " >{{inputPetName}}</div>
-      <div style="font-weight: bold; font-size: 12px;">{{inputOwnerName}}</div>
+    <ion-col size="10" style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; padding: 0px 700px 0px 0px;">
+      <div style="font-weight: bold; font-size: 14px;">{{inputOwnerName}}</div>
+      <div>{{inputPetName}}</div>
     </ion-col>
   </ion-row>
 </ion-grid>

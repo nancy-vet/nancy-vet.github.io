@@ -28,8 +28,8 @@ export class PatientInfoModal implements OnInit {
       return;
     }
 
-    console.log("📋 Selected patient's protocol IDs:", this.selectedObject.protocols);
-    console.log("📂 All protocols before filtering:", this.allProtocols);
+    // console.log("📋 Selected patient's protocol IDs:", this.selectedObject.protocols);
+    // console.log("📂 All protocols before filtering:", this.allProtocols);
 
     // Ensure allProtocols is properly loaded before filtering
     if (!this.allProtocols || !Array.isArray(this.allProtocols)) {
@@ -46,9 +46,9 @@ export class PatientInfoModal implements OnInit {
       return this.selectedObject.protocols.includes(protocol.protocol_number.toString());
     });
 
-    console.log("🔍 Type of protocol IDs in selectedObject:", typeof this.selectedObject?.protocols?.[0]);
-    console.log("🔍 Type of protocol numbers in allProtocols:", typeof this.allProtocols?.[0]?.protocol_number);
-    console.log("✅ Filtered protocols:", this.patientProtocols);
+    // console.log("🔍 Type of protocol IDs in selectedObject:", typeof this.selectedObject?.protocols?.[0]);
+    // console.log("🔍 Type of protocol numbers in allProtocols:", typeof this.allProtocols?.[0]?.protocol_number);
+    // console.log("✅ Filtered protocols:", this.patientProtocols);
   }
 
 
