@@ -1,6 +1,6 @@
-import { Injectable } from "@angular/core";
+import { Injectable }         from "@angular/core";
 import PatientsCollectionJson from "nv@json/patients/patients.collection.json";
-import ProtocolsCollection from "nv@json/patients/protocols.collection.json";
+import ProtocolsCollection    from "nv@json/patients/protocols.collection.json";
 
 @Injectable({
   providedIn: 'root'
@@ -20,8 +20,6 @@ export class PatientDataService {
     return this.$patientCollection;
   }
 
-
-
   public $protocols() {
 
     this.$protocolCollection = structuredClone(ProtocolsCollection);
@@ -30,5 +28,24 @@ export class PatientDataService {
 
   public getAllprotocols(): any {
     return this.$protocolCollection;
+  }
+
+
+  /**
+   * @author Mihail Petrov
+   * @param title
+   * @returns
+   */
+  public filterByOwnerName(ownerName: any) {
+
+
+    if(!ownerName) return this;
+
+    this.$patientCollection = this.$patientCollection.filter((element: any) => {
+      return (element.owner_name).toLowerCase().includes(ownerName.toLowerCase()) ||
+             (element.owner_name).toLowerCase().includes(ownerName.toLowerCase());
+    });
+
+    return this;
   }
 }

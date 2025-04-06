@@ -67,7 +67,8 @@
     <div *ngFor="let protocol of patientProtocols">
       <button class="protocol-btn" (click)="openProtocol(protocol)">
         Протокол №: {{ protocol.protocol_number }},
-        с дата: {{ protocol.protocol_creation_date }}
+        с дата: {{ protocol.protocol_creation_date }},
+        диагноза: {{ protocol.diagnosis }}
       </button>
 
       <!-- Show details only if this protocol is selected -->

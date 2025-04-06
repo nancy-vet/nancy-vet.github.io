@@ -1,8 +1,9 @@
 <!-- App Header -->
+<!-- App Header -->
 <ion-header>
   <nv-search-toolbar
-
-    >
+    (onSearch)      = "onItemSearched($event)"
+    (onFilter)      = "onFilter($event)">
   </nv-search-toolbar>
 </ion-header>
 

@@ -3,11 +3,11 @@ import { ModalController } from "@ionic/angular";
 import { PatientDataService } from 'nv@services/patients-data.service';
 
 @Component({
-  selector: 'modal--patient-info',
-  templateUrl: './patient-info.component.html',
-  styleUrl: './patient-info.component.scss'
+  selector: 'modal--patient-bar',
+  templateUrl: './patient-bar.component.html',
+  styleUrl: './patient-bar.component.scss'
 })
-export class PatientInfoModal implements OnInit {
+export class PatientBarModal implements OnInit {
 
   private modalController: ModalController = inject(ModalController);
   private $patientDataService: PatientDataService = inject(PatientDataService);

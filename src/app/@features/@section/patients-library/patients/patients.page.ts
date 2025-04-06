@@ -4,7 +4,7 @@ import { PatientDataService        } from 'nv@services/patients-data.service';
 import { DialogService             } from 'nv@services/dialog.service';
 
 import { SelectCategoryModal       } from './@modal/select-category/select-category.component';
-import { PatientInfoModal          } from './@modal/patient-info/patient-info.component';
+import { PatientBarModal          } from './@modal/patient-bar/patient-bar.component';
 
 
 @Component({
@@ -14,16 +14,15 @@ import { PatientInfoModal          } from './@modal/patient-info/patient-info.co
 })
 export class PatientsPage implements OnInit {
 
-  private $patientDataService: PatientDataService     = inject(PatientDataService);
-  private dialogService: DialogService                = inject(DialogService);
+  private $dataService: PatientDataService  = inject(PatientDataService);
+  private dialogService: DialogService      = inject(DialogService);
 
   public $collection: any = [];
 
   public ngOnInit(): void {
-    this.$collection = this.$patientDataService.$patient().getAll();
+    this.$collection = this.$dataService.$patient().getAll();
     // console.log("Loaded patients:", this.$collection);
   }
-
 
   /**
    * @author Mihail Petrov
@@ -31,7 +30,7 @@ export class PatientsPage implements OnInit {
    */
   public async onSelectCard($event: any) {
 
-    (await this.dialogService.open(PatientInfoModal, {
+    (await this.dialogService.open(PatientBarModal, {
       selectedObject: $event
     }));
   }
@@ -39,9 +38,22 @@ export class PatientsPage implements OnInit {
 
   // private processGetItemCollection() {
 
-  //   this.$collection = this.$patientdataService.$patient()
+  //   this.$collection = this.$dataService.$patient()
   //                     // .filterByCategory(this.$selectedCategories)
   //                     .getAll();
   // }
 
+  public onItemSearched($event: any) {
+
+    this.$collection = this.$dataService.$patient().filterByOwnerName($event).getAll();
+                      //.filterByCategory(this.$selectedCategories)
+                      //.filterByTitle(filterValue)
+                      // .filterByPrimary(this.activeFilter, filterValue)
+                      //.get();
+  }
+
+
+  public onFilter($event: any) {
+    console.log($event)
+  }
 }

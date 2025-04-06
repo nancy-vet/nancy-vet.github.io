@@ -6,7 +6,7 @@ import { RouterModule, Routes     } from '@angular/router';
 
 import { PatientsPage             } from './patients.page';
 
-import { PatientInfoModal         } from './@modal/patient-info/patient-info.component';
+import { PatientBarModal         } from './@modal/patient-bar/patient-bar.component';
 import { SelectCategoryModal      } from './@modal/select-category/select-category.component';
 
 import { PrimaryMenu              } from 'nv@features/@menu/primary-menu/primary-menu.component';
@@ -30,7 +30,7 @@ const routes: Routes = [{
 @NgModule({
     declarations                    : [
       PatientsPage                  ,
-      PatientInfoModal              ,
+      PatientBarModal              ,
       SelectCategoryModal
     ],
     imports                         : [

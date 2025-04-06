@@ -12,7 +12,11 @@
     "owner_name"        : "Красимир Димов",
     "telephone"         : "0123456789",
     "address"           : "гр. Пловдив",
-    "protocols"         : ["0", "1", "2"]
+    "protocols"         : ["0", "1", "2", "3"],
+    "cases" : [
+      { "title": "Дирофилариоза", "protocols": ["0", "1", "2"]},
+      { "title": "Повръщане", "protocols": ["3"]}
+    ]
   },
   {
     "pet_name"          : "",
@@ -24,7 +28,7 @@
     "microchip"         : "",
     "passport"          : "",
     "last_vaccination"  : "",
-    "owner_name"        : "",
+    "owner_name"        : "Иван Иванов",
     "telephone"         : "",
     "address"           : "",
     "protocols"         : ["", "", ""]
@@ -39,7 +43,7 @@
     "microchip"         : "",
     "passport"          : "",
     "last_vaccination"  : "",
-    "owner_name"        : "",
+    "owner_name"        : "Тодор Петров",
     "telephone"         : "",
     "address"           : "",
     "protocols"         : ["", "", ""]
