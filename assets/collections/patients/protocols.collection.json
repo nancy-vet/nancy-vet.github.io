@@ -66,5 +66,22 @@
     "medications"               : [],
     "manipulations"             : [],
     "differential_diagnosis"    : ""
+  },
+  {
+    "protocol_number"           : 4,
+    "protocol_creation_date"    : "2012-08-01",
+    "protocol_modification_date": "",
+    "protocol_completion_date"  : "",
+    "pet_id"                    : "1",
+    "temperature"               : "",
+    "weight"                    : "",
+    "anamnesis"                 : "полиурия, полидипсия",
+    "clinical_signs"            : "кахексия, дехидратация",
+    "examination"               : "",
+    "diagnosis"                 : "ХБН",
+    "treatment"                 : "Превомакс, флуидна терапия",
+    "medications"               : [],
+    "manipulations"             : [],
+    "differential_diagnosis"    : ""
   }
 ]
