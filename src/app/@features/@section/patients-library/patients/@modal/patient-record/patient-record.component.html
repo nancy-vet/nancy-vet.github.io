@@ -67,20 +67,51 @@
     <div *ngFor="let protocol of patientProtocols">
       <button class="protocol-btn" (click)="openProtocol(protocol)">
         Протокол №: {{ protocol.protocol_number }},
-        с дата: {{ protocol.protocol_creation_date }},
-        диагноза: {{ protocol.diagnosis }}
+        с дата:     {{ protocol.protocol_creation_date }},
+        диагноза:   {{ protocol.diagnosis }}
       </button>
 
       <!-- Show details only if this protocol is selected -->
       <div *ngIf="selectedProtocol === protocol" class="protocol-details">
-        <p><strong>Дата на създаване:</strong> {{ protocol.protocol_creation_date }}</p>
-        <p><strong>Дата на приключване:</strong> {{ protocol.protocol_completion_date }}</p>
-        <p><strong>Анамнеза:</strong> {{ protocol.anamnesis }}</p>
-        <p><strong>Клинични признаци:</strong> {{ protocol.clinical_signs }}</p>
-        <p><strong>Изследвания:</strong> {{ protocol.examination }}</p>
-        <p><strong>Диагноза:</strong> {{ protocol.diagnosis }}</p>
-        <p><strong>Лечение:</strong> {{ protocol.treatment }}</p>
-        <p><strong>Манипулации:</strong> {{ protocol.manipulations }}</p>
+        <ion-grid>
+          <ion-row><strong>Дата на създаване:</strong>   {{ protocol.protocol_creation_date }}</ion-row>
+          <ion-row><strong>Дата на приключване:</strong> {{ protocol.protocol_completion_date }}</ion-row>
+          <ion-row>
+            <ion-col>
+                <p><strong>Анамнеза:</strong><br>
+                  <textarea class="input" [value]="protocol.anamnesis"></textarea>
+                </p>
+            </ion-col>
+            <ion-col>
+                <p><strong>Клинични признаци:</strong><br>
+                  <textarea class="input" [value]="protocol.clinical_signs"></textarea>
+                </p>
+            </ion-col>
+            <ion-col>
+                <p><strong>Изследвания:</strong><br>
+                  <textarea class="input" [value]="protocol.examination"></textarea>
+                </p>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col>
+                <p><strong>Диагноза:</strong><br>
+                  <textarea class="input" [value]="protocol.diagnosis"></textarea>
+                </p>
+            </ion-col>
+            <ion-col>
+                <p><strong>Лечение:</strong><br>
+                  <textarea class="input" [value]="protocol.treatment"></textarea>
+                </p>
+            </ion-col>
+            <ion-col>
+                <p><strong>Манипулации:</strong><br>
+                  <textarea class="input" [value]="protocol.manipulations"></textarea>
+                </p>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+
       </div>
 
     </div>

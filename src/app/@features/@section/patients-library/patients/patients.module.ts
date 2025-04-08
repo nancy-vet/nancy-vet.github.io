@@ -6,13 +6,13 @@ import { RouterModule, Routes     } from '@angular/router';
 
 import { PatientsPage             } from './patients.page';
 
-import { PatientBarModal         } from './@modal/patient-bar/patient-bar.component';
+import { PatientRecordModal         } from './@modal/patient-record/patient-record.component';
 import { SelectCategoryModal      } from './@modal/select-category/select-category.component';
 
 import { PrimaryMenu              } from 'nv@features/@menu/primary-menu/primary-menu.component';
 
 import { NvRadioComponent         } from 'nv@components/@forms/nv-radio/nv-radio.component';
-import { PatientMedicalRecord     } from 'nv@components/@blocks/patient-medical-record/patient-medical-record.component';
+import { PatientBar     } from 'nv@components/@blocks/patient-bar/patient-bar.component';
 import { NvSearchToolbarComponent } from 'nv@components/@layouts/nv-search-toolbar/nv-search-toolbar.component';
 import { DosePipe                 } from 'nv@pipes/doce.pipe';
 import { CategoryPickerComponent  } from 'nv@components/@blocks/category-picker/category-picker.component';
@@ -30,7 +30,7 @@ const routes: Routes = [{
 @NgModule({
     declarations                    : [
       PatientsPage                  ,
-      PatientBarModal              ,
+      PatientRecordModal              ,
       SelectCategoryModal
     ],
     imports                         : [
@@ -42,7 +42,7 @@ const routes: Routes = [{
       SplitPipe                     ,
       PrimaryMenu                   ,
       NvRadioComponent              ,
-      PatientMedicalRecord          ,
+      PatientBar          ,
       NvSearchToolbarComponent      ,
       CategoryPickerComponent       ,
       NvInfoModal                   ,

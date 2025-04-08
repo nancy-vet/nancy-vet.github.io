@@ -6,14 +6,14 @@ import { DrugModel    } from "nv@models/drug.model";
 @Component({
   standalone  : true,
   selector    : 'dc-card',
-  templateUrl : './patient-medical-record.component.html',
-  styleUrl    : './patient-medical-record.component.scss',
+  templateUrl : './patient-bar.component.html',
+  styleUrl    : './patient-bar.component.scss',
   imports     : [
     CommonModule,
     IonicModule
   ]
 })
-export class PatientMedicalRecord implements OnInit {
+export class PatientBar implements OnInit {
 
   @Input({required: true  }) public object: DrugModel | undefined;
 

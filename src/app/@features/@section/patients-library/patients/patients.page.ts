@@ -4,7 +4,7 @@ import { PatientDataService        } from 'nv@services/patients-data.service';
 import { DialogService             } from 'nv@services/dialog.service';
 
 import { SelectCategoryModal       } from './@modal/select-category/select-category.component';
-import { PatientBarModal          } from './@modal/patient-bar/patient-bar.component';
+import { PatientRecordModal        } from './@modal/patient-record/patient-record.component';
 
 
 @Component({
@@ -18,6 +18,7 @@ export class PatientsPage implements OnInit {
   private dialogService: DialogService      = inject(DialogService);
 
   public $collection: any = [];
+  public searchCategory = "ownerName";
 
   public ngOnInit(): void {
     this.$collection = this.$dataService.$patient().getAll();
@@ -30,7 +31,7 @@ export class PatientsPage implements OnInit {
    */
   public async onSelectCard($event: any) {
 
-    (await this.dialogService.open(PatientBarModal, {
+    (await this.dialogService.open(PatientRecordModal, {
       selectedObject: $event
     }));
   }
@@ -45,15 +46,21 @@ export class PatientsPage implements OnInit {
 
   public onItemSearched($event: any) {
 
-    this.$collection = this.$dataService.$patient().filterByOwnerName($event).getAll();
-                      //.filterByCategory(this.$selectedCategories)
-                      //.filterByTitle(filterValue)
-                      // .filterByPrimary(this.activeFilter, filterValue)
-                      //.get();
+    if(this.searchCategory == "ownerName") {
+      this.$collection = this.$dataService.$patient().filterByOwnerName($event).getAll();
+    }
+    if(this.searchCategory == "diagnosis") {
+      this.$collection = this.$dataService.$patient().filterByDiagnosis($event).getAll();
+    }
+
   }
 
 
   public onFilter($event: any) {
     console.log($event)
+  }
+
+  public onSearchCategorySelected(searchCategory: string) {
+    this.searchCategory = searchCategory;
   }
 }

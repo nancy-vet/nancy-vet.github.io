@@ -3,11 +3,11 @@ import { ModalController } from "@ionic/angular";
 import { PatientDataService } from 'nv@services/patients-data.service';
 
 @Component({
-  selector: 'modal--patient-bar',
-  templateUrl: './patient-bar.component.html',
-  styleUrl: './patient-bar.component.scss'
+  selector: 'modal--patient-record',
+  templateUrl: './patient-record.component.html',
+  styleUrl: './patient-record.component.scss'
 })
-export class PatientBarModal implements OnInit {
+export class PatientRecordModal implements OnInit {
 
   private modalController: ModalController = inject(ModalController);
   private $patientDataService: PatientDataService = inject(PatientDataService);
@@ -39,12 +39,15 @@ export class PatientBarModal implements OnInit {
 
     // Convert `protocol_number` to string for correct comparison
     this.patientProtocols = this.allProtocols.filter(protocol => {
-      if (!protocol || protocol.protocol_number === undefined) {
+      if (!protocol || typeof protocol.protocol_number === 'undefined') {
         console.warn("⚠️ Skipping an undefined or missing protocol:", protocol);
-        return false; // Skip this iteration
+        return false;
       }
-      return this.selectedObject.protocols.includes(protocol.protocol_number.toString());
+
+      // No need for .toString() now
+      return this.selectedObject.protocols.includes(Number(protocol.protocol_number));
     });
+
 
     // console.log("🔍 Type of protocol IDs in selectedObject:", typeof this.selectedObject?.protocols?.[0]);
     // console.log("🔍 Type of protocol numbers in allProtocols:", typeof this.allProtocols?.[0]?.protocol_number);

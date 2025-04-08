@@ -2,6 +2,10 @@ import { Injectable }         from "@angular/core";
 import PatientsCollectionJson from "nv@json/patients/patients.collection.json";
 import ProtocolsCollection    from "nv@json/patients/protocols.collection.json";
 
+function containsAny(arr1: any, arr2: any) {
+  return arr1.some((item: any) => arr2.includes(item));
+}
+
 @Injectable({
   providedIn: 'root'
 })
@@ -48,4 +52,51 @@ export class PatientDataService {
 
     return this;
   }
+
+  /**
+   * @author Mihail Petrov
+   * @param title
+   * @returns
+   */
+  public filterByDiagnosis(diagnosis: any) {
+
+    if(!diagnosis) return this;
+
+    this.$protocolCollection = structuredClone(ProtocolsCollection);
+
+    // find all protocol ids related to some patient
+    const idCollection = this.$protocolCollection.filter((element: any) => {
+      return (element.diagnosis).toLowerCase().includes(diagnosis.toLowerCase()) ||
+             (element.diagnosis).toLowerCase().includes(diagnosis.toLowerCase());
+    });
+
+    const protocolIdCollection = [];
+    for(let i = 0; i < idCollection.length; i++) {
+      protocolIdCollection.push(idCollection[i].protocol_number);
+    }
+
+    // console.log(protocolIdCollection);
+
+    const r = [];
+    for(let i = 0; i < this.$patientCollection.length; i++) {
+
+      // console.log("@@@")
+      // console.log(this.$patientCollection[i]);
+      // console.log("@@@")
+
+      if(containsAny(this.$patientCollection[i].protocols, protocolIdCollection)) {
+        r.push(structuredClone(this.$patientCollection[i]));
+      }
+
+      // if(this.$patientCollection[i].protocols.includes(protocolIdCollection)) {
+      //   r.push(structuredClone(this.$patientCollection[i]));
+      // }
+    }
+
+    this.$patientCollection = r;
+
+    return this;
+  }
+
+
 }

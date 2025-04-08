@@ -5,7 +5,7 @@ import { FormsModule            } from '@angular/forms';
 import { RouterModule, Routes   } from '@angular/router';
 import { Component              } from '@angular/core';
 
-import { PatientMedicalRecord   } from 'nv@components/@blocks/patient-medical-record/patient-medical-record.component';
+import { PatientBar             } from 'nv@components/@blocks/patient-bar/patient-bar.component';
 import { PrimaryMenu            } from 'nv@features/@menu/primary-menu/primary-menu.component';
 
 @Component({
@@ -46,7 +46,7 @@ const routes: Routes = [
     IonicModule                   ,
     CommonModule                  ,
     FormsModule                   ,
-    PatientMedicalRecord          ,
+    PatientBar          ,
     PrimaryMenu
   ]
 })
