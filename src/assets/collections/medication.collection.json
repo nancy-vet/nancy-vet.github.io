@@ -348,21 +348,13 @@
     "drugConcentration": 200,
     "drugConcentrationDecorator": "mg_ml",
     "application": {
-      "dog": {
+      "any": {
         "activeSubstanceDose": [
-          0.5,
-          1
+          30,
+          50
         ],
-        "activeSubstanceDoseDecorator": "g",
-        "applicationMethod": "PO 2-4 пъти на ден"
-      },
-      "cat": {
-        "activeSubstanceDose": [
-          0.25,
-          0.5
-        ],
-        "activeSubstanceDoseDecorator": "g",
-        "applicationMethod": "PO 2-4 пъти на ден"
+        "activeSubstanceDoseDecorator": "mg_kg",
+        "applicationMethod": "PO 30 мин преди хранене, 2-4 пъти на ден"
       }
     },
     "links": [

@@ -1,11 +1,11 @@
 <ion-grid>
   <ion-row (click)="processCard()">
-    <ion-col size="2">
+    <ion-col size="1">
       <div [ngClass]="['card-img', convert(object?.animalType)]">
         <img [src]="imagePath" alt="image">
       </div>
     </ion-col>
-    <ion-col size="10" style="display: flex; flex-direction: row; justify-content: space-between; align-items: center; padding: 0px 700px 0px 0px;">
+    <ion-col size="11" style="display: flex; flex-direction: row-reverse; justify-content: space-between; align-items: center; padding: 0px 900px 0px 0px;">
       <div style="font-weight: bold; font-size: 14px;">{{inputOwnerName}}</div>
       <div>{{inputPetName}}</div>
     </ion-col>

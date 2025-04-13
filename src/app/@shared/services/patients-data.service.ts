@@ -1,6 +1,7 @@
 import { Injectable }         from "@angular/core";
 import PatientsCollectionJson from "nv@json/patients/patients.collection.json";
 import ProtocolsCollection    from "nv@json/patients/protocols.collection.json";
+import PatientsResults        from "nv@json/patients/patients-results.collection.json";
 
 function containsAny(arr1: any, arr2: any) {
   return arr1.some((item: any) => arr2.includes(item));
@@ -13,6 +14,7 @@ export class PatientDataService {
 
   private $patientCollection: any = [];
   private $protocolCollection: any = [];
+  private $resultCollection: any = [];
 
   public $patient() {
 
@@ -32,6 +34,16 @@ export class PatientDataService {
 
   public getAllprotocols(): any {
     return this.$protocolCollection;
+  }
+
+  public $results() {
+
+    this.$resultCollection = structuredClone(PatientsResults);
+    return this;
+  }
+
+  public getAllresults(): any {
+    return this.$resultCollection;
   }
 
 
