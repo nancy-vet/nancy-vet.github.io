@@ -10,7 +10,8 @@
     "owner_name"        : "Красимир Димов",
     "address"           : "Кара",
     "protocols"         : [0, 1, 2, 3],
-    "results"           : []
+    "results"           : [],
+    "pets_diseases"     : []
   },
   {
     "pet_id"            : 2,
@@ -23,7 +24,8 @@
     "owner_name"        : "Диана Грозева",
     "address"           : "Кара",
     "protocols"         : [4],
-    "results"           : []
+    "results"           : [],
+    "pets_diseases"     : []
   },
   {
     "pet_id"            : 3,
@@ -36,7 +38,8 @@
     "owner_name"        : "Добромир Лазаров",
     "address"           : "Кара",
     "protocols"         : [5, 6, 7],
-    "results"           : []
+    "results"           : [],
+    "pets_diseases"     : []
   },
   {
     "pet_id"            : 4,
@@ -49,7 +52,8 @@
     "owner_name"        : "Румен Костадинов",
     "address"           : "",
     "protocols"         : [8],
-    "results"           : []
+    "results"           : [],
+    "pets_diseases"     : []
   },
   {
     "pet_id"            : 5,
@@ -62,7 +66,8 @@
     "owner_name"        : "Стоян Иванов",
     "address"           : "",
     "protocols"         : [9],
-    "results"           : []
+    "results"           : [],
+    "pets_diseases"     : []
   },
   {
     "pet_id"            : 6,
@@ -75,7 +80,8 @@
     "owner_name"        : "",
     "address"           : "",
     "protocols"         : [10],
-    "results"           : []
+    "results"           : [],
+    "pets_diseases"     : []
   },
   {
     "pet_id"            : 7,
@@ -88,7 +94,8 @@
     "owner_name"        : "неизвестен",
     "address"           : "",
     "protocols"         : [11],
-    "results"           : []
+    "results"           : [],
+    "pets_diseases"     : []
   },
   {
     "pet_id"            : 8,
@@ -101,7 +108,8 @@
     "owner_name"        : "Стойчо Танчев",
     "address"           : "",
     "protocols"         : [12, 13],
-    "results"           : []
+    "results"           : [],
+    "pets_diseases"     : []
   },
   {
     "pet_id"            : 9,
@@ -114,7 +122,8 @@
     "owner_name"        : "Светлозар Алексиев",
     "address"           : "",
     "protocols"         : [14, 15, 16],
-    "results"           : []
+    "results"           : [],
+    "pets_diseases"     : []
   },
   {
     "pet_id"            : 10,
@@ -127,20 +136,22 @@
     "owner_name"        : "Димо Ничев",
     "address"           : "Ирв",
     "protocols"         : [17],
-    "results"           : [0]
+    "results"           : [0],
+    "pets_diseases"     : ["FIP"]
   },
   {
     "pet_id"            : 11,
-    "pet_name"          : "",
-    "animalType"        : "котка",
-    "breed"             : "",
-    "sex"               : "",
-    "age"               : "",
-    "neutered"          : "",
-    "owner_name"        : "",
+    "pet_name"          : "Дрейк",
+    "animalType"        : "куче",
+    "breed"             : "кавалер",
+    "sex"               : "мъжки",
+    "age"               : "9 год",
+    "neutered"          : true,
+    "owner_name"        : "Мариана Костадинова",
     "address"           : "",
-    "protocols"         : [],
-    "results"           : []
+    "protocols"         : [18, 19],
+    "results"           : [],
+    "pets_diseases"     : ["Сух кератоконюнктивит"]
   },
   {
     "pet_id"            : 12,
@@ -153,7 +164,8 @@
     "owner_name"        : "",
     "address"           : "",
     "protocols"         : [],
-    "results"           : []
+    "results"           : [],
+    "pets_diseases"     : []
   },
   {
     "pet_id"            : 13,
@@ -166,7 +178,8 @@
     "owner_name"        : "",
     "address"           : "",
     "protocols"         : [],
-    "results"           : []
+    "results"           : [],
+    "pets_diseases"     : []
   },
   {
     "pet_id"            : 14,
@@ -179,7 +192,8 @@
     "owner_name"        : "",
     "address"           : "",
     "protocols"         : [],
-    "results"           : []
+    "results"           : [],
+    "pets_diseases"     : []
   },
   {
     "pet_id"            : 15,
@@ -192,7 +206,8 @@
     "owner_name"        : "",
     "address"           : "",
     "protocols"         : [],
-    "results"           : []
+    "results"           : [],
+    "pets_diseases"     : []
   },
   {
     "pet_id"            : 16,
@@ -205,6 +220,7 @@
     "owner_name"        : "",
     "address"           : "",
     "protocols"         : [],
-    "results"           : []
+    "results"           : [],
+    "pets_diseases"      : []
   }
 ]
