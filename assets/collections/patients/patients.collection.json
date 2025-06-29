@@ -11,7 +11,7 @@
     "address"           : "Кара",
     "protocols"         : [0, 1, 2, 3],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Дирофилариоза"]
   },
   {
     "pet_id"            : 2,
@@ -25,7 +25,7 @@
     "address"           : "Кара",
     "protocols"         : [4],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Ранула"]
   },
   {
     "pet_id"            : 3,
@@ -39,7 +39,7 @@
     "address"           : "Кара",
     "protocols"         : [5, 6, 7],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Бабезиоза"]
   },
   {
     "pet_id"            : 4,
@@ -53,7 +53,7 @@
     "address"           : "",
     "protocols"         : [8],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Бабезиоза"]
   },
   {
     "pet_id"            : 5,
@@ -67,7 +67,7 @@
     "address"           : "",
     "protocols"         : [9],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Бабезиоза"]
   },
   {
     "pet_id"            : 6,
@@ -80,7 +80,7 @@
     "owner_name"        : "",
     "address"           : "",
     "protocols"         : [10],
-    "results"           : [],
+    "results"           : ["Лъжлива бременност"],
     "pets_diseases"     : []
   },
   {
@@ -95,7 +95,7 @@
     "address"           : "",
     "protocols"         : [11],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Хиперестрогенизъм"]
   },
   {
     "pet_id"            : 8,
@@ -108,7 +108,7 @@
     "owner_name"        : "Стойчо Танчев",
     "address"           : "",
     "protocols"         : [12, 13],
-    "results"           : [],
+    "results"           : ["Доброкачествена хиперплазия на простатата"],
     "pets_diseases"     : []
   },
   {
@@ -123,7 +123,7 @@
     "address"           : "",
     "protocols"         : [14, 15, 16],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Рахит"]
   },
   {
     "pet_id"            : 10,
