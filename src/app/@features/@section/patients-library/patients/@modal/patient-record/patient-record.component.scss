@@ -8,6 +8,10 @@
   margin-left: 320px;
 }
 
+.protocol-info {
+  color: #ffff0096;
+}
+
 .protocol-btn {
   background-color: #3880ff;
   color: white;
@@ -72,4 +76,15 @@
   overflow-y: auto;      /* scroll if content overflows vertically */
   white-space: pre-wrap; /* keeps text wrapping nicely */
   padding: 8px;
+}
+
+@media (max-width: 1400px) {
+  .medical_record {
+    position: relative;
+    width: 100%;
+  }
+
+  .protocols, .results, .vaccination_and_deworming {
+  margin-left: 6px;
+  }
 }

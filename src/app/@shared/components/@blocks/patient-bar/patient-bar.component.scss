@@ -14,3 +14,36 @@
 
 .cat      { background-color: #356cfe;  }
 .dog      { background-color: #85c15b;  }
+
+#petNameCol {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 900px 0px 0px;
+  width: 80px;
+}
+
+#ownerNameCol {
+  font-weight: bold;
+  font-size: 14px;
+  width: 115px;
+}
+
+#petsDiseasesCol {
+  font-style: italic;
+  color: #ffff0096;
+  width: calc(100% - 195px);
+}
+
+
+@media (max-width: 1400px) {
+  #petNameCol {
+    display: block;
+    padding: 0px 0px 0px 50px;
+  }
+  #petNameCol, #ownerNameCol, #petsDiseasesCol {
+    width: 100%;
+  }
+}
+
+
