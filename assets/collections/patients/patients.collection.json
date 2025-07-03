@@ -80,8 +80,8 @@
     "owner_name"        : "",
     "address"           : "",
     "protocols"         : [10],
-    "results"           : ["Лъжлива бременност"],
-    "pets_diseases"     : []
+    "results"           : [""],
+    "pets_diseases"     : ["Лъжлива бременност"]
   },
   {
     "pet_id"            : 7,
@@ -108,8 +108,8 @@
     "owner_name"        : "Стойчо Танчев",
     "address"           : "",
     "protocols"         : [12, 13],
-    "results"           : ["Доброкачествена хиперплазия на простатата"],
-    "pets_diseases"     : []
+    "results"           : [""],
+    "pets_diseases"     : ["Доброкачествена хиперплазия на простатата"]
   },
   {
     "pet_id"            : 9,
@@ -165,7 +165,7 @@
     "address"           : "Ирв",
     "protocols"         : [20, 21, 22],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Кератит"]
   },
   {
     "pet_id"            : 13,
@@ -179,7 +179,7 @@
     "address"           : "Ирв",
     "protocols"         : [23],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Аденом на клепача"]
   },
   {
     "pet_id"            : 14,
@@ -193,7 +193,7 @@
     "address"           : "Ирв",
     "protocols"         : [24, 25],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Сух кератоконюнктивит"]
   },
   {
     "pet_id"            : 15,
@@ -207,7 +207,7 @@
     "address"           : "Ирв",
     "protocols"         : [26, 27, 32, 35],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 16,
@@ -221,7 +221,7 @@
     "address"           : "Ирв",
     "protocols"         : [28, 33],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 17,
@@ -233,7 +233,7 @@
     "neutered"          : "",
     "owner_name"        : "Гергана Георгиева",
     "address"           : "Ирв",
-    "protocols"         : [29],
+    "protocols"         : [29, 80],
     "results"           : [],
     "pets_diseases"     : ["Obs. Сух кератоконюнктивит"]
   },
@@ -261,9 +261,9 @@
     "neutered"          : "не",
     "owner_name"        : "Илияна Хъмова",
     "address"           : "Ирв",
-    "protocols"         : [31],
+    "protocols"         : [31, 55, 56, 57],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Ентропион"]
   },
   {
     "pet_id"            : 20,
@@ -291,7 +291,7 @@
     "address"           : "Ирв",
     "protocols"         : [39],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 22,
@@ -309,227 +309,227 @@
   },
   {
     "pet_id"            : 23,
-    "pet_name"          : "",
-    "animalType"        : "котка",
-    "breed"             : "",
-    "sex"               : "",
-    "age"               : "",
-    "neutered"          : "",
-    "owner_name"        : "",
+    "pet_name"          : "Ая",
+    "animalType"        : "куче",
+    "breed"             : "йорки",
+    "sex"               : "женски",
+    "age"               : "2 години",
+    "neutered"          : "да",
+    "owner_name"        : "Иван Иванов",
     "address"           : "Ирв",
-    "protocols"         : [],
+    "protocols"         : [41, 42],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Чуждо тяло в окото"]
   },
   {
     "pet_id"            : 24,
-    "pet_name"          : "",
+    "pet_name"          : "Пламена",
     "animalType"        : "котка",
     "breed"             : "",
-    "sex"               : "",
+    "sex"               : "женски",
     "age"               : "",
-    "neutered"          : "",
-    "owner_name"        : "",
+    "neutered"          : "не",
+    "owner_name"        : "Кет Хаус",
     "address"           : "Ирв",
-    "protocols"         : [],
+    "protocols"         : [43.44],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 25,
-    "pet_name"          : "",
-    "animalType"        : "котка",
+    "pet_name"          : "Камен",
+    "animalType"        : "заек",
     "breed"             : "",
-    "sex"               : "",
-    "age"               : "",
-    "neutered"          : "",
-    "owner_name"        : "",
+    "sex"               : "мъжки",
+    "age"               : "7 години",
+    "neutered"          : "не",
+    "owner_name"        : "Евгения Цачева",
     "address"           : "Ирв",
-    "protocols"         : [],
+    "protocols"         : [45],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Obs. Тимома"]
   },
   {
     "pet_id"            : 26,
-    "pet_name"          : "",
-    "animalType"        : "котка",
+    "pet_name"          : "Канела",
+    "animalType"        : "заек",
     "breed"             : "",
-    "sex"               : "",
-    "age"               : "",
-    "neutered"          : "",
-    "owner_name"        : "",
+    "sex"               : "мъжки",
+    "age"               : "8 години",
+    "neutered"          : "не",
+    "owner_name"        : "Анжелина Павлова",
     "address"           : "Ирв",
-    "protocols"         : [],
+    "protocols"         : [46],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Язва на роговицата"]
   },
   {
     "pet_id"            : 27,
-    "pet_name"          : "",
-    "animalType"        : "котка",
-    "breed"             : "",
-    "sex"               : "",
-    "age"               : "",
-    "neutered"          : "",
-    "owner_name"        : "",
+    "pet_name"          : "Заки",
+    "animalType"        : "куче",
+    "breed"             : "джак ръсел",
+    "sex"               : "мъжки",
+    "age"               : "1 година",
+    "neutered"          : "не",
+    "owner_name"        : "Зоя Петрова",
     "address"           : "Ирв",
-    "protocols"         : [],
+    "protocols"         : [47],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Язва на роговицата"]
   },
   {
     "pet_id"            : 28,
-    "pet_name"          : "",
+    "pet_name"          : "Томислав",
     "animalType"        : "котка",
-    "breed"             : "",
-    "sex"               : "",
-    "age"               : "",
-    "neutered"          : "",
-    "owner_name"        : "",
+    "breed"             : "Мейн кун",
+    "sex"               : "мъжки",
+    "age"               : "2 години",
+    "neutered"          : "не",
+    "owner_name"        : "Милена Бинева",
     "address"           : "Ирв",
-    "protocols"         : [],
+    "protocols"         : [48, 49],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Периорбитален абсцес"]
   },
   {
     "pet_id"            : 29,
-    "pet_name"          : "",
-    "animalType"        : "котка",
-    "breed"             : "",
-    "sex"               : "",
-    "age"               : "",
-    "neutered"          : "",
-    "owner_name"        : "",
+    "pet_name"          : "Анди",
+    "animalType"        : "куче",
+    "breed"             : "ши тцу",
+    "sex"               : "мъжки",
+    "age"               : "7 години",
+    "neutered"          : "не",
+    "owner_name"        : "Камелия Кокърлева",
     "address"           : "Ирв",
-    "protocols"         : [],
+    "protocols"         : [50, 51],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Язва на роговицата"]
   },
   {
     "pet_id"            : 30,
-    "pet_name"          : "",
-    "animalType"        : "котка",
-    "breed"             : "",
-    "sex"               : "",
-    "age"               : "",
-    "neutered"          : "",
-    "owner_name"        : "",
+    "pet_name"          : "Хоши",
+    "animalType"        : "куче",
+    "breed"             : "акита ину",
+    "sex"               : "мъжки",
+    "age"               : "8 години",
+    "neutered"          : "не",
+    "owner_name"        : "Марияна Генчева",
     "address"           : "Ирв",
-    "protocols"         : [],
+    "protocols"         : [52, 53, 54],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Отлепване на ретината"]
   },
   {
     "pet_id"            : 31,
-    "pet_name"          : "",
-    "animalType"        : "котка",
-    "breed"             : "",
-    "sex"               : "",
-    "age"               : "",
-    "neutered"          : "",
-    "owner_name"        : "",
+    "pet_name"          : "Бъки",
+    "animalType"        : "куче",
+    "breed"             : "мопс",
+    "sex"               : "мъжки",
+    "age"               : "4 години",
+    "neutered"          : "не",
+    "owner_name"        : "Живка Асенова",
     "address"           : "Ирв",
-    "protocols"         : [],
+    "protocols"         : [58, 59],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 32,
-    "pet_name"          : "",
+    "pet_name"          : "Негрини",
     "animalType"        : "котка",
-    "breed"             : "",
-    "sex"               : "",
-    "age"               : "",
-    "neutered"          : "",
-    "owner_name"        : "",
+    "breed"             : "бомбайска котка",
+    "sex"               : "мъжки",
+    "age"               : "7 години",
+    "neutered"          : "не",
+    "owner_name"        : "Роксана Руиз",
     "address"           : "Ирв",
-    "protocols"         : [],
+    "protocols"         : [60],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Глаукома"]
   },
   {
     "pet_id"            : 33,
-    "pet_name"          : "",
+    "pet_name"          : "Макс",
     "animalType"        : "котка",
     "breed"             : "",
-    "sex"               : "",
-    "age"               : "",
-    "neutered"          : "",
-    "owner_name"        : "",
+    "sex"               : "мъжки",
+    "age"               : "3 години",
+    "neutered"          : "да",
+    "owner_name"        : "Мая Банкова",
     "address"           : "Ирв",
-    "protocols"         : [],
+    "protocols"         : [63],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Меланоза на ириса", "Обструкция на назолакрималния канал"]
   },
   {
     "pet_id"            : 34,
-    "pet_name"          : "",
-    "animalType"        : "котка",
-    "breed"             : "",
-    "sex"               : "",
-    "age"               : "",
-    "neutered"          : "",
-    "owner_name"        : "",
+    "pet_name"          : "Джаки",
+    "animalType"        : "куче",
+    "breed"             : "немски шпиц",
+    "sex"               : "мъжки",
+    "age"               : "5 год",
+    "neutered"          : "не",
+    "owner_name"        : "Кристиян Величков",
     "address"           : "Ирв",
-    "protocols"         : [],
+    "protocols"         : [64, 65, 66, 67],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Тарзорафия"]
   },
   {
     "pet_id"            : 35,
-    "pet_name"          : "",
-    "animalType"        : "котка",
-    "breed"             : "",
-    "sex"               : "",
-    "age"               : "",
-    "neutered"          : "",
-    "owner_name"        : "",
+    "pet_name"          : "Шарлота",
+    "animalType"        : "куче",
+    "breed"             : "джак ръсел",
+    "sex"               : "женски",
+    "age"               : "3 години",
+    "neutered"          : "да",
+    "owner_name"        : "Алексей Илин",
     "address"           : "Ирв",
-    "protocols"         : [],
+    "protocols"         : [68],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Чуждо тяло в окото"]
   },
   {
     "pet_id"            : 36,
-    "pet_name"          : "",
-    "animalType"        : "котка",
-    "breed"             : "",
-    "sex"               : "",
-    "age"               : "",
-    "neutered"          : "",
-    "owner_name"        : "",
+    "pet_name"          : "Лея",
+    "animalType"        : "куче",
+    "breed"             : "болонка",
+    "sex"               : "женски",
+    "age"               : "2 години",
+    "neutered"          : "не",
+    "owner_name"        : "Веселин Мечев",
     "address"           : "Ирв",
-    "protocols"         : [],
+    "protocols"         : [69],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Чуждо тяло в окото"]
   },
   {
     "pet_id"            : 37,
-    "pet_name"          : "",
-    "animalType"        : "котка",
-    "breed"             : "",
-    "sex"               : "",
-    "age"               : "",
+    "pet_name"          : "Дара",
+    "animalType"        : "куче",
+    "breed"             : "трицветно гонче",
+    "sex"               : "женски",
+    "age"               : "4 години",
     "neutered"          : "",
-    "owner_name"        : "",
+    "owner_name"        : "Лъчезар Попов",
     "address"           : "Ирв",
-    "protocols"         : [],
+    "protocols"         : [70],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Слепота", "Дирофилариоза"]
   },
   {
     "pet_id"            : 38,
-    "pet_name"          : "",
+    "pet_name"          : "Кити",
     "animalType"        : "котка",
     "breed"             : "",
     "sex"               : "",
-    "age"               : "",
+    "age"               : "1 месец",
     "neutered"          : "",
-    "owner_name"        : "",
+    "owner_name"        : "Мартина Брайкова",
     "address"           : "Ирв",
-    "protocols"         : [],
+    "protocols"         : [71],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Хемоза", "Язва на роговицата"]
   },
   {
     "pet_id"            : 39,
@@ -537,69 +537,69 @@
     "animalType"        : "котка",
     "breed"             : "",
     "sex"               : "",
-    "age"               : "",
+    "age"               : "5 год",
     "neutered"          : "",
-    "owner_name"        : "",
+    "owner_name"        : "Таня Лизева",
     "address"           : "Ирв",
-    "protocols"         : [],
+    "protocols"         : [72],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Чуждо тяло в окото"]
   },
   {
     "pet_id"            : 40,
-    "pet_name"          : "",
+    "pet_name"          : "Цецко",
     "animalType"        : "котка",
     "breed"             : "",
     "sex"               : "",
-    "age"               : "",
+    "age"               : "1 месец",
     "neutered"          : "",
-    "owner_name"        : "",
+    "owner_name"        : "Красимира Петрова",
     "address"           : "Ирв",
-    "protocols"         : [],
+    "protocols"         : [73],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["FHV-1 кератоконюнктивит"]
   },
   {
     "pet_id"            : 41,
-    "pet_name"          : "",
+    "pet_name"          : "Роузи",
     "animalType"        : "котка",
     "breed"             : "",
     "sex"               : "",
-    "age"               : "",
+    "age"               : "1 година",
     "neutered"          : "",
-    "owner_name"        : "",
+    "owner_name"        : "Емилия Димимтрова",
     "address"           : "Ирв",
-    "protocols"         : [],
+    "protocols"         : [74, 75, 76],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Херпесвироза"]
   },
   {
     "pet_id"            : 42,
-    "pet_name"          : "",
+    "pet_name"          : "Камуши",
     "animalType"        : "котка",
     "breed"             : "",
     "sex"               : "",
     "age"               : "",
     "neutered"          : "",
-    "owner_name"        : "",
+    "owner_name"        : "Снежана Дженкова",
     "address"           : "Ирв",
-    "protocols"         : [],
+    "protocols"         : [77],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Ентропиум"]
   },
   {
     "pet_id"            : 43,
-    "pet_name"          : "",
+    "pet_name"          : "Хапи",
     "animalType"        : "котка",
     "breed"             : "",
-    "sex"               : "",
-    "age"               : "",
-    "neutered"          : "",
-    "owner_name"        : "",
+    "sex"               : "мъжки",
+    "age"               : "8 години",
+    "neutered"          : "да",
+    "owner_name"        : "Габриела Старчева",
     "address"           : "Ирв",
-    "protocols"         : [],
+    "protocols"         : [78],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : ["Ретробулбарен абсцес"]
   },
   {
     "pet_id"            : 44,
@@ -613,7 +613,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 45,
@@ -627,7 +627,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 46,
@@ -641,7 +641,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 47,
@@ -655,7 +655,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 48,
@@ -669,7 +669,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 49,
@@ -683,7 +683,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 50,
@@ -697,7 +697,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 51,
@@ -711,7 +711,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 52,
@@ -725,7 +725,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 53,
@@ -739,7 +739,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 54,
@@ -753,7 +753,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 55,
@@ -767,7 +767,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 56,
@@ -781,7 +781,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 57,
@@ -795,7 +795,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 58,
@@ -809,7 +809,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 59,
@@ -823,7 +823,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 60,
@@ -837,7 +837,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 61,
@@ -851,7 +851,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 62,
@@ -865,7 +865,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 63,
@@ -879,7 +879,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 64,
@@ -893,7 +893,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 65,
@@ -907,7 +907,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 66,
@@ -921,7 +921,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 67,
@@ -935,7 +935,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 68,
@@ -949,7 +949,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 69,
@@ -963,7 +963,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 70,
@@ -977,7 +977,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 71,
@@ -991,7 +991,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 72,
@@ -1005,7 +1005,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 73,
@@ -1019,7 +1019,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 74,
@@ -1033,7 +1033,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 75,
@@ -1047,7 +1047,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 76,
@@ -1061,7 +1061,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 77,
@@ -1075,7 +1075,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 78,
@@ -1089,7 +1089,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 79,
@@ -1103,7 +1103,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 80,
@@ -1117,7 +1117,7 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   },
   {
     "pet_id"            : 81,
@@ -1131,6 +1131,6 @@
     "address"           : "Ирв",
     "protocols"         : [],
     "results"           : [],
-    "pets_diseases"     : []
+    "pets_diseases"     : [""]
   }
 ]
