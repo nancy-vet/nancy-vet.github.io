@@ -21,7 +21,16 @@ export class MedicationsPage implements OnInit {
   private activeFilter: string      = 'title';
 
   public ngOnInit(): void {
-    this.$collection = this.$dataService.$medicine().getAll();
+        this.loadMedications();
+  }
+
+  private loadMedications(): void {
+    this.$collection = this.$dataService
+      .$medicine()
+      .getAll()
+      .sort((a: any, b: any) => {
+        return (b.favouriteMedicaton ? 1 : 0) - (a.favouriteMedicaton ? 1 : 0);
+      });
   }
 
   /**
@@ -62,7 +71,7 @@ export class MedicationsPage implements OnInit {
    */
   private processGetItemCollection() {
 
-    this.$collection = this.$dataService.$medicine()
+    this.$collection = this.$dataService
                       .filterByCategory(this.$selectedCategories)
                       .get();
   }
@@ -73,7 +82,7 @@ export class MedicationsPage implements OnInit {
    */
   private processfilterItemCollection(filterValue: string) {
 
-    this.$collection = this.$dataService.$medicine()
+    this.$collection = this.$dataService
                       .filterByCategory(this.$selectedCategories)
                       .filterByTitle(filterValue)
                       // .filterByPrimary(this.activeFilter, filterValue)
