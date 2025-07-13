@@ -5,7 +5,7 @@
     "type"        : "blood",
     "animals"     : ["dogs", "cats"],
     "bodySystem"  : [""],
-    "isVisible"   : false,
+    "isVisible"   : true,
     "links": [
       { "title": "няма-линк", "link": "pdfs/@diseases/.pdf" }
     ],

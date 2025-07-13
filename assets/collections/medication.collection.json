@@ -6,6 +6,7 @@
     "activeSubstance": "маропитант",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -32,6 +33,7 @@
     "activeSubstance": "маропитант",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -59,6 +61,7 @@
     "activeSubstance": "маропитант",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -85,6 +88,7 @@
     "activeSubstance": "метоклопрамид",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -111,6 +115,7 @@
     "activeSubstance": "ондансетрон",
     "drugConcentration": 2,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -137,6 +142,7 @@
     "activeSubstance": "ондансетрон",
     "drugConcentration": 2,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -163,6 +169,7 @@
     "activeSubstance": "апоморфин",
     "drugConcentration": 3,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -190,6 +197,7 @@
     "activeSubstance": "ропинирол",
     "drugConcentration": 30,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "dogs": {
         "activeSubstanceDose": [
@@ -216,6 +224,7 @@
     "activeSubstance": "пантопразол",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_kg",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -242,6 +251,7 @@
     "activeSubstance": "пантопразол",
     "drugConcentration": 20,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -269,6 +279,7 @@
     "activeSubstance": "омепразол",
     "drugConcentration": 20,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -296,6 +307,7 @@
     "activeSubstance": "езомепразол",
     "drugConcentration": 40,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -321,6 +333,7 @@
     "activeSubstance": "фамотидин",
     "drugConcentration": 4,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -347,6 +360,7 @@
     "activeSubstance": "фамотидин",
     "drugConcentration": 20,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -373,6 +387,7 @@
     "activeSubstance": "сукралфат",
     "drugConcentration": 200,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -400,6 +415,7 @@
     "activeSubstance": "лоперамид",
     "drugConcentration": 2,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -434,6 +450,7 @@
     "activeSubstance": "итоприд",
     "drugConcentration": 50,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -460,6 +477,7 @@
     "activeSubstance": "лактулоза",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -486,6 +504,7 @@
     "activeSubstance": "лактулоза",
     "drugConcentration": 670,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -512,6 +531,7 @@
     "activeSubstance": "Люспи от семената на бял живовляк",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "mg_g",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -538,6 +558,7 @@
     "activeSubstance": "олигозахариди, фибри, aтапулгит",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -563,6 +584,7 @@
     "activeSubstance": "probiotic",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -588,6 +610,7 @@
     "activeSubstance": "Enterococcus faecium",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -621,6 +644,7 @@
     "activeSubstance": "probiotic, prebiotic",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -655,6 +679,7 @@
     "activeSubstance": "пробиотик, пребиотик, постбиотик, витамин Б12, бентонит",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -687,6 +712,7 @@
     "activeSubstance": "лактулоза, декстроза",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -712,6 +738,7 @@
     "activeSubstance": "пектин, декстроза, минерали",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -738,6 +765,7 @@
     "activeSubstance": "пребиотици, пробиотици",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -762,6 +790,7 @@
     "activeSubstance": "витамини, минерали, микроелементи",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -784,6 +813,7 @@
     "activeSubstance": "сукроза сулфат, алуминиев хидроксид",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -806,6 +836,7 @@
     "activeSubstance": "лайка, женско биле, джинджифил, бактерии",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -828,6 +859,7 @@
     "activeSubstance": "малц",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -851,6 +883,7 @@
     "activeSubstance": "малцова паста",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "cat": {
         "activeSubstanceDose": [
@@ -873,6 +906,7 @@
     "activeSubstance": "малцова паста",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "cat": {
         "activeSubstanceDose": [
@@ -896,6 +930,7 @@
     "activeSubstance": "активен въглен",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -922,6 +957,7 @@
     "activeSubstance": "урзодезоксихолева киселина",
     "drugConcentration": 250,
     "drugConcentrationDecorator": "mg_caps",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -949,6 +985,7 @@
     "activeSubstance": "адеметионин",
     "drugConcentration": 500,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -974,6 +1011,7 @@
     "activeSubstance": "адеметионин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -1000,6 +1038,7 @@
     "activeSubstance": "адеметионин, силибин, витамин Е, витамин Ц",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -1025,6 +1064,7 @@
     "activeSubstance": "силимарин",
     "drugConcentration": 110,
     "drugConcentrationDecorator": "mg",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -1060,6 +1100,7 @@
     "activeSubstance": "лактоза, силибин/фосфолипиди, соеви фибри, орнитин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -1085,6 +1126,7 @@
     "activeSubstance": "лактоза, силибин/фосфолипиди, соеви фибри, орнитин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -1110,6 +1152,7 @@
     "activeSubstance": "S-аденозилметионин, силимарин, орнитин, цинк, фосфолипиди",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -1139,6 +1182,7 @@
     "activeSubstance": "S-аденозилметионин, силимарин, орнитин, цинк, фосфолипиди",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -1161,6 +1205,7 @@
     "activeSubstance": "Atropa belladonna, Berberis vulgaris, Calcium carbonicum, Lycopodium clavatum, Matricaria recutita, Taraxacum officinalis, други",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -1183,6 +1228,7 @@
     "activeSubstance": "панкреатин",
     "drugConcentration": 0.1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -1208,6 +1254,7 @@
     "activeSubstance": "миртазапин",
     "drugConcentration": 0.1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -1241,6 +1288,7 @@
     "activeSubstance": "menbutone",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -1269,6 +1317,7 @@
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_ml",
     "activeSubstance": "буторфанол",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -1296,6 +1345,7 @@
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_ml",
     "activeSubstance": "буторфанол",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -1323,6 +1373,7 @@
     "drugConcentration": 4,
     "drugConcentrationDecorator": "mg_ml",
     "activeSubstance": "ацетилцистеин",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -1350,6 +1401,7 @@
     "drugConcentration"           : 0.4,
     "drugConcentrationDecorator"  : "mg_ml",
     "activeSubstance"             : "салбутамол",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -1377,6 +1429,7 @@
     "activeSubstance": "теофилин, етилендиамин",
     "drugConcentration": 24,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -1403,6 +1456,7 @@
     "activeSubstance": "теофилин",
     "drugConcentration": 300,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -1429,6 +1483,7 @@
     "drugConcentration": 2,
     "drugConcentrationDecorator": "mg_ml",
     "activeSubstance": "бромхексин",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -1455,6 +1510,7 @@
 
     "drugConcentrationDecorator": "same",
     "activeSubstance": "меласа от изомалтулоза, сорбитол",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -1480,6 +1536,7 @@
     "activeSubstance": "Силденафил",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -1506,6 +1563,7 @@
     "activeSubstance": "соталол",
     "drugConcentration": 80,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -1539,6 +1597,7 @@
     "activeSubstance": "амлодипин",
     "drugConcentration": 1.25,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "cat": {
         "activeSubstanceDose": [
@@ -1565,6 +1624,7 @@
     "activeSubstance": "клопидогрел",
     "drugConcentration": 75,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "cat": {
         "activeSubstanceDose": [
@@ -1590,6 +1650,7 @@
     "activeSubstance": "Фуроземид",
     "drugConcentration": 40,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -1616,6 +1677,7 @@
     "activeSubstance": "Фуроземид",
     "drugConcentration": 50,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -1643,6 +1705,7 @@
     "activeSubstance": "тораземид",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -1669,6 +1732,7 @@
     "activeSubstance": "тораземид",
     "drugConcentration": 4,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -1696,6 +1760,7 @@
     "activeSubstance": "беназеприл, спиронолактон",
     "drugConcentration": 2.5,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -1723,6 +1788,7 @@
     "activeSubstance": "беназеприл, спиронолактон",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -1750,6 +1816,7 @@
     "activeSubstance": "беназеприл, спиронолактон",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -1777,6 +1844,7 @@
     "activeSubstance": "пимобендан",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -1804,6 +1872,7 @@
     "activeSubstance": "пимобендан",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -1831,6 +1900,7 @@
     "activeSubstance": "пимобендан, беназеприл",
     "drugConcentration": 1.25,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -1859,6 +1929,7 @@
     "activeSubstance": "еналаприл",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -1884,6 +1955,7 @@
     "activeSubstance": "еналаприл, хидрохлоротиазид",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -1906,6 +1978,7 @@
     "activeSubstance": "манитол",
     "drugConcentration": 150,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -1932,6 +2005,7 @@
     "activeSubstance": "желязо, мед, витамин Б6, витамин Б9, витамин Б12, витамин Ц",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -1954,6 +2028,7 @@
     "activeSubstance": "Калциев карбонат, магнезиев карбонат, астрагал, хитозан, олигопептиди",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -1983,6 +2058,7 @@
     "activeSubstance": "лактоза, калциев карбонат, хитозан, протеини, влакнини, мазнини",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "cat": {
         "activeSubstanceDose": [
@@ -2005,6 +2081,7 @@
     "activeSubstance": "хитозан, кверцетин, червена боровинка, куркума",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -2034,6 +2111,7 @@
     "activeSubstance": "калциев карбонат, хитозан, витамин D3",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -2056,6 +2134,7 @@
     "activeSubstance": "калциев карбонат, ресвератрол, цинарин, EPA, DHA, др.",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -2078,6 +2157,7 @@
     "activeSubstance": "калцитриол",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -2113,6 +2193,7 @@
     "activeSubstance": "червена боровинка",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -2135,6 +2216,7 @@
     "activeSubstance": "червена боровинка, магданоз, глюкозамин, маточина",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "cat": {
         "activeSubstanceDose": [
@@ -2159,6 +2241,7 @@
     "activeSubstance": "червена боровинка, магданоз, глюкозамин, метионин, валериана, коприва, витамин Ц",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "cat": {
         "activeSubstanceDose": [
@@ -2181,6 +2264,7 @@
     "activeSubstance": "N-ацетил-D-глюкозамин, хибискус, зелен чай",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "cat": {
         "activeSubstanceDose": [
@@ -2203,6 +2287,7 @@
     "activeSubstance": "червена боровинка, магданоз, глюкозамин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "cat": {
         "activeSubstanceDose": [
@@ -2225,6 +2310,7 @@
     "activeSubstance": "-",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -2248,6 +2334,7 @@
     "activeSubstance": "малц, рибено масло, метионин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "cat": {
         "activeSubstanceDose": [
@@ -2273,6 +2360,7 @@
     "activeSubstance": "корен на ревен",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "cat": {
         "activeSubstanceDose": [
@@ -2305,6 +2393,7 @@
     "activeSubstance": "денаверин хидрохлорид",
     "drugConcentration": 40,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -2336,6 +2425,7 @@
     "activeSubstance": "мегестролов ацетат",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -2370,6 +2460,7 @@
     "activeSubstance": "Каберголин",
     "drugConcentration": 50,
     "drugConcentrationDecorator": "µg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -2396,6 +2487,7 @@
     "activeSubstance": "Каберголин",
     "drugConcentration": 0.5,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -2421,6 +2513,7 @@
     "activeSubstance": "Каберголин",
     "drugConcentration": 50,
     "drugConcentrationDecorator": "µg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -2447,6 +2540,7 @@
     "activeSubstance": "пролигестон",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -2480,6 +2574,7 @@
     "activeSubstance": "деслорелин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -2506,6 +2601,7 @@
     "activeSubstance": "осатерон",
     "drugConcentration": 1.875,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -2532,6 +2628,7 @@
     "activeSubstance": "осатерон",
     "drugConcentration": 3.75,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -2558,6 +2655,7 @@
     "activeSubstance": "осатерон",
     "drugConcentration": 7.5,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -2584,6 +2682,7 @@
     "activeSubstance": "осатерон",
     "drugConcentration": 15,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -2610,6 +2709,7 @@
     "activeSubstance": "фенилпропаноламин хидрохлорид",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -2635,6 +2735,7 @@
     "activeSubstance": "ефедринов хидрохлорид",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -2661,6 +2762,7 @@
     "activeSubstance": "ефедринов хидрохлорид",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -2687,6 +2789,7 @@
     "activeSubstance": "естриол",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -2712,6 +2815,7 @@
     "activeSubstance": "аглепристон",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -2738,6 +2842,7 @@
     "activeSubstance": "метадон",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -2772,6 +2877,7 @@
     "activeSubstance": "бупренорфин",
     "drugConcentration": 0.3,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -2799,6 +2905,7 @@
     "activeSubstance": "ацепромазин",
     "drugConcentration": 35,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -2826,6 +2933,7 @@
     "activeSubstance": "ацепромазин",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -2849,6 +2957,7 @@
     "activeSubstance": "ацепромазин",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -2875,6 +2984,7 @@
     "activeSubstance": "золазепам, тилетамин",
     "drugConcentration": 50,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -2910,6 +3020,7 @@
     "activeSubstance": "золазепам, тилетамин",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -2945,6 +3056,7 @@
     "activeSubstance": "флумазенил",
     "drugConcentration": 0.1,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -2970,6 +3082,7 @@
     "activeSubstance": "ксилазин",
     "drugConcentration": 0.1,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dpg": {
         "activeSubstanceDose": [
@@ -3003,6 +3116,7 @@
     "activeSubstance": "ксилазин",
     "drugConcentration": 20,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dpg": {
         "activeSubstanceDose": [
@@ -3036,6 +3150,7 @@
     "activeSubstance": "медетомидин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dpg": {
         "activeSubstanceDose": [
@@ -3069,6 +3184,7 @@
     "activeSubstance": "медетомидин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dpg": {
         "activeSubstanceDose": [
@@ -3102,6 +3218,7 @@
     "activeSubstance": "атипамезол",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -3135,6 +3252,7 @@
     "activeSubstance": "атипамезол",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -3168,6 +3286,7 @@
     "activeSubstance": "доксапрам",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -3203,6 +3322,7 @@
     "activeSubstance": "Фенобарбитал",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -3225,6 +3345,7 @@
     "activeSubstance": "Фенобарбитал",
     "drugConcentration": 60,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -3259,6 +3380,7 @@
     "activeSubstance": "диазепам",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -3286,6 +3408,7 @@
     "activeSubstance": "леветирацетам",
     "drugConcentration": 500,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -3320,6 +3443,7 @@
     "activeSubstance": "карбамазепин",
     "drugConcentration": 200,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -3345,6 +3469,7 @@
     "activeSubstance": "Пропофол",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -3371,6 +3496,7 @@
     "activeSubstance": "кетамин",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -3397,6 +3523,7 @@
     "activeSubstance": "дексмедетомидин",
     "drugConcentration": 0.1,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -3431,6 +3558,7 @@
     "activeSubstance": "амитриптилин",
     "drugConcentration": 25,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -3458,6 +3586,7 @@
     "activeSubstance": "бусколизин",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -3492,6 +3621,7 @@
     "activeSubstance": "лидокаин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -3518,6 +3648,7 @@
     "activeSubstance": "новокаин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -3543,6 +3674,7 @@
     "activeSubstance": "галантамин",
     "drugConcentration": 2.5,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -3569,6 +3701,7 @@
     "activeSubstance": "лайка, валериана, триптофан",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -3591,6 +3724,7 @@
     "activeSubstance": "витамин Б1, витамин Б6, витамин Б12",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -3613,6 +3747,7 @@
     "activeSubstance": "витамин Б1, витамин Б6, витамин Б12",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -3635,6 +3770,7 @@
     "activeSubstance": "витамин Б1, витамин Б6, витамин Б12",
     "drugConcentration": 40,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -3660,6 +3796,7 @@
     "activeSubstance": "витамин Б1, витамин Б2, витамин Б5, витамин Б6, витамин Б12",
     "drugConcentration": 40,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -3685,6 +3822,7 @@
     "activeSubstance": "витамин Б1, витамин Б2, витамин Б3, витамин Б6, витамин Б12, триптофан, Гинко билоба, женшен",
     "drugConcentration": 40,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -3710,6 +3848,7 @@
     "activeSubstance": "витамин Б1, витамин Б6, витамин Б12, рибено масло, екстракти, витамин А, селен, цинк",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -3735,6 +3874,7 @@
     "activeSubstance": "габапентин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -3772,6 +3912,7 @@
     "activeSubstance": "тобрамицин",
     "drugConcentration": 0,
     "drugConcentrationDecorator": "-",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -3799,6 +3940,7 @@
     "activeSubstance": "тобрамицин, дексаметазон",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "-",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -3826,6 +3968,7 @@
     "activeSubstance": "Тобрамицин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -3853,6 +3996,7 @@
     "activeSubstance": "Тобрамицин, дексаметазон",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -3880,6 +4024,7 @@
     "activeSubstance": "гентамицин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -3906,6 +4051,7 @@
     "activeSubstance": "гентамицин, бетаметазон",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "IU_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -3933,6 +4079,7 @@
     "activeSubstance": "гентамицин",
     "drugConcentration": 3,
     "drugConcentrationDecorator": "mg_g",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -3959,6 +4106,7 @@
     "activeSubstance": "офлоксацин",
     "drugConcentration": 3,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -3985,6 +4133,7 @@
     "activeSubstance": "ципрофлоксацин",
     "drugConcentration": 3,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -4011,6 +4160,7 @@
     "activeSubstance": "хлорамфеникол, дексаметазон",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "-",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -4037,6 +4187,7 @@
     "activeSubstance": "хлорамфеникол (20 мг/г), витамин А",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4062,6 +4213,7 @@
     "activeSubstance": "карбомер",
     "drugConcentration": 2.5,
     "drugConcentrationDecorator": "mg_g",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -4087,6 +4239,7 @@
     "activeSubstance": "проксиметакаин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4112,6 +4265,7 @@
     "activeSubstance": "декспантенол",
     "drugConcentration": 50,
     "drugConcentrationDecorator": "mg_g",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -4137,6 +4291,7 @@
     "activeSubstance": "ацикловир",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4163,6 +4318,7 @@
     "activeSubstance": "глюкоза, витамин Б1, витамин Б12, инсулин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4189,6 +4345,7 @@
     "activeSubstance": "тимолол",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4215,6 +4372,7 @@
     "activeSubstance": "дексаметазон",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4240,6 +4398,7 @@
     "activeSubstance": "диклофенак натрий",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4265,6 +4424,7 @@
     "activeSubstance": "EDTA, трометамин, Trizma хидрохлорид",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4287,6 +4447,7 @@
     "activeSubstance": "хлорхексидин, TrisEDTA",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4309,6 +4470,7 @@
     "activeSubstance": "хлорхексидин, TrisEDTA",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4332,6 +4494,7 @@
     "activeSubstance": "миконазол, полимиксин Б, преднизолон",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4359,6 +4522,7 @@
     "activeSubstance": "миконазол, поломиксин Б, преднизолон",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4386,6 +4550,7 @@
     "activeSubstance": "клотримазол, марбофлоксацин, дексаметазон",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4413,6 +4578,7 @@
     "activeSubstance": "клотримазол, марбофлоксацин, дексаметазон",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4440,6 +4606,7 @@
     "activeSubstance": "кетоконазол, марбофлоксацин, гентамицин, преднизолон",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4467,6 +4634,7 @@
     "activeSubstance": "тербинафин, флорфеникол, бетаметазон",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -4492,6 +4660,7 @@
     "activeSubstance": "офлоксацин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4517,6 +4686,7 @@
     "activeSubstance": "нитрофурал, тетракаинов хидрохлорид, феназон",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4542,6 +4712,7 @@
     "activeSubstance": "екстракт отрова от тарантула",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -4576,6 +4747,7 @@
     "activeSubstance": "бетаметазон",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "mg_g",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4602,6 +4774,7 @@
     "activeSubstance": "бетаметазон, клотримазол, гентамицин",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_g",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4629,6 +4802,7 @@
     "activeSubstance": "бетаметазон, клотримазол, гентамицин",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_g",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4656,6 +4830,7 @@
     "activeSubstance": "миконазол, хидрокортизон",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4682,6 +4857,7 @@
     "activeSubstance": "енилконазол",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "IU_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4704,6 +4880,7 @@
     "activeSubstance": "енилконазол",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "IU_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4726,6 +4903,7 @@
     "activeSubstance": "оклацитиниб",
     "drugConcentration": 16,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4752,6 +4930,7 @@
     "activeSubstance": "локиветмаб",
     "drugConcentration": 16,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -4777,6 +4956,7 @@
     "activeSubstance": "-",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "-",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4803,6 +4983,7 @@
     "activeSubstance": "ензими, витамини, папаин, химотрипсин, трипсин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "-",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4825,6 +5006,7 @@
     "activeSubstance": "неомицин, преднизолон",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "-",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4850,6 +5032,7 @@
     "activeSubstance": "рибено масло, цинк, витамин Б1, витамин Б2, витамин Б6",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "-",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4872,6 +5055,7 @@
     "activeSubstance": "био-сяра, бензоил пероксид, салицилова киселина",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "-",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4894,6 +5078,7 @@
     "activeSubstance": "амоксицилин",
     "drugConcentration": 150,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4920,6 +5105,7 @@
     "activeSubstance": "амоксицилин, клавуланова киселина",
     "drugConcentration": 140,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4946,6 +5132,7 @@
     "activeSubstance": "амоксицилин, клавуланова киселина",
     "drugConcentration": 50,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4972,6 +5159,7 @@
     "activeSubstance": "амоксицилин, клавуланова киселина",
     "drugConcentration": 250,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -4998,6 +5186,7 @@
     "activeSubstance": "амоксицилин, клавуланова киселина",
     "drugConcentration": 1000,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -5024,6 +5213,7 @@
     "activeSubstance": "амоксицилин, клавуланова киселина",
     "drugConcentration": 250,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5049,6 +5239,7 @@
     "activeSubstance": "амоксицилин, клавуланова киселина",
     "drugConcentration": 875,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5074,6 +5265,7 @@
     "activeSubstance": "амоксицилин, клавуланова киселина",
     "drugConcentration": 500,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5099,6 +5291,7 @@
     "activeSubstance": "амоксицилин, клавуланова киселина",
     "drugConcentration": 50,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5125,6 +5318,7 @@
     "activeSubstance": "амоксицилин, клавуланова киселина",
     "drugConcentration": 62.5,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5151,6 +5345,7 @@
     "activeSubstance": "амоксицилин, клавуланова киселина",
     "drugConcentration": 250,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5177,6 +5372,7 @@
     "activeSubstance": "амоксицилин, клавуланова киселина",
     "drugConcentration": 500,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5203,6 +5399,7 @@
     "activeSubstance": "амоксицилин 150 мг/мл, гентамицин 40 мг/мл",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5230,6 +5427,7 @@
     "activeSubstance": "ампицилин (1000 мг), сулбактам (500 мг)",
     "drugConcentration": 75,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5257,6 +5455,7 @@
     "activeSubstance": "пеницилин Ж, бензилпеницилин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5284,6 +5483,7 @@
     "activeSubstance": "цефалексин",
     "drugConcentration": 1000,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5311,6 +5511,7 @@
     "activeSubstance": "цефалексин",
     "drugConcentration": 500,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5337,6 +5538,7 @@
     "activeSubstance": "цефалексин",
     "drugConcentration": 1000,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5363,6 +5565,7 @@
     "activeSubstance": "цефтриаксон",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "-",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5389,6 +5592,7 @@
     "activeSubstance": "цефтриаксон",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "-",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5416,6 +5620,7 @@
     "activeSubstance": "цефтриаксон",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5442,6 +5647,7 @@
     "activeSubstance": "цефтриаксон",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5468,6 +5674,7 @@
     "activeSubstance": "цефподоксим",
     "drugConcentration": 8,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -5502,6 +5709,7 @@
     "activeSubstance": "гентамицин",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -5529,6 +5737,7 @@
     "activeSubstance": "Гентамицин",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5556,6 +5765,7 @@
     "activeSubstance": "Гентамицин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5582,6 +5792,7 @@
     "activeSubstance": "прокаин бензилпеницилин, дихидрострептомицин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -5611,6 +5822,7 @@
     "activeSubstance": "енрофлоксацин",
     "drugConcentration": 50,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5637,6 +5849,7 @@
     "activeSubstance": "енрофлоксацин",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5663,6 +5876,7 @@
     "activeSubstance": "енрофлоксацин",
     "drugConcentration": 50,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5689,6 +5903,7 @@
     "activeSubstance": "енрофлоксацин",
     "drugConcentration": 15,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5715,6 +5930,7 @@
     "activeSubstance": "марбофлоксацин",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -5741,6 +5957,7 @@
     "activeSubstance": "марбофлоксацин",
     "drugConcentration": 20,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -5767,6 +5984,7 @@
     "activeSubstance": "Ципрофлоксацин",
     "drugConcentration": 500,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5793,6 +6011,7 @@
     "activeSubstance": "прадофлоксацин",
     "drugConcentration": 25,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "cat": {
         "activeSubstanceDose": [
@@ -5818,6 +6037,7 @@
     "activeSubstance": "прадофлоксацин",
     "drugConcentration": 60,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -5843,6 +6063,7 @@
     "activeSubstance": "левофлоксацин",
     "drugConcentration": 500,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5868,6 +6089,7 @@
     "activeSubstance": "доксициклин",
     "drugConcentration": 20,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5894,6 +6116,7 @@
     "activeSubstance": "доксициклин",
     "drugConcentration": 400,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5920,6 +6143,7 @@
     "activeSubstance": "окситетрациклин",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -5946,6 +6170,7 @@
     "activeSubstance": "тетрациклин, неомицин, преднизолон, химотрипсин, трипсин, папаин",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "IU_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -5968,6 +6193,7 @@
     "activeSubstance": "сулфаметоксазол, триметоприм",
     "drugConcentration": 48,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -6005,6 +6231,7 @@
     "activeSubstance": "сулфаметоксазол, триметоприм",
     "drugConcentration": 48,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -6042,6 +6269,7 @@
     "activeSubstance": "сулфаметоксазол, триметоприм",
     "drugConcentration": 480,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -6079,6 +6307,7 @@
     "activeSubstance": "сулфаметоксазол, триметоприм",
     "drugConcentration": 480,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -6116,6 +6345,7 @@
     "activeSubstance": "сулфаметоксазол, триметоприм",
     "drugConcentration": 30,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -6152,6 +6382,7 @@
     "activeSubstance": "сулфаметоксазол, триметоприм",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -6187,6 +6418,7 @@
     "activeSubstance": "сулфадоксин (200 мг), триметоприм (40 мг)",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -6212,6 +6444,7 @@
     "activeSubstance": "спектиномицин (100 мг), линкомицин (50 мг)",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -6238,6 +6471,7 @@
     "activeSubstance": "спектиномицин (100 мг), линкомицин (50 мг)",
     "drugConcentration": 50,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -6264,6 +6498,7 @@
     "activeSubstance": "линкомицин",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -6291,6 +6526,7 @@
     "activeSubstance": "клиндамицин",
     "drugConcentration": 25,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -6321,6 +6557,7 @@
     "activeSubstance": "клиндамицин",
     "drugConcentration": 150,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -6351,6 +6588,7 @@
     "activeSubstance": "клиндамицин",
     "drugConcentration": 150,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -6381,6 +6619,7 @@
     "activeSubstance": "азитромицин",
     "drugConcentration": 250,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -6413,6 +6652,7 @@
     "activeSubstance": "азитромицин",
     "drugConcentration": 40,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -6446,6 +6686,7 @@
     "activeSubstance": "азитромицин",
     "drugConcentration": 20,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -6479,6 +6720,7 @@
     "activeSubstance": "азитромицин",
     "drugConcentration": 250,
     "drugConcentrationDecorator": "mg_caps",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -6506,6 +6748,7 @@
     "activeSubstance": "кларитромицин",
     "drugConcentration": 50,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -6533,6 +6776,7 @@
     "activeSubstance": "тилозин",
     "drugConcentration": 20,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -6559,6 +6803,7 @@
     "activeSubstance": "метронидазол",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -6586,6 +6831,7 @@
     "activeSubstance": "метронидазол",
     "drugConcentration": 125,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -6612,6 +6858,7 @@
     "activeSubstance": "метронидазол",
     "drugConcentration": 250,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -6638,6 +6885,7 @@
     "activeSubstance": "метронидазол, спирамицин",
     "drugConcentration": 125,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -6664,6 +6912,7 @@
     "activeSubstance": "метронидазол, спирамицин",
     "drugConcentration": 125,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -6690,6 +6939,7 @@
     "activeSubstance": "метронидазол",
     "drugConcentration": 750,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -6716,6 +6966,7 @@
     "activeSubstance": "метронидазол",
     "drugConcentration": 500,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -6742,6 +6993,7 @@
     "activeSubstance": "флуконазол",
     "drugConcentration": 150,
     "drugConcentrationDecorator": "mg_caps",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -6768,6 +7020,7 @@
     "activeSubstance": "флуконазол",
     "drugConcentration": 20,
     "drugConcentrationDecorator": "mg_caps",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -6794,6 +7047,7 @@
     "activeSubstance": "тербинафин",
     "drugConcentration": 250,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -6823,6 +7077,7 @@
     "activeSubstance": "клотримазол",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_g",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -6850,6 +7105,7 @@
     "activeSubstance": "толтразурил",
     "drugConcentration": 50,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -6883,6 +7139,7 @@
     "activeSubstance": "толтразурил",
     "drugConcentration": 50,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -6916,6 +7173,7 @@
     "activeSubstance": "толтразурил",
     "drugConcentration": 25,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -6949,6 +7207,7 @@
     "activeSubstance": "емодепсид, толтразурил",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -6976,6 +7235,7 @@
     "activeSubstance": "имидокарб",
     "drugConcentration": 120,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -7002,6 +7262,7 @@
     "activeSubstance": "имидокарб",
     "drugConcentration": 120,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -7034,6 +7295,7 @@
     "activeSubstance": "ивермектин",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "cat": {
         "activeSubstanceDose": [
@@ -7068,6 +7330,7 @@
     "activeSubstance": "ивермектин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -7093,6 +7356,7 @@
     "activeSubstance": "ивермектин",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -7120,6 +7384,7 @@
     "activeSubstance": "меларзомин",
     "drugConcentration": 25,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -7146,6 +7411,7 @@
     "activeSubstance": "диминазен, вит. Б12, антипирин",
     "drugConcentration": 75,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -7173,6 +7439,7 @@
     "activeSubstance": "фенбендазол",
     "drugConcentration": 187.5,
     "drugConcentrationDecorator": "mg_g",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -7206,6 +7473,7 @@
     "activeSubstance": "окситоцин",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "IU_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -7241,6 +7509,7 @@
     "activeSubstance": "трилостан",
     "drugConcentration": 60,
     "drugConcentrationDecorator": "mg_caps",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -7267,6 +7536,7 @@
     "activeSubstance": "левотироксин",
     "drugConcentration": 600,
     "drugConcentrationDecorator": "µg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -7294,6 +7564,7 @@
     "activeSubstance": "левотироксин",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "µg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -7320,6 +7591,7 @@
     "activeSubstance": "тиамазол (още метимазол)",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "cat": {
         "activeSubstanceDose": [
@@ -7346,6 +7618,7 @@
     "activeSubstance": "тиамазол (още метимазол)",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "cat": {
         "activeSubstanceDose": [
@@ -7372,6 +7645,7 @@
     "activeSubstance": "епоетин алфа",
     "drugConcentration": 4000,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -7398,6 +7672,7 @@
     "activeSubstance": "инсулин човешки",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -7424,6 +7699,7 @@
     "activeSubstance": "инсулин човешки",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -7450,6 +7726,7 @@
     "activeSubstance": "инсулин човешки",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -7476,6 +7753,7 @@
     "activeSubstance": "инсулин гларжин",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -7502,6 +7780,7 @@
     "activeSubstance": "инсулин свински",
     "drugConcentration": 40,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -7528,6 +7807,7 @@
     "activeSubstance": "тетракосактид",
     "drugConcentration": 0.25,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -7556,6 +7836,7 @@
     "activeSubstance": "преднизолон (7.5 мг), дексаметазон (2.5 мг)",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -7590,6 +7871,7 @@
     "activeSubstance": "преднизолон",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -7624,6 +7906,7 @@
     "activeSubstance": "преднизолон",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -7646,6 +7929,7 @@
     "activeSubstance": "преднизолон",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -7672,6 +7956,7 @@
     "activeSubstance": "дексаметазон",
     "drugConcentration": 3,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -7699,6 +7984,7 @@
     "activeSubstance": "дексаметазон",
     "drugConcentration": 2,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -7726,6 +8012,7 @@
     "activeSubstance": "дексаметазон",
     "drugConcentration": 2,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -7752,6 +8039,7 @@
     "activeSubstance": "дексаметазон",
     "drugConcentration": 4,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -7786,6 +8074,7 @@
     "activeSubstance": "дексаметазон",
     "drugConcentration": 2,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -7820,6 +8109,7 @@
     "activeSubstance": "дексаметазон",
     "drugConcentration": 4,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -7847,6 +8137,7 @@
     "activeSubstance": "дексаметазон",
     "drugConcentration": 4,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -7874,6 +8165,7 @@
     "activeSubstance": "кетопрофен",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -7901,6 +8193,7 @@
     "activeSubstance": "мелоксикам",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -7927,6 +8220,7 @@
     "activeSubstance": "мелоксикам",
     "drugConcentration": 1.5,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -7953,6 +8247,7 @@
     "activeSubstance": "мелоксикам",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -7979,6 +8274,7 @@
     "activeSubstance": "мелоксикам",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -8005,6 +8301,7 @@
     "activeSubstance": "мелоксикам",
     "drugConcentration": 7.5,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -8031,6 +8328,7 @@
     "activeSubstance": "мелоксикам",
     "drugConcentration": 15,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -8057,6 +8355,7 @@
     "activeSubstance": "мелоксикам",
     "drugConcentration": 15,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -8083,6 +8382,7 @@
     "activeSubstance": "мелоксикам",
     "drugConcentration": 1.5,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -8109,6 +8409,7 @@
     "activeSubstance": "мелоксикам",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -8135,6 +8436,7 @@
     "activeSubstance": "фирококсиб",
     "drugConcentration": 57,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -8161,6 +8463,7 @@
     "activeSubstance": "цимикоксиб (cimicoxib)",
     "drugConcentration": 30,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -8186,6 +8489,7 @@
     "activeSubstance": "метилпреднизолон",
     "drugConcentration": 6.31,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -8213,6 +8517,7 @@
     "activeSubstance": "метилпреднизолон",
     "drugConcentration": 40,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -8240,6 +8545,7 @@
     "activeSubstance": "метамизол натрий",
     "drugConcentration": 300,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -8272,6 +8578,7 @@
     "activeSubstance": "метамизол натрий",
     "drugConcentration": 300,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -8304,6 +8611,7 @@
     "activeSubstance": "метамизол натрий, хиосцин",
     "drugConcentration": 500,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -8336,6 +8644,7 @@
     "activeSubstance": "дифенхидрамин",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -8362,6 +8671,7 @@
     "activeSubstance": "дифенхидрамин",
     "drugConcentration": 50,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -8388,6 +8698,7 @@
     "activeSubstance": "мавакоксиб",
     "drugConcentration": 75,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -8413,6 +8724,7 @@
     "activeSubstance": "моноклонални антитела",
     "drugConcentration": 15,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -8444,6 +8756,7 @@
     "activeSubstance": "витекс, глухарче, магданоз, кестен",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -8466,6 +8779,7 @@
     "activeSubstance": "витекс, глухарче, магданоз, кестен",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -8488,6 +8802,7 @@
     "activeSubstance": "мултивитамини",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "cat": {
         "activeSubstanceDose": [
@@ -8517,6 +8832,7 @@
     "activeSubstance": "хондроитин, глюкозамин, хиалурат, L-карнитин, Harpagophytum procumbens, авокадо, соя, Витамин C, манган",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -8546,6 +8862,7 @@
     "activeSubstance": "хондроитин, глюкозамин, хиалурат",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "cat": {
         "activeSubstanceDose": [
@@ -8568,6 +8885,7 @@
     "activeSubstance": "хондроитин, хитозан, епигалокатехин галате, селенометионин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -8590,6 +8908,7 @@
     "activeSubstance": "хидрокси-метилбутиратна киселина (HMB), Бета-глюкан",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "cat": {
         "activeSubstanceDose": [
@@ -8612,6 +8931,7 @@
     "activeSubstance": "глюкозамин, масло от касис",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "cat": {
         "activeSubstanceDose": [
@@ -8634,6 +8954,7 @@
     "activeSubstance": "атропин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -8660,6 +8981,7 @@
     "activeSubstance": "желязо, мед, витамини група Б, витамин А, мед, селен, цинк, манган, холин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -8686,6 +9008,7 @@
     "activeSubstance": "желязо",
     "drugConcentration": 200,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -8721,6 +9044,7 @@
     "activeSubstance": "-",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -8743,6 +9067,7 @@
     "activeSubstance": "polymethylsiloxane polyhydrate (полиметилсилоксан полихидрат)",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -8765,6 +9090,7 @@
     "activeSubstance": "филграстим",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -8791,6 +9117,7 @@
     "activeSubstance": "клорамбусил",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -8816,6 +9143,7 @@
     "activeSubstance": "витамин ц",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -8851,6 +9179,7 @@
     "activeSubstance": "витамин Ц",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -8886,6 +9215,7 @@
     "activeSubstance": "витамин Б1, витамин Б2, витамин Б3, витамин Б4, витамин Б5, витамин Б6, витамин Б7, витамин Б12",
     "drugConcentration": 0,
     "drugConcentrationDecorator": "-",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -8912,6 +9242,7 @@
     "activeSubstance": "бетаин, аргинин, орнитин, цитрулин, сорбитол, метакрезол",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -8935,6 +9266,7 @@
     "activeSubstance": "бутафосфан, вит. Б12",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -8970,6 +9302,7 @@
     "activeSubstance": "тиамин",
     "drugConcentration": 20,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -9005,6 +9338,7 @@
     "activeSubstance": "цианокобаламин",
     "drugConcentration": 0.1,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -9040,6 +9374,7 @@
     "activeSubstance": "витамин А (15 000 I.U.), Д3 (20 000 I.U.), Е (10 mg)",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -9075,6 +9410,7 @@
     "activeSubstance": "витамин А (50 000 I.U.), Д3 (25 000 I.U.), Е (20 mg)",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -9102,6 +9438,7 @@
     "activeSubstance": "калций",
     "drugConcentration": 200,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -9137,6 +9474,7 @@
     "activeSubstance": "калций, фосфор, витамин Д3, флуор",
     "drugConcentration": 200,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -9162,6 +9500,7 @@
     "activeSubstance": "витамин К",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -9194,6 +9533,7 @@
     "activeSubstance": "витамин К3",
     "drugConcentration": 100,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -9221,6 +9561,7 @@
     "activeSubstance": "дротаверин",
     "drugConcentration": 40,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -9247,6 +9588,7 @@
     "activeSubstance": "хлоропирамин",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -9272,6 +9614,7 @@
     "activeSubstance": "етамзилат",
     "drugConcentration": 125,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -9299,6 +9642,7 @@
     "activeSubstance": "embutramide, mebezonium iodide, tetracaine, dimethylformamide",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -9322,6 +9666,7 @@
     "activeSubstance": "пентобарбитал",
     "drugConcentration": 500,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -9347,6 +9692,7 @@
     "activeSubstance": "амониев хлорид",
     "drugConcentration": 20,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -9372,6 +9718,7 @@
     "activeSubstance": "глюкоза",
     "drugConcentration": 400,
     "drugConcentrationDecorator": "mg_ml",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -9397,6 +9744,7 @@
     "activeSubstance": "флуорокортизон",
     "drugConcentration": 0.1,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -9419,6 +9767,7 @@
     "activeSubstance": "",
     "drugConcentration": 0,
     "drugConcentrationDecorator": "-",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -9445,6 +9794,7 @@
     "activeSubstance": "L-карнитин, витамин Е, селен, коензим Q10, таурин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -9467,6 +9817,7 @@
     "activeSubstance": "лизин, Enterococcus faecium",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "cat": {
         "activeSubstanceDose": [
@@ -9493,6 +9844,7 @@
     "activeSubstance": "лизин, масло от треска",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "cat": {
         "activeSubstanceDose": [
@@ -9519,6 +9871,7 @@
     "activeSubstance": "-",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -9541,6 +9894,7 @@
     "activeSubstance": "омега интерферон",
     "drugConcentration": 10,
     "drugConcentrationDecorator": "MU_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -9574,6 +9928,7 @@
     "activeSubstance": "омега интерферон",
     "drugConcentration": 5,
     "drugConcentrationDecorator": "MU_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -9607,6 +9962,7 @@
     "activeSubstance": "имунофан",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -9640,6 +9996,7 @@
     "activeSubstance": "-",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "mg_tabl",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -9665,6 +10022,7 @@
     "activeSubstance": "етанол",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -9690,6 +10048,7 @@
     "activeSubstance": "фомепизол",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "dog": {
         "activeSubstanceDose": [
@@ -9721,6 +10080,7 @@
     "activeSubstance": "gs-441524",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "cat": {
         "activeSubstanceDose": [
@@ -9746,6 +10106,7 @@
     "activeSubstance": "Калциев хлорид, магнезиев хлорид, витамин С, аргинин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -9771,6 +10132,7 @@
     "activeSubstance": "акай бери, фазеоламин, Л-карнитин, зелено кафе, холин, орнитин, др.",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -9796,6 +10158,7 @@
     "activeSubstance": "Калциев хлорид, магнезиев хлорид, витамин С, аргинин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -9821,6 +10184,7 @@
     "activeSubstance": "евкалипт, мента, фумарова киселина, витамин C, др.",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -9846,6 +10210,7 @@
     "activeSubstance": "гинко билоба, карнитин, α-липоева киселина, витамин E",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -9871,6 +10236,7 @@
     "activeSubstance": "пирей, малтодекстрин, аргинин",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -9896,6 +10262,7 @@
     "activeSubstance": "Алое Вера, Опунция Фикус, маслиново масло, витамини, др.",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -9921,6 +10288,7 @@
     "activeSubstance": "",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -9946,6 +10314,7 @@
     "activeSubstance": "червена боровинка, витамини C, B6, B9 и B12, Л-карнитин, др.",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -9971,6 +10340,7 @@
     "activeSubstance": "активиран екстракт от зелен чай (мощен антиоксидант), ябълчна киселина, витамини, др.",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -9996,6 +10366,7 @@
     "activeSubstance": "",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -10021,6 +10392,7 @@
     "activeSubstance": "окситетрациклин, циперметрин, рициново масло",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -10046,6 +10418,7 @@
     "activeSubstance": "калиев хлорид",
     "drugConcentration": 14.9,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": true,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -10072,6 +10445,7 @@
     "activeSubstance": "натриев хидрогенкарбонат",
     "drugConcentration": 8.4,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
@@ -10098,6 +10472,7 @@
     "activeSubstance": "активно вещество",
     "drugConcentration": 1,
     "drugConcentrationDecorator": "same",
+    "favouriteMedicaton": false,
     "application": {
       "any": {
         "activeSubstanceDose": [
