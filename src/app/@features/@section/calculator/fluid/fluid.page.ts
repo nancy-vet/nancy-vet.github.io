@@ -27,11 +27,14 @@ export class FluidPage {
   };
 
   public $uiProperty = {
-    dailyDose    : 0,
-    hourlyDose12 : '0',
-    hourlyDose24 : '0',
-    dehydration  : 0,
-    isVisbible   : false
+    dailyDose               : 0,
+    hourlyDose12            : '0',
+    hourlyDose24            : '0',
+    rehydrationMaintenance  : '0',
+    rehydrationSixHours     : '0',
+    rehydrationTwelveHours  : '0',
+    dehydration             : 0,
+    isVisbible              : false
   }
 
   public liquidValueCollection = [

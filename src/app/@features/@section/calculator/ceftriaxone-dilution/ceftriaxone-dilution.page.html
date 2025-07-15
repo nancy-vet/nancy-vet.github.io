@@ -123,10 +123,14 @@
     </ion-row>
   </ion-grid>
 
+  <ion-grid>
+    При промяна на въведените данни, натисни отново бутона "Изчисли"!
+  </ion-grid>
+
 
   @if($formProperty.injectionRoute === 'IV') {
     <div class="mt20 ml8 mr8" style="padding: 5px;">
-      Добавям <strong>5 мл</strong> физиологичен р-р в Цефтриаксон прах.
+      Добавям <strong>5 мл</strong> физиологичен р-р в Цефтриаксон {{this.$formProperty.ceftriaxoneConcentration}} г прах.
     </div>
     <div class="ml8">
       Концентрацията на този разтвор става: <strong>{{$ui.concentrationResultIv}}</strong> мг/мл.
@@ -148,7 +152,7 @@
 
 @if($formProperty.injectionRoute === 'IM') {
   <div class="mt20 ml8 mr8" style="padding: 5px;">
-    Добавям <strong>4 мл</strong> лидокаин инж. 1%-ов р-р в Цефтриаксон прах.
+    Добавям <strong>4 мл</strong> лидокаин инж. 1%-ов р-р в Цефтриаксон {{this.$formProperty.ceftriaxoneConcentration}} г прах.
   </div>
   <div class="ml8">
     Концентрацията на този разтвор става: <strong>{{$ui.concentrationResultIm}}</strong> мг/мл.

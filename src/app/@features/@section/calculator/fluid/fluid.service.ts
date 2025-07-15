@@ -18,17 +18,23 @@ export class FluidService {
             this.calculateLiquidIntakePerHour($formProperty);
   }
 
-  /**
-   * @author Mihail Petrov
-   * @param $formProperty
-   * @returns
-   */
-  public calculateHourlyDose12($formProperty: any) {
-    return (this.calculateDailyDose($formProperty) / 12).toFixed(3);
+
+  public calculateRehydrationMaintenance($formProperty: any) {
+    return  this.calculateMaintanence($formProperty)   +
+            this.calculateOngoingLosses($formProperty) -
+            this.calculateLiquidIntakePerHour($formProperty);
+  }
+
+  public calculateRehydrationSixHours($formProperty: any) {
+    return ((this.calculateRehydrationMaintenance($formProperty) / 4) + this.calculateDehydration($formProperty)).toFixed(1);
+  }
+
+    public calculateRehydrationTwelveHours($formProperty: any) {
+    return ((this.calculateRehydrationMaintenance($formProperty) / 2) + this.calculateDehydration($formProperty)).toFixed(1);
   }
 
   public calculateHourlyDose24($formProperty: any) {
-    return (this.calculateDailyDose($formProperty) / 24).toFixed(3);
+    return (this.calculateDailyDose($formProperty) / 24).toFixed(1);
   }
 
   /**
@@ -50,7 +56,7 @@ export class FluidService {
                         $formProperty.vomitValue +
                         $formProperty.diariaValue;
 
-    const insensible =  $formProperty.patientWeight * 20;
+    const insensible =  ($formProperty.patientWeight * 20)/4;
 
     return sensible + insensible;
   }
