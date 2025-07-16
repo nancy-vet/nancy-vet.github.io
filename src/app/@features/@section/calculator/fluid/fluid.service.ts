@@ -26,11 +26,11 @@ export class FluidService {
   }
 
   public calculateRehydrationSixHours($formProperty: any) {
-    return ((this.calculateRehydrationMaintenance($formProperty) / 4) + this.calculateDehydration($formProperty)).toFixed(1);
+    return (((this.calculateRehydrationMaintenance($formProperty) / 4) + this.calculateDehydration($formProperty))/6).toFixed(1);
   }
 
     public calculateRehydrationTwelveHours($formProperty: any) {
-    return ((this.calculateRehydrationMaintenance($formProperty) / 2) + this.calculateDehydration($formProperty)).toFixed(1);
+    return (((this.calculateRehydrationMaintenance($formProperty) / 2) + this.calculateDehydration($formProperty))/12).toFixed(1);
   }
 
   public calculateHourlyDose24($formProperty: any) {
@@ -66,7 +66,7 @@ export class FluidService {
    * @returns
    */
   private calculateDehydration($formProperty: any) {
-    return $formProperty.dehydrationValue * $formProperty.patientWeight * 1000;
+    return Number(($formProperty.dehydrationValue * $formProperty.patientWeight * 1000).toFixed(1));
   }
 
   public calculateDehydration2($formProperty: any) {
